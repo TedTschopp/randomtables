@@ -8,9 +8,11 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generator function
 
-  function generate_text (type) {
-    var list; if (list = gen_data[type]) {
-      var string; if (string = select_from(list)) {
+  function generate_text (type_of_list_to_generate) {
+    var list_to_generate; 
+    if (list_to_generate = gen_data[type_of_list_to_generate]) {
+      var string; 
+      if (string = select_from(list_to_generate)) {
         return expand_tokens(string);
       }
     }
@@ -20,11 +22,11 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generate multiple
 
-  function generate_list (type, n_of) {
+  function generate_list (type_of_list_to_generate, number_to_generate) {
     var list = [];
 
-    var i; for (i = 0; i < n_of; i++) {
-      list.push(generate_text(type));
+    var i; for (i = 0; i < number_to_generate; i++) {
+      list.push(generate_text(type_of_list_to_generate));
     }
     return list;
   }
