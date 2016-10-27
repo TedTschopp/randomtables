@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		<form method="get" onsubmit="return false;">
-			<p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
 			<p><input type="button" value="Generate" onclick="more_random();" /></p>
+			<p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
 		</form>
 		<script type="text/javascript">
 			function more_random() {
@@ -24,6 +24,7 @@
 				'A {gender} {race} warrior, wearing {armor} and wielding {weapon}.'
 			];
 			more_random();
+			reddit_output();
 	</script>
 	</body>
 </html>
