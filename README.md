@@ -5,8 +5,8 @@ A random table roller based on the work started by http://donjon.bin.sh/code/ran
 
 The following source code provides a simple yet flexible JavaScript random text generator, and some example data. Both are released to the public domain.
 
-*   `[generator.js](generator.js)`
-*   `[warrior_data.js](warrior_data.js)`
+*   `generator.js`
+*   `warrior_data.js`
 
 ## Using the Generator
 
