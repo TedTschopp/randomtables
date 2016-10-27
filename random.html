@@ -60,6 +60,81 @@
       <p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
       <p><input type="button" value="Generate" onclick="more_random();" /></p>
     </form>
-    <script type="text/javascript" src="data:text/javascript;base64,Ly8gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtCi8vIHJhbmRvbS5qcwovLwovLyB3cml0dGVuIGFuZCByZWxlYXNlZCB0byB0aGUgcHVibGljIGRvbWFpbiBieSBkcm93IDxkcm93QGJpbi5zaD4KLy8gaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvcHVibGljZG9tYWluL3plcm8vMS4wLwoKZnVuY3Rpb24gbW9yZV9yYW5kb20oKXt2YXIgYT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgib3V0cHV0IiksYj1wYXJzZUludChhLnJvd3MpO2lmKGI8MSliPTE7Yj1nZW5lcmF0ZV9saXN0KCJtYWluIixiKTthLnZhbHVlPWIuam9pbigiXG4iKX1mdW5jdGlvbiBnZW5lcmF0ZV90ZXh0KGEpe2lmKGE9Z2VuX2RhdGFbYV0paWYoYT1zZWxlY3RfZnJvbShhKSlyZXR1cm4gZXhwYW5kX3Rva2VucyhhKTtyZXR1cm4iIn1mdW5jdGlvbiBnZW5lcmF0ZV9saXN0KGEsYil7dmFyIGM9W10sZDtmb3IoZD0wO2Q8YjtkKyspYy5wdXNoKGdlbmVyYXRlX3RleHQoYSkpO3JldHVybiBjfWZ1bmN0aW9uIHNlbGVjdF9mcm9tKGEpe3JldHVybiBhLmNvbnN0cnVjdG9yPT1BcnJheT9zZWxlY3RfZnJvbV9hcnJheShhKTpzZWxlY3RfZnJvbV90YWJsZShhKX1mdW5jdGlvbiBzZWxlY3RfZnJvbV9hcnJheShhKXtyZXR1cm4gYVtNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkqYS5sZW5ndGgpXX0KZnVuY3Rpb24gc2VsZWN0X2Zyb21fdGFibGUoYSl7dmFyIGI7aWYoYj1zY2FsZV90YWJsZShhKSl7Yj1NYXRoLmZsb29yKE1hdGgucmFuZG9tKCkqYikrMTt2YXIgYztmb3IoYyBpbiBhKXt2YXIgZD1rZXlfcmFuZ2UoYyk7aWYoYj49ZFswXSYmYjw9ZFsxXSlyZXR1cm4gYVtjXX19cmV0dXJuIiJ9ZnVuY3Rpb24gc2NhbGVfdGFibGUoYSl7dmFyIGI9MCxjO2ZvcihjIGluIGEpe3ZhciBkPWtleV9yYW5nZShjKTtpZihkWzFdPmIpYj1kWzFdfXJldHVybiBifWZ1bmN0aW9uIGtleV9yYW5nZShhKXt2YXIgYjtyZXR1cm4oYj0vKFxkKyktMDAvLmV4ZWMoYSkpP1twYXJzZUludChiWzFdKSwxMDBdOihiPS8oXGQrKS0oXGQrKS8uZXhlYyhhKSk/W3BhcnNlSW50KGJbMV0pLHBhcnNlSW50KGJbMl0pXTphPT0iMDAiP1sxMDAsMTAwXTpbcGFyc2VJbnQoYSkscGFyc2VJbnQoYSldfQpmdW5jdGlvbiBleHBhbmRfdG9rZW5zKGEpe2Zvcih2YXIgYjtiPS97KFx3Kyl9Ly5leGVjKGEpOyl7Yj1iWzFdO3ZhciBjO2E9KGM9Z2VuZXJhdGVfdGV4dChiKSk/YS5yZXBsYWNlKCJ7IitiKyJ9IixjKTphLnJlcGxhY2UoInsiK2IrIn0iLGIpfXJldHVybiBhfW1vcmVfcmFuZG9tKCk7Cg=="></script>
+    <script type="text/javascript">
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        // random.js
+        //
+        // written and released to the public domain by drow <drow@bin.sh>
+        // http://creativecommons.org/publicdomain/zero/1.0/
+
+        function more_random() {
+            var a = document.getElementById("output"),
+                b = parseInt(a.rows);
+            if (b < 1) b = 1;
+            b = generate_list("main", b);
+            a.value = b.join("\n")
+        }
+
+        function generate_text(a) {
+            if (a = gen_data[a])
+                if (a = select_from(a)) return expand_tokens(a);
+            return ""
+        }
+
+        function generate_list(a, b) {
+            var c = [],
+                d;
+            for (d = 0; d < b; d++) c.push(generate_text(a));
+            return c
+        }
+
+        function select_from(a) {
+            return a.constructor == Array ? select_from_array(a) : select_from_table(a)
+        }
+
+        function select_from_array(a) {
+            return a[Math.floor(Math.random() * a.length)]
+        }
+
+        function select_from_table(a) {
+            var b;
+            if (b = scale_table(a)) {
+                b = Math.floor(Math.random() * b) + 1;
+                var c;
+                for (c in a) {
+                    var d = key_range(c);
+                    if (b >= d[0] && b <= d[1]) return a[c]
+                }
+            }
+            return ""
+        }
+
+        function scale_table(a) {
+            var b = 0,
+                c;
+            for (c in a) {
+                var d = key_range(c);
+                if (d[1] > b) b = d[1]
+            }
+            return b
+        }
+
+        function key_range(a) {
+            var b;
+            return (b = /(\d+)-00/.exec(a)) ? [parseInt(b[1]), 100] : (b = /(\d+)-(\d+)/.exec(a)) ? [parseInt(b[1]), parseInt(b[2])] : a == "00" ? [100, 100] : [parseInt(a), parseInt(a)]
+        }
+
+        function expand_tokens(a) {
+            for (var b; b = /{(\w+)}/.exec(a);) {
+                b = b[1];
+                var c;
+                a = (c = generate_text(b)) ? a.replace("{" + b + "}", c) : a.replace("{" + b + "}", b)
+            }
+            return a
+        }
+        more_random();
+
+    
+    </script>
   </body>
 </html>
