@@ -26,6 +26,7 @@ The `generate_text()` function accepts a single argument, the name of your main 
 ~~~~
 <script type="text/javascript">
   document.write(generate_text('warrior'));
-</script>~~~~
+</script>
+~~~~
 
 Or assign it to a variable in your own JavaScript code. You may also be interested in the `generate_list()` function, which accepts the name of a table and a number, and returns an array of generated text strings.
