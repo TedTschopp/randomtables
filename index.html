@@ -7,12 +7,15 @@
 	</head>
 	<body>
 		<form method="get" onsubmit="return false;">
+			<p><textarea id="input" cols="100" rows="1">A {gender} {race} warrior, wearing {armor} and wielding {weapon}.</textarea></p>
 			<p><input type="button" value="Generate" onclick="more_random();" /></p>
 			<p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
 		</form>
 		<script type="text/javascript">
 			function more_random() {
-				var OutputField = document.getElementById("output"),
+				var OutputField = document.getElementById("output");
+				var InputField = document.getElementById("input").value;
+				gen_data['main'] = [InputField];
 				NumberToGenerate = parseInt(OutputField.rows);
 				if (NumberToGenerate < 1) {
 					NumberToGenerate = 1;
@@ -20,11 +23,7 @@
 				Output = generate_list("main", NumberToGenerate);
 				OutputField.value = Output.join("\n")
 			}
-			gen_data['main'] = [
-				'A {gender} {race} warrior, wearing {armor} and wielding {weapon}.'
-			];
 			more_random();
-			reddit_output();
 	</script>
 	</body>
 </html>
