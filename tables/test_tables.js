@@ -1,9 +1,7 @@
-/*
-  gen_data['main'] = [
+  gen_data['main_1'] = [
     'A {gender} {race}, {human_height} with {human_eye_color} eyes and {human_hair_color} and {human_identifying_marks}\, wearing {armor} with a {animal} on it and wielding {weapon}.  In their pocket you find {trinket} {trinket}'
   ];
 
-*/
   gen_data['main'] = [
     '{minor_magic_item}'
   ];
