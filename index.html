@@ -7,14 +7,17 @@
 	</head>
 	<body>
 		<form method="get" onsubmit="return false;">
-			<p><textarea id="input" cols="100" rows="1">A {gender} {race} warrior, wearing {armor} and wielding {weapon}.</textarea></p>
+			<label>Loaded</label><p><textarea id="loaded" cols="100" rows="10"  readonly></textarea></p>
+			<label>Input</label><p><textarea id="input" cols="100" rows="1">A {gender} {race} warrior, wearing {armor} and wielding {weapon}.</textarea></p>
 			<p><input type="button" value="Generate" onclick="more_random();" /></p>
-			<p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
+			<label>Output</label><p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
 		</form>
 		<script type="text/javascript">
 			function more_random() {
 				var OutputField = document.getElementById("output");
 				var InputField = document.getElementById("input").value;
+				var LoadedFields = document.getElementById("loaded");
+				LoadedFields.value = JSON.stringify(gen_data,null,4);
 				gen_data['main'] = [InputField];
 				NumberToGenerate = parseInt(OutputField.rows);
 				if (NumberToGenerate < 1) {
@@ -23,6 +26,7 @@
 				Output = generate_list("main", NumberToGenerate);
 				OutputField.value = Output.join("\n")
 			}
+
 			more_random();
 	</script>
 	</body>
