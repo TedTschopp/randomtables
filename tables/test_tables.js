@@ -551,12 +551,12 @@ Diety End
     '1-33':'Brown',
     '34-66':'Blue',
     '66-99':'Green',
-    '100':'One [human_eye_color] and one [human_eye_color]'
+    '100':'One {human_eye_color} and one {human_eye_color}'
   };
   gen_data['human_identifying_marks'] = {
     '1-9':' no identifying marks',
-    '10-11':'eye patch',
-    '13-14':'scar on {side} cheek',
+    '10-12':'eye patch',
+    '13-15':'scar on {side} cheek',
     '16-17':'visible tattoo of a {human_identifying_marks_tattoo} on the {human_identifying_marks_body_part}'
   };
   gen_data['human_identifying_marks_body_part'] = {
