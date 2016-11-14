@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Random Generator</title>
 		<script type="text/javascript" src="JS/generator.js"></script>
 		<script type="text/javascript" src="tables/test_tables.js"></script>
 		<script type="text/javascript" src="tables/warrior_data.js"></script>
+		<script type="text/javascript" src="tables/books.js"></script>
+		<script type="text/javascript" src="tables/names.js"></script>
+		<script type="text/javascript" src="tables/city.js"></script>
 	</head>
 	<body>
 		<form method="get" onsubmit="return false;">
 			<label>Loaded</label><p><textarea id="loaded" cols="100" rows="10"  readonly></textarea></p>
-			<label>Input</label><p><textarea id="input" cols="100" rows="1">A {gender} {race} warrior, wearing {armor} and wielding {weapon}.</textarea></p>
+			<label>Input</label><p><textarea id="input" cols="100" rows="10">{welcome_to_town}.</textarea></p>
+			<label>Number</label><p><input id="number" value="10"></p>
 			<p><input type="button" value="Generate" onclick="more_random();" /></p>
-			<label>Output</label><p><textarea id="output" cols="100" rows="10" readonly></textarea></p>
+			<label>Output</label><pre id="output"></pre>
 		</form>
 		<script type="text/javascript">
 			function more_random() {
 				var OutputField = document.getElementById("output");
 				var InputField = document.getElementById("input").value;
+				var NumberToGenerate = document.getElementById("number").value;
 				var LoadedFields = document.getElementById("loaded");
 				LoadedFields.value = JSON.stringify(gen_data,null,4);
 				gen_data['main'] = [InputField];
-				NumberToGenerate = parseInt(OutputField.rows);
 				if (NumberToGenerate < 1) {
 					NumberToGenerate = 1;
 				}
 				Output = generate_list("main", NumberToGenerate);
-				OutputField.value = Output.join("\n")
+				OutputField.innerHTML = Output.join("\n")
 			}
 			more_random();
 	</script>
