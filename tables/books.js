@@ -15,6 +15,17 @@ gen_data['books'] = {
   '10': '{linguistics_book}: {book_volumes} {book_type_nonfiction}'
 }
 
+gen_data['acient_texts'] = {
+  '1' : '{religion_book}',
+  '2' : '{travel_book}',
+  '3' : '{biology_book}',
+  '4' : '{magic_book}',
+  '5' : '{tales_book}',
+  '6' : '{art_book}',
+  '7' : '{historical_book}',
+  '8' : '{geography_book}',
+}
+
 gen_data['book_volumes'] = {
   '1-4' : 'a standalone volume, {author}',
   '5'   : '{3to9} volumes in the series {author}',
