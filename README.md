@@ -1,6 +1,24 @@
 # randomtables
 A random table roller based on the work started by http://donjon.bin.sh/code/random/
 
+```html
+		<script type="text/javascript" src="JS/generator.js"></script>
+		<script type="text/javascript" src="tables/test_tables.js"></script>
+		<script type="text/javascript" src="tables/warrior_data.js"></script>
+		<script type="text/javascript" src="tables/books.js"></script>
+		<script type="text/javascript" src="tables/names.js"></script>
+		<script type="text/javascript" src="tables/city.js"></script>
+		<script type="text/javascript" src="tables/games.js"></script>
+		<script type="text/javascript" src="tables/temples.js"></script>
+		<script type="text/javascript" src="tables/treasure.js"></script>
+		<script type="text/javascript" src="tables/dice.js"></script>
+		<script type="text/javascript" src="tables/gods.js"></script>
+    <script type="text/javascript">
+      document.write(generate_text('warrior'));
+    </script>
+```
+
+
 ## Source Code
 
 The following source code provides a simple yet flexible JavaScript random text generator, and some example data. Both are released to the public domain.
