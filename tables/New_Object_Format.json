@@ -1,0 +1,62 @@
+{
+  "culture_the_old_way": {
+    "01-10": "norse",
+    "11-20": "roman",
+    "21-30": "babylonian",
+    "31-40": "egyptian"
+  },
+  "culture_by_variable": {
+    "type": "variable",
+    "name": "culture_by_variable",
+    "dice": "1D13",
+    "table": {
+      "12": "roman"
+    },
+    "Unique_ID": "internally generated"
+  },
+  "culture_by_frequency": {
+    "type": "frequency",
+    "name": "culture_by_frequency",
+    "dice": "",
+    "table": {
+      "1": "norse",
+      "2": "babylonian",
+      "3": "egyptian",
+      "7": "roman"
+    },
+    "Unique_ID": "http://www.example.com/culture_by_frequency"
+  },
+  "culture_by_table": {
+    "type": "table",
+    "name": "culture_by_table",
+    "dice": "1D13",
+    "table": {
+      "14": "norse",
+      "1-7": "roman",
+      "8-11": "egyptian",
+      "12-13": "babylonian"
+    },
+    "Unique_ID": "http://www.example.com/culture_by_table"
+  },
+  "culture_by_list": {
+    "type": "list",
+    "name": "culture_by_list",
+    "dice": "",
+    "table": [
+      "roman",
+      "roman",
+      "roman",
+      "roman",
+      "roman",
+      "roman",
+      "roman",
+      "egyptian",
+      "egyptian",
+      "egyptian",
+      "babylonian",
+      "babylonian",
+      "norse"
+    ],
+    "Unique_ID": "http://www.example.com/culture_by_list"
+  }
+}

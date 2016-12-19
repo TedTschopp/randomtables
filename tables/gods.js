@@ -8,8 +8,7 @@
 	Orc = God King
 
 */
-
-  gen_data['roman_god'] = [
+gen_data['roman_god'] = [
 /*
 Name	Alignment	Domains	Favored Weapon	Description
 Aphrodite	CG	Chaos, Good, Luck, Trickery	Whip	Goddess of love and beauty.
@@ -65,8 +64,7 @@ Gaia	Gaea	Goddess of Earth
     'Poseidon',
     'Zeus'
   ];
-
-    gen_data['roman_god_good'] = [
+gen_data['roman_god_good'] = [
 /*
 Name	Alignment	Domains	Favored Weapon	Description
 Aphrodite	CG	Chaos, Good, Luck, Trickery	Whip	Goddess of love and beauty.
@@ -96,8 +94,7 @@ Zeus	N	Air, Destruction, Magic, Protection	Longspear	God of air, thunder and lig
     'Hestia',
     'Pan',
   ];
-
-  gen_data['roman_evil'] = [
+gen_data['roman_evil'] = [
 /*
 Name	Alignment	Domains	Favored Weapon	Description
 Aphrodite	CG	Chaos, Good, Luck, Trickery	Whip	Goddess of love and beauty.
@@ -119,8 +116,7 @@ Zeus	N	Air, Destruction, Magic, Protection	Longspear	God of air, thunder and lig
 */
     'Ares',
   ];
-
-  gen_data['roman_god_neutral'] = [
+gen_data['roman_god_neutral'] = [
 /*
 Name	Alignment	Domains	Favored Weapon	Description
 Aphrodite	CG	Chaos, Good, Luck, Trickery	Whip	Goddess of love and beauty.
@@ -148,9 +144,7 @@ Zeus	N	Air, Destruction, Magic, Protection	Longspear	God of air, thunder and lig
     'Poseidon',
     'Zeus'
   ];
-
-
-  gen_data['babylonian_god'] = [
+gen_data['babylonian_god'] = [
 /*
 Deity	Alignment	Domains	Favored Weapon	Description
 Anu	LG	Air, Knowledge, Law, Protection	Mace	Sky-God, lord of heaven and all other gods. He also judged those who committed crimes.
@@ -184,8 +178,7 @@ Utu	CG	Chaos, Fire, Good, Sun	Scimitar	The firey god of the sun.
 	'Utu'
 
   ];
-
-  gen_data['egyptian_god'] = [
+gen_data['egyptian_god'] = [
 /*
 Deity	Alignment	Domains	Favored Weapon	Description
 Re-Horakhty	LG	Good, Law, Sun, War	Khopesh	The falcon-headed God of the Sun.
@@ -218,8 +211,7 @@ Thoth	N	Knowledge, Magic, Rune*	Quaterstaff	Ibis-headed God of the heart and ton
 	"Thoth"
 
   ];
-
-  gen_data['norse_god'] = [
+gen_data['norse_god'] = [
 /*
 Name	Domains	Rank	Alignment	Favored Weapon	Portfolio
 Odin	Air, Knowledge, Magic, Travel, Trickery, War	G	NG	Shortspear	Knowledge, magic, supreme, war

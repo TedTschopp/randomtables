@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>Random Generator</title>
@@ -14,22 +15,61 @@
 		<script type="text/javascript" src="tables/treasure.js"></script>
 		<script type="text/javascript" src="tables/dice.js"></script>
 		<script type="text/javascript" src="tables/gods.js"></script>
+		<script type="text/javascript" src="tables/statue.js"></script>
+		<script type="text/javascript" src="tables/dwarves.js"></script>
+		<script type="text/javascript" src="tables/goblinoid.js"></script>
+
 	</head>
+
 	<body>
 		<form method="get" onsubmit="return false;">
-			<label>Loaded</label><p><textarea id="loaded" cols="100" rows="10"  readonly></textarea></p>
-			<label>Input</label><p><textarea id="input" cols="100" rows="10">{welcome_to_town}.</textarea></p>
-			<label>Number</label><p><input id="number" value="10"></p>
+			<label>Loaded</label>
+			<p><textarea id="loaded" cols="100" rows="10" readonly></textarea></p>
+			<label>Input</label>
+			<p><textarea id="input" cols="100" rows="10">{welcome_to_town}.</textarea></p>
+			<label>Number</label>
+			<p><input id="number" value="10"></p>
 			<p><input type="button" value="Generate" onclick="more_random();" /></p>
 			<label>Output</label><pre id="output"></pre>
+			<label>Tables Used</label><span id="TableOutput"></span>
+
+			<table>
+				<tr>
+					<th colspan="3">{table_name}</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th></th>
+					<th>Result
+						<th>
+				</tr>
+				<table>
+
 		</form>
 		<script type="text/javascript">
+			function getParameterByName(name, url) {
+				if (!url) {
+					url = window.location.href;
+				}
+				name = name.replace(/[\[\]]/g, "\\$&");
+				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+					results = regex.exec(url);
+				if (!results) return null;
+				if (!results[2]) return '';
+				return decodeURIComponent(results[2].replace(/\+/g, " "));
+			}
 			function more_random() {
 				var OutputField = document.getElementById("output");
-				var InputField = document.getElementById("input").value;
+				var URLField;
+				if (URLField = getParameterByName('table')) {
+					var InputField = "{" + URLField + "}";
+					document.getElementById("input").value = InputField;
+				} else {
+					var InputField = document.getElementById("input").value;
+				}
 				var NumberToGenerate = document.getElementById("number").value;
 				var LoadedFields = document.getElementById("loaded");
-				LoadedFields.value = JSON.stringify(gen_data,null,4);
+				LoadedFields.value = JSON.stringify(gen_data, null, 4);
 				gen_data['main'] = [InputField];
 				if (NumberToGenerate < 1) {
 					NumberToGenerate = 1;
@@ -38,6 +78,7 @@
 				OutputField.innerHTML = Output.join("\n")
 			}
 			more_random();
-	</script>
+		</script>
 	</body>
+
 </html>
