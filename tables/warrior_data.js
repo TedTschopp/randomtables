@@ -1,10 +1,5 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // warrior_data.js
-// written and released to the public domain by drow <drow@bin.sh>
-// http://creativecommons.org/publicdomain/zero/1.0/
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// json format
-// http://en.wikipedia.org/wiki/JSON
 gen_data['warrior'] = [
     'A {gender} {race} warrior, wearing {armor} and wielding {weapon}.'
   ];
@@ -33,4 +28,3 @@ gen_data['melee_weapon'] = [
 gen_data['ranged_weapon'] = [
     'a longbow and arrows', 'a heavy crossbow'
   ];
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

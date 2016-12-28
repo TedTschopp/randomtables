@@ -15,7 +15,7 @@ function generate_text(type_of_list_to_generate) {
 }
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // generate multiple
-function generate_list(type_of_list_to_generate, number_to_generate) {
+function print_list(type_of_list_to_generate, number_to_generate) {
 	var list = [];
 	var i;
 	for (i = 0; i < number_to_generate; i++) {
@@ -84,8 +84,10 @@ function generate_table(type_of_table_to_output) {
 		// Create the Table Header
 		if (table_to_output.constructor == Array) {
 			// Ouput Array
+			alert(type_of_table_to_output);
 		} else {
 			// Output List
+			alert(type_of_table_to_output);
 		}
 	} else {
 		// Output Empty Table
@@ -97,6 +99,7 @@ function expand_tokens(string) {
 	var match;
 	while (match = /{(\w+)}/.exec(string)) {
 		var token = match[1];
+		generate_table(token);
 		var repl;
 		if (repl = generate_text(token)) {
 			string = string.replace('{' + token + '}', repl);
