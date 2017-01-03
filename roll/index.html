@@ -62,11 +62,10 @@
 				var URLNumber;
 				if (URLNumber = getParameterByName('n')) {
 					var InputField = URLNumber;
-					document.getElementById("number").value = InputField;
+					document.getElementById("number").value = NumberToGenerate;
 				} else {
-					var InputField = document.getElementById("number").value;
+					var NumberToGenerate = document.getElementById("number").value;
 				}
-				var NumberToGenerate = document.getElementById("number").value;
 				gen_data['main'] = [InputField];
 				if (NumberToGenerate < 1) {
 					NumberToGenerate = 1;
