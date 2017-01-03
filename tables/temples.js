@@ -453,5 +453,5 @@ gen_data['religious_imagery'] = {
 	'81-85': 'the sacred animals of the deity',
 	'86-90': 'a defeat of the deity (battle or trickery)',
 	'91-95': 'a defeat of a hero/saint (battle or trickery)',
-	'96-00': 'holy symbols of the deity or of multiple deities',
+	'96-00': 'holy symbols of the deity or of multiple deities'
 }

@@ -23,7 +23,7 @@ gen_data['acient_texts'] = {
 	'5': '{tales_book}',
 	'6': '{art_book}',
 	'7': '{historical_book}',
-	'8': '{geography_book}',
+	'8': '{geography_book}'
 }
 
 gen_data['book_volumes'] = {
@@ -50,13 +50,13 @@ gen_data['multiple_authors'] = {
 	'1': 'by {names}, {names}, {names}, {names}, {names}, and {names}',
 	'2': 'by {names}, {names}, {names}, {names}, and {names}',
 	'3': 'by {names}, {names}, {names}, and {names}',
-	'4': 'by {names}, {names}, and {names}',
+	'4': 'by {names}, {names}, and {names}'
 }
 
 
 gen_data['several_authors'] = {
 	'1': 'by {names}, {names}, and {names}',
-	'2': 'by {names} and {names}',
+	'2': 'by {names} and {names}'
 }
 
 

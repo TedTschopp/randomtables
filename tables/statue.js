@@ -130,16 +130,16 @@ gen_data['statue_complex_combo'] = {
 	'36-40': '{statue_simple_person} and {statue_simple_inanimate}',
 	'41-45': '{statue_simple_person} and {statue_simple_monster}',
 	'46-50': '{statue_simple_person} and {statue_simple_person}',
-	'51-55': 'Terra-cotta 2D6 statues of a {statue_simple_person} lined up in procession',
-	'56-60': 'Terra-cotta 2D6 status of a {statue_simple_animal} lined up in procession',
+	'51-55': 'Terra-cotta {2d6} statues of a {statue_simple_person} lined up in procession',
+	'56-60': 'Terra-cotta {2d6} statues of a {statue_simple_animal} lined up in procession',
 	'61-65': '{statue_simple_person}, {statue_simple_person}, and {statue_simple_person}',
-	'66-70': 'Totem-pole arrangement of 1d3+2 {statue_simple_animal}s',
-	'71-75': 'Totem-pole arrangement of 1d3+2 mix of Monsters and Animals',
-	'76-80': 'Totem-pole arrangement of 1d3+2 {statue_simple_monster}s',
+	'66-70': 'Totem-pole arrangement of {1d3+2} {statue_simple_animal}s',
+	'71-75': 'Totem-pole arrangement of {1d3+2} mix of Monsters and Animals',
+	'76-80': 'Totem-pole arrangement of {1d3+2} {statue_simple_monster}s',
 	'81-85': '{statue_simple_animal} and {statue_simple_animal}',
 	'86-90': '{statue_simple_inanimate} and {statue_simple_inanimate}',
 	'91-95': '{statue_simple_monster} and {statue_simple_monster}',
-	'96-00': 'Two {statue_simple_monster}s',
+	'96-00': 'Two {statue_simple_monster}s'
 }
 gen_data['statue_condition_unusal'] = {
 	'01-04': 'Parts of the statue are broken off and are now lost.',

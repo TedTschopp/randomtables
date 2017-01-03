@@ -457,7 +457,7 @@ gen_data['cultural_differences_people'] = {
 	'66-70': 'All people who passed the ritual of adulthood are now allowed to {cultural_differences_item}.',
 	'71-75': 'All {Criminals} must {cultural_differences_item}.',
 	'76-80': 'Members of each political faction wear {cultural_differences_item}.',
-	'81-85': '{roman_class} {cultural_differences_item}',
+	'81-85': '{roman_class} {cultural_differences_item}'
 }
 
 gen_data['Criminals'] = {
@@ -722,15 +722,15 @@ gen_data['guilds'] = {
 
 gen_data['married_cultural_differences'] = {
 	'01-10': 'married people are required {cultural_differences_item}',
-	'11-15': 'Married women need to {cultural_differences_item}. While married men must {cultural_differences_item}',
+	'11-15': 'Married women need to {cultural_differences_item}. While married men must {cultural_differences_item}'
 }
 gen_data['unmarried_cultural_differences'] = {
 	'01-10': 'unmarried people must {cultural_differences_item}',
-	'11-15': 'Unmarried women need to {cultural_differences_item}. While unmarried men have to {cultural_differences_item}',
+	'11-15': 'Unmarried women need to {cultural_differences_item}. While unmarried men have to {cultural_differences_item}'
 }
 gen_data['parents_cultural_differences'] = {
 	'01-10': 'parents are required {cultural_differences_item}',
-	'11-15': 'Mothers need to {cultural_differences_item}. While fathers have to {cultural_differences_item}',
+	'11-15': 'Mothers need to {cultural_differences_item}. While fathers have to {cultural_differences_item}'
 }
 
 

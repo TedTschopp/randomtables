@@ -270,7 +270,7 @@ gen_data['more_precious_material'] = {
     '71-100': 'steel',
     '101-110': 'lead',
     '111-125': 'iron',
-    '126-130': 'pewter',
+    '126-130': 'pewter'
 };
 gen_data['color'] = {
     '1': 'red',
@@ -334,7 +334,7 @@ gen_data['human_height'] = {
     '91-94': '6 feet 3 inches',
     '95-97': '6 feet 4 inches',
     '98-99': '6 feet 5 inches',
-    '100-100': '6 feet 6 inches',
+    '100-100': '6 feet 6 inches'
 }
 gen_data['human_weight'] = {
     '1-1': '130 lbs',
@@ -355,7 +355,7 @@ gen_data['human_weight'] = {
     '91-94': '205 lbs',
     '95-97': '210 lbs',
     '98-99': '215 lbs',
-    '100-100': '220 lbs',
+    '100-100': '220 lbs'
 }
 gen_data['human_male_height'] = {
     '1-1': '5 feet',
@@ -376,7 +376,7 @@ gen_data['human_male_height'] = {
     '91-94': '6 feet 3 inches',
     '95-97': '6 feet 4 inches',
     '98-99': '6 feet 5 inches',
-    '100-100': '6 feet 6 inches',
+    '100-100': '6 feet 6 inches'
 }
 gen_data['human_male_weight'] = {
     '1-1': '130 lbs',
@@ -397,7 +397,7 @@ gen_data['human_male_weight'] = {
     '91-94': '205 lbs',
     '95-97': '210 lbs',
     '98-99': '215 lbs',
-    '100-100': '220 lbs',
+    '100-100': '220 lbs'
 }
 gen_data['human_female_height'] = {
     '1-1': '4 feet 7 inches',
@@ -450,7 +450,7 @@ gen_data['dwarf_height'] = {
     '7-10': '4 feet 2 inches',
     '11-13': '4 feet 3 inches',
     '14-15': '4 feet 4 inches',
-    '16-16': '4 feet 5 inches',
+    '16-16': '4 feet 5 inches'
 }
 gen_data['dwarf_weight'] = {
     '1-1': '164 lbs',
@@ -459,7 +459,7 @@ gen_data['dwarf_weight'] = {
     '7-10': '185 lbs',
     '11-13': '192 lbs',
     '14-15': '199 lbs',
-    '16-16': '206 lbs',
+    '16-16': '206 lbs'
 }
 gen_data['dwarf_male_height'] = {
     '1-1': '3 feet 11 inches',
@@ -468,7 +468,7 @@ gen_data['dwarf_male_height'] = {
     '7-10': '4 feet 2 inches',
     '11-13': '4 feet 3 inches',
     '14-15': '4 feet 4 inches',
-    '16-16': '4 feet 5 inches',
+    '16-16': '4 feet 5 inches'
 }
 gen_data['dwarf_male_weight'] = {
     '1-1': '164 lbs',
@@ -497,7 +497,7 @@ gen_data['dwarf_female_weight'] = {
     '7-10': '155 lbs',
     '11-13': '162 lbs',
     '14-15': '169 lbs',
-    '16-16': '176 lbs',
+    '16-16': '176 lbs'
 }
 
 gen_data['gnome_height'] = {
@@ -507,7 +507,7 @@ gen_data['gnome_height'] = {
     '7-10': '3 feet 11 inches',
     '11-13': '4 feet ',
     '14-15': '4 feet 1 inches',
-    '16-16': '4 feet 2 inches',
+    '16-16': '4 feet 2 inches'
 }
 gen_data['gnome_weight'] = {
     '1-1': '49 lbs',
@@ -516,7 +516,7 @@ gen_data['gnome_weight'] = {
     '7-10': '55 lbs',
     '11-13': '57 lbs',
     '14-15': '59 lbs',
-    '16-16': '61 lbs',
+    '16-16': '61 lbs'
 }
 gen_data['gnome_male_height'] = {
     '1-1': '3 feet 8 inches',
@@ -525,7 +525,7 @@ gen_data['gnome_male_height'] = {
     '7-10': '3 feet 11 inches',
     '11-13': '4 feet ',
     '14-15': '4 feet 1 inches',
-    '16-16': '4 feet 2 inches',
+    '16-16': '4 feet 2 inches'
 }
 gen_data['gnome_male_weight'] = {
     '1-1': '49 lbs',
@@ -534,7 +534,7 @@ gen_data['gnome_male_weight'] = {
     '7-10': '55 lbs',
     '11-13': '57 lbs',
     '14-15': '59 lbs',
-    '16-16': '61 lbs',
+    '16-16': '61 lbs'
 }
 gen_data['gnome_female_height'] = {
     '1-1': '3 feet 2 inches',
@@ -543,7 +543,7 @@ gen_data['gnome_female_height'] = {
     '7-10': '3 feet 5 inches',
     '11-13': '3 feet 6 inches',
     '14-15': '3 feet 7 inches',
-    '16-16': '3 feet 8 inches',
+    '16-16': '3 feet 8 inches'
 }
 gen_data['gnome_female_weight'] = {
     '1-1': '39 lbs',
@@ -552,7 +552,7 @@ gen_data['gnome_female_weight'] = {
     '7-10': '45 lbs',
     '11-13': '47 lbs',
     '14-15': '49 lbs',
-    '16-16': '51 lbs',
+    '16-16': '51 lbs'
 }
 
 
@@ -571,7 +571,7 @@ gen_data['elf_height'] = {
     '55-58': '6 feet 5 inches',
     '59-61': '6 feet 6 inches',
     '62-63': '6 feet 7 inches',
-    '64-64': '6 feet 8 inches',
+    '64-64': '6 feet 8 inches'
 }
 gen_data['elf_weight'] = {
     '1-1': '106 lbs',
@@ -588,7 +588,7 @@ gen_data['elf_weight'] = {
     '55-58': '139 lbs',
     '59-61': '142 lbs',
     '62-63': '145 lbs',
-    '64-64': '148 lbs',
+    '64-64': '148 lbs'
 }
 gen_data['elf_male_height'] = {
     '1-1': '5 feet 6 inches',
@@ -605,7 +605,7 @@ gen_data['elf_male_height'] = {
     '55-58': '6 feet 5 inches',
     '59-61': '6 feet 6 inches',
     '62-63': '6 feet 7 inches',
-    '64-64': '6 feet 8 inches',
+    '64-64': '6 feet 8 inches'
 }
 gen_data['elf_male_weight'] = {
     '1-1': '106 lbs',
@@ -622,7 +622,7 @@ gen_data['elf_male_weight'] = {
     '55-58': '139 lbs',
     '59-61': '142 lbs',
     '62-63': '145 lbs',
-    '64-64': '148 lbs',
+    '64-64': '148 lbs'
 }
 gen_data['elf_female_height'] = {
     '1-1': '5 feet 6 inches',
@@ -639,7 +639,7 @@ gen_data['elf_female_height'] = {
     '55-58': '6 feet 5 inches',
     '59-61': '6 feet 6 inches',
     '62-63': '6 feet 7 inches',
-    '64-64': '6 feet 8 inches',
+    '64-64': '6 feet 8 inches'
 }
 gen_data['elf_female_weight'] = {
     '1-1': '96 lbs',
@@ -656,7 +656,7 @@ gen_data['elf_female_weight'] = {
     '55-58': '129 lbs',
     '59-61': '132 lbs',
     '62-63': '135 lbs',
-    '64-64': '138 lbs',
+    '64-64': '138 lbs'
 }
 
 // TODO: Make hair styles based on culture not just on race.  Also age should affect hair.
@@ -783,7 +783,7 @@ gen_data['brown_skin'] = {
     '1-25': 'brown',
     '26-50': 'dark brown',
     '51-75': 'very dark brown',
-    '76-00': 'black',
+    '76-00': 'black'
 }
 
 
@@ -858,12 +858,12 @@ gen_data['hair_male_balding'] = {
     '10-12': 'recedding with a bald spot on top',
     '13-14': 'just a tuft of hair on top',
     '15': 'almost completly bald with hair above their ears',
-    '16': 'a bald head with hair above their ears',
+    '16': 'a bald head with hair above their ears'
 }
 gen_data['hair_female_balding'] = {
 //    '': '',
     '1-8': 'thinning along the part',
-    '9-10': 'bald spots along the part',
+    '9-10': 'bald spots along the part'
 }
 
 //Hair Greying
