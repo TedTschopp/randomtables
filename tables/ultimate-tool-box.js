@@ -18,7 +18,7 @@ gen_data['Table 1-1: Character Beggingins'] = {
 	'17': 'Raised in poverty in a city or town',
 	'18': 'Raised in wealth in a city or town',
 	'19': 'Raised on a farm',
-	'20': 'Raised on a frontier homestead',
+	'20': 'Raised on a frontier homestead'
 }
 gen_data['Table 1–2: Family Composition'] = {
 	'1': 'Both parents alive, 1 sibling',

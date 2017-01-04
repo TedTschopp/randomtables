@@ -1,5 +1,5 @@
 gen_data['legendary_weapon'] = [
-    '{number_of_and_type_of_legendary}, made of {legandary_weapon_material}. It {legandary_weapon_craftsmanship}. Its blade/body {legandary_weapon_body} and its handle/haft {legandary_weapon_handle}. It {legandary_weapon_aura} in the presence of {legandary_weapon_aura_trigger}, and when striking in combat it {legandary_weapon_aura_effect}. This weapon {legandary_weapon_age}, and was created by {legandary_weapon_creator} for the purpose of {legandary_weapon_purpose}. Its last known owner was {legandary_weapon_owner}, who used it {legandary_weapon_usage}.'
+    'A {legandary_weapon_craftsmanship} {legandary_weapon_material} {number_of_and_type_of_legendary}. Its body {legandary_weapon_body} and its handle {legandary_weapon_handle}. It {legandary_weapon_aura} in the presence of {legandary_weapon_aura_trigger}, and when striking in combat it {legandary_weapon_aura_effect}. This weapon {legandary_weapon_age}, and was created by {legandary_weapon_creator} for {legandary_weapon_purpose}. Its last known owner was {legandary_weapon_owner}, who used it {legandary_weapon_usage}.'
 ];
 gen_data['number_of_and_type_of_legendary'] = [
       'shortsword',
@@ -31,14 +31,14 @@ gen_data['number_of_and_type_of_legendary'] = [
       'short bow',
       'long bow',
       'voulge',
-      'two javelins',
-      'three javelins',
-      'four javelins',
-      'five javelins',
-      'six javelins',
-      'two throwing knives',
-      'three throwing knives',
-      'four throwing knives'
+      'javelins(two)',
+      'javelins(three)',
+      'javelins(four)',
+      'javelins(five)',
+      'javelins(six)',
+      'throwing knives(two)',
+      'throwing knives(three)',
+      'throwing knives(four)'
 ];
 
 gen_data['legandary_weapon_material'] = {
@@ -51,7 +51,7 @@ gen_data['legandary_weapon_exotic_material'] = [
   'flint',
   '{GemType}',
   '{HornIvory}',
-  'bones of a {fantastic_animal}',
+  '{fantastic_animal} bone',
   'china',
   'glass',
   'crystalline ice',
@@ -59,13 +59,13 @@ gen_data['legandary_weapon_exotic_material'] = [
   'pure light with {light_motes}' 
 ]
 gen_data['legandary_weapon_craftsmanship'] = [
-  'looks very plain, as though made by a village apprentice',
-  'looks very well-made, as though by a master craftsman',
-  'looks extremely ornate, as though meant to be decoration',
-  'looks worn, with many years of use or perhaps abuse',
-  'looks almost toy-like, a childs play thing',
-  'looks exotic, you have no idew who could have made such a thing'
-
+  'ordinary',
+  'well-made',
+  'decorative and ornate',
+  'worn',
+  'discarded',
+  'childish toy-like',
+  'exotic'
 ]
   
 gen_data['legandary_weapon_body'] = [
@@ -74,10 +74,10 @@ gen_data['legandary_weapon_body'] = [
   'is inscribed with a prayer to an ancient god',
   'is inscribed with an oath to a dead king',
   'is inscribed with a plea to a fallen tyrant',
-  'has dozens small signs and symbols surrounded by {Symbol}',
+  'has dozens small signs and symbols surrounded by {Symbols}',
   'has dozens of arcane and runic sigils in {RuneLanguage}',
-  'has hundreds of seemingly random of lines, swirls, and shapes surrounded by {Symbol}',
-  'has hundreds of seemingly meaningful patterns of lines, swirls, and shapes surrounded by {Symbol}',
+  'has hundreds of seemingly random of lines, swirls, and shapes surrounded by {Symbols}',
+  'has hundreds of seemingly meaningful patterns of lines, swirls, and shapes surrounded by {Symbols}',
   'is covered in ancient crude art, telling the story of an extinct race',
   'is covered in modern impressionist art, telling the story of a sexual conquest',
   'is covered in simplistic drawings, telling the story of a forgotten battle'
@@ -86,7 +86,7 @@ gen_data['legandary_weapon_body'] = [
 gen_data['legandary_weapon_handle'] = [
   'is unwrapped/bare',
   'is wrapped in brightly-colored silk',
-  'is wrapped in gray and silverly tendrils like spiderwebs',
+  'is wrapped in gray and silverly tendrils like spider webs',
   'is wrapped in tightly-woven grass and reeds',
   'is wrapped in strips of black leather',
   'is wrapped in strips of taut, white human skin',
@@ -133,7 +133,7 @@ gen_data['legandary_weapon_aura_effect'] = [
   'burns with angry fire',
   'freezes enemies to the bone',
   'covers enemies in flesh-corroding poison',
-  'crackles with electricty',
+  'crackles with electricity',
   'emits a choking gas',
   'pierces with holy light',
   'trails wispy, necrotic shadows',
@@ -153,7 +153,7 @@ gen_data['legandary_weapon_age'] = [
   'is from a past generation',
   'is from the last century',
   'is hundreds of years old',
-  'was forged over a millenia ago',
+  'was forged over a millennium ago',
   'is as ancient as the oldest dragons',
   'was forged during the creation of the world'
 ]
