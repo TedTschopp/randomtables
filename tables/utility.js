@@ -9763,7 +9763,7 @@ Insults
 
 */
 
-gen_data['Insult_insult'] = {
+gen_data['Insults'] = {
     '1': 'Thou {Insult_Column_I} {Insult_Column_II} {Insult_Column_III}!',
     '2': '{Insult_Adjective} thy {Insult_Column_I} {Insult_Column_III}, thou {Insult_Column_II} {Insult_Column_III}!',
 }
