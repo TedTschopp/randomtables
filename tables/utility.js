@@ -1968,17 +1968,26 @@ gen_data['Time_Normal'] = {
 gen_data['24HourTime'] = {
     '1-1': '{d24}:{d59}'
 }
-gen_data['fantasy_menu_main'] = {
-    '1-10': '{{ucfirst:{Descriptor}}} {MainMeals}{DescriptiveAdjectives2}{WithSide}  ',
-    '11-14': '{{ucfirst:{Descriptor}}} {MainMeals}{DescriptiveAdjectives2}{WithSide},  served with {ExtrasRoll} , ',
+
+/* 
+
+Fantasy Menu
+
+
+*/
+
+
+gen_data['fantasy_menu'] = {
+    '1-10': '{{ucfirst:{Fantasy_Menu_Descriptor}}} {MainMeals}{DescriptiveAdjectives2}{WithSide}  ',
+    '11-14': '{{ucfirst:{Fantasy_Menu_Descriptor}}} {MainMeals}{DescriptiveAdjectives2}{WithSide},  served with {ExtrasRoll} , ',
     '15-15': '{One_Hundred_Meals}  ',
     '16-16': '{arabic_food}  '
 }
 gen_data['veggiemain'] = {
-    '1-5': '{{ucfirst:{Descriptor}}} {VeggiesCookable}{DescriptiveAdjectives2}{WithSide}  ',
-    '6-7': '{{ucfirst:{Descriptor}}} {VeggiesCookable}{DescriptiveAdjectives2}{WithSide},  served with {ExtrasRoll} , '
+    '1-5': '{{ucfirst:{Fantasy_Menu_Descriptor}}} {VeggiesCookable}{DescriptiveAdjectives2}{WithSide}  ',
+    '6-7': '{{ucfirst:{Fantasy_Menu_Descriptor}}} {VeggiesCookable}{DescriptiveAdjectives2}{WithSide},  served with {ExtrasRoll} , '
 }
-gen_data['Descriptor'] = {
+gen_data['Fantasy_Menu_Descriptor'] = {
     '1-1': '{CookingAdjectives}  ',
     '2-2': '{DescriptiveAdjective1}  '
 }
@@ -2322,7 +2331,7 @@ gen_data['DescriptiveAdjectives2'] = {
 }
 gen_data['Extras'] = {
     '1-5': '{Sides}  ',
-    '6-6': ' a small helping of {Descriptor} {MainMeals}  '
+    '6-6': ' a small helping of {Fantasy_Menu_Descriptor} {MainMeals}  '
 }
 gen_data['Sides'] = {
     '1-10': ' {Breads} with {BreadSpreads}  ',
@@ -9758,12 +9767,69 @@ gen_data['BrewNames_stuff'] = {
 /*
 
 
+COMPLIMENTS
+
+
+*/
+gen_data['Compliment'] = {
+    '1': 'Thou {Compliments_Column_I} {Compliments_Column_II} {Compliments_Column_III}!',
+    '2': '{Compliment_Adjective} thy {Compliments_Column_I} {Compliments_Column_III}, thou {Compliments_Column_II} {Compliments_Column_III}!',
+}
+gen_data['Compliment_Adjective'] = {
+    '1': 'Bless',
+    '2': 'Kiss',
+    '3': 'God bless',
+    '4': 'Ease'
+}
+
+gen_data['Compliments_Column_I'] = {
+    '1': 'rare',
+    '2': 'sweet',
+    '3': 'fruitful',
+    '4': 'brave',
+    '5': 'sugared',
+    '6': 'flowering',
+    '7': 'precious',
+    '8': 'gallant',
+    '9': 'delicate',
+    '10': 'celestial'
+}
+gen_data['Compliments_Column_II'] = {
+    '1': 'honey-tongued',
+    '2': 'well-wishing',
+    '3': 'fair-faced',
+    '4': 'best-tempered',
+    '5': 'tender-hearted',
+    '6': 'tiger-booted',
+    '7': 'smooth-faced',
+    '8': 'thunder-darting',
+    '9': 'sweet-suggesting',
+    '10': 'young-eyed'
+}
+
+gen_data['Compliments_Column_III'] = {
+    '1': 'smilet',
+    '2': 'toast',
+    '3': 'cukoo-bud',
+    '4': 'nose-herb',
+    '5': 'wafer-cake',
+    '6': 'pigeon-egg',
+    '7': 'welsh cheese',
+    '8': 'song',
+    '9': 'true-penny',
+    '10': 'valentine'
+}
+
+
+/*
+
+
 Insults
 
 
 */
 
-gen_data['Insults'] = {
+gen_data['Insult'] = {
     '1': 'Thou {Insult_Column_I} {Insult_Column_II} {Insult_Column_III}!',
     '2': '{Insult_Adjective} thy {Insult_Column_I} {Insult_Column_III}, thou {Insult_Column_II} {Insult_Column_III}!',
 }
@@ -11268,6 +11334,7 @@ Uplifting Thoughts
 
 
 */
+
 gen_data['Uplifting_Sayings'] = {
     '1': '{Words_of_Wisdom}',
     '2': '{Inscription_Advice}'
