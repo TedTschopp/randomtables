@@ -4,7 +4,7 @@ gen_data['game'] = {
 gen_data['game_played_with'] = {
 	'01-02': '{game_played_with_cards}. In order to win: {game_played_with_cards_to_win} During their turn players: {game_played_with_cards_players_turn}',
 	'03-04': '{game_played_with_dice}. Winning requires that you  {game_played_with_dice_to_win} During their turn players: {game_played_with_dice_players_turn}',
-	'05-06': '{game_played_with_dice} and {game_played_with_board}. In order you have to {game_played_with_board_to_win} During their turn players: {game_played_with_board_players_turn}  ',
+	'05-06': '{game_played_with_dice} and {game_played_with_board}. In order to win you have to {game_played_with_board_to_win} During their turn players: {game_played_with_board_players_turn}  ',
 	'07-08': '{game_played_with_dice}, {game_played_with_board} and {game_played_with_pieces}. In order to win players need to {game_played_with_board_to_win}  During their turn players: {game_played_with_board_players_turn}',
 	'09-10': '{game_played_with_board} and {game_played_with_pieces}. In order to win, you must {game_played_with_board_to_win}  During their turn players: {game_played_with_board_players_turn} '
 }
