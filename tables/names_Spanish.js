@@ -12,12 +12,12 @@ gen_data["Spanish_female_uncommon"] = [
 ]
 
 gen_data["Spanish_male_name"] = {
-    '1-80': '{Spanish_male_first_common}',
-    '81-100': '{Spanish_male_first_uncommon}'
+    '1-80': '{Spanish_male_common}',
+    '81-100': '{Spanish_male_uncommon}'
 }
 gen_data["Spanish_female_name"] = {
-    '1-80': '{Spanish_female_first_common}',
-    '81-100': '{Spanish_female_first_uncommon}'
+    '1-80': '{Spanish_female_common}',
+    '81-100': '{Spanish_female_uncommon}'
 }
 
 
@@ -35,12 +35,12 @@ gen_data["Basque_female_uncommon"] = [
 ]
 
 gen_data["Basque_male_name"] = {
-    '1-80': '{Basque_male_first_common}',
-    '81-100': '{Basque_male_first_uncommon}'
+    '1-80': '{Basque_male_common}',
+    '81-100': '{Basque_male_uncommon}'
 }
 gen_data["Basque_female_name"] = {
-    '1-80': '{Basque_female_first_common}',
-    '81-100': '{Basque_female_first_uncommon}'
+    '1-80': '{Basque_female_common}',
+    '81-100': '{Basque_female_uncommon}'
 }
 
 

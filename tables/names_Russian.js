@@ -12,12 +12,12 @@ gen_data["Russian_female_uncommon"] = [
 ]
 
 gen_data["Russian_male_name"] = {
-    '1-80': '{Russian_male_first_common}',
-    '81-100': '{Russian_male_first_uncommon}'
+    '1-80': '{Russian_male_common}',
+    '81-100': '{Russian_male_uncommon}'
 }
 gen_data["Russian_female_name"] = {
-    '1-80': '{Russian_female_first_common}',
-    '81-100': '{Russian_female_first_uncommon}'
+    '1-80': '{Russian_female_common}',
+    '81-100': '{Russian_female_uncommon}'
 }
 
 

@@ -12,12 +12,12 @@ gen_data["Celtic_female_uncommon"] = [
 ]
 
 gen_data["Celtic_male_name"] = {
-    '1-80': '{Celtic_male_first_common}',
-    '81-100': '{Celtic_male_first_uncommon}'
+    '1-80': '{Celtic_male_common}',
+    '81-100': '{Celtic_male_uncommon}'
 }
 gen_data["Celtic_female_name"] = {
-    '1-80': '{Celtic_female_first_common}',
-    '81-100': '{Celtic_female_first_uncommon}'
+    '1-80': '{Celtic_female_common}',
+    '81-100': '{Celtic_female_uncommon}'
 }
 
 

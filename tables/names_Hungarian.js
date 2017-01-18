@@ -6,10 +6,8 @@ gen_data["Hungarian_female_common"] = [
 ]
 
 gen_data["Hungarian_male_name"] = {
-    '1-80': '{Hungarian_male_first_common}',
-    '81-100': '{Hungarian_male_first_uncommon}'
+    '1-80': '{Hungarian_male_common}',
 }
 gen_data["Hungarian_female_name"] = {
-    '1-80': '{Hungarian_female_first_common}',
-    '81-100': '{Hungarian_female_first_uncommon}'
+    '1-80': '{Hungarian_female_common}',
 }

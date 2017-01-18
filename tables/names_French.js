@@ -12,12 +12,12 @@ gen_data["French_General_female_uncommon"] = [
 ]
 
 gen_data["French_General_male_name"] = {
-    '1-80': '{French_General_male_first_common}',
-    '81-100': '{French_General_male_first_uncommon}'
+    '1-80': '{French_General_male_common}',
+    '81-100': '{French_General_male_uncommon}'
 }
 gen_data["French_General_female_name"] = {
-    '1-80': '{French_General_female_first_common}',
-    '81-100': '{French_General_female_first_uncommon}'
+    '1-80': '{French_General_female_common}',
+    '81-100': '{French_General_female_uncommon}'
 }
 
 
@@ -35,12 +35,12 @@ gen_data["Norman_female_uncommon"] = [
 ]
 
 gen_data["Norman_male_name"] = {
-    '1-80': '{Norman_male_first_common}',
-    '81-100': '{Norman_male_first_uncommon}'
+    '1-80': '{Norman_male_common}',
+    '81-100': '{Norman_male_uncommon}'
 }
 gen_data["Norman_female_name"] = {
-    '1-80': '{Norman_female_first_common}',
-    '81-100': '{Norman_female_first_uncommon}'
+    '1-80': '{Norman_female_common}',
+    '81-100': '{Norman_female_uncommon}'
 }
 
 
@@ -58,12 +58,12 @@ gen_data["Provençal_female_uncommon"] = [
 ]
 
 gen_data["Provençal_male_name"] = {
-    '1-80': '{Provençal_male_first_common}',
-    '81-100': '{Provençal_male_first_uncommon}'
+    '1-80': '{Provençal_male_common}',
+    '81-100': '{Provençal_male_uncommon}'
 }
 gen_data["Provençal_female_name"] = {
-    '1-80': '{Provençal_female_first_common}',
-    '81-100': '{Provençal_female_first_uncommon}'
+    '1-80': '{Provençal_female_common}',
+    '81-100': '{Provençal_female_uncommon}'
 }
 
 gen_data["French_male_name"] = {

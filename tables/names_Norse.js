@@ -12,12 +12,12 @@ gen_data["Norse_female_uncommon"] = [
 ]
 
 gen_data["Norse_male_name"] = {
-    '1-80': '{Norse_male_first_common}',
-    '81-100': '{Norse_male_first_uncommon}'
+    '1-80': '{Norse_male_common}',
+    '81-100': '{Norse_male_uncommon}'
 }
 gen_data["Norse_female_name"] = {
-    '1-80': '{Norse_female_first_common}',
-    '81-100': '{Norse_female_first_uncommon}'
+    '1-80': '{Norse_female_common}',
+    '81-100': '{Norse_female_uncommon}'
 }
 
 

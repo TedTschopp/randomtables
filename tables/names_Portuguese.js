@@ -7,8 +7,8 @@ gen_data["Portuguese_female_common"] = [
 
 
 gen_data["Portuguese_male_name"] = {
-    '1-80': '{Portuguese_male_first_common}'
+    '1-80': '{Portuguese_male_common}'
 }
 gen_data["Portuguese_female_name"] = {
-    '1-80': '{Portuguese_female_first_common}'
+    '1-80': '{Portuguese_female_common}'
 }

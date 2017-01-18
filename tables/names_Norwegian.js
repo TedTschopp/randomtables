@@ -6,10 +6,10 @@ gen_data["Norwegian_female_common"] = [
 ]
 
 gen_data["Norwegian_male_name"] = {
-    '1-80': '{Norwegian_male_first_common}'
+    '1-80': '{Norwegian_male_common}'
 }
 gen_data["Norwegian_female_name"] = {
-    '1-80': '{Norwegian_female_first_common}'
+    '1-80': '{Norwegian_female_common}'
 }
 
 
