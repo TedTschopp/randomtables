@@ -1145,7 +1145,7 @@ gen_data['EW'] = {
 }
 gen_data['CompassDirection'] = {
     '1-2': '{NS}',
-    '3-4': '{{ucfirst:{EW}}}'
+    '3-4': '{ucfirst:{EW}'
 }
 gen_data['CompassDirectionEight'] = {
     '1-4': '{CompassDirection}',
@@ -1828,7 +1828,7 @@ gen_data['Terrains'] = {
     '26-26': 'wasteland'
 }
 gen_data['TerrainsCap'] = {
-    '1-1': '{{ucfirst:{Terrains}}}'
+    '1-1': '{ucfirst:{Terrains}'
 }
 gen_data['CreatureTypes'] = {
     '1-7': 'Monstrous Humanoid',
@@ -7012,6 +7012,15 @@ gen_data['Inscription_Def_Noun'] = {
     '218': 'Wraith',
     '219': 'Wyvern',
 }
+
+gen_data['Inscription_Adj_Pos_Neg_Neut_None'] = {
+    '1-2': 'the {Inscription_Adj_Pos}',
+    '3': 'the {Inscription_Adj_Neg}',
+    '4-5': 'the {Inscription_Adj_Neut}',
+    '6-10' : ''
+}
+
+
 gen_data['Inscription_Adj_Pos_Neut'] = {
     '1-2': '{Inscription_Adj_Pos}',
     '3': '{Inscription_Adj_Neut}',
@@ -7547,7 +7556,7 @@ gen_data['Secret_Society_SecretSocietyName'] = {
     '56': '{Secret_Society_ODO} of St. {Secret_Society_Catholic Saint Names.main}',
 }
 gen_data['Secret_Society_TitleDescriptor'] = {
-    '1-10': 'Most {Secret_Society_TitleDescriptor}}',
+    '1-10': 'Most {Secret_Society_TitleDescriptor}',
     '11': 'Able',
     '12': 'Absolute',
     '13': 'Accepted',
@@ -11676,3 +11685,443 @@ gen_data['Occupation'] = {
 '184978-200728' : 'Clergy',
 '200729-201291' : 'Priest'
 }
+
+
+gen_data['Parable'] = {
+'1-3' : '<b>{Parable_Title}</b>: {Parable_Premise}',
+'4' : '<b>{Parable_Title}</b>: The moral of this story is “{Inscription_Advice}”'
+}
+gen_data['Parable_Title'] = {
+'1' : 'The {Parable_ti}'
+}
+gen_data['Parable_ti'] = {
+'1-2' : '{Parable_Beast} that {Parable_did_beast_thing}',
+'3-4' : '{Parable_Female_Person} who {Parable_did_Parable_Female_Person_thing}',
+'5-6' : '{Parable_Male_Person} who {Parable_did_Parable_Male_Person_thing}',
+'7' : '{Parable_Beast} and the {Parable_Beast}',
+'8' : '{Parable_Beast} and the {Parable_Object}',
+'9' : '{Parable_Nature} and the {Parable_Beast}',
+'10' : '{Parable_Nature} and the {Parable_Nature}',
+'11' : '{Parable_Originals}',
+'12' : '{Parable_Person} and the {Parable_Beast}',
+'13' : '{Parable_Person} and the {Parable_Nature}',
+'14' : '{Parable_Person} and the {Parable_Object}',
+'15' : '{Parable_Person} and the {Parable_Person}'
+}
+gen_data['Parable_Person'] = {
+'1' : '{Parable_Female_Person}',
+'2' : '{Parable_Male_Person}'
+}
+gen_data['Parable_Male_Person'] = {
+'1' : 'Beggar',
+'2' : 'Boy',
+'3' : 'Cobbler',
+'4' : 'Farmer',
+'5' : 'King',
+'6' : 'Man',
+'7' : 'Minstrel',
+'8' : 'Monk',
+'9' : 'Peasant',
+'10' : 'Prince',
+'11' : 'Sailor',
+'12' : 'Shepherd',
+'13' : 'Soldier',
+'14' : 'Tailor'
+}
+gen_data['Parable_Female_Person'] = {
+'1' : 'Abbess',
+'2' : 'Girl',
+'3' : 'Fishwife',
+'4' : 'Lady',
+'5' : 'Maiden',
+'6' : 'Nun',
+'7' : 'Princess',
+'8' : 'Queen',
+'9' : 'Woman'
+}
+gen_data['Parable_Beast'] = {
+'1' : 'Ant',
+'2' : 'Bear',
+'3' : 'Billy Goat',
+'4' : 'Bull',
+'5' : 'Butterfly',
+'6' : 'Cat',
+'7' : 'Caterpillar',
+'8' : 'Chicken',
+'9' : 'Cow',
+'10' : 'Crow',
+'11' : 'Dog',
+'12' : 'Donkey',
+'13' : 'Dove',
+'14' : 'Eagle',
+'15' : 'Fox',
+'16' : 'Frog',
+'17' : 'Goose',
+'18' : 'Grasshopper',
+'19' : 'Hare',
+'20' : 'Hawk',
+'21' : 'Hen',
+'22' : 'Horse',
+'23' : 'Lamb',
+'24' : 'Lion',
+'25' : 'Mouse',
+'26' : 'Owl',
+'27' : 'Ox',
+'28' : 'Pig',
+'29' : 'Rabbit',
+'30' : 'Ram',
+'31' : 'Rooster',
+'32' : 'Scorpion',
+'33' : 'Swan',
+'34' : 'Tortoise',
+'35' : 'Turkey',
+'36' : 'Wolf'
+}
+gen_data['Parable_Object'] = {
+'1' : 'Blacksmith',
+'2' : 'Bread',
+'3' : 'Grapes',
+'4' : 'Hay Wain',
+'5' : 'Honey',
+'6' : 'Kettle',
+'7' : 'Oven',
+'8' : 'Oxcart',
+'9' : 'Pitcher',
+'10' : 'Pitchfork',
+'11' : 'Road',
+'12' : 'Rosebush',
+'13' : 'Stone Wall'
+}
+gen_data['Parable_did_thing'] = {
+'1' : 'lived with the {Parable_Beast}',
+'2' : 'made fun of the {Parable_Beast}',
+'3' : 'wanted to be a {Parable_Beast}',
+'4' : 'wanted to be a {Parable_Person}'
+}
+gen_data['Parable_did_beast_thing'] = {
+'1-3' : '{Parable_did_thing}',
+'4' : 'thought it was a {Parable_Beast}',
+'5' : 'wished it were the {Parable_Nature}'
+}
+gen_data['Parable_did_Parable_Male_Person_thing'] = {
+'1-3' : '{Parable_did_thing}',
+'4' : 'thought he was a {Parable_Beast}',
+'5' : 'wished he were the {Parable_Nature}'
+}
+gen_data['Parable_did_Parable_Female_Person_thing'] = {
+'1-3' : '{Parable_did_thing}',
+'4' : 'thought she was a {Parable_Beast}',
+'5' : 'wished she were the {Parable_Nature}'
+}
+gen_data['Parable_Nature'] = {
+'1-3' : '{CompassDirection} Wind',
+'4' : 'Autumn',
+'5' : 'Clouds',
+'6' : 'Darkness',
+'7' : 'Day',
+'8' : 'Moon',
+'9' : 'Mountain',
+'10' : 'Night',
+'11' : 'Rain',
+'12' : 'Sea',
+'13' : 'Snow',
+'14' : 'Springtime',
+'15' : 'Stars',
+'16' : 'Summer',
+'17' : 'Sun',
+'18' : 'Thunder',
+'19' : 'Trees',
+'20' : 'Winter'
+}
+gen_data['Parable_Originals'] = {
+'1' : 'Ant and the Grasshopper',
+'2' : 'Boy Who Cried Wolf',
+'3' : 'Crow and the Pitcher',
+'4' : 'Dog in the Manger',
+'5' : 'Dog and the Bone',
+'6' : 'Fox and the Grapes',
+'7' : 'Frog and the Ox',
+'8' : 'Frogs Who Desired a King',
+'9' : 'Goose that Laid the Golden Eggs',
+'10' : 'Lion and the Mouse',
+'11' : 'North Wind and the Sun',
+'12' : 'Scorpion and the Frog',
+'13' : 'Tortoise and the Hare',
+'14' : 'Town Mouse and the Country Mouse',
+'15' : 'Wolf in Sheep’s Clothing'
+}
+gen_data['Parable_hc'] = {
+'1' : 'How can'
+}
+gen_data['Parable_kw'] = {
+'1' : 'know what is best for'
+}
+gen_data['Parable_mi'] = {
+'1' : 'more important than'
+}
+gen_data['Parable_wi'] = {
+'1' : 'When is it'
+}
+gen_data['Parable_wm'] = {
+'1' : 'What makes'
+}
+gen_data['Parable_ws'] = {
+'1' : 'Why should you serve'
+}
+gen_data['Parable_Premise'] = {
+'1-10' : 'Why is {Parable_Ideal} {Parable_mi} {Parable_Ideal}?',
+'11-15' : 'What is the price of {Parable_Ideal}?',
+'16-20' : '{Parable_wm} us worthy of {Parable_Ideal}?',
+'21-24' : 'Who is deserving of {Parable_Ideal}?',
+'25' : '{Parable_hc} a student {Parable_kw} his teacher?',
+'26' : '{Parable_hc} a teacher {Parable_kw} the student?',
+'27' : '{Parable_hc} we recognize true {Parable_Ideal}?',
+'28' : '{Parable_hc} you show compassion to your enemy?',
+'29' : '{Parable_hc} you show disapproval to your friend?',
+'30' : 'Is it better to be judged by your {Parable_Ideal}, or your {Parable_Ideal}?',
+'31' : 'To what point should you remain loyal to your family?',
+'32' : '{Parable_wm} a bad leader?',
+'33' : '{Parable_wm} a good leader?',
+'34' : '{Parable_wm} us worthy?',
+'35' : '{Parable_wi} right to use force?',
+'36' : '{Parable_wi} wrong to speak the truth?',
+'37' : 'Why is duty {Parable_mi} honor?',
+'38' : 'Why is honor {Parable_mi} duty?',
+'39' : 'Why is who you are {Parable_mi} what you are?',
+'40' : '{Parable_ws} others before yourself?',
+'41' : '{Parable_ws} yourself before others?'
+}
+gen_data['Parable_Ideal'] = {
+'1' : 'beauty',
+'2' : 'compassion',
+'3' : 'desire',
+'4' : 'desire for acceptance',
+'5' : 'devotion to a cause',
+'6' : 'duty',
+'7' : 'family',
+'8' : 'fear of death',
+'9' : 'following orders',
+'10' : 'following the law',
+'11' : 'following your dreams',
+'12' : 'forgiving another',
+'13' : 'freedom',
+'14' : 'happiness',
+'15' : 'helping others',
+'16' : 'honesty',
+'17' : 'honor',
+'18' : 'instinct',
+'19' : 'invention',
+'20' : 'justice',
+'21' : 'keeping a promise',
+'22' : 'keeping your dignity',
+'23' : 'keeping your word',
+'24' : 'learning',
+'25' : 'loyalty',
+'26' : 'maintaining your station in life',
+'27' : 'mercy',
+'28' : 'passion',
+'29' : 'poverty',
+'30' : 'power',
+'31' : 'preserving the life of another',
+'32' : 'pride',
+'33' : 'protecting those you love',
+'34' : 'religious conviction',
+'35' : 'reputation',
+'36' : 'respect',
+'37' : 'revenge',
+'38' : 'romantic attraction',
+'39' : 'security',
+'40' : 'society’s expectations',
+'41' : 'the truth',
+'42' : 'true love',
+'43' : 'vigilance',
+'44' : 'virtue',
+'45' : 'wealth',
+'46' : 'wisdom'
+}
+
+/*
+
+
+
+LOVE Story
+
+
+
+*/
+
+
+
+
+gen_data['Love_Story']=[
+'{Love_Story_Type}: The tale begins with a {Love_Story_Start} {Love_Story_Occupation} who meets a {Love_Story_Meets_A} {Love_Story_Meets_A_Occupation} and {Love_Story_And_They} {Love_Story_He_She} is impressed by {Love_Story_Impressed_By}  They can not be together because {Love_Story_But_It_Can_Not_Be}  However, they get help from a {Love_Story_With_Help_From} giving them a chance to live happily ever after.' 
+]
+
+gen_data['Love_Story_He_She']=[
+'He',
+'She'
+]
+
+gen_data['Love_Story_Type'] = [
+'A fairy tale',
+'A tragic play',
+'A comedic play',
+'A campfire story',
+'A sappy love song',
+'A heroic ballad',
+'A romantic serenade',
+'A bawdy drinking song',
+'An epic poem',
+'An erotic poem'
+]
+
+gen_data['Love_Story_Start'] = [
+'brilliant',
+'brash',
+'dashing',
+'dim-witted',
+'drunken',
+'fearless',
+'handsome',
+'heartsick',
+'long-haired',
+'mighty',
+'mischievous',
+'mustachioed',
+'old',
+'pious',
+'poor',
+'quick-witted',
+'self-righteous',
+'ugly',
+'wealthy',
+'young'
+]
+gen_data['Love_Story_Occupation'] = [
+'Duke',
+'Dwarf',
+'Farmer',
+'Fisherman',
+'King',
+'Knight',
+'Lord',
+'Merchant',
+'Miner',
+'Ogre',
+'Priest',
+'Prince',
+'Sailor',
+'Sheepherder',
+'Singer',
+'Soldier',
+'Thief',
+'Warrior',
+'Wizard',
+'Woodsman'
+]
+gen_data['Love_Story_Meets_A'] = [
+'aging',
+'beautiful',
+'bellicose',
+'eager',
+'fair',
+'fat',
+'fierce',
+'free-spirited',
+'friendly',
+'kind-hearted',
+'mysterious',
+'naive',
+'prim and proper',
+'selfish',
+'shy',
+'sultry',
+'sweet',
+'tall',
+'virtuous',
+'voluptuous'
+]
+gen_data['Love_Story_Meets_A_Occupation'] = [
+'Barmaid',
+'Dancer',
+'Debutante',
+'Duchess',
+'Dryad',
+'Dwarf-maid',
+'Elf-maid',
+'Farmwife',
+'Fisherman’s wife',
+'Fortune teller',
+'Noblewoman',
+'Pixie',
+'Peasant girl',
+'Priestess',
+'Princess',
+'Queen',
+'Seamstress',
+'Shieldmaiden',
+'Sorceress',
+'Witch'
+]
+gen_data['Love_Story_And_They'] = [
+'They fall in love in a dream.',
+'They fall in love at first sight.',
+'He plays it cool.',
+'She is coy.',
+'He makes a move.',
+'She seduces him.',
+'He is very shy.',
+'He and she argue.',
+'He is intimidated by her.',
+'She is frightened of him.'
+]
+gen_data['Love_Story_Impressed_By'] = [
+'An alchemical fire.',
+'A display of archery.',
+'A sparkly gemstone.',
+'An act of kindness.',
+'Passionate kisses.',
+'A display of knowledge.',
+'A display of swordplay.',
+'A display of freakish strength.',
+'A shiny trinket.',
+'A witty remark.',
+]
+
+gen_data['Love_Story_But_It_Can_Not_Be'] = [
+'she’s been cursed.',
+'she’s been kidnapped by a dragon.',
+'her family does not approve of him.',
+'she’s actually a ghost.',
+'she’s caught the plague.',
+'of religious custom.',
+'of societal norms.',
+'he’s actually a vampire.',
+'he’s actually a werewolf.',
+'she’s being held captive by a hag.'
+]
+
+
+gen_data['Love_Story_With_Help_From'] = [
+'Guardian angel,',
+'Case of mistaken identities,',
+'Book of secret lore,',
+'Ancient prophecy,',
+'Deal with a devil,',
+'Courageous dog,',
+'Powerful genie,',
+'Retired hero,',
+'Unstoppable horse,',
+'Faerie’s spell,',
+'Catastrophic flood,',
+'Talking pig,',
+'Smelly pirate,',
+'Magical potion,',
+'Ring of invisibility,',
+'Lovable rogue,',
+'Fun-loving satyr,',
+'Show-stopping song,',
+'Legendary sword,',
+'Eccentric wizard,'
+]
+
