@@ -1,3 +1,8 @@
+gen_data['Gamma_World_Adventure'] = [
+	'The team is hired to scout out a {GWLocation] that is {GWCondition} however {GWDilemma}. While in route they will run into group of {GWCultureStructure} {GWDemiHumanity} who are focused on {GWCulturePurposeEconomy}.  They live in a {GWLocation} called {GWCityFirstName}{GWCitySecondName} that is {GWCitySpecialCondition}.  In route they will be ambushed by a group of {GWCultureStructure} {GWDemiHumanity} who are focused on {GWCulturePurposeEconomy} at a {GWTerrain} and {GWRuse}.'
+]
+
+
 gen_data['GWLocation'] = [
 'House',
 'Camp Site',
@@ -633,7 +638,7 @@ gen_data[' GWDemiHumanity'] = [
 'Robotic'
 ]
 gen_data['GWCultureStructure'] = [
-'Anarchy',
+'Anarchistic',
 'Democratic',
 'Tribal',
 'Capitalistic',
@@ -642,17 +647,7 @@ gen_data['GWCultureStructure'] = [
 'Theocratic',
 'Militaristic',
 'Imperialistic',
-'Sovereignty',
-'Anarchy',
-'Democratic',
-'Tribal',
-'Capitalistic',
-'Socialistic',
-'Minimalistic',
-'Theocratic',
-'Militaristic',
-'Imperialistic',
-'Sovereignty'
+'Sovereign',
 ]
 gen_data['GWCulturePurposeEconomy'] = [
 'Agriculture',
