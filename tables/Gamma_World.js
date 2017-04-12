@@ -513,7 +513,7 @@ gen_data['GWCitySecondName'] = [
 ' Wall',
 ' Quarry'
 ]
-gen_data[' GWCitySpecialCondition'] = [
+gen_data['GWCitySpecialCondition'] = [
 'well and stable.',
 'suffering from an outbreak of disease.',
 'troubled with spreading fires.',
@@ -615,7 +615,7 @@ gen_data[' GWCitySpecialCondition'] = [
 'overrun with mind-controlling cerebral growths.',
 'not a town, but an alien starship.'
 ]
-gen_data[' GWDemiHumanity'] = [
+gen_data['GWDemiHumanity'] = [
 'Humans',
 'Humans',
 'Humans',
