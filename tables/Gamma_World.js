@@ -617,25 +617,11 @@ gen_data['GWCitySpecialCondition'] = [
 ]
 gen_data['GWDemiHumanity'] = [
 'Humans',
-'Humans',
-'Humans',
-'Humans',
-'Mild Mutant',
-'Mild Mutant',
-'Mild Mutant',
-'Mild Mutant',
-'Moderate Mutant',
-'Moderate Mutant',
-'Moderate Mutant',
-'Moderate Mutant',
-'Severe Mutant',
-'Severe Mutant',
-'Severe Mutant',
-'Severe Mutant',
-'Robotic',
-'Robotic',
-'Robotic',
-'Robotic'
+'Mild Mutants',
+'Moderate Mutants',
+'Severe Mutants',
+'Robots',
+'Androids'
 ]
 gen_data['GWCultureStructure'] = [
 'Anarchistic',
