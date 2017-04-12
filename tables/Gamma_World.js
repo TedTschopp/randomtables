@@ -657,7 +657,7 @@ gen_data['GWCulturePurposeEconomy'] = [
 'Expansion',
 'Technologists'
 ]
-gen_data['GWTerrain '] = [
+gen_data['GWTerrain'] = [
 'Flat Valley',
 'Narrow Pass',
 'Wide Pass',
