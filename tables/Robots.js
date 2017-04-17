@@ -1,7 +1,5 @@
 gen_data['NPC_Robot'] = {
-	'1' : 'This robot moves using {NPC_Robot_Locomotion}.  The robot has {NPC_Robot_Armor} and is powered by {NPC_Robot_Power_Source}.  The robot is equpit with {NPC_Robot_Arms} wielding {NPC_Robot_Weapon}.  The robot has the following class sensors: H (human audio and visual) {NPC_Robot_Sensors}.  The enhancement package includes: {NPC_Cyborg_Enhancements}.  The robot is also equpit with: {NPC_Cyborg_Misc}.
-	
-	'
+	'1' : 'This robot moves using {NPC_Robot_Locomotion}.  The robot has {NPC_Robot_Armor} and is powered by {NPC_Robot_Power_Source}.  The robot is equpit with {NPC_Robot_Arms} wielding {NPC_Robot_Weapon}.  The robot has the following class sensors: H (human audio and visual) {NPC_Robot_Sensors}.  The enhancement package includes: {NPC_Cyborg_Enhancements}.  The robot is also equpit with: {NPC_Cyborg_Misc}.'
 }
 
 
