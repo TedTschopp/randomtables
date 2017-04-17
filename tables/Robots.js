@@ -99,13 +99,13 @@ gen_data['PC_Cyborg_Limbs'] = {
 }
 gen_data['PC_Robot_Arms'] = {
     '1-50': 'Humanoid arms',
-    '51-60': 'Specialized inside the arms',
+    '51-60': 'Specialized limbs',
     '61-90': 'Tentacles',
     '91-100': 'Specialized Tools instead of arms'
 }
 gen_data['NPC_Robot_Arms'] = {
     '1-30': 'Humanoid arms',
-    '31-60': 'Specialized inside the arms',
+    '31-60': 'Specialized limbs',
     '61-90': 'Tentacles',
     '91-100': 'Specialized Tools instead of arms'
 }
@@ -350,8 +350,5 @@ gen_data['NPC_Cyborg_Misc_Extra'] = {
     '53-54' : 'Robot Summoning',
     '55' : 'Robot Summoning / Command',
     '56-70' : 'Tools',
-    '71-80' : 'Tractor / Presser Beam',
-    '81-90' : '3 additional items',
-    '91-96' : '4 additional items',
-    '97-100' : '4 additional items'
+    '71-80' : 'Tractor / Presser Beam'
 }
