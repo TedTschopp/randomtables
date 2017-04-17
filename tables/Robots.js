@@ -39,8 +39,8 @@ gen_data['PC_Robot_Armor'] = {
 }
 gen_data['NPC_Robot_Armor'] = {
 	'01-25': 'no additional armor',
-	'26-40': '+1 AC armor'
-	'41-50': '+2 AC armor' 
+	'26-40': '+1 AC armor',
+	'41-50': '+2 AC armor',
     '51-55': 'Camouflage Armor',
     '56-60': 'an energy dampening field',
     '61-70': 'an energy field generator',
@@ -330,7 +330,7 @@ gen_data['NPC_Cyborg_Misc'] = {
     '56-70' : 'Tools',
     '71-80' : 'Tractor / Presser Beam',
     '81-90' : '{NPC_Cyborg_Misc_Extra} and {NPC_Cyborg_Misc_Extra}',
-    '91-96' : '{NPC_Cyborg_Misc_Extra}, {NPC_Cyborg_Misc_Extra}, and {NPC_Cyborg_Misc_Extra}'
+    '91-96' : '{NPC_Cyborg_Misc_Extra}, {NPC_Cyborg_Misc_Extra}, and {NPC_Cyborg_Misc_Extra}',
     '97-100' : '{NPC_Cyborg_Misc_Extra} {NPC_Cyborg_Misc_Extra}, {NPC_Cyborg_Misc_Extra}, and {NPC_Cyborg_Misc_Extra}'
 }
 gen_data['NPC_Cyborg_Misc_Extra'] = {
@@ -352,6 +352,6 @@ gen_data['NPC_Cyborg_Misc_Extra'] = {
     '56-70' : 'Tools',
     '71-80' : 'Tractor / Presser Beam',
     '81-90' : '3 additional items',
-    '91-96' : '4 additional items'
+    '91-96' : '4 additional items',
     '97-100' : '4 additional items'
 }
