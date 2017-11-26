@@ -67,28 +67,26 @@ gen_data["Roman_male_name"] = {
 /*
     Female Names
     In Classical Rome, women did not use the tria nomina. 
-    At the start, they used only the female form of their father’s nomen. 
+    At the start, they used only the female form of their fatherÂ’s nomen. 
     To distinguish between daughters who otherwise would have the same name, 
         two could be called maior and minor (elder and younger), and more than that told apart by 
         ordinal numbers. 
     For instance, a second daughter in a family from the gens Antonius might be Antonia Minor, 
         and a fourth daughter from the gens Lucretius might be Lucretia Quarta. 
         By the end of the Republic, a woman usually had two names, the feminine forms of her 
-        father’s nomen and cognomen. For instance, the daughter of Quintus Caecilius Metellus 
+        fatherÂ’s nomen and cognomen. For instance, the daughter of Quintus Caecilius Metellus 
         was Caecilia Metella. A woman did not gain her own cognomen, but on 
-        marriage she might add the genitive form of her husband’s cognomen to her name. 
+        marriage she might add the genitive form of her husbandÂ’s cognomen to her name. 
         When Caecilia Metella married Publius Licinius Crassus, she became Caecilia 
         Metella Crassi.
     
     To construct a name for a female Roman citizen, first choose either a nomen or a nomen and cognomen: 
-    her father’s if his name has already been assigned. Add a birth-order name 
+    her fatherÂ’s if his name has already been assigned. Add a birth-order name 
     (maior, minor, or an ordinal) if she has sisters and is unmarried, 
     then change the endings to feminine form. 
     In general, the masculine -us, -o, -a changes to feminine -a, -a, -ina, respectively, 
     as in Iulius/Iulia, Scipio/ Scipia and Agrippa/Agrippina. 
     Such a name might be made a diminutive by adding -illa to the stem of the nomen or 
     cognomen: Drusus/Drusa/Drusilla, Cato/Cata/Catilla. For a married woman, add -i to the 
-    stem of her husband’s cognomen to form the last part of her name.
-
-
+    stem of her husbandÂ’s cognomen to form the last part of her name.
     */
