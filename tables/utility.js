@@ -11710,7 +11710,7 @@ OCCUPATIONS BASED ON THE DOOMS DAY BOOK
 */
 
 gen_data['Occupation'] = {
-'1-134379' : 'Farmer',
+'1-134379' : '{Occupation_Farmers} Farmer',
 '134380-138580' : 'Shoemakers',
 '138581-141101' : 'Furriers',
 '141102-143622' : 'Maidservants',
@@ -11769,4 +11769,15 @@ gen_data['Occupation'] = {
 '184815-184977' : 'Illuminators',
 '184978-200728' : 'Clergy',
 '200729-201291' : 'Priest'
+}
+
+gen_data['Occupation_Farmers'] = {
+'1-50' : 'Barley',
+'51-75' : 'Wheat',
+'76-80' : 'Oats',
+'81-85' : 'Peas and beans',
+'86-90' : 'Rye',
+'91-93' : 'Flax',
+'94-96' : 'Apples',
+'97-100' : 'Vegetables'
 }
