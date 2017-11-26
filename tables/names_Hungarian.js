@@ -1,8 +1,8 @@
 gen_data["Hungarian_male_common"] = [
-'Ambrus', 'Andr·s', 'Antal', 'Bal·zs', 'B·lint', 'Benedek', 'Ferenc', 'Gergely', 'Gyˆrgy', 'Imre', 'Istv·n', 'J·nos', 'L·szlÛ', 'M·tÈ', 'M·ty·s', 'Mih·ly', 'MiklÛs', 'P·l', 'PÈter', 'Tam·s'
+'Ambrus', 'Andr√°s', 'Antal', 'Bal√°zs', 'B√°lint', 'Benedek', 'Ferenc', 'Gergely', 'Gy√∂rgy', 'Imre', 'Istv√°n', 'J√°nos', 'L√°szl√≥', 'M√°t√©', 'M√°ty√°s', 'Mih√°ly', 'Mikl√≥s', 'P√°l', 'P√©ter', 'Tam√°s'
 ]
 gen_data["Hungarian_female_common"] = [
-'Ade', 'Ag·ta', 'Anna', 'Borb·la', 'Dorottya', 'ErzsÈbet', 'HelÈna', 'Ilona', 'Irisko', 'JÛzsa', 'Katalin', 'Katherina', 'Kl·ra', 'Krisztina', 'Magdolna', 'MargarÈta', 'Orsolya', 'S·ra', 'ZsÛfia', 'Zsuzsanna'
+'Ade', 'Ag√°ta', 'Anna', 'Borb√°la', 'Dorottya', 'Erzs√©bet', 'Hel√©na', 'Ilona', 'Irisko', 'J√≥zsa', 'Katalin', 'Katherina', 'Kl√°ra', 'Krisztina', 'Magdolna', 'Margar√©ta', 'Orsolya', 'S√°ra', 'Zs√≥fia', 'Zsuzsanna'
 ]
 
 gen_data["Hungarian_male_name"] = {
