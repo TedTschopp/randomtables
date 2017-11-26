@@ -74,5 +74,6 @@ gen_data['Occupation_Farmers'] = {
 '86-90' : 'Rye',
 '91-93' : 'Flax',
 '94-96' : 'Apples',
-'97-100' : 'Vegetables'
+'97-100' : 'Vegetables',
+'101-300' : ''
 }
