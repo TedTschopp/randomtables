@@ -5,7 +5,6 @@ gen_data["Germanic_female_single_base"] = [
     'Adal', 'Alb', 'Ase', 'Ger', 'Hild', 'Irmin', 'Liud', 'Magin', 'Ragin', 'Ric', 'Sig', 'Thiad'
 ]
 
-
 gen_data["Germanic_male_single"] = {
     '1' :  '{Germanic_male_single_base}la',
     '2' :  '{Germanic_male_single_base}linus',
@@ -49,8 +48,6 @@ gen_data["Germanic_female_first_noncommon"] = [
 gen_data["Germanic_female_second_noncommon"] = [
     'bald', 'bern', 'brun', 'burg', 'child', 'fled', 'gard', 'geb', 'gisel', 'heid', 'hild', 'liaf', 'lin', 'lind', 'loga', 'mud', 'mund', 'rad', 'swind', 'tet', 'trud', 'wal', 'wer', 'wich', 'win', 'wive', 'za'
 ]
-
-
 
 
 gen_data["Germanic_male_dual"] = {
