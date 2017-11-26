@@ -1,14 +1,14 @@
 gen_data["Spanish_male_common"] = [
-'Alonso', 'Diego', 'Ferando', 'Francisco', 'GonÁalo', 'Guillem', 'Juan', 'Martin', 'Pedro', 'Rodrigo'
+'Alonso', 'Diego', 'Ferando', 'Francisco', 'Gon√ßalo', 'Guillem', 'Juan', 'Martin', 'Pedro', 'Rodrigo'
 ]
 gen_data["Spanish_male_uncommon"] = [
-'Adulfo', 'AguilÛ', 'Agustin', 'Alexandre', 'Alfonso', 'Alonso', 'Alvar', 'Andreu', 'Anselmo', 'Ansuro', 'AntÛn', 'Arias', 'Arnao', 'Auderico', 'Baltasar', 'Bartolome', 'Bello', 'Beltr·n', 'Bernat', 'Bertran', 'Cabreta', 'Carlos', 'Cervari', 'Cristoval', 'Diego', 'Domingo', 'EderoÒo', 'Enrique', 'Ermegildo', 'Escobar', 'Estevan', 'Fadrique', 'Fagildo', 'Feliu', 'Ferando', 'Folc', 'Francisco', 'Froila', 'Galindo', 'GarÁia', 'Gelmiro', 'GenÌs', 'Gil', 'Gilabert', 'Gomes', 'Guera', 'GuifrÈ', 'Guillem', 'Gutierre', 'Hug', 'IÒigo', 'Jacinto', 'Jaume', 'Joan', 'JoaquÌm', 'Jordi', 'Jorge', 'Josep', 'Juan', 'Julian', 'Just', 'LorenÁ', 'Luys', 'Manuel', 'Marc˙Á', 'Martin', 'Menendo', 'Miguel', 'MirÛ', 'MuÒo', 'NarcÌs', 'Nunyo', 'Oleguer', 'Oliba', 'OrdoÒo', 'Osmundo', 'Osoro', 'Pau', 'Pedro', 'Pere', 'Poc', 'PonÁ', 'Ramiro', 'Ramon', 'Roderigo', 'Rodrigo', 'Ruy', 'Sabastian', 'SalvadÛr', 'SunifrÈ', 'Telo', 'Tom·s', 'Trist·n', 'Vedillo', 'Vermudo', 'ViÁente', 'Vimaro', 'Vistruario'
+'Adulfo', 'Aguil√≥', 'Agustin', 'Alexandre', 'Alfonso', 'Alonso', 'Alvar', 'Andreu', 'Anselmo', 'Ansuro', 'Ant√≥n', 'Arias', 'Arnao', 'Auderico', 'Baltasar', 'Bartolome', 'Bello', 'Beltr√°n', 'Bernat', 'Bertran', 'Cabreta', 'Carlos', 'Cervari', 'Cristoval', 'Diego', 'Domingo', 'Edero√±o', 'Enrique', 'Ermegildo', 'Escobar', 'Estevan', 'Fadrique', 'Fagildo', 'Feliu', 'Ferando', 'Folc', 'Francisco', 'Froila', 'Galindo', 'Gar√ßia', 'Gelmiro', 'Gen√≠s', 'Gil', 'Gilabert', 'Gomes', 'Guera', 'Guifr√©', 'Guillem', 'Gutierre', 'Hug', 'I√±igo', 'Jacinto', 'Jaume', 'Joan', 'Joaqu√≠m', 'Jordi', 'Jorge', 'Josep', 'Juan', 'Julian', 'Just', 'Loren√ß', 'Luys', 'Manuel', 'Marc√∫√ß', 'Martin', 'Menendo', 'Miguel', 'Mir√≥', 'Mu√±o', 'Narc√≠s', 'Nunyo', 'Oleguer', 'Oliba', 'Ordo√±o', 'Osmundo', 'Osoro', 'Pau', 'Pedro', 'Pere', 'Poc', 'Pon√ß', 'Ramiro', 'Ramon', 'Roderigo', 'Rodrigo', 'Ruy', 'Sabastian', 'Salvad√≥r', 'Sunifr√©', 'Telo', 'Tom√°s', 'Trist√°n', 'Vedillo', 'Vermudo', 'Vi√ßente', 'Vimaro', 'Vistruario'
 ]
 gen_data["Spanish_female_common"] = [
-'Beatriz', 'Catalina', 'Francisca', 'IÒes', 'Isabel', 'Juana', 'Leonor', 'MarÌa', 'Onneca', 'Urraca'
+'Beatriz', 'Catalina', 'Francisca', 'I√±es', 'Isabel', 'Juana', 'Leonor', 'Mar√≠a', 'Onneca', 'Urraca'
 ]
 gen_data["Spanish_female_uncommon"] = [
-'Agata', 'AldonÁa', 'Aldonza', 'Almodis', 'Angel', 'Antonia', 'Aurembiaix', 'Beatriz', 'Berenguaria', 'Blanca', 'Castellana', 'Catalina', 'Caterina', 'Clara', 'ConstanÁa', 'Cristina', 'Crus', 'Elena', 'Elicsenda', 'Elionor', 'Elo', 'Enderquina', 'EngraÁia', 'Ermengarda', 'Estefania', 'Eugeni', 'Eul‡lia', 'Eva', 'Felipa', 'Francisca', 'Fronilde', 'Geronima', 'GraÁia', 'Gregoria', 'G¸elfa', 'Guiomar', 'Guntroda', 'Ildaria', 'IÒes', 'Isabel', 'Jimena', 'Joana', 'Juana', 'Leonor', 'Lupaa', 'Luzia', 'Madelena', 'Mafalda', 'Manuela', 'Margarida', 'Mari', 'MarÌa', 'Marina', 'Mata', 'Mayor', 'Mencia', 'Olalla', 'Pascuala', 'Paterna', 'Petronilla', 'Rois', 'SanÁa', 'Serena', 'Sibilla', 'Tegrida', 'Teresa', 'Violante'
+'Agata', 'Aldon√ßa', 'Aldonza', 'Almodis', 'Angel', 'Antonia', 'Aurembiaix', 'Beatriz', 'Berenguaria', 'Blanca', 'Castellana', 'Catalina', 'Caterina', 'Clara', 'Constan√ßa', 'Cristina', 'Crus', 'Elena', 'Elicsenda', 'Elionor', 'Elo', 'Enderquina', 'Engra√ßia', 'Ermengarda', 'Estefania', 'Eugeni', 'Eul√†lia', 'Eva', 'Felipa', 'Francisca', 'Fronilde', 'Geronima', 'Gra√ßia', 'Gregoria', 'G√ºelfa', 'Guiomar', 'Guntroda', 'Ildaria', 'I√±es', 'Isabel', 'Jimena', 'Joana', 'Juana', 'Leonor', 'Lupaa', 'Luzia', 'Madelena', 'Mafalda', 'Manuela', 'Margarida', 'Mari', 'Mar√≠a', 'Marina', 'Mata', 'Mayor', 'Mencia', 'Olalla', 'Pascuala', 'Paterna', 'Petronilla', 'Rois', 'San√ßa', 'Serena', 'Sibilla', 'Tegrida', 'Teresa', 'Violante'
 ]
 
 gen_data["Spanish_male_name"] = {
@@ -22,16 +22,16 @@ gen_data["Spanish_female_name"] = {
 
 
 gen_data["Basque_male_common"] = [
-'Alonso', 'Diego', 'Ferando', 'Francisco', 'GonÁalo', 'Guillem', 'Juan', 'Martin', 'Pedro', 'Rodrigo'
+'Alonso', 'Diego', 'Ferando', 'Francisco', 'Gon√ßalo', 'Guillem', 'Juan', 'Martin', 'Pedro', 'Rodrigo'
 ]
 gen_data["Basque_male_uncommon"] = [
-'Atila', 'Ato', 'Azenar', 'Aznaro', 'Belazo', 'Braulio', 'Centolle', 'Chorso', 'Didaco', 'Eukeni', 'Ezterio', 'Fern·n', 'Fort˙n', 'Galindo', 'GarzÈa', 'Gazo', 'Giderio', 'GonÁalo', 'Herri', 'IÒaki', 'IÒigo', 'Jimeno', 'Lope', 'Lugo', 'Mome', 'Monio', 'Munnico', 'Nunas', 'Oriollus', 'Ortio', 'Otso', 'PÈre', 'Raimundo', 'Ramiro', 'Sancho', 'Sidoc', 'Taio', 'Tomas', 'Velazquo', 'Vigala', 'Vincomal'
+'Atila', 'Ato', 'Azenar', 'Aznaro', 'Belazo', 'Braulio', 'Centolle', 'Chorso', 'Didaco', 'Eukeni', 'Ezterio', 'Fern√°n', 'Fort√∫n', 'Galindo', 'Garz√©a', 'Gazo', 'Giderio', 'Gon√ßalo', 'Herri', 'I√±aki', 'I√±igo', 'Jimeno', 'Lope', 'Lugo', 'Mome', 'Monio', 'Munnico', 'Nunas', 'Oriollus', 'Ortio', 'Otso', 'P√©re', 'Raimundo', 'Ramiro', 'Sancho', 'Sidoc', 'Taio', 'Tomas', 'Velazquo', 'Vigala', 'Vincomal'
 ]
 gen_data["Basque_female_common"] = [
-'Beatriz', 'Catalina', 'Francisca', 'IÒes', 'Isabel', 'Juana', 'Leonor', 'MarÌa', 'Onneca', 'Urraca'
+'Beatriz', 'Catalina', 'Francisca', 'I√±es', 'Isabel', 'Juana', 'Leonor', 'Mar√≠a', 'Onneca', 'Urraca'
 ]
 gen_data["Basque_female_uncommon"] = [
-'Acibella', 'Ana', 'Andregoto', 'Assona', 'Bella', 'Blanche', 'Blasquita', 'Brisca', 'Egeria', 'Elvira', 'Estefania', 'Faquilo', 'Fausta', 'Galga', 'Gayla', 'IÒiga', 'Jimena', 'Magelina', 'MarÌa', 'Munia', 'Nina', 'Onecha', 'Onneca', 'Quisilo', 'Sancha', 'Sanza', 'Teresa', 'Toda', 'Tota', 'Urraca'
+'Acibella', 'Ana', 'Andregoto', 'Assona', 'Bella', 'Blanche', 'Blasquita', 'Brisca', 'Egeria', 'Elvira', 'Estefania', 'Faquilo', 'Fausta', 'Galga', 'Gayla', 'I√±iga', 'Jimena', 'Magelina', 'Mar√≠a', 'Munia', 'Nina', 'Onecha', 'Onneca', 'Quisilo', 'Sancha', 'Sanza', 'Teresa', 'Toda', 'Tota', 'Urraca'
 ]
 
 gen_data["Basque_male_name"] = {
@@ -42,6 +42,3 @@ gen_data["Basque_female_name"] = {
     '1-80': '{Basque_female_common}',
     '81-100': '{Basque_female_uncommon}'
 }
-
-
-
