@@ -1,10 +1,9 @@
 gen_data["Portuguese_male_common"] = [
-'Afonso', 'Alvaro', 'Fernam', 'Gomez', 'Gonçallo', 'Joham', 'Lourenço', 'Martim', 'Pedro', 'Rodrigo', 'Rui', 'Vaasco'
+'Afonso', 'Alvaro', 'Fernam', 'Gomez', 'GonÃ§allo', 'Joham', 'LourenÃ§o', 'Martim', 'Pedro', 'Rodrigo', 'Rui', 'Vaasco'
 ]
 gen_data["Portuguese_female_common"] = [
-'Aldonça', 'Biringeira', 'Branca', 'Briatiz', 'Catalina', 'Costança', 'Enes', 'Isabell', 'Lianor', 'Maria', 'Tareija', 'Violante'
+'AldonÃ§a', 'Biringeira', 'Branca', 'Briatiz', 'Catalina', 'CostanÃ§a', 'Enes', 'Isabell', 'Lianor', 'Maria', 'Tareija', 'Violante'
 ]
-
 
 gen_data["Portuguese_male_name"] = {
     '1-80': '{Portuguese_male_common}'
