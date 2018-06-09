@@ -120,6 +120,11 @@
 				OutputField.innerHTML = Output.join("\n")
 			}
 			more_random();
+			
+			var myJSON = JSON.stringify(gen_data);
+			document.getElementById("TableOutput").innerHTML = myJSON;
+
+
 	</script>
 </body>
 
