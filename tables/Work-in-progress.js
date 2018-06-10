@@ -38,10 +38,10 @@ gen_data["WFeatures"] = {
 }
 
 gen_data["stonedesc"] = {
-	'1-2' : '{stone-only}',
-	'3-4' : '{ps-desc}',
+	'1-2' : '{stoneonly}',
+	'3-4' : '{psdesc}',
 }
-gen_data["stone-only"] = {
+gen_data["stoneonly"] = {
 	'1-3' : 'broken',
 	'4-6' : 'jagged',
 	'7-10' : 'rough',
