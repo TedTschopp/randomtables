@@ -65,25 +65,25 @@ gen_data["ObjPop"] = {
 gen_data["plants"] = {
 	'1-2' : '{softplant}grass',
 	'3-4' : '{softplant}grass and {softplant}wildflowers',
-	'5-6' : '{plant-desc}shrubs and {softplant}grass',
-	'7-8' : '{plant-desc}trees, {plant-desc}shrubs, and {softplant}grass',
-	'9-10' : '{plant-desc}plants',
-	'11-12' : '{plant-desc}shrubs',
-	'13-14' : '{plant-desc}trees and {softplant}wildflowers',
-	'15-16' : '{plant-desc}trees and {softplant}grass',
-	'17-18' : '{plant-desc}trees, {softplant}grass, and {softplant}wildflowers',
+	'5-6' : '{plantdesc}shrubs and {softplant}grass',
+	'7-8' : '{plantdesc}trees, {plantdesc}shrubs, and {softplant}grass',
+	'9-10' : '{plantdesc}plants',
+	'11-12' : '{plantdesc}shrubs',
+	'13-14' : '{plantdesc}trees and {softplant}wildflowers',
+	'15-16' : '{plantdesc}trees and {softplant}grass',
+	'17-18' : '{plantdesc}trees, {softplant}grass, and {softplant}wildflowers',
 	'19-20' : '{softplant}wildflowers'
 }
 
-gen_data["plant-desc"] = {
+gen_data["plantdesc"] = {
 	'1-2' : '{woodplant} ',
 	'3-4' : '{allplant} ',
-	'5-6' : '{ps-desc} '
+	'5-6' : '{psdesc} '
 }
 
 gen_data["softplant"] = {
 	'1-2' : '{allplant} ',
-	'3-4' : '{ps-desc} ',
+	'3-4' : '{psdesc} ',
 	'5-6' : ''
 }
 
@@ -102,13 +102,13 @@ gen_data["woodplant"] = {
 	'7-8' : 'deciduous',
 	'9-10' : 'evergreen'
 }
-gen_data["ps-desc"] = {
+gen_data["psdesc"] = {
 	'1-2' : 'diverse',
 	'3-4' : 'gigantic',
 	'5-6' : 'huge',
 	'7-8' : 'small',
 	'9-10' : 'unusual',
-	'9-10' : 'various'
+	'11-12' : 'various'
 }
 gen_data["Stone"] = {
 	'1-2' : '{stonecolor} rocks',
