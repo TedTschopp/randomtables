@@ -126,8 +126,8 @@ gen_data["stonecolor"] = {
 
 gen_data["WaterBody"] = {
 	'1-2' : 'a small body of water',
-	'3-4' : 'a{size} river',
-	'5-6' : 'a{size} lake',
+	'3-4' : 'a {size} river',
+	'5-6' : 'a {size} lake',
 	'7-8' : 'a stream',
 	'9-10' : 'a waterfall'
 }
