@@ -363,7 +363,7 @@ gen_data['ElfMaidsNOctopi_Robots_Type'] = {
      '3' : 'Security',
      '4' : 'Medical',
      '5' : 'Technical',
-     '6' : 'Industrial'
+     '6' : 'Industrial',
      '7' : 'Military',
      '8' : 'Environmental',
      '9' : 'Scrap',
