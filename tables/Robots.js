@@ -462,7 +462,7 @@ gen_data['ElfMaidsNOctopi_Robots_Power_backup'] = {
      '1' : 'Combustion',
      '2' : 'Bioganic consumption',
      '3' : 'Chemical Cells',
-     '4' : 'Hydrogen Cells'
+     '4' : 'Hydrogen Cells',
      '5' : 'Atomic Cells',
      '6' : 'Orbital Broadcast Beaming',
      '7' : 'Micropile power core',
