@@ -454,7 +454,7 @@ gen_data['ElfMaidsNOctopi_Robots_Power_Details'] = {
      '5' : 'Chemical Cells',
      '6' : 'Hydrogen Cells',
      '7' : 'Atomic Cells',
-     '8' : 'Orbital Broadcast Beaming'
+     '8' : 'Orbital Broadcast Beaming',
      '9' : 'Micropile power core',
     '10' : 'Total conversion power core'
 }
