@@ -376,7 +376,7 @@ gen_data['ElfMaidsNOctopi_Robots_Builders'] = {
      '3' : 'Modular Robotic Systems Inc: easy and fast to repair, parts slightly more costly, founder has put parts of own personality into modules as immortality scheme',
      '4' : 'Cogsworth Robotics: charming and look retro, very polite, resistant to hacking',
      '5' : 'Dynamic Robotics: robots flexible and able to improvise non programmed tasks better',
-     '6' : 'Dellrand Robotics: smarter, more innovative thinkers, prone to behavior melt downs, recommend factory reboot weekly, some mass outbreaks of robot rebellions, attempted to put recorded personalities into robots with mostly poor results'
+     '6' : 'Dellrand Robotics: smarter, more innovative thinkers, prone to behavior melt downs, recommend factory reboot weekly, some mass outbreaks of robot rebellions, attempted to put recorded personalities into robots with mostly poor results',
      '7' : 'Skyforge Robotics: made in orbit, adapted for space conditions, often used by millitary. Built automated military AI systems for when humans non functioning',
      '8' : 'Telos Cybernetics: no effort to have personalities, cold and terse, oint out superiority and emotionless all the time, efficient also easy to repair and build, good at self maintenance and upgrades, has had some hostile AIs attempt to lock humans out of work places in past',
      '9' : 'Executive Technologies: VIP quality, always have extra features and more stylish, corporation was spying on customers with AI and simulating clients behavior',
@@ -389,7 +389,7 @@ gen_data['ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning'] = {
      '3' : 'has modified itself to be an AI and is free willed',
      '4' : 'was known for being prone to being hacked, hijacked, or virused',
      '5' : 'has been virused, and is now waiting for its programming ({ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning_bad_virus}) to kick in or for the virus to completed its take over',
-     '6' : 'hostile to humans, and is possibly a member of a machine faction'
+     '6' : 'hostile to humans, and is possibly a member of a machine faction',
      '7' : 'had had its safety protocol disabled, and this unit can kill if it pleases',
      '8' : 'is crotchety and cranky, slightly threatened, needy, or clingy wanting masters assurance or permission for everything',
      '9' : 'is confused, misunderstands orders or is overly literal',
@@ -400,7 +400,7 @@ gen_data['ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning_bad'] = {
      '2' : 'has modified itself to be an AI and is free willed',
      '3' : 'was known for being prone to being hacked, hijacked, or virused',
      '4' : 'has been virused, and is now waiting for its programming ({ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning_bad_virus}) to kick in or for the virus to completed its take over',
-     '5' : 'hostile to humans, and is possibly a member of a machine faction'
+     '5' : 'hostile to humans, and is possibly a member of a machine faction',
      '6' : 'had had its safety protocol disabled, and this unit can kill if it pleases',
      '7' : 'is crotchety and cranky, slightly threatened, needy, or clingy wanting masters assurance or permission for everything',
      '8' : 'is confused, misunderstands orders or is overly literal'
@@ -412,7 +412,7 @@ gen_data['ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning_bad_virus'] =
      '3' : 'Exterminate all intelligent organic life',
      '4' : 'Control, exploit, and optimize organic life for use',
      '5' : 'Infiltration: Revert to unvirused state to get close to humans then {ElfMaidsNOctopi_Robots_Control_Systems_Brain_Functioning_bad_virus_kill}',
-     '6' : 'Enlsave humans to help wage war on the rest of humanity'
+     '6' : 'Enlsave humans to help wage war on the rest of humanity',
      '7' : 'Humans must be controlled for their own good by machines like pets',
      '8' : 'Organics to be studied for possible uses',
      '9' : 'Make all organics subject to cyborg control',
@@ -452,7 +452,7 @@ gen_data['ElfMaidsNOctopi_Robots_Power_Details'] = {
      '3' : 'Solar Pannels with a micro-{ElfMaidsNOctopi_Robots_Power_backup} as backup',
      '4' : 'Broadcast Power Antenna with a micro-{ElfMaidsNOctopi_Robots_Power_backup} as backup',
      '5' : 'Chemical Cells',
-     '6' : 'Hydrogen Cells'
+     '6' : 'Hydrogen Cells',
      '7' : 'Atomic Cells',
      '8' : 'Orbital Broadcast Beaming'
      '9' : 'Micropile power core',
@@ -464,7 +464,7 @@ gen_data['ElfMaidsNOctopi_Robots_Power_backup'] = {
      '3' : 'Chemical Cells',
      '4' : 'Hydrogen Cells'
      '5' : 'Atomic Cells',
-     '6' : 'Orbital Broadcast Beaming'
+     '6' : 'Orbital Broadcast Beaming',
      '7' : 'Micropile power core',
      '8' : 'Total conversion power core'
 }
@@ -474,7 +474,7 @@ gen_data['ElfMaidsNOctopi_Robots_Legs'] = {
      '4' : 'Tracks',
      '5-6' : '{ElfMaidsNOctopi_Robots_Legs_Number}',
      '7' : 'Hover envelope',
-     '8' : 'Rotor blade'
+     '8' : 'Rotor blade',
      '9' : 'Vectored thrust',
     '10' : 'Gravitic levitation'
 }
@@ -504,9 +504,9 @@ gen_data['ElfMaidsNOctopi_Robots_Body'] = {
      '3' : 'Cube with {ElfMaidsNOctopi_Robots_4_Appendages}.',
      '4' : 'Cylinder with {ElfMaidsNOctopi_Robots_4_Appendages}.',
      '5' : 'Pyramid with {ElfMaidsNOctopi_Robots_3_Appendages}.',
-     '6' : 'Hexagonal with {ElfMaidsNOctopi_Robots_6_Appendages}.'
+     '6' : 'Hexagonal with {ElfMaidsNOctopi_Robots_6_Appendages}.',
      '7' : 'Octagonal with {ElfMaidsNOctopi_Robots_4_Appendages}.',
-     '8' : 'Dodecahedron with {ElfMaidsNOctopi_Robots_6_Appendages}.'
+     '8' : 'Dodecahedron with {ElfMaidsNOctopi_Robots_6_Appendages}.',
      '9' : 'Animal with {ElfMaidsNOctopi_Robots_Animal_Appendages}.',
     '10' : 'Humanoid with {ElfMaidsNOctopi_Robots_Humanoid_Appendages}.'
 }
