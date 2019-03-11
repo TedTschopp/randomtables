@@ -444,7 +444,7 @@ gen_data['ElfMaidsNOctopi_Robots_Control_Systems'] = {
 gen_data['ElfMaidsNOctopi_Robots_Power'] = {
      '1' : '{ElfMaidsNOctopi_Robots_Power_Details}',
      '2' : '{ElfMaidsNOctopi_Robots_Power_Details} and {ElfMaidsNOctopi_Robots_Power_Details}',
-     '3' : '{ElfMaidsNOctopi_Robots_Power_Details}, {ElfMaidsNOctopi_Robots_Power_Details} and {ElfMaidsNOctopi_Robots_Power_Details}'
+     '3' : '{ElfMaidsNOctopi_Robots_Power_Details}, {ElfMaidsNOctopi_Robots_Power_Details}, and {ElfMaidsNOctopi_Robots_Power_Details}'
 }
 gen_data['ElfMaidsNOctopi_Robots_Power_Details'] = {
      '1' : 'Combustion engine',
@@ -480,35 +480,35 @@ gen_data['ElfMaidsNOctopi_Robots_Legs'] = {
 }
 
 gen_data['ElfMaidsNOctopi_Robots_Legs_Number'] = {
-     '1' : 'Eight Legs',
-     '2-4' : 'Six Legs',
-     '5-10' : 'Four Legs',
-     '11-21' : 'Two Legs'
+     '1' : 'eight legs',
+     '2-4' : 'six legs',
+     '5-10' : 'four legs',
+     '11-21' : 'two legs'
 }
 gen_data['ElfMaidsNOctopi_Robots_Legs_Wheels'] = {
-     '1' : 'A mono wheel with gyroscopic stabilizers',
-     '2-4' : 'Three Wheels',
-     '5-10' : 'Two Wheels',
-     '11-21' : 'Two Wheels',
-     '22-42' : 'Four Wheels',
-     '43-52' : 'Six Wheels',
-     '53-62' : 'Eight Wheels',
+     '1' : 'a mono wheel with gyroscopic stabilizers',
+     '2-4' : 'three Wheels',
+     '5-10' : 'two Wheels',
+     '11-21' : 'two Wheels',
+     '22-42' : 'four Wheels',
+     '43-52' : 'six Wheels',
+     '53-62' : 'eight Wheels',
      '63-82' : '18+ Wheels'
 }
 
 
 
 gen_data['ElfMaidsNOctopi_Robots_Body'] = {
-     '1' : 'Sphere with {ElfMaidsNOctopi_Robots_6_Appendages}.',
-     '2' : 'Cone with {ElfMaidsNOctopi_Robots_4_Appendages}.',
-     '3' : 'Cube with {ElfMaidsNOctopi_Robots_4_Appendages}.',
-     '4' : 'Cylinder with {ElfMaidsNOctopi_Robots_4_Appendages}.',
-     '5' : 'Pyramid with {ElfMaidsNOctopi_Robots_3_Appendages}.',
-     '6' : 'Hexagonal with {ElfMaidsNOctopi_Robots_6_Appendages}.',
-     '7' : 'Octagonal with {ElfMaidsNOctopi_Robots_4_Appendages}.',
-     '8' : 'Dodecahedron with {ElfMaidsNOctopi_Robots_6_Appendages}.',
-     '9' : 'Animal with {ElfMaidsNOctopi_Robots_Animal_Appendages}.',
-    '10' : 'Humanoid with {ElfMaidsNOctopi_Robots_Humanoid_Appendages}.'
+     '1' : 'sphere with {ElfMaidsNOctopi_Robots_6_Appendages}',
+     '2' : 'cone with {ElfMaidsNOctopi_Robots_4_Appendages}',
+     '3' : 'cube with {ElfMaidsNOctopi_Robots_4_Appendages}',
+     '4' : 'cylinder with {ElfMaidsNOctopi_Robots_4_Appendages}',
+     '5' : 'pyramid with {ElfMaidsNOctopi_Robots_3_Appendages}',
+     '6' : 'hexagonal with {ElfMaidsNOctopi_Robots_6_Appendages}',
+     '7' : 'octagonal with {ElfMaidsNOctopi_Robots_4_Appendages}',
+     '8' : 'dodecahedron with {ElfMaidsNOctopi_Robots_6_Appendages}',
+     '9' : 'animal with {ElfMaidsNOctopi_Robots_Animal_Appendages}',
+    '10' : 'humanoid with {ElfMaidsNOctopi_Robots_Humanoid_Appendages}'
 }
 
 gen_data['ElfMaidsNOctopi_Robots_6_Appendages'] = {
@@ -543,16 +543,16 @@ gen_data['ElfMaidsNOctopi_Robots_3_Appendages'] = {
 }
 
 gen_data['ElfMaidsNOctopi_Robots_Appendages'] = {
-    '1' : 'Tool arm',
-    '2' : 'Claw arm',
-    '3' : 'Tentacle arm',
-    '4' : 'Stabiliser arm',
-    '5' : 'Industrial arm',
-    '6' : 'Hi-tek power arm',
-    '7' : 'Crude hand and arm',
-    '8' : 'Humanoid arm',
-    '9' : 'Tractor-Repulsor beam array',
-    '10' : 'Polymorphous metal arm'
+    '1' : 'tool arm',
+    '2' : 'claw arm',
+    '3' : 'tentacle arm',
+    '4' : 'stabiliser arm',
+    '5' : 'industrial arm',
+    '6' : 'hi-tek power arm',
+    '7' : 'crude hand/arm',
+    '8' : 'humanoid arm',
+    '9' : 'tractor-repulsor beam array',
+    '10' : 'polymorphous metal arm'
 }
 
 
