@@ -217,7 +217,7 @@ function expand_token(string, local_variable_store) {
 		return ucfirst(lc(expand_token(match_1[1], local_variable_store)));
 	else if (match_1 = /^tc (.+)/.exec(string))
 	/* tc xxx01 */
-	/* Title Case everything */
+	/* Title Case everything [TODO] Make this match for title case definitions.*/
 		return title_case(expand_token(match_1[1], local_variable_store));
 	else if (match_1 = /^gen_name (.+)/.exec(string)) {
 		/* ^gen_name */
@@ -229,35 +229,42 @@ function expand_token(string, local_variable_store) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // dice.js
 //  TODO: fix and make generic
-const fn = /([a-z]*)\(([^()]*?)\)/;
-const dice = /(\d*)d(\d+)/;
-const incr = /([+-]?\d+\.\d+|[+-]?\d+)(\+\+|--)/;
-const mult = /([+-]?\d+\.\d+|[+-]?\d+)\s*(\*|\/|%)\s*([+-]?\d+\.\d+|[+-]?\d+)/;
-const add = /([+-]?\d+\.\d+|[+-]?\d+)\s*(\+|-)\s*([+-]?\d+\.\d+|[+-]?\d+)/;
-const fp = /(\d+\.\d\d\d+)/;
-const max_dice = 1E3;
+const fn = /([a-z]*)\(([^()]*?)\)/;                                              //matches function calls in the format functionName(arguments). The function name should be composed of lowercase letters.
+const dice = /(\d*)d(\d+)/;                                                      //matches strings that represent dice rolls in the format NdM, where N is the number of dice and M is the number of faces on each die.
+const incr = /([+-]?\d+\.\d+|[+-]?\d+)(\+\+|--)/;                                //matches increment (++) and decrement (--) operations on numbers, which can be either integers or floating-point numbers.
+const mult = /([+-]?\d+\.\d+|[+-]?\d+)\s*(\*|\/|%)\s*([+-]?\d+\.\d+|[+-]?\d+)/;  //matches multiplication (*), division (/), and modulus (%) operations between two numbers, which can be either integers or floating-point numbers.
+const add = /([+-]?\d+\.\d+|[+-]?\d+)\s*(\+|-)\s*([+-]?\d+\.\d+|[+-]?\d+)/;      //matches addition (+) and subtraction (-) operations between two numbers, which can be either integers or floating-point numbers.
+const fp = /(\d+\.\d\d\d+)/;                                                     //matches floating-point numbers with at least three digits after the decimal point.
+const max_dice = 1E3;                                                            //a constant that represents the maximum number of dice that can be rolled at once (1000).
 
 function roll_dice(input_dice) {
+
+	// looks for function calls in the format functionName(arguments), processes them with the roll_dice_function function, and replaces the original function call in the string with the result.
 	for (var a; a = fn.exec(input_dice);) {
 		a = roll_dice_function(a[1], a[2]);
 		input_dice = input_dice.replace(fn, a)
 	}
+	// looks for dice rolls in the format NdM, processes them with the roll_dice_dice function, and replaces the original dice roll in the string with the result.
 	for (; a = dice.exec(input_dice);) {
 		a = roll_dice_dice(a[1], a[2]);
 		input_dice = input_dice.replace(dice, a)
 	}
+	//looks for increment (++) and decrement (--) operations, processes them with the roll_dice_math function, and replaces the original operation in the string with the resu
 	for (; a = incr.exec(input_dice);) {
 		a = roll_dice_math(a[1], a[2]);
 		input_dice = input_dice.replace(incr, a)
 	}
+	// looks for multiplication (*), division (/), and modulus (%) operations, processes them with the roll_dice_math function, and replaces the original operation in the string with the result.
 	for (; a = mult.exec(input_dice);) {
 		a = roll_dice_math(a[1], a[2], a[3]);
 		input_dice = input_dice.replace(mult, a)
 	}
+	// looks for addition (+) and subtraction (-) operations, processes them with the roll_dice_math function, and replaces the original operation in the string with the result.
 	for (; a = add.exec(input_dice);) {
 		a = roll_dice_math(a[1], a[2], a[3]);
 		input_dice = input_dice.replace(add, a)
 	}
+	// looks for floating-point numbers with at least three digits after the decimal point, rounds them to the nearest hundredth, and replaces the original number in the string with the result.
 	for (; a = fp.exec(input_dice);) {
 		a = Math.floor(a[1] * 100 + 0.5) / 100;
 		input_dice = input_dice.replace(fp, a)

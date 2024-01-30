@@ -1,5 +1,5 @@
 gen_data['welcome_to_town'] = {
-	'01': 'Welcome to {town_name}, known for its {town_pride}. {town_pride}.  {cultural_differences_people}'
+	'01': 'Welcome to {town_name}, known for its {town_pride}. {cultural_differences_people}'
 }
 
 
@@ -479,9 +479,9 @@ gen_data['Criminals'] = {
 	Accessory to another crime (roll again to determine)
 
 	--Crimes against the family.
+	Lewdness, private
 	Adultery
 	Incest
-	Lewdness, private
 	Rape
 
 	--crimes against property
