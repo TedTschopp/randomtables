@@ -1,0 +1,14 @@
+{
+  "name": "randomtables-atlas-checks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional development checks for the browser-only Table Atlas.",
+  "scripts": {
+    "test": "node --test tests/model.test.cjs",
+    "test:browser": "node --test tests/browser.test.cjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.10.3",
+    "playwright": "1.55.1"
+  }
+}

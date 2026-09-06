@@ -1,6 +1,16 @@
 # randomtables
 A random table roller based on the work started by http://donjon.bin.sh/code/random/
 
+## Table Atlas
+
+Open [explorer/index.html](explorer/index.html) for the new browser-only table
+explorer: a searchable catalog, interactive relationship map, weighted entries,
+and traced rolls. It works directly from disk with no server, build, or internet
+connection. The original generator, roll, print, and table files are unchanged.
+
+See [explorer/README.md](explorer/README.md) for usage, data boundaries, and
+optional development checks.
+
 ## Source Code
 
 The following source code provides a simple yet flexible JavaScript random text generator, and some example data. Both are released to the public domain.

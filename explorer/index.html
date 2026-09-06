@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="A local, interactive atlas of random tables and their connections.">
+  <title>Table Atlas | Random Tables</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="../JS/generator.js"></script>
+  <script defer src="registry.js"></script>
+  <script defer src="../tables/test_tables.js"></script>
+  <script defer src="../tables/warrior_data.js"></script>
+  <script defer src="../tables/utility.js"></script>
+  <script defer src="../tables/books.js"></script>
+  <script defer src="../tables/names.js"></script>
+  <script defer src="../tables/city.js"></script>
+  <script defer src="../tables/games.js"></script>
+  <script defer src="../tables/temples.js"></script>
+  <script defer src="../tables/treasure.js"></script>
+  <script defer src="../tables/dice.js"></script>
+  <script defer src="../tables/gods.js"></script>
+  <script defer src="../tables/statue.js"></script>
+  <script defer src="../tables/magical_item.js"></script>
+  <script defer src="../tables/occupations.js"></script>
+  <script defer src="../tables/names_Britian.js"></script>
+  <script defer src="../tables/names_Celtic.js"></script>
+  <script defer src="../tables/names_Dutch.js"></script>
+  <script defer src="../tables/names_Finnish.js"></script>
+  <script defer src="../tables/names_French.js"></script>
+  <script defer src="../tables/names_German.js"></script>
+  <script defer src="../tables/names_Germanic.js"></script>
+  <script defer src="../tables/names_Greek.js"></script>
+  <script defer src="../tables/names_Hungarian.js"></script>
+  <script defer src="../tables/names_Italian.js"></script>
+  <script defer src="../tables/names_Norse.js"></script>
+  <script defer src="../tables/names_Norwegian.js"></script>
+  <script defer src="../tables/names_Polish.js"></script>
+  <script defer src="../tables/names_Portuguese.js"></script>
+  <script defer src="../tables/names_Roman.js"></script>
+  <script defer src="../tables/names_Russian.js"></script>
+  <script defer src="../tables/names_Spanish.js"></script>
+  <script defer src="../tables/Gamma_World.js"></script>
+  <script defer src="../tables/Robots.js"></script>
+  <script defer src="../tables/dwarves.js"></script>
+  <script defer src="../tables/goblinoid.js"></script>
+  <script defer src="../tables/Work-in-progress.js"></script>
+  <script defer src="vendor/d3.min.js"></script>
+  <script defer src="vendor/lucide.min.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="graph.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <header class="app-header">
+    <a class="brand" href="index.html" aria-label="Random Tables home">
+      <span class="brand-mark"><i data-lucide="dice-5" aria-hidden="true"></i></span>
+      <span>Random Tables<span class="brand-edition">THE GENERATOR COLLECTION</span></span>
+    </a>
+    <nav class="header-nav" aria-label="Application">
+      <span class="active-nav"><i data-lucide="network" aria-hidden="true"></i> Table Atlas</span>
+      <a href="../index.html">Classic view <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </nav>
+    <button id="export-index" class="icon-button header-export" title="Download table index as JSON" aria-label="Download table index as JSON"><i data-lucide="download" aria-hidden="true"></i></button>
+  </header>
+
+  <div class="page-heading">
+    <div class="heading-copy">
+      <div class="heading-line"><h1>Table Atlas<span class="title-period">.</span></h1><span class="version-tag">EXPLORER</span></div>
+      <p id="overview-stats" class="overview-stats" role="status">Loading the collection...</p>
+    </div>
+    <div class="heading-actions">
+      <button id="missing-filter" class="quiet-button issue-button" hidden><i data-lucide="circle-alert" aria-hidden="true"></i><span id="missing-count"></span></button>
+      <button id="random-table" class="secondary-button"><i data-lucide="shuffle" aria-hidden="true"></i><span>Random table</span></button>
+    </div>
+  </div>
+  <div id="load-error" class="load-error" role="alert" hidden></div>
+
+  <main id="workspace" class="workspace" tabindex="-1">
+    <button id="catalog-scrim" class="catalog-scrim" aria-label="Close table catalog" hidden></button>
+    <aside id="catalog" class="catalog" aria-label="Table catalog">
+      <div class="catalog-header">
+        <div class="section-heading"><h2>Collection</h2><button id="close-catalog" class="icon-button mobile-only" title="Close catalog" aria-label="Close catalog"><i data-lucide="x" aria-hidden="true"></i></button><button id="bookmarks-only" class="icon-button" title="Show bookmarked tables" aria-label="Show bookmarked tables" aria-pressed="false"><i data-lucide="bookmark" aria-hidden="true"></i></button></div>
+        <div class="search-field"><i data-lucide="search" aria-hidden="true"></i><input id="table-search" type="search" placeholder="Search tables..." aria-label="Search tables" autocomplete="off"></div>
+        <div class="collection-select"><span id="collection-swatch" class="collection-swatch"></span><select id="collection-filter" aria-label="Filter by collection"><option value="all">All collections</option></select></div>
+        <details class="filters">
+          <summary><i data-lucide="sliders-horizontal" aria-hidden="true"></i> Filters <span id="active-filter-count"></span><i data-lucide="chevron-down" class="filter-chevron" aria-hidden="true"></i></summary>
+          <div class="filter-fields">
+            <label>Source file<select id="source-filter"><option value="all">All source files</option></select></label>
+            <label>Relationships<select id="relation-filter"><option value="all">All tables</option><option value="connected">With connections</option><option value="unresolved">Unresolved references</option><option value="isolated">Unconnected tables</option></select></label>
+            <button id="clear-filters" class="text-button">Reset filters</button>
+          </div>
+        </details>
+      </div>
+      <div class="catalog-meta"><span id="catalog-count">Loading...</span><select id="catalog-sort" aria-label="Sort tables"><option value="name">A - Z</option><option value="links">Most connected</option><option value="entries">Most entries</option></select></div>
+      <div id="catalog-list" class="catalog-list" aria-label="Tables"></div>
+      <div class="catalog-footer"><span class="status-dot"></span><span id="source-count">Reading sources...</span></div>
+    </aside>
+
+    <section class="map-panel" aria-label="Relationship map">
+      <div class="map-toolbar">
+        <button id="open-catalog" class="icon-button mobile-only" title="Open table catalog" aria-label="Open table catalog" aria-expanded="false" aria-controls="catalog"><i data-lucide="panel-left" aria-hidden="true"></i></button>
+        <div class="segmented-control" role="group" aria-label="Graph scope">
+          <button id="focus-view" aria-pressed="true"><i data-lucide="focus" aria-hidden="true"></i> Focus</button>
+          <button id="all-view" aria-pressed="false"><i data-lucide="network" aria-hidden="true"></i> All tables</button>
+        </div>
+        <label class="depth-control">Depth<select id="graph-depth" aria-label="Relationship depth"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option></select></label>
+        <label class="missing-toggle" title="Include unresolved table references"><input id="show-missing" type="checkbox" checked><span>Missing</span></label>
+        <button id="export-graph" class="icon-button" title="Download relationship map as SVG" aria-label="Download relationship map as SVG"><i data-lucide="image-down" aria-hidden="true"></i></button>
+      </div>
+      <div id="graph-stage" class="graph-stage">
+        <div class="map-heading"><span id="map-eyebrow" class="eyebrow">NEIGHBORHOOD</span><h2 id="map-title">Welcome To Town</h2></div>
+        <svg id="relationship-graph" xmlns="http://www.w3.org/2000/svg" aria-label="Interactive table relationships"></svg>
+        <div id="graph-tooltip" class="graph-tooltip" role="tooltip" hidden></div>
+        <div id="graph-empty" class="graph-empty" hidden><i data-lucide="scan-search" aria-hidden="true"></i><h3>No matching tables</h3></div>
+        <div class="graph-controls" role="group" aria-label="Map navigation">
+          <button id="zoom-in" class="icon-button" title="Zoom in" aria-label="Zoom in"><i data-lucide="plus" aria-hidden="true"></i></button>
+          <button id="fit-graph" class="icon-button" title="Fit map to view" aria-label="Fit map to view"><i data-lucide="scan" aria-hidden="true"></i></button>
+          <button id="zoom-out" class="icon-button" title="Zoom out" aria-label="Zoom out"><i data-lucide="minus" aria-hidden="true"></i></button>
+        </div>
+        <div id="graph-legend" class="graph-legend" aria-label="Collection legend"></div>
+      </div>
+      <footer class="map-footer"><span><span class="connection-symbol" aria-hidden="true"></span>Table relationships</span><span id="graph-count" role="status">Loading...</span></footer>
+    </section>
+
+    <aside class="inspector" aria-label="Selected table">
+      <div class="inspector-content">
+        <div class="table-heading"><span id="table-collection" class="eyebrow"></span><button id="bookmark-table" class="icon-button" title="Bookmark table" aria-label="Bookmark table" aria-pressed="false"><i data-lucide="bookmark" aria-hidden="true"></i></button></div>
+        <h2 id="table-title" class="table-title">Welcome To Town</h2>
+        <div class="token-row"><code id="table-token">{welcome_to_town}</code><button id="copy-token" class="icon-button" title="Copy table token" aria-label="Copy table token"><i data-lucide="copy" aria-hidden="true"></i></button></div>
+        <div class="source-row"><a id="table-source" target="_blank" rel="noopener"><i data-lucide="file-code-2" aria-hidden="true"></i><span></span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a><span id="table-kind" class="kind-badge"></span></div>
+        <div id="definition-note" class="definition-note" hidden></div>
+        <dl class="table-stats"><div><dt>Entries</dt><dd id="stat-entries">0</dd></div><div><dt>Uses</dt><dd id="stat-outgoing">0</dd></div><div><dt>Used by</dt><dd id="stat-incoming">0</dd></div></dl>
+        <div class="roll-controls"><button id="roll-button" class="primary-button"><i data-lucide="dices" aria-hidden="true"></i> Roll table</button><input id="roll-count" type="number" value="1" min="1" max="10" step="1" aria-label="Number of results" title="Number of results"></div>
+        <section id="roll-output" class="roll-output" aria-label="Generated results" hidden>
+          <div class="result-heading"><h3>Latest roll</h3><button id="copy-result" class="icon-button" title="Copy results" aria-label="Copy results"><i data-lucide="copy" aria-hidden="true"></i></button></div>
+          <div id="roll-results" class="roll-results" aria-live="polite"></div>
+          <details id="roll-trace" class="roll-trace"><summary><i data-lucide="route" aria-hidden="true"></i><span id="trace-count">Roll trace</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div id="trace-list"></div></details>
+        </section>
+        <div class="inspector-tabs" role="tablist" aria-label="Table information"><button id="entries-tab" role="tab" aria-selected="true" aria-controls="entries-panel" tabindex="0">Entries</button><button id="connections-tab" role="tab" aria-selected="false" aria-controls="connections-panel" tabindex="-1">Connections</button></div>
+        <section id="entries-panel" role="tabpanel" aria-labelledby="entries-tab">
+          <div class="search-field entry-search"><i data-lucide="search" aria-hidden="true"></i><input id="entry-search" type="search" placeholder="Filter entries..." aria-label="Filter entries" autocomplete="off"></div>
+          <div id="entry-list" class="entry-list"></div>
+          <button id="more-entries" class="secondary-button more-entries" hidden>Show more entries</button>
+          <p id="entry-count" class="entry-count"></p>
+        </section>
+        <section id="connections-panel" role="tabpanel" aria-labelledby="connections-tab" hidden><div id="connection-list"></div></section>
+      </div>
+    </aside>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p class="load-error">JavaScript is required to read and display the tables.</p></noscript>
+</body>
+</html>
