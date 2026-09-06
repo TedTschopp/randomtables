@@ -9,6 +9,7 @@
     { id: 'myth', label: 'Myth & magic', color: '#9870a6', icon: 'sparkles' },
     { id: 'wasteland', label: 'Science & wastelands', color: '#578357', icon: 'orbit' },
     { id: 'utilities', label: 'Dice & utilities', color: '#70828a', icon: 'dices' },
+    { id: 'wiki', label: 'Abulafia wiki', color: '#356d8d', icon: 'library' },
     { id: 'other', label: 'Workbench', color: '#a87879', icon: 'wrench' }
   ];
 
@@ -25,7 +26,7 @@
   }
 
   function labelFor(id) {
-    return id.replace(/_/g, ' ').replace(/\b\w/g, character => character.toUpperCase());
+    return root.WikiImport?.labels[id] || id.replace(/_/g, ' ').replace(/\b\w/g, character => character.toUpperCase());
   }
 
   function references(text) {
@@ -68,13 +69,26 @@
 
   function buildModel(registry, sources = {}) {
     const tables = Object.entries(registry).map(([id, data]) => {
-      const source = sources[id] || '';
-      const entries = entriesFor(data);
+      const wiki = root.WikiImport?.metadata.get(id);
+      const source = wiki?.archiveFile || sources[id] || '';
+      const isList = wiki?.execution === 'wiki' ? wiki.entries.every(entry => entry.weight === 1) : Array.isArray(data);
+      let cursor = 1;
+      const entries = wiki ? wiki.entries.map((entry, index) => {
+        const start = cursor;
+        cursor += entry.weight;
+        return {
+          key: isList ? String(index + 1) : entry.weight ? start === cursor - 1 ? String(start) : `${start}-${cursor - 1}` : '-',
+          text: wiki.status === 'blocked' ? entry.rawText ?? entry.text : entry.text,
+          weight: entry.weight, probability: Number.isFinite(wiki.totalWeight) && wiki.totalWeight > 0 ? entry.weight / wiki.totalWeight : 0,
+          references: Array.from(entry.references)
+        };
+      }) : entriesFor(data);
+      const blocked = wiki?.status === 'blocked';
       return {
         id, label: labelFor(id), source, file: source.split('/').pop() || 'Unknown source',
-        collection: collectionFor(source), kind: Array.isArray(data) ? 'List' : 'Weighted',
-        entries, outgoing: [], incoming: [], missing: false,
-        searchText: `${id} ${labelFor(id)} ${source}`.toLowerCase()
+        collection: wiki ? 'wiki' : collectionFor(source), kind: blocked ? 'Blocked' : isList ? 'List' : 'Weighted',
+        entries, outgoing: [], incoming: [], missing: false, blocked, wiki,
+        searchText: `${id} ${labelFor(id)} ${source} ${wiki?.contributor?.name || ''} ${wiki?.originalContributor?.name || ''}`.toLowerCase()
       };
     });
     const nodes = tables.slice();
@@ -134,6 +148,7 @@
   }
 
   function roll(id, runtime) {
+    if (runtime.WikiImport?.metadata.get(id)?.execution === 'wiki') return runtime.WikiImport.roll(id);
     const originalGenerate = runtime.generate_text;
     const originalSelect = runtime.select_from;
     const steps = [];
@@ -154,6 +169,11 @@
       if (!Object.hasOwn(runtime.gen_data, table)) {
         warn('missing', table, `No loaded table named ${table}.`);
         return `[Missing: ${table}]`;
+      }
+      const imported = runtime.WikiImport?.metadata.get(table);
+      if (imported?.status === 'blocked') {
+        warn('blocked', table, `${imported.name} is quarantined: ${imported.issues[0]?.detail || 'Source validation failed'}.`);
+        return `[Wiki table unavailable: ${imported.name}]`;
       }
       if (stack.length >= 48 || calls > 800) {
         warn('limit', table, `Expansion limit reached at ${table}.`);
@@ -184,5 +204,34 @@
     return { text, steps, warnings };
   }
 
-  root.TableAtlas = { buildModel, neighborhood, roll, references, labelFor, collections };
+  function graphWindow(data, selectedId, maxNodes = 600, maxEdges = 3000) {
+    const totalNodes = data.nodes.length;
+    const totalEdges = data.edges.length;
+    let nodes = data.nodes;
+    if (totalNodes > maxNodes) {
+      const available = new Map(data.nodes.map(node => [node.id, node]));
+      const ranked = data.nodes.slice().sort((first, second) =>
+        second.incoming.length + second.outgoing.length - first.incoming.length - first.outgoing.length);
+      const selected = new Set();
+      const queue = [];
+      function include(identifier) {
+        if (selected.size >= maxNodes || selected.has(identifier) || !available.has(identifier)) return;
+        selected.add(identifier);
+        queue.push(identifier);
+      }
+      include(selectedId);
+      if (!queue.length && ranked.length) include(ranked[0].id);
+      for (let cursor = 0; cursor < queue.length && selected.size < maxNodes; cursor += 1) {
+        const node = available.get(queue[cursor]);
+        for (const neighbor of [...node.outgoing, ...node.incoming]) include(neighbor);
+      }
+      for (const node of ranked) include(node.id);
+      nodes = data.nodes.filter(node => selected.has(node.id));
+    }
+    const identifiers = new Set(nodes.map(node => node.id));
+    const edges = data.edges.filter(edge => identifiers.has(edge.source) && identifiers.has(edge.target)).slice(0, maxEdges);
+    return { nodes, edges, totalNodes, totalEdges, limited: nodes.length < totalNodes || edges.length < totalEdges };
+  }
+
+  root.TableAtlas = { buildModel, neighborhood, graphWindow, roll, references, labelFor, collections };
 })(globalThis);

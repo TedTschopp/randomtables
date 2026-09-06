@@ -3629,7 +3629,7 @@
     "1-5": "fresh-churned butter",
     "6-9": "herb butter",
     "10-13": "honey butter",
-    "14-17": "melted {cheese}",
+    "14-17": "melted {Cheese}",
     "18-20": "{Fruit} jam",
     "21-23": "{Fruit} jelly",
     "24-24": "{FruitButters} butter",
@@ -3754,11 +3754,11 @@
     "5-5": "croquettes of {SaltwaterFish} with {VeggiesCookable} and {VeggiesCookable}",
     "6-6": "fava beans with {VeggiesCookable}s, capers and lemon juice ,",
     "7-7": "Fried {VeggiesCookable} with roasted garlic-yogurt sauce",
-    "8-8": "fried light pastry with {cheese} and {Nuts}s",
-    "9-9": "marinated roasted {VeggiesCookable} with {cheese}",
+    "8-8": "fried light pastry with {Cheese} and {Nuts}s",
+    "9-9": "marinated roasted {VeggiesCookable} with {Cheese}",
     "10-10": "Olive Oil marinated baby {VeggiesCookable} stuffed with {Nuts} and {Veggies}",
     "11-11": "roasted {VeggiesCookable} and olives with balsamic vinegar and olive oil",
-    "12-12": "roasted {VeggiesCookable} with {cheese} and {Nuts}s",
+    "12-12": "roasted {VeggiesCookable} with {Cheese} and {Nuts}s",
     "13-13": "sauteed wild mushrooms with {Nuts} sauce & demi-glace",
     "14-14": "spicy sausage in a sauce of {VeggiesCookable}, {VeggiesCookable}, and {VeggiesCookable} sauce",
     "15-15": "steamed {FreshwaterFish} with a creamy lemon-garlic sauce",
@@ -3772,7 +3772,7 @@
     "13-14": "chicken salad with {Veggies} & {Veggies}",
     "15-16": "egg salad with {Veggies}",
     "17-18": "potato salad with {Veggies} & {Veggies}",
-    "19-19": "{Veggies} & {cheese} salad",
+    "19-19": "{Veggies} & {Cheese} salad",
     "20-20": "arugula salad",
     "21-21": "cheese & tomato salad",
     "22-22": "field greens salad",
@@ -12548,7 +12548,7 @@
   },
   "biology_book": {
     "1": "{bio} of the {creature}",
-    "2": "{createure} of {things}"
+    "2": "{creature} of {things}"
   },
   "magic_book": {
     "1": "{adj} {arcana} {things}",

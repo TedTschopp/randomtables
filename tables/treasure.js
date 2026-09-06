@@ -190,7 +190,7 @@ gen_data['trinket'] = [
     'A diary with seven missing pages',
     'An empty {precious_material} snuffbox bearing an inscription on the surface that says “dreams’’',
     'An {common_metal} holy symbol devoted to an unknown god',
-    'A book that tells the story of a legendary {mysterious_persons}\'s rise and fall, with the last chapter missing',
+    'A book that tells the story of a legendary {mysterious_person}\'s rise and fall, with the last chapter missing',
     'A small vial labled {fantastic_animal} blood',
     'An ancient arrow of {humanoid_race} design',
     'A needle that never bends',

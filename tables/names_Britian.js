@@ -156,13 +156,13 @@ gen_data["Scottish_Lowland_male_uncommon"] = [
 ]
 
 gen_data["Scottish_Highland_male_name"] = {
-    '1-80': '{Scottish_Highland_male_first_common}',
-    '81-100': '{Scottish_Highland_male_first_uncommon}'
+    '1-80': '{Scottish_Highland_male_common}',
+    '81-100': '{Scottish_Highland_male_uncommon}'
 }
 
 gen_data["Scottish_Lowland_male_name"] = {
-    '1-80': '{Scottish_Lowland_male_first_common}',
-    '81-100': '{Scottish_Lowland_male_first_uncommon}'
+    '1-80': '{Scottish_Lowland_male_common}',
+    '81-100': '{Scottish_Lowland_male_uncommon}'
 }
 
 
@@ -182,13 +182,13 @@ gen_data["Scottish_Lowland_female_uncommon"] = [
 ]
 
 gen_data["Scottish_Highland_female_name"] = {
-    '1-80': '{Scottish_Highland_female_first_common}',
-    '81-100': '{Scottish_Highland_female_first_uncommon}'
+    '1-80': '{Scottish_Highland_female_common}',
+    '81-100': '{Scottish_Highland_female_uncommon}'
 }
 
-gen_data["Scottish_Lowland_male_name"] = {
-    '1-80': '{Scottish_Lowland_female_first_common}',
-    '81-100': '{Scottish_Lowland_female_first_uncommon}'
+gen_data["Scottish_Lowland_female_name"] = {
+    '1-80': '{Scottish_Lowland_female_common}',
+    '81-100': '{Scottish_Lowland_female_uncommon}'
 }
 
 
@@ -206,15 +206,15 @@ gen_data["Irish_female_uncommon"] = [
 ]
 
 gen_data["Irish_male_name"] = {
-    '1-80': '{Irish_male_first_common}',
-    '81-100': '{Irish_male_first_uncommon}'
+    '1-80': '{Irish_male_common}',
+    '81-100': '{Irish_male_uncommon}'
 }
 gen_data["Irish_female_name"] = {
-    '1-80': '{Irish_female_first_common}',
-    '81-100': '{Irish_female_first_uncommon}'
+    '1-80': '{Irish_female_common}',
+    '81-100': '{Irish_female_uncommon}'
 }
 
-gen_data["Gaelic_female_common"] = [
+gen_data["Gaelic_male_common"] = [
 'Áed', 'Ailill', 'Conall', 'Cormac', 'Domnall', 'Eochaid', 'Fergus', 'Fland', 'Lugaid', 'Óengus'
 ]
 gen_data["Gaelic_male_uncommon"] = [
@@ -228,12 +228,12 @@ gen_data["Gaelic_female_uncommon"] = [
 ]
 
 gen_data["Gaelic_male_name"] = {
-    '1-80': '{Gaelic_male_first_common}',
-    '81-100': '{Gaelic_male_first_uncommon}'
+    '1-80': '{Gaelic_male_common}',
+    '81-100': '{Gaelic_male_uncommon}'
 }
 gen_data["Gaelic_female_name"] = {
-    '1-80': '{Gaelic_female_first_common}',
-    '81-100': '{Gaelic_female_first_uncommon}'
+    '1-80': '{Gaelic_female_common}',
+    '81-100': '{Gaelic_female_uncommon}'
 }
 
 
@@ -253,12 +253,12 @@ gen_data["Welsh_female_uncommon"] = [
 ]
 
 gen_data["Welsh_male_name"] = {
-    '1-80': '{Welsh_male_first_common}',
-    '81-100': '{Welsh_male_first_uncommon}'
+    '1-80': '{Welsh_male_common}',
+    '81-100': '{Welsh_male_uncommon}'
 }
 gen_data["Welsh_female_name"] = {
-    '1-80': '{Welsh_female_first_common}',
-    '81-100': '{Welsh_female_first_uncommon}'
+    '1-80': '{Welsh_female_common}',
+    '81-100': '{Welsh_female_uncommon}'
 }
 
 

@@ -4,11 +4,12 @@
   "private": true,
   "description": "Optional development checks for the browser-only Table Atlas.",
   "scripts": {
-    "test": "node --test tests/model.test.cjs",
+    "test": "node --test tests/model.test.cjs tests/table-data.test.cjs tests/wiki-import.test.cjs tests/wiki-runtime.test.cjs tests/imported-data.test.cjs",
     "test:browser": "node --test tests/browser.test.cjs"
   },
   "devDependencies": {
     "axe-core": "4.10.3",
+    "parse5": "7.3.0",
     "playwright": "1.55.1"
   }
 }

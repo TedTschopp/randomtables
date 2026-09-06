@@ -230,7 +230,7 @@ gen_data['travel_book'] = {
 }
 gen_data['biology_book'] = {
 	'1': '{bio} of the {creature}',
-	'2': '{createure} of {things}'
+	'2': '{creature} of {things}'
 }
 gen_data['magic_book'] = {
 	'1': '{adj} {arcana} {things}',
@@ -324,7 +324,7 @@ gen_data['poettype'] = [
 	'ancient', 'celestial', 'elven', 'erotic', 'hopeful', 'inspirational', 'merry', 'mournful', 'mystic', 'rousing'
 ];
 gen_data['histtype'] = [
-	'Ancient World', 'Barbarian Plains', 'Chaos Lands', 'Desert Tribes', 'Eastern Kingdoms', 'Empire', 'Island Kingdoms', 'Mountain Clans', 'Northern Cultures', 'Southern Regions', 'Western Realms', '{nonHuman}'
+	'Ancient World', 'Barbarian Plains', 'Chaos Lands', 'Desert Tribes', 'Eastern Kingdoms', 'Empire', 'Island Kingdoms', 'Mountain Clans', 'Northern Cultures', 'Southern Regions', 'Western Realms', '{nonhuman}'
 ];
 gen_data['nonhuman'] = [
 	'Dragons', 'Dwarves', 'Elves', 'Giants', 'Gnomes', 'Orcs', 'Trolls', 'Underworld'

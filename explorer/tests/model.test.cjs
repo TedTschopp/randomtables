@@ -10,6 +10,7 @@ const generatorPath = path.join(__dirname, '..', '..', 'JS', 'generator.js');
 function createRuntime() {
   const runtime = vm.createContext({ console });
   vm.runInContext(fs.readFileSync(generatorPath, 'utf8'), runtime);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', 'JS', 'wiki-import.js'), 'utf8'), runtime);
   vm.runInContext(fs.readFileSync(modelPath, 'utf8'), runtime);
   return runtime;
 }
@@ -146,4 +147,89 @@ test('the explorer loads the original sources in order and indexes the real regi
   assert.ok(model.tables.every(table => table.source.startsWith('tables/')));
   assert.equal(JSON.stringify(runtime.gen_data), before);
   console.log(`Registry: ${model.tables.length} tables, ${model.entryCount} entries, ${model.edges.length} links, ${model.nodes.length - model.tables.length} missing targets.`);
+});
+
+test('wiki metadata retains readable names, provenance, source entries, and blocked roll guards', () => {
+  const runtime = createRuntime();
+  vm.runInContext(`WikiImport.register({
+    schemaVersion: 1,
+    tables: [{
+      id: 'wiki_abulafia_1_61', name: 'Imported.a', page: 'Imported', status: 'blocked',
+      archiveFile: 'tables/abulafia/source/1.json', sourceFile: 'tables/imported/subtables/a/table.json',
+      contributor: { name: 'Editor' }, originalContributor: { name: 'Author' },
+      totalWeight: 2, values: ['Unavailable'],
+      issues: [{ code: 'unsupported_syntax', detail: 'Unsupported expression' }],
+      entries: [{ weight: 2, text: '{{macro|{wiki_abulafia_missing_62}}}', rawText: '{{macro|[b]}}', references: ['wiki_abulafia_missing_62'] }]
+    }],
+    labels: { wiki_abulafia_1_61: 'Imported.a', wiki_abulafia_missing_62: 'Imported.b' }, aliases: {}
+  });`, runtime);
+  const model = runtime.TableAtlas.buildModel(runtime.gen_data);
+  const table = model.byId.get('wiki_abulafia_1_61');
+
+  assert.equal(table.label, 'Imported.a');
+  assert.equal(table.source, 'tables/abulafia/source/1.json');
+  assert.equal(table.blocked, true);
+  assert.equal(table.entries[0].text, '{{macro|[b]}}');
+  assert.equal(table.entries[0].probability, 1);
+  assert.ok(table.searchText.includes('author'));
+  assert.equal(model.byId.get('wiki_abulafia_missing_62').label, 'Imported.b');
+  const result = runtime.TableAtlas.roll(table.id, runtime);
+  assert.equal(result.warnings[0]?.type, 'blocked');
+  assert.equal(result.steps.length, 0);
+});
+
+test('wiki-only programs retain source weights and route rolls to the isolated expression evaluator', () => {
+  const runtime = createRuntime();
+  vm.runInContext(`WikiImport.register({
+    schemaVersion: 1, aliases: {}, labels: { wiki_abulafia_2_61: 'Imported.root', wiki_abulafia_2_62: 'Imported.name' },
+    tables: [{
+      id: 'wiki_abulafia_2_61', name: 'Imported.root', status: 'ready', execution: 'wiki',
+      values: ['Requires Table Atlas'], totalWeight: 3, issues: [],
+      entries: [
+        { weight: 2, text: 'The {{po|{wiki_abulafia_2_62}}}', rawText: 'The {{po|[name]}}', references: ['wiki_abulafia_2_62'] },
+        { weight: 1, text: 'Unchanged', rawText: 'Unchanged', references: [] }
+      ],
+      program: [['The ', { op: 'po', parts: [{ ref: 'wiki_abulafia_2_62' }] }], ['Unchanged']]
+    }, {
+      id: 'wiki_abulafia_2_62', name: 'Imported.name', status: 'ready', values: ['Fred'], totalWeight: 1, issues: [],
+      entries: [{ weight: 1, text: 'Fred', rawText: 'Fred', references: [] }]
+    }]
+  }); Math.random = () => 0;`, runtime);
+  const originalGenerate = runtime.generate_text;
+  const originalSelect = runtime.select_from;
+  const before = JSON.stringify(runtime.gen_data);
+  const result = runtime.TableAtlas.roll('wiki_abulafia_2_61', runtime);
+  assert.equal(result.text, 'The Fred\u2019s');
+  assert.equal(result.warnings.length, 0);
+  assert.deepEqual(Array.from(result.steps, step => step.id), ['wiki_abulafia_2_61', 'wiki_abulafia_2_62']);
+  assert.equal(runtime.generate_text, originalGenerate);
+  assert.equal(runtime.select_from, originalSelect);
+  const model = runtime.TableAtlas.buildModel(runtime.gen_data);
+  const table = model.byId.get('wiki_abulafia_2_61');
+  assert.equal(table.kind, 'Weighted');
+  assert.equal(table.entries.length, 2);
+  assert.equal(table.entries[0].key, '1-2');
+  assert.equal(table.entries[0].probability, 2 / 3);
+  assert.deepEqual(Array.from(table.outgoing), ['wiki_abulafia_2_62']);
+  assert.equal(JSON.stringify(runtime.gen_data), before);
+});
+
+test('large graph windows retain the selected table and report omitted nodes', () => {
+  const runtime = createRuntime();
+  const registry = Object.fromEntries(Array.from({ length: 800 }, (_, index) => [
+    `table_${index}`, [index < 799 ? `{table_${index + 1}}` : 'End']
+  ]));
+  const model = runtime.TableAtlas.buildModel(registry);
+  const data = { nodes: model.nodes, edges: model.edges };
+  const window = runtime.TableAtlas.graphWindow(data, 'table_400', 60, 90);
+
+  assert.ok(window.nodes.some(node => node.id === 'table_400'));
+  assert.ok(window.nodes.length <= 60);
+  assert.ok(window.edges.length <= 90);
+  assert.equal(window.totalNodes, 800);
+  assert.equal(window.totalEdges, 799);
+  assert.equal(window.limited, true);
+  const ids = new Set(window.nodes.map(node => node.id));
+  assert.ok(window.edges.every(edge => ids.has(edge.source) && ids.has(edge.target)));
+  assert.equal(data.nodes.length, 800);
 });

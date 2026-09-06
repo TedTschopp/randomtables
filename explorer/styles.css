@@ -169,8 +169,10 @@ summary::-webkit-details-marker { display: none; }
 .table-heading > .eyebrow { color: color-mix(in srgb, var(--collection-color, var(--green)) 70%, #10271a); }
 .table-heading .icon-button { width: 26px; height: 26px; margin-right: -5px; }
 .table-title { font-family: var(--display); font-size: 26px; font-weight: 550; line-height: 1.13; overflow-wrap: anywhere; }
+.map-footer { flex-wrap: wrap; gap: 4px 12px; }
+#graph-count { overflow-wrap: anywhere; }
 .token-row { display: flex; align-items: center; gap: 5px; margin: 9px 0 10px; }
-.token-row code { font-family: var(--mono); font-size: 10px; color: var(--muted); overflow-wrap: anywhere; line-height: 1.6; }
+.token-row code { min-width: 0; font-family: var(--mono); font-size: 10px; color: var(--muted); overflow-wrap: anywhere; line-height: 1.6; }
 .token-row .icon-button { width: 23px; height: 23px; margin-left: auto; }
 .token-row .icon-button svg { width: 12px; height: 12px; }
 .source-row { display: flex; gap: 8px; align-items: center; min-height: 20px; }

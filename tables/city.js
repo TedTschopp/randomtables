@@ -317,7 +317,7 @@ gen_data['statue_description'] = [
 
 	'Blue and white marbled statue. When light shines on it, it captures and magically reflects the light back in a kaleidoscope of colors. “In honor of Oben Dreamweaver” is inscribed on it.',
 	'Elf Tree of Light. This pure white oak tree’s leaves are platinum in color. The tree’s girth is wider then the arm span of a dozen elves.',
-	'{goblinoild_race}\'s Legacy. A statue of the legendary troll, the leader of the Goblinoid hoards from the northern reaches.',
+	'{goblinoid_race}\'s Legacy. A statue of the legendary troll, the leader of the Goblinoid hoards from the northern reaches.',
 	'Golden statue of a king standing with his foot on the head of a {fantastic_animal}, based on an old tale often told by bards.',
 	'Huge anchor cast in bronze. When touched, a name can be uttered and that name, providing it is of one who truly was lost at sea, appears on the massive base.',
 	'Huge fully armed figure cast in pure obsidian from top to base stands tall. Its armor is spiked and its hands rest on the hilt of its sword, which rests point down into the base.',
@@ -758,7 +758,7 @@ gen_data['cultural_differences_item'] = {
 	'31-35': 'wear or carry {flowers}s ',
 	'36-40': 'wear {clothing}',
 	'41-45': 'wear {silverware_metal} {silverware} on a chain around their neck',
-	'46-50': 'wear a {color} {Mask}',
+	'46-50': 'wear a {color} {mask}',
 	'51-55': 'wear a {common_metal} collar and bracelet',
 	'56-60': 'wear {silverware_metal} rings and earring',
 	'61-65': 'have overlong sleeves on their shirts',

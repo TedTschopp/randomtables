@@ -6,6 +6,7 @@
 	<title>Random Generator</title>
 	<base href="../" >
 	<script type="text/javascript" src="JS/generator.js"></script>
+	<script type="text/javascript" src="JS/wiki-import.js"></script>
 	<script type="text/javascript" src="tables/test_tables.js"></script>
 	<script type="text/javascript" src="tables/warrior_data.js"></script>
 	<!-- Utility Functions -->
@@ -43,6 +44,7 @@
 	
 	<script type="text/javascript" src="tables/Gamma_World.js"></script>
 	<script type="text/javascript" src="tables/Robots.js"></script>
+	<script type="text/javascript" src="tables/abulafia.js"></script>
 
 </head>
 
@@ -80,7 +82,7 @@
 				if (NumberToGenerate < 1) {
 					NumberToGenerate = 1;
 				}
-				Output = print_list("main", NumberToGenerate);
+				Output = generate_list("main", NumberToGenerate);
 				OutputField.innerHTML = Output.join("\n")
 			}
 			more_random();

@@ -22,7 +22,9 @@
     const collectionIndex = new Map(TableAtlas.collections.map(collection => [collection.id, collection]));
     collectionIndex.set('missing', { label: 'Unresolved reference', color: '#b86754' });
     const missing = model.nodes.filter(table => table.missing);
-    const sourceFiles = Array.from(new Set(Object.values(AtlasRegistry.sources))).sort();
+    const sourceFiles = Array.from(new Set(model.tables.map(table => table.source).filter(Boolean))).sort();
+    const sourceLabels = new Map(model.tables.filter(table => table.wiki).map(table => [table.source, `Wiki: ${table.wiki.page}`]));
+    const nameOrder = new Intl.Collator(undefined, { numeric: true });
     const storageKey = 'randomtables.table-atlas.v1';
     let preferences = {};
     try {
@@ -94,6 +96,8 @@
         const degree = table.incoming.length + table.outgoing.length;
         if (state.relation === 'connected' && !degree) return false;
         if (state.relation === 'isolated' && degree) return false;
+        if (state.relation === 'blocked' && !table.blocked) return false;
+        if (state.relation === 'ready' && (table.missing || table.blocked || !table.entries.length)) return false;
         if (state.relation === 'unresolved' && !table.missing && !table.outgoing.some(id => model.byId.get(id).missing)) return false;
         return true;
       }).sort((first, second) => {
@@ -102,19 +106,19 @@
           if (difference) return difference;
         }
         if (state.sort === 'entries' && second.entries.length !== first.entries.length) return second.entries.length - first.entries.length;
-        return first.label.localeCompare(second.label, undefined, { numeric: true });
+        return nameOrder.compare(first.label, second.label);
       });
     }
 
     function catalogItem(table) {
       const link = tableLink(table, `catalog-item${table.missing ? ' is-missing' : ''}`);
       link.setAttribute('aria-current', String(table.id === state.selected));
-      link.title = `${table.id}\n${table.file}\n${table.entries.length.toLocaleString()} entries`;
+      link.title = `${table.id}\n${table.file}\n${table.entries.length.toLocaleString()} entries${table.blocked ? '\nBlocked import' : ''}`;
       const copy = make('span');
       copy.append(make('span', 'catalog-item-title', table.label), make('span', 'catalog-item-id', table.id));
       const count = make('span', 'catalog-item-count');
       count.title = `${table.incoming.length + table.outgoing.length} relationships`;
-      count.append(icon(table.missing ? 'circle-alert' : 'git-fork'), document.createTextNode(String(table.incoming.length + table.outgoing.length)));
+      count.append(icon(table.missing || table.blocked ? 'circle-alert' : 'git-fork'), document.createTextNode(String(table.incoming.length + table.outgoing.length)));
       link.append(colorDot(table), copy, count);
       return link;
     }
@@ -167,6 +171,7 @@
       if (!state.showMissing) {
         data = { nodes: data.nodes.filter(table => !table.missing), edges: data.edges.filter(edge => !model.byId.get(edge.source).missing && !model.byId.get(edge.target).missing) };
       }
+      data = TableAtlas.graphWindow(data, state.selected);
       graph.render(model, data, state.selected, state.scope);
       if (state.results.length) graph.highlightTrace(state.results.flatMap(result => result.steps));
       element('focus-view').setAttribute('aria-pressed', String(state.scope === 'focus'));
@@ -176,7 +181,9 @@
       element('show-missing').checked = state.showMissing;
       element('map-eyebrow').textContent = state.scope === 'all' ? state.relation === 'unresolved' ? 'UNRESOLVED REFERENCES' : 'COLLECTION MAP' : 'NEIGHBORHOOD';
       element('map-title').textContent = state.scope === 'focus' ? model.byId.get(state.selected).label : state.collection === 'all' ? 'All tables' : collectionIndex.get(state.collection).label;
-      element('graph-count').textContent = `${data.nodes.length.toLocaleString()} nodes / ${data.edges.length.toLocaleString()} links`;
+      element('graph-count').textContent = data.limited
+        ? `${data.nodes.length.toLocaleString()} of ${data.totalNodes.toLocaleString()} nodes / ${data.edges.length.toLocaleString()} of ${data.totalEdges.toLocaleString()} links`
+        : `${data.nodes.length.toLocaleString()} nodes / ${data.edges.length.toLocaleString()} links`;
       element('graph-empty').hidden = data.nodes.length > 0;
       element('export-graph').disabled = data.nodes.length === 0;
       const visibleCollections = new Set(data.nodes.map(table => table.collection));
@@ -199,7 +206,7 @@
         const table = model.byId.get(match[1]);
         if (table) {
           const link = tableLink(table, `table-ref${table.missing ? ' is-missing' : ''}`);
-          link.textContent = match[0];
+          link.textContent = table.wiki ? `{${table.label}}` : match[0];
           link.title = table.missing ? `${table.label}: unresolved reference` : `${table.label}: ${table.entries.length} entries`;
           container.append(link);
         } else container.append(document.createTextNode(match[0]));
@@ -271,22 +278,27 @@
       element('table-kind').textContent = table.kind;
       element('table-source').hidden = !table.source;
       element('table-source').href = `../${table.source.split('/').map(encodeURIComponent).join('/')}`;
-      element('table-source').querySelector('span').textContent = table.file;
+      element('table-source').querySelector('span').textContent = table.wiki ? `${table.wiki.page} snapshot` : table.file;
       element('stat-entries').textContent = table.entries.length.toLocaleString();
       element('stat-outgoing').textContent = table.outgoing.length.toLocaleString();
       element('stat-incoming').textContent = table.incoming.length.toLocaleString();
       const definitions = AtlasRegistry.definitions[table.id] || [];
-      element('definition-note').hidden = definitions.length < 2;
-      element('definition-note').textContent = `${definitions.length} definitions. Active source: ${table.file}.`;
-      element('definition-note').title = definitions.join('\n');
+      element('definition-note').hidden = !table.wiki && definitions.length < 2;
+      element('definition-note').textContent = table.wiki
+        ? `Source editor: ${table.wiki.contributor?.name || 'Unrecorded'}. Earliest retained contributor: ${table.wiki.originalContributor?.name || 'Unrecorded'}.`
+        : `${definitions.length} definitions. Active source: ${table.file}.`;
+      element('definition-note').title = table.wiki?.originalSourceFile || definitions.join('\n');
+      element('wiki-validation').hidden = !table.blocked;
+      element('wiki-validation').textContent = table.blocked ? `Blocked: ${table.wiki.issues[0]?.detail || 'Source validation failed'}.` : '';
+      element('wiki-validation').title = table.wiki?.issues.map(issue => `${issue.code}: ${issue.detail}`).join('\n') || '';
       const bookmarked = state.bookmarks.has(table.id);
       element('bookmark-table').setAttribute('aria-pressed', String(bookmarked));
       element('bookmark-table').title = bookmarked ? 'Remove bookmark' : 'Bookmark table';
       element('bookmark-table').setAttribute('aria-label', element('bookmark-table').title);
-      element('roll-button').disabled = table.missing || !table.entries.length;
+      element('roll-button').disabled = table.missing || table.blocked || !table.entries.length;
       element('roll-count').disabled = element('roll-button').disabled;
       element('roll-output').hidden = !state.results.length;
-      document.querySelector('.header-nav a').href = table.missing ? '../index.html' : `../index.html?table=${encodeURIComponent(table.id)}`;
+      document.querySelector('.header-nav a').href = table.missing || table.wiki && !table.wiki.legacyAvailable ? '../index.html' : `../index.html?table=${encodeURIComponent(table.id)}`;
       document.title = `${table.label} | Table Atlas`;
       renderEntries();
       renderConnections();
@@ -359,6 +371,8 @@
     }
 
     function rollSelected() {
+      const table = model.byId.get(state.selected);
+      if (table.missing || table.blocked || !table.entries.length) return;
       const requested = Number(element('roll-count').value);
       const count = Number.isFinite(requested) ? Math.max(1, Math.min(10, Math.floor(requested))) : 1;
       element('roll-count').value = String(count);
@@ -459,18 +473,18 @@
       element('collection-filter').append(option);
     }
     for (const source of sourceFiles) {
-      const option = make('option', '', source.split('/').pop());
+      const option = make('option', '', sourceLabels.get(source) || source.split('/').pop());
       option.value = source;
       element('source-filter').append(option);
     }
-    for (const [value, label] of [[model.tables.length, 'tables'], [model.entryCount, 'entries'], [model.collections.length, 'collections']]) {
+    for (const [value, label] of [[model.tables.length, 'tables'], [model.entryCount, 'entries'], [model.collections.length, 'collections'], [model.tables.filter(table => table.blocked).length, 'blocked']]) {
       if (element('overview-stats').dataset.ready) element('overview-stats').append(make('span', 'stat-separator', '/'));
       else { element('overview-stats').replaceChildren(); element('overview-stats').dataset.ready = 'true'; }
       element('overview-stats').append(make('strong', '', value.toLocaleString()), document.createTextNode(` ${label}`));
     }
     element('missing-filter').hidden = !missing.length;
     element('missing-count').textContent = `${missing.length} unresolved`;
-    element('source-count').textContent = `${document.querySelectorAll('script[src^="../tables/"]').length} source files loaded`;
+    element('source-count').textContent = `${document.querySelectorAll('script[src^="../tables/"]').length} scripts / ${WikiImport.summary.tables.toLocaleString()} wiki tables`;
     if (AtlasRegistry.errors.length) {
       element('load-error').textContent = AtlasRegistry.errors.join(' ');
       element('load-error').hidden = false;
@@ -518,7 +532,7 @@
     element('zoom-out').addEventListener('click', () => graph.zoomBy(1 / 1.35));
     element('fit-graph').addEventListener('click', () => graph.fit());
     element('random-table').addEventListener('click', () => {
-      const candidates = filtered.filter(table => !table.missing && table.entries.length);
+      const candidates = filtered.filter(table => !table.missing && !table.blocked && table.entries.length);
       if (!candidates.length) { notify('No rollable tables match these filters.'); return; }
       selectTable(candidates[Math.floor(Math.random() * candidates.length)].id);
       rollSelected();
@@ -527,7 +541,15 @@
     element('copy-token').addEventListener('click', () => copyText(`{${state.selected}}`, 'Table token copied.'));
     element('copy-result').addEventListener('click', () => copyText(state.results.map(result => plainResult(result.text)).join('\n\n'), 'Results copied.'));
     element('export-index').addEventListener('click', () => {
-      const tables = model.tables.map(table => ({ id: table.id, source: table.source, collection: table.collection, kind: table.kind, entries: table.entries }));
+      const tables = model.tables.map(table => ({
+        id: table.id, label: table.label, source: table.source, collection: table.collection, kind: table.kind,
+        blocked: table.blocked, entries: table.entries,
+        provenance: table.wiki ? {
+          name: table.wiki.name, sourceFile: table.wiki.sourceFile, sourceRevision: table.wiki.sourceRevision,
+          contributor: table.wiki.contributor, originalContributor: table.wiki.originalContributor,
+          originalSourceFile: table.wiki.originalSourceFile, issues: table.wiki.issues
+        } : undefined
+      }));
       download('random-tables-index.json', JSON.stringify({ tables, relationships: model.edges, unresolved: missing.map(table => table.id), definitions: AtlasRegistry.definitions }, null, 2), 'application/json');
       notify('Table index exported.');
     });
@@ -588,10 +610,17 @@
     updateLocation(true);
   }
 
-  try { start(); }
-  catch (error) {
-    element('load-error').textContent = `The explorer could not start: ${error.message}`;
-    element('load-error').hidden = false;
-    console.error(error);
+  async function initialize() {
+    try {
+      if (!globalThis.WikiImport) throw new Error('The wiki import runtime is missing');
+      await WikiImport.catalogReady;
+      if (!WikiImport.summary || WikiImport.metadata.size !== WikiImport.summary.tables) throw new Error('The wiki catalog did not load completely');
+      start();
+    } catch (error) {
+      element('load-error').textContent = `The explorer could not start: ${error.message}`;
+      element('load-error').hidden = false;
+      console.error(error);
+    }
   }
+  initialize();
 })();

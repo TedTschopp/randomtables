@@ -6,10 +6,26 @@ A random table roller based on the work started by http://donjon.bin.sh/code/ran
 Open [explorer/index.html](explorer/index.html) for the new browser-only table
 explorer: a searchable catalog, interactive relationship map, weighted entries,
 and traced rolls. It works directly from disk with no server, build, or internet
-connection. The original generator, roll, print, and table files are unchanged.
+connection. The original generator engine is unchanged; the classic generator,
+roll, and print pages remain available with repaired references and a small
+compatibility import.
 
 See [explorer/README.md](explorer/README.md) for usage, data boundaries, and
 optional development checks.
+
+## Abulafia Import
+
+The explorer includes 25,748 namespaced tables from the archived Abulafia wiki:
+19,351 validated tables and 6,397 preserved but quarantined tables. The import
+follows both recorded editors and earliest retained contributors, recursively
+including contributors encountered through dependencies. Existing table names
+are never overwritten by imported data.
+
+See [tables/abulafia/README.md](tables/abulafia/README.md) for source attribution,
+compatibility aliases, validation limits, and repeatable import commands. The
+generated import occupies about 259 MB, mostly source snapshots and audit data.
+The browser does not load those archives at startup. Only the explorer loads
+the full compressed runtime catalog.
 
 ## Source Code
 

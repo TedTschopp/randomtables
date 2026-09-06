@@ -747,7 +747,7 @@ gen_data['human_skin'] = {
     '1-1': '{pale_skin}',
     '2-2': '{tan_skin}',
     '3-3': '{olive_skin}',
-    '4-4': '{dark_skin}'
+    '4-4': '{brown_skin}'
 }
 gen_data['elf_skin'] = {
     '1-1': '{pale_skin}',
@@ -755,7 +755,7 @@ gen_data['elf_skin'] = {
 }
 gen_data['dwarf_skin'] = {
     '1-1': '{olive_skin}',
-    '2-2': '{dark_skin}'
+    '2-2': '{brown_skin}'
 }
 gen_data['gnome_skin'] = {
     '1-1': '{pale_skin}',

@@ -8,6 +8,7 @@
   <title>Table Atlas | Random Tables</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="../JS/generator.js"></script>
+  <script defer src="../JS/wiki-import.js"></script>
   <script defer src="registry.js"></script>
   <script defer src="../tables/test_tables.js"></script>
   <script defer src="../tables/warrior_data.js"></script>
@@ -45,6 +46,8 @@
   <script defer src="../tables/dwarves.js"></script>
   <script defer src="../tables/goblinoid.js"></script>
   <script defer src="../tables/Work-in-progress.js"></script>
+  <script defer src="../tables/abulafia.js"></script>
+  <script defer src="abulafia-catalog.js"></script>
   <script defer src="vendor/d3.min.js"></script>
   <script defer src="vendor/lucide.min.js"></script>
   <script defer src="model.js"></script>
@@ -88,7 +91,7 @@
           <summary><i data-lucide="sliders-horizontal" aria-hidden="true"></i> Filters <span id="active-filter-count"></span><i data-lucide="chevron-down" class="filter-chevron" aria-hidden="true"></i></summary>
           <div class="filter-fields">
             <label>Source file<select id="source-filter"><option value="all">All source files</option></select></label>
-            <label>Relationships<select id="relation-filter"><option value="all">All tables</option><option value="connected">With connections</option><option value="unresolved">Unresolved references</option><option value="isolated">Unconnected tables</option></select></label>
+            <label>State<select id="relation-filter"><option value="all">All tables</option><option value="connected">With connections</option><option value="unresolved">Unresolved references</option><option value="isolated">Unconnected tables</option><option value="ready">Ready to roll</option><option value="blocked">Blocked imports</option></select></label>
             <button id="clear-filters" class="text-button">Reset filters</button>
           </div>
         </details>
@@ -131,6 +134,7 @@
         <div class="token-row"><code id="table-token">{welcome_to_town}</code><button id="copy-token" class="icon-button" title="Copy table token" aria-label="Copy table token"><i data-lucide="copy" aria-hidden="true"></i></button></div>
         <div class="source-row"><a id="table-source" target="_blank" rel="noopener"><i data-lucide="file-code-2" aria-hidden="true"></i><span></span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a><span id="table-kind" class="kind-badge"></span></div>
         <div id="definition-note" class="definition-note" hidden></div>
+        <div id="wiki-validation" class="definition-note" role="status" hidden></div>
         <dl class="table-stats"><div><dt>Entries</dt><dd id="stat-entries">0</dd></div><div><dt>Uses</dt><dd id="stat-outgoing">0</dd></div><div><dt>Used by</dt><dd id="stat-incoming">0</dd></div></dl>
         <div class="roll-controls"><button id="roll-button" class="primary-button"><i data-lucide="dices" aria-hidden="true"></i> Roll table</button><input id="roll-count" type="number" value="1" min="1" max="10" step="1" aria-label="Number of results" title="Number of results"></div>
         <section id="roll-output" class="roll-output" aria-label="Generated results" hidden>

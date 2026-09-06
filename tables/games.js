@@ -87,7 +87,7 @@ gen_data['game_played_famous_for'] = {
 	'05-06': 'This game is the guilty pleasure of the local royalty.',
 	'07-08': 'This game is the game {names}, the legendary wizard lost.',
 	'09-10': 'There is a legand that {names}, the loser had to face and defeat a {fantastic_animal}',
-	'11-12': 'Gamblers tell the story about {name}, who won {game_played_famous_loss} ',
+	'11-12': 'Gamblers tell the story about {names}, who won {game_played_famous_loss} ',
 	'13-50': ' '
 }
 gen_data['game_played_famous_loss'] = [
