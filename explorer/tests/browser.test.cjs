@@ -382,6 +382,73 @@ test('extended wiki macros roll offline with preserved source, nested evaluation
   });
 });
 
+test('case-corrected tables preserve archived tokens and resolve offline rolls and traces on desktop and mobile', async () => {
+  await withPage(async page => {
+    const targets = await page.evaluate(() => {
+      const tables = [...WikiImport.metadata.values()];
+      const direct = tables.find(table => table.name === 'Fantasy Names.StartFemNoTitle');
+      const dependent = tables.find(table => table.status === 'ready' && table.execution === 'wiki' &&
+        table.dependencies.some(id => WikiImport.metadata.get(id)?.referenceCorrections?.length));
+      return [direct, dependent].map(table => {
+        const correction = table.referenceCorrections?.[0];
+        const row = correction ? correction.row - 1 : table.entries.findIndex(entry => entry.weight > 0 &&
+          entry.references.some(id => WikiImport.metadata.get(id)?.referenceCorrections?.length));
+        const entry = table.entries[row];
+        return { id: table.id, name: table.name, status: table.status, execution: table.execution, row,
+          rawText: entry.rawText, sourceHash: table.sourceHash, correction,
+          displayText: entry.text.replace(/\{(\w+)\}/g, (token, id) => `{${WikiImport.metadata.get(id)?.name || id}}`),
+          sample: (table.entries.slice(0, row).reduce((sum, item) => sum + item.weight, 0) + entry.weight / 2) / table.totalWeight };
+      });
+    });
+    assert.equal(targets[1].execution, 'wiki');
+    for (const target of targets) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(target.status, 'ready');
+      assert.equal(await page.locator('#roll-button').isDisabled(), false);
+      assert.equal(await page.locator('#wiki-validation').isVisible(), false);
+      if (target.correction) {
+        assert.equal(await page.locator('.entry-text').nth(target.row).textContent(), target.displayText);
+        assert.ok(target.rawText.includes(target.correction.raw));
+        assert.ok(target.displayText.includes(target.correction.to));
+      }
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const source = archive.tables.find(record => record.current.table.subtable.qualified_name === target.name).current;
+      assert.equal(source.sourceHash, target.sourceHash);
+      assert.equal(source.table.entries[target.row].text, target.rawText);
+      await page.locator('#roll-count').fill('1');
+      await page.evaluate(sample => {
+        const originalRandom = Math.random;
+        let first = true;
+        try {
+          Math.random = () => {
+            if (!first) return 0.5;
+            first = false;
+            return sample;
+          };
+          document.getElementById('roll-button').click();
+        } finally {
+          Math.random = originalRandom;
+        }
+      }, target.sample);
+      const output = await page.locator('.roll-result').first().textContent();
+      assert.ok(output.trim(), target.name);
+      assert.doesNotMatch(output, /\{\{|unavailable|requires Table Atlas/i);
+      assert.equal(await page.locator('.roll-warning').count(), 0);
+      if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
+      assert.ok(await page.locator('.trace-step').count() > 1);
+      if (target.correction) assert.equal(await page.locator(`.trace-step[data-table-link="${target.correction.targetId}"]`).first().isVisible(), true);
+      if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'desktop-case-corrections.png') });
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'mobile-case-corrections.png'), fullPage: true });
+    }
+  });
+});
+
 test('wiki author, source, and validation filters retain the complete catalog', async () => {
   await withPage(async page => {
     const expected = await page.evaluate(() => {

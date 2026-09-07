@@ -17,7 +17,7 @@ The scan covers **26,156 current wiki tables**: 25,748 imported and 408 not impo
 
 Local sources: 38 JavaScript files (36 loaded by the classic home page), 2 JSON files, and 15 text wordlists. Local definitions include shadowed and unloaded data and are not added to the active browser table count.
 
-Wiki state counts: `ready-static`: 19,351; `ready-runtime`: 551; `blocked`: 5,846; `not-imported`: 408.
+Wiki state counts: `ready-static`: 19,633; `ready-runtime`: 646; `blocked`: 5,469; `not-imported`: 408.
 
 Local state counts: `legacy-active`: 1,118; `legacy-shadowed`: 64; `legacy-unloaded`: 16; `legacy-json`: 1,071; `legacy-json-prototype`: 4.
 
@@ -27,12 +27,12 @@ Counts below are distinct source tables containing well-closed, unprotected macr
 
 | Macro | Source Tables | Calls | Ready Static | Ready Runtime | Blocked | Not Imported | Support |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| `ia` | 267 | 486 | 0 | 111 | 156 | 0 | Bounded |
-| `ucfirst` | 222 | 564 | 26 | 50 | 145 | 1 | Bounded |
-| `article` | 102 | 232 | 0 | 22 | 80 | 0 | Bounded |
-| `plural` | 78 | 329 | 0 | 19 | 49 | 10 | Bounded |
+| `ia` | 267 | 486 | 0 | 118 | 149 | 0 | Bounded |
+| `ucfirst` | 222 | 564 | 26 | 52 | 143 | 1 | Bounded |
+| `article` | 102 | 232 | 0 | 23 | 79 | 0 | Bounded |
+| `plural` | 78 | 329 | 0 | 22 | 46 | 10 | Bounded |
 | `lcfirst` | 40 | 75 | 0 | 10 | 30 | 0 | Bounded |
-| `po` | 40 | 123 | 3 | 6 | 31 | 0 | Bounded |
+| `po` | 40 | 123 | 3 | 7 | 30 | 0 | Bounded |
 | `#expr` | 24 | 109 | 0 | 14 | 10 | 0 | Bounded |
 | `lc` | 24 | 41 | 0 | 9 | 15 | 0 | Bounded |
 | `link` | 22 | 1,029 | 0 | 22 | 0 | 0 | Plain text |
@@ -51,7 +51,7 @@ Counts below are distinct source tables containing well-closed, unprotected macr
 | `array implode` | 1 | 1 | 0 | 1 | 0 | 0 | Bounded |
 | `array norepeat` | 1 | 2 | 0 | 1 | 0 | 0 | Bounded |
 | `currentyear` | 1 | 1 | 0 | 1 | 0 | 0 | Bounded |
-| `dieroll` | 1 | 1 | 0 | 0 | 1 | 0 | Plain text |
+| `dieroll` | 1 | 1 | 0 | 1 | 0 | 0 | Plain text |
 | `fc` | 1 | 1 | 0 | 0 | 1 | 0 | Plain text |
 | `font color` | 1 | 10 | 0 | 0 | 1 | 0 | Plain text |
 | `psychon norepeat` | 1 | 1 | 0 | 1 | 0 | 0 | Bounded |
@@ -237,20 +237,20 @@ Macro support alone will not clear quarantine. Current manifest diagnostics coun
 
 | Validation Issue | Imported Tables |
 | --- | ---: |
-| `blocked_dependency` | 4,536 |
-| `unsupported_reference` | 1,169 |
-| `missing_reference` | 994 |
+| `blocked_dependency` | 4,275 |
+| `unsupported_reference` | 973 |
+| `missing_reference` | 798 |
 | `invalid_weight` | 580 |
 | `empty_table` | 549 |
-| `unsupported_syntax` | 509 |
 | `cycle` | 495 |
-| `unsupported_macro_expression` | 379 |
+| `unsupported_syntax` | 493 |
+| `unsupported_macro_expression` | 363 |
 | `expansion_limit` | 265 |
-| `unsupported_runtime_expression` | 90 |
-| `unsupported_ucfirst` | 76 |
+| `unsupported_runtime_expression` | 86 |
+| `unsupported_ucfirst` | 74 |
 | `source_warning` | 46 |
 | `unsafe_html` | 23 |
-| `unsupported_po` | 14 |
+| `unsupported_po` | 12 |
 | `source_unresolved` | 5 |
 
 ## Reproduce

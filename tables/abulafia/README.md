@@ -31,10 +31,10 @@ remain in the upstream repository; this is not a copy of every revision.
 | Item | Count |
 | --- | ---: |
 | Imported tables | 25,748 |
-| Validated, ready tables | 19,902 |
-| Ready static tables | 19,351 |
-| Ready wiki-runtime tables | 551 |
-| Quarantined tables | 5,846 |
+| Validated, ready tables | 20,279 |
+| Ready static tables | 19,633 |
+| Ready wiki-runtime tables | 646 |
+| Quarantined tables | 5,469 |
 | Recorded contributor identities | 240 |
 | Source pages | 1,554 |
 | Preserved current entries | 482,281 |
@@ -43,11 +43,12 @@ remain in the upstream repository; this is not a copy of every revision.
 The [manifest](manifest.json) records the source commit, selected contributors,
 table identities, validation issues, aliases, source hashes, and generated-file
 sizes and hashes. Per-page JSON files in [source](source/) preserve source data
-and attribution snapshots. The 1,557 generated artifacts total 258,878,897 bytes
+and attribution snapshots. The 1,557 generated artifacts total 259,040,364 bytes
 (about 259 MB); this documentation is not a generated artifact.
 
-The expanded macro runtime enables 444 more tables than the preceding compact
-`po`/`ucfirst` runtime. All previously ready values and programs, source archives,
+The expanded macro runtime added 444 tables beyond the preceding compact
+`po`/`ucfirst` runtime. The source-bound case repair batch adds another 377:
+282 static and 95 wiki-runtime tables. All previously ready values and programs, source archives,
 identifiers, contributors, and compatibility aliases are unchanged. The 408
 current wiki tables outside the contributor-based selection remain unimported.
 
@@ -72,15 +73,43 @@ their original text, weights, and source references. They have 0% probability
 and are excluded from executable validation, dependency propagation, and
 expansion limits. The source relationship map still includes their references.
 Invalid weights and extractor parse warnings remain blocking. A table-level
-unresolved-target diagnostic is ignored only when every recorded use of that
-target occurs in a zero-weight row.
+unresolved-target diagnostic remains unless every executable use is covered by
+an approved correction or all remaining recorded uses have zero weight.
+
+### Explicit Reference Corrections
+
+The [reviewed correction file](../../explorer/tools/case-reference-corrections.json)
+contains 363 row-level corrections across 196 tables and 162 misspelled target
+names. Each target was already imported and ready, with exactly one case-only
+match. No contributor selection, table identity, source archive, or compatibility
+alias changes. Table-name lookup remains exact and case-sensitive.
+
+Each correction binds the source ID, source file and hash, one-based row, exact
+row-text hash, weight, original reference token and target name, reference count,
+and the destination ID, name, and source hash. The visible token must also match
+a valid target spelling up to case. Stale bindings, duplicate rules, ambiguous
+matches, zero-weight rows, unrelated tokens, and targets outside the selected
+import are rejected before compilation.
+
+Corrections apply only to compile-time copies. Archive JSON and catalog `rawText`
+keep their original spelling; corrected entries and dependencies use the existing
+target's namespaced ID. Each affected table records its `referenceCorrections` in
+the manifest and runtime catalog. Remaining unresolved uses still block a table.
+All dependency, expression, cycle, probability, and resource checks run normally.
+
+The pre-repair report estimated 337 recoverable tables. Full compilation enabled
+377 because 40 additional tables no longer fail dependent macro validation.
+Acceptance covered 8,802 deterministic rolls over all 2,934 selectable compiled
+choices in those 377 tables, with zero warnings, plus offline desktop/mobile and
+classic-page browser checks. The [current recovery report](../../Docs/quarantine-report.md)
+describes the remaining blockers, not the original approval snapshot.
 
 ### Static Choices
 
 Small `ucfirst` and `po` cases retain their exact precomputed alternatives, with
 at most 4,096 alternatives per table and safe-integer cumulative weights. Exact
 rational arithmetic preserves source-row and referenced-choice probabilities.
-Source rows, original weights, graph relationships, and leaf values are intact.
+Source rows, original weights, and leaf values are intact.
 Static traces show compiled choices rather than an extra call for the expanded
 argument. This path remains first choice to preserve existing behavior.
 
@@ -173,14 +202,14 @@ The full ship-name root still depends on invalid source data. The full town-name
 root is now ready through the wiki evaluator, but is not a classic-engine table.
 Both roots and all selected contributors' tables remain preserved. Compatibility
 aliases keep the validated subtables shown above and do not reproduce the full
-roots' output distributions. The compatibility bundle is byte-identical to its
-pre-macro-expansion version. Wiki-only tables carry inert classic registry markers
+roots' output distributions. The compatibility tables, labels, and aliases are
+unchanged; only the bundle's global readiness summary is refreshed. Wiki-only tables carry inert classic registry markers
 and cannot be installed as compatibility aliases.
 
 Local reference corrections resolve the other 29 original missing targets,
 including case mismatches and the overwritten Gaelic/Scottish gender lists.
-The classic/core registry has zero unresolved targets. The full preserved wiki
-corpus still has 1,050 unresolved targets; tables with executable dependencies
+The classic/core registry has zero unresolved targets. The compiled wiki
+catalog still has 930 unresolved targets; tables with executable dependencies
 on them cannot generate.
 
 ## Browser Packaging
@@ -197,7 +226,7 @@ The explorer also loads local template data, the shared evaluator, and the
 is bundled alongside it. These scripts load before the catalog; the classic
 pages do not load or require them.
 
-Source snapshots and the 21.5 MB audit manifest are not part of the runtime
+Source snapshots and the audit manifest are not part of the runtime
 payload. They are opened only when inspected directly. The explorer's graph is
 limited to 600 displayed nodes and 3,000 links, with displayed/total counts;
 the searchable catalog and JSON export remain complete.

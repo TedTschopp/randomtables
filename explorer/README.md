@@ -50,16 +50,16 @@ drawer. Browser Back and Forward restore table, graph scope, and depth.
 
 The explorer loads the same ordered table-script list as the classic home page,
 including its compatibility bundle, then adds the full Abulafia catalog. This
-snapshot indexes 26,871 tables and 46,584 directed relationships. The wiki import
-contains 25,748 tables: 19,902 ready and 5,846 quarantined. Ready imports comprise
-19,351 static tables and 551 wiki-runtime tables. Unregistered scripts
+snapshot indexes 26,871 tables and 46,573 directed relationships. The wiki import
+contains 25,748 tables: 20,279 ready and 5,469 quarantined. Ready imports comprise
+19,633 static tables and 646 wiki-runtime tables. Unregistered scripts
 and alternate JSON formats elsewhere in the repository are not automatically
 imported.
 
 All 34 previously unresolved classic targets have been repaired through local
 reference corrections or five explicit compatibility aliases. The classic/core
-registry has no unresolved targets. The preserved wiki corpus still contains
-1,050 unresolved targets, shown as dashed nodes and accessible through the
+registry has no unresolved targets. The compiled wiki catalog still contains
+930 unresolved targets, shown as dashed nodes and accessible through the
 **unresolved** control. Imports with executable dependencies on them are
 quarantined. These are source-data defects, not missing browser downloads.
 
@@ -142,6 +142,43 @@ repairs. The [JSON evidence](../Docs/macro-inventory.json) retains each occurren
 The scanner is an optional development tool; it does not change tables or add a
 server requirement. Run its focused tests with `npm --prefix explorer run test:inventory`.
 The report contains the reproduction command and exact source revision.
+
+## Quarantine Recovery
+
+The first repair batch applies 363 exact row-level case corrections across 196
+tables. It enables 377 additional tables: 282 static and 95 wiki-runtime tables.
+This exceeds the report's 337-table conditional estimate because 40 additional
+tables no longer fail dependent macro validation. All previously ready values and
+programs are unchanged. The original archives and row text retain their spelling.
+
+The [correction records](tools/case-reference-corrections.json) bind each change to
+its source file and hash, row text hash, original token, weight, reference count,
+and target ID and hash. The importer rejects stale, ambiguous, out-of-scope,
+nonselectable, or non-case-only changes. No global case folding or alias is added.
+The manifest and catalog retain each applied table's `referenceCorrections` trail.
+The correction file's basis hash identifies the pre-repair report snapshot;
+the published report below reflects the current remaining backlog.
+
+The [ranked recovery report](../Docs/quarantine-report.md) separates local defects
+from dependency failures and groups recursive tables into joint repair components.
+It includes source examples, proposed repairs, confidence, effort, and conditional
+recovery estimates. Reach is not the number of tables a single repair will enable.
+The [JSON evidence](../Docs/quarantine-report.json) retains all component memberships,
+per-table blocker sets, input hashes, and case-only reference candidates.
+
+Generate the reports from the pinned manifest, matching macro inventory, and local
+source archives:
+
+```sh
+node explorer/tools/quarantine-report.cjs --output Docs
+npm --prefix explorer run test:quarantine
+```
+
+Omit `--output` for a read-only summary. Different existing reports and changed
+input hashes are rejected. Review a later snapshot in a new output directory
+before replacing published reports. The tool does not rewrite archives, import
+additional contributors, change identifiers, or promote quarantined tables.
+The 408 current but unimported wiki tables remain a separate scope decision.
 
 ## Optional Tests
 

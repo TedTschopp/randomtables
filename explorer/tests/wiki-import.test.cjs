@@ -1,4 +1,5 @@
 const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
@@ -27,6 +28,126 @@ function record(pageId, pageTitle, name, contributor, originalContributor, targe
     }
   };
 }
+
+function caseCorrection(source, target, row = 1) {
+  const digest = value => crypto.createHash('sha256').update(value).digest('hex');
+  source.sourceHash ||= digest(JSON.stringify(source.table));
+  target.sourceHash ||= digest(JSON.stringify(target.table));
+  const entry = source.table.entries[row - 1];
+  const reference = entry.references[0];
+  return {
+    tableId: tableId(source.table), sourceFile: source.sourceFile, sourceHash: source.sourceHash,
+    row, entryHash: digest(entry.text), weight: entry.weight, raw: reference.raw,
+    from: reference.target_qualified_name, to: target.table.subtable.qualified_name,
+    targetId: tableId(target.table), targetSourceHash: target.sourceHash,
+    referenceCount: entry.references.filter(item => item.raw === reference.raw).length
+  };
+}
+
+test('explicit case corrections change only approved selectable references and preserve source evidence', () => {
+  const source = record(94, 'Case', 'main', 'Editor', 'Creator', ['Case.choices']);
+  source.table.entries[0].weight = 2;
+  source.table.entries.push({ ...structuredClone(source.table.entries[0]), weight: 0 });
+  const target = record(94, 'Case', 'Choices', 'Editor', 'Creator');
+  target.table.entries = [{ weight: 2, text: 'One', references: [] }, { weight: 3, text: 'Two', references: [] }];
+  const unapproved = record(94, 'Case', 'Unapproved', 'Editor', 'Creator', ['Case.choices']);
+  const correction = caseCorrection(source, target);
+  const plan = planImport([source, target, unapproved], ['Case.main']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan);
+  const bundle = compileImport(plan, { referenceCorrections: [correction] });
+  const compiled = bundle.tables.find(table => table.name === 'Case.main');
+  assert.equal(compiled.status, 'ready', JSON.stringify(compiled.issues));
+  assert.deepEqual(compiled.values, { '1-2': `{${tableId(target.table)}}` });
+  assert.equal(compiled.totalWeight, 2);
+  assert.equal(compiled.entries[0].rawText, '[Case.choices]');
+  assert.equal(compiled.entries[1].text, '[Case.choices]');
+  assert.deepEqual(compiled.dependencies, [tableId(target.table)]);
+  assert.deepEqual(compiled.referenceCorrections, [correction]);
+  assert.equal(bundle.tables.find(table => table.name === 'Case.Unapproved').status, 'blocked');
+  assert.deepEqual(bundle.tables.find(table => table.name === 'Case.Choices'), baseline.tables.find(table => table.name === 'Case.Choices'));
+  assert.deepEqual(bundle.aliases, {});
+  assert.equal(JSON.stringify(plan), before);
+});
+
+test('case correction guards reject stale, nonselectable, ambiguous, or unrelated source bindings', () => {
+  const source = record(95, 'Guarded', 'main', 'Editor', 'Creator', ['Guarded.choices']);
+  const target = record(95, 'Guarded', 'Choices', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  const plan = planImport([source, target], ['Guarded.main']);
+  for (const change of [
+    { sourceHash: '0'.repeat(64) }, { targetSourceHash: '0'.repeat(64) }, { entryHash: '0'.repeat(64) },
+    { sourceFile: 'other.json' }, { row: 2 }, { weight: 0 }, { weight: 2 }, { referenceCount: 2 },
+    { raw: '[unrecorded]' }, { from: 'Unrelated.choices' }, { from: 'Guarded.Choices' },
+    { targetId: 'outside' }, { tableId: 'outside' }, { extra: true }
+  ]) assert.throws(() => compileImport(plan, { referenceCorrections: [{ ...correction, ...change }] }), /correction/i, JSON.stringify(change));
+  assert.throws(() => compileImport(plan, { referenceCorrections: [correction, correction] }), /Duplicate reference correction/);
+  for (const name of ['CHOICES', 'choices']) {
+    const collision = record(95, 'Guarded', name, 'Editor', 'Creator');
+    const ambiguous = planImport([source, target, collision], ['Guarded.main']);
+    assert.throws(() => compileImport(ambiguous, { referenceCorrections: [correction] }), /case-only target/);
+  }
+  assert.throws(() => compileImport({ ...plan, records: [source] }, { referenceCorrections: [correction] }), /selected import/);
+  const unrelated = record(95, 'Guarded', 'Other', 'Editor', 'Creator', ['Guarded.choices']);
+  unrelated.table.entries[0].text = '[different]';
+  unrelated.table.entries[0].references[0].raw = '[different]';
+  unrelated.table.entries[0].references[0].token = 'different';
+  const invalid = caseCorrection(unrelated, target);
+  assert.throws(() => compileImport(planImport([unrelated, target], ['Guarded.Other']), { referenceCorrections: [invalid] }), /case-only source token/);
+});
+
+test('case correction projections support dependent macros while archives and old ready values stay identical', () => {
+  const source = record(96, 'Projected', 'main', 'Editor', 'Creator', ['Projected.choices']);
+  source.table.dependencies.unresolved = ['Projected.choices'];
+  const target = record(96, 'Projected', 'Choices', 'Editor', 'Creator');
+  target.table.entries = [{ weight: 2, text: 'apple', references: [] }, { weight: 3, text: 'pear', references: [] }];
+  const parent = record(96, 'Projected', 'Parent', 'Editor', 'Creator', ['Projected.main']);
+  parent.table.entries[0].text = '{{ucfirst:{{Ia|[Projected.main]}}}}';
+  const correction = caseCorrection(source, target);
+  const plan = planImport([source, target, parent], ['Projected.main']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan, { runtimeExpressions: true });
+  const bundle = compileImport(plan, { runtimeExpressions: true, referenceCorrections: [correction] });
+  const compiled = bundle.tables.find(table => table.name === 'Projected.Parent');
+  assert.equal(compiled.status, 'ready', JSON.stringify(compiled.issues));
+  assert.equal(compiled.execution, 'wiki');
+  const provenance = { repository: 'fixture', commit: 'fixed' };
+  const oldArtifacts = buildArtifacts(plan, baseline, provenance);
+  const artifacts = buildArtifacts(plan, bundle, provenance);
+  assert.equal(artifacts.get('tables/abulafia/source/96.json'), oldArtifacts.get('tables/abulafia/source/96.json'));
+  const metadata = JSON.parse(artifacts.get('tables/abulafia/manifest.json')).tables.find(table => table.name === 'Projected.main');
+  assert.deepEqual(metadata.referenceCorrections, [correction]);
+  const context = vm.createContext({ WikiExpressions: require('../../JS/wiki-expressions.js') });
+  for (const file of ['JS/generator.js', 'JS/wiki-import.js']) vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), context);
+  context.WikiImport.register(bundle);
+  for (const [random, expected] of [[0, 'An apple'], [0.999999, 'A pear']]) {
+    vm.runInContext(`Math.random = () => ${random};`, context);
+    const result = context.WikiImport.roll(compiled.id);
+    assert.equal(result.text, expected);
+    assert.deepEqual(Array.from(result.warnings), []);
+  }
+  assert.deepEqual(bundle.tables.find(table => table.name === 'Projected.Choices'), baseline.tables.find(table => table.name === 'Projected.Choices'));
+  assert.equal(JSON.stringify(plan), before);
+});
+
+test('case corrections neither clear uncorrected rows nor bypass cyclic dependency guards', () => {
+  const source = record(97, 'Partial', 'main', 'Editor', 'Creator', ['Partial.choices']);
+  source.table.entries.push(structuredClone(source.table.entries[0]));
+  source.table.dependencies.unresolved = ['Partial.choices'];
+  const target = record(97, 'Partial', 'Choices', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  const plan = planImport([source, target], ['Partial.main']);
+  const partial = compileImport(plan, { referenceCorrections: [correction] }).tables.find(table => table.name === 'Partial.main');
+  assert.equal(partial.status, 'blocked');
+  assert.ok(partial.issues.some(issue => issue.code === 'missing_reference'));
+  assert.ok(partial.issues.some(issue => issue.code === 'source_unresolved'));
+  const cycleSource = record(98, 'Cycle', 'main', 'Editor', 'Creator', ['Cycle.choices']);
+  const cycleTarget = record(98, 'Cycle', 'Choices', 'Editor', 'Creator', ['Cycle.main']);
+  const cycleCorrection = caseCorrection(cycleSource, cycleTarget);
+  const cyclic = compileImport(planImport([cycleSource, cycleTarget], ['Cycle.main']), { referenceCorrections: [cycleCorrection], runtimeExpressions: true });
+  assert.ok(cyclic.tables.every(table => table.status === 'blocked'));
+  assert.ok(cyclic.tables.some(table => table.issues.some(issue => issue.code === 'cycle')));
+});
 
 test('extended wiki expressions compile nested and repeated macros without changing source weights or classic values', () => {
   const source = record(91, 'Extended', 'main', 'Editor', 'Creator', ['Extended.Choices']);

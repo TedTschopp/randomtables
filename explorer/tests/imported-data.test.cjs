@@ -8,6 +8,39 @@ const vm = require('node:vm');
 const repo = path.join(__dirname, '..', '..');
 const read = relative => fs.readFileSync(path.join(repo, relative), 'utf8');
 
+test('reviewed case corrections retain exact source bindings and ready target identities in the catalog', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const batch = JSON.parse(read('explorer/tools/case-reference-corrections.json'));
+  const tables = new Map(manifest.tables.map(table => [table.id, table]));
+  const archives = new Map();
+  assert.equal(manifest.summary.ready, 20279);
+  assert.equal(manifest.summary.blocked, 5469);
+  assert.equal(batch.commit, manifest.commit);
+  assert.equal(batch.corrections.length, 363);
+  assert.equal(new Set(batch.corrections.map(correction => correction.tableId)).size, 196);
+  assert.equal(manifest.tables.filter(table => table.referenceCorrections).length, 196);
+  for (const correction of batch.corrections) {
+    const source = tables.get(correction.tableId);
+    const target = tables.get(correction.targetId);
+    assert.equal(source.sourceFile, correction.sourceFile);
+    assert.equal(source.sourceHash, correction.sourceHash);
+    assert.equal(target.name, correction.to);
+    assert.equal(target.sourceHash, correction.targetSourceHash);
+    assert.equal(target.status, 'ready');
+    assert.ok(source.dependencies.includes(target.id));
+    assert.ok(source.referenceCorrections.some(record => JSON.stringify(record) === JSON.stringify(correction)));
+    if (!archives.has(source.archiveFile)) archives.set(source.archiveFile, JSON.parse(read(source.archiveFile)));
+    const original = archives.get(source.archiveFile).tables.find(record => record.current.sourceFile === source.sourceFile).current.table;
+    const entry = original.entries[correction.row - 1];
+    assert.equal(crypto.createHash('sha256').update(entry.text).digest('hex'), correction.entryHash);
+    assert.equal(entry.weight, correction.weight);
+    assert.ok(entry.text.includes(correction.raw));
+    const references = entry.references.filter(reference => reference.raw === correction.raw);
+    assert.equal(references.length, correction.referenceCount);
+    assert.ok(references.every(reference => reference.target_qualified_name === correction.from));
+  }
+});
+
 test('imported artifacts match their audit hashes and retain every selected source snapshot', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
   const tables = new Map(manifest.tables.map(table => [table.name, table]));
@@ -184,6 +217,24 @@ test('real imports preserve the legacy registry, repair its missing targets, and
     assert.equal(table.legacyAvailable, false, name);
     assert.equal(table.program.length, table.entries.length, name);
     assert.ok(table.entries.some(entry => entry.rawText.includes('{{')), name);
+    let start = 0;
+    for (const entry of table.entries) {
+      if (!entry.weight) continue;
+      for (const tail of [0, 0.5, 0.999999999]) {
+        const text = rollWithSamples(table.id, [(start + entry.weight / 2) / table.totalWeight, ...Array(512).fill(tail)]);
+        assert.ok(text.trim(), name);
+        assert.doesNotMatch(text, /\{\{|unavailable|requires Table Atlas/i, name);
+      }
+      start += entry.weight;
+    }
+  }
+  for (const name of ['Fantasy Names.StartFemNoTitle', 'Animal.Weirdsymbol', 'SGNP 1001 nights.cities', 'Angel generator.main']) {
+    const table = byName.get(name);
+    assert.equal(table.status, 'ready', name);
+    for (const correction of table.referenceCorrections || []) {
+      assert.ok(table.entries[correction.row - 1].rawText.includes(correction.raw));
+      assert.ok(table.entries[correction.row - 1].references.includes(correction.targetId));
+    }
     let start = 0;
     for (const entry of table.entries) {
       if (!entry.weight) continue;

@@ -485,9 +485,94 @@ function materializedValues(entries, alternatives, issue) {
   return values;
 }
 
-function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false } = {}) {
-  const occupied = new Set(existingIds);
+function correctedRecords(plan, corrections) {
+  if (!Array.isArray(corrections) || corrections.length > 65536) throw new Error('Invalid reference correction list');
+  if (!corrections.length) return plan.records;
+  const fields = ['tableId', 'sourceFile', 'sourceHash', 'row', 'entryHash', 'weight', 'raw', 'from', 'to', 'targetId', 'targetSourceHash', 'referenceCount'];
+  const byId = new Map(plan.records.map(record => [tableId(record.table), record]));
   const byName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
+  const foldedNames = new Map();
+  for (const name of byName.keys()) {
+    const folded = name.toLowerCase();
+    foldedNames.set(folded, (foldedNames.get(folded) || 0) + 1);
+  }
+  const grouped = new Map();
+  const digest = text => crypto.createHash('sha256').update(text).digest('hex');
+  for (const correction of corrections) {
+    if (!correction || Object.keys(correction).length !== fields.length || fields.some(field => !Object.hasOwn(correction, field))) {
+      throw new Error('Invalid reference correction fields');
+    }
+    const source = byId.get(correction.tableId);
+    const target = byId.get(correction.targetId);
+    if (!source || !target) throw new Error('Reference correction tables must already be in the selected import');
+    if (!/^[a-f0-9]{64}$/.test(correction.sourceHash) || source.sourceHash !== correction.sourceHash || source.sourceFile !== correction.sourceFile) {
+      throw new Error(`Stale reference correction source: ${correction.tableId}`);
+    }
+    if (!/^[a-f0-9]{64}$/.test(correction.targetSourceHash) || target.sourceHash !== correction.targetSourceHash) {
+      throw new Error(`Stale reference correction target: ${correction.targetId}`);
+    }
+    if (typeof correction.from !== 'string' || typeof correction.to !== 'string' || correction.from === correction.to ||
+        correction.to !== target.table.subtable.qualified_name || correction.from.toLowerCase() !== correction.to.toLowerCase() ||
+        byName.has(correction.from) || foldedNames.get(correction.to.toLowerCase()) !== 1) {
+      throw new Error('Reference corrections require a missing name and one unique case-only target');
+    }
+    const entry = Number.isSafeInteger(correction.row) && correction.row > 0 ? source.table.entries[correction.row - 1] : null;
+    if (!entry || typeof entry.text !== 'string' || digest(entry.text) !== correction.entryHash ||
+        !Number.isSafeInteger(correction.weight) || correction.weight <= 0 || correction.weight !== entry.weight) {
+      throw new Error(`Stale or nonselectable reference correction row: ${correction.tableId}:${correction.row}`);
+    }
+    if (typeof correction.raw !== 'string' || !/^\[[^\[\]\r\n]+\]$/.test(correction.raw) || !entry.text.includes(correction.raw)) {
+      throw new Error('Reference correction token is absent or malformed');
+    }
+    const references = entry.references.filter(reference => reference.raw === correction.raw);
+    if (!Number.isSafeInteger(correction.referenceCount) || correction.referenceCount <= 0 || references.length !== correction.referenceCount ||
+        references.some(reference => reference.target_qualified_name !== correction.from || reference.raw !== `[${reference.token}]` ||
+          !['local', 'cross_page'].includes(reference.kind))) {
+      throw new Error('Reference correction does not match exact supported source references');
+    }
+    const spellings = [target.table.subtable.name, target.table.subtable.qualified_name, target.table.page.title];
+    if (references.some(reference => typeof reference.token !== 'string' ||
+        !spellings.some(name => reference.token.toLowerCase() === name.toLowerCase()))) {
+      throw new Error('Reference correction requires a case-only source token');
+    }
+    if (!grouped.has(correction.tableId)) grouped.set(correction.tableId, new Map());
+    const rows = grouped.get(correction.tableId);
+    if (!rows.has(correction.row)) rows.set(correction.row, new Map());
+    if (rows.get(correction.row).has(correction.raw)) throw new Error('Duplicate reference correction token in a row');
+    rows.get(correction.row).set(correction.raw, { ...correction });
+  }
+  return plan.records.map(record => {
+    const rows = grouped.get(tableId(record.table));
+    if (!rows) return record;
+    const applied = [...rows.values()].flatMap(tokens => [...tokens.values()]);
+    const entries = record.table.entries.map((entry, index) => {
+      const tokens = rows.get(index + 1);
+      if (!tokens) return entry;
+      return {
+        ...entry,
+        text: entry.text.replace(/\[[^\[\]\r\n]+\]/g, token => tokens.has(token) ? `[${tokens.get(token).to}]` : token),
+        references: entry.references.map(reference => {
+          const correction = tokens.get(reference.raw);
+          if (!correction) return reference;
+          const target = byId.get(correction.targetId).table;
+          return { ...reference, raw: `[${correction.to}]`, token: correction.to,
+            target_page: target.page.title, target_subtable: target.subtable.name, target_qualified_name: correction.to };
+        })
+      };
+    });
+    const correctedNames = new Set(applied.map(correction => correction.from));
+    const dependencies = record.table.dependencies ? { ...record.table.dependencies,
+      unresolved: (record.table.dependencies.unresolved || []).filter(name => !correctedNames.has(name) ||
+        entries.some(entry => entry.weight !== 0 && entry.references.some(reference => reference.target_qualified_name === name))) } : undefined;
+    return { ...record, table: { ...record.table, entries, ...(dependencies ? { dependencies } : {}) }, referenceCorrections: applied };
+  });
+}
+
+function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [] } = {}) {
+  const occupied = new Set(existingIds);
+  const originalByName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
+  const records = correctedRecords(plan, referenceCorrections);
+  const byName = new Map(records.map(record => [record.table.subtable.qualified_name, record]));
   const identifiers = new Map();
   const labels = Object.create(null);
   const materialized = new Map();
@@ -511,8 +596,9 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
     occupied.add(alias);
   }
 
-  const tables = plan.records.map(record => {
+  const tables = records.map(record => {
     const source = record.table;
+    const original = originalByName.get(source.subtable.qualified_name).table;
     const issues = [];
     const issueKeys = new Set();
     const alternatives = new WeakMap();
@@ -536,11 +622,12 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       }
     }
     let totalWeight = 0;
-    const entries = source.entries.map(entry => {
+    const entries = source.entries.map((entry, index) => {
       if (!Number.isSafeInteger(entry.weight) || entry.weight < 0) issue('invalid_weight', 'Weights must be nonnegative safe integers');
       const weight = Number.isSafeInteger(entry.weight) && entry.weight >= 0 ? entry.weight : 0;
       totalWeight += weight;
-      const rawText = String(entry.text);
+      const rawText = String(original.entries[index].text);
+      const executableText = String(entry.text);
       const entryIssue = entry.weight === 0 ? () => {} : issue;
       const transformIssues = [];
       const transformIssue = runtimeExpressions ? (code, detail) => transformIssues.push({ code, detail }) : entryIssue;
@@ -548,7 +635,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       const compact = runtimeExpressions && weight > 0 && !transform ? compactExpression(entry, transformIssue) : null;
       const extended = runtimeExpressions && weight > 0 && !transform && !compact ? extendedExpression(entry, transformIssue) : null;
       if (!compact && !extended) for (const { code, detail } of transformIssues) entryIssue(code, detail);
-      if (/[{}]|\[\[|\]\]|%[^%]+%|\$(?:[$&`']|<)/.test(transform?.syntax ?? compact?.syntax ?? extended?.syntax ?? rawText)) {
+      if (/[{}]|\[\[|\]\]|%[^%]+%|\$(?:[$&`']|<)/.test(transform?.syntax ?? compact?.syntax ?? extended?.syntax ?? executableText)) {
         entryIssue('unsupported_syntax', 'Wiki expressions or replacement operators require additional runtime support');
       }
       const replacements = new Map();
@@ -569,7 +656,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
             ![target.subtable.name, target.subtable.qualified_name, target.page.title].includes(reference.token)) {
           entryIssue('unsupported_reference', reference.raw || reference.token || 'Unknown reference');
         }
-        if (!reference.raw || !rawText.includes(reference.raw)) {
+        if (!reference.raw || !executableText.includes(reference.raw)) {
           entryIssue('reference_mismatch', reference.raw || 'Reference has no source token');
           continue;
         }
@@ -578,7 +665,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
         }
         replacements.set(reference.raw, identifier);
       }
-      let text = rawText;
+      let text = executableText;
       for (const [token, identifier] of replacements) text = text.split(token).join(`{${identifier}}`);
       if (/[\[\]]/.test(text)) entryIssue('unsupported_syntax', 'Unconverted square-bracket expression');
       if (entry.weight !== 0) text = inertText(text, entryIssue);
@@ -612,6 +699,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       originalSourceFile: record.originalSourceFile, attributionBasis: record.attributionBasis,
       sourceRevision: source.source.revision_id, originalRevision: record.originalRevision?.revision_id,
       status: issues.length ? 'blocked' : 'ready', issues, entries, totalWeight,
+      ...(record.referenceCorrections ? { referenceCorrections: record.referenceCorrections } : {}),
       dependencies: [...new Set(entries.filter(entry => entry.weight > 0).flatMap(entry => entry.references))]
     };
   });
@@ -850,13 +938,22 @@ function main() {
     GheronOrganizationSymbol: 'GheronUtility.OrganizationSymbol', ship_name: 'Ship Names.Special',
     town_name: 'Fantasy Town Names.Englishy'
   };
+  const correctionBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/case-reference-corrections.json'), 'utf8'));
+  if (correctionBatch.schemaVersion !== 1 || correctionBatch.repository !== repository || correctionBatch.commit !== commit ||
+      !Array.isArray(correctionBatch.corrections) || !correctionBatch.corrections.length ||
+      new Set(correctionBatch.corrections.map(correction => correction.tableId)).size !== correctionBatch.basis?.candidateComponents ||
+      new Set(correctionBatch.corrections.map(correction => correction.from)).size !== correctionBatch.basis?.missingTargetNames) {
+    throw new Error('Reference correction batch does not match the pinned source or reviewed scope');
+  }
   const plan = planImport(loadCorpus(sourceRoot), seeds);
-  const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true });
+  const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true,
+    referenceCorrections: correctionBatch.corrections });
   const artifacts = buildArtifacts(plan, bundle, { repository, commit }, seeds);
   const manifest = JSON.parse(artifacts.get('tables/abulafia/manifest.json'));
   const written = values.write ? writeArtifacts(repo, artifacts) : 0;
   console.log(JSON.stringify({ mode: values.write ? 'write' : 'dry-run', commit, ...manifest.summary,
-    aliases, files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
+    aliases, referenceCorrections: correctionBatch.corrections.length, correctedTables: correctionBatch.basis.candidateComponents,
+    files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
 }
 
 module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, tableId, writeArtifacts };
