@@ -597,10 +597,91 @@ function correctedRecords(plan, corrections) {
   });
 }
 
-function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [] } = {}) {
+function reviewedSourceCorrections(configuration, provenance) {
+  const corrections = configuration?.corrections;
+  const basis = configuration?.basis;
+  if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository || configuration.commit !== provenance.commit ||
+      !Array.isArray(corrections) || !corrections.length || corrections.length > 65536 ||
+      corrections.some(correction => !correction || typeof correction.tableId !== 'string') ||
+      new Set(corrections.map(correction => correction.tableId)).size !== corrections.length || corrections.length !== basis?.candidateComponents ||
+      !/^[a-f0-9]{64}$/.test(basis?.reportSha256) || !/^[a-f0-9]{64}$/.test(basis?.manifestSha256) ||
+      !Number.isSafeInteger(basis?.conditionalEstimate) || basis.conditionalEstimate < 0) {
+    throw new Error('Source correction batch does not match the pinned source or reviewed scope');
+  }
+  return corrections;
+}
+
+function recoveredRecords(plan, corrections) {
+  if (!Array.isArray(corrections) || corrections.length > 65536) throw new Error('Invalid source correction list');
+  if (!corrections.length) return plan.records;
+  const byId = new Map(plan.records.map(record => [tableId(record.table), record]));
+  const recovered = new Map();
+  const digest = text => crypto.createHash('sha256').update(text).digest('hex');
+  const exactFields = (record, fields) => record && Object.keys(record).length === fields.length && fields.every(field => Object.hasOwn(record, field));
+  for (const correction of corrections) {
+    const common = ['tableId', 'sourceFile', 'sourceHash', 'rawSourceHash', 'kind'];
+    const fields = correction?.kind === 'recover-empty-semicolon-table' ? [...common, 'rows'] : correction?.kind === 'restore-trailing-space' ?
+      [...common, 'row', 'line', 'raw', 'weight', 'entryHash', 'noteLine', 'note', 'warning'] : [];
+    if (!fields.length || !exactFields(correction, fields)) throw new Error('Invalid source correction fields');
+    const record = byId.get(correction.tableId);
+    if (!record || recovered.has(correction.tableId)) throw new Error('Source correction must identify one selected table exactly once');
+    const source = record.table;
+    if (record.sourceFile !== correction.sourceFile || !/^[a-f0-9]{64}$/.test(correction.sourceHash) || record.sourceHash !== correction.sourceHash ||
+        typeof source.raw_source !== 'string' || digest(source.raw_source) !== correction.rawSourceHash) throw new Error('Stale source correction binding');
+    const lines = source.raw_source.split('\n');
+    if (lines[0] !== `;${source.subtable.name}` || !Number.isSafeInteger(source.subtable.line_number) || source.subtable.line_number <= 0) {
+      throw new Error('Source correction requires an exact table header and source line number');
+    }
+    const clearedWarnings = new Set();
+    function verifyLine(line, raw) {
+      if (!Number.isSafeInteger(line) || line <= 1 || typeof raw !== 'string' || lines[line - 1] !== raw) throw new Error('Stale source correction line');
+    }
+    function verifyWarning(line, raw, warning) {
+      const expected = `Line ${source.subtable.line_number + line - 1}: preserved nonstandard row before first entry: ${raw}`;
+      if (warning !== expected || source.warnings?.filter(value => value === warning).length !== 1 || clearedWarnings.has(warning)) {
+        throw new Error('Source correction does not match one exact extraction warning');
+      }
+      clearedWarnings.add(warning);
+    }
+    let entries;
+    let recoveredEntrySources;
+    if (correction.kind === 'recover-empty-semicolon-table') {
+      if (source.entries.length || !Array.isArray(correction.rows) || !correction.rows.length || correction.rows.length > 65536 ||
+          correction.rows.length !== lines.length - 1) throw new Error('Source correction requires a complete empty-table recovery');
+      recoveredEntrySources = [];
+      entries = correction.rows.map((row, index) => {
+        if (!exactFields(row, ['line', 'raw', 'weight', 'text', 'warning']) || row.line !== index + 2 ||
+            !Number.isSafeInteger(row.weight) || row.weight <= 0 || typeof row.text !== 'string' || /[{}\[\]<>\r\n]/.test(row.text) ||
+            row.raw !== `${row.weight};${row.text}`) throw new Error('Source correction must preserve literal row text and exact positive weights');
+        verifyLine(row.line, row.raw);
+        verifyWarning(row.line, row.raw, row.warning);
+        recoveredEntrySources.push({ line: row.line, raw: row.raw });
+        return { index, weight: row.weight, text: row.text, raw_text: row.raw, references: [] };
+      });
+    } else {
+      verifyLine(correction.line, correction.raw);
+      verifyLine(correction.noteLine, correction.note);
+      if (correction.noteLine >= correction.line || correction.note !== '0 NOTE: trailing spc!') throw new Error('Source correction requires the recorded trailing-space note');
+      const entry = Number.isSafeInteger(correction.row) && correction.row > 0 ? source.entries[correction.row - 1] : null;
+      if (!entry || !Number.isSafeInteger(correction.weight) || correction.weight <= 0 || entry.weight !== correction.weight ||
+          digest(entry.text) !== correction.entryHash || entry.raw_text !== correction.raw || !correction.raw.startsWith(`${entry.weight},`)) {
+        throw new Error('Stale source correction entry or weight');
+      }
+      const text = correction.raw.slice(String(entry.weight).length + 1);
+      if (!/[ \t]+$/.test(text) || text === entry.text || text.trimEnd() !== entry.text) throw new Error('Source correction can only restore recorded trailing whitespace');
+      verifyWarning(correction.noteLine, correction.note, correction.warning);
+      entries = source.entries.map((original, index) => index === correction.row - 1 ? { ...original, text } : original);
+    }
+    recovered.set(correction.tableId, { ...record, table: { ...source, entries, warnings: source.warnings.filter(warning => !clearedWarnings.has(warning)) },
+      sourceCorrections: [structuredClone(correction)], ...(recoveredEntrySources ? { recoveredEntrySources } : {}) });
+  }
+  return plan.records.map(record => recovered.get(tableId(record.table)) || record);
+}
+
+function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [], sourceCorrections = [] } = {}) {
   const occupied = new Set(existingIds);
   const originalByName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
-  const records = correctedRecords(plan, referenceCorrections);
+  const records = correctedRecords({ ...plan, records: recoveredRecords(plan, sourceCorrections) }, referenceCorrections);
   const byName = new Map(records.map(record => [record.table.subtable.qualified_name, record]));
   const identifiers = new Map();
   const labels = Object.create(null);
@@ -655,7 +736,8 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       if (!Number.isSafeInteger(entry.weight) || entry.weight < 0) issue('invalid_weight', 'Weights must be nonnegative safe integers');
       const weight = Number.isSafeInteger(entry.weight) && entry.weight >= 0 ? entry.weight : 0;
       totalWeight += weight;
-      const rawText = String(original.entries[index].text);
+      const recoveredSource = record.recoveredEntrySources?.[index];
+      const rawText = recoveredSource ? recoveredSource.raw : String(original.entries[index].text);
       const executableText = String(entry.text);
       const entryIssue = entry.weight === 0 ? () => {} : issue;
       const transformIssues = [];
@@ -700,7 +782,8 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       if (entry.weight !== 0) text = inertText(text, entryIssue);
       const references = Array.from(text.matchAll(/\{(wiki_abulafia_\w+)\}/g), match => match[1]);
       for (const identifier of referenceIds) if (!references.includes(identifier)) references.push(identifier);
-      const compiled = { weight, text: entry.weight === 0 ? rawText : text, rawText, references };
+      const compiled = { weight, text: entry.weight === 0 ? rawText : text, rawText, references,
+        ...(recoveredSource ? { rawSourceLine: recoveredSource.line } : {}) };
       if (compact) {
         compactEntries.set(compiled, compact);
         runtimeTables.add(identifiers.get(source.subtable.qualified_name));
@@ -729,6 +812,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       sourceRevision: source.source.revision_id, originalRevision: record.originalRevision?.revision_id,
       status: issues.length ? 'blocked' : 'ready', issues, entries, totalWeight,
       ...(record.referenceCorrections ? { referenceCorrections: record.referenceCorrections } : {}),
+      ...(record.sourceCorrections ? { sourceCorrections: record.sourceCorrections } : {}),
       dependencies: [...new Set(entries.filter(entry => entry.weight > 0).flatMap(entry => entry.references))]
     };
   });
@@ -969,18 +1053,21 @@ function main() {
   };
   const correctionBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/case-reference-corrections.json'), 'utf8'));
   const referenceCorrections = reviewedCorrections(correctionBatch, { repository, commit });
+  const sourceBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/source-extraction-corrections.json'), 'utf8'));
+  const sourceCorrections = reviewedSourceCorrections(sourceBatch, { repository, commit });
   const plan = planImport(loadCorpus(sourceRoot), seeds);
   const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true,
-    referenceCorrections });
+    referenceCorrections, sourceCorrections });
   const artifacts = buildArtifacts(plan, bundle, { repository, commit }, seeds);
   const manifest = JSON.parse(artifacts.get('tables/abulafia/manifest.json'));
   const written = values.write ? writeArtifacts(repo, artifacts) : 0;
   console.log(JSON.stringify({ mode: values.write ? 'write' : 'dry-run', commit, ...manifest.summary,
     aliases, referenceCorrections: referenceCorrections.length, correctedTables: new Set(referenceCorrections.map(correction => correction.tableId)).size,
+    sourceCorrections: sourceCorrections.length,
     files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
 }
 
-module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, reviewedCorrections, tableId, writeArtifacts };
+module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts };
 
 if (require.main === module) {
   try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

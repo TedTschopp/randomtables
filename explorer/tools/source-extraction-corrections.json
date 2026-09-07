@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/TedTschopp/random-generator-com-wiki-dump",
+  "commit": "6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0",
+  "basis": {
+    "report": "Docs/quarantine-report.json",
+    "reportSha256": "afe16e645eff14d7c8b5a3f36147295c7245ddc5b9317803a5d5e29c47edca3f",
+    "manifestSha256": "41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8",
+    "checkpoint": "1351cba",
+    "policy": "Recover only the two reviewed source-extraction defects through compile-only projections. Preserve archives, existing parsed row evidence, exact weights, identities, contributor scope, unrelated warnings, and all runtime limits.",
+    "candidateComponents": 2,
+    "conditionalEstimate": 31
+  },
+  "corrections": [
+    {
+      "tableId": "wiki_abulafia_3258_6c6169723335",
+      "sourceFile": "tables/odnd-wilderness-encounter-cruncher/subtables/lair35/table.json",
+      "sourceHash": "722d1d714a9f3f121f62c087fe3f92226c0b8075ff72586fd3be6fa2d1f3b0d8",
+      "rawSourceHash": "04689fe56b069ebcae138e21b93176db722cd30200430bf9887c7dd16786dbae",
+      "kind": "recover-empty-semicolon-table",
+      "rows": [
+        {
+          "line": 2,
+          "raw": "7;(in lair)",
+          "weight": 7,
+          "text": "(in lair)",
+          "warning": "Line 323: preserved nonstandard row before first entry: 7;(in lair)"
+        },
+        {
+          "line": 3,
+          "raw": "13;(not in lair)",
+          "weight": 13,
+          "text": "(not in lair)",
+          "warning": "Line 324: preserved nonstandard row before first entry: 13;(not in lair)"
+        }
+      ]
+    },
+    {
+      "tableId": "wiki_abulafia_3896_696e7465726a656374696f6e",
+      "sourceFile": "tables/the-blues-engine/subtables/interjection/table.json",
+      "sourceHash": "7f85b566c9bc9bba297ea98eb8936f99d125b15330c7894c7caf4bb7025f3c8e",
+      "rawSourceHash": "77324acdcd9108c431110ffca6d2b5bb2ea888056625d9de14247dcd4312981c",
+      "kind": "restore-trailing-space",
+      "row": 1,
+      "line": 3,
+      "raw": "1,[ij], ",
+      "weight": 1,
+      "entryHash": "8d2b039f1567d89e3cfdd3b3a805d3866e4d55fd94ab4d1aa902e9d1da551ffe",
+      "noteLine": 2,
+      "note": "0 NOTE: trailing spc!",
+      "warning": "Line 324: preserved nonstandard row before first entry: 0 NOTE: trailing spc!"
+    }
+  ]
+}

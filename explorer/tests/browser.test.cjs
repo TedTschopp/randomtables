@@ -460,6 +460,85 @@ test('case-corrected tables preserve archived tokens and resolve offline rolls a
   });
 });
 
+test('source-recovered tables preserve archived evidence, probabilities, and whitespace offline', async () => {
+  await withPage(async page => {
+    const targets = await page.evaluate(() => {
+      const byName = new Map([...WikiImport.metadata.values()].map(table => [table.name, table]));
+      return ['ODnD Wilderness Encounter Cruncher.lair35', 'The Blues Engine.interjection', 'The Blues Engine.ain'].map(name => {
+        const table = byName.get(name);
+        return { id: table.id, name, status: table.status, execution: table.execution, sourceHash: table.sourceHash,
+          correction: table.sourceCorrections?.[0], entries: table.entries.map(entry => ({ rawText: entry.rawText, rawSourceLine: entry.rawSourceLine })),
+          dependency: table.dependencies[0] };
+      });
+    });
+    assert.equal(targets[2].execution, 'wiki');
+    for (const [index, target] of targets.entries()) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(target.status, 'ready');
+      assert.equal(await page.locator('#roll-button').isDisabled(), false);
+      assert.equal(await page.locator('#wiki-validation').isVisible(), false);
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const snapshot = archive.tables.find(record => record.current.table.subtable.qualified_name === target.name).current;
+      assert.equal(snapshot.sourceHash, target.sourceHash);
+      if (index === 0) {
+        assert.equal(snapshot.table.entries.length, 0);
+        assert.equal(snapshot.table.warnings.length, 2);
+        assert.deepEqual(await page.locator('.entry-text').allTextContents(), ['(in lair)', '(not in lair)']);
+        assert.deepEqual(await page.locator('.entry-probability').allTextContents(), ['35%', '65%']);
+        for (const entry of target.entries) assert.equal(entry.rawText, snapshot.table.raw_source.split('\n')[entry.rawSourceLine - 1]);
+      } else if (index === 1) {
+        assert.equal(target.entries[0].rawText, '[ij],');
+        assert.equal(snapshot.table.entries[0].raw_text, target.correction.raw);
+        assert.ok(snapshot.table.warnings.includes(target.correction.warning));
+        assert.equal(await page.locator('.entry-text').first().textContent(), '{The Blues Engine.ij}, ');
+        const runtimeText = await page.evaluate(identifier => {
+          const originalRandom = Math.random;
+          try {
+            Math.random = () => 0;
+            return TableAtlas.roll(identifier, globalThis).text;
+          } finally {
+            Math.random = originalRandom;
+          }
+        }, target.id);
+        assert.equal(runtimeText, 'I said, ');
+      }
+      await page.locator('#roll-count').fill('1');
+      const cases = index === 0 ? [[0.1, '(in lair)'], [0.75, '(not in lair)']] : [[0.5, index === 1 ? 'I said, ' : null]];
+      for (const [sample, expected] of cases) {
+        await page.evaluate(sample => {
+          const originalRandom = Math.random;
+          let first = true;
+          try {
+            Math.random = () => { if (first) { first = false; return sample; } return 0; };
+            document.getElementById('roll-button').click();
+          } finally {
+            Math.random = originalRandom;
+          }
+        }, sample);
+        const output = await page.locator('.roll-result').first().textContent();
+        if (expected !== null) assert.equal(output, expected.trim());
+        else assert.ok(output.trim());
+        if (index === 2) assert.ok(output.includes('I said, '), 'Recovered whitespace separates the composed phrase');
+        assert.doesNotMatch(output, /\{\{|unavailable|requires Table Atlas/i);
+        assert.equal(await page.locator('.roll-warning').count(), 0);
+      }
+      if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
+      assert.ok(await page.locator('.trace-step').count() >= (index === 0 ? 1 : 2));
+      if (index === 1) assert.equal(await page.locator(`.trace-step[data-table-link="${target.dependency}"]`).first().isVisible(), true);
+      if (index === 2) assert.equal(await page.locator(`.trace-step[data-table-link="${targets[1].id}"]`).first().isVisible(), true);
+      if (index === 0) await page.screenshot({ path: path.join(artifacts, 'desktop-source-recovery.png') });
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (index === 0) await page.screenshot({ path: path.join(artifacts, 'mobile-source-recovery.png'), fullPage: true });
+      if (index === 2) await page.screenshot({ path: path.join(artifacts, 'mobile-source-recovery-macros.png'), fullPage: true });
+    }
+  });
+});
+
 test('wiki author, source, and validation filters retain the complete catalog', async () => {
   await withPage(async page => {
     const expected = await page.evaluate(() => {

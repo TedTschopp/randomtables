@@ -350,7 +350,8 @@ function buildInventory(repo, sourceRoot) {
   }
   const runtime = fs.readFileSync(path.join(repo, 'JS/wiki-import.js'), 'utf8');
   const supportFiles = ['JS/wiki-expressions.js', 'JS/wiki-template-data.js', 'explorer/tools/compile-wiki-expressions.cjs',
-    'explorer/vendor/jsep.iife.min.js', 'explorer/tools/macro-requirements.json', 'explorer/tools/case-reference-corrections.json'];
+    'explorer/vendor/jsep.iife.min.js', 'explorer/tools/macro-requirements.json', 'explorer/tools/case-reference-corrections.json',
+    'explorer/tools/source-extraction-corrections.json'];
   const { sourceArchive, definitions } = require('./macro-requirements.json');
   return {
     schemaVersion: 1, generatedOn: new Date().toISOString().slice(0, 10),

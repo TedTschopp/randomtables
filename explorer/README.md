@@ -51,8 +51,8 @@ drawer. Browser Back and Forward restore table, graph scope, and depth.
 The explorer loads the same ordered table-script list as the classic home page,
 including its compatibility bundle, then adds the full Abulafia catalog. This
 snapshot indexes 26,871 tables and 46,573 directed relationships. The wiki import
-contains 25,748 tables: 20,291 ready and 5,457 quarantined. Ready imports comprise
-19,643 static tables and 648 wiki-runtime tables. Unregistered scripts
+contains 25,748 tables: 20,332 ready and 5,416 quarantined. Ready imports comprise
+19,674 static tables and 658 wiki-runtime tables. Unregistered scripts
 and alternate JSON formats elsewhere in the repository are not automatically
 imported.
 
@@ -68,7 +68,7 @@ references remain in the source relationship map, but cannot be rolled and do
 not contribute to executable dependencies or expansion limits. Unsupported
 syntax in a zero-weight row does not block otherwise valid selectable entries.
 Invalid weights, tables with no positive total weight, and extractor parse
-warnings remain blocking.
+warnings without an explicit, source-bound correction remain blocking.
 
 Existing repeated definitions retain the original last-loaded-wins behavior,
 with the active source shown in the inspector. Imported identifiers are distinct
@@ -171,6 +171,25 @@ Each batch retains its own pre-repair report and manifest hashes; the original
 approval remains separate from `followUpBatches`. The importer validates each
 batch's scope and pinned revision and rejects duplicate rules across batches.
 The published report below reflects the current remaining backlog.
+
+The [source-extraction corrections](tools/source-extraction-corrections.json)
+record a separate two-table pass against checkpoint `1351cba`. The lair table
+recovers two literal rows with weights 7 and 13 from archived semicolon-delimited
+source. The Blues interjection restores a documented trailing space and clears
+only the warning for that exact non-executable note. Original archives, existing
+parsed row text, weights, identities, and contributor selection are preserved.
+
+This pass enables 41 tables: 31 static and 10 wiki-runtime tables. The estimate
+was 31; ten additional Blues macro tables became valid after their dependency
+was repaired. All 20,291 previously ready tables remain exact. The catalog now
+has 482,283 wiki rows, including two recovered from raw source; the archives
+still preserve their original 482,281 parsed entries.
+
+Acceptance covered all 129 newly selectable compiled choices in 387 deterministic
+rolls, with zero warnings. All 104 unit/integrity tests and 17 offline browser
+tests passed. Browser checks cover 35%/65% probabilities, composed-word spacing,
+source evidence, traces, and desktop/mobile layout. The UI continues to trim only
+the outer edges of final displayed results; runtime composition retains the space.
 
 The [ranked recovery report](../Docs/quarantine-report.md) separates local defects
 from dependency failures and groups recursive tables into joint repair components.

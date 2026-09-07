@@ -4,10 +4,47 @@ const fs = require('node:fs');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { reviewedCorrections } = require('../tools/import-abulafia.cjs');
+const { reviewedCorrections, reviewedSourceCorrections } = require('../tools/import-abulafia.cjs');
 
 const repo = path.join(__dirname, '..', '..');
 const read = relative => fs.readFileSync(path.join(repo, relative), 'utf8');
+
+test('source extraction repairs retain approved raw rows, warnings, and correction evidence', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const tables = new Map(manifest.tables.map(table => [table.name, table]));
+  const corrections = reviewedSourceCorrections(JSON.parse(read('explorer/tools/source-extraction-corrections.json')), manifest);
+  assert.equal(corrections.length, 2);
+  const names = ['ODnD Wilderness Encounter Cruncher.lair35', 'The Blues Engine.interjection'];
+  for (const name of names) {
+    const table = tables.get(name);
+    assert.equal(table.status, 'ready', name);
+    assert.equal(table.sourceCorrections.length, 1, name);
+    const correction = table.sourceCorrections[0];
+    assert.deepEqual(correction, corrections.find(record => record.tableId === table.id));
+    assert.equal(correction.sourceFile, table.sourceFile);
+    assert.equal(correction.sourceHash, table.sourceHash);
+    const archive = JSON.parse(read(table.archiveFile));
+    const original = archive.tables.find(record => record.current.sourceFile === table.sourceFile).current.table;
+    assert.equal(crypto.createHash('sha256').update(original.raw_source).digest('hex'), correction.rawSourceHash);
+    const lines = original.raw_source.split('\n');
+    if (correction.kind === 'recover-empty-semicolon-table') {
+      assert.equal(original.entries.length, 0);
+      assert.equal(table.totalWeight, 20);
+      assert.deepEqual(correction.rows.map(row => row.weight), [7, 13]);
+      for (const row of correction.rows) {
+        assert.equal(lines[row.line - 1], row.raw);
+        assert.ok(original.warnings.includes(row.warning));
+      }
+    } else {
+      assert.equal(original.entries.length, 1);
+      assert.equal(original.entries[0].text, '[ij],');
+      assert.equal(lines[correction.line - 1], '1,[ij], ');
+      assert.equal(lines[correction.noteLine - 1], correction.note);
+      assert.ok(original.warnings.includes(correction.warning));
+    }
+  }
+  assert.equal(manifest.tables.filter(table => table.sourceCorrections).length, 2);
+});
 
 test('eligible follow-up case references use their reviewed ready targets', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
@@ -35,8 +72,9 @@ test('reviewed case corrections retain exact source bindings and ready target id
   const tables = new Map(manifest.tables.map(table => [table.id, table]));
   const archives = new Map();
   const corrections = reviewedCorrections(batch, manifest);
-  assert.equal(manifest.summary.ready, 20291);
-  assert.equal(manifest.summary.blocked, 5457);
+  assert.equal(manifest.summary.ready, 20332);
+  assert.equal(manifest.summary.blocked, 5416);
+  assert.equal(manifest.summary.entries, 482283);
   assert.equal(batch.commit, manifest.commit);
   assert.equal(batch.corrections.length, 363);
   assert.equal(new Set(batch.corrections.map(correction => correction.tableId)).size, 196);
@@ -166,6 +204,19 @@ test('real imports preserve the legacy registry, repair its missing targets, and
     assert.equal(result.warnings.length, 0, identifier);
     return result.text;
   }
+  const lair = byName.get('ODnD Wilderness Encounter Cruncher.lair35');
+  assert.equal(lair.status, 'ready');
+  assert.deepEqual(Array.from(lair.entries, entry => [entry.weight, entry.rawText, entry.rawSourceLine]), [[7, '7;(in lair)', 2], [13, '13;(not in lair)', 3]]);
+  const lairOutcomes = {};
+  for (let side = 0; side < 20; side += 1) {
+    const text = rollWithSamples(lair.id, [(side + 0.5) / 20]);
+    lairOutcomes[text] = (lairOutcomes[text] || 0) + 1;
+  }
+  assert.deepEqual(lairOutcomes, { '(in lair)': 7, '(not in lair)': 13 });
+  const interjection = byName.get('The Blues Engine.interjection');
+  assert.equal(interjection.entries[0].rawText, '[ij],');
+  assert.ok(interjection.entries[0].text.endsWith(', '));
+  assert.equal(rollWithSamples(interjection.id, [0, 0]), 'I said, ');
   for (let side = 0; side < 26; side += 1) {
     const sample = (side + 0.5) / 26;
     const text = rollWithSamples(capitalizedHues.id, [sample]);
@@ -254,7 +305,8 @@ test('real imports preserve the legacy registry, repair its missing targets, and
     }
   }
   for (const name of ['Fantasy Names.StartFemNoTitle', 'Animal.Weirdsymbol', 'SGNP 1001 nights.cities', 'Angel generator.main',
-    'Secret Society Title.Noun', 'Wild West Personas.colors', 'Fantasy Landmarks.inspiration', 'Artwork.\uD83D\uDCDC' + 'River']) {
+    'Secret Society Title.Noun', 'Wild West Personas.colors', 'Fantasy Landmarks.inspiration', 'Artwork.\uD83D\uDCDC' + 'River',
+    'The Blues Engine.ain', 'ODnD Wilderness Encounter Cruncher.Dragon']) {
     const table = byName.get(name);
     assert.equal(table.status, 'ready', name);
     for (const correction of table.referenceCorrections || []) {

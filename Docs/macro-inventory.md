@@ -17,7 +17,7 @@ The scan covers **26,156 current wiki tables**: 25,748 imported and 408 not impo
 
 Local sources: 38 JavaScript files (36 loaded by the classic home page), 2 JSON files, and 15 text wordlists. Local definitions include shadowed and unloaded data and are not added to the active browser table count.
 
-Wiki state counts: `ready-static`: 19,643; `ready-runtime`: 648; `blocked`: 5,457; `not-imported`: 408.
+Wiki state counts: `ready-static`: 19,674; `ready-runtime`: 658; `blocked`: 5,416; `not-imported`: 408.
 
 Local state counts: `legacy-active`: 1,118; `legacy-shadowed`: 64; `legacy-unloaded`: 16; `legacy-json`: 1,071; `legacy-json-prototype`: 4.
 
@@ -28,7 +28,7 @@ Counts below are distinct source tables containing well-closed, unprotected macr
 | Macro | Source Tables | Calls | Ready Static | Ready Runtime | Blocked | Not Imported | Support |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | `ia` | 267 | 486 | 0 | 118 | 149 | 0 | Bounded |
-| `ucfirst` | 222 | 564 | 26 | 52 | 143 | 1 | Bounded |
+| `ucfirst` | 222 | 564 | 26 | 62 | 133 | 1 | Bounded |
 | `article` | 102 | 232 | 0 | 23 | 79 | 0 | Bounded |
 | `plural` | 78 | 329 | 0 | 22 | 46 | 10 | Bounded |
 | `lcfirst` | 40 | 75 | 0 | 10 | 30 | 0 | Bounded |
@@ -237,18 +237,18 @@ Macro support alone will not clear quarantine. Current manifest diagnostics coun
 
 | Validation Issue | Imported Tables |
 | --- | ---: |
-| `blocked_dependency` | 4,262 |
+| `blocked_dependency` | 4,223 |
 | `unsupported_reference` | 970 |
 | `missing_reference` | 795 |
-| `invalid_weight` | 580 |
-| `empty_table` | 549 |
+| `invalid_weight` | 579 |
+| `empty_table` | 548 |
 | `cycle` | 495 |
-| `unsupported_syntax` | 493 |
-| `unsupported_macro_expression` | 363 |
+| `unsupported_syntax` | 483 |
+| `unsupported_macro_expression` | 353 |
 | `expansion_limit` | 317 |
-| `unsupported_runtime_expression` | 86 |
-| `unsupported_ucfirst` | 74 |
-| `source_warning` | 46 |
+| `unsupported_runtime_expression` | 76 |
+| `unsupported_ucfirst` | 64 |
+| `source_warning` | 44 |
 | `unsafe_html` | 23 |
 | `unsupported_po` | 12 |
 | `source_unresolved` | 5 |

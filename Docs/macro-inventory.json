@@ -5,16 +5,17 @@
     "repository": "https://github.com/TedTschopp/random-generator-com-wiki-dump",
     "commit": "6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0",
     "manifest": "tables/abulafia/manifest.json",
-    "manifestSha256": "41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8",
+    "manifestSha256": "3858c3e8f4d90cbf75e96e878984ab7a6bb96609d23d9716954b02911d5efb8a",
     "runtimeSha256": "0829cbb7af35d2e0655c6c81e26268590b9dafa92e556dbc216bf1352dd9cc05",
-    "compilerSha256": "2c4d431c0abdd4b6975242949d1746e9baea705c374ac6524b5b72d848357b23",
+    "compilerSha256": "8ae5aeb2cdeb958ab46e0f5c377674a498e28d3857ac5ab6ff436301e07ac08a",
     "supportFileHashes": {
       "JS/wiki-expressions.js": "de0e0514b2207b59d80f5b29186c2579303ccbd0748da581e301e5a9dcc5a560",
       "JS/wiki-template-data.js": "602638b8d67276ed3e1f420619ad42dc826cff312d0793eb1ac7c1e323c92567",
       "explorer/tools/compile-wiki-expressions.cjs": "726e5f3ffcdd52c66622507e0399960479c512e7d826509dfcbca7b7f454b54c",
       "explorer/vendor/jsep.iife.min.js": "bdb40509ac42c1fbf8521d4b2cded4e005c8657ac460566d80123175d0896ca2",
       "explorer/tools/macro-requirements.json": "6ace74bd635de8a15053c8bdeac97d812f43d9da932efcaf532144f7948edc56",
-      "explorer/tools/case-reference-corrections.json": "cdd8f0774e724e4ade8b93db15b2df8169442f6003057ae0ffdc28b065c1d780"
+      "explorer/tools/case-reference-corrections.json": "cdd8f0774e724e4ade8b93db15b2df8169442f6003057ae0ffdc28b065c1d780",
+      "explorer/tools/source-extraction-corrections.json": "c821973e64ba535001ef6fb6c3df8cff4eff9ac35c0a16f985086fb2d9272b99"
     }
   },
   "scope": {
@@ -174,9 +175,9 @@
       "executableMacroTables": 797,
       "parameterOccurrences": 0,
       "byState": {
-        "ready-static": 19643,
-        "ready-runtime": 648,
-        "blocked": 5457,
+        "ready-static": 19674,
+        "ready-runtime": 658,
+        "blocked": 5416,
         "not-imported": 408
       },
       "syntaxProblems": 11
@@ -9457,8 +9458,8 @@
         "executableTables": 222,
         "executableRows": 453,
         "byState": {
-          "ready-runtime": 52,
-          "blocked": 143,
+          "ready-runtime": 62,
+          "blocked": 133,
           "ready-static": 26,
           "not-imported": 1
         },
@@ -19485,7 +19486,7 @@
           {
             "table": "The Blues Engine.ain",
             "tableId": "wiki_abulafia_3896_61696e",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/ain/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19523,7 +19524,7 @@
           {
             "table": "The Blues Engine.ame",
             "tableId": "wiki_abulafia_3896_616d65",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/ame/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19542,7 +19543,7 @@
           {
             "table": "The Blues Engine.ight",
             "tableId": "wiki_abulafia_3896_69676874",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/ight/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19561,7 +19562,7 @@
           {
             "table": "The Blues Engine.in",
             "tableId": "wiki_abulafia_3896_696e",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/in/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19580,7 +19581,7 @@
           {
             "table": "The Blues Engine.oar",
             "tableId": "wiki_abulafia_3896_6f6172",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/oar/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19599,7 +19600,7 @@
           {
             "table": "The Blues Engine.ong",
             "tableId": "wiki_abulafia_3896_6f6e67",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/ong/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19618,7 +19619,7 @@
           {
             "table": "The Blues Engine.out",
             "tableId": "wiki_abulafia_3896_6f7574",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/out/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19637,7 +19638,7 @@
           {
             "table": "The Blues Engine.own",
             "tableId": "wiki_abulafia_3896_6f776e",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/own/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19656,7 +19657,7 @@
           {
             "table": "The Blues Engine.un",
             "tableId": "wiki_abulafia_3896_756e",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/un/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -19675,7 +19676,7 @@
           {
             "table": "The Blues Engine.up",
             "tableId": "wiki_abulafia_3896_7570",
-            "state": "blocked",
+            "state": "ready-runtime",
             "file": "tables/the-blues-engine/subtables/up/table.json",
             "archiveFile": "tables/abulafia/source/3896.json",
             "entry": 1,
@@ -73038,8 +73039,8 @@
       "tables": 295,
       "occurrences": 711,
       "byState": {
-        "ready-runtime": 75,
-        "blocked": 193,
+        "ready-runtime": 85,
+        "blocked": 183,
         "ready-static": 26,
         "not-imported": 1
       }
@@ -74169,18 +74170,18 @@
     }
   ],
   "validationIssues": {
-    "blocked_dependency": 4262,
+    "blocked_dependency": 4223,
     "unsupported_reference": 970,
     "missing_reference": 795,
-    "invalid_weight": 580,
-    "empty_table": 549,
+    "invalid_weight": 579,
+    "empty_table": 548,
     "cycle": 495,
-    "unsupported_syntax": 493,
-    "unsupported_macro_expression": 363,
+    "unsupported_syntax": 483,
+    "unsupported_macro_expression": 353,
     "expansion_limit": 317,
-    "unsupported_runtime_expression": 86,
-    "unsupported_ucfirst": 74,
-    "source_warning": 46,
+    "unsupported_runtime_expression": 76,
+    "unsupported_ucfirst": 64,
+    "source_warning": 44,
     "unsafe_html": 23,
     "unsupported_po": 12,
     "source_unresolved": 5

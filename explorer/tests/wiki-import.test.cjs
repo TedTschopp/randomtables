@@ -5,7 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { buildArtifacts, compileImport, loadCorpus, originalAttribution, planImport, reviewedCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
+const { buildArtifacts, compileImport, loadCorpus, originalAttribution, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
 
 function record(pageId, pageTitle, name, contributor, originalContributor, targets = []) {
   return {
@@ -43,6 +43,151 @@ function caseCorrection(source, target, row = 1) {
     referenceCount: entry.references.filter(item => item.raw === reference.raw).length
   };
 }
+
+function sourceRecoveryFixtures() {
+  const digest = value => crypto.createHash('sha256').update(value).digest('hex');
+  const lair = record(99, 'Recovered', 'lair35', 'Editor', 'Creator');
+  lair.table.subtable.line_number = 100;
+  lair.table.entries = [];
+  lair.table.raw_source = ';lair35\n7;(in lair)\n13;(not in lair)';
+  lair.table.warnings = [
+    'Line 101: preserved nonstandard row before first entry: 7;(in lair)',
+    'Line 102: preserved nonstandard row before first entry: 13;(not in lair)'
+  ];
+  const interjection = record(99, 'Recovered', 'interjection', 'Editor', 'Creator', ['Recovered.choices']);
+  interjection.table.subtable.line_number = 200;
+  interjection.table.entries[0].text = '[Recovered.choices],';
+  interjection.table.entries[0].raw_text = '1,[Recovered.choices], ';
+  interjection.table.raw_source = ';interjection\n0 NOTE: trailing spc!\n1,[Recovered.choices], ';
+  interjection.table.warnings = ['Line 201: preserved nonstandard row before first entry: 0 NOTE: trailing spc!'];
+  const choices = record(99, 'Recovered', 'choices', 'Editor', 'Creator');
+  choices.table.entries[0].text = 'I said';
+  function correction(source, kind, details) {
+    source.sourceHash = digest(JSON.stringify(source.table));
+    return { tableId: tableId(source.table), sourceFile: source.sourceFile, sourceHash: source.sourceHash,
+      rawSourceHash: digest(source.table.raw_source), kind, ...details };
+  }
+  const lairCorrection = correction(lair, 'recover-empty-semicolon-table', { rows: [
+    { line: 2, raw: '7;(in lair)', weight: 7, text: '(in lair)', warning: lair.table.warnings[0] },
+    { line: 3, raw: '13;(not in lair)', weight: 13, text: '(not in lair)', warning: lair.table.warnings[1] }
+  ] });
+  const spacingCorrection = correction(interjection, 'restore-trailing-space', {
+    row: 1, line: 3, raw: '1,[Recovered.choices], ', weight: 1, entryHash: digest(interjection.table.entries[0].text),
+    noteLine: 2, note: '0 NOTE: trailing spc!', warning: interjection.table.warnings[0]
+  });
+  return { lair, interjection, choices, lairCorrection, spacingCorrection };
+}
+
+test('source recovery restores only approved literal rows with exact original weights and archive evidence', () => {
+  const { lair, interjection, choices, lairCorrection } = sourceRecoveryFixtures();
+  const plan = planImport([lair, interjection, choices], ['Recovered.lair35']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan);
+  const bundle = compileImport(plan, { sourceCorrections: [lairCorrection] });
+  const table = bundle.tables.find(table => table.name === 'Recovered.lair35');
+  assert.equal(table.status, 'ready', JSON.stringify(table.issues));
+  assert.deepEqual(table.values, { '1-7': '(in lair)', '8-20': '(not in lair)' });
+  assert.equal(table.totalWeight, 20);
+  assert.deepEqual(table.entries.map(entry => [entry.rawText, entry.rawSourceLine]), [['7;(in lair)', 2], ['13;(not in lair)', 3]]);
+  assert.deepEqual(table.sourceCorrections, [lairCorrection]);
+  assert.equal(bundle.tables.find(table => table.name === 'Recovered.interjection').status, 'blocked');
+  const provenance = { repository: 'fixture', commit: 'fixed' };
+  const artifacts = buildArtifacts(plan, bundle, provenance);
+  assert.equal(artifacts.get('tables/abulafia/source/99.json'), buildArtifacts(plan, baseline, provenance).get('tables/abulafia/source/99.json'));
+  const runtime = vm.createContext({});
+  for (const file of ['JS/generator.js', 'JS/wiki-import.js']) vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), runtime);
+  runtime.WikiImport.register(bundle);
+  const outcomes = {};
+  for (let side = 0; side < 20; side += 1) {
+    vm.runInContext(`Math.random = () => ${(side + 0.5) / 20};`, runtime);
+    const result = runtime.WikiImport.roll(table.id);
+    assert.equal(result.warnings.length, 0);
+    outcomes[result.text] = (outcomes[result.text] || 0) + 1;
+  }
+  assert.deepEqual(outcomes, { '(in lair)': 7, '(not in lair)': 13 });
+  assert.equal(JSON.stringify(plan), before);
+});
+
+test('source recovery restores a documented trailing space without changing existing parsed row evidence', () => {
+  const { interjection, choices, spacingCorrection } = sourceRecoveryFixtures();
+  const parent = record(99, 'Recovered', 'Parent', 'Editor', 'Creator', ['Recovered.interjection']);
+  parent.table.entries[0].text = '[Recovered.interjection]next';
+  const plan = planImport([interjection, choices, parent], ['Recovered.interjection']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan);
+  const bundle = compileImport(plan, { sourceCorrections: [spacingCorrection] });
+  const table = bundle.tables.find(table => table.name === 'Recovered.interjection');
+  assert.equal(table.status, 'ready', JSON.stringify(table.issues));
+  assert.equal(table.entries[0].rawText, '[Recovered.choices],');
+  assert.equal(table.entries[0].text, `{${tableId(choices.table)}}, `);
+  assert.equal(table.entries[0].weight, 1);
+  assert.deepEqual(table.sourceCorrections, [spacingCorrection]);
+  const runtime = vm.createContext({});
+  for (const file of ['JS/generator.js', 'JS/wiki-import.js']) vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), runtime);
+  runtime.WikiImport.register(bundle);
+  assert.equal(runtime.WikiImport.roll(tableId(parent.table)).text, 'I said, next');
+  const provenance = { repository: 'fixture', commit: 'fixed' };
+  assert.equal(buildArtifacts(plan, bundle, provenance).get('tables/abulafia/source/99.json'), buildArtifacts(plan, baseline, provenance).get('tables/abulafia/source/99.json'));
+  assert.deepEqual(bundle.tables.find(table => table.id === tableId(choices.table)), baseline.tables.find(table => table.id === tableId(choices.table)));
+  assert.equal(JSON.stringify(plan), before);
+});
+
+test('source recovery rejects stale bindings, changed probabilities, incomplete rows, and unrecorded whitespace', () => {
+  const { lair, interjection, choices, lairCorrection, spacingCorrection } = sourceRecoveryFixtures();
+  const plan = planImport([lair, interjection, choices], ['Recovered.lair35']);
+  const invalidLair = [
+    { tableId: 'outside' }, { sourceFile: 'other.json' }, { sourceHash: '0'.repeat(64) }, { rawSourceHash: '0'.repeat(64) },
+    { kind: 'accept-all-warnings' }, { extra: true }, { rows: [] }, { rows: lairCorrection.rows.slice(0, 1) },
+    ...[{ weight: 0 }, { weight: 8 }, { weight: 7.5 }, { text: 'replacement' }, { text: '[Other.main]' },
+      { line: 3 }, { raw: '7,(in lair)' }, { warning: 'Other warning' }, { extra: true }].map(change => ({
+      rows: [{ ...lairCorrection.rows[0], ...change }, lairCorrection.rows[1]]
+    }))
+  ];
+  for (const change of invalidLair) assert.throws(() => compileImport(plan, { sourceCorrections: [{ ...lairCorrection, ...change }] }), /source correction/i);
+  for (const change of [
+    { entryHash: '0'.repeat(64) }, { weight: 0 }, { weight: 2 }, { row: 2 }, { line: 2 },
+    { raw: '1,[Recovered.choices],  ' }, { noteLine: 3 }, { note: '0 NOTE: other' }, { warning: 'Other warning' }
+  ]) assert.throws(() => compileImport(plan, { sourceCorrections: [{ ...spacingCorrection, ...change }] }), /source correction/i);
+  for (const corrections of [null, {}, [lairCorrection, lairCorrection], [null]]) {
+    assert.throws(() => compileImport(plan, { sourceCorrections: corrections }), /source correction/i);
+  }
+  lair.table.entries.push({ weight: 1, text: 'Already extracted', references: [] });
+  assert.throws(() => compileImport(plan, { sourceCorrections: [lairCorrection] }), /complete empty-table recovery/);
+  interjection.table.entries[0].raw_text = '1,[Recovered.choices],';
+  assert.throws(() => compileImport(plan, { sourceCorrections: [spacingCorrection] }), /source correction/i);
+});
+
+test('source recovery keeps unrelated extraction warnings, missing references, and cyclic tables blocked', () => {
+  for (const defect of ['warning', 'missing', 'cycle']) {
+    const { interjection, choices, spacingCorrection } = sourceRecoveryFixtures();
+    let records = [interjection, choices];
+    if (defect === 'warning') interjection.table.warnings.push('Separate unresolved extraction warning');
+    if (defect === 'missing') records = [interjection];
+    if (defect === 'cycle') records[1] = record(99, 'Recovered', 'choices', 'Editor', 'Creator', ['Recovered.interjection']);
+    const plan = planImport(records, ['Recovered.interjection']);
+    const bundle = compileImport(plan, { sourceCorrections: [spacingCorrection], runtimeExpressions: true });
+    const compiled = bundle.tables.find(table => table.id === spacingCorrection.tableId);
+    assert.equal(compiled.status, 'blocked', defect);
+    const expected = { warning: 'source_warning', missing: 'missing_reference', cycle: 'cycle' }[defect];
+    assert.ok(bundle.tables.some(table => table.issues.some(issue => issue.code === expected)), defect);
+  }
+});
+
+test('source correction approval binds the source revision, report hashes, and exact selected scope', () => {
+  const { lairCorrection, spacingCorrection } = sourceRecoveryFixtures();
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const basis = { candidateComponents: 2, reportSha256: 'b'.repeat(64), manifestSha256: 'c'.repeat(64), conditionalEstimate: 31 };
+  const configuration = { schemaVersion: 1, ...provenance, basis, corrections: [lairCorrection, spacingCorrection] };
+  const before = JSON.stringify(configuration);
+  assert.deepEqual(reviewedSourceCorrections(configuration, provenance), configuration.corrections);
+  assert.equal(JSON.stringify(configuration), before);
+  for (const change of [
+    { schemaVersion: 2 }, { repository: 'other' }, { commit: 'd'.repeat(40) }, { corrections: [] },
+    { corrections: [null, spacingCorrection] }, { corrections: [lairCorrection, lairCorrection] },
+    { basis: { ...basis, candidateComponents: 1 } }, { basis: { ...basis, reportSha256: 'stale' } },
+    { basis: { ...basis, manifestSha256: 'stale' } }, { basis: { ...basis, conditionalEstimate: -1 } }
+  ]) assert.throws(() => reviewedSourceCorrections({ ...configuration, ...change }, provenance), /source correction batch/i);
+});
 
 test('reviewed follow-up batches retain independent scope and source revision guards', () => {
   const source = record(93, 'Batches', 'main', 'Editor', 'Creator', ['Batches.choices']);

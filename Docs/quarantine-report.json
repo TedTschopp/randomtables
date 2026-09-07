@@ -5,20 +5,21 @@
     "repository": "https://github.com/TedTschopp/random-generator-com-wiki-dump",
     "commit": "6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0",
     "manifest": "tables/abulafia/manifest.json",
-    "manifestSha256": "41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8",
+    "manifestSha256": "3858c3e8f4d90cbf75e96e878984ab7a6bb96609d23d9716954b02911d5efb8a",
     "macroInventory": "Docs/macro-inventory.json",
     "inputHashes": {
-      "Docs/macro-inventory.json": "547e86f918466c1e4718390346cb9b2c4ece819e6fa46a020f372f4fbcb5285b",
+      "Docs/macro-inventory.json": "cf26997605db4a3a81006e08f6476dbfc84fb2f48e7654bf86d3dea704cd2a5b",
       "JS/wiki-expressions.js": "de0e0514b2207b59d80f5b29186c2579303ccbd0748da581e301e5a9dcc5a560",
       "JS/wiki-import.js": "0829cbb7af35d2e0655c6c81e26268590b9dafa92e556dbc216bf1352dd9cc05",
       "JS/wiki-template-data.js": "602638b8d67276ed3e1f420619ad42dc826cff312d0793eb1ac7c1e323c92567",
       "explorer/tools/case-reference-corrections.json": "cdd8f0774e724e4ade8b93db15b2df8169442f6003057ae0ffdc28b065c1d780",
       "explorer/tools/compile-wiki-expressions.cjs": "726e5f3ffcdd52c66622507e0399960479c512e7d826509dfcbca7b7f454b54c",
-      "explorer/tools/import-abulafia.cjs": "2c4d431c0abdd4b6975242949d1746e9baea705c374ac6524b5b72d848357b23",
+      "explorer/tools/import-abulafia.cjs": "8ae5aeb2cdeb958ab46e0f5c377674a498e28d3857ac5ab6ff436301e07ac08a",
       "explorer/tools/macro-requirements.json": "6ace74bd635de8a15053c8bdeac97d812f43d9da932efcaf532144f7948edc56",
       "explorer/tools/quarantine-report.cjs": "a85a367d0c3f85fef18deadbf01a131363dd59516001f256546d5b952a69062e",
+      "explorer/tools/source-extraction-corrections.json": "c821973e64ba535001ef6fb6c3df8cff4eff9ac35c0a16f985086fb2d9272b99",
       "explorer/vendor/jsep.iife.min.js": "bdb40509ac42c1fbf8521d4b2cded4e005c8657ac460566d80123175d0896ca2",
-      "tables/abulafia/manifest.json": "41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8",
+      "tables/abulafia/manifest.json": "3858c3e8f4d90cbf75e96e878984ab7a6bb96609d23d9716954b02911d5efb8a",
       "tables/abulafia/source/1502.json": "4ca70dfb70c6c553ef8e374054fd9a742b912938596b6962ff7e2c453ccccfcb",
       "tables/abulafia/source/1503.json": "46285439d5010923cc44c20b75131fcaeec5253ac99ca106939186a7a13f1d86",
       "tables/abulafia/source/1504.json": "17fa021512b692cd7dbba9ce0631fe94cc655bf534f741d4debab68f05175f72",
@@ -292,7 +293,6 @@
       "tables/abulafia/source/3255.json": "d622cf3d7aec8a7cb92b5d3d07025a74b4173ae0bf504cb7ca7342a2efbc6161",
       "tables/abulafia/source/3256.json": "abfb7c4cb4c301033efb090289f3fb5e1e995f5ed6ec31a0c5afd1f2c83d44ed",
       "tables/abulafia/source/3257.json": "e0216080309e28ec84855ab01a0b41737647cf0dfb6c08bbb47e012672c34464",
-      "tables/abulafia/source/3258.json": "7e924ac291b23c73fb1a149ba71a1ca1bcc7e31a736153ec63957871a025e644",
       "tables/abulafia/source/3261.json": "e2efe5fc4b2be0f688909d18e8174514aa6c8f0ac3eac879379d7864f58f106a",
       "tables/abulafia/source/3263.json": "63afe03497d185da7ffcf3ab42148b209fc3ad15a0d1136b65ba0b40838dbd43",
       "tables/abulafia/source/3267.json": "e0e846a236471a49be3a0ac09bdc9a252a9576e369625222096bff6c0ff404ed",
@@ -591,21 +591,21 @@
     "currentWikiTables": 26156,
     "importedTables": 25748,
     "notImportedTables": 408,
-    "archivedPagesInspected": 566,
+    "archivedPagesInspected": 565,
     "stateCounts": {
-      "ready-static": 19643,
-      "ready-runtime": 648,
-      "blocked": 5457,
+      "ready-static": 19674,
+      "ready-runtime": 658,
+      "blocked": 5416,
       "not-imported": 408
     }
   },
   "summary": {
     "importedTables": 25748,
-    "readyTables": 20291,
-    "blockedTables": 5457,
-    "dependencyOnlyTables": 2858,
-    "multipleRootTables": 3004,
-    "rootComponents": 2472,
+    "readyTables": 20332,
+    "blockedTables": 5416,
+    "dependencyOnlyTables": 2829,
+    "multipleRootTables": 2993,
+    "rootComponents": 2460,
     "cyclicComponents": 442,
     "unexplainedTables": 0
   },
@@ -1127,124 +1127,6 @@
       ],
       "hiddenSelfReferences": [],
       "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-      "tableIds": [
-        "wiki_abulafia_3896_696e7465726a656374696f6e"
-      ],
-      "names": [
-        "The Blues Engine.interjection"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_696e7465726a656374696f6e",
-          "code": "source_warning",
-          "detail": "The source extractor reported parse warnings"
-        }
-      ],
-      "affectedTables": 30,
-      "downstreamTables": 29,
-      "conditionalRecovery": 16,
-      "families": [
-        "source"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium",
-      "proposals": [
-        "Review archived raw source and extractor warnings; recover verified rows through documented corrections, preserving weights and leaving genuinely empty sources blocked."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_696e7465726a656374696f6e",
-          "name": "The Blues Engine.interjection",
-          "sourceFile": "tables/the-blues-engine/subtables/interjection/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "[ij],",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": [
-        {
-          "tableId": "wiki_abulafia_3896_696e7465726a656374696f6e",
-          "warning": "Line 324: preserved nonstandard row before first entry: 0 NOTE: trailing spc!"
-        }
-      ]
-    },
-    {
-      "id": "root:wiki_abulafia_3258_6c6169723335",
-      "tableIds": [
-        "wiki_abulafia_3258_6c6169723335"
-      ],
-      "names": [
-        "ODnD Wilderness Encounter Cruncher.lair35"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "code": "empty_table",
-          "detail": "The source table has no entries"
-        },
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "code": "invalid_weight",
-          "detail": "Total weight must be a positive safe integer"
-        },
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "code": "source_warning",
-          "detail": "The source extractor reported parse warnings"
-        }
-      ],
-      "affectedTables": 15,
-      "downstreamTables": 14,
-      "conditionalRecovery": 15,
-      "families": [
-        "source"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium",
-      "proposals": [
-        "Review archived raw source and extractor warnings; recover verified rows through documented corrections, preserving weights and leaving genuinely empty sources blocked."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "name": "ODnD Wilderness Encounter Cruncher.lair35",
-          "sourceFile": "tables/odnd-wilderness-encounter-cruncher/subtables/lair35/table.json",
-          "archiveFile": "tables/abulafia/source/3258.json",
-          "text": ";lair35\n7;(in lair)\n13;(not in lair)",
-          "truncated": false,
-          "kind": "raw-source"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": [
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "warning": "Line 323: preserved nonstandard row before first entry: 7;(in lair)"
-        },
-        {
-          "tableId": "wiki_abulafia_3258_6c6169723335",
-          "warning": "Line 324: preserved nonstandard row before first entry: 13;(not in lair)"
-        }
-      ]
     },
     {
       "id": "root:wiki_abulafia_4746_44454954494553",
@@ -17134,6 +17016,62 @@
           "row": 1,
           "weight": 5,
           "text": "[pantscolor] with [stripecolor] pinstripe",
+          "truncated": false,
+          "kind": "source-row"
+        }
+      ],
+      "hiddenSelfReferences": [],
+      "sourceWarnings": []
+    },
+    {
+      "id": "root:wiki_abulafia_3896_616c6b5f7365745f62",
+      "tableIds": [
+        "wiki_abulafia_3896_616c6b5f7365745f62"
+      ],
+      "names": [
+        "The Blues Engine.alk_set_b"
+      ],
+      "cyclic": false,
+      "unexplained": false,
+      "issues": [
+        {
+          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
+          "code": "missing_reference",
+          "detail": "The Blues Engine.Significant other"
+        },
+        {
+          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
+          "code": "unsupported_reference",
+          "detail": "[Significant other]"
+        }
+      ],
+      "affectedTables": 5,
+      "downstreamTables": 4,
+      "conditionalRecovery": 2,
+      "families": [
+        "references"
+      ],
+      "missingTargets": [
+        "The Blues Engine.Significant other"
+      ],
+      "confidence": {
+        "level": "low",
+        "basis": "No case-only target exists in the imported catalog; the correct replacement has not been established."
+      },
+      "effort": "small to large",
+      "proposals": [
+        "Inspect the current source namespace and retained history for the absent target; absence from the import does not prove the source was lost. Do not invent a substitute or import another contributor implicitly.",
+        "Review exact reference tokens and source history; record explicit table-scoped corrections without adding global aliases or changing identifiers."
+      ],
+      "examples": [
+        {
+          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
+          "name": "The Blues Engine.alk_set_b",
+          "sourceFile": "tables/the-blues-engine/subtables/alk-set-b/table.json",
+          "archiveFile": "tables/abulafia/source/3896.json",
+          "row": 1,
+          "weight": 1,
+          "text": "’tain’t never jes’ the two o’ us [Significant other], ’cuz these folks love they talk,",
           "truncated": false,
           "kind": "source-row"
         }
@@ -39507,62 +39445,6 @@
           "row": 2,
           "weight": 1,
           "text": "&raquo; [Officer]",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_616c6b5f7365745f62",
-      "tableIds": [
-        "wiki_abulafia_3896_616c6b5f7365745f62"
-      ],
-      "names": [
-        "The Blues Engine.alk_set_b"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
-          "code": "missing_reference",
-          "detail": "The Blues Engine.Significant other"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
-          "code": "unsupported_reference",
-          "detail": "[Significant other]"
-        }
-      ],
-      "affectedTables": 5,
-      "downstreamTables": 4,
-      "conditionalRecovery": 1,
-      "families": [
-        "references"
-      ],
-      "missingTargets": [
-        "The Blues Engine.Significant other"
-      ],
-      "confidence": {
-        "level": "low",
-        "basis": "No case-only target exists in the imported catalog; the correct replacement has not been established."
-      },
-      "effort": "small to large",
-      "proposals": [
-        "Inspect the current source namespace and retained history for the absent target; absence from the import does not prove the source was lost. Do not invent a substitute or import another contributor implicitly.",
-        "Review exact reference tokens and source history; record explicit table-scoped corrections without adding global aliases or changing identifiers."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_616c6b5f7365745f62",
-          "name": "The Blues Engine.alk_set_b",
-          "sourceFile": "tables/the-blues-engine/subtables/alk-set-b/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "’tain’t never jes’ the two o’ us [Significant other], ’cuz these folks love they talk,",
           "truncated": false,
           "kind": "source-row"
         }
@@ -136852,69 +136734,6 @@
       "sourceWarnings": []
     },
     {
-      "id": "root:wiki_abulafia_3896_61696e",
-      "tableIds": [
-        "wiki_abulafia_3896_61696e"
-      ],
-      "names": [
-        "The Blues Engine.ain"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_61696e",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_61696e",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_61696e",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_61696e",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_61696e",
-          "name": "The Blues Engine.ain",
-          "sourceFile": "tables/the-blues-engine/subtables/ain/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[ain_set]}} <br/> [ain_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
       "id": "root:wiki_abulafia_3896_616c6b",
       "tableIds": [
         "wiki_abulafia_3896_616c6b"
@@ -136928,7 +136747,7 @@
         {
           "tableId": "wiki_abulafia_3896_616c6b",
           "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
+          "detail": "Unsupported macro reference: [Significant other]"
         },
         {
           "tableId": "wiki_abulafia_3896_616c6b",
@@ -136970,573 +136789,6 @@
           "row": 1,
           "weight": 1,
           "text": "{{ucfirst:[alk_set]}} <br/> [alk_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_616d65",
-      "tableIds": [
-        "wiki_abulafia_3896_616d65"
-      ],
-      "names": [
-        "The Blues Engine.ame"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_616d65",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_616d65",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_616d65",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_616d65",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_616d65",
-          "name": "The Blues Engine.ame",
-          "sourceFile": "tables/the-blues-engine/subtables/ame/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[ame_set]}} <br/> [ame_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_69676874",
-      "tableIds": [
-        "wiki_abulafia_3896_69676874"
-      ],
-      "names": [
-        "The Blues Engine.ight"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_69676874",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_69676874",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_69676874",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_69676874",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_69676874",
-          "name": "The Blues Engine.ight",
-          "sourceFile": "tables/the-blues-engine/subtables/ight/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[ight_set]}} <br/> [ight_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_696e",
-      "tableIds": [
-        "wiki_abulafia_3896_696e"
-      ],
-      "names": [
-        "The Blues Engine.in"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_696e",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_696e",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_696e",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_696e",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_696e",
-          "name": "The Blues Engine.in",
-          "sourceFile": "tables/the-blues-engine/subtables/in/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[in_set]}} <br/> [in_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_6f6172",
-      "tableIds": [
-        "wiki_abulafia_3896_6f6172"
-      ],
-      "names": [
-        "The Blues Engine.oar"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_6f6172",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6172",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6172",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6172",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_6f6172",
-          "name": "The Blues Engine.oar",
-          "sourceFile": "tables/the-blues-engine/subtables/oar/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[oar_set]}} <br/> [oar_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_6f6e67",
-      "tableIds": [
-        "wiki_abulafia_3896_6f6e67"
-      ],
-      "names": [
-        "The Blues Engine.ong"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_6f6e67",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6e67",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6e67",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f6e67",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_6f6e67",
-          "name": "The Blues Engine.ong",
-          "sourceFile": "tables/the-blues-engine/subtables/ong/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[ong_set]}} <br/> [ong_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_6f7574",
-      "tableIds": [
-        "wiki_abulafia_3896_6f7574"
-      ],
-      "names": [
-        "The Blues Engine.out"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_6f7574",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f7574",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f7574",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f7574",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_6f7574",
-          "name": "The Blues Engine.out",
-          "sourceFile": "tables/the-blues-engine/subtables/out/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[out_set]}} <br/> [out_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_6f776e",
-      "tableIds": [
-        "wiki_abulafia_3896_6f776e"
-      ],
-      "names": [
-        "The Blues Engine.own"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_6f776e",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f776e",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f776e",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_6f776e",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_6f776e",
-          "name": "The Blues Engine.own",
-          "sourceFile": "tables/the-blues-engine/subtables/own/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[own_set]}} <br/> [own_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_756e",
-      "tableIds": [
-        "wiki_abulafia_3896_756e"
-      ],
-      "names": [
-        "The Blues Engine.un"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_756e",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_756e",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_756e",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_756e",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_756e",
-          "name": "The Blues Engine.un",
-          "sourceFile": "tables/the-blues-engine/subtables/un/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[un_set]}} <br/> [un_end_a] <br/>",
-          "truncated": false,
-          "kind": "source-row"
-        }
-      ],
-      "hiddenSelfReferences": [],
-      "sourceWarnings": []
-    },
-    {
-      "id": "root:wiki_abulafia_3896_7570",
-      "tableIds": [
-        "wiki_abulafia_3896_7570"
-      ],
-      "names": [
-        "The Blues Engine.up"
-      ],
-      "cyclic": false,
-      "unexplained": false,
-      "issues": [
-        {
-          "tableId": "wiki_abulafia_3896_7570",
-          "code": "unsupported_macro_expression",
-          "detail": "Macro dependency is missing, cyclic, too deep, or has parse warnings"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_7570",
-          "code": "unsupported_runtime_expression",
-          "detail": "Runtime macros require plain-text surrounding text"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_7570",
-          "code": "unsupported_syntax",
-          "detail": "Wiki expressions or replacement operators require additional runtime support"
-        },
-        {
-          "tableId": "wiki_abulafia_3896_7570",
-          "code": "unsupported_ucfirst",
-          "detail": "ucfirst requires a bounded plain-text leaf table with valid weights"
-        }
-      ],
-      "affectedTables": 3,
-      "downstreamTables": 2,
-      "conditionalRecovery": 0,
-      "families": [
-        "expressions"
-      ],
-      "missingTargets": [],
-      "confidence": {
-        "level": "medium",
-        "basis": "The recorded defect is identifiable; repair semantics and post-repair dependencies still require validation."
-      },
-      "effort": "medium to large",
-      "proposals": [
-        "Distinguish malformed delimiters, unsupported reference operators, and argument restrictions from unsupported macro names before implementing a conversion rule."
-      ],
-      "examples": [
-        {
-          "tableId": "wiki_abulafia_3896_7570",
-          "name": "The Blues Engine.up",
-          "sourceFile": "tables/the-blues-engine/subtables/up/table.json",
-          "archiveFile": "tables/abulafia/source/3896.json",
-          "row": 1,
-          "weight": 1,
-          "text": "{{ucfirst:[up_set]}} <br/> [up_end_a] <br/>",
           "truncated": false,
           "kind": "source-row"
         }
@@ -193852,111 +193104,6 @@
       "rootIds": [
         "root:wiki_abulafia_1611_5469746c6544657363726970746f72",
         "root:wiki_abulafia_3257_56656e756554797065"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_447261676f6e",
-      "name": "ODnD Wilderness Encounter Cruncher.Dragon",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_466c796572",
-      "name": "ODnD Wilderness Encounter Cruncher.Flyer",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_636c656172",
-      "name": "ODnD Wilderness Encounter Cruncher.clear",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_636c72456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.clrEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_646573657274",
-      "name": "ODnD Wilderness Encounter Cruncher.desert",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_647374456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.dstEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_6c6169723335",
-      "name": "ODnD Wilderness Encounter Cruncher.lair35",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_6d6f756e7461696e",
-      "name": "ODnD Wilderness Encounter Cruncher.mountain",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_6d746e456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.mtnEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_7269766572",
-      "name": "ODnD Wilderness Encounter Cruncher.river",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_727672456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.rvrEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_7377616d70",
-      "name": "ODnD Wilderness Encounter Cruncher.swamp",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_737770456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.swpEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_776473456e63",
-      "name": "ODnD Wilderness Encounter Cruncher.wdsEnc",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3258_776f6f6473",
-      "name": "ODnD Wilderness Encounter Cruncher.woods",
-      "rootIds": [
-        "root:wiki_abulafia_3258_6c6169723335"
       ]
     },
     {
@@ -260428,42 +259575,18 @@
       ]
     },
     {
-      "id": "wiki_abulafia_3896_61696e",
-      "name": "The Blues Engine.ain",
-      "rootIds": [
-        "root:wiki_abulafia_3896_61696e",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_61696e5f656e645f61",
-      "name": "The Blues Engine.ain_end_a",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_61696e5f736574",
-      "name": "The Blues Engine.ain_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
       "id": "wiki_abulafia_3896_616c6b",
       "name": "The Blues Engine.alk",
       "rootIds": [
         "root:wiki_abulafia_3896_616c6b",
-        "root:wiki_abulafia_3896_616c6b5f7365745f62",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
+        "root:wiki_abulafia_3896_616c6b5f7365745f62"
       ]
     },
     {
       "id": "wiki_abulafia_3896_616c6b5f736574",
       "name": "The Blues Engine.alk_set",
       "rootIds": [
-        "root:wiki_abulafia_3896_616c6b5f7365745f62",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
+        "root:wiki_abulafia_3896_616c6b5f7365745f62"
       ]
     },
     {
@@ -260474,64 +259597,20 @@
       ]
     },
     {
-      "id": "wiki_abulafia_3896_616d65",
-      "name": "The Blues Engine.ame",
-      "rootIds": [
-        "root:wiki_abulafia_3896_616d65",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_616d655f656e645f61",
-      "name": "The Blues Engine.ame_end_a",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_616d655f736574",
-      "name": "The Blues Engine.ame_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
       "id": "wiki_abulafia_3896_626c756573",
       "name": "The Blues Engine.blues",
       "rootIds": [
-        "root:wiki_abulafia_3896_61696e",
         "root:wiki_abulafia_3896_616c6b",
-        "root:wiki_abulafia_3896_616c6b5f7365745f62",
-        "root:wiki_abulafia_3896_616d65",
-        "root:wiki_abulafia_3896_69676874",
-        "root:wiki_abulafia_3896_696e",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f6172",
-        "root:wiki_abulafia_3896_6f6e67",
-        "root:wiki_abulafia_3896_6f7574",
-        "root:wiki_abulafia_3896_6f776e",
-        "root:wiki_abulafia_3896_756e",
-        "root:wiki_abulafia_3896_7570"
+        "root:wiki_abulafia_3896_616c6b5f7365745f62"
       ]
     },
     {
       "id": "wiki_abulafia_3896_626c7565735f696e74726f",
       "name": "The Blues Engine.blues_intro",
       "rootIds": [
-        "root:wiki_abulafia_3896_61696e",
         "root:wiki_abulafia_3896_616c6b",
         "root:wiki_abulafia_3896_616c6b5f7365745f62",
-        "root:wiki_abulafia_3896_616d65",
-        "root:wiki_abulafia_3896_626c75657370726f66657373696f6e",
-        "root:wiki_abulafia_3896_69676874",
-        "root:wiki_abulafia_3896_696e",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f6172",
-        "root:wiki_abulafia_3896_6f6e67",
-        "root:wiki_abulafia_3896_6f7574",
-        "root:wiki_abulafia_3896_6f776e",
-        "root:wiki_abulafia_3896_756e",
-        "root:wiki_abulafia_3896_7570"
+        "root:wiki_abulafia_3896_626c75657370726f66657373696f6e"
       ]
     },
     {
@@ -260546,154 +259625,6 @@
       "name": "The Blues Engine.bluesprofession",
       "rootIds": [
         "root:wiki_abulafia_3896_626c75657370726f66657373696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_69676874",
-      "name": "The Blues Engine.ight",
-      "rootIds": [
-        "root:wiki_abulafia_3896_69676874",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_696768745f736574",
-      "name": "The Blues Engine.ight_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_696e",
-      "name": "The Blues Engine.in",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e",
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_696e5f736574",
-      "name": "The Blues Engine.in_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_696e7465726a656374696f6e",
-      "name": "The Blues Engine.interjection",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f6172",
-      "name": "The Blues Engine.oar",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f6172"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f61725f656e645f61",
-      "name": "The Blues Engine.oar_end_a",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f61725f736574",
-      "name": "The Blues Engine.oar_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f6e67",
-      "name": "The Blues Engine.ong",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f6e67"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f6e675f736574",
-      "name": "The Blues Engine.ong_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f7574",
-      "name": "The Blues Engine.out",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f7574"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f75745f736574",
-      "name": "The Blues Engine.out_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f776e",
-      "name": "The Blues Engine.own",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_6f776e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_6f776e5f736574",
-      "name": "The Blues Engine.own_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_756e",
-      "name": "The Blues Engine.un",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_756e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_756e5f736574",
-      "name": "The Blues Engine.un_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_7570",
-      "name": "The Blues Engine.up",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e",
-        "root:wiki_abulafia_3896_7570"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_75705f656e645f61",
-      "name": "The Blues Engine.up_end_a",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_75705f736574",
-      "name": "The Blues Engine.up_set",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
-      ]
-    },
-    {
-      "id": "wiki_abulafia_3896_75705f7365745f63",
-      "name": "The Blues Engine.up_set_c",
-      "rootIds": [
-        "root:wiki_abulafia_3896_696e7465726a656374696f6e"
       ]
     },
     {
@@ -281834,15 +280765,15 @@
       "rootComponents": 936,
       "localTables": 970,
       "affectedTables": 3477,
-      "exclusiveRecovery": 1085
+      "exclusiveRecovery": 1086
     },
     {
       "id": "source",
       "label": "Empty tables, weights, or extraction warnings",
-      "rootComponents": 621,
-      "localTables": 621,
-      "affectedTables": 1292,
-      "exclusiveRecovery": 770
+      "rootComponents": 619,
+      "localTables": 619,
+      "affectedTables": 1247,
+      "exclusiveRecovery": 739
     },
     {
       "id": "recursion",
@@ -281855,9 +280786,9 @@
     {
       "id": "expressions",
       "label": "Expressions or malformed source syntax",
-      "rootComponents": 488,
-      "localTables": 493,
-      "affectedTables": 2311,
+      "rootComponents": 478,
+      "localTables": 483,
+      "affectedTables": 2301,
       "exclusiveRecovery": 233
     },
     {
@@ -294236,18 +293167,18 @@
     }
   ],
   "diagnostics": {
-    "blocked_dependency": 4262,
+    "blocked_dependency": 4223,
     "unsupported_reference": 970,
     "missing_reference": 795,
-    "invalid_weight": 580,
-    "empty_table": 549,
+    "invalid_weight": 579,
+    "empty_table": 548,
     "cycle": 495,
-    "unsupported_syntax": 493,
-    "unsupported_macro_expression": 363,
+    "unsupported_syntax": 483,
+    "unsupported_macro_expression": 353,
     "expansion_limit": 317,
-    "unsupported_runtime_expression": 86,
-    "unsupported_ucfirst": 74,
-    "source_warning": 46,
+    "unsupported_runtime_expression": 76,
+    "unsupported_ucfirst": 64,
+    "source_warning": 44,
     "unsafe_html": 23,
     "unsupported_po": 12,
     "source_unresolved": 5

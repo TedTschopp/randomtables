@@ -31,25 +31,28 @@ remain in the upstream repository; this is not a copy of every revision.
 | Item | Count |
 | --- | ---: |
 | Imported tables | 25,748 |
-| Validated, ready tables | 20,291 |
-| Ready static tables | 19,643 |
-| Ready wiki-runtime tables | 648 |
-| Quarantined tables | 5,457 |
+| Validated, ready tables | 20,332 |
+| Ready static tables | 19,674 |
+| Ready wiki-runtime tables | 658 |
+| Quarantined tables | 5,416 |
 | Recorded contributor identities | 240 |
 | Source pages | 1,554 |
-| Preserved current entries | 482,281 |
+| Preserved archived parsed entries | 482,281 |
+| Catalog rows, including recovered raw rows | 482,283 |
 | Tables with retained historical attribution | 25,202 |
 
 The [manifest](manifest.json) records the source commit, selected contributors,
 table identities, validation issues, aliases, source hashes, and generated-file
 sizes and hashes. Per-page JSON files in [source](source/) preserve source data
-and attribution snapshots. The 1,557 generated artifacts total 259,048,835 bytes
+and attribution snapshots. The 1,557 generated artifacts total 259,042,044 bytes
 (about 259 MB); this documentation is not a generated artifact.
 
 The expanded macro runtime added 444 tables beyond the preceding compact
 `po`/`ucfirst` runtime. Two source-bound case repair batches add another 389:
 292 static and 97 wiki-runtime tables. All previously ready values and programs,
-source archives, identifiers, contributors, and compatibility aliases are unchanged. The 408
+source archives, identifiers, contributors, and compatibility aliases are unchanged.
+Two reviewed source-extraction corrections enable another 41 tables: 31 static
+and 10 wiki-runtime tables, with all 20,291 previously ready tables preserved. The 408
 current wiki tables outside the contributor-based selection remain unimported.
 
 ## Safe Names and Conversion
@@ -72,7 +75,7 @@ Valid zero-weight rows remain intact in the archive and inspector, including
 their original text, weights, and source references. They have 0% probability
 and are excluded from executable validation, dependency propagation, and
 expansion limits. The source relationship map still includes their references.
-Invalid weights and extractor parse warnings remain blocking. A table-level
+Invalid weights and uncorrected extractor parse warnings remain blocking. A table-level
 unresolved-target diagnostic remains unless every executable use is covered by
 an approved correction or all remaining recorded uses have zero weight.
 
@@ -121,6 +124,43 @@ case-only correction candidates. The Star Wars contact reference was corrected,
 but unrelated blocked dependencies still quarantine that caller. Missing sources,
 malformed rows, recursion, and resource limits require separate repair decisions;
 none were bypassed to complete this pass.
+
+### Source Extraction Corrections
+
+The [source-extraction approval](../../explorer/tools/source-extraction-corrections.json)
+is separate from reference corrections. It binds exactly two source tables to
+the pinned upstream revision and the pre-repair report and manifest hashes at
+checkpoint `1351cba`. The importer applies `sourceCorrections` only to compile-time
+copies, never to the archived JSON or upstream parser.
+
+`ODnD Wilderness Encounter Cruncher.lair35` recovers the complete empty parsed
+table from `7;(in lair)` and `13;(not in lair)`, preserving the literal texts and
+exact 35%/65% probabilities. Semicolon recovery is limited to approved literal
+rows and cannot introduce references or expressions.
+
+`The Blues Engine.interjection` verifies the exact `0 NOTE: trailing spc!` line
+and restores the trailing space in the raw row, represented as the JSON string
+`"1,[ij], "`. Only the warning for that non-executable note is cleared; the note
+and warning remain in the source archive.
+
+Guards check the source ID, file and hash, complete raw-source hash, exact line,
+original row and weight, and the specific extractor warning. Incomplete recovery,
+changed probabilities, invented text, duplicate approvals, and out-of-scope tables
+are rejected. Unrelated warnings, unresolved references, cycles, and resource
+limits still block compilation. There is no global semicolon or warning exception.
+
+Each corrected table carries `sourceCorrections` in the manifest and runtime
+catalog. Existing parsed-entry `rawText` remains exact. Newly recovered entries
+use the entire original raw line as `rawText`, with `rawSourceLine` giving its
+one-based position within the archived `raw_source` block. The two additional
+catalog rows do not change the archived parsed-entry count.
+
+The report estimated 31 recoverable tables; full validation enabled 41 because
+ten additional Blues macro tables no longer fail dependent validation. All 1,554
+archives and all 20,291 previously ready tables stayed exact. Acceptance covered
+387 deterministic rolls across all 129 recovered compiled choices, with zero
+warnings, plus 104 unit/integrity and 17 offline browser tests. Whitespace is
+preserved during composition; existing final-display edge trimming is unchanged.
 
 ### Static Choices
 
