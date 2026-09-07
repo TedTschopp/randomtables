@@ -48,7 +48,7 @@ test('real imports preserve the legacy registry, repair its missing targets, and
   const runtime = vm.createContext({ console, atob, Blob, Response, DecompressionStream });
   const scripts = Array.from(read('index.html').matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g), match => match[1])
     .filter(source => source.startsWith('tables/') && source !== 'tables/abulafia.js');
-  for (const source of ['JS/generator.js', 'JS/wiki-import.js', 'explorer/model.js', ...scripts]) {
+  for (const source of ['JS/generator.js', 'explorer/vendor/jsep.iife.min.js', 'JS/wiki-template-data.js', 'JS/wiki-expressions.js', 'JS/wiki-import.js', 'explorer/model.js', ...scripts]) {
     vm.runInContext(read(source), runtime, { filename: source });
   }
   const original = new Map(Object.entries(runtime.gen_data));
@@ -177,11 +177,23 @@ test('real imports preserve the legacy registry, repair its missing targets, and
       start += entry.weight;
     }
   }
-  for (const name of ['Artifacts.BeginName', 'Quick NPC.NPCDescriptor']) {
+  for (const name of ['Artifacts.BeginName', 'Quick NPC.NPCDescriptor', '1st Level Dungeon.details', '25 Magic Words Of American Television.main', 'Alignment.all']) {
     const table = byName.get(name);
-    assert.equal(table.status, 'blocked', name);
-    assert.equal(table.program, undefined, name);
-    assert.ok(table.issues.some(issue => issue.code === 'unsupported_syntax'), name);
+    assert.equal(table.status, 'ready', name);
+    assert.equal(table.execution, 'wiki', name);
+    assert.equal(table.legacyAvailable, false, name);
+    assert.equal(table.program.length, table.entries.length, name);
+    assert.ok(table.entries.some(entry => entry.rawText.includes('{{')), name);
+    let start = 0;
+    for (const entry of table.entries) {
+      if (!entry.weight) continue;
+      for (const tail of [0, 0.5, 0.999999999]) {
+        const text = rollWithSamples(table.id, [(start + entry.weight / 2) / table.totalWeight, ...Array(512).fill(tail)]);
+        assert.ok(text.trim(), name);
+        assert.doesNotMatch(text, /\{\{|unavailable|requires Table Atlas/i, name);
+      }
+      start += entry.weight;
+    }
   }
   assert.equal(Object.keys(runtime.gen_data).length, original.size + manifest.summary.tables + Object.keys(manifest.aliases).length);
   assert.equal(runtime.generate_text, generate);

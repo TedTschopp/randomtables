@@ -35,7 +35,8 @@ is unchanged; the classic pages load only the small compatibility import.
 - Imported tables show contributor attribution and a link to their local source
   snapshot. Blocked imports retain source entries and validation details, but
   cannot be rolled or chosen by **Random table**.
-- **Roll table** generates one to ten results using the original generator.
+- **Roll table** generates one to ten results using the original generator or
+  the isolated wiki expression evaluator, as required by the selected table.
   Expand the roll trace to inspect selected entries; the corresponding graph
   path is highlighted. Results and table tokens can be copied.
 - Bookmark tables locally, export the complete data index as JSON, or download
@@ -50,7 +51,8 @@ drawer. Browser Back and Forward restore table, graph scope, and depth.
 The explorer loads the same ordered table-script list as the classic home page,
 including its compatibility bundle, then adds the full Abulafia catalog. This
 snapshot indexes 26,871 tables and 46,584 directed relationships. The wiki import
-contains 25,748 tables: 19,351 ready and 6,397 quarantined. Unregistered scripts
+contains 25,748 tables: 19,902 ready and 5,846 quarantined. Ready imports comprise
+19,351 static tables and 551 wiki-runtime tables. Unregistered scripts
 and alternate JSON formats elsewhere in the repository are not automatically
 imported.
 
@@ -75,25 +77,31 @@ and collision-checked before registration. See the
 [manifest](../tables/abulafia/manifest.json) for the pinned source revision,
 selection policy, validation rules, and retained attribution evidence.
 
-Only the `{table_name}` tokens recognized by the original generator are treated
-as executable references. Imported simple wiki references are converted to
-namespaced tokens. A bounded `{{ucfirst:...}}` compiler precomputes capitalized
-choices for plain literals or single references to plain-text leaf tables,
-preserving exact selection probabilities and the original leaf values. Only
-ASCII first characters or empty strings are supported; nested macros, edge
-whitespace, markup in arguments, and other unsupported syntax remain quarantined.
-A bounded `{{po|...}}` compiler also supports possessives over plain text and
-acyclic simple-reference chains. It follows the archived template's terminal
-`s`/`S` rule and preserves exact probabilities; chains exceeding 4,096 choices
-or the other expansion limits remain quarantined. Source entries and graph
-relationships are preserved for both macros. Traces show precomputed runtime
-selections rather than separate calls for the expanded macro argument.
+The original generator still recognizes only `{table_name}` references. Imported
+references resolve to exact namespaced table IDs. Small `ucfirst` and `po` cases
+retain their previously compiled choices, exact probabilities, and original leaf
+values. Those traces show precomputed choices, not separate argument calls.
+
+The wiki-only evaluator handles multiple and nested calls, verified aliases,
+grammar templates, casing, arithmetic, strings, conditionals, and pipe-array
+helpers. It follows nine reviewed archived template bodies instead of guessing
+English grammar. References roll independently; each evaluated template argument
+is cached for its invocation. Runtime traces include the tables actually called.
+No original generator functions or source tables are rewritten.
+
+First-character casing remains ASCII-only; full-string casing supports Unicode.
+Arithmetic uses a restricted numeric AST, never JavaScript evaluation. Links,
+hover text, and color wrappers produce plain text; DieRoll produces a label, not
+an interactive button or an extra dice roll. CURRENTYEAR uses UTC. Page-existence
+checks cover registered imported table pages, not the entire archived wiki.
 See the [conversion rules](../tables/abulafia/README.md#safe-names-and-conversion)
-for the full boundary. Traced rolls
-make missing references visible and stop expansion
-at 48 nested calls or 800 table calls per result. These guards apply only to the
-explorer. Validated imports additionally pass stricter precomputed expansion
-limits before they can be registered as ready.
+for supported forms and remaining source-review cases.
+
+Traced classic rolls stop at 48 nested calls or 800 table calls per result.
+Validated wiki imports have stricter limits: 32 table levels, 512 table calls,
+4,096 expression operations, and 32,768 output characters. Import preflight
+checks dependencies, sensitive argument domains, and worst-case expansion before
+enabling a table. Invalid or over-budget expressions remain quarantined.
 
 Generated HTML is converted to inert plain text before display. Table entries
 are displayed as text with explicit reference links, not executed as HTML.
@@ -111,6 +119,10 @@ When browser storage is unavailable, changes remain in memory for the session.
 [../JS/wiki-import.js](../JS/wiki-import.js) registers validated imports without
 overwriting existing keys; the app waits for catalog decompression before
 building its model.
+[../JS/wiki-expressions.js](../JS/wiki-expressions.js) validates and evaluates
+immutable programs; [../JS/wiki-template-data.js](../JS/wiki-template-data.js)
+contains the reviewed grammar and array template bodies. The importer uses the
+same evaluator through [tools/compile-wiki-expressions.cjs](tools/compile-wiki-expressions.cjs).
 
 Script tags are explicit so the app works with `file://` URLs, without `fetch`,
 module loading, or a build step. When changing the original page's table script
@@ -118,6 +130,18 @@ list, mirror its order in [index.html](index.html). The integration test detects
 drift between the two pages. Changes inside existing table files are picked up
 on the next page load. Generated import files must be updated through the
 [import tool](tools/import-abulafia.cjs), not hand-edited.
+
+## Macro Inventory
+
+The [macro inventory](../Docs/macro-inventory.md) covers all 26,156 current wiki
+tables, including imported-ready, quarantined, and not-imported tables, plus local
+JavaScript definitions, alternate JSON collections, and wordlists. It separates
+current support, remaining operations, archived template dependencies, and source
+repairs. The [JSON evidence](../Docs/macro-inventory.json) retains each occurrence.
+
+The scanner is an optional development tool; it does not change tables or add a
+server requirement. Run its focused tests with `npm --prefix explorer run test:inventory`.
+The report contains the reproduction command and exact source revision.
 
 ## Optional Tests
 
@@ -130,6 +154,9 @@ the model, data, converter, browser-runtime, and artifact-integrity tests:
 npm --prefix explorer ci
 npm --prefix explorer test
 ```
+
+Run just the expression, converter, and registration checks with
+`npm --prefix explorer run test:macros`.
 
 For isolated local-file browser checks, install a test browser:
 
@@ -160,5 +187,6 @@ All runtime dependencies are vendored; there are no CDN requests.
 | --- | --- | --- |
 | D3 | 7.9.0 | [D3 license](vendor/d3-LICENSE.txt) |
 | Lucide | 0.468.0 | [Lucide license](vendor/lucide-LICENSE.txt) |
+| jsep arithmetic parser | 1.4.0 | [jsep license](vendor/jsep.LICENSE) |
 | Manrope variable font via Fontsource | 5.3.0 | [Manrope license](assets/manrope-LICENSE.txt) |
 | Bricolage Grotesque variable font via Fontsource | 5.3.0 | [Bricolage Grotesque license](assets/bricolage-grotesque-LICENSE.txt) |

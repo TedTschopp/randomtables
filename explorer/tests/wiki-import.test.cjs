@@ -28,6 +28,74 @@ function record(pageId, pageTitle, name, contributor, originalContributor, targe
   };
 }
 
+test('extended wiki expressions compile nested and repeated macros without changing source weights or classic values', () => {
+  const source = record(91, 'Extended', 'main', 'Editor', 'Creator', ['Extended.Choices']);
+  source.table.entries[0].text = '{{ucfirst:{{Ia|[Extended.Choices]}}}} / {{#expr:2 + 3 * 4}}';
+  source.table.entries[0].weight = 2;
+  source.table.entries.push({ weight: 0, text: '{{not implemented}}', references: [] });
+  const choices = record(91, 'Extended', 'Choices', 'Editor', 'Creator');
+  choices.table.entries = [{ weight: 2, text: 'apple', references: [] }, { weight: 1, text: 'pear', references: [] }];
+  const plan = planImport([source, choices], ['Extended.main']);
+  const before = JSON.stringify(plan);
+  const bundle = compileImport(plan, { runtimeExpressions: true });
+  const compiled = bundle.tables.find(table => table.name === 'Extended.main');
+  assert.equal(compiled.status, 'ready', JSON.stringify(compiled.issues));
+  assert.equal(compiled.execution, 'wiki');
+  assert.equal(compiled.totalWeight, 2);
+  assert.equal(compiled.program[1], null);
+  assert.equal(compiled.program[0][0].args[0][0].op, 'article');
+  assert.deepEqual(bundle.tables.find(table => table.name === 'Extended.Choices').values, { '1-2': 'apple', 3: 'pear' });
+  assert.equal(JSON.stringify(plan), before);
+  const context = vm.createContext({ WikiExpressions: require('../../JS/wiki-expressions.js') });
+  for (const file of ['JS/generator.js', 'JS/wiki-import.js']) vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), context);
+  const generate = context.generate_text;
+  context.WikiImport.register(bundle);
+  vm.runInContext('Math.random = () => 0;', context);
+  const result = context.WikiImport.roll(compiled.id);
+  assert.equal(result.text, 'An apple / 14');
+  assert.equal(result.warnings.length, 0);
+  assert.equal(result.steps.length, 2);
+  assert.equal(context.generate_text, generate);
+});
+
+test('extended wiki compilation rejects invalid arithmetic, unsafe dynamic arguments, and output expansion', () => {
+  for (const text of ['{{#expr:1/0}}', '{{ucfirst:\u00e9clair}}', '{{uc:<b>word</b>}}', '{{uc:one|two}}',
+    '{{#replace:' + 'a'.repeat(12000) + '|a|long}}']) {
+    const source = record(92, 'Invalid', 'main', 'Editor', 'Creator');
+    source.table.entries[0].text = text;
+    const compiled = compileImport(planImport([source], ['Invalid.main']), { runtimeExpressions: true }).tables[0];
+    assert.equal(compiled.status, 'blocked', text.slice(0, 60));
+    assert.equal(compiled.program, undefined);
+  }
+  for (const text of ['{{#expr:[Invalid.Choices] + 1}}', '{{ucfirst:[Invalid.Choices]}}']) {
+    const source = record(92, 'Invalid', 'main', 'Editor', 'Creator', ['Invalid.Choices']);
+    source.table.entries[0].text = text;
+    const choices = record(92, 'Invalid', 'Choices', 'Editor', 'Creator');
+    choices.table.entries = ['2', '\u00e9clair'].map(value => ({ weight: 1, text: value, references: [] }));
+    const compiled = compileImport(planImport([source, choices], ['Invalid.main']), { runtimeExpressions: true }).tables.find(table => table.name === 'Invalid.main');
+    assert.equal(compiled.status, 'blocked', text);
+  }
+});
+
+test('extended wiki search offsets are validated against every possible input string', () => {
+  for (const [texts, offsets, status] of [
+    [['abc'], ['0', '-1'], 'blocked'],
+    [['abc'], ['0', '4'], 'blocked'],
+    [['a', 'abc'], ['2'], 'blocked'],
+    [['abc'], ['0', '3'], 'ready'],
+    [['a', 'abc'], ['0', '1'], 'ready']
+  ]) {
+    const source = record(93, 'Offsets', 'main', 'Editor', 'Creator', ['Offsets.Text', 'Offsets.Offset']);
+    source.table.entries[0].text = '{{#pos:[Offsets.Text]|a|[Offsets.Offset]}}';
+    const words = record(93, 'Offsets', 'Text', 'Editor', 'Creator');
+    words.table.entries = texts.map(text => ({ weight: 1, text, references: [] }));
+    const positions = record(93, 'Offsets', 'Offset', 'Editor', 'Creator');
+    positions.table.entries = offsets.map(text => ({ weight: 1, text, references: [] }));
+    const bundle = compileImport(planImport([source, words, positions], ['Offsets.main']), { runtimeExpressions: true });
+    assert.equal(bundle.tables.find(table => table.name === 'Offsets.main').status, status, JSON.stringify({ texts, offsets }));
+  }
+});
+
 test('wiki imports recursively include current and original contributors plus dependency authors', () => {
   const records = [
     record(1, 'Seed', 'main', 'Editor', 'Creator', ['Dependency.main']),
@@ -483,11 +551,16 @@ test('compact ucfirst validates every possible first character without materiali
   assert.deepEqual(compiled.program, [[{ op: 'ucfirst', parts: [{ ref: tableId(combined.table) }] }]]);
   for (const text of ['\u00e9clair', ' leading', 'trailing ', '{{unsupported}}']) {
     names.table.entries[1].text = text;
-    assert.equal(compileImport(plan, { runtimeExpressions: true }).tables.find(table => table.name === 'Page.main').status, 'blocked', text);
+    const result = compileImport(plan, { runtimeExpressions: true }).tables.find(table => table.name === 'Page.main');
+    if (text.trim() !== text) {
+      assert.equal(result.status, 'ready', text);
+      const output = require('../../JS/wiki-expressions.js').evaluate(result.program[0], { resolve: () => text });
+      assert.equal(output, text.trim().charAt(0).toUpperCase() + text.trim().slice(1));
+    } else assert.equal(result.status, 'blocked', text);
   }
 });
 
-test('compact expressions preserve quarantine for source defects and per-roll resource failures', () => {
+test('wiki expressions retain source and resource quarantine while allowing validated nested dependencies', () => {
   for (const condition of ['missing', 'warning', 'unresolved', 'invalid-weight', 'cycle', 'nested', 'html', 'malformed', 'depth', 'calls', 'length']) {
     const root = record(1, 'Page', 'main', 'Editor', 'Creator', ['Page.Names']);
     root.table.entries[0].text = '{{po|[Page.Names]}}';
@@ -516,6 +589,12 @@ test('compact expressions preserve quarantine for source defects and per-roll re
     if (condition === 'length') names.table.entries[0].text = 'a'.repeat(32768);
     const bundle = compileImport(planImport(records, ['Page.main']), { runtimeExpressions: true });
     const compiled = bundle.tables.find(table => table.name === 'Page.main');
+    if (condition === 'nested' || condition === 'html') {
+      assert.equal(compiled.status, 'ready', condition);
+      assert.equal(compiled.execution, 'wiki', condition);
+      assert.equal(compiled.program[0][0].op, 'po', condition);
+      continue;
+    }
     assert.equal(compiled.status, 'blocked', condition);
     assert.equal(compiled.program, undefined, condition);
     assert.equal(compiled.execution, undefined, condition);

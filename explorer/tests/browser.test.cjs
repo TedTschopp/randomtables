@@ -217,7 +217,7 @@ test('static possessive tables retain their compiled choices offline', async () 
       return {
         artifact: choice(artifact, 'Admiral '), religious: choice(religious, 'St. '),
         source: byName.get('ScottishMale.ScottishMaleFirstName').id,
-        blocked: byName.get('Artifacts.BeginName').id
+        blocked: byName.get('Ship Names.main').id
       };
     });
     async function rollChoice(target) {
@@ -265,7 +265,7 @@ test('static possessive tables retain their compiled choices offline', async () 
     await page.setViewportSize({ width: 1440, height: 960 });
     await selectTable(page, targets.blocked);
     assert.equal(await page.locator('#roll-button').isDisabled(), true);
-    assert.match(await page.locator('#wiki-validation').textContent(), /plain text/);
+    assert.match(await page.locator('#wiki-validation').textContent(), /Secret Society Title/);
   });
 });
 
@@ -315,6 +315,7 @@ test('compact wiki expressions roll offline with source weights, argument traces
       assert.ok(text.includes(expected.text), target.name);
       assert.doesNotMatch(text, /[{}]|requires Table Atlas|unavailable/i);
       assert.equal(await page.locator('.roll-warning').count(), 0);
+      if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
       const argumentTrace = page.locator(`.trace-step[data-table-link="${expected.reference}"]`).first();
       assert.equal(await argumentTrace.isVisible(), true);
       if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'desktop-wiki-expression.png') });
@@ -326,6 +327,58 @@ test('compact wiki expressions roll offline with source weights, argument traces
       await argumentTrace.click();
       assert.equal(await page.locator('#table-title').textContent(), expected.name);
     }
+  });
+});
+
+test('extended wiki macros roll offline with preserved source, nested evaluation, and responsive results', async () => {
+  await withPage(async page => {
+    assert.equal(await page.evaluate(() => WikiExpressions.evaluate(WikiExpressions.parse('{{ucfirst:{{ia|old book}}}} / {{#expr:2 + 3 * 4}} / {{#replace:aba|a|$&}}'))), 'An old book / 14 / $&b$&');
+    const targets = await page.evaluate(() => {
+      const byName = new Map([...WikiImport.metadata.values()].map(table => [table.name, table]));
+      return ['1st Level Dungeon.details', '25 Magic Words Of American Television.main', 'Quick NPC.NPCDescriptor'].map(name => {
+        const table = byName.get(name);
+        const displayText = table.entries[0].text.replace(/\{(\w+)\}/g, (token, identifier) => `{${WikiImport.metadata.get(identifier)?.name || identifier}}`);
+        return { id: table.id, name, rawText: table.entries[0].rawText, displayText, weight: table.entries[0].weight, total: table.totalWeight };
+      });
+    });
+    for (const target of targets) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(await page.locator('#roll-button').isDisabled(), false, target.name);
+      assert.equal(await page.locator('#wiki-validation').isVisible(), false, target.name);
+      assert.equal(await page.locator('.entry-text').first().textContent(), target.displayText);
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const snapshot = archive.tables.find(snapshot => snapshot.current.table.subtable.qualified_name === target.name);
+      assert.equal(snapshot.current.table.entries[0].text, target.rawText);
+      await page.locator('#roll-count').fill('1');
+      await page.evaluate(sample => {
+        const originalRandom = Math.random;
+        let first = true;
+        try {
+          Math.random = () => {
+            if (!first) return 0.5;
+            first = false;
+            return sample;
+          };
+          document.getElementById('roll-button').click();
+        } finally {
+          Math.random = originalRandom;
+        }
+      }, target.weight / 2 / target.total);
+      const output = await page.locator('.roll-result').first().textContent();
+      assert.ok(output.trim(), target.name);
+      assert.doesNotMatch(output, /\{\{|requires Table Atlas|unavailable/i);
+      assert.equal(await page.locator('.roll-warning').count(), 0);
+      assert.ok(await page.locator('.trace-step').count() > 1, target.name);
+      if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'desktop-extended-macros.png') });
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'mobile-extended-macros.png'), fullPage: true });
+    }
+    assert.equal(await page.locator('.roll-result script, .roll-result iframe, .roll-result img').count(), 0);
   });
 });
 

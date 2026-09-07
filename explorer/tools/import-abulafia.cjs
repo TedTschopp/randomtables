@@ -6,6 +6,7 @@ const { parseArgs } = require('node:util');
 const vm = require('node:vm');
 const { gzipSync } = require('node:zlib');
 const { parseFragment } = require('parse5');
+const { createExpressionCompiler } = require('./compile-wiki-expressions.cjs');
 
 function contributorKey(contributor) {
   if (!contributor) return null;
@@ -492,7 +493,9 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
   const materialized = new Map();
   const possessiveChoices = possessiveCompiler(byName);
   const compactExpression = compactCompiler(byName);
+  const extendedExpression = createExpressionCompiler(byName, { tableId, inertText, escapeText });
   const compactEntries = new WeakMap();
+  const extendedEntries = new WeakMap();
   const runtimeTables = new Set();
   for (const record of plan.records) {
     const identifier = tableId(record.table);
@@ -543,8 +546,9 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       const transformIssue = runtimeExpressions ? (code, detail) => transformIssues.push({ code, detail }) : entryIssue;
       const transform = weight > 0 ? ucfirstChoices(entry, byName, transformIssue) || possessiveChoices(entry, transformIssue) : null;
       const compact = runtimeExpressions && weight > 0 && !transform ? compactExpression(entry, transformIssue) : null;
-      if (!compact) for (const { code, detail } of transformIssues) entryIssue(code, detail);
-      if (/[{}]|\[\[|\]\]|%[^%]+%|\$(?:[$&`']|<)/.test(transform?.syntax ?? compact?.syntax ?? rawText)) {
+      const extended = runtimeExpressions && weight > 0 && !transform && !compact ? extendedExpression(entry, transformIssue) : null;
+      if (!compact && !extended) for (const { code, detail } of transformIssues) entryIssue(code, detail);
+      if (/[{}]|\[\[|\]\]|%[^%]+%|\$(?:[$&`']|<)/.test(transform?.syntax ?? compact?.syntax ?? extended?.syntax ?? rawText)) {
         entryIssue('unsupported_syntax', 'Wiki expressions or replacement operators require additional runtime support');
       }
       const replacements = new Map();
@@ -583,6 +587,10 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       const compiled = { weight, text: entry.weight === 0 ? rawText : text, rawText, references };
       if (compact) {
         compactEntries.set(compiled, compact);
+        runtimeTables.add(identifiers.get(source.subtable.qualified_name));
+      }
+      if (extended) {
+        extendedEntries.set(compiled, extended);
         runtimeTables.add(identifiers.get(source.subtable.qualified_name));
       }
       if (transform) {
@@ -625,13 +633,16 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
         nodes += 1;
         if (nodes > 65536) throw new Error('Runtime program exceeds 65536 nodes');
         if (part.parts) countParts(part.parts);
+        for (const argument of part.args || []) if (argument) countParts(argument);
+        for (const argument of Object.values(part.named || {})) countParts(argument);
       }
     }
     return table.entries.map((entry, index) => {
       if (entry.weight === 0) return null;
       const original = source.entries[index];
-      const compact = compactEntries.get(entry) || compactExpression(original, reject);
-      const parts = compact ? [...converted(compact.prefix, original), compact.expression, ...converted(compact.suffix, original)] : programParts(entry.text);
+      const extended = extendedEntries.get(entry);
+      const compact = extended ? null : compactEntries.get(entry) || compactExpression(original, reject);
+      const parts = extended ? extended.program : compact ? [...converted(compact.prefix, original), compact.expression, ...converted(compact.suffix, original)] : programParts(entry.text);
       countParts(parts);
       return parts;
     });

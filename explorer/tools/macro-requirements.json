@@ -1,0 +1,109 @@
+{
+  "sourceArchive": {
+    "file": "archive/source-export/spycraftrandom_generatorcom-20200209-history.xml",
+    "sha256": "0469074d589f473c8078103effddd56a915a5a01c5b63d1ed3c5e32f4261aef9",
+    "selection": "Latest retained revision per template page; documentation, comments, and nowiki examples excluded from dependency names."
+  },
+  "definitions": [
+    { "title": "Template:Article", "pageId": 2166, "revision": 29088, "dependencies": ["lcfirst", "lc", "#sub", "#ifeq"] },
+    { "title": "Template:Ia", "pageId": 2227, "revision": 7648, "aliasOf": "Template:Article", "dependencies": ["article"] },
+    { "title": "Template:Plural", "pageId": 2271, "revision": 39767, "dependencies": ["lc", "#sub", "#ifeq", "#if"] },
+    { "title": "Template:Po", "pageId": 3854, "revision": 28408, "dependencies": ["lc", "#sub", "#ifeq", "#if"] },
+    { "title": "Template:Pronoun", "pageId": 4503, "revision": 37261, "dependencies": ["#ifeq", "#replace"] },
+    { "title": "Template:Concat", "pageId": 4415, "revision": 36814, "dependencies": ["#sub", "#expr", "#len", "#ifeq"] },
+    { "title": "Template:Comma", "pageId": 4421, "revision": 36137, "dependencies": [] },
+    { "title": "Template:Numtostring", "pageId": 4487, "revision": 36911, "dependencies": ["#switch"] },
+    { "title": "Template:Array norepeat", "pageId": 4678, "revision": 40044, "dependencies": ["#if", "#pos", "!"] },
+    { "title": "Template:Array implode", "pageId": 4680, "revision": 40163, "dependencies": ["#if", "#ifeq", "#rpos", "#replace", "#sub", "#expr", "!"] },
+    { "title": "Template:Psychon norepeat", "pageId": 4677, "revision": 40153, "dependencies": ["#if", "#ifeq", "#rpos", "#replace", "#sub", "#expr", "!"], "sameOperationalBodyAs": "Template:Array implode" },
+    { "title": "Template:Link", "pageId": 2459, "revision": 24321, "dependencies": ["#ifeq", "#sub", "#if", "p"] },
+    { "title": "Template:Hover", "pageId": 3926, "revision": 29258, "dependencies": ["#ifeq"] },
+    { "title": "Template:LinkMe", "pageId": 4119, "revision": 33476, "dependencies": ["#ifexist", "hover"] },
+    { "title": "Template:Font Color", "pageId": 2593, "revision": 24734, "dependencies": ["#if"] },
+    { "title": "Template:Fc", "pageId": 3626, "revision": 24551, "aliasOf": "Template:Font Color", "dependencies": ["font color"] },
+    { "title": "Template:DieRoll", "pageId": 2225, "revision": 7617, "dependencies": [], "extension": "Clickable dice span interpreted by the original wiki's browser code" },
+    { "title": "Template:SGDisplayGreaterTemplate", "pageId": 2597, "revision": 11036, "dependencies": [], "extension": "sgdisplay", "needsSourceReview": true },
+    { "title": "Template:!", "pageId": 4494, "revision": 37032, "dependencies": [], "literal": "|" },
+    { "title": "Template:P", "pageId": 2458, "revision": 35009, "dependencies": [], "literal": "|" }
+  ],
+  "groups": [
+    {
+      "id": "articles", "label": "Indefinite articles", "priority": "1",
+      "names": ["ia", "article"],
+      "requirement": "Preserve the archived Article behavior and its Ia alias.",
+      "caution": "The archived rule handles initial vowels with a uni exception; it is not a general pronunciation engine. Preserve its casing and empty-input behavior."
+    },
+    {
+      "id": "casing", "label": "Case conversion", "priority": "1",
+      "names": ["ucfirst", "lcfirst", "lc", "uc"],
+      "requirement": "Support first-character and full-string case conversion through the bounded expression parser.",
+      "caution": "ucfirst and lcfirst remain ASCII-only at the first character; uc and lc use Unicode casing. Arguments are trimmed, and multiple and nested calls are validated."
+    },
+    {
+      "id": "plural", "label": "Pluralization", "priority": "2",
+      "names": ["plural"],
+      "requirement": "Preserve the custom Plural template, including explicit override arguments and its suffix rules.",
+      "caution": "This is a custom inflection template, not MediaWiki's numeric PLURAL magic word. Do not silently replace its rules with a different inflection library."
+    },
+    {
+      "id": "possessive", "label": "Possessives", "priority": "2",
+      "names": ["po"],
+      "requirement": "Preserve existing static po choices and support validated aliases, nested calls, and optional arguments in the wiki evaluator.",
+      "caution": "The optional second argument overrides only the non-s branch. Terminal s/S, explicit empty arguments, and existing apostrophes follow the archived template."
+    },
+    {
+      "id": "strings", "label": "String operations", "priority": "2",
+      "names": ["#replace", "#sub", "#pos", "#rpos", "concat", "comma"],
+      "requirement": "Provide literal replacement, substring, forward/reverse position, boundary-aware concatenation, and a literal comma helper.",
+      "caution": "Concat removes one duplicate boundary character, so ta + al becomes tal. Comma emits comma plus space. Pin negative offsets, missing matches, and argument trimming to source behavior."
+    },
+    {
+      "id": "numbers", "label": "Arithmetic and number words", "priority": "2",
+      "names": ["#expr", "numtostring"],
+      "requirement": "Use bounded arithmetic parsing for #expr and a verified number-word lookup for Numtostring.",
+      "caution": "Never evaluate source as JavaScript. Numtostring retains the archive's duplicate keys and first-match behavior: 1 yields one while 21 yields an empty result. Arithmetic div means ordinary division and chained powers associate left to right."
+    },
+    {
+      "id": "conditions", "label": "Conditional expressions", "priority": "2",
+      "names": ["#ifeq"],
+      "requirement": "Provide equality branching with lazy result branches and exact integer-string comparison.",
+      "caution": "Although directly used by one current table, this capability also underlies many custom template definitions. Avoid evaluating unused branches or rerolling an already evaluated argument."
+    },
+    {
+      "id": "pronouns", "label": "Pronoun tokens", "priority": "2",
+      "names": ["pronoun"],
+      "requirement": "Replace the template's !HESHE, !HIMHER, and !HISHER tokens for m, f, and z modes.",
+      "caution": "This is explicit token substitution with sentence capitalization rules, not general grammatical rewriting."
+    },
+    {
+      "id": "collections", "label": "Pipe-delimited arrays", "priority": "3",
+      "names": ["array norepeat", "array implode", "psychon norepeat"],
+      "requirement": "Support the archived pipe-string array representation, append-if-absent behavior, and delimiter rendering.",
+      "caution": "These are not generic random sampling without replacement; membership uses the source's prefix-search rule. The latest Psychon norepeat operational body matches Array implode despite its name, and is preserved unchanged."
+    },
+    {
+      "id": "presentation", "label": "Links, tooltips, and colors", "priority": "3",
+      "names": ["link", "hover", "linkme", "fc", "font color"],
+      "requirement": "Project presentation templates to their visible plain text without links, tooltips, or color styling.",
+      "caution": "Fc aliases Font Color. LinkMe retains its text without reproducing the wiki-page-existence presentation; direct #ifexist checks cover registered imported table pages only. Never execute arbitrary HTML, CSS, or URLs from source."
+    },
+    {
+      "id": "dice", "label": "Interactive dice control", "priority": "3",
+      "names": ["dieroll"],
+      "requirement": "Project DieRoll to its explicit text or dice label, defaulting to 1d1; no interactive control or immediate dice roll is created.",
+      "caution": "DieRoll is an interactive presentation template with named title, dice, and text parameters, not simply an eager random number operation."
+    },
+    {
+      "id": "clock", "label": "Current year", "priority": "3",
+      "names": ["currentyear"],
+      "requirement": "Evaluate CURRENTYEAR using the browser UTC year, with one clock snapshot per roll.",
+      "caution": "It is a context value, not a template or random choice. Fixed-clock tests cover reproducible output."
+    },
+    {
+      "id": "source-repair", "label": "Generator display wrapper", "priority": "Review",
+      "names": ["sgdisplaygreatertemplate"],
+      "requirement": "Review the original sgdisplay extension and damaged table invocation before attempting support.",
+      "caution": "The observed table call has an unclosed inner reference, and the archived wrapper uses dynamic template-like syntax. Do not enable it based solely on balanced outer braces."
+    }
+  ]
+}

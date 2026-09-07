@@ -16,10 +16,16 @@ optional development checks.
 ## Abulafia Import
 
 The explorer includes 25,748 namespaced tables from the archived Abulafia wiki:
-19,351 validated tables and 6,397 preserved but quarantined tables. The import
+19,902 validated tables and 5,846 preserved but quarantined tables. The import
 follows both recorded editors and earliest retained contributors, recursively
 including contributors encountered through dependencies. Existing table names
 are never overwritten by imported data.
+
+The browser-only wiki evaluator supports bounded nested macros for grammar,
+casing, arithmetic, strings, conditionals, and array helpers. This enables 444
+additional tables without changing existing static choices or the classic engine.
+Presentation templates retain plain text; unsupported or invalid expressions
+remain quarantined. See the [macro inventory](Docs/macro-inventory.md) for coverage.
 
 See [tables/abulafia/README.md](tables/abulafia/README.md) for source attribution,
 compatibility aliases, validation limits, and repeatable import commands. The

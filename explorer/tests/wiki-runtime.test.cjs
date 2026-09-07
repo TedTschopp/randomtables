@@ -48,6 +48,30 @@ function expressionPayload() {
   };
 }
 
+test('extended wiki programs support structured nested calls and remain immutable and atomically validated', () => {
+  const context = runtime();
+  context.WikiExpressions = require('../../JS/wiki-expressions.js');
+  const bundle = expressionPayload();
+  bundle.tables[0].program = [[{ op: 'ucfirst', args: [[{ op: 'article', args: [[{ ref: 'wiki_abulafia_2_63' }]] }]] }]];
+  bundle.tables[2].values = ['old book'];
+  context.WikiImport.register(bundle);
+  bundle.tables[0].program[0][0].args[0][0].op = 'eval';
+  vm.runInContext('Math.random = () => 0;', context);
+  const result = context.WikiImport.roll(bundle.tables[0].id);
+  assert.equal(result.text, 'An old book');
+  assert.equal(result.warnings.length, 0);
+  assert.equal(result.steps.length, 2);
+  for (const invalid of [{ op: 'constructor', args: [] }, { op: 'uc', args: [['<script>bad</script>']] }, { op: 'uc', args: [['word']], extra: true }]) {
+    const rejected = expressionPayload();
+    rejected.tables[0].program = [[invalid]];
+    const isolated = runtime();
+    isolated.WikiExpressions = require('../../JS/wiki-expressions.js');
+    assert.throws(() => isolated.WikiImport.register(rejected), /wiki|unsupported|invalid/i);
+    assert.equal(isolated.WikiImport.metadata.size, 0);
+    assert.equal(Object.keys(isolated.gen_data).length, 0);
+  }
+});
+
 test('wiki expression rolls follow compact weighted references and transform the completed result', () => {
   const context = runtime();
   const generate = context.generate_text;

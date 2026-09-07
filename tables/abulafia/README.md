@@ -31,8 +31,10 @@ remain in the upstream repository; this is not a copy of every revision.
 | Item | Count |
 | --- | ---: |
 | Imported tables | 25,748 |
-| Validated, ready tables | 19,351 |
-| Quarantined tables | 6,397 |
+| Validated, ready tables | 19,902 |
+| Ready static tables | 19,351 |
+| Ready wiki-runtime tables | 551 |
+| Quarantined tables | 5,846 |
 | Recorded contributor identities | 240 |
 | Source pages | 1,554 |
 | Preserved current entries | 482,281 |
@@ -41,8 +43,13 @@ remain in the upstream repository; this is not a copy of every revision.
 The [manifest](manifest.json) records the source commit, selected contributors,
 table identities, validation issues, aliases, source hashes, and generated-file
 sizes and hashes. Per-page JSON files in [source](source/) preserve source data
-and attribution snapshots. The 1,557 generated artifacts total 258,839,620 bytes
+and attribution snapshots. The 1,557 generated artifacts total 258,878,897 bytes
 (about 259 MB); this documentation is not a generated artifact.
+
+The expanded macro runtime enables 444 more tables than the preceding compact
+`po`/`ucfirst` runtime. All previously ready values and programs, source archives,
+identifiers, contributors, and compatibility aliases are unchanged. The 408
+current wiki tables outside the contributor-based selection remain unimported.
 
 ## Safe Names and Conversion
 
@@ -54,10 +61,11 @@ prototype-key collisions, and aliases that would replace existing definitions.
 Browser registration validates each batch before writing any keys.
 
 Weights must be nonnegative safe integers with a positive table total. Only
-positive-weight entries, supported text and expressions, and exact simple references are
-converted for the unchanged legacy generator. Formatting in executable entries
-is reduced to inert text and escaped for legacy HTML output. Supported expressions
-are compiled into static data; wiki macros and code are never executed at runtime.
+positive-weight entries, validated expressions, and exact simple references are
+converted. Existing simple cases remain static data for the unchanged legacy
+generator. Other validated cases become immutable wiki-only expression programs.
+Formatting is reduced to inert text; source strings are never evaluated as
+JavaScript. Unsupported markup and expression shapes are rejected.
 
 Valid zero-weight rows remain intact in the archive and inspector, including
 their original text, weights, and source references. They have 0% probability
@@ -67,57 +75,82 @@ Invalid weights and extractor parse warnings remain blocking. A table-level
 unresolved-target diagnostic is ignored only when every recorded use of that
 target occurs in a zero-weight row.
 
-One non-nested `{{ucfirst:...}}` expression per selectable row can be compiled.
-It changes only the first character to uppercase and leaves the remainder
-unchanged, following the documented
-[MediaWiki behavior](https://www.mediawiki.org/wiki/Help:Magic_words#Formatting).
-The argument must be a plain-text literal or one exact reference to a validated
-leaf table whose selectable entries contain no further references. The first
-character must be ASCII; empty strings are also supported. Leading or trailing
-whitespace, markup, entities, pipe characters, and unsupported syntax in the
-argument remain blocked. Multiple macros in one row, nested expressions,
-indirect references inside the argument, and non-ASCII first characters remain
-quarantined rather than assuming locale-specific casing behavior.
+### Static Choices
 
-The compiler precomputes capitalized runtime alternatives without changing the
-source table or introducing helper identifiers. Exact integer arithmetic rescales
-weights to preserve both source-row and leaf-choice probabilities, with at most
-4,096 alternatives per table and a safe-integer cumulative weight. Ordinary
-references outside the macro still roll independently. Source rows, original
-weights, and graph relationships remain intact; traces show the precomputed
-selections, not an additional call for the capitalized leaf. This support enables
-101 additional tables: 26 directly and 75 through their dependencies, including
-`Color.huesCap` and `Compass direction.4`.
+Small `ucfirst` and `po` cases retain their exact precomputed alternatives, with
+at most 4,096 alternatives per table and safe-integer cumulative weights. Exact
+rational arithmetic preserves source-row and referenced-choice probabilities.
+Source rows, original weights, graph relationships, and leaf values are intact.
+Static traces show compiled choices rather than an extra call for the expanded
+argument. This path remains first choice to preserve existing behavior.
 
-One `{{po|...}}` expression with one explicit argument per selectable row can
-also be compiled. Its rule comes from `Template:Po`, page 3854, revision 28408
-(2015-07-28), in the locally retained MediaWiki export described in the
-[upstream archive policy](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/README.md#what-stays-out-of-git).
-The template appends a right single quotation mark (U+2019) after terminal `s`
-or `S`; otherwise it appends U+2019 followed by `s`. Existing apostrophes are
-not normalized, and an explicitly empty argument produces U+2019 followed by
-`s`, matching the source rule rather than substituting a grammatical heuristic.
+### Wiki Expressions
 
-Possessive arguments may contain literals and acyclic chains of exact simple
-references. The compiler expands weighted choices with exact rational arithmetic
-before applying the suffix. Repeated references roll independently; zero-weight
-rows remain preserved but unselected. It does not introduce helper identifiers
-or change the classic engine. Optional second arguments, template aliases,
-nested macros, markup, entities, and final arguments with edge whitespace remain
-unsupported. All referenced tables must still pass normal validation.
+The separate browser evaluator supports multiple and nested operations. It keeps
+large validated reference chains compact instead of enumerating their Cartesian
+products. Each reference occurrence rolls independently; a template's argument
+is evaluated at most once per invocation, even when its source template uses the
+parameter repeatedly. Conditional results are lazy, while import preflight
+conservatively validates dependencies in every branch.
 
-Possessive expansion is limited to 4,096 alternatives, safe-integer weights,
-32 levels, 512 table calls, and 32,768 characters. This enables three tables:
-`Artifacts.WaterBegin`, `Pathfinder Artifact.WaterBegin`, and
-`Fantasy Town Feature.religiousplace`. The proposed 62-table gain was conditional
-on supporting the full town and artifact-name roots. Those roots still exceed
-the bounded expansion limit and remain quarantined; their preserved data is
-not simplified or reweighted to bypass that limit.
+| Capability | Supported Names |
+| --- | --- |
+| Grammar and text templates | `Article`, `ia`, `Plural`, `Po`, `Pronoun`, `Concat`, `Comma`, `Numtostring` |
+| Casing | `ucfirst`, `lcfirst`, `uc`, `lc` |
+| Arithmetic | `#expr` |
+| Strings | `#replace`, `#sub`, `#pos`, `#rpos`, `#len` |
+| Conditions | `#if`, `#ifeq`, `#ifexist`, `#switch` |
+| Pipe-array helpers | `Array_norepeat`, `Array_implode`, `Psychon_norepeat` |
+| Plain-text presentation | `link`, `Hover`, `LinkMe`, `Font Color`, `fc`, `DieRoll` |
+| Clock and literals | `CURRENTYEAR`, `!`, `p` |
+
+Names are normalized case-insensitively, with underscores treated as spaces and
+an optional `Template:` prefix. Verified aliases are `ia` to `article`, `fc` to
+`font color`, and `p` to `!`. Named arguments are allowlisted: `title`, `dice`,
+and `text` for DieRoll; `link` and `dotted` for Hover. Numeric parameter slots are
+bounded. Unknown names, dynamic template names, unbound parameters, and malformed
+delimiters are not interpreted.
+
+The [template data](../../JS/wiki-template-data.js) contains nine reviewed
+operational bodies and their archive revision IDs. Their source-specific behavior
+is retained, including Article's `uni` exception, Plural's suffix rules, Po's
+terminal `s`/`S` apostrophe rule and optional override, and Pronoun substitutions.
+No general English inflector replaces these rules. Concat removes a repeated
+boundary character; Array_norepeat follows source prefix-membership behavior,
+not general sampling without replacement. Numtostring retains duplicate source
+cases and their first-match behavior. The archived Psychon_norepeat body matches
+Array_implode. See the [inventory evidence](../../Docs/macro-inventory.md#template-dependencies).
+
+`ucfirst` and `lcfirst` trim their arguments and change only the first character;
+that character must be ASCII or absent. Full-string `uc` and `lc` use Unicode
+casing. String positions and lengths count Unicode code points. Arithmetic uses
+the vendored jsep parser with an allowlisted numeric AST and finite results;
+`div` is ordinary division and chained powers associate left to right. It is a
+bounded floating-point implementation, not a recreation of every historical PHP
+integer-overflow or server-formatting quirk. Calls, member access, assignment,
+arbitrary identifiers, and nonfinite results are rejected.
+
+Presentation helpers deliberately retain visible text, not HTML, styling, links,
+or hover interactions. DieRoll emits its text or dice label (default `1d1`), not
+an interactive button or an immediate dice roll. CURRENTYEAR uses the browser's
+UTC year from one timestamp per roll. `#ifexist` checks registered imported table
+pages only, not all historical, template, or special pages in the archived wiki.
+SGDisplayGreaterTemplate remains quarantined because its source invocation and
+wrapper require repair. These are explicit compatibility boundaries, not claims
+of complete MediaWiki emulation.
+
+### Quarantine and Bounds
 
 Unsupported expressions, missing references, unsafe markup, source warnings,
 invalid weights, cycles, and excessive expansion quarantine a table. Quarantine
-propagates through executable dependencies. Ready tables must fit within a worst-case expansion
-of 32 levels, 512 table calls, and 32,768 characters. Blocked tables remain
+propagates through executable dependencies. Table expansion is limited to 32
+levels, 512 table calls, 4,096 expression operations, and 32,768 output characters.
+Expression parsing is limited to 32 levels, 32 argument slots, and 65,536 program
+nodes per table. Sensitive arithmetic, offset, and casing arguments require
+finite-domain validation within 4,096 combinations and 1 MiB of distinct text.
+Conservative checks can keep a large otherwise plausible expression blocked;
+the importer does not reweight or simplify source data to bypass these limits.
+Runtime guards remain active after import. Blocked tables remain
 searchable with their original entries and validation issues, but generation
 returns an unavailable marker. The explorer disables their roll controls and
 excludes them from random selection.
@@ -136,11 +169,13 @@ previously missing aliases. No existing imported-name collision is permitted.
 | `ship_name` | `Ship Names.Special` |
 | `town_name` | `Fantasy Town Names.Englishy` |
 
-The full ship-name root depends on malformed, recursive source syntax. The full
-town-name root uses an unsupported possessive macro. Both roots and all selected
-contributors' tables are preserved, but the compatibility aliases use the
-validated subtables shown above instead of partially interpreting those roots.
-They do not reproduce the full roots' output distributions.
+The full ship-name root still depends on invalid source data. The full town-name
+root is now ready through the wiki evaluator, but is not a classic-engine table.
+Both roots and all selected contributors' tables remain preserved. Compatibility
+aliases keep the validated subtables shown above and do not reproduce the full
+roots' output distributions. The compatibility bundle is byte-identical to its
+pre-macro-expansion version. Wiki-only tables carry inert classic registry markers
+and cannot be installed as compatibility aliases.
 
 Local reference corrections resolve the other 29 original missing targets,
 including case mismatches and the overwritten Gaelic/Scottish gender lists.
@@ -152,10 +187,15 @@ on them cannot generate.
 
 The compatibility bundle is about 56 KB. Table Atlas additionally loads
 [../../explorer/abulafia-catalog.js](../../explorer/abulafia-catalog.js), about
-15.7 MB of JavaScript containing gzip/base64 data. The browser uses native
+15.8 MB of JavaScript containing gzip/base64 data. The browser uses native
 `DecompressionStream`, `Blob`, and `Response` APIs to decode it, then parses
 JSON. There is no `fetch`, `eval`, network dependency, or server requirement.
 An unsupported browser receives a startup error instead of a partial catalog.
+
+The explorer also loads local template data, the shared evaluator, and the
+10.9 KB jsep 1.4.0 browser build. Its [MIT license](../../explorer/vendor/jsep.LICENSE)
+is bundled alongside it. These scripts load before the catalog; the classic
+pages do not load or require them.
 
 Source snapshots and the 21.5 MB audit manifest are not part of the runtime
 payload. They are opened only when inspected directly. The explorer's graph is

@@ -3,6 +3,7 @@
 
   if (Object.hasOwn(root, 'WikiImport')) throw new Error('Wiki import runtime already exists');
   const executables = new Map();
+  const pages = new Set();
   const api = { metadata: new Map(), labels: Object.create(null), aliases: Object.create(null), summary: null, register, roll, loadCompressed, catalogReady: Promise.resolve() };
 
   function programRows(table) {
@@ -18,6 +19,21 @@
         if (typeof part === 'string' && part.length <= 32768 && !/[{}<>]/.test(part)) return part;
         if (!part || typeof part !== 'object' || Array.isArray(part)) throw new Error(`Invalid wiki expression: ${table.id}`);
         if (Object.keys(part).length === 1 && /^wiki_abulafia_\d+_[a-f0-9]*$/.test(part.ref)) return Object.freeze({ ref: part.ref });
+        if (!inTransform && Object.hasOwn(part, 'args')) {
+          if (!root.WikiExpressions) throw new Error('Extended wiki expressions are not loaded');
+          const copied = root.WikiExpressions.validate([part])[0];
+          function countChildren(parts) {
+            for (const child of parts) {
+              nodes += 1;
+              if (nodes > 65536) throw new Error(`Wiki program exceeds the node limit: ${table.id}`);
+              for (const argument of child.args || []) if (argument) countChildren(argument);
+              for (const argument of Object.values(child.named || {})) countChildren(argument);
+            }
+          }
+          for (const argument of copied.args) if (argument) countChildren(argument);
+          for (const argument of Object.values(copied.named || {})) countChildren(argument);
+          return copied;
+        }
         if (!inTransform && Object.keys(part).length === 2 && ['po', 'ucfirst'].includes(part.op)) {
           return Object.freeze({ op: part.op, parts: copyParts(part.parts, true) });
         }
@@ -116,6 +132,7 @@
     }
     for (const [identifier, description] of descriptions) api.metadata.set(identifier, description);
     for (const [identifier, executable] of execution) executables.set(identifier, executable);
+    for (const table of bundle.tables) if (typeof table.page === 'string') pages.add(table.page.replace(/_/g, ' ').trim());
     Object.assign(api.labels, bundle.labels || {});
     Object.assign(api.aliases, bundle.aliases || {});
     if (bundle.summary) api.summary = bundle.summary;
@@ -124,6 +141,8 @@
   function roll(identifier) {
     const steps = [];
     const active = new Set();
+    const budget = { operations: 0 };
+    const now = new Date();
     let calls = 0;
     function fail(type, table, message) { throw Object.assign(new Error(message), { type, table }); }
     function append(first, second, table) {
@@ -150,6 +169,10 @@
         let value;
         if (typeof part === 'string') value = part;
         else if (part.ref) value = evaluate(part.ref, depth + 1);
+        else if (part.args) value = root.WikiExpressions.evaluate([part], {
+          resolve: reference => evaluate(reference, depth + 1), budget, now,
+          exists: title => pages.has(title.replace(/_/g, ' ').trim())
+        });
         else {
           const argument = expandParts(part.parts, depth, table);
           if (argument.trim() !== argument || !argument.isWellFormed() || /[\u0000-\u001f\u007f{}\[\]<>&|]|%[^%]+%|\$(?:[$&`']|<)/.test(argument)) {
@@ -186,7 +209,9 @@
       }
     }
     try {
-      return { text: evaluate(identifier), steps, warnings: [] };
+      const text = evaluate(identifier).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      if (text.length > 32768) fail('limit', identifier, 'Encoded wiki output exceeds 32768 characters.');
+      return { text, steps, warnings: [] };
     } catch (error) {
       return { text: '', steps, warnings: [{ type: error.type || 'error', id: error.table || identifier, message: error.message }] };
     }
