@@ -17,7 +17,7 @@ The scan covers **26,156 current wiki tables**: 25,748 imported and 408 not impo
 
 Local sources: 38 JavaScript files (36 loaded by the classic home page), 2 JSON files, and 15 text wordlists. Local definitions include shadowed and unloaded data and are not added to the active browser table count.
 
-Wiki state counts: `ready-static`: 19,633; `ready-runtime`: 646; `blocked`: 5,469; `not-imported`: 408.
+Wiki state counts: `ready-static`: 19,643; `ready-runtime`: 648; `blocked`: 5,457; `not-imported`: 408.
 
 Local state counts: `legacy-active`: 1,118; `legacy-shadowed`: 64; `legacy-unloaded`: 16; `legacy-json`: 1,071; `legacy-json-prototype`: 4.
 
@@ -237,15 +237,15 @@ Macro support alone will not clear quarantine. Current manifest diagnostics coun
 
 | Validation Issue | Imported Tables |
 | --- | ---: |
-| `blocked_dependency` | 4,275 |
-| `unsupported_reference` | 973 |
-| `missing_reference` | 798 |
+| `blocked_dependency` | 4,262 |
+| `unsupported_reference` | 970 |
+| `missing_reference` | 795 |
 | `invalid_weight` | 580 |
 | `empty_table` | 549 |
 | `cycle` | 495 |
 | `unsupported_syntax` | 493 |
 | `unsupported_macro_expression` | 363 |
-| `expansion_limit` | 265 |
+| `expansion_limit` | 317 |
 | `unsupported_runtime_expression` | 86 |
 | `unsupported_ucfirst` | 74 |
 | `source_warning` | 46 |

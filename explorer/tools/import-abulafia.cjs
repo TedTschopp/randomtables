@@ -485,6 +485,35 @@ function materializedValues(entries, alternatives, issue) {
   return values;
 }
 
+function reviewedCorrections(configuration, provenance) {
+  const invalid = () => new Error('Reference correction batch does not match the pinned source or reviewed scope');
+  if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository ||
+      configuration.commit !== provenance.commit || (configuration.followUpBatches !== undefined && !Array.isArray(configuration.followUpBatches))) {
+    throw invalid();
+  }
+  const followUps = configuration.followUpBatches || [];
+  if (followUps.length > 65536 || followUps.some(batch => !batch || Object.keys(batch).length !== 2 || !batch.basis || !batch.corrections)) throw invalid();
+  const corrections = [];
+  const seen = new Set();
+  for (const batch of [configuration, ...followUps]) {
+    const records = batch.corrections;
+    const basis = batch.basis;
+    if (!Array.isArray(records) || !records.length || corrections.length + records.length > 65536 ||
+        records.some(correction => !correction || typeof correction.tableId !== 'string' || typeof correction.from !== 'string') ||
+        new Set(records.map(correction => correction.tableId)).size !== basis?.candidateComponents ||
+        new Set(records.map(correction => correction.from)).size !== basis?.missingTargetNames ||
+        !/^[a-f0-9]{64}$/.test(basis?.reportSha256) || !/^[a-f0-9]{64}$/.test(basis?.manifestSha256) ||
+        !Number.isSafeInteger(basis?.conditionalEstimate) || basis.conditionalEstimate < 0) throw invalid();
+    for (const correction of records) {
+      const key = JSON.stringify([correction.tableId, correction.row, correction.raw]);
+      if (seen.has(key)) throw invalid();
+      seen.add(key);
+      corrections.push(correction);
+    }
+  }
+  return corrections;
+}
+
 function correctedRecords(plan, corrections) {
   if (!Array.isArray(corrections) || corrections.length > 65536) throw new Error('Invalid reference correction list');
   if (!corrections.length) return plan.records;
@@ -939,24 +968,19 @@ function main() {
     town_name: 'Fantasy Town Names.Englishy'
   };
   const correctionBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/case-reference-corrections.json'), 'utf8'));
-  if (correctionBatch.schemaVersion !== 1 || correctionBatch.repository !== repository || correctionBatch.commit !== commit ||
-      !Array.isArray(correctionBatch.corrections) || !correctionBatch.corrections.length ||
-      new Set(correctionBatch.corrections.map(correction => correction.tableId)).size !== correctionBatch.basis?.candidateComponents ||
-      new Set(correctionBatch.corrections.map(correction => correction.from)).size !== correctionBatch.basis?.missingTargetNames) {
-    throw new Error('Reference correction batch does not match the pinned source or reviewed scope');
-  }
+  const referenceCorrections = reviewedCorrections(correctionBatch, { repository, commit });
   const plan = planImport(loadCorpus(sourceRoot), seeds);
   const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true,
-    referenceCorrections: correctionBatch.corrections });
+    referenceCorrections });
   const artifacts = buildArtifacts(plan, bundle, { repository, commit }, seeds);
   const manifest = JSON.parse(artifacts.get('tables/abulafia/manifest.json'));
   const written = values.write ? writeArtifacts(repo, artifacts) : 0;
   console.log(JSON.stringify({ mode: values.write ? 'write' : 'dry-run', commit, ...manifest.summary,
-    aliases, referenceCorrections: correctionBatch.corrections.length, correctedTables: correctionBatch.basis.candidateComponents,
+    aliases, referenceCorrections: referenceCorrections.length, correctedTables: new Set(referenceCorrections.map(correction => correction.tableId)).size,
     files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
 }
 
-module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, tableId, writeArtifacts };
+module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, reviewedCorrections, tableId, writeArtifacts };
 
 if (require.main === module) {
   try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

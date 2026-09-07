@@ -5,16 +5,16 @@
     "repository": "https://github.com/TedTschopp/random-generator-com-wiki-dump",
     "commit": "6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0",
     "manifest": "tables/abulafia/manifest.json",
-    "manifestSha256": "5a443dc4e2f6612f367c6e3f9672a5abb13fa76fe76c0ef8fab25f5fb6828965",
+    "manifestSha256": "41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8",
     "runtimeSha256": "0829cbb7af35d2e0655c6c81e26268590b9dafa92e556dbc216bf1352dd9cc05",
-    "compilerSha256": "b30c37bac61b3e4256597751747e56d2a123ad3e920e02b22cf78cb69eddc009",
+    "compilerSha256": "2c4d431c0abdd4b6975242949d1746e9baea705c374ac6524b5b72d848357b23",
     "supportFileHashes": {
       "JS/wiki-expressions.js": "de0e0514b2207b59d80f5b29186c2579303ccbd0748da581e301e5a9dcc5a560",
       "JS/wiki-template-data.js": "602638b8d67276ed3e1f420619ad42dc826cff312d0793eb1ac7c1e323c92567",
       "explorer/tools/compile-wiki-expressions.cjs": "726e5f3ffcdd52c66622507e0399960479c512e7d826509dfcbca7b7f454b54c",
       "explorer/vendor/jsep.iife.min.js": "bdb40509ac42c1fbf8521d4b2cded4e005c8657ac460566d80123175d0896ca2",
       "explorer/tools/macro-requirements.json": "6ace74bd635de8a15053c8bdeac97d812f43d9da932efcaf532144f7948edc56",
-      "explorer/tools/case-reference-corrections.json": "50273212ba36c4b430d266632beb93387e4496f4851c0dec7c25f813cb1ad88b"
+      "explorer/tools/case-reference-corrections.json": "cdd8f0774e724e4ade8b93db15b2df8169442f6003057ae0ffdc28b065c1d780"
     }
   },
   "scope": {
@@ -174,9 +174,9 @@
       "executableMacroTables": 797,
       "parameterOccurrences": 0,
       "byState": {
-        "ready-static": 19633,
-        "ready-runtime": 646,
-        "blocked": 5469,
+        "ready-static": 19643,
+        "ready-runtime": 648,
+        "blocked": 5457,
         "not-imported": 408
       },
       "syntaxProblems": 11
@@ -74169,15 +74169,15 @@
     }
   ],
   "validationIssues": {
-    "blocked_dependency": 4275,
-    "unsupported_reference": 973,
-    "missing_reference": 798,
+    "blocked_dependency": 4262,
+    "unsupported_reference": 970,
+    "missing_reference": 795,
     "invalid_weight": 580,
     "empty_table": 549,
     "cycle": 495,
     "unsupported_syntax": 493,
     "unsupported_macro_expression": 363,
-    "expansion_limit": 265,
+    "expansion_limit": 317,
     "unsupported_runtime_expression": 86,
     "unsupported_ucfirst": 74,
     "source_warning": 46,

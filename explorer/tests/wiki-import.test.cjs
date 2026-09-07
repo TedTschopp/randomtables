@@ -5,7 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { buildArtifacts, compileImport, loadCorpus, originalAttribution, planImport, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
+const { buildArtifacts, compileImport, loadCorpus, originalAttribution, planImport, reviewedCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
 
 function record(pageId, pageTitle, name, contributor, originalContributor, targets = []) {
   return {
@@ -43,6 +43,42 @@ function caseCorrection(source, target, row = 1) {
     referenceCount: entry.references.filter(item => item.raw === reference.raw).length
   };
 }
+
+test('reviewed follow-up batches retain independent scope and source revision guards', () => {
+  const source = record(93, 'Batches', 'main', 'Editor', 'Creator', ['Batches.choices']);
+  const target = record(93, 'Batches', 'Choices', 'Editor', 'Creator');
+  const parent = record(93, 'Batches', 'Parent', 'Editor', 'Creator', ['Batches.Main']);
+  const first = caseCorrection(source, target);
+  const second = caseCorrection(parent, source);
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const basis = { report: 'Docs/quarantine-report.json', reportSha256: 'b'.repeat(64), manifestSha256: 'c'.repeat(64),
+    candidateComponents: 1, missingTargetNames: 1, conditionalEstimate: 1 };
+  const configuration = { schemaVersion: 1, ...provenance, basis, corrections: [first] };
+  assert.deepEqual(reviewedCorrections(configuration, provenance), [first]);
+  configuration.followUpBatches = [{ basis: { ...basis, manifestSha256: 'd'.repeat(64) }, corrections: [second] }];
+  const before = JSON.stringify(configuration);
+  assert.deepEqual(reviewedCorrections(configuration, provenance), [first, second]);
+  const plan = planImport([source, target, parent], ['Batches.main']);
+  const baseline = compileImport(plan, { referenceCorrections: [first] });
+  const bundle = compileImport(plan, { referenceCorrections: reviewedCorrections(configuration, provenance) });
+  assert.ok(bundle.tables.every(table => table.status === 'ready'));
+  for (const table of baseline.tables.filter(table => table.status === 'ready')) {
+    assert.deepEqual(bundle.tables.find(candidate => candidate.id === table.id), table);
+  }
+  assert.equal(JSON.stringify(configuration), before);
+  const invalid = [
+    { ...configuration, schemaVersion: 2 }, { ...configuration, commit: 'e'.repeat(40) },
+    { ...configuration, repository: 'other' }, { ...configuration, followUpBatches: {} },
+    { ...configuration, basis: { ...basis, candidateComponents: 2 } },
+    { ...configuration, followUpBatches: [{ basis: { ...basis, missingTargetNames: 2 }, corrections: [second] }] },
+    { ...configuration, followUpBatches: [{ basis: { ...basis, reportSha256: 'stale' }, corrections: [second] }] },
+    { ...configuration, followUpBatches: [{ basis, corrections: [] }] },
+    { ...configuration, followUpBatches: [{ basis, corrections: [null] }] },
+    { ...configuration, followUpBatches: [{ basis, corrections: [first] }] },
+    { ...configuration, followUpBatches: [{ basis, corrections: [second], followUpBatches: [] }] }
+  ];
+  for (const candidate of invalid) assert.throws(() => reviewedCorrections(candidate, provenance), /correction batch/i);
+});
 
 test('explicit case corrections change only approved selectable references and preserve source evidence', () => {
   const source = record(94, 'Case', 'main', 'Editor', 'Creator', ['Case.choices']);

@@ -11,6 +11,64 @@
     "missingTargetNames": 162,
     "conditionalEstimate": 337
   },
+  "followUpBatches": [
+    {
+      "basis": {
+        "report": "Docs/quarantine-report.json",
+        "reportSha256": "7a6a8de117f45e073d9e9bdd619280c7316853ae21a56a132f3d47416bcd7ad1",
+        "manifestSha256": "5a443dc4e2f6612f367c6e3f9672a5abb13fa76fe76c0ef8fab25f5fb6828965",
+        "checkpoint": "925b812",
+        "policy": "Explicit case-only references to unique already-imported ready targets; source rows, weights, and target identities are hash-bound.",
+        "candidateComponents": 3,
+        "missingTargetNames": 3,
+        "conditionalEstimate": 12
+      },
+      "corrections": [
+        {
+          "tableId": "wiki_abulafia_1611_4e6f756e",
+          "sourceFile": "tables/secret-society-title/subtables/noun/table.json",
+          "sourceHash": "22a85f16106f2bdde2b8e7a815e20787d3ebf8fc9ca074532789d8085e5f1049",
+          "row": 32,
+          "entryHash": "b32fd14a8bbe35ee5a828b699723b6265a2e3deb1c2c9f45255f057f6b94d8ae",
+          "weight": 1,
+          "raw": "[Animal.WeirdSymbol]",
+          "from": "Animal.WeirdSymbol",
+          "to": "Animal.Weirdsymbol",
+          "targetId": "wiki_abulafia_1885_576569726473796d626f6c",
+          "targetSourceHash": "71f1deb14a03e5d777f5279b511be6f62827066413f810fa68cd8085f5149335",
+          "referenceCount": 1
+        },
+        {
+          "tableId": "wiki_abulafia_3394_636f6c6f7273",
+          "sourceFile": "tables/wild-west-personas/subtables/colors/table.json",
+          "sourceHash": "52ef49156306e5dcb0ece8c809c3e66414ef602f7dbfd1a0889bf0f48aa42003",
+          "row": 1,
+          "entryHash": "2127cf43d531fd399ab20a3ca959e617a7ecf9d37b31358a75c487d754515e11",
+          "weight": 4,
+          "raw": "[Simple Colors.scan]",
+          "from": "Simple Colors.scan",
+          "to": "Simple Colors.SCAN",
+          "targetId": "wiki_abulafia_3399_5343414e",
+          "targetSourceHash": "4252e581b4c6c1546a8d8776ae2f52a83c9d735e9ade8e00e9bb520be8a36d64",
+          "referenceCount": 1
+        },
+        {
+          "tableId": "wiki_abulafia_3808_636f6e74616374",
+          "sourceFile": "tables/star-wars-plot-generator/subtables/contact/table.json",
+          "sourceHash": "69af3d24b7b6b5f6ae11a36f20ba7bfce5683210df313bbf61759f8af33a6d04",
+          "row": 3,
+          "entryHash": "d1c852e7277924877ad88c21485591c98c1f5fd98f7065c182faa7ba648041aa",
+          "weight": 1,
+          "raw": "[Star Wars Random NPC.Droidname]",
+          "from": "Star Wars Random NPC.Droidname",
+          "to": "Star Wars Random NPC.DroidName",
+          "targetId": "wiki_abulafia_2151_44726f69644e616d65",
+          "targetSourceHash": "a4edb3287ea7315db5ce41f5fa9aed578151fa8de4c6d497f121d3593664c74f",
+          "referenceCount": 1
+        }
+      ]
+    }
+  ],
   "corrections": [
     {
       "tableId": "wiki_abulafia_1523_6432304143",

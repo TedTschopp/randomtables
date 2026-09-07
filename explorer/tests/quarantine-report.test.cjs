@@ -178,6 +178,19 @@ test('report generation is deterministic, scoped, evidence-linked, and refuses d
   assert.equal(fs.readFileSync(path.join(fixture.root, fixture.archiveFile), 'utf8'), fixture.archive);
 });
 
+test('report marks the case pass complete when no eligible candidates remain', context => {
+  const fixture = reportFixture(context);
+  const report = buildReport(fixture.root);
+  report.caseCorrectionBatch = { rootIds: [], targets: [], conditionalTableIds: [], conditionalRecovery: 0, affectedTables: 0 };
+  const markdown = renderMarkdown(report);
+  assert.match(markdown, /No eligible case-only corrections remain under the current safety rules/);
+  assert.match(markdown, /ranked source-data blockers/);
+  assert.doesNotMatch(markdown, /Review the \*\*case-only reference corrections\*\* first/);
+  assert.doesNotMatch(markdown, /Their combined conditional recovery/);
+  assert.doesNotMatch(markdown, /\| Component \| Missing Target \|/);
+  assert.match(markdown, /new imports or relaxed execution limits/);
+});
+
 test('report rejects stale inventory, changed evidence, and source symlinks before writing', context => {
   const fixture = reportFixture(context);
   const report = buildReport(fixture.root);

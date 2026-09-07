@@ -51,15 +51,15 @@ drawer. Browser Back and Forward restore table, graph scope, and depth.
 The explorer loads the same ordered table-script list as the classic home page,
 including its compatibility bundle, then adds the full Abulafia catalog. This
 snapshot indexes 26,871 tables and 46,573 directed relationships. The wiki import
-contains 25,748 tables: 20,279 ready and 5,469 quarantined. Ready imports comprise
-19,633 static tables and 646 wiki-runtime tables. Unregistered scripts
+contains 25,748 tables: 20,291 ready and 5,457 quarantined. Ready imports comprise
+19,643 static tables and 648 wiki-runtime tables. Unregistered scripts
 and alternate JSON formats elsewhere in the repository are not automatically
 imported.
 
 All 34 previously unresolved classic targets have been repaired through local
 reference corrections or five explicit compatibility aliases. The classic/core
 registry has no unresolved targets. The compiled wiki catalog still contains
-930 unresolved targets, shown as dashed nodes and accessible through the
+928 unresolved targets, shown as dashed nodes and accessible through the
 **unresolved** control. Imports with executable dependencies on them are
 quarantined. These are source-data defects, not missing browser downloads.
 
@@ -151,13 +151,26 @@ This exceeds the report's 337-table conditional estimate because 40 additional
 tables no longer fail dependent macro validation. All previously ready values and
 programs are unchanged. The original archives and row text retain their spelling.
 
+A follow-up batch adds three corrections across three tables, enabling 12 more:
+10 static and two wiki-runtime tables. Combined, the two batches apply 366
+corrections across 199 tables and enable 389 tables. No eligible case-only
+candidates remain under the existing rules. All 20,279 tables ready before the
+follow-up and all 1,554 source archives are unchanged.
+
+Follow-up acceptance covered 456 deterministic rolls over all 152 selectable
+compiled choices, with zero warnings. The optional empty accessory outcome
+retains its original 3-in-11 probability. All 98 unit/integrity tests and 16
+offline browser tests passed, including repaired references and nested traces.
+
 The [correction records](tools/case-reference-corrections.json) bind each change to
 its source file and hash, row text hash, original token, weight, reference count,
 and target ID and hash. The importer rejects stale, ambiguous, out-of-scope,
 nonselectable, or non-case-only changes. No global case folding or alias is added.
 The manifest and catalog retain each applied table's `referenceCorrections` trail.
-The correction file's basis hash identifies the pre-repair report snapshot;
-the published report below reflects the current remaining backlog.
+Each batch retains its own pre-repair report and manifest hashes; the original
+approval remains separate from `followUpBatches`. The importer validates each
+batch's scope and pinned revision and rejects duplicate rules across batches.
+The published report below reflects the current remaining backlog.
 
 The [ranked recovery report](../Docs/quarantine-report.md) separates local defects
 from dependency failures and groups recursive tables into joint repair components.

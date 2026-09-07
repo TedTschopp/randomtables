@@ -4,22 +4,47 @@ const fs = require('node:fs');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
+const { reviewedCorrections } = require('../tools/import-abulafia.cjs');
 
 const repo = path.join(__dirname, '..', '..');
 const read = relative => fs.readFileSync(path.join(repo, relative), 'utf8');
+
+test('eligible follow-up case references use their reviewed ready targets', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const tables = new Map(manifest.tables.map(table => [table.name, table]));
+  for (const name of ['Secret Society Title.Noun', 'Wild West Personas.colors']) {
+    assert.equal(tables.get(name).status, 'ready', name);
+  }
+  assert.equal(tables.get('Star Wars Plot Generator.contact').status, 'blocked');
+  for (const [name, targetName] of [
+    ['Secret Society Title.Noun', 'Animal.Weirdsymbol'],
+    ['Wild West Personas.colors', 'Simple Colors.SCAN'],
+    ['Star Wars Plot Generator.contact', 'Star Wars Random NPC.DroidName']
+  ]) {
+    const source = tables.get(name);
+    const target = tables.get(targetName);
+    assert.equal(target.status, 'ready', targetName);
+    assert.ok(source.dependencies.includes(target.id), name);
+    assert.ok(source.referenceCorrections.some(correction => correction.to === targetName), name);
+  }
+});
 
 test('reviewed case corrections retain exact source bindings and ready target identities in the catalog', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
   const batch = JSON.parse(read('explorer/tools/case-reference-corrections.json'));
   const tables = new Map(manifest.tables.map(table => [table.id, table]));
   const archives = new Map();
-  assert.equal(manifest.summary.ready, 20279);
-  assert.equal(manifest.summary.blocked, 5469);
+  const corrections = reviewedCorrections(batch, manifest);
+  assert.equal(manifest.summary.ready, 20291);
+  assert.equal(manifest.summary.blocked, 5457);
   assert.equal(batch.commit, manifest.commit);
   assert.equal(batch.corrections.length, 363);
   assert.equal(new Set(batch.corrections.map(correction => correction.tableId)).size, 196);
-  assert.equal(manifest.tables.filter(table => table.referenceCorrections).length, 196);
-  for (const correction of batch.corrections) {
+  assert.equal(batch.followUpBatches.length, 1);
+  assert.equal(corrections.length, 366);
+  assert.equal(new Set(corrections.map(correction => correction.tableId)).size, 199);
+  assert.equal(manifest.tables.filter(table => table.referenceCorrections).length, 199);
+  for (const correction of corrections) {
     const source = tables.get(correction.tableId);
     const target = tables.get(correction.targetId);
     assert.equal(source.sourceFile, correction.sourceFile);
@@ -228,7 +253,8 @@ test('real imports preserve the legacy registry, repair its missing targets, and
       start += entry.weight;
     }
   }
-  for (const name of ['Fantasy Names.StartFemNoTitle', 'Animal.Weirdsymbol', 'SGNP 1001 nights.cities', 'Angel generator.main']) {
+  for (const name of ['Fantasy Names.StartFemNoTitle', 'Animal.Weirdsymbol', 'SGNP 1001 nights.cities', 'Angel generator.main',
+    'Secret Society Title.Noun', 'Wild West Personas.colors', 'Fantasy Landmarks.inspiration', 'Artwork.\uD83D\uDCDC' + 'River']) {
     const table = byName.get(name);
     assert.equal(table.status, 'ready', name);
     for (const correction of table.referenceCorrections || []) {
@@ -246,6 +272,18 @@ test('real imports preserve the legacy registry, repair its missing targets, and
       start += entry.weight;
     }
   }
+  const accessory = byName.get('Wild West Personas.accessory');
+  assert.equal(accessory.status, 'ready');
+  assert.equal(accessory.entries[0].rawText, '');
+  assert.equal(accessory.entries[0].weight, 3);
+  assert.equal(accessory.totalWeight, 11);
+  assert.equal(runtime.gen_data[accessory.id]['1-3'], '');
+  let noAccessory = 0;
+  for (let side = 0; side < 11; side += 1) {
+    const text = rollWithSamples(accessory.id, [(side + 0.5) / 11, ...Array(512).fill(0.5)]);
+    if (text === '') noAccessory += 1;
+  }
+  assert.equal(noAccessory, 3, 'Optional empty outcomes must retain their original probability');
   assert.equal(Object.keys(runtime.gen_data).length, original.size + manifest.summary.tables + Object.keys(manifest.aliases).length);
   assert.equal(runtime.generate_text, generate);
   for (const [identifier, value] of original) assert.equal(runtime.gen_data[identifier], value, identifier);

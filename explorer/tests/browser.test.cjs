@@ -389,18 +389,31 @@ test('case-corrected tables preserve archived tokens and resolve offline rolls a
       const direct = tables.find(table => table.name === 'Fantasy Names.StartFemNoTitle');
       const dependent = tables.find(table => table.status === 'ready' && table.execution === 'wiki' &&
         table.dependencies.some(id => WikiImport.metadata.get(id)?.referenceCorrections?.length));
-      return [direct, dependent].map(table => {
+      const followUp = tables.find(table => table.name === 'Wild West Personas.colors');
+      const recoveredRuntime = tables.find(table => table.name === 'Fantasy Landmarks.inspiration');
+      return [direct, dependent, followUp, recoveredRuntime].map(table => {
         const correction = table.referenceCorrections?.[0];
         const row = correction ? correction.row - 1 : table.entries.findIndex(entry => entry.weight > 0 &&
           entry.references.some(id => WikiImport.metadata.get(id)?.referenceCorrections?.length));
         const entry = table.entries[row];
+        let dependencySample;
+        let dependencyTargetId;
+        if (table === recoveredRuntime) {
+          const noun = tables.find(candidate => candidate.name === 'Secret Society Title.Noun');
+          const nested = noun.referenceCorrections[0];
+          const range = Object.entries(gen_data[noun.id]).find(([, value]) => value.includes(`{${nested.targetId}}`))[0];
+          const [start] = key_range(range);
+          dependencySample = (start - 0.5) / scale_table(gen_data[noun.id]);
+          dependencyTargetId = nested.targetId;
+        }
         return { id: table.id, name: table.name, status: table.status, execution: table.execution, row,
-          rawText: entry.rawText, sourceHash: table.sourceHash, correction,
+          rawText: entry.rawText, sourceHash: table.sourceHash, correction, dependencySample, dependencyTargetId,
           displayText: entry.text.replace(/\{(\w+)\}/g, (token, id) => `{${WikiImport.metadata.get(id)?.name || id}}`),
           sample: (table.entries.slice(0, row).reduce((sum, item) => sum + item.weight, 0) + entry.weight / 2) / table.totalWeight };
       });
     });
     assert.equal(targets[1].execution, 'wiki');
+    assert.equal(targets[3].execution, 'wiki');
     for (const target of targets) {
       await page.setViewportSize({ width: 1440, height: 960 });
       await selectTable(page, target.id);
@@ -418,20 +431,15 @@ test('case-corrected tables preserve archived tokens and resolve offline rolls a
       assert.equal(source.sourceHash, target.sourceHash);
       assert.equal(source.table.entries[target.row].text, target.rawText);
       await page.locator('#roll-count').fill('1');
-      await page.evaluate(sample => {
+      await page.evaluate(samples => {
         const originalRandom = Math.random;
-        let first = true;
         try {
-          Math.random = () => {
-            if (!first) return 0.5;
-            first = false;
-            return sample;
-          };
+          Math.random = () => samples.length ? samples.shift() : 0.5;
           document.getElementById('roll-button').click();
         } finally {
           Math.random = originalRandom;
         }
-      }, target.sample);
+      }, [target.sample, ...(target.dependencySample === undefined ? [] : [target.dependencySample])]);
       const output = await page.locator('.roll-result').first().textContent();
       assert.ok(output.trim(), target.name);
       assert.doesNotMatch(output, /\{\{|unavailable|requires Table Atlas/i);
@@ -439,12 +447,15 @@ test('case-corrected tables preserve archived tokens and resolve offline rolls a
       if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
       assert.ok(await page.locator('.trace-step').count() > 1);
       if (target.correction) assert.equal(await page.locator(`.trace-step[data-table-link="${target.correction.targetId}"]`).first().isVisible(), true);
+      if (target.dependencyTargetId) assert.equal(await page.locator(`.trace-step[data-table-link="${target.dependencyTargetId}"]`).first().isVisible(), true);
       if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'desktop-case-corrections.png') });
+      if (target === targets[2]) await page.screenshot({ path: path.join(artifacts, 'desktop-follow-up-corrections.png') });
       for (const width of [320, 390]) {
         await page.setViewportSize({ width, height: 844 });
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
       }
       if (target === targets[0]) await page.screenshot({ path: path.join(artifacts, 'mobile-case-corrections.png'), fullPage: true });
+      if (target === targets[2]) await page.screenshot({ path: path.join(artifacts, 'mobile-follow-up-corrections.png'), fullPage: true });
     }
   });
 });

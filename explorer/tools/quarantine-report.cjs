@@ -408,9 +408,14 @@ function renderMarkdown(report) {
     `The imported catalog contains **${number(report.summary.readyTables)} ready** and **${number(report.summary.blockedTables)} quarantined** tables. This report changes neither source data nor readiness.`, '',
     `The **${number(report.scope.notImportedTables)} current tables that are not imported** remain outside this repair scope. No new contributor or table is imported, and no global alias is proposed.`, '',
     '## Recommendation', '',
-    `Review the **case-only reference corrections** first: ${number(candidateRoots.size)} repair components reference ${number(report.caseCorrectionBatch.targets.length)} distinct misspelled target names, each with exactly one case-only match already imported and ready.`, '',
-    `Their combined conditional recovery is **${number(report.caseCorrectionBatch.conditionalRecovery)} tables**, calculated as a union rather than a sum. Their total reach is ${number(report.caseCorrectionBatch.affectedTables)} blocked tables; other defects still prevent recovery of the remainder.`, '',
-    'These are review candidates, not automatic corrections. Preserve original spelling in the archive and record any approved mapping against its source table, row, and hash.', '',
+    ...(candidateRoots.size ? [
+      `Review the **case-only reference corrections** first: ${number(candidateRoots.size)} repair components reference ${number(report.caseCorrectionBatch.targets.length)} distinct misspelled target names, each with exactly one case-only match already imported and ready.`, '',
+      `Their combined conditional recovery is **${number(report.caseCorrectionBatch.conditionalRecovery)} tables**, calculated as a union rather than a sum. Their total reach is ${number(report.caseCorrectionBatch.affectedTables)} blocked tables; other defects still prevent recovery of the remainder.`, '',
+      'These are review candidates, not automatic corrections. Preserve original spelling in the archive and record any approved mapping against its source table, row, and hash.', ''
+    ] : [
+      'No eligible case-only corrections remain under the current safety rules.', '',
+      'Review the ranked source-data blockers next. Missing targets, malformed rows, and recursion still require separately approved repairs; this report does not authorize new imports or relaxed execution limits.', ''
+    ]),
     '## How Counts Work', '',
     '- A repair component is a table with local diagnostics, or a strongly connected group of tables that must be reviewed together. It can contain more than one defect.',
     '- Reach counts each blocked table once per component, including the component itself. A shared descendant is not counted twice within that component.',
@@ -430,14 +435,16 @@ function renderMarkdown(report) {
     '| ---: | --- | ---: | ---: | ---: | --- | --- |');
   for (const [index, root] of report.roots.slice(0, 20).entries()) lines.push(`| ${index + 1} | ${names(root)} | ${number(root.conditionalRecovery)} | ${number(root.affectedTables)} | ${number(root.downstreamTables)} | ${root.confidence.level} | ${root.effort} |`);
   lines.push('', '## Case-Correction Review Batch', '',
-    'Only components with verified selectable source tokens and no remaining local diagnostic outside missing-reference resolution qualify. Case folding is used to suggest candidates, never to merge or resolve IDs. Zero-weight rows do not qualify.', '',
-    '| Component | Missing Target | Ready Candidate | Individual Conditional Recovery |',
+    'Only components with verified selectable source tokens and no remaining local diagnostic outside missing-reference resolution qualify. Case folding is used to suggest candidates, never to merge or resolve IDs. Zero-weight rows do not qualify.', '');
+  if (candidateRoots.size) lines.push('| Component | Missing Target | Ready Candidate | Individual Conditional Recovery |',
     '| --- | --- | --- | ---: |');
+  else lines.push('The current batch is empty. Case-only candidates that are themselves blocked, ambiguous matches, and absent targets remain excluded.');
   const targets = new Map(report.referenceTargets.map(target => [target.name, target]));
   for (const root of report.roots.filter(record => candidateRoots.has(record.id)).slice(0, 12)) {
     lines.push(`| ${names(root)} | ${root.missingTargets.map(code).join(', ')} | ${root.missingTargets.map(name => code(targets.get(name).matches[0].name)).join(', ')} | ${number(root.conditionalRecovery)} |`);
   }
-  lines.push('', 'The JSON report retains the entire proposed batch, exact referring table IDs, and the deduplicated conditional recovery set. Case-only candidates that are themselves blocked, ambiguous matches, and absent targets are excluded.', '',
+  lines.push('', candidateRoots.size ? 'The JSON report retains the entire proposed batch, exact referring table IDs, and the deduplicated conditional recovery set. Case-only candidates that are themselves blocked, ambiguous matches, and absent targets are excluded.' :
+    'The JSON report records the empty batch and retains the remaining reference classifications and blocker sets.', '',
     '## Source Evidence', '');
   for (const [index, root] of report.roots.slice(0, 10).entries()) {
     lines.push(`### ${index + 1}. ${root.names.slice(0, 2).map(label).join(' + ')}`, '',

@@ -31,10 +31,10 @@ remain in the upstream repository; this is not a copy of every revision.
 | Item | Count |
 | --- | ---: |
 | Imported tables | 25,748 |
-| Validated, ready tables | 20,279 |
-| Ready static tables | 19,633 |
-| Ready wiki-runtime tables | 646 |
-| Quarantined tables | 5,469 |
+| Validated, ready tables | 20,291 |
+| Ready static tables | 19,643 |
+| Ready wiki-runtime tables | 648 |
+| Quarantined tables | 5,457 |
 | Recorded contributor identities | 240 |
 | Source pages | 1,554 |
 | Preserved current entries | 482,281 |
@@ -43,13 +43,13 @@ remain in the upstream repository; this is not a copy of every revision.
 The [manifest](manifest.json) records the source commit, selected contributors,
 table identities, validation issues, aliases, source hashes, and generated-file
 sizes and hashes. Per-page JSON files in [source](source/) preserve source data
-and attribution snapshots. The 1,557 generated artifacts total 259,040,364 bytes
+and attribution snapshots. The 1,557 generated artifacts total 259,048,835 bytes
 (about 259 MB); this documentation is not a generated artifact.
 
 The expanded macro runtime added 444 tables beyond the preceding compact
-`po`/`ucfirst` runtime. The source-bound case repair batch adds another 377:
-282 static and 95 wiki-runtime tables. All previously ready values and programs, source archives,
-identifiers, contributors, and compatibility aliases are unchanged. The 408
+`po`/`ucfirst` runtime. Two source-bound case repair batches add another 389:
+292 static and 97 wiki-runtime tables. All previously ready values and programs,
+source archives, identifiers, contributors, and compatibility aliases are unchanged. The 408
 current wiki tables outside the contributor-based selection remain unimported.
 
 ## Safe Names and Conversion
@@ -79,10 +79,16 @@ an approved correction or all remaining recorded uses have zero weight.
 ### Explicit Reference Corrections
 
 The [reviewed correction file](../../explorer/tools/case-reference-corrections.json)
-contains 363 row-level corrections across 196 tables and 162 misspelled target
+contains 366 row-level corrections across 199 tables and 165 misspelled target
 names. Each target was already imported and ready, with exactly one case-only
 match. No contributor selection, table identity, source archive, or compatibility
 alias changes. Table-name lookup remains exact and case-sensitive.
+
+The original 363-rule approval is retained intact. `followUpBatches` records the
+three-rule follow-up against its own pre-repair report and manifest hashes and
+checkpoint `925b812`. The loader validates each batch's scope, pinned source
+revision, and hash format, and rejects duplicate row/token rules across batches.
+These hashes identify approval snapshots, not the regenerated current report.
 
 Each correction binds the source ID, source file and hash, one-based row, exact
 row-text hash, weight, original reference token and target name, reference count,
@@ -97,12 +103,24 @@ target's namespaced ID. Each affected table records its `referenceCorrections` i
 the manifest and runtime catalog. Remaining unresolved uses still block a table.
 All dependency, expression, cycle, probability, and resource checks run normally.
 
-The pre-repair report estimated 337 recoverable tables. Full compilation enabled
+The first pre-repair report estimated 337 recoverable tables. Full compilation enabled
 377 because 40 additional tables no longer fail dependent macro validation.
 Acceptance covered 8,802 deterministic rolls over all 2,934 selectable compiled
 choices in those 377 tables, with zero warnings, plus offline desktop/mobile and
-classic-page browser checks. The [current recovery report](../../Docs/quarantine-report.md)
-describes the remaining blockers, not the original approval snapshot.
+classic-page browser checks.
+
+The follow-up estimated and enabled 12 additional tables: 10 static and two
+wiki-runtime tables. All 20,279 previously ready tables remain exact. Acceptance
+covered 456 deterministic rolls across all 152 newly selectable compiled choices,
+with zero warnings. Positive-weight empty outcomes remain valid: the optional
+accessory table retains its original 3-in-11 chance of no accessory. The complete
+98-test unit/integrity suite and 16 offline browser tests passed.
+
+The [current recovery report](../../Docs/quarantine-report.md) contains no eligible
+case-only correction candidates. The Star Wars contact reference was corrected,
+but unrelated blocked dependencies still quarantine that caller. Missing sources,
+malformed rows, recursion, and resource limits require separate repair decisions;
+none were bypassed to complete this pass.
 
 ### Static Choices
 
@@ -209,7 +227,7 @@ and cannot be installed as compatibility aliases.
 Local reference corrections resolve the other 29 original missing targets,
 including case mismatches and the overwritten Gaelic/Scottish gender lists.
 The classic/core registry has zero unresolved targets. The compiled wiki
-catalog still has 930 unresolved targets; tables with executable dependencies
+catalog still has 928 unresolved targets; tables with executable dependencies
 on them cannot generate.
 
 ## Browser Packaging

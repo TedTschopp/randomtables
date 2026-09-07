@@ -2,17 +2,15 @@
 
 Snapshot: 2026-09-07. Source revision: `6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0`.
 
-The imported catalog contains **20,279 ready** and **5,469 quarantined** tables. This report changes neither source data nor readiness.
+The imported catalog contains **20,291 ready** and **5,457 quarantined** tables. This report changes neither source data nor readiness.
 
 The **408 current tables that are not imported** remain outside this repair scope. No new contributor or table is imported, and no global alias is proposed.
 
 ## Recommendation
 
-Review the **case-only reference corrections** first: 3 repair components reference 3 distinct misspelled target names, each with exactly one case-only match already imported and ready.
+No eligible case-only corrections remain under the current safety rules.
 
-Their combined conditional recovery is **12 tables**, calculated as a union rather than a sum. Their total reach is 1,082 blocked tables; other defects still prevent recovery of the remainder.
-
-These are review candidates, not automatic corrections. Preserve original spelling in the archive and record any approved mapping against its source table, row, and hash.
+Review the ranked source-data blockers next. Missing targets, malformed rows, and recursion still require separately approved repairs; this report does not authorize new imports or relaxed execution limits.
 
 ## How Counts Work
 
@@ -23,18 +21,18 @@ These are review candidates, not automatic corrections. Preserve original spelli
 - Component reach, diagnostic counts, and family totals overlap and must not be added. The single-family column includes only tables whose recorded blockers all belong exclusively to that family.
 - Confidence describes evidence for a proposed repair, not certainty that the original author intended it. Effort is qualitative and is not a delivery estimate.
 
-The graph has **2,443 repair components**, including **442 cyclic components**. **2,902 tables have only dependency diagnostics**; **3,045 depend on multiple repair components**. Unexplained blocked tables: 0.
+The graph has **2,472 repair components**, including **442 cyclic components**. **2,858 tables have only dependency diagnostics**; **3,004 depend on multiple repair components**. Unexplained blocked tables: 0.
 
 ## Blocker Families
 
 | Family | Locally Implicated Tables | Components | Reach | Single-Family Conditional Recovery |
 | --- | ---: | ---: | ---: | ---: |
-| Missing, ambiguous, or unsupported references | 973 | 939 | 3,627 | 1,097 |
+| Missing, ambiguous, or unsupported references | 970 | 936 | 3,477 | 1,085 |
 | Empty tables, weights, or extraction warnings | 621 | 621 | 1,292 | 770 |
-| Recursive generation | 880 | 551 | 2,949 | 680 |
-| Expressions or malformed source syntax | 493 | 488 | 2,311 | 165 |
+| Recursive generation | 880 | 551 | 2,949 | 685 |
+| Expressions or malformed source syntax | 493 | 488 | 2,311 | 233 |
 | Unsafe source markup | 23 | 23 | 60 | 16 |
-| Expansion or validation limits | 311 | 265 | 681 | 1 |
+| Expansion or validation limits | 365 | 309 | 713 | 1 |
 
 Families classify recorded diagnostics, not verified independent causes. Generic syntax errors can be secondary to missing references or macro argument failures.
 
@@ -45,16 +43,16 @@ Ordered by conditional recovery, then reach. Source links open preserved local a
 | Rank | Component | Conditional Recovery | Reach | Downstream | Confidence | Effort |
 | ---: | --- | ---: | ---: | ---: | --- | --- |
 | 1 | [Utility.Jewels](../tables/abulafia/source/1625.json) | 106 | 881 | 880 | low | small to large |
-| 2 | [Secret Society Title.TitleDescriptor](../tables/abulafia/source/1611.json) | 45 | 1,394 | 1,393 | low | medium to large |
+| 2 | [Secret Society Title.TitleDescriptor](../tables/abulafia/source/1611.json) | 71 | 1,394 | 1,393 | low | medium to large |
 | 3 | [Forgotten Realms Icons.MacGuffin](../tables/abulafia/source/3378.json) + [Forgotten Realms Icons.map of](../tables/abulafia/source/3378.json) | 36 | 39 | 37 | low | large |
 | 4 | [Hoard Class.jewelry](../tables/abulafia/source/4096.json) | 21 | 71 | 70 | low | small to large |
-| 5 | [Traps.Trap](../tables/abulafia/source/2328.json) + [Traps.TrapContents](../tables/abulafia/source/2328.json) | 17 | 49 | 47 | low | large |
-| 6 | [FantasyMenu.VeggiesCookable](../tables/abulafia/source/1537.json) | 16 | 949 | 948 | low | large |
-| 7 | [The Blues Engine.interjection](../tables/abulafia/source/3896.json) | 16 | 30 | 29 | medium | medium |
-| 8 | [ODnD Wilderness Encounter Cruncher.lair35](../tables/abulafia/source/3258.json) | 15 | 15 | 14 | medium | medium |
-| 9 | [Fantasy-CC-Main-Events.DEITIES](../tables/abulafia/source/4746.json) | 14 | 153 | 152 | low | large |
-| 10 | [Metamorphica.creatures](../tables/abulafia/source/4029.json) + [Metamorphica.fantasticcreatures](../tables/abulafia/source/4029.json) (+1 more) | 14 | 15 | 12 | low | large |
-| 11 | [Fish People Names.CoreChance](../tables/abulafia/source/1940.json) + [Fish People Names.Noncapitalized](../tables/abulafia/source/1940.json) | 13 | 666 | 664 | low | large |
+| 5 | [Fish People Names.CoreChance](../tables/abulafia/source/1940.json) + [Fish People Names.Noncapitalized](../tables/abulafia/source/1940.json) | 18 | 666 | 664 | low | large |
+| 6 | [Traps.Trap](../tables/abulafia/source/2328.json) + [Traps.TrapContents](../tables/abulafia/source/2328.json) | 17 | 49 | 47 | low | large |
+| 7 | [FantasyMenu.VeggiesCookable](../tables/abulafia/source/1537.json) | 16 | 949 | 948 | low | large |
+| 8 | [The Blues Engine.interjection](../tables/abulafia/source/3896.json) | 16 | 30 | 29 | medium | medium |
+| 9 | [ODnD Wilderness Encounter Cruncher.lair35](../tables/abulafia/source/3258.json) | 15 | 15 | 14 | medium | medium |
+| 10 | [Fantasy-CC-Main-Events.DEITIES](../tables/abulafia/source/4746.json) | 14 | 153 | 152 | low | large |
+| 11 | [Metamorphica.creatures](../tables/abulafia/source/4029.json) + [Metamorphica.fantasticcreatures](../tables/abulafia/source/4029.json) (+1 more) | 14 | 15 | 12 | low | large |
 | 12 | [Poetic Destinations.Place](../tables/abulafia/source/1571.json) | 13 | 622 | 621 | low | small to large |
 | 13 | [ClothingFemale.Cloth\_Color](../tables/abulafia/source/1517.json) | 13 | 505 | 504 | low | small to large |
 | 14 | [Dungeon Stocker.Animals](../tables/abulafia/source/3669.json) | 13 | 15 | 14 | medium | medium |
@@ -62,20 +60,16 @@ Ordered by conditional recovery, then reach. Source links open preserved local a
 | 16 | [Inn Patrons.SoupType](../tables/abulafia/source/3123.json) | 11 | 11 | 10 | low | small to large |
 | 17 | [Quick Starting Equipment.cloth](../tables/abulafia/source/3068.json) | 10 | 21 | 20 | low | small to large |
 | 18 | [Random Fantasy Entertainer.cloth](../tables/abulafia/source/4666.json) | 10 | 16 | 15 | low | small to large |
-| 19 | [Secret Society Title.Noun](../tables/abulafia/source/1611.json) | 9 | 1,074 | 1,073 | high | small |
+| 19 | [Star Wars Plot Generator.gueststar](../tables/abulafia/source/3808.json) | 9 | 13 | 12 | low | small to large |
 | 20 | [CoatOfArms.Monsters](../tables/abulafia/source/3980.json) | 7 | 301 | 300 | low | small to large |
 
 ## Case-Correction Review Batch
 
 Only components with verified selectable source tokens and no remaining local diagnostic outside missing-reference resolution qualify. Case folding is used to suggest candidates, never to merge or resolve IDs. Zero-weight rows do not qualify.
 
-| Component | Missing Target | Ready Candidate | Individual Conditional Recovery |
-| --- | --- | --- | ---: |
-| [Secret Society Title.Noun](../tables/abulafia/source/1611.json) | `Animal.WeirdSymbol` | `Animal.Weirdsymbol` | 9 |
-| [Wild West Personas.colors](../tables/abulafia/source/3394.json) | `Simple Colors.scan` | `Simple Colors.SCAN` | 3 |
-| [Star Wars Plot Generator.contact](../tables/abulafia/source/3808.json) | `Star Wars Random NPC.Droidname` | `Star Wars Random NPC.DroidName` | 0 |
+The current batch is empty. Case-only candidates that are themselves blocked, ambiguous matches, and absent targets remain excluded.
 
-The JSON report retains the entire proposed batch, exact referring table IDs, and the deduplicated conditional recovery set. Case-only candidates that are themselves blocked, ambiguous matches, and absent targets are excluded.
+The JSON report records the empty batch and retains the remaining reference classifications and blocker sets.
 
 ## Source Evidence
 
@@ -98,7 +92,7 @@ Proposed repair:
 
 ### 2. Secret Society Title.TitleDescriptor
 
-Conditional recovery: **45**. Reach: **1,394**. Confidence: **low**. Effort: medium to large.
+Conditional recovery: **71**. Reach: **1,394**. Confidence: **low**. Effort: medium to large.
 
 Diagnostics: `unsupported_syntax`.
 
@@ -144,7 +138,22 @@ Proposed repair:
 - A case-only candidate is itself blocked. Confirm the mapping and repair that target as well; correcting spelling alone cannot make this table ready.
 - Review exact reference tokens and source history; record explicit table-scoped corrections without adding global aliases or changing identifiers.
 
-### 5. Traps.Trap + Traps.TrapContents
+### 5. Fish People Names.CoreChance + Fish People Names.Noncapitalized
+
+Conditional recovery: **18**. Reach: **666**. Confidence: **low**. Effort: large.
+
+Diagnostics: `cycle`.
+
+- Fish People Names.CoreChance, entry 2, weight 2, [pinned source](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/fish-people-names/subtables/corechance/table.json): `[Noncapitalized]`
+- Fish People Names.CoreChance, entry 1, weight 1, [pinned source](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/fish-people-names/subtables/corechance/table.json): ``
+
+Evidence basis: The cycle is proven, but a terminating semantics-preserving repair has not been established.
+
+Proposed repair:
+
+- Establish terminating, bounded wiki-only recursion semantics with probability tests; do not remove recursive rows or weaken execution limits.
+
+### 6. Traps.Trap + Traps.TrapContents
 
 Conditional recovery: **17**. Reach: **49**. Confidence: **low**. Effort: large.
 
@@ -159,7 +168,7 @@ Proposed repair:
 
 - Establish terminating, bounded wiki-only recursion semantics with probability tests; do not remove recursive rows or weaken execution limits.
 
-### 6. FantasyMenu.VeggiesCookable
+### 7. FantasyMenu.VeggiesCookable
 
 Conditional recovery: **16**. Reach: **949**. Confidence: **low**. Effort: large.
 
@@ -174,7 +183,7 @@ Proposed repair:
 
 - Establish terminating, bounded wiki-only recursion semantics with probability tests; do not remove recursive rows or weaken execution limits.
 
-### 7. The Blues Engine.interjection
+### 8. The Blues Engine.interjection
 
 Conditional recovery: **16**. Reach: **30**. Confidence: **medium**. Effort: medium.
 
@@ -189,7 +198,7 @@ Proposed repair:
 
 - Review archived raw source and extractor warnings; recover verified rows through documented corrections, preserving weights and leaving genuinely empty sources blocked.
 
-### 8. ODnD Wilderness Encounter Cruncher.lair35
+### 9. ODnD Wilderness Encounter Cruncher.lair35
 
 Conditional recovery: **15**. Reach: **15**. Confidence: **medium**. Effort: medium.
 
@@ -205,7 +214,7 @@ Proposed repair:
 
 - Review archived raw source and extractor warnings; recover verified rows through documented corrections, preserving weights and leaving genuinely empty sources blocked.
 
-### 9. Fantasy-CC-Main-Events.DEITIES
+### 10. Fantasy-CC-Main-Events.DEITIES
 
 Conditional recovery: **14**. Reach: **153**. Confidence: **low**. Effort: large.
 
@@ -220,36 +229,21 @@ Proposed repair:
 
 - Establish terminating, bounded wiki-only recursion semantics with probability tests; do not remove recursive rows or weaken execution limits.
 
-### 10. Metamorphica.creatures + Metamorphica.fantasticcreatures
-
-Conditional recovery: **14**. Reach: **15**. Confidence: **low**. Effort: large.
-
-Diagnostics: `cycle`.
-
-- Metamorphica.creatures, entry 6, weight 1, [pinned source](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/metamorphica/subtables/creatures/table.json): `[fantasticcreatures]`
-- Metamorphica.creatures, entry 8, weight 1, [pinned source](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/metamorphica/subtables/creatures/table.json): `[fantasticpeople]`
-
-Evidence basis: The cycle is proven, but a terminating semantics-preserving repair has not been established.
-
-Proposed repair:
-
-- Establish terminating, bounded wiki-only recursion semantics with probability tests; do not remove recursive rows or weaken execution limits.
-
 ## Recorded Diagnostics
 
 Counts are distinct tables per diagnostic code. One source defect can produce several codes; these are not separate recoverable-table counts.
 
 | Diagnostic | Tables |
 | --- | ---: |
-| `blocked_dependency` | 4,275 |
-| `unsupported_reference` | 973 |
-| `missing_reference` | 798 |
+| `blocked_dependency` | 4,262 |
+| `unsupported_reference` | 970 |
+| `missing_reference` | 795 |
 | `invalid_weight` | 580 |
 | `empty_table` | 549 |
 | `cycle` | 495 |
 | `unsupported_syntax` | 493 |
 | `unsupported_macro_expression` | 363 |
-| `expansion_limit` | 265 |
+| `expansion_limit` | 317 |
 | `unsupported_runtime_expression` | 86 |
 | `unsupported_ucfirst` | 74 |
 | `source_warning` | 46 |
@@ -276,6 +270,6 @@ npm --prefix explorer run test:quarantine
 
 Omit `--output` for a read-only summary. Identical reports are left untouched; different existing reports, symbolic links, stale inventory hashes, or changed source evidence are rejected. Use a new existing output directory to review a later snapshot before replacing published reports.
 
-Manifest: [source manifest](../tables/abulafia/manifest.json), SHA-256 `5a443dc4e2f6612f367c6e3f9672a5abb13fa76fe76c0ef8fab25f5fb6828965`.
+Manifest: [source manifest](../tables/abulafia/manifest.json), SHA-256 `41d51505b142920c5a6681ae9a3581ef18b1dee3ff47988261b1f47734765fd8`.
 
-Evidence: 563 inspected source archives. Input hashes, source links, per-table blocker sets, case candidates, and every ranked component are retained in [quarantine-report.json](quarantine-report.json).
+Evidence: 566 inspected source archives. Input hashes, source links, per-table blocker sets, case candidates, and every ranked component are retained in [quarantine-report.json](quarantine-report.json).
