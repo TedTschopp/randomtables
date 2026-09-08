@@ -212,6 +212,212 @@ before replacing published reports. The tool does not rewrite archives, import
 additional contributors, change identifiers, or promote quarantined tables.
 The 408 current but unimported wiki tables remain a separate scope decision.
 
+## Archive.org Checks
+
+The optional [Wayback checker](tools/check-wayback.cjs) looks for archived wiki
+pages associated with missing tables. It reads the matching quarantine report,
+manifest, and hash-verified source snapshots. It does not import, rename, repair,
+or change the readiness of any table. The application remains browser-only and
+offline; this command uses the optional Node development environment below.
+
+From the repository root, preview the plan without network access or writes:
+
+```sh
+node explorer/tools/check-wayback.cjs
+```
+
+Network requests require `--check`. A bounded scan can write its evidence to a
+new directory inside the repository:
+
+```sh
+node explorer/tools/check-wayback.cjs --check --max-requests 20 --output Docs/wayback-new
+```
+
+The default budget is 10 requests. Requests are sequential, at least one second
+apart, with a 10-second timeout and a 64 KiB response limit. HTTP 403, 429, or 503
+stops the run. Errors and timeouts remain incomplete checks, not negative results.
+Only public wiki page URLs are sent to Archive.org, never source rows or author
+records. The checker reads JSON metadata; it does not download or execute pages.
+
+The current plan covers 683 absent target names on 260 distinct source page names.
+Another 174 targets have local case-only candidates, and four malformed references
+need source review. Those groups remain visible but are not queried automatically.
+This is the active wiki quarantine scope, not every graph placeholder or the 408
+unimported tables. Absence from the import does not prove absence from the source.
+
+The [complete source audit](../Docs/wayback-complete-2026-09-07/missing-sources.md)
+lists all 260 source pages and retains 914 distinct availability-query results.
+It found candidate snapshots for 174 pages associated with 462 missing targets.
+Another 86 pages, associated with 221 missing targets, returned no accessible
+snapshot for all eight tested URL forms. No planned pages remain pending, and
+no API errors were recorded. The full evidence also lists the 174 local candidates
+and four malformed references separately.
+
+The [original trial report](../Docs/wayback-2026-09-07/wayback-report.md) is retained;
+the completed audit reuses its five queries without changing its evidence.
+An archived page does **not** confirm the requested subtable is present. A negative
+result across all planned variants is still not proof that the source was lost.
+
+Check the completed audit for remaining work without making network requests:
+
+```sh
+node explorer/tools/check-wayback.cjs --check --max-requests 0 \
+  --resume Docs/wayback-complete-2026-09-07/wayback-report.json
+```
+
+Each output contains `wayback-report.json` and `wayback-report.md`. Use a new output
+directory for each run: different existing files and symlinks are rejected.
+Resume requires the same source, checker, plan, and requested capture date; it
+reuses successful and negative queries and retries errors. Respect a recorded
+`Retry-After` before resuming a rate-limited run. Start without `--resume` to refresh
+old results, or use `--timestamp 20100101` to seek captures near a historical date.
+
+Both protocols, both wiki host spellings, and page/raw-source URL variants are
+checked, stopping at the first valid capture for a page. Page identity must match;
+table names are never folded or merged. Other historical URL layouts and actual
+subtable contents still require review. Any later import must retain the existing
+contributor-wide selection, attribution, probability, and collision safeguards.
+
+Run focused checks with `npm --prefix explorer run test:wayback`. All automated
+tests use mocked API responses; the CLI preview test makes no network requests.
+Exit code 2 means the report includes API errors; exit code 1 means invalid input
+or a refused write. A budget-limited run can exit successfully with work pending.
+
+## Backup Definition Comparison
+
+The [completed comparison](../Docs/backup-comparison-2026-09-07/backup-report.md)
+checks actual subtable definitions, not just archived page availability. It covers
+15 explicitly inventoried history XML snapshots from the three WikiTeam archive
+collections and 982 table files from three pinned converted collections.
+
+Of the 683 exact target identities, 129 have historical definitions already in the
+current XML export, 54 have definitions in additional XML snapshots, and five have
+candidates only in converted copies. Three have definitions without positive-weight
+rows, and 492 were not found in the inspected sources. The 174 local case candidates
+and four malformed references remain separate. No tables were imported or enabled.
+Matching definitions still need historical, dependency, probability, attribution,
+and contributor-wide import review; these are not guaranteed runnable recoveries.
+
+The optional [comparator](tools/compare-backups.cjs) reads the local audit cache and
+rechecks its frozen jobs, tool hashes, source files, and current quarantine inputs.
+It makes no network requests and does not execute downloaded code. From the
+repository root, preview the completed comparison without writes:
+
+```sh
+node explorer/tools/compare-backups.cjs \
+  --audit-root explorer/test-results/backup-comparison-20260907 --date 2026-09-07
+```
+
+Add `--output Docs/backup-comparison-new` to publish guarded JSON and Markdown.
+Identical output is left unchanged; conflicting files, symbolic links, and output
+outside the repository are refused. The report retains source URLs, pinned commits,
+file and definition hashes, exact page identities, and revision summaries without
+republishing table rows. Complete definition text and revision evidence remain in
+the ignored scan cache. The cache is local maintenance data, not an app dependency
+or a checked-in download bundle. A clean clone can read the published report but
+must acquire the recorded sources and rebuild the cache before rerunning the audit.
+
+The [source reader](tools/scan-backups.py) accepts a JSON job on standard input:
+`extractor` supplies a trusted local `file` and `sha256`; `targets` supplies exact
+`name`, `page`, and `subtable` fields; `source` supplies `id`, `kind`, `root`, and
+`files` with relative `name` and `sha256` fields. Source kinds are `baseline`,
+`wiki-export`, and `converted-tables`. Compressed XML files also specify one exact
+`member`. It writes scan JSON to standard output and returns nonzero on a failed
+hash, unsafe path, or parse error. It never imports downloaded repository code.
+
+Scanning requires Python 3, `bsdtar` with 7z support, and the original source
+extractor at the recorded commit and hash. The audit cache contains reproducible
+`*.job.json` inputs under `scans/<scanner-SHA256-prefix>/`; the loader also checks
+the recorded scanner hash, normalized job and target hashes, and file-byte hashes.
+After changing scanner code, rescan every planned source into a new hash-specific
+directory. The reporting command does not download sources or rerun scans.
+
+Run `npm --prefix explorer run test:backups` for focused checks. Python integration
+fixtures use the extractor in the sibling `random-generator-com-wiki-dump`
+checkout and are explicitly skipped when it is absent. Other tests require only
+Node and temporary local files; no automated tests access the network.
+
+## Preserved Archives and Completeness
+
+The [inventory completeness report](../Docs/inventory-completeness-2026-09-07/inventory-report.md)
+extends the targeted comparison to every recognized table declaration in the
+identified sources. All **18 full archives, totaling 149,083,553 bytes**, are
+preserved and checksum-verified under `archive/abulafia-backups/2026-09-07/`.
+They were already downloaded for the earlier comparison; this pass preserved
+those exact bytes outside the disposable test cache instead of downloading them
+again. The [acquisition manifest](../archive/abulafia-backups/2026-09-07/acquisition.json)
+records the original URLs, archive names, source-scoped paths, hashes, and pins.
+
+The full census inspected 388,405 XML revision records across 15 snapshots and
+982 converted table files across three collections. It found **33,098 distinct
+archived wiki table identities**, including **883 absent from baseline history**;
+750 of those additional identities have recognized positive-weight rows. The
+[additional table list](../Docs/inventory-completeness-2026-09-07/new-wiki-tables.md)
+retains their exact names and page IDs. Another 11,297 source-qualified converted
+records are inventoried separately, including 1,222 records needing colon-format
+review. They are not added to the wiki count as unique recovered tables.
+
+No tables were imported, renamed, enabled, or repaired. Whole archives retain
+the other contributor-owned tables available in each export. Any later import
+must still apply the existing contributor-wide selection, attribution,
+dependency, probability, and collision checks. Empty subtable names and
+historical identities are preserved, not silently renamed or merged.
+
+The current corpus remains 26,156 tables: 25,748 imported, 20,332 runnable, and
+5,416 imported but blocked. Complete acquisition of the identified sources does
+not establish a complete backup of the original live wiki. Other archive
+packages, Wayback HTML, suppressed revisions, and unlocated sources remain
+outside this census.
+
+The optional [inventory tool](tools/backup-inventory.cjs) uses Node, local files,
+and the pinned source checkout. It makes no network requests. From the repository
+root, verify archives and census bindings and preview totals without writes:
+
+```sh
+node explorer/tools/backup-inventory.cjs \
+  --archive-root archive/abulafia-backups/2026-09-07 \
+  --source ../random-generator-com-wiki-dump \
+  --comparison Docs/backup-comparison-2026-09-07/backup-report.json \
+  --date 2026-09-07
+```
+
+Add `--output Docs/inventory-completeness-new` to publish the consolidated JSON,
+Markdown report, and additional-table list. Changed inputs, conflicting outputs,
+symlinks, and paths outside the repository are refused. An identical repeat
+writes nothing. `npm --prefix explorer run check:completeness` displays usage;
+when supplying arguments through npm, resolve input paths from `explorer/`.
+
+The [full census reader](tools/census-backups.py) accepts a stored JSON job on
+standard input and emits JSON on standard output. It reuses the trusted source
+extractor and checked local XML reader, never downloaded repository code. XML
+members and selected converted data members are streamed without extracting
+arbitrary archive paths. Semicolon declarations use the original parser;
+colon declarations are inventoried without guessing weight semantics.
+
+To independently rerun one stored census and inspect its summary:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 explorer/tools/census-backups.py \
+  < archive/abulafia-backups/2026-09-07/census/936422142f33/spycraftrandom_generatorcom-20200209.job.json \
+  | node -e 'let input=""; process.stdin.on("data", chunk => input += chunk); process.stdin.on("end", () => console.log(JSON.parse(input).summary));'
+```
+
+Scanning requires Python 3, `bsdtar` with 7z support, and the trusted extractor at
+the recorded commit and hash. All stored jobs are under
+`census/<census-reader-SHA256-prefix>/`; each result is bound to its normalized
+job hash and census-reader hash. The reporting tool verifies those bindings,
+the XML-reader and extractor hashes, archive/member scope, and current import
+evidence. It does not download archives or regenerate census files. A scanner
+change requires a fresh complete census in a new hash-specific directory.
+
+Bulk `downloads/` and detailed `census/` data are ignored local maintenance files;
+the acquisition manifest and consolidated reports can be versioned. Job files
+contain local absolute paths and are not published. A clean clone can read the
+reports but needs the recorded archives, pinned checkout, and regenerated local
+jobs and results to rerun the checks. The browser app needs none of these tools
+or maintenance files. Acquisition and inventory tests run with
+`npm --prefix explorer run test:backups` and are included in the full test suite.
+
 ## Optional Tests
 
 Node is needed only for development checks, never to use the app.

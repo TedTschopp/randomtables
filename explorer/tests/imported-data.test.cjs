@@ -9,6 +9,18 @@ const { reviewedCorrections, reviewedSourceCorrections } = require('../tools/imp
 const repo = path.join(__dirname, '..', '..');
 const read = relative => fs.readFileSync(path.join(repo, relative), 'utf8');
 
+test('the catalog includes the complete pinned current corpus with quarantine preserved', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  assert.equal(manifest.selection, 'all-current');
+  assert.equal(manifest.summary.tables, 26156);
+  assert.equal(manifest.summary.pages, 1592);
+  assert.equal(manifest.summary.contributors, 266);
+  assert.equal(manifest.summary.ready, 20685);
+  assert.equal(manifest.summary.blocked, 5471);
+  assert.equal(manifest.summary.entries, 488130);
+  assert.equal(manifest.tables.filter(table => table.status === 'ready' && table.execution === 'wiki').length, 670);
+});
+
 test('source extraction repairs retain approved raw rows, warnings, and correction evidence', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
   const tables = new Map(manifest.tables.map(table => [table.name, table]));
@@ -72,9 +84,6 @@ test('reviewed case corrections retain exact source bindings and ready target id
   const tables = new Map(manifest.tables.map(table => [table.id, table]));
   const archives = new Map();
   const corrections = reviewedCorrections(batch, manifest);
-  assert.equal(manifest.summary.ready, 20332);
-  assert.equal(manifest.summary.blocked, 5416);
-  assert.equal(manifest.summary.entries, 482283);
   assert.equal(batch.commit, manifest.commit);
   assert.equal(batch.corrections.length, 363);
   assert.equal(new Set(batch.corrections.map(correction => correction.tableId)).size, 196);

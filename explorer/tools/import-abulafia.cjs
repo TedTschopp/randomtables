@@ -25,7 +25,8 @@ function tableId(table) {
   return `wiki_abulafia_${pageId}_${Buffer.from(name, 'utf8').toString('hex')}`;
 }
 
-function planImport(records, seeds) {
+function planImport(records, seeds, { allCurrent = false } = {}) {
+  if (typeof allCurrent !== 'boolean') throw new Error('allCurrent must be an explicit boolean');
   const byName = new Map();
   const byContributor = new Map();
   const namedAccounts = new Map();
@@ -58,7 +59,7 @@ function planImport(records, seeds) {
   for (const seed of seeds) {
     if (!byName.has(seed)) throw new Error(`Wiki seed does not exist: ${seed}`);
   }
-  const pending = [...seeds];
+  const pending = allCurrent ? [...byName.keys()] : [...seeds];
   const selected = new Set();
   const contributors = new Map();
   const missingTargets = new Set();
@@ -85,6 +86,7 @@ function planImport(records, seeds) {
   }
 
   return {
+    ...(allCurrent ? { selection: 'all-current' } : {}),
     records: [...selected].sort().map(name => byName.get(name)),
     contributors: [...contributors.entries()].sort(([first], [second]) => first < second ? -1 : first > second ? 1 : 0)
       .map(([key, contributor]) => ({ key, ...contributor })),
@@ -104,7 +106,8 @@ function originalAttribution(current, history) {
   };
 }
 
-function loadCorpus(sourceRoot) {
+function loadCorpus(sourceRoot, { includeHistorical = false } = {}) {
+  if (typeof includeHistorical !== 'boolean') throw new Error('includeHistorical must be an explicit boolean');
   const root = fs.realpathSync(sourceRoot);
   function readSource(relative) {
     const file = fs.realpathSync(path.join(root, relative));
@@ -132,29 +135,156 @@ function loadCorpus(sourceRoot) {
       const relative = `tables/${folder}/subtables/${child.name}`;
       if (!fs.existsSync(path.join(root, relative, 'table.json'))) continue;
       const current = readSource(`${relative}/table.json`);
-      if (!currentNames.has(current.table.subtable.qualified_name)) continue;
-      found.add(current.table.subtable.qualified_name);
+      const isCurrent = currentNames.has(current.table.subtable.qualified_name);
+      if (!isCurrent && !includeHistorical) continue;
+      if (isCurrent) found.add(current.table.subtable.qualified_name);
       const historyRoot = path.join(root, relative, 'history');
       const history = [];
       for (const revision of fs.existsSync(historyRoot) ? fs.readdirSync(historyRoot).sort() : []) {
         const historicalFile = `${relative}/history/${revision}/table.json`;
         if (!fs.existsSync(path.join(root, historicalFile))) continue;
         const snapshot = readSource(historicalFile);
-        if (snapshot.table.entries.length) {
+        if (!isCurrent || snapshot.table.entries.length) {
           history.push(snapshot);
-          break;
+          if (isCurrent) break;
         }
       }
-      const original = originalAttribution(current, history);
+      let selected = current;
+      if (!isCurrent) {
+        const revisions = new Map();
+        const definitions = [];
+        for (const snapshot of [...history, current]) {
+          const table = snapshot.table;
+          if (tableId(table) !== tableId(current.table) || table.page.title !== current.table.page.title ||
+              table.subtable.qualified_name !== `${table.page.title}.${table.subtable.name}` ||
+              table.subtable.qualified_name !== current.table.subtable.qualified_name) {
+            throw new Error(`Historical table identity changed: ${snapshot.sourceFile}`);
+          }
+          if (table.state === 'deleted' || !table.raw_source?.trim()) continue;
+          if (!/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$/.test(table.source.timestamp) ||
+              !Number.isSafeInteger(table.source.revision_id) || table.source.revision_id <= 0) {
+            throw new Error(`Historical revision identity is invalid: ${snapshot.sourceFile}`);
+          }
+          const key = `${table.source.timestamp}/${table.source.revision_id}`;
+          if (revisions.has(key) && revisions.get(key) !== snapshot.sourceHash) {
+            throw new Error(`Historical revision has conflicting definitions: ${snapshot.sourceFile}`);
+          }
+          revisions.set(key, snapshot.sourceHash);
+          definitions.push(snapshot);
+        }
+        definitions.sort((first, second) => first.table.source.timestamp.localeCompare(second.table.source.timestamp) ||
+          first.table.source.revision_id - second.table.source.revision_id || first.sourceFile.localeCompare(second.sourceFile));
+        selected = definitions.at(-1);
+        if (!selected) continue;
+      }
+      const original = originalAttribution(selected, history);
       records.push({
-        ...current, originalContributor: original.contributor, originalSourceFile: original.sourceFile,
+        ...selected, originalContributor: original.contributor, originalSourceFile: original.sourceFile,
         originalRevision: original.revision, attributionBasis: original.basis,
-        originalSnapshot: history.find(snapshot => snapshot.sourceFile === original.sourceFile) || null
+        originalSnapshot: history.find(snapshot => snapshot.sourceFile === original.sourceFile) || null,
+        ...(!isCurrent ? { historical: { basis: 'latest-retained-definition', absentFromCurrent: current } } : {})
       });
     }
     for (const name of currentNames) if (!found.has(name)) throw new Error(`Current table file is missing: ${name}`);
   }
   return records;
+}
+
+function corpusFingerprint(records) {
+  const identities = records.map(record => [tableId(record.table), record.table.subtable.qualified_name, record.sourceHash])
+    .sort((first, second) => first[0] < second[0] ? -1 : first[0] > second[0] ? 1 : 0);
+  return crypto.createHash('sha256').update(JSON.stringify(identities)).digest('hex');
+}
+
+function loadRecoveryCorpus(repoRoot, configuration, records, provenance) {
+  const root = fs.realpathSync(repoRoot);
+  const hash = /^[a-f0-9]{64}$/;
+  function snapshot(relative, expectedHash) {
+    if (typeof relative !== 'string' || !relative.startsWith('archive/abulafia-recovery/') || relative.includes('\\') ||
+        relative.split('/').some(part => !part || part === '.' || part === '..') || !relative.endsWith('.json')) {
+      throw new Error('Invalid XML recovery source path');
+    }
+    const file = path.join(root, relative);
+    for (let current = file; current !== root; current = path.dirname(current)) {
+      if (fs.lstatSync(current).isSymbolicLink()) throw new Error('XML recovery symbolic links are not permitted');
+    }
+    if (!fs.statSync(file).isFile() || fs.statSync(file).size > 90 * 1024 * 1024) throw new Error('Invalid XML recovery source size');
+    const content = fs.readFileSync(file);
+    if (!hash.test(expectedHash) || crypto.createHash('sha256').update(content).digest('hex') !== expectedHash) {
+      throw new Error(`XML recovery source hash mismatch: ${relative}`);
+    }
+    return { sourceFile: relative, sourceHash: expectedHash, table: JSON.parse(content) };
+  }
+  const input = snapshot(configuration?.file, configuration?.sha256).table;
+  const baselineSha256 = corpusFingerprint(records);
+  if (input.schemaVersion !== 1 || input.repository !== provenance.repository || input.commit !== provenance.commit ||
+      input.baselineSha256 !== baselineSha256 || !Array.isArray(input.records)) {
+    throw new Error('XML recovery baseline or source revision mismatch');
+  }
+  const identifiers = new Set(records.map(record => tableId(record.table)));
+  const names = new Set(records.map(record => record.table.subtable.qualified_name));
+  const restored = [];
+  for (const descriptor of input.records) {
+    const current = snapshot(descriptor.sourceFile, descriptor.sourceHash);
+    const original = descriptor.originalSourceFile === descriptor.sourceFile ? current :
+      snapshot(descriptor.originalSourceFile, descriptor.originalSourceHash);
+    const identifier = tableId(current.table);
+    const name = current.table.subtable.qualified_name;
+    const historical = descriptor.historical;
+    const evidence = historical?.evidence;
+    if (identifiers.has(identifier) || names.has(name)) throw new Error(`XML recovery identity collision: ${name}`);
+    if (name !== `${current.table.page.title}.${current.table.subtable.name}` || identifier !== tableId(original.table) ||
+        original.table.subtable.qualified_name !== name || historical?.basis !== 'verified-xml-definition' ||
+        historical.baselineSha256 !== baselineSha256 || typeof evidence?.sourceId !== 'string' ||
+        !['sourceSha256', 'xmlSha256', 'textSha256', 'rawSha256'].every(key => hash.test(evidence[key])) ||
+        String(current.table.source.revision_id) !== evidence.revisionId || typeof current.table.raw_source !== 'string' ||
+        crypto.createHash('sha256').update(current.table.raw_source).digest('hex') !== evidence.rawSha256) {
+      throw new Error(`Invalid XML recovery identity or revision evidence: ${name}`);
+    }
+    identifiers.add(identifier);
+    names.add(name);
+    restored.push({ ...current, originalContributor: original.table.source.contributor, originalSourceFile: original.sourceFile,
+      originalRevision: original.table.source, originalSnapshot: original === current ? null : original,
+      attributionBasis: original === current ? 'selected-xml-revision-only' : 'earliest-retained-content',
+      historical: structuredClone(historical) });
+  }
+  return [...records, ...restored];
+}
+
+function planHistoricalImport(records, seeds, configuration, provenance) {
+  const hash = /^[a-f0-9]{64}$/;
+  if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository ||
+      configuration.commit !== provenance.commit || !/^[a-f0-9]{40}$/.test(configuration.commit) ||
+      !['manifestSha256', 'comparisonSha256', 'inventorySha256'].every(key => hash.test(configuration.basis?.[key])) ||
+      !Array.isArray(configuration.targets) || !configuration.targets.length) {
+    throw new Error('Invalid historical recovery configuration or source revision');
+  }
+  const byName = new Map(records.map(record => [record.table.subtable.qualified_name, record]));
+  const targets = new Set();
+  for (const target of configuration.targets) {
+    const record = byName.get(target?.name);
+    if (!record?.historical || targets.has(target.name) || target.sourceFile !== record.sourceFile ||
+        !hash.test(target.sourceHash) || target.sourceHash !== record.sourceHash ||
+        !hash.test(target.absentSourceHash) || target.absentSourceHash !==
+          (record.historical.absentFromCurrent?.sourceHash || record.historical.baselineSha256)) {
+      throw new Error(`Stale, duplicate, or nonhistorical recovery target: ${target?.name}`);
+    }
+    targets.add(target.name);
+  }
+  const current = records.filter(record => !record.historical);
+  const plan = planImport(records, [...current.map(record => record.table.subtable.qualified_name), ...seeds, ...targets]);
+  const identifiers = new Set();
+  for (const record of plan.records) {
+    const identifier = tableId(record.table);
+    if (identifiers.has(identifier)) throw new Error(`Historical recovery identity collision: ${identifier}`);
+    identifiers.add(identifier);
+  }
+  return { ...plan, selection: 'all-current-with-history', recovery: {
+    policy: 'Latest retained definitions, exact identities, recursive contributor and dependency closure',
+    configurationSha256: crypto.createHash('sha256').update(JSON.stringify(configuration)).digest('hex'),
+    basis: structuredClone(configuration.basis), targets: [...targets].sort(),
+    currentTables: current.length, historicalTables: plan.records.length - current.length
+  } };
 }
 
 function escapeText(text) {
@@ -681,7 +811,11 @@ function recoveredRecords(plan, corrections) {
 function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [], sourceCorrections = [] } = {}) {
   const occupied = new Set(existingIds);
   const originalByName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
-  const records = correctedRecords({ ...plan, records: recoveredRecords(plan, sourceCorrections) }, referenceCorrections);
+  const recovered = recoveredRecords(plan, sourceCorrections);
+  const correctionScope = plan.recovery ? recovered.filter(record => !record.historical) : recovered;
+  const corrected = new Map(correctedRecords({ ...plan, records: correctionScope }, referenceCorrections)
+    .map(record => [tableId(record.table), record]));
+  const records = recovered.map(record => corrected.get(tableId(record.table)) || record);
   const byName = new Map(records.map(record => [record.table.subtable.qualified_name, record]));
   const identifiers = new Map();
   const labels = Object.create(null);
@@ -753,8 +887,10 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       const referenceIds = [];
       for (const reference of entry.references) {
         const name = reference.target_qualified_name;
-        const target = byName.get(name)?.table;
-        let identifier = identifiers.get(name);
+        const targetRecord = byName.get(name);
+        const preserveInactive = plan.recovery && !record.historical && entry.weight === 0 && targetRecord?.historical;
+        const target = preserveInactive ? undefined : targetRecord?.table;
+        let identifier = preserveInactive ? undefined : identifiers.get(name);
         if (!identifier) {
           const missingName = name || `${source.page.title}.[${reference.token || reference.raw}]`;
           identifier = `wiki_abulafia_missing_${Buffer.from(missingName, 'utf8').toString('hex')}`;
@@ -810,6 +946,14 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       contributor: source.source.contributor, originalContributor: record.originalContributor,
       originalSourceFile: record.originalSourceFile, attributionBasis: record.attributionBasis,
       sourceRevision: source.source.revision_id, originalRevision: record.originalRevision?.revision_id,
+      ...(record.historical ? { historical: {
+        basis: record.historical.basis,
+        ...(record.historical.absentFromCurrent ? {
+          absentSourceFile: record.historical.absentFromCurrent.sourceFile,
+          absentSourceHash: record.historical.absentFromCurrent.sourceHash,
+          absentRevision: record.historical.absentFromCurrent.table.source.revision_id
+        } : { baselineSha256: record.historical.baselineSha256, evidence: record.historical.evidence })
+      } } : {}),
       status: issues.length ? 'blocked' : 'ready', issues, entries, totalWeight,
       ...(record.referenceCorrections ? { referenceCorrections: record.referenceCorrections } : {}),
       ...(record.sourceCorrections ? { sourceCorrections: record.sourceCorrections } : {}),
@@ -951,7 +1095,7 @@ function buildArtifacts(plan, bundle, provenance, seeds = []) {
   const archivePaths = new Map();
   for (const record of plan.records) {
     const pageId = record.table.page.page_id;
-    const archiveFile = `tables/abulafia/source/${pageId}.json`;
+    const archiveFile = `tables/abulafia/source/${record.historical ? 'historical/' : ''}${pageId}.json`;
     archivePaths.set(tableId(record.table), archiveFile);
     if (!archives.has(archiveFile)) archives.set(archiveFile, []);
     archives.get(archiveFile).push({
@@ -959,7 +1103,8 @@ function buildArtifacts(plan, bundle, provenance, seeds = []) {
       original: record.originalSnapshot || null,
       attributionBasis: record.attributionBasis,
       originalContributor: record.originalContributor,
-      originalSourceFile: record.originalSourceFile
+      originalSourceFile: record.originalSourceFile,
+      ...(record.historical ? { historical: record.historical } : {})
     });
   }
   for (const [file, tables] of archives) {
@@ -968,7 +1113,10 @@ function buildArtifacts(plan, bundle, provenance, seeds = []) {
   const summary = {
     tables: bundle.tables.length, ready: bundle.tables.filter(table => table.status === 'ready').length,
     blocked: bundle.tables.filter(table => table.status === 'blocked').length,
-    coreTables: coreIds.size, contributors: plan.contributors.length, pages: archives.size,
+    coreTables: coreIds.size, contributors: plan.contributors.length,
+    pages: new Set(plan.records.map(record => record.table.page.page_id)).size,
+    ...(plan.recovery ? { currentTables: plan.recovery.currentTables, historicalTables: plan.recovery.historicalTables,
+      sourceArchives: archives.size } : {}),
     entries: bundle.tables.reduce((total, table) => total + table.entries.length, 0),
     historicalAttribution: plan.records.filter(record => record.originalSnapshot).length
   };
@@ -988,6 +1136,8 @@ function buildArtifacts(plan, bundle, provenance, seeds = []) {
   const manifest = {
     schemaVersion: 1, importer: 'randomtables-abulafia', ...provenance,
     attributionPolicy: 'Recorded source contributor and earliest retained content contributor, expanded recursively through authors and dependencies',
+    ...(plan.selection ? { selection: plan.selection } : {}),
+    ...(plan.recovery ? { recovery: plan.recovery } : {}),
     seeds, summary, contributors: plan.contributors, aliases: bundle.aliases,
     tables: tables.map(({ entries, values, program, ...metadata }) => metadata), generatedFiles
   };
@@ -1029,7 +1179,8 @@ function writeArtifacts(outputRoot, artifacts) {
 }
 
 function main() {
-  const { values } = parseArgs({ options: { source: { type: 'string' }, write: { type: 'boolean', default: false } } });
+  const { values } = parseArgs({ options: { source: { type: 'string' }, write: { type: 'boolean', default: false },
+    'all-current': { type: 'boolean', default: false } } });
   if (!values.source) throw new Error('Supply --source with the path to a clean wiki-dump checkout');
   const sourceRoot = fs.realpathSync(values.source);
   const repository = 'https://github.com/TedTschopp/random-generator-com-wiki-dump';
@@ -1055,7 +1206,7 @@ function main() {
   const referenceCorrections = reviewedCorrections(correctionBatch, { repository, commit });
   const sourceBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/source-extraction-corrections.json'), 'utf8'));
   const sourceCorrections = reviewedSourceCorrections(sourceBatch, { repository, commit });
-  const plan = planImport(loadCorpus(sourceRoot), seeds);
+  const plan = planImport(loadCorpus(sourceRoot), seeds, { allCurrent: values['all-current'] });
   const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true,
     referenceCorrections, sourceCorrections });
   const artifacts = buildArtifacts(plan, bundle, { repository, commit }, seeds);
@@ -1067,7 +1218,7 @@ function main() {
     files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
 }
 
-module.exports = { buildArtifacts, compileImport, contributorKey, loadCorpus, originalAttribution, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts };
+module.exports = { buildArtifacts, compileImport, contributorKey, corpusFingerprint, loadCorpus, loadRecoveryCorpus, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts };
 
 if (require.main === module) {
   try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

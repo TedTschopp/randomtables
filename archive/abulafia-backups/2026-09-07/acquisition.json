@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "kind": "backup-source-acquisition",
+  "summary": {
+    "files": 18,
+    "verified": 18,
+    "bytes": 149083553
+  },
+  "sources": [
+    {
+      "id": "random_generatorcom-20120618",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20120618/random_generatorcom-20120618-history.xml.7z",
+      "name": "random_generatorcom-20120618-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20120618-history.xml.7z",
+      "sha256": "3d62fe4b7329f9491b813ce2cd3777f252bdb36d650dc27dcd0b096b84cba6af",
+      "sha1": "633f8f53a07a3b56bf956fe1ffbf87942eee78d2",
+      "bytes": 1391456,
+      "xml": {
+        "member": "random_generatorcom-20120618-history.xml",
+        "sha256": "ac7965fa7c806c03abf8e7d28cd97f99ccb793a618ef7aa1c88c059e579fda78",
+        "bytes": 5787764
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "random_generatorcom-20140203",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20140203/random_generatorcom-20140203-history.xml.7z",
+      "name": "random_generatorcom-20140203-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140203-history.xml.7z",
+      "sha256": "af48ecf0d836c1b6957313bbc55641e1c98948922881dda7d5d00bd51d9c1dfd",
+      "sha1": "57b30c16ccb29efb12ede01e755a780982ae7d6b",
+      "bytes": 3106518,
+      "xml": {
+        "member": "random_generatorcom-20140203-history.xml",
+        "sha256": "b2420a98cedd8691932148f11bb6d73ae8a2b3ead14d704179c30c1bf1639fec",
+        "bytes": 122934372
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "random_generatorcom-20140329",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20140329/random_generatorcom-20140329-history.xml.7z",
+      "name": "random_generatorcom-20140329-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140329-history.xml.7z",
+      "sha256": "27b7692f85708f1abdb90441c90c2667b9c3c66911d601ce8e4594004ec9f495",
+      "sha1": "455edb890bd237fe4a2ff85bc1602582a14854bb",
+      "bytes": 3229499,
+      "xml": {
+        "member": "random_generatorcom-20140329-history.xml",
+        "sha256": "41533ad833a80ed9135677382ff89e1aab86dfd4405d8d660398a71422e8f755",
+        "bytes": 129583388
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "random_generatorcom-20140706",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "name": "random_generatorcom-20140706-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "sha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sha1": "9fe3804dfa55bed3adfe591e0f65bb3e18343e1b",
+      "bytes": 3624440,
+      "xml": {
+        "member": "random_generatorcom-20140706-history.xml",
+        "sha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+        "bytes": 158570409
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "random_generatorcom-20180505",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20180505/random_generatorcom-20180505-history.xml.7z",
+      "name": "random_generatorcom-20180505-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20180505-history.xml.7z",
+      "sha256": "d910a4ec0c1f62c5bb2abc9a820dd422f5a37998f4d842fcd04829051c09f5ee",
+      "sha1": "dbd726f18026394fc5022c37e8877b09148a2b97",
+      "bytes": 6214155,
+      "xml": {
+        "member": "random_generatorcom-20180505-history.xml",
+        "sha256": "68344600b200af6555dc8953f03f09def878fe45604a970c45bdbd095892b93e",
+        "bytes": 364554867
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "random_generatorcom-20200225",
+      "kind": "wiki-export",
+      "file": "downloads/random_generatorcom-20200225/random_generatorcom-20200225-history.xml.7z",
+      "name": "random_generatorcom-20200225-history.xml.7z",
+      "url": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20200225-history.xml.7z",
+      "sha256": "9f842fc8408b1d36b1891313be7922917e606f0351a843a48a21b820916cc6fe",
+      "sha1": "7cd742a0e52a4e003e6e395b4f0892eb73223e21",
+      "bytes": 11069034,
+      "xml": {
+        "member": "random_generatorcom-20200225-history.xml",
+        "sha256": "d6d065d292f862b5e55d265ae60d32fce8b5fd72b4622c1bd28fe7b03d2d2446",
+        "bytes": 435088453
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "markanddaveyrandom_generatorcom-20140213",
+      "kind": "wiki-export",
+      "file": "downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "name": "markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "url": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sha1": "fd62e7b7db4b8dd4ed0a56037fbece83fef4c46b",
+      "bytes": 3109157,
+      "xml": {
+        "member": "markanddaveyrandom_generatorcom-20140213-history.xml",
+        "sha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+        "bytes": 123012243
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "markanddaveyrandom_generatorcom-20140325",
+      "kind": "wiki-export",
+      "file": "downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "name": "markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "url": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sha1": "2bca8f6064436a0fed3be24153a720365f16fa2b",
+      "bytes": 3229572,
+      "xml": {
+        "member": "markanddaveyrandom_generatorcom-20140325-history.xml",
+        "sha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+        "bytes": 129582922
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "markanddaveyrandom_generatorcom-20180504",
+      "kind": "wiki-export",
+      "file": "downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "name": "markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "url": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sha1": "f56a7a223c2f67518ad122a4c43dfdba7f3a3c21",
+      "bytes": 6213964,
+      "xml": {
+        "member": "markanddaveyrandom_generatorcom-20180504-history.xml",
+        "sha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+        "bytes": 364554876
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "markanddaveyrandom_generatorcom-20180505",
+      "kind": "wiki-export",
+      "file": "downloads/markanddaveyrandom_generatorcom-20180505/markanddaveyrandom_generatorcom-20180505-history.xml.7z",
+      "name": "markanddaveyrandom_generatorcom-20180505-history.xml.7z",
+      "url": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180505-history.xml.7z",
+      "sha256": "4cdc4ac66b78d55286b2f462890a2536b25ef5cdeda8ebd0f0d0bc05e05f0ffe",
+      "sha1": "8a31365a40f76a9a0ff4607babfc850f04323441",
+      "bytes": 6213951,
+      "xml": {
+        "member": "markanddaveyrandom_generatorcom-20180505-history.xml",
+        "sha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+        "bytes": 364554876
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "markanddaveyrandom_generatorcom-20200212",
+      "kind": "wiki-export",
+      "file": "downloads/markanddaveyrandom_generatorcom-20200212/markanddaveyrandom_generatorcom-20200212-history.xml.7z",
+      "name": "markanddaveyrandom_generatorcom-20200212-history.xml.7z",
+      "url": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20200212-history.xml.7z",
+      "sha256": "b6a174114a204a0fed449a9751bd45829d252a5c35797bc0946267464e699a0c",
+      "sha1": "76fe5a2cd2f57dad9c057135d2e850bc089747da",
+      "bytes": 9512449,
+      "xml": {
+        "member": "markanddaveyrandom_generatorcom-20200212-history.xml",
+        "sha256": "9b9e197d83282f4d4de687b37f43320bbc416f78fee4f477d3e6f08dd55ed579",
+        "bytes": 434608622
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "spycraftrandom_generatorcom-20120414",
+      "kind": "wiki-export",
+      "file": "downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "name": "spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "url": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sha1": "b68ed58a923e795f1f8378e4046e2730b4713e78",
+      "bytes": 2127664,
+      "xml": {
+        "member": "spycraftrandom_generatorcom-20120414-history.xml",
+        "sha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+        "bytes": 80703550
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "spycraftrandom_generatorcom-20140325",
+      "kind": "wiki-export",
+      "file": "downloads/spycraftrandom_generatorcom-20140325/spycraftrandom_generatorcom-20140325-history.xml.7z",
+      "name": "spycraftrandom_generatorcom-20140325-history.xml.7z",
+      "url": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20140325-history.xml.7z",
+      "sha256": "5707980c7d56be7a07226369227524fd4816af749193836ab74980ea5f54baf1",
+      "sha1": "fa40799b9abb8d80ebec213b33cf23adbe94d264",
+      "bytes": 3229631,
+      "xml": {
+        "member": "spycraftrandom_generatorcom-20140325-history.xml",
+        "sha256": "085177eb39d559b50f6836d31b46f8654e4aedc91c9bbf0c4668ce2a08b0bfe9",
+        "bytes": 129582918
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "spycraftrandom_generatorcom-20180505",
+      "kind": "wiki-export",
+      "file": "downloads/spycraftrandom_generatorcom-20180505/spycraftrandom_generatorcom-20180505-history.xml.7z",
+      "name": "spycraftrandom_generatorcom-20180505-history.xml.7z",
+      "url": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20180505-history.xml.7z",
+      "sha256": "f7eb27bb33e2793112ae0c7e48c270f9d2563621e5e9a64f0f6237d3f7d9b182",
+      "sha1": "7ec66f4b533d430160fdede4f8044f3f8dd8ec72",
+      "bytes": 6213411,
+      "xml": {
+        "member": "spycraftrandom_generatorcom-20180505-history.xml",
+        "sha256": "05c445c2edeca65bb215e8f7c67b25336d8c7bc62201183f47ee526f36e78f37",
+        "bytes": 364554872
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "spycraftrandom_generatorcom-20200209",
+      "kind": "baseline",
+      "file": "downloads/spycraftrandom_generatorcom-20200209/spycraftrandom_generatorcom-20200209-history.xml.7z",
+      "name": "spycraftrandom_generatorcom-20200209-history.xml.7z",
+      "url": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20200209-history.xml.7z",
+      "sha256": "68c22ab168e0832d46d7584c776b3c654d008276938bc3f28de4a797e4ada262",
+      "sha1": "92935ac8be14fc8e93e97acd3aecf36a359469fe",
+      "bytes": 9515573,
+      "xml": {
+        "member": "spycraftrandom_generatorcom-20200209-history.xml",
+        "sha256": "0469074d589f473c8078103effddd56a915a5a01c5b63d1ed3c5e32f4261aef9",
+        "bytes": 434672466
+      },
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "scadding-MyUniverse",
+      "kind": "converted-tables",
+      "file": "downloads/scadding-MyUniverse/scadding-MyUniverse-c2aaa5e3d9c04954c57b7e9dbed029c1cd9bf351.tar.gz",
+      "name": "scadding-MyUniverse-c2aaa5e3d9c04954c57b7e9dbed029c1cd9bf351.tar.gz",
+      "url": "https://codeload.github.com/scadding/MyUniverse/tar.gz/c2aaa5e3d9c04954c57b7e9dbed029c1cd9bf351",
+      "sha256": "a761f385fd8f33f4f167ea75af578f7ff2584c3c8ca3b03eaf085223b41a0a43",
+      "sha1": "3709cacd136eb4809e2e35ba876e48b3dcacb41e",
+      "bytes": 37193875,
+      "repository": "https://github.com/scadding/MyUniverse",
+      "revision": "c2aaa5e3d9c04954c57b7e9dbed029c1cd9bf351",
+      "tableFiles": 463,
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "scadding-MyUniverse_V2",
+      "kind": "converted-tables",
+      "file": "downloads/scadding-MyUniverse_V2/scadding-MyUniverse_V2-c3aedf8e925618e197be552eaa5e52b85c8fc71c.tar.gz",
+      "name": "scadding-MyUniverse_V2-c3aedf8e925618e197be552eaa5e52b85c8fc71c.tar.gz",
+      "url": "https://codeload.github.com/scadding/MyUniverse_V2/tar.gz/c3aedf8e925618e197be552eaa5e52b85c8fc71c",
+      "sha256": "83b5f2c7c5c23d27c06533062075bd84b70d2181baa8e95712769c4d3b9e74f0",
+      "sha1": "d9ed6ac422e00938bb9c5355054b257f93751cf7",
+      "bytes": 33857408,
+      "repository": "https://github.com/scadding/MyUniverse_V2",
+      "revision": "c3aedf8e925618e197be552eaa5e52b85c8fc71c",
+      "tableFiles": 512,
+      "selection": "whole-source-archive"
+    },
+    {
+      "id": "ToddAT-ramban",
+      "kind": "converted-tables",
+      "file": "downloads/ToddAT-ramban/ToddAT-ramban-19e7b0b3cf212b38f7dc83ee0f825056b8203118.tar.gz",
+      "name": "ToddAT-ramban-19e7b0b3cf212b38f7dc83ee0f825056b8203118.tar.gz",
+      "url": "https://codeload.github.com/ToddAT/ramban/tar.gz/19e7b0b3cf212b38f7dc83ee0f825056b8203118",
+      "sha256": "2694a9d02275492a96afa434c4d779110e38eb00be4dbfc0596f2a95c8049dd2",
+      "sha1": "1a6e399a93ac8ee8e2baaa72acf711bd67ff0c53",
+      "bytes": 31796,
+      "repository": "https://github.com/ToddAT/ramban",
+      "revision": "19e7b0b3cf212b38f7dc83ee0f825056b8203118",
+      "tableFiles": 7,
+      "selection": "whole-source-archive"
+    }
+  ]
+}

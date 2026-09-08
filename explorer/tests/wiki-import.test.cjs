@@ -5,7 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { buildArtifacts, compileImport, loadCorpus, originalAttribution, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
+const { buildArtifacts, compileImport, corpusFingerprint, loadCorpus, loadRecoveryCorpus, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
 
 function record(pageId, pageTitle, name, contributor, originalContributor, targets = []) {
   return {
@@ -28,6 +28,33 @@ function record(pageId, pageTitle, name, contributor, originalContributor, targe
     }
   };
 }
+
+test('all-current selection includes disconnected contributors without changing seed selection or readiness guards', () => {
+  const selected = record(71, 'Selected', 'main', 'Editor', 'Creator', ['Shared.main']);
+  const shared = record(72, 'Shared', 'main', 'Other editor', 'Other creator');
+  const disconnected = record(73, 'Disconnected', 'main', 'New editor', 'New creator');
+  const companion = record(74, 'Companion', 'main', 'New creator', 'Earlier creator');
+  const unattributed = record(75, 'Unattributed', 'main', null, null);
+  disconnected.table.entries = [];
+  const records = [selected, shared, disconnected, companion, unattributed];
+  const before = JSON.stringify(records);
+  const legacy = planImport(records, ['Selected.main']);
+  assert.deepEqual(legacy.records.map(item => item.table.subtable.qualified_name), ['Selected.main', 'Shared.main']);
+  const complete = planImport(records, ['Selected.main'], { allCurrent: true });
+  assert.equal(complete.records.length, records.length);
+  assert.equal(complete.selection, 'all-current');
+  assert.ok(complete.contributors.some(contributor => contributor.name === 'Earlier creator'));
+  const baseline = compileImport(legacy);
+  const bundle = compileImport(complete);
+  for (const table of baseline.tables) assert.deepEqual(bundle.tables.find(candidate => candidate.id === table.id), table);
+  assert.equal(bundle.tables.find(table => table.name === 'Disconnected.main').status, 'blocked');
+  const artifacts = buildArtifacts(complete, bundle, { repository: 'fixture', commit: 'fixed' }, ['Selected.main']);
+  assert.equal(JSON.parse(artifacts.get('tables/abulafia/manifest.json')).selection, 'all-current');
+  assert.throws(() => planImport([...records, selected], ['Selected.main'], { allCurrent: true }), /duplicate/i);
+  assert.throws(() => planImport(records, ['Missing.main'], { allCurrent: true }), /seed/i);
+  assert.throws(() => planImport(records, ['Selected.main'], { allCurrent: 'yes' }), /allCurrent/i);
+  assert.equal(JSON.stringify(records), before);
+});
 
 function caseCorrection(source, target, row = 1) {
   const digest = value => crypto.createHash('sha256').update(value).digest('hex');
@@ -1078,6 +1105,221 @@ test('corpus loading follows current page manifests and traces original content'
   assert.match(records[0].originalSourceFile, /history\/2006-01-01T00-00-00Z\/table\.json$/);
   assert.match(records[0].sourceHash, /^[a-f0-9]{64}$/);
   assert.deepEqual(records[0].table, current);
+});
+
+test('historical corpus loading preserves latest definitions, deletion evidence, and current membership', context => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'abulafia-history-'));
+  context.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  function writeJson(relative, value) {
+    const file = path.join(root, relative);
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, JSON.stringify(value));
+  }
+  function snapshot(name, year, revision, contributor, state = 'present') {
+    const table = record(1, 'Page', name, contributor, null).table;
+    table.source.timestamp = `${year}-01-01T00:00:00Z`;
+    table.source.revision_id = revision;
+    table.state = state;
+    table.raw_source = `;${name}\n1,${contributor}`;
+    table.entries[0].text = contributor;
+    if (state === 'deleted') {
+      table.entries = [];
+      table.raw_source = '';
+    }
+    return table;
+  }
+  const current = snapshot('main', 2020, 20, 'Current');
+  writeJson('tables/index.json', { pages: [{ folder_name: 'page' }] });
+  writeJson('tables/page/page.json', { subtables: [current.subtable] });
+  writeJson('tables/page/subtables/main/table.json', current);
+  const deleted = snapshot('old', 2010, 10, 'Deleting editor', 'deleted');
+  const original = snapshot('old', 2006, 6, 'Original');
+  const latest = snapshot('old', 2008, 8, 'Last author');
+  latest.table_note = 'Unchanged source evidence';
+  latest.entries[0].weight = 7;
+  latest.raw_source = ';old\n7,Last author';
+  writeJson('tables/page/subtables/old/table.json', deleted);
+  writeJson('tables/page/subtables/old/history/z-first/table.json', original);
+  writeJson('tables/page/subtables/old/history/a-last/table.json', latest);
+  writeJson('tables/page/subtables/old/history/deleted/table.json', deleted);
+  const empty = snapshot('empty', 2009, 9, 'Last author');
+  empty.entries = [];
+  empty.raw_source = ';empty';
+  empty.warnings = ['Source definition has no rows'];
+  writeJson('tables/page/subtables/empty/table.json', snapshot('empty', 2010, 10, 'Deleting editor', 'deleted'));
+  writeJson('tables/page/subtables/empty/history/first/table.json', snapshot('empty', 2006, 6, 'Original'));
+  writeJson('tables/page/subtables/empty/history/last/table.json', empty);
+  writeJson('tables/page/subtables/unknown/table.json', snapshot('unknown', 2010, 10, 'Deleting editor', 'deleted'));
+
+  const baseline = loadCorpus(root);
+  const recovered = loadCorpus(root, { includeHistorical: true });
+  assert.equal(recovered.length, 3);
+  assert.deepEqual(recovered.find(item => item.table.subtable.name === 'main'), baseline[0]);
+  const restored = recovered.find(item => item.table.subtable.name === 'old');
+  assert.deepEqual(restored.table, latest);
+  assert.equal(restored.originalContributor.name, 'Original');
+  assert.match(restored.sourceFile, /history\/a-last\/table\.json$/);
+  assert.equal(restored.sourceHash, crypto.createHash('sha256').update(JSON.stringify(latest)).digest('hex'));
+  assert.deepEqual(restored.historical.absentFromCurrent.table, deleted);
+  assert.equal(restored.historical.basis, 'latest-retained-definition');
+  const plan = planImport(recovered, ['Page.old']);
+  assert.deepEqual(plan.records.map(item => item.table.subtable.name), ['empty', 'old']);
+  const bundle = compileImport(plan);
+  assert.equal(bundle.tables.find(item => item.name === 'Page.empty').status, 'blocked');
+  assert.equal(bundle.tables.find(item => item.name === 'Page.old').totalWeight, 7);
+  assert.deepEqual(loadCorpus(root), baseline);
+  assert.throws(() => loadCorpus(root, { includeHistorical: 'yes' }), /includeHistorical/i);
+  const changedIdentity = structuredClone(latest);
+  changedIdentity.page.page_id = 2;
+  writeJson('tables/page/subtables/old/history/a-last/table.json', changedIdentity);
+  assert.throws(() => loadCorpus(root, { includeHistorical: true }), /historical.*identity/i);
+});
+
+test('historical selection is source-bound, contributor-complete, and stored separately from current archives', () => {
+  const digest = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  const current = record(1, 'Page', 'main', 'Current', 'Current');
+  function historical(pageId, page, name, author) {
+    const restored = record(pageId, page, name, author, author);
+    const deleted = structuredClone(restored);
+    deleted.table.state = 'deleted';
+    deleted.table.entries = [];
+    deleted.sourceHash = digest(deleted.table);
+    restored.sourceFile = `tables/${pageId}/subtables/${name}/history/first/table.json`;
+    restored.sourceHash = digest(restored.table);
+    restored.historical = { basis: 'latest-retained-definition', absentFromCurrent: deleted };
+    return restored;
+  }
+  const lost = historical(1, 'Page', 'lost', 'Historical author');
+  const companion = historical(2, 'Companion', 'main', 'Historical author');
+  const disconnected = historical(3, 'Unrelated', 'main', null);
+  companion.table.entries = [];
+  companion.sourceHash = digest(companion.table);
+  const records = [current, lost, companion, disconnected];
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const configuration = { schemaVersion: 1, ...provenance,
+    basis: { manifestSha256: 'b'.repeat(64), comparisonSha256: 'c'.repeat(64), inventorySha256: 'd'.repeat(64) },
+    targets: [{ name: 'Page.lost', sourceFile: lost.sourceFile, sourceHash: lost.sourceHash,
+      absentSourceHash: lost.historical.absentFromCurrent.sourceHash }] };
+  const before = JSON.stringify({ records, configuration });
+  const baseline = planImport([current], ['Page.main'], { allCurrent: true });
+  const plan = planHistoricalImport(records, ['Page.main'], configuration, provenance);
+  assert.deepEqual(plan.records.map(item => item.table.subtable.qualified_name), ['Companion.main', 'Page.lost', 'Page.main']);
+  assert.equal(plan.selection, 'all-current-with-history');
+  assert.equal(plan.recovery.currentTables, 1);
+  assert.equal(plan.recovery.historicalTables, 2);
+  assert.equal(plan.recovery.configurationSha256, digest(configuration));
+  const compiled = compileImport(plan);
+  assert.equal(compiled.tables.find(item => item.name === 'Companion.main').status, 'blocked');
+  assert.equal(compiled.tables.find(item => item.name === 'Page.lost').historical.basis, 'latest-retained-definition');
+  assert.equal(compiled.tables.find(item => item.name === 'Page.main').historical, undefined);
+  const oldArtifacts = buildArtifacts(baseline, compileImport(baseline), provenance);
+  const artifacts = buildArtifacts(plan, compiled, provenance);
+  assert.equal(artifacts.get('tables/abulafia/source/1.json'), oldArtifacts.get('tables/abulafia/source/1.json'));
+  const archive = JSON.parse(artifacts.get('tables/abulafia/source/historical/1.json'));
+  assert.deepEqual(archive.tables[0].historical, lost.historical);
+  const manifest = JSON.parse(artifacts.get('tables/abulafia/manifest.json'));
+  assert.deepEqual(manifest.recovery, plan.recovery);
+  assert.equal(manifest.summary.currentTables, 1);
+  assert.equal(manifest.summary.historicalTables, 2);
+  assert.equal(manifest.summary.pages, 2);
+  assert.equal(manifest.summary.sourceArchives, 3);
+  for (const change of [{ commit: 'e'.repeat(40) }, { targets: [] }, { targets: [configuration.targets[0], configuration.targets[0]] },
+    { basis: { ...configuration.basis, manifestSha256: 'stale' } }]) {
+    assert.throws(() => planHistoricalImport(records, ['Page.main'], { ...configuration, ...change }, provenance), /historical recovery/i);
+  }
+  for (const change of [{ name: 'Page.main' }, { sourceFile: 'other.json' }, { sourceHash: '0'.repeat(64) }, { absentSourceHash: '0'.repeat(64) }]) {
+    assert.throws(() => planHistoricalImport(records, ['Page.main'], { ...configuration, targets: [{ ...configuration.targets[0], ...change }] }, provenance), /historical recovery/i);
+  }
+  const collision = historical(1, 'Other page', 'main', 'Historical author');
+  assert.throws(() => planHistoricalImport([...records, collision], ['Page.main'], configuration, provenance), /collision/i);
+  assert.equal(JSON.stringify({ records, configuration }), before);
+});
+
+test('historical additions cannot retarget reviewed current-corpus case corrections', () => {
+  const source = record(1, 'Page', 'main', 'Editor', 'Creator', ['Page.OLD']);
+  const target = record(1, 'Page', 'old', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  const baseline = compileImport(planImport([source, target], ['Page.main']), { referenceCorrections: [correction] });
+  const restored = record(1, 'Page', 'OLD', 'Editor', 'Creator');
+  restored.historical = { basis: 'latest-retained-definition', absentFromCurrent: structuredClone(restored) };
+  const plan = planImport([source, target, restored], ['Page.main']);
+  assert.throws(() => compileImport(plan, { referenceCorrections: [correction] }), /unique case-only target/);
+  const recovered = compileImport({ ...plan, recovery: { currentTables: 2, historicalTables: 1 } }, { referenceCorrections: [correction] });
+  for (const table of baseline.tables) assert.deepEqual(recovered.tables.find(candidate => candidate.id === table.id), table);
+  assert.equal(recovered.tables.find(table => table.name === 'Page.OLD').status, 'ready');
+  const changed = structuredClone(target);
+  changed.sourceHash = '0'.repeat(64);
+  const stale = { ...plan, recovery: {}, records: [source, changed, restored] };
+  assert.throws(() => compileImport(stale, { referenceCorrections: [correction] }), /stale reference correction target/i);
+});
+
+test('historical recovery leaves current zero-weight reference evidence unchanged', () => {
+  const current = record(1, 'Page', 'main', 'Editor', 'Creator');
+  const inactive = record(1, 'Page', 'inactive', 'Editor', 'Creator', ['Page.old']).table.entries[0];
+  inactive.weight = 0;
+  current.table.entries.push(inactive);
+  const baseline = compileImport(planImport([current], ['Page.main']));
+  const historical = record(1, 'Page', 'old', 'Editor', 'Creator');
+  historical.historical = { basis: 'latest-retained-definition', absentFromCurrent: structuredClone(historical) };
+  const active = record(2, 'Active', 'main', 'Editor', 'Creator', ['Page.old']);
+  const plan = { ...planImport([current, historical, active], ['Page.main']), recovery: {} };
+  const recovered = compileImport(plan);
+  assert.deepEqual(recovered.tables.find(table => table.name === 'Page.main'), baseline.tables[0]);
+  assert.equal(recovered.tables.find(table => table.name === 'Active.main').status, 'ready');
+  assert.deepEqual(recovered.tables.find(table => table.name === 'Active.main').dependencies, [tableId(historical.table)]);
+});
+
+test('XML recovery loading verifies materialized source snapshots, attribution, baseline identity, and paths', context => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'abulafia-xml-recovery-'));
+  context.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const digest = content => crypto.createHash('sha256').update(content).digest('hex');
+  function save(relative, value) {
+    const content = JSON.stringify(value) + '\n';
+    const file = path.join(root, relative);
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, content);
+    return { file: relative, sha256: digest(content) };
+  }
+  const baseline = [record(1, 'Current', 'main', 'Editor', 'Creator')];
+  baseline[0].sourceHash = digest(JSON.stringify(baseline[0].table));
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const latest = record(2, 'Lost', 'main', 'Last author', null).table;
+  latest.source.revision_id = 20;
+  latest.source.timestamp = '2014-01-01T00:00:00Z';
+  latest.raw_source = ';main\n1,Result';
+  const original = structuredClone(latest);
+  original.source.contributor = { name: 'First author', id: 10 };
+  original.source.revision_id = 10;
+  const latestFile = save('archive/abulafia-recovery/fixture/2/6d61696e/20.json', latest);
+  const originalFile = save('archive/abulafia-recovery/fixture/2/6d61696e/10.json', original);
+  const evidence = { sourceId: 'xml-fixture', sourceFile: 'history.xml', sourceSha256: 'b'.repeat(64),
+    xmlSha256: 'c'.repeat(64), textSha256: 'd'.repeat(64), rawSha256: digest(latest.raw_source), revisionId: '20' };
+  const input = { schemaVersion: 1, ...provenance, baselineSha256: corpusFingerprint(baseline),
+    records: [{ sourceFile: latestFile.file, sourceHash: latestFile.sha256,
+      originalSourceFile: originalFile.file, originalSourceHash: originalFile.sha256,
+      historical: { basis: 'verified-xml-definition', baselineSha256: corpusFingerprint(baseline), evidence } }] };
+  const indexFile = 'archive/abulafia-recovery/fixture/manifest.json';
+  const configuration = save(indexFile, input);
+  const recovered = loadRecoveryCorpus(root, configuration, baseline, provenance);
+  assert.equal(recovered.length, 2);
+  assert.deepEqual(recovered[0], baseline[0]);
+  assert.deepEqual(recovered[1].table, latest);
+  assert.deepEqual(recovered[1].originalSnapshot.table, original);
+  assert.equal(recovered[1].originalContributor.name, 'First author');
+  assert.deepEqual(recovered[1].historical.evidence, evidence);
+  assert.throws(() => loadRecoveryCorpus(root, { ...configuration, sha256: '0'.repeat(64) }, baseline, provenance), /recovery.*hash/i);
+  assert.throws(() => loadRecoveryCorpus(root, { ...configuration, file: '../outside.json' }, baseline, provenance), /recovery.*path/i);
+  for (const change of [{ baselineSha256: '0'.repeat(64) }, { commit: 'f'.repeat(40) },
+    { records: [...input.records, input.records[0]] },
+    { records: [{ ...input.records[0], sourceHash: '0'.repeat(64) }] },
+    { records: [{ ...input.records[0], sourceFile: '../outside.json' }] }]) {
+    const changed = save(indexFile, { ...input, ...change });
+    assert.throws(() => loadRecoveryCorpus(root, changed, baseline, provenance), /recovery|collision/i);
+  }
+  save(indexFile, input);
+  fs.unlinkSync(path.join(root, latestFile.file));
+  fs.symlinkSync(path.join(root, originalFile.file), path.join(root, latestFile.file));
+  assert.throws(() => loadRecoveryCorpus(root, configuration, baseline, provenance), /recovery.*symbolic/i);
 });
 
 test('legacy name-only attribution joins an unambiguous registered contributor', () => {
