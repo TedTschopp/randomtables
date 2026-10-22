@@ -1,0 +1,863 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "dcea816dc1e6f3485d9d042cd933179ebfa2e1731482ffab5f30f8189cceb6bc",
+      "revisionId": "17133",
+      "line": 267,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "individual-role-plural",
+    "qualified_name": "Planar Codex Parish.individual-role-plural",
+    "table_block_index": 0,
+    "line_number": 267
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "seers",
+      "raw_text": "1,seers",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "alchemists",
+      "raw_text": "1,alchemists",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "librarians",
+      "raw_text": "1,librarians",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "sages",
+      "raw_text": "1,sages",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "gigolos",
+      "raw_text": "1,gigolos",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "men-at-arms",
+      "raw_text": "1,men-at-arms",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "assassins",
+      "raw_text": "1,assassins",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "bards",
+      "raw_text": "1,bards",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "hunters",
+      "raw_text": "1,hunters",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "sherpas",
+      "raw_text": "1,sherpas",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "spies",
+      "raw_text": "1,spies",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "beastmasters",
+      "raw_text": "1,beastmasters",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "homunculi",
+      "raw_text": "1,homunculi",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "warlocks",
+      "raw_text": "1,warlocks",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "engineers",
+      "raw_text": "1,engineers",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "architects",
+      "raw_text": "1,architects",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "poets",
+      "raw_text": "1,poets",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "jesters",
+      "raw_text": "1,jesters",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "mercenaries",
+      "raw_text": "1,mercenaries",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "bookkeepers",
+      "raw_text": "1,bookkeepers",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "inventors",
+      "raw_text": "1,inventors",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "astrologers",
+      "raw_text": "1,astrologers",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "scientists",
+      "raw_text": "1,scientists",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "socialites",
+      "raw_text": "1,socialites",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "courtesans",
+      "raw_text": "1,courtesans",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "eunuchs",
+      "raw_text": "1,eunuchs",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "translators",
+      "raw_text": "1,translators",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "bodyguards",
+      "raw_text": "1,bodyguards",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "cooks",
+      "raw_text": "1,cooks",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "taxidermists",
+      "raw_text": "1,taxidermists",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "collectors",
+      "raw_text": "1,collectors",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "diplomats",
+      "raw_text": "1,diplomats",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "councillors",
+      "raw_text": "1,councillors",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "midwifes",
+      "raw_text": "1,midwifes",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "stonemasons",
+      "raw_text": "1,stonemasons",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "surgeons",
+      "raw_text": "1,surgeons",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "gunners",
+      "raw_text": "1,gunners",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "navigators",
+      "raw_text": "1,navigators",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "duellists",
+      "raw_text": "1,duellists",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "apothecaries",
+      "raw_text": "1,apothecaries",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "fireworks makers",
+      "raw_text": "1,fireworks makers",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "bailiffs",
+      "raw_text": "1,bailiffs",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "burglars",
+      "raw_text": "1,burglars",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "confidence men",
+      "raw_text": "1,confidence men",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "grifters",
+      "raw_text": "1,grifters",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "dilletantes",
+      "raw_text": "1,dilletantes",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "ferrymen",
+      "raw_text": "1,ferrymen",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "fences",
+      "raw_text": "1,fences",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "gamblers",
+      "raw_text": "1,gamblers",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "monster hunters",
+      "raw_text": "1,monster hunters",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "pilgrims",
+      "raw_text": "1,pilgrims",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "highwaymen",
+      "raw_text": "1,highwaymen",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "innkeepers",
+      "raw_text": "1,innkeepers",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "knights",
+      "raw_text": "1,knights",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "lamplighters",
+      "raw_text": "1,lamplighters",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "attorneys",
+      "raw_text": "1,attorneys",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "flagelants",
+      "raw_text": "1,flagelants",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "bishops",
+      "raw_text": "1,bishops",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "hermits",
+      "raw_text": "1,hermits",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "patriarchs",
+      "raw_text": "1,patriarchs",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "matriarchs",
+      "raw_text": "1,matriarchs",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "orphans",
+      "raw_text": "1,orphans",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "scouts",
+      "raw_text": "1,scouts",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "servants",
+      "raw_text": "1,servants",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "slaves",
+      "raw_text": "1,slaves",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "slavers",
+      "raw_text": "1,slavers",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "brewers",
+      "raw_text": "1,brewers",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "stevedores",
+      "raw_text": "1,stevedores",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "spies",
+      "raw_text": "1,spies",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "agents",
+      "raw_text": "1,agents",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "stewards",
+      "raw_text": "1,stewards",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "chatelaines",
+      "raw_text": "1,chatelaines",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "headmasters",
+      "raw_text": "1,headmasters",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "prefects",
+      "raw_text": "1,prefects",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "students",
+      "raw_text": "1,students",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "toll collectors",
+      "raw_text": "1,toll collectors",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "tax collectors",
+      "raw_text": "1,tax collectors",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "bakers",
+      "raw_text": "1,bakers",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "vagabonds",
+      "raw_text": "1,vagabonds",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "valets",
+      "raw_text": "1,valets",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "butlers",
+      "raw_text": "1,butlers",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "torturers",
+      "raw_text": "1,torturers",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "armorers",
+      "raw_text": "1,armorers",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "barbers",
+      "raw_text": "1,barbers",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "beekeepers",
+      "raw_text": "1,beekeepers",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "butchers",
+      "raw_text": "1,butchers",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "cobblers",
+      "raw_text": "1,cobblers",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "coopers",
+      "raw_text": "1,coopers",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "merchants",
+      "raw_text": "1,merchants",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "glassblowers",
+      "raw_text": "1,glassblowers",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "haulers",
+      "raw_text": "1,haulers",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "mariners",
+      "raw_text": "1,mariners",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "tailors",
+      "raw_text": "1,tailors",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "haberdashers",
+      "raw_text": "1,haberdashers",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "moneylenders",
+      "raw_text": "1,moneylenders",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "vagrants",
+      "raw_text": "1,vagrants",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "healers",
+      "raw_text": "1,healers",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "herbalists",
+      "raw_text": "1,herbalists",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "jewelers",
+      "raw_text": "1,jewelers",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "locksmiths",
+      "raw_text": "1,locksmiths",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "mendicants",
+      "raw_text": "1,mendicants",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "minstrels",
+      "raw_text": "1,minstrels",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "ostlers",
+      "raw_text": "1,ostlers",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "urchins",
+      "raw_text": "1,urchins",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "smugglers",
+      "raw_text": "1,smugglers",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "couriers",
+      "raw_text": "1,couriers",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "shamans",
+      "raw_text": "1,shamans",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "revolutionarys",
+      "raw_text": "1,revolutionarys",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "activists",
+      "raw_text": "1,activists",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "scavengers",
+      "raw_text": "1,scavengers",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "hierophants",
+      "raw_text": "1,hierophants",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "hermits",
+      "raw_text": "1,hermits",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "jailers",
+      "raw_text": "1,jailers",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "executioners",
+      "raw_text": "1,executioners",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 20,
+      "text": "road wardens",
+      "raw_text": "20,road wardens",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "cultists",
+      "raw_text": "1,cultists",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";individual-role-plural\n1,seers\n1,alchemists\n1,librarians\n1,sages\n1,gigolos\n1,men-at-arms\n1,assassins\n1,bards\n1,hunters\n1,sherpas\n1,spies\n1,beastmasters\n1,homunculi\n1,warlocks\n1,engineers\n1,architects\n1,poets\n1,jesters\n1,mercenaries\n1,bookkeepers\n1,inventors\n1,astrologers\n1,scientists\n1,socialites\n1,courtesans\n1,eunuchs\n1,translators\n1,bodyguards\n1,cooks\n1,taxidermists\n1,collectors\n1,diplomats\n1,councillors\n1,midwifes\n1,stonemasons\n1,surgeons\n1,gunners\n1,navigators\n1,duellists\n1,apothecaries\n1,fireworks makers\n1,bailiffs\n1,burglars\n1,confidence men\n1,grifters\n1,dilletantes\n1,ferrymen\n1,fences\n1,gamblers\n1,monster hunters\n1,pilgrims\n1,highwaymen\n1,innkeepers\n1,knights\n1,lamplighters\n1,attorneys\n1,flagelants\n1,bishops\n1,hermits\n1,patriarchs\n1,matriarchs\n1,orphans\n1,scouts\n1,servants\n1,slaves\n1,slavers\n1,brewers\n1,stevedores\n1,spies\n1,agents\n1,stewards\n1,chatelaines\n1,headmasters\n1,prefects\n1,students\n1,toll collectors\n1,tax collectors\n1,bakers\n1,vagabonds\n1,valets\n1,butlers\n1,torturers\n1,armorers\n1,barbers\n1,beekeepers\n1,butchers\n1,cobblers\n1,coopers\n1,merchants\n1,glassblowers\n1,haulers\n1,mariners\n1,tailors\n1,haberdashers\n1,moneylenders\n1,vagrants\n1,healers\n1,herbalists\n1,jewelers\n1,locksmiths\n1,mendicants\n1,minstrels\n1,ostlers\n1,urchins\n1,smugglers\n1,couriers\n1,shamans\n1,revolutionarys\n1,activists\n1,scavengers\n1,hierophants\n1,hermits\n1,jailers\n1,executioners\n20,road wardens\n1,cultists",
+  "warnings": []
+}

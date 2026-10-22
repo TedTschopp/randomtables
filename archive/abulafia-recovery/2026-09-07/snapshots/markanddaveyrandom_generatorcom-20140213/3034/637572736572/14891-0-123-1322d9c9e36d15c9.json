@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14891,
+    "timestamp": "2012-06-27T14:32:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c1135388a3bcd7a1af880117b5849d329da20adc30f07605d2cfecfb3e29765d",
+      "rawSha256": "1322d9c9e36d15c9146e3b7044eb20db1b619d1d668f48fdea9d7ff6b50f0d93",
+      "revisionId": "14891",
+      "line": 123,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "curser",
+    "qualified_name": "Village.curser",
+    "table_block_index": 0,
+    "line_number": 123
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "witch",
+      "raw_text": "1,witch",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "ghosts",
+      "raw_text": "1,ghosts",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "wizard",
+      "raw_text": "1,wizard",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";curser\n1,witch\n1,ghosts\n1,wizard",
+  "warnings": []
+}

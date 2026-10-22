@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "2c2bd986c093b85c0dfac5b30647d5ed83b67d44995624a53d7148025604c67c",
+      "revisionId": "10367",
+      "line": 308,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidConsumable",
+    "qualified_name": "Pickpocket.MidConsumable",
+    "table_block_index": 0,
+    "line_number": 308
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[MidEdible]",
+      "raw_text": "5,[MidEdible]",
+      "references": [
+        {
+          "raw": "[MidEdible]",
+          "token": "MidEdible",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidEdible",
+          "target_qualified_name": "Pickpocket.MidEdible"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[MidDrinkable]",
+      "raw_text": "5,[MidDrinkable]",
+      "references": [
+        {
+          "raw": "[MidDrinkable]",
+          "token": "MidDrinkable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidDrinkable",
+          "target_qualified_name": "Pickpocket.MidDrinkable"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[MidRecreational]",
+      "raw_text": "2,[MidRecreational]",
+      "references": [
+        {
+          "raw": "[MidRecreational]",
+          "token": "MidRecreational",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidRecreational",
+          "target_qualified_name": "Pickpocket.MidRecreational"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[MidSeasoning]",
+      "raw_text": "1,[MidSeasoning]",
+      "references": [
+        {
+          "raw": "[MidSeasoning]",
+          "token": "MidSeasoning",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidSeasoning",
+          "target_qualified_name": "Pickpocket.MidSeasoning"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "MidDrinkable",
+      "MidEdible",
+      "MidRecreational",
+      "MidSeasoning"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MidConsumable\n5,[MidEdible]\n5,[MidDrinkable]\n2,[MidRecreational]\n1,[MidSeasoning]",
+  "warnings": []
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 14076,
+    "timestamp": "2012-03-17T16:23:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "eec4abcedea7cb566c19f45f3620482021bea5141b749f44accaa35431dc8279",
+      "rawSha256": "c82239dcf6555a87fd6236c63427cc963fd2495d01a35157bbe0b458a67c0d31",
+      "revisionId": "14076",
+      "line": 32,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "power-animal",
+    "qualified_name": "Quick Populations.power-animal",
+    "table_block_index": 0,
+    "line_number": 32
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "centipede",
+      "raw_text": "1,centipede",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dragon",
+      "raw_text": "1,dragon",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "demon",
+      "raw_text": "1,demon",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "devil",
+      "raw_text": "1,devil",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "tree",
+      "raw_text": "1,tree",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "mushroom",
+      "raw_text": "1,mushroom",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "fish",
+      "raw_text": "2,fish",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "frog",
+      "raw_text": "2,frog",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "beetle",
+      "raw_text": "2,beetle",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "monkey",
+      "raw_text": "2,monkey",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "shark",
+      "raw_text": "2,shark",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "rhino",
+      "raw_text": "2,rhino",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "wasp",
+      "raw_text": "2,wasp",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 2,
+      "text": "owl",
+      "raw_text": "2,owl",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 3,
+      "text": "tiger",
+      "raw_text": "3,tiger",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 3,
+      "text": "bear",
+      "raw_text": "3,bear",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 3,
+      "text": "snake",
+      "raw_text": "3,snake",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 3,
+      "text": "bat",
+      "raw_text": "3,bat",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 3,
+      "text": "spider",
+      "raw_text": "3,spider",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 3,
+      "text": "crow",
+      "raw_text": "3,crow",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[Animal.Weirdsymbol]",
+      "raw_text": "1,[Animal.Weirdsymbol]",
+      "references": [
+        {
+          "raw": "[Animal.Weirdsymbol]",
+          "token": "Animal.Weirdsymbol",
+          "kind": "cross_page",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Animal",
+          "target_subtable": "Weirdsymbol",
+          "target_qualified_name": "Animal.Weirdsymbol"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 2,
+      "text": "[domestic-animal]-[power-animal]",
+      "raw_text": "2,[domestic-animal]-[power-animal]",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        },
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 2,
+      "text": "[power-animal]-[power-animal]",
+      "raw_text": "2,[power-animal]-[power-animal]",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        },
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "domestic-animal",
+      "power-animal"
+    ],
+    "external_subtables": [
+      "Animal.Weirdsymbol"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";power-animal\n1,centipede\n1,dragon\n1,demon\n1,devil\n1,tree\n1,mushroom\n2,fish\n2,frog\n2,beetle\n2,monkey\n2,shark\n2,rhino\n2,wasp\n2,owl\n3,tiger\n3,bear\n3,snake\n3,bat\n3,spider\n3,crow\n1,[Animal.Weirdsymbol]\n2,[domestic-animal]-[power-animal]\n2,[power-animal]-[power-animal]",
+  "warnings": []
+}

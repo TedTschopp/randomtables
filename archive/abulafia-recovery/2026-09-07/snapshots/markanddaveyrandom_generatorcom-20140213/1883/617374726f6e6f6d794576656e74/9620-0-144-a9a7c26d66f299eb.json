@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "a9a7c26d66f299eb516ea22c620e4f171178ab336ec4dd00a0c1eecf6f55eafe",
+      "revisionId": "9620",
+      "line": 144,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "astronomyEvent",
+    "qualified_name": "Rituals.astronomyEvent",
+    "table_block_index": 0,
+    "line_number": 144
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "at the Vernal Equinox",
+      "raw_text": "1,at the Vernal Equinox",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "at the Summer Solstice",
+      "raw_text": "1,at the Summer Solstice",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "at the Autumnal Equinox",
+      "raw_text": "1,at the Autumnal Equinox",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "at the Winter Solstice",
+      "raw_text": "1,at the Winter Solstice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "at any Equinox or Solstice",
+      "raw_text": "1,at any Equinox or Solstice",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "during a new moon",
+      "raw_text": "1,during a new moon",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "during a full moon",
+      "raw_text": "1,during a full moon",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "during a waxing moon",
+      "raw_text": "1,during a waxing moon",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "during a waning moon",
+      "raw_text": "1,during a waning moon",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "when a comet is seen",
+      "raw_text": "1,when a comet is seen",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "when a lunar eclipse occurs",
+      "raw_text": "1,when a lunar eclipse occurs",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "when a solar eclipse occurs",
+      "raw_text": "1,when a solar eclipse occurs",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "when an eclipse occurs",
+      "raw_text": "1,when an eclipse occurs",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "when the year dies",
+      "raw_text": "1,when the year dies",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "when the sun dies",
+      "raw_text": "1,when the sun dies",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "when the moon mocks the earth",
+      "raw_text": "1,when the moon mocks the earth",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "when the stars go dark",
+      "raw_text": "1,when the stars go dark",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "when the sun returns",
+      "raw_text": "1,when the sun returns",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "at sunrise",
+      "raw_text": "1,at sunrise",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "at sunset",
+      "raw_text": "1,at sunset",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";astronomyEvent\n1,at the Vernal Equinox\n1,at the Summer Solstice\n1,at the Autumnal Equinox\n1,at the Winter Solstice\n1,at any Equinox or Solstice\n1,during a new moon\n1,during a full moon\n1,during a waxing moon\n1,during a waning moon\n1,when a comet is seen\n1,when a lunar eclipse occurs\n1,when a solar eclipse occurs\n1,when an eclipse occurs\n1,when the year dies\n1,when the sun dies\n1,when the moon mocks the earth\n1,when the stars go dark\n1,when the sun returns\n1,at sunrise\n1,at sunset",
+  "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 22138,
+    "timestamp": "2014-05-26T13:08:19Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "99c5c05b0c81660408a7513497c80090b1943b7c10a6265b0b39e4c394043ddc",
+      "rawSha256": "b67414e01d172fcec4df2aa5cc54f3bff23d1dae4991808eaabbdab7f58aeed5",
+      "revisionId": "22138",
+      "line": 19,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "punct",
+    "qualified_name": "Blazon.punct",
+    "table_block_index": 0,
+    "line_number": 19
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4, ",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": ":",
+      "raw_text": "1,: ",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "through",
+      "raw_text": "1, through ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "without",
+      "raw_text": "1, without ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "for",
+      "raw_text": "1, for ",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";punct\n4, \n1,: \n1, through \n1, without \n1, for ",
+  "warnings": []
+}

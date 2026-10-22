@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Assorted-Obejects",
+    "page_id": 3029
+  },
+  "source": {
+    "revision_id": 14682,
+    "timestamp": "2012-06-12T19:00:29Z",
+    "contributor": {
+      "name": "Nellisir",
+      "id": 1734,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20120618",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20120618/random_generatorcom-20120618-history.xml.7z",
+      "sourceSha256": "3d62fe4b7329f9491b813ce2cd3777f252bdb36d650dc27dcd0b096b84cba6af",
+      "sourceMember": "random_generatorcom-20120618-history.xml",
+      "xmlSha256": "ac7965fa7c806c03abf8e7d28cd97f99ccb793a618ef7aa1c88c059e579fda78",
+      "xmlBytes": 5787764,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20120618-history.xml.7z",
+      "textSha256": "3401b69dee398946d0781d4912b244bfd4f7a7f21c5794de288216f41bc0e2cb",
+      "rawSha256": "60248d1c82bd3e5f3185bdf710def13ea260f64b4b48d6a7f2a01c0760fd8830",
+      "revisionId": "14682",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14682",
+        "timestamp": "2012-06-12T19:00:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "AssortedObjects",
+    "qualified_name": "Assorted-Obejects.AssortedObjects",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a Bar of Soap",
+      "raw_text": "1,a Bar of Soap",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a Bar of Soap Wrapper",
+      "raw_text": "1,a Bar of Soap Wrapper",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a Bed",
+      "raw_text": "1,a Bed",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a Bedsheets",
+      "raw_text": "1,a Bedsheets",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a Bible",
+      "raw_text": "1,a Bible",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Binoculars",
+      "raw_text": "1,Binoculars",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a Bus Ticket",
+      "raw_text": "1,a Bus Ticket",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a Camera",
+      "raw_text": "1,a Camera",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a Camera Case",
+      "raw_text": "1,a Camera Case",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a Chair × 2",
+      "raw_text": "1,a Chair × 2",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a Chest of Drawers",
+      "raw_text": "1,a Chest of Drawers",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a Chewing Gum",
+      "raw_text": "1,a Chewing Gum",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a Cigarette Butt",
+      "raw_text": "1,a Cigarette Butt",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a Clock",
+      "raw_text": "1,a Clock",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a Coat",
+      "raw_text": "1,a Coat",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a Coat Hanger",
+      "raw_text": "1,a Coat Hanger",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a Comb",
+      "raw_text": "1,a Comb",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "a Cufflink",
+      "raw_text": "1,a Cufflink",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "a Cufflink (second)",
+      "raw_text": "1,a Cufflink (second)",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "a Deck of Cards",
+      "raw_text": "1,a Deck of Cards",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Deodorant",
+      "raw_text": "1,Deodorant",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a Desk",
+      "raw_text": "1,a Desk",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a Desk Chair",
+      "raw_text": "1,a Desk Chair",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "a Dime",
+      "raw_text": "1,a Dime",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "a Dress Shirt",
+      "raw_text": "1,a Dress Shirt",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a Drinking Glasses (X4)",
+      "raw_text": "1,a Drinking Glasses (X4)",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a Drinking Glass Caps (X4)",
+      "raw_text": "1,a Drinking Glass Caps (X4)",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a Fingerprint",
+      "raw_text": "1,a Fingerprint",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "a Flashlight",
+      "raw_text": "1,a Flashlight",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "a Flask",
+      "raw_text": "1,a Flask",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Foot Powder",
+      "raw_text": "1,Foot Powder",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Glasses",
+      "raw_text": "1,Glasses",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "a Glass Eye",
+      "raw_text": "1,a Glass Eye",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "a Half Dollar",
+      "raw_text": "1,a Half Dollar",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "a Harmonica",
+      "raw_text": "1,a Harmonica",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "a Ice Bucket",
+      "raw_text": "1,a Ice Bucket",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "an Iron",
+      "raw_text": "1,an Iron",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "a Key",
+      "raw_text": "1,a Key",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "a Kleenex",
+      "raw_text": "1,a Kleenex",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "a Knife",
+      "raw_text": "1,a Knife",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "a Lamp, Bedside (x 2)",
+      "raw_text": "1,a Lamp, Bedside (x 2)",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "a Lamp, Desk",
+      "raw_text": "1,a Lamp, Desk",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "a Lamp, Floor",
+      "raw_text": "1,a Lamp, Floor",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "a Letter Opener",
+      "raw_text": "1,a Letter Opener",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "a Lighter",
+      "raw_text": "1,a Lighter",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "a Luggage Stand",
+      "raw_text": "1,a Luggage Stand",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "a Matchbook",
+      "raw_text": "1,a Matchbook",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "a Magazine",
+      "raw_text": "1,a Magazine",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "a Magnifying Glass",
+      "raw_text": "1,a Magnifying Glass",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Nail Clippers",
+      "raw_text": "1,Nail Clippers",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "a Nail File",
+      "raw_text": "1,a Nail File",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "a Newspaper",
+      "raw_text": "1,a Newspaper",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "a Nickel",
+      "raw_text": "1,a Nickel",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "a Notepad",
+      "raw_text": "1,a Notepad",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Ointment Powder",
+      "raw_text": "1,Ointment Powder",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "a Pack of Cigarettes",
+      "raw_text": "1,a Pack of Cigarettes",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Pants",
+      "raw_text": "1,Pants",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "a Paperclip",
+      "raw_text": "1,a Paperclip",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "a Pen",
+      "raw_text": "1,a Pen",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "a Pencil",
+      "raw_text": "1,a Pencil",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "some Pennies (3 total)",
+      "raw_text": "1,some Pennies (3 total)",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "a Polaroid",
+      "raw_text": "1,a Polaroid",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "a Postcard",
+      "raw_text": "1,a Postcard",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "a Quarter",
+      "raw_text": "1,a Quarter",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "a Rabbit's Foot",
+      "raw_text": "1,a Rabbit's Foot",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "a Radio",
+      "raw_text": "1,a Radio",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "a Razor",
+      "raw_text": "1,a Razor",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "a Scissors",
+      "raw_text": "1,a Scissors",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "a Shaving Brush",
+      "raw_text": "1,a Shaving Brush",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "a Shoe",
+      "raw_text": "1,a Shoe",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "a Shoe Brush",
+      "raw_text": "1,a Shoe Brush",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "a Shoe Polish",
+      "raw_text": "1,a Shoe Polish",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "a Shoehorn",
+      "raw_text": "1,a Shoehorn",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "a Shoelace",
+      "raw_text": "1,a Shoelace",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "a Shot Glass",
+      "raw_text": "1,a Shot Glass",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "a Slide Rule",
+      "raw_text": "1,a Slide Rule",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "a Sock",
+      "raw_text": "1,a Sock",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "a Suitcase",
+      "raw_text": "1,a Suitcase",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "a Television Set",
+      "raw_text": "1,a Television Set",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "a Tie",
+      "raw_text": "1,a Tie",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "a Timetable",
+      "raw_text": "1,a Timetable",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "a Toothbrush",
+      "raw_text": "1,a Toothbrush",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Tooth Powder",
+      "raw_text": "1,Tooth Powder",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "a Transistor Radio",
+      "raw_text": "1,a Transistor Radio",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "a Tray",
+      "raw_text": "1,a Tray",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "a Typewriter",
+      "raw_text": "1,a Typewriter",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "an Umbrella",
+      "raw_text": "1,an Umbrella",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "an Unwrapped Soap Bar",
+      "raw_text": "1,an Unwrapped Soap Bar",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "a Wallet",
+      "raw_text": "1,a Wallet",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "a Wall Painting",
+      "raw_text": "1,a Wall Painting",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "a Watchbox",
+      "raw_text": "1,a Watchbox",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "a Wastebasket",
+      "raw_text": "1,a Wastebasket",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "a Wedding Photo",
+      "raw_text": "1,a Wedding Photo",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "a Wedding Ring",
+      "raw_text": "1,a Wedding Ring",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "a Wristwatch",
+      "raw_text": "1,a Wristwatch",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "a Wedding Ring",
+      "raw_text": "1,a Wedding Ring",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "a Wristwatch",
+      "raw_text": "1,a Wristwatch",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";AssortedObjects\n1,a Bar of Soap\n1,a Bar of Soap Wrapper\n1,a Bed\n1,a Bedsheets\n1,a Bible\n1,Binoculars\n1,a Bus Ticket\n1,a Camera\n1,a Camera Case\n1,a Chair × 2\n1,a Chest of Drawers\n1,a Chewing Gum\n1,a Cigarette Butt\n1,a Clock\n1,a Coat\n1,a Coat Hanger\n1,a Comb\n1,a Cufflink\n1,a Cufflink (second)\n1,a Deck of Cards\n1,Deodorant\n1,a Desk\n1,a Desk Chair\n1,a Dime\n1,a Dress Shirt\n1,a Drinking Glasses (X4)\n1,a Drinking Glass Caps (X4)\n1,a Fingerprint\n1,a Flashlight\n1,a Flask\n1,Foot Powder\n1,Glasses\n1,a Glass Eye\n1,a Half Dollar\n1,a Harmonica\n1,a Ice Bucket\n1,an Iron\n1,a Key\n1,a Kleenex\n1,a Knife\n1,a Lamp, Bedside (x 2)\n1,a Lamp, Desk\n1,a Lamp, Floor\n1,a Letter Opener\n1,a Lighter\n1,a Luggage Stand\n1,a Matchbook\n1,a Magazine\n1,a Magnifying Glass\n1,Nail Clippers\n1,a Nail File\n1,a Newspaper\n1,a Nickel\n1,a Notepad\n1,Ointment Powder\n1,a Pack of Cigarettes\n1,Pants\n1,a Paperclip\n1,a Pen\n1,a Pencil\n1,some Pennies (3 total)\n1,a Polaroid\n1,a Postcard\n1,a Quarter\n1,a Rabbit's Foot\n1,a Radio\n1,a Razor\n1,a Scissors\n1,a Shaving Brush\n1,a Shoe\n1,a Shoe Brush\n1,a Shoe Polish\n1,a Shoehorn\n1,a Shoelace\n1,a Shot Glass\n1,a Slide Rule\n1,a Sock\n1,a Suitcase\n1,a Television Set\n1,a Tie\n1,a Timetable\n1,a Toothbrush\n1,Tooth Powder\n1,a Transistor Radio\n1,a Tray\n1,a Typewriter\n1,an Umbrella\n1,an Unwrapped Soap Bar\n1,a Wallet\n1,a Wall Painting\n1,a Watchbox\n1,a Wastebasket\n1,a Wedding Photo\n1,a Wedding Ring\n1,a Wristwatch\n1,a Wedding Ring\n1,a Wristwatch",
+  "warnings": []
+}

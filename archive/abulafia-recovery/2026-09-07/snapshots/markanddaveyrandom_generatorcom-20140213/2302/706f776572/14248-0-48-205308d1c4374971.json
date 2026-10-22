@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 14248,
+    "timestamp": "2012-04-25T16:44:13Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "72a324852deee34aef36aaca1976947d0dca74eefd1ab8a35d25b0eedd8e1881",
+      "rawSha256": "205308d1c43749718925f1a765be4d9bfc5bbc539ece980885cc6b4b92aca368",
+      "revisionId": "14248",
+      "line": 48,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "power",
+    "qualified_name": "Quick and Dirty Supers Concepts.power",
+    "table_block_index": 0,
+    "line_number": 48
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Acrobat",
+      "raw_text": "1, Acrobat",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Agent",
+      "raw_text": "1, Agent",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Amphibian",
+      "raw_text": "1, Amphibian",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Beastman",
+      "raw_text": "1, Beastman",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Battlesuit",
+      "raw_text": "1, Battlesuit",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Blaster",
+      "raw_text": "1, Blaster",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Cyborg",
+      "raw_text": "1, Cyborg",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1, Demon",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Detective",
+      "raw_text": "1, Detective",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Duplicator",
+      "raw_text": "1, Duplicator",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Elastic",
+      "raw_text": "1, Elastic",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[elemental]",
+      "raw_text": "1, [elemental]",
+      "references": [
+        {
+          "raw": "[elemental]",
+          "token": "elemental",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "power",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "elemental",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.elemental"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "[energycontroller]",
+      "raw_text": "1, [energycontroller]",
+      "references": [
+        {
+          "raw": "[energycontroller]",
+          "token": "energycontroller",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "power",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "energycontroller",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.energycontroller"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Gadgeteer",
+      "raw_text": "1, Gadgeteer",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Genius",
+      "raw_text": "1, Genius",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Giant",
+      "raw_text": "1, Giant",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Illusionist",
+      "raw_text": "1, Illusionist",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Phaser",
+      "raw_text": "1, Phaser",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Lucky",
+      "raw_text": "1, Lucky",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Martial Artist",
+      "raw_text": "1, Martial Artist",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Mimic",
+      "raw_text": "1, Mimic",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Mystic",
+      "raw_text": "1, Mystic",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Powerhouse",
+      "raw_text": "1, Powerhouse",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Psychic",
+      "raw_text": "1, Psychic",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Robot",
+      "raw_text": "1, Robot",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Shape-Shifter",
+      "raw_text": "1, Shape-Shifter",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Size-Changer",
+      "raw_text": "1, Size-Changer    ",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Speedster",
+      "raw_text": "1, Speedster",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Survivor",
+      "raw_text": "1, Survivor",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "[totem]",
+      "raw_text": "1, [totem]",
+      "references": [
+        {
+          "raw": "[totem]",
+          "token": "totem",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "power",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "totem",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.totem"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Unlucky",
+      "raw_text": "1, Unlucky",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Vanisher",
+      "raw_text": "1, Vanisher",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Weapon Master",
+      "raw_text": "1, Weapon Master",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "elemental",
+      "energycontroller",
+      "totem"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";power\n1, Acrobat\n1, Agent\n1, Amphibian\n1, Beastman\n1, Battlesuit\n1, Blaster\n1, Cyborg\n1, Demon\n1, Detective\n1, Duplicator\n1, Elastic\n1, [elemental]\n1, [energycontroller]\n1, Gadgeteer\n1, Genius\n1, Giant\n1, Illusionist\n1, Phaser\n1, Lucky\n1, Martial Artist\n1, Mimic\n1, Mystic\n1, Powerhouse\n1, Psychic\n1, Robot\n1, Shape-Shifter\n1, Size-Changer    \n1, Speedster\n1, Survivor\n1, [totem]\n1, Unlucky\n1, Vanisher\n1, Weapon Master",
+  "warnings": []
+}

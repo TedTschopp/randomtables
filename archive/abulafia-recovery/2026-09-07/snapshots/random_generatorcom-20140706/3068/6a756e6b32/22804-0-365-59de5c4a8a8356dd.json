@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "59de5c4a8a8356dd363fd23c98cf3a64bff4476c21722066f655118598a840d6",
+      "revisionId": "22804",
+      "line": 365,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "junk2",
+    "qualified_name": "Starting Equipment.junk2",
+    "table_block_index": 0,
+    "line_number": 365
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.domestic-animal] friend",
+      "raw_text": "1,[Quick Zone Populations.domestic-animal] friend",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.domestic-animal]",
+          "token": "Quick Zone Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Zone Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "10 foot pole",
+      "raw_text": "1,10 foot pole",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[wineskin]",
+      "raw_text": "1,[wineskin]",
+      "references": [
+        {
+          "raw": "[wineskin]",
+          "token": "wineskin",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "Starting Equipment",
+          "target_subtable": "wineskin",
+          "target_qualified_name": "Starting Equipment.wineskin"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "writing-book, ink, pens",
+      "raw_text": "1,writing-book, ink, pens",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[musical-instrument]",
+      "raw_text": "1,[musical-instrument]",
+      "references": [
+        {
+          "raw": "[musical-instrument]",
+          "token": "musical-instrument",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "Starting Equipment",
+          "target_subtable": "musical-instrument",
+          "target_qualified_name": "Starting Equipment.musical-instrument"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "hammock",
+      "raw_text": "1,hammock",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Quick Zone Populations.zaksjob] disguise",
+      "raw_text": "1,[Quick Zone Populations.zaksjob] disguise",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.zaksjob]",
+          "token": "Quick Zone Populations.zaksjob",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "zaksjob",
+          "target_qualified_name": "Quick Zone Populations.zaksjob"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "book: {{uc:[FantasyBooks.main]}}",
+      "raw_text": "1,book: {{uc:[FantasyBooks.main]}}",
+      "references": [
+        {
+          "raw": "[FantasyBooks.main]",
+          "token": "FantasyBooks.main",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "FantasyBooks",
+          "target_subtable": "main",
+          "target_qualified_name": "FantasyBooks.main"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "{{Article|[Ostler.general-mount-quirk]}}",
+      "raw_text": "1,{{Article|[Ostler.general-mount-quirk]}}",
+      "references": [
+        {
+          "raw": "[Ostler.general-mount-quirk]",
+          "token": "Ostler.general-mount-quirk",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk2",
+          "target_page": "Ostler",
+          "target_subtable": "general-mount-quirk",
+          "target_qualified_name": "Ostler.general-mount-quirk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "musical-instrument",
+      "wineskin"
+    ],
+    "external_subtables": [
+      "FantasyBooks.main",
+      "Ostler.general-mount-quirk",
+      "Quick Zone Populations.domestic-animal",
+      "Quick Zone Populations.zaksjob"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";junk2\n1,[Quick Zone Populations.domestic-animal] friend\n1,10 foot pole\n1,[wineskin]\n1,writing-book, ink, pens\n1,[musical-instrument]\n1,hammock\n1,[Quick Zone Populations.zaksjob] disguise\n1,book: {{uc:[FantasyBooks.main]}}\n1,{{Article|[Ostler.general-mount-quirk]}}",
+  "warnings": []
+}

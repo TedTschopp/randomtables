@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4614,
+    "timestamp": "2007-11-27T02:53:24Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "32e84a9640f621204c3dccdf1d3c17c4b7d7bfa16c0a3a61dbb7c89b2fa8f5f8",
+      "rawSha256": "14f01d82180f3cd3a0919715221fd4f68009f757eeab46ed4140a15259f1bbaf",
+      "revisionId": "4614",
+      "line": 239,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteNewness",
+    "qualified_name": "Rituals.riteNewness",
+    "table_block_index": 0,
+    "line_number": 239
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "get a particular hairstyle",
+      "raw_text": "1,get a particular hairstyle",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "be presented with new clothes",
+      "raw_text": "1,be presented with new clothes",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "exchange gifts with one's [olderRelative]",
+      "raw_text": "1,exchange gifts with one's [olderRelative]",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteNewness",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "exchange gifts",
+      "raw_text": "1,exchange gifts",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "get a new name",
+      "raw_text": "1,get a new name",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "light a new fire",
+      "raw_text": "1,light a new fire",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "take a new vow",
+      "raw_text": "1,take a new vow",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "learn a new secret handshake",
+      "raw_text": "1,learn a new secret handshake",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "learn a new dance",
+      "raw_text": "1,learn a new dance",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "learn a new song",
+      "raw_text": "1,learn a new song",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteNewness\n1,get a particular hairstyle\n1,be presented with new clothes\n1,exchange gifts with one's [olderRelative]\n1,exchange gifts\n1,get a new name\n1,light a new fire\n1,take a new vow\n1,learn a new secret handshake\n1,learn a new dance\n1,learn a new song",
+  "warnings": []
+}

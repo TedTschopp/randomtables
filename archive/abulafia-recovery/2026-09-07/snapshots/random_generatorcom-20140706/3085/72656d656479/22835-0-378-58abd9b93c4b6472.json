@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "58abd9b93c4b6472f975733b0b016aad57cc63255ee748da79769574084daf3b",
+      "revisionId": "22835",
+      "line": 378,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "remedy",
+    "qualified_name": "Curse.remedy",
+    "table_block_index": 0,
+    "line_number": 378
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[remedy-etc], it [can] [heal] [after] [period].",
+      "raw_text": "2,[remedy-etc], it [can] [heal] [after] [period].",
+      "references": [
+        {
+          "raw": "[remedy-etc]",
+          "token": "remedy-etc",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "remedy-etc",
+          "target_qualified_name": "Curse.remedy-etc"
+        },
+        {
+          "raw": "[can]",
+          "token": "can",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "can",
+          "target_qualified_name": "Curse.can"
+        },
+        {
+          "raw": "[heal]",
+          "token": "heal",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "heal",
+          "target_qualified_name": "Curse.heal"
+        },
+        {
+          "raw": "[after]",
+          "token": "after",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "after",
+          "target_qualified_name": "Curse.after"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[remedy-etc], if not healed within [about-five] days, die.",
+      "raw_text": "2,[remedy-etc], if not healed within [about-five] days, die.",
+      "references": [
+        {
+          "raw": "[remedy-etc]",
+          "token": "remedy-etc",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "remedy-etc",
+          "target_qualified_name": "Curse.remedy-etc"
+        },
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[remedy-etc], if not healed within [period], [initial-effect].",
+      "raw_text": "2,[remedy-etc], if not healed within [period], [initial-effect].",
+      "references": [
+        {
+          "raw": "[remedy-etc]",
+          "token": "remedy-etc",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "remedy-etc",
+          "target_qualified_name": "Curse.remedy-etc"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        },
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 5,
+      "text": "[remedy-etc]",
+      "raw_text": "5,[remedy-etc]",
+      "references": [
+        {
+          "raw": "[remedy-etc]",
+          "token": "remedy-etc",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "remedy-etc",
+          "target_qualified_name": "Curse.remedy-etc"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[remedy-etc], but when healed [initial-effect]",
+      "raw_text": "1,[remedy-etc], but when healed [initial-effect]",
+      "references": [
+        {
+          "raw": "[remedy-etc]",
+          "token": "remedy-etc",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "remedy-etc",
+          "target_qualified_name": "Curse.remedy-etc"
+        },
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "remedy",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five",
+      "after",
+      "can",
+      "heal",
+      "initial-effect",
+      "period",
+      "remedy-etc"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";remedy\n2,[remedy-etc], it [can] [heal] [after] [period].\n2,[remedy-etc], if not healed within [about-five] days, die.\n2,[remedy-etc], if not healed within [period], [initial-effect].\n5,[remedy-etc]\n1,[remedy-etc], but when healed [initial-effect]",
+  "warnings": []
+}

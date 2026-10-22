@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15350,
+    "timestamp": "2012-10-08T08:34:29Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7b3b9f67ba3371be5a472316b78ee05d771fdb1572f15be7a94432d18f6f3c83",
+      "rawSha256": "7c36b2d2a9cdf57ec3c0708a4f442800720903fff6bb2cda2442996fe6d79dab",
+      "revisionId": "15350",
+      "line": 124,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "polearm",
+    "qualified_name": "Starting Equipment.polearm",
+    "table_block_index": 0,
+    "line_number": 124
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]spear (d8)",
+      "raw_text": "1,[describemeleeweapon][describemetal]spear (d8)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]pike (d8)",
+      "raw_text": "1,[describemeleeweapon][describemetal]pike (d8)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]halberd (d8)",
+      "raw_text": "1,[describemeleeweapon][describemetal]halberd (d8)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "polearm",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "describemeleeweapon",
+      "describemetal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";polearm\n1,[describemeleeweapon][describemetal]spear (d8)\n1,[describemeleeweapon][describemetal]pike (d8)\n1,[describemeleeweapon][describemetal]halberd (d8)",
+  "warnings": []
+}

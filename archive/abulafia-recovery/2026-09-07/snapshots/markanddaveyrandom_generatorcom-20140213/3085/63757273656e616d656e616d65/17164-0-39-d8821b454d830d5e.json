@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 17164,
+    "timestamp": "2013-02-22T11:33:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "396c0c4d43dc8cb4b9a97fa77794a6e56dd10d70e0a1095757f902399cd8a6c6",
+      "rawSha256": "d8821b454d830d5e98f1e885a949194099c06947c6b4f45e0234a7bdcfcda995",
+      "revisionId": "17164",
+      "line": 39,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursenamename",
+    "qualified_name": "Curse.cursenamename",
+    "table_block_index": 0,
+    "line_number": 39
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "WATCHMAN",
+      "raw_text": "1,WATCHMAN",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "FOOL",
+      "raw_text": "1,FOOL",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "BEGGAR",
+      "raw_text": "1,BEGGAR",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "VICAR",
+      "raw_text": "1,VICAR",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "PRISONER",
+      "raw_text": "1,PRISONER",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "GRAVEKEEPER",
+      "raw_text": "1,GRAVEKEEPER",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "{{uc:[Quick Zone Populations.getnamea]}}",
+      "raw_text": "1,{{uc:[Quick Zone Populations.getnamea]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.getnamea]",
+          "token": "Quick Zone Populations.getnamea",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "getnamea",
+          "target_qualified_name": "Quick Zone Populations.getnamea"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "{{uc:[Quick Zone Populations.class]}}",
+      "raw_text": "1,{{uc:[Quick Zone Populations.class]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.class]",
+          "token": "Quick Zone Populations.class",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Zone Populations.class"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.class",
+      "Quick Zone Populations.getnamea"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";cursenamename\n1,WATCHMAN\n1,FOOL\n1,BEGGAR\n1,VICAR\n1,PRISONER\n1,GRAVEKEEPER\n1,{{uc:[Quick Zone Populations.getnamea]}}\n1,{{uc:[Quick Zone Populations.class]}}",
+  "warnings": []
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "f0ad393757aa6a45c52b7ec19c0e16a72e4d6a81561fab7ee5eb7b2ebb072058",
+      "revisionId": "9620",
+      "line": 304,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ritePurification",
+    "qualified_name": "Rituals.ritePurification",
+    "table_block_index": 0,
+    "line_number": 304
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "fast for [timePeriodShort]",
+      "raw_text": "1,fast for [timePeriodShort]",
+      "references": [
+        {
+          "raw": "[timePeriodShort]",
+          "token": "timePeriodShort",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodShort",
+          "target_qualified_name": "Rituals.timePeriodShort"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "abstain from sex for [timePeriodLong]",
+      "raw_text": "1,abstain from sex for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "abstain from washing the body for [timePeriodLong]",
+      "raw_text": "1,abstain from washing the body for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "abstain from cutting the hair for [timePeriodLong]",
+      "raw_text": "1,abstain from cutting the hair for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "abstain from washing the hair for [timePeriodLong]",
+      "raw_text": "1,abstain from washing the hair for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "abstain from speaking for [timePeriodAny]",
+      "raw_text": "1,abstain from speaking for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "wash in a particular river",
+      "raw_text": "1,wash in a particular river",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "be buried in the earth for [timePeriodShort]",
+      "raw_text": "1,be buried in the earth for [timePeriodShort]",
+      "references": [
+        {
+          "raw": "[timePeriodShort]",
+          "token": "timePeriodShort",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodShort",
+          "target_qualified_name": "Rituals.timePeriodShort"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "bathe in the ocean",
+      "raw_text": "1,bathe in the ocean",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "be anointed with fine oils",
+      "raw_text": "1,be anointed with fine oils",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "be completely immersed in water",
+      "raw_text": "1,be completely immersed in water",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "walk across hot coals",
+      "raw_text": "1,walk across hot coals",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "wear only [clothingRestriction] clothing for [timePeriodAny]",
+      "raw_text": "1,wear only [clothingRestriction] clothing for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[clothingRestriction]",
+          "token": "clothingRestriction",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "clothingRestriction",
+          "target_qualified_name": "Rituals.clothingRestriction"
+        },
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "wear no [clothingRestriction] clothing for [timePeriodAny]",
+      "raw_text": "1,wear no [clothingRestriction] clothing for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[clothingRestriction]",
+          "token": "clothingRestriction",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "clothingRestriction",
+          "target_qualified_name": "Rituals.clothingRestriction"
+        },
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "touch no metal for [timePeriodAny]",
+      "raw_text": "1,touch no metal for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "wear uncomfortable clothing for [timePeriodAny]",
+      "raw_text": "1,wear uncomfortable clothing for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "abstain from lighting fires for [timePeriodLong]",
+      "raw_text": "1,abstain from lighting fires for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "bathe in filth for [timePeriodAny]",
+      "raw_text": "1,bathe in filth for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "not be allowed within the village for [timePeriodAny]",
+      "raw_text": "1,not be allowed within the village for [timePeriodAny]",
+      "references": [
+        {
+          "raw": "[timePeriodAny]",
+          "token": "timePeriodAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodAny",
+          "target_qualified_name": "Rituals.timePeriodAny"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "sojourn in the wilderness for [timePeriodLong]",
+      "raw_text": "1,sojourn in the wilderness for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "wash the hands in blessed water three times",
+      "raw_text": "1,wash the hands in blessed water three times",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 4,
+      "text": "wear only clothing of [clothingRestriction]",
+      "raw_text": "4,wear only clothing of [clothingRestriction]",
+      "references": [
+        {
+          "raw": "[clothingRestriction]",
+          "token": "clothingRestriction",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePurification",
+          "target_page": "Rituals",
+          "target_subtable": "clothingRestriction",
+          "target_qualified_name": "Rituals.clothingRestriction"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "clothingRestriction",
+      "timePeriodAny",
+      "timePeriodLong",
+      "timePeriodShort"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ritePurification\n1,fast for [timePeriodShort]\n1,abstain from sex for [timePeriodLong]\n1,abstain from washing the body for [timePeriodLong]\n1,abstain from cutting the hair for [timePeriodLong]\n1,abstain from washing the hair for [timePeriodLong]\n1,abstain from speaking for [timePeriodAny]\n1,wash in a particular river\n1,be buried in the earth for [timePeriodShort]\n1,bathe in the ocean\n1,be anointed with fine oils\n1,be completely immersed in water\n1,walk across hot coals\n1,wear only [clothingRestriction] clothing for [timePeriodAny]\n1,wear no [clothingRestriction] clothing for [timePeriodAny]\n1,touch no metal for [timePeriodAny]\n1,wear uncomfortable clothing for [timePeriodAny]\n1,abstain from lighting fires for [timePeriodLong]\n1,bathe in filth for [timePeriodAny]\n1,not be allowed within the village for [timePeriodAny]\n1,sojourn in the wilderness for [timePeriodLong]\n1,wash the hands in blessed water three times\n4,wear only clothing of [clothingRestriction]",
+  "warnings": []
+}

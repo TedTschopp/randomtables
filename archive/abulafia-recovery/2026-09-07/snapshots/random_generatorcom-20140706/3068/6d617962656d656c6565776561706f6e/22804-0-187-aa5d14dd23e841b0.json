@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "aa5d14dd23e841b01d7d98675e72df965772087485a8dc4740c14bb64bb3a075",
+      "revisionId": "22804",
+      "line": 187,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybemeleeweapon",
+    "qualified_name": "Starting Equipment.maybemeleeweapon",
+    "table_block_index": 0,
+    "line_number": 187
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "no melee weapon",
+      "raw_text": "1,no melee weapon",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 6,
+      "text": "[meleeweapon]",
+      "raw_text": "6,[meleeweapon]",
+      "references": [
+        {
+          "raw": "[meleeweapon]",
+          "token": "meleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybemeleeweapon",
+          "target_page": "Starting Equipment",
+          "target_subtable": "meleeweapon",
+          "target_qualified_name": "Starting Equipment.meleeweapon"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "meleeweapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybemeleeweapon\n1,no melee weapon\n6,[meleeweapon]",
+  "warnings": []
+}

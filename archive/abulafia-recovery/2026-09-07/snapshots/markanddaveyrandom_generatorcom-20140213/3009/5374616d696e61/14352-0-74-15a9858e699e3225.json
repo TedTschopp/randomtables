@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14352,
+    "timestamp": "2012-05-14T16:43:23Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f84e1982101e879e5d7e5b94a669828d5060b4dbc77fe37900c01d2a3bcb6fe8",
+      "rawSha256": "15a9858e699e3225708f151f62c6635826dfd1cc605e7f55cb33226711379ddc",
+      "revisionId": "14352",
+      "line": 74,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Stamina",
+    "qualified_name": "Character Personality and Traits.Stamina",
+    "table_block_index": 0,
+    "line_number": 74
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "Enhanced Stamina d8<br />",
+      "raw_text": "4,Enhanced Stamina d8<br />",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "Superhuman Stamina d10<br />",
+      "raw_text": "3,Superhuman Stamina d10<br />",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Godlike Stamina d12<br />",
+      "raw_text": "1,Godlike Stamina d12<br />",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Stamina\n4,\n4,Enhanced Stamina d8<br />\n3,Superhuman Stamina d10<br />\n1,Godlike Stamina d12<br />",
+  "warnings": []
+}

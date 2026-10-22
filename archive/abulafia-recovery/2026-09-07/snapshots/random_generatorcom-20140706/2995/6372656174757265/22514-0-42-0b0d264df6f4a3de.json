@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22514,
+    "timestamp": "2014-06-01T10:51:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "c2397f7ebcecbc8c370ce2567bb2f3c0d6f7b95d29b34534f2ffe0e252f3de8c",
+      "rawSha256": "0b0d264df6f4a3ded3b076541de5e2d32a35e650d1471c15395bf44e0971c2c2",
+      "revisionId": "22514",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "creature",
+    "qualified_name": "Quick Horrors.creature",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Populations.domestic-animal]",
+      "raw_text": "1,[Quick Populations.domestic-animal]",
+      "references": [
+        {
+          "raw": "[Quick Populations.domestic-animal]",
+          "token": "Quick Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "creature",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Quick Populations.power-animal]",
+      "raw_text": "1,[Quick Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Populations.power-animal]",
+          "token": "Quick Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "creature",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "beast",
+      "raw_text": "1,beast",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "creature",
+      "raw_text": "1,creature",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "statue",
+      "raw_text": "1,statue",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Populations.domestic-animal",
+      "Quick Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";creature\n1,[Quick Populations.domestic-animal]\n1,[Quick Populations.power-animal]\n1,beast\n1,creature\n1,statue",
+  "warnings": []
+}

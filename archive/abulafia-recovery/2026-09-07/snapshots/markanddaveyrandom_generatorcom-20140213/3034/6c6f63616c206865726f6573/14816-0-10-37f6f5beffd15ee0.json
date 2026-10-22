@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14816,
+    "timestamp": "2012-06-24T16:03:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c133d4da88916f60ea3d88302d6d699097528cc8f39b81229ed98c2f1f29851d",
+      "rawSha256": "37f6f5beffd15ee07a2242d9a9d8fa9e5d6a21936c902d36248c0f88fcbe70d8",
+      "revisionId": "14816",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "local heroes",
+    "qualified_name": "Village.local heroes",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "",
+      "raw_text": "5,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "local [hero]",
+      "raw_text": "4,local [hero]",
+      "references": [
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "local [hero], [hero]",
+      "raw_text": "3,local [hero], [hero]",
+      "references": [
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        },
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "local [hero], [hero], [hero]",
+      "raw_text": "2,local [hero], [hero], [hero]",
+      "references": [
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        },
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        },
+        {
+          "raw": "[hero]",
+          "token": "hero",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "local heroes",
+          "target_page": "Village",
+          "target_subtable": "hero",
+          "target_qualified_name": "Village.hero"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "hero"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";local heroes\n5,\n4,local [hero]\n3,local [hero], [hero]\n2,local [hero], [hero], [hero]",
+  "warnings": []
+}

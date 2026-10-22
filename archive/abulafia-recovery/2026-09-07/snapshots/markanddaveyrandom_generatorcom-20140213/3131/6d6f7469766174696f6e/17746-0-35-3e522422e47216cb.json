@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 17746,
+    "timestamp": "2013-06-18T18:04:58Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "6063a8034f435a69af92afe77d1f124ddc57566060dc548122384bf2a5d05477",
+      "rawSha256": "3e522422e47216cba0c6e15613165ae955007f3f545b73b87ec9b158d31ce5a4",
+      "revisionId": "17746",
+      "line": 35,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17754",
+        "timestamp": "2013-06-18T18:25:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "motivation",
+    "qualified_name": "Hireling.motivation",
+    "table_block_index": 0,
+    "line_number": 35
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "primarily financial",
+      "raw_text": "1,primarily financial",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "looking for [looking for somebody] who [Delver Fate.main]",
+      "raw_text": "1,looking for [looking for somebody] who [Delver Fate.main]",
+      "references": [
+        {
+          "raw": "[looking for somebody]",
+          "token": "looking for somebody",
+          "kind": "local",
+          "source_page": "Hireling",
+          "source_subtable": "motivation",
+          "target_page": "Hireling",
+          "target_subtable": "looking for somebody",
+          "target_qualified_name": "Hireling.looking for somebody"
+        },
+        {
+          "raw": "[Delver Fate.main]",
+          "token": "Delver Fate.main",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "motivation",
+          "target_page": "Delver Fate",
+          "target_subtable": "main",
+          "target_qualified_name": "Delver Fate.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "looking for somebody"
+    ],
+    "external_subtables": [
+      "Delver Fate.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";motivation\n1,primarily financial\n1,looking for [looking for somebody] who [Delver Fate.main]",
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22795,
+    "timestamp": "2014-06-10T10:48:14Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "f28bac9be26207400ff8b594e47cea48a2a9e5e1289660685cd7351e045fcf9a",
+      "rawSha256": "cb938f9e78f3ea574bc2632e5f2c53b5f5e8721d43e4a8b01094e7b2f4de5761",
+      "revisionId": "22795",
+      "line": 17,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "blazon",
+    "qualified_name": "Quick Horrors.blazon",
+    "table_block_index": 0,
+    "line_number": 17
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "with [Blazon.main]",
+      "raw_text": "1,with [Blazon.main]",
+      "references": [
+        {
+          "raw": "[Blazon.main]",
+          "token": "Blazon.main",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "blazon",
+          "target_page": "Blazon",
+          "target_subtable": "main",
+          "target_qualified_name": "Blazon.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Blazon.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";blazon\n1,with [Blazon.main]\n4,",
+  "warnings": []
+}

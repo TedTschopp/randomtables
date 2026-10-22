@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 8233,
+    "timestamp": "2008-12-08T23:39:41Z",
+    "contributor": {
+      "name": "Draekan",
+      "id": 356,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cdf336ef04f8be57c7bac04a3cdfda4a6f4dda739c8ca44b5f90950aca83ab3d",
+      "rawSha256": "001808a0f9ac4c037088c4c5dbce99ac9ef3be63b503dbbeab9284c0ecbf27cb",
+      "revisionId": "8233",
+      "line": 64,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9312",
+        "timestamp": "2009-07-22T02:03:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "number",
+    "qualified_name": "Found in a crate.number",
+    "table_block_index": 0,
+    "line_number": 64
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "one",
+      "raw_text": "3, one",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "two",
+      "raw_text": "3, two",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "three",
+      "raw_text": "1, three",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "four",
+      "raw_text": "1, four",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "five",
+      "raw_text": "1, five",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a half dozen",
+      "raw_text": "1, a half dozen",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a dozen",
+      "raw_text": "1, a dozen",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";number\n3, one\n3, two\n1, three\n1, four\n1, five\n1, a half dozen\n1, a dozen",
+  "warnings": []
+}

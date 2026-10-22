@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28914,
+    "timestamp": "2015-09-13T21:02:27Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "540fb53bb0666b90b45a01964299892fabfdc387c11d757500455c7b0078d44c",
+      "rawSha256": "95f062b627dbb9c6fffc4437b726db947ad7cb2994d177cfbdf9745abfe07bbc",
+      "revisionId": "28914",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "setup",
+    "qualified_name": "QuickAdjective.setup",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[subj] is[%intensifier]",
+      "raw_text": "1,[subj] is[%intensifier]",
+      "references": [
+        {
+          "raw": "[subj]",
+          "token": "subj",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "setup",
+          "target_page": "QuickAdjective",
+          "target_subtable": "subj",
+          "target_qualified_name": "QuickAdjective.subj"
+        },
+        {
+          "raw": "[%intensifier]",
+          "token": "%intensifier",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "setup",
+          "target_page": "QuickAdjective",
+          "target_subtable": "%intensifier",
+          "target_qualified_name": "QuickAdjective.%intensifier"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "%intensifier",
+      "subj"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";setup\n1,[subj] is[%intensifier]",
+  "warnings": []
+}

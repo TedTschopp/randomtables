@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "0c497aca7c0ddbfb766ea33f709879e5bb286d57d49cc75aca0a53cbede6389f",
+      "revisionId": "10367",
+      "line": 703,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RichCoins",
+    "qualified_name": "Pickpocket.RichCoins",
+    "table_block_index": 0,
+    "line_number": 703
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[Dice.4d6] silver coins",
+      "raw_text": "3,[Dice.4d6] silver coins",
+      "references": [
+        {
+          "raw": "[Dice.4d6]",
+          "token": "Dice.4d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Dice",
+          "target_subtable": "4d6",
+          "target_qualified_name": "Dice.4d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "[Dice.4d6] gold coins",
+      "raw_text": "3,[Dice.4d6] gold coins",
+      "references": [
+        {
+          "raw": "[Dice.4d6]",
+          "token": "Dice.4d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Dice",
+          "target_subtable": "4d6",
+          "target_qualified_name": "Dice.4d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Dice.2d6] platinum coins",
+      "raw_text": "1,[Dice.2d6] platinum coins",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "[Dice.3d6] coins of a foreign denomination",
+      "raw_text": "3,[Dice.3d6] coins of a foreign denomination",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[Dice.2d6] very old coins stamped with [Decoration]",
+      "raw_text": "1,[Dice.2d6] very old coins stamped with [Decoration]",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[Decoration]",
+          "token": "Decoration",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichCoins",
+          "target_page": "Pickpocket",
+          "target_subtable": "Decoration",
+          "target_qualified_name": "Pickpocket.Decoration"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Decoration"
+    ],
+    "external_subtables": [
+      "Dice.2d6",
+      "Dice.3d6",
+      "Dice.4d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";RichCoins\n3,[Dice.4d6] silver coins\n3,[Dice.4d6] gold coins\n1,[Dice.2d6] platinum coins\n3,[Dice.3d6] coins of a foreign denomination\n1,[Dice.2d6] very old coins stamped with [Decoration]",
+  "warnings": []
+}

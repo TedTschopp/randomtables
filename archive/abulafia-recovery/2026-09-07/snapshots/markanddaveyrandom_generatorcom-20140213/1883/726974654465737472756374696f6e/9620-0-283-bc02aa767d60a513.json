@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "bc02aa767d60a513d2bccaf23bbaf2ce7c8aeda38f78bbe17a877849dc47f1af",
+      "revisionId": "9620",
+      "line": 283,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteDestruction",
+    "qualified_name": "Rituals.riteDestruction",
+    "table_block_index": 0,
+    "line_number": 283
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "burn an effigy",
+      "raw_text": "1,burn an effigy",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "cut a ribbon or cord",
+      "raw_text": "1,cut a ribbon or cord",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "break a glass",
+      "raw_text": "1,break a glass",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "break a bottle of wine",
+      "raw_text": "1,break a bottle of wine",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "break a piece of pottery",
+      "raw_text": "1,break a piece of pottery",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "shatter a tortoise shell",
+      "raw_text": "1,shatter a tortoise shell",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "slay a prisoner",
+      "raw_text": "1,slay a prisoner",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "hunt and slay the moon",
+      "raw_text": "1,hunt and slay the moon",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteDestruction\n1,burn an effigy\n1,cut a ribbon or cord\n1,break a glass\n1,break a bottle of wine\n1,break a piece of pottery\n1,shatter a tortoise shell\n1,slay a prisoner\n1,hunt and slay the moon",
+  "warnings": []
+}

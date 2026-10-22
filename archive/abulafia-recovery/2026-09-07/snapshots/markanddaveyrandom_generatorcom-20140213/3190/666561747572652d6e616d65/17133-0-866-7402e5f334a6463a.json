@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "7402e5f334a6463a06a48060bc91016db545bc97442e929267126a50898a2b3f",
+      "revisionId": "17133",
+      "line": 866,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "feature-name",
+    "qualified_name": "Planar Codex Parish.feature-name",
+    "table_block_index": 0,
+    "line_number": 866
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "plantation",
+      "raw_text": "1,plantation",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "garden",
+      "raw_text": "1,garden",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "arcade",
+      "raw_text": "1,arcade",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "bazaar",
+      "raw_text": "1,bazaar",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "park",
+      "raw_text": "1,park",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "theater",
+      "raw_text": "1,theater",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "colosseum",
+      "raw_text": "1,colosseum",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "forum",
+      "raw_text": "1,forum",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "parliament",
+      "raw_text": "1,parliament",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "fairground",
+      "raw_text": "1,fairground",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "crater",
+      "raw_text": "1,crater",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "necropolis",
+      "raw_text": "1,necropolis",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "temple",
+      "raw_text": "1,temple",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "observatory",
+      "raw_text": "1,observatory",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "lighthouse",
+      "raw_text": "1,lighthouse",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "harbor",
+      "raw_text": "1,harbor",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "labyrinth",
+      "raw_text": "1,labyrinth",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "landfill",
+      "raw_text": "1,landfill",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "sewer",
+      "raw_text": "1,sewer",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "dungeon",
+      "raw_text": "1,dungeon",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "monastery",
+      "raw_text": "1,monastery",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "abbey",
+      "raw_text": "1,abbey",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "slum",
+      "raw_text": "1,slum",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "dock",
+      "raw_text": "1,dock",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "palace",
+      "raw_text": "1,palace",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "auction house",
+      "raw_text": "1,auction house",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "tower",
+      "raw_text": "1,tower",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "brewery",
+      "raw_text": "1,brewery",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "well",
+      "raw_text": "1,well",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "lake",
+      "raw_text": "1,lake",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "menagerie",
+      "raw_text": "1,menagerie",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "manor",
+      "raw_text": "1,manor",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "ruins",
+      "raw_text": "1,ruins",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "prison",
+      "raw_text": "1,prison",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "tree-city",
+      "raw_text": "1,tree-city",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "pit",
+      "raw_text": "1,pit",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "tomb",
+      "raw_text": "1,tomb",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "asylum",
+      "raw_text": "1,asylum",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "hospital",
+      "raw_text": "1,hospital",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "architecture",
+      "raw_text": "1,architecture",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "bourse",
+      "raw_text": "1,bourse",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "pilgrim's shrine",
+      "raw_text": "1,pilgrim's shrine",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "gate",
+      "raw_text": "1,gate",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "stockyard",
+      "raw_text": "1,stockyard",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "stockade",
+      "raw_text": "1,stockade",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "palisade",
+      "raw_text": "1,palisade",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "barbican",
+      "raw_text": "1,barbican",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "inner city",
+      "raw_text": "1,inner city",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "wurm",
+      "raw_text": "1,wurm",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "fortress",
+      "raw_text": "1,fortress",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "vault",
+      "raw_text": "1,vault",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "mine",
+      "raw_text": "1,mine",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "shantytown",
+      "raw_text": "1,shantytown",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "arena",
+      "raw_text": "1,arena",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "stadium",
+      "raw_text": "1,stadium",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "racetrack",
+      "raw_text": "1,racetrack",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "festival grounds",
+      "raw_text": "1,festival grounds",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "wall",
+      "raw_text": "1,wall",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";feature-name\n1,plantation\n1,garden\n1,arcade\n1,bazaar\n1,park\n1,theater\n1,colosseum\n1,forum\n1,parliament\n1,fairground\n1,crater\n1,necropolis\n1,temple\n1,observatory\n1,lighthouse\n1,harbor\n1,labyrinth\n1,landfill\n1,sewer\n1,dungeon\n1,monastery\n1,abbey\n1,slum\n1,dock\n1,palace\n1,auction house\n1,tower\n1,brewery\n1,well\n1,lake\n1,menagerie\n1,manor\n1,ruins\n1,prison\n1,tree-city\n1,pit\n1,tomb\n1,asylum\n1,hospital\n1,architecture\n1,bourse\n1,pilgrim's shrine\n1,gate\n1,stockyard\n1,stockade\n1,palisade\n1,barbican\n1,inner city\n1,wurm\n1,fortress\n1,vault\n1,mine\n1,shantytown\n1,arena\n1,stadium\n1,racetrack\n1,festival grounds\n1,wall",
+  "warnings": []
+}

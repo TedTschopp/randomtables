@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4664,
+    "timestamp": "2007-11-27T15:24:20Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "40674ea08bcde75cf319a044c2ef0a2b500bc10e24981b30211e2d073f2c8041",
+      "rawSha256": "09718b961c66a95fab8108cd9e60ffb7f2ee394c145f2a514e9fdb351bfc0506",
+      "revisionId": "4664",
+      "line": 343,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteSexual",
+    "qualified_name": "Rituals.riteSexual",
+    "table_block_index": 0,
+    "line_number": 343
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "have sex with a temple prostitute",
+      "raw_text": "1,have sex with a temple prostitute",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "have sex with satyrs or nymphs",
+      "raw_text": "1,have sex with satyrs or nymphs",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "give pleasure to a [manwoman]",
+      "raw_text": "1,give pleasure to a [manwoman]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSexual",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "give pleasure to the woodland spirits",
+      "raw_text": "1,give pleasure to the woodland spirits",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "publicly pleasure oneself",
+      "raw_text": "1,publicly pleasure oneself",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "have sex with a virgin [boygirl]",
+      "raw_text": "1,have sex with a virgin [boygirl]",
+      "references": [
+        {
+          "raw": "[boygirl]",
+          "token": "boygirl",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSexual",
+          "target_page": "Rituals",
+          "target_subtable": "boygirl",
+          "target_qualified_name": "Rituals.boygirl"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "boygirl",
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteSexual\n1,have sex with a temple prostitute\n1,have sex with satyrs or nymphs\n1,give pleasure to a [manwoman]\n1,give pleasure to the woodland spirits\n1,publicly pleasure oneself\n1,have sex with a virgin [boygirl]",
+  "warnings": []
+}

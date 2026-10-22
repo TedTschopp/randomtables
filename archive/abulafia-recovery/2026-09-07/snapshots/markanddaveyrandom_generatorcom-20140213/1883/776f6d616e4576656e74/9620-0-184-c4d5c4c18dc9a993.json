@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "c4d5c4c18dc9a993a14afea845eec74bbf2caaf3007afee96ca77d6cef9ddc43",
+      "revisionId": "9620",
+      "line": 184,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "womanEvent",
+    "qualified_name": "Rituals.womanEvent",
+    "table_block_index": 0,
+    "line_number": 184
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "after a young woman's first menses",
+      "raw_text": "1,after a young woman's first menses",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when a woman is pregnant",
+      "raw_text": "1,when a woman is pregnant",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "after menopause",
+      "raw_text": "1,after menopause",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "after a woman gives birth to a [children]",
+      "raw_text": "1,after a woman gives birth to a [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "womanEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "after a woman escapes the Fire",
+      "raw_text": "1,after a woman escapes the Fire",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "on a [manwoman]'s [Dice.1d6][Dice.Digit]th birthday",
+      "raw_text": "1,on a [manwoman]'s [Dice.1d6][Dice.Digit]th birthday",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "womanEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[Dice.1d6]",
+          "token": "Dice.1d6",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "womanEvent",
+          "target_page": "Dice",
+          "target_subtable": "1d6",
+          "target_qualified_name": "Dice.1d6"
+        },
+        {
+          "raw": "[Dice.Digit]",
+          "token": "Dice.Digit",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "womanEvent",
+          "target_page": "Dice",
+          "target_subtable": "Digit",
+          "target_qualified_name": "Dice.Digit"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children",
+      "manwoman"
+    ],
+    "external_subtables": [
+      "Dice.1d6",
+      "Dice.Digit"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";womanEvent\n1,after a young woman's first menses\n1,when a woman is pregnant\n1,after menopause\n1,after a woman gives birth to a [children]\n1,after a woman escapes the Fire\n1,on a [manwoman]'s [Dice.1d6][Dice.Digit]th birthday",
+  "warnings": []
+}

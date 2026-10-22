@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "f71dbb151235344266c0819c28b93a75fc30d6a7b59c23918013f584ab97afed",
+      "revisionId": "9620",
+      "line": 192,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "initiationEvent",
+    "qualified_name": "Rituals.initiationEvent",
+    "table_block_index": 0,
+    "line_number": 192
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "when entering the priesthood",
+      "raw_text": "1,when entering the priesthood",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when becoming a warrior",
+      "raw_text": "1,when becoming a warrior",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when joining a particular vocation",
+      "raw_text": "1,when joining a particular vocation",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when entering as an apprentice",
+      "raw_text": "1,when entering as an apprentice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when joining a guild",
+      "raw_text": "1,when joining a guild",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when joining a secret society",
+      "raw_text": "1,when joining a secret society",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "at the completion of one's formal schooling",
+      "raw_text": "1,at the completion of one's formal schooling",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "when an [olderRelative] is bested in single combat",
+      "raw_text": "1,when an [olderRelative] is bested in single combat",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "initiationEvent",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "when someone from another village comes to live with us",
+      "raw_text": "1,when someone from another village comes to live with us",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";initiationEvent\n1,when entering the priesthood\n1,when becoming a warrior\n1,when joining a particular vocation\n1,when entering as an apprentice\n1,when joining a guild\n1,when joining a secret society\n1,at the completion of one's formal schooling\n1,when an [olderRelative] is bested in single combat\n1,when someone from another village comes to live with us",
+  "warnings": []
+}

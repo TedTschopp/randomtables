@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 16080,
+    "timestamp": "2012-12-06T14:56:03Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0b96ed0e6a468956639c34da77e9bef94b0d3d47a00fe12abfce0cc920fe12ca",
+      "rawSha256": "7ab0dc38dbfec7fd5b3b463b16e3df90bc8dcba4df29c4c1d4fa376743990bd7",
+      "revisionId": "16080",
+      "line": 221,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17456",
+        "timestamp": "2013-03-21T19:09:43Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "who",
+    "qualified_name": "Creepy Fantasy Villain.who",
+    "table_block_index": 0,
+    "line_number": 221
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "who",
+      "raw_text": "1,who",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "that",
+      "raw_text": "2,that",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "which",
+      "raw_text": "1,which",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";who\n1,who\n2,that\n1,which",
+  "warnings": []
+}

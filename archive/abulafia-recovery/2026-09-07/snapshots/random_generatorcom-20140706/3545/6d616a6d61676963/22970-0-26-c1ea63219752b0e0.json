@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22970,
+    "timestamp": "2014-06-11T05:46:40Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "74a29ed2ae661f9695639cd1083a8adb71a4df1956b93b6e3dc64f98e454f120",
+      "rawSha256": "c1ea63219752b0e0daf2eff172e99ceb1c2f729c78b77903f965f993d4462b40",
+      "revisionId": "22970",
+      "line": 26,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "majmagic",
+    "qualified_name": "OSR weapon.majmagic",
+    "table_block_index": 0,
+    "line_number": 26
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[names], a [weapon2]",
+      "raw_text": "1,[names], a [weapon2]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "majmagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[weapon2]",
+          "token": "weapon2",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "majmagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapon2",
+          "target_qualified_name": "OSR weapon.weapon2"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Armour +2",
+      "raw_text": "1,Armour +2",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "+3 Missile Weapon",
+      "raw_text": "1,+3 Missile Weapon",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "+3 Shield\n+3 Armour",
+      "raw_text": "1,+3 Shield\n+3 Armour",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names",
+      "weapon2"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";majmagic\n1,[names], a [weapon2]\n1,Armour +2\n1,+3 Missile Weapon\n1,+3 Shield\n+3 Armour",
+  "warnings": []
+}

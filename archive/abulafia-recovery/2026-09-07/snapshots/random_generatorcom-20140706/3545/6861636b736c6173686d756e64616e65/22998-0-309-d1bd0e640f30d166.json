@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22998,
+    "timestamp": "2014-06-11T07:33:18Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "2f3186da3f27c4547c3cdc73435b6ec096c6efd6e40ffa64c32babed5d77d657",
+      "rawSha256": "d1bd0e640f30d1668a9ad7e8625dfc62b8b5cb5dccf89ab50086e609b0715f1b",
+      "revisionId": "22998",
+      "line": 309,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hackslashmundane",
+    "qualified_name": "OSR weapon.hackslashmundane",
+    "table_block_index": 0,
+    "line_number": 309
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Defeat opposed alignment",
+      "raw_text": "1,Defeat opposed alignment",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Defeat Good",
+      "raw_text": "1,Defeat Good",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Defeat Evil",
+      "raw_text": "1,Defeat Evil",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Defeat Law",
+      "raw_text": "1,Defeat Law",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Defeat Chaos",
+      "raw_text": "1,Defeat Chaos",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Defeat Neutrality",
+      "raw_text": "1,Defeat Neutrality",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Slay Clerics",
+      "raw_text": "1,Slay Clerics",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Slay Druids",
+      "raw_text": "1,Slay Druids",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Slay Shamans",
+      "raw_text": "1,Slay Shamans",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Slay Paladins",
+      "raw_text": "1,Slay Paladins",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Slay Monks",
+      "raw_text": "1,Slay Monks",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Slay Fighters",
+      "raw_text": "1,Slay Fighters",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Slay Rangers",
+      "raw_text": "1,Slay Rangers",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Slay Barbarians",
+      "raw_text": "1,Slay Barbarians",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Slay all warriors",
+      "raw_text": "1,Slay all warriors",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Slay Wizards",
+      "raw_text": "1,Slay Wizards",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Slay Magic Wielders",
+      "raw_text": "1,Slay Magic Wielders",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Slay Thieves",
+      "raw_text": "1,Slay Thieves",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Slay Bards",
+      "raw_text": "1,Slay Bards",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Slay all Rogues",
+      "raw_text": "1,Slay all Rogues",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Slay Devas (movanic, monadic and astral)",
+      "raw_text": "1,Slay Devas (movanic, monadic and astral)",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Slay Planetars",
+      "raw_text": "1,Slay Planetars",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Slay Solars",
+      "raw_text": "1,Slay Solars",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Slay Devils",
+      "raw_text": "1,Slay Devils",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Slay Demons",
+      "raw_text": "1,Slay Demons",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Slay Daemons",
+      "raw_text": "1,Slay Daemons",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Slay all Celestial Beings",
+      "raw_text": "1,Slay all Celestial Beings",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Slay all Demonic Beings",
+      "raw_text": "1,Slay all Demonic Beings",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Slay Neutral Outsiders",
+      "raw_text": "1,Slay Neutral Outsiders",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Slay all Ousiders",
+      "raw_text": "1,Slay all Ousiders",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Slay Dragons",
+      "raw_text": "1,Slay Dragons",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Slay Avians",
+      "raw_text": "1,Slay Avians",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Slay Reptiles",
+      "raw_text": "1,Slay Reptiles",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Slay Amphibians",
+      "raw_text": "1,Slay Amphibians",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Slay Fae",
+      "raw_text": "1,Slay Fae",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Slay Giants",
+      "raw_text": "1,Slay Giants",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Slay Non-humanoid Monsters",
+      "raw_text": "1,Slay Non-humanoid Monsters",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Slay Humans",
+      "raw_text": "1,Slay Humans",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Slay Elves",
+      "raw_text": "1,Slay Elves",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Slay Dwarves",
+      "raw_text": "1,Slay Dwarves",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Slay Gnomes",
+      "raw_text": "1,Slay Gnomes",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Slay Goblins",
+      "raw_text": "1,Slay Goblins",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Slay Orcs",
+      "raw_text": "1,Slay Orcs",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Slay Gnolls",
+      "raw_text": "1,Slay Gnolls",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Slay Hobgoblins",
+      "raw_text": "1,Slay Hobgoblins",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Slay Vermin",
+      "raw_text": "1,Slay Vermin",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Slay Undead",
+      "raw_text": "1,Slay Undead",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Slay Golems",
+      "raw_text": "1,Slay Golems",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Slay a Famous Monster",
+      "raw_text": "1,Slay a Famous Monster",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Slay Demi-humans",
+      "raw_text": "1,Slay Demi-humans",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";hackslashmundane\n1,Defeat opposed alignment\n1,Defeat Good\n1,Defeat Evil\n1,Defeat Law\n1,Defeat Chaos\n1,Defeat Neutrality\n1,Slay Clerics\n1,Slay Druids\n1,Slay Shamans\n1,Slay Paladins\n1,Slay Monks\n1,Slay Fighters\n1,Slay Rangers\n1,Slay Barbarians\n1,Slay all warriors\n1,Slay Wizards\n1,Slay Magic Wielders\n1,Slay Thieves\n1,Slay Bards\n1,Slay all Rogues\n1,Slay Devas (movanic, monadic and astral)\n1,Slay Planetars\n1,Slay Solars\n1,Slay Devils\n1,Slay Demons\n1,Slay Daemons\n1,Slay all Celestial Beings\n1,Slay all Demonic Beings\n1,Slay Neutral Outsiders\n1,Slay all Ousiders\n1,Slay Dragons\n1,Slay Avians\n1,Slay Reptiles\n1,Slay Amphibians\n1,Slay Fae\n1,Slay Giants\n1,Slay Non-humanoid Monsters\n1,Slay Humans\n1,Slay Elves\n1,Slay Dwarves\n1,Slay Gnomes\n1,Slay Goblins\n1,Slay Orcs\n1,Slay Gnolls\n1,Slay Hobgoblins\n1,Slay Vermin\n1,Slay Undead\n1,Slay Golems\n1,Slay a Famous Monster\n1,Slay Demi-humans",
+  "warnings": []
+}

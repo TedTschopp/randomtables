@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 14076,
+    "timestamp": "2012-03-17T16:23:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "eec4abcedea7cb566c19f45f3620482021bea5141b749f44accaa35431dc8279",
+      "rawSha256": "309b1db93a704ccfa967b44aa00ea08fd6e43731ae613e2ceebb07b338867b82",
+      "revisionId": "14076",
+      "line": 92,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "animal-person",
+    "qualified_name": "Quick Populations.animal-person",
+    "table_block_index": 0,
+    "line_number": 92
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[animal]-headed [race]",
+      "raw_text": "1,[animal]-headed [race]",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        },
+        {
+          "raw": "[race]",
+          "token": "race",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Populations.race"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[animal]-spirit",
+      "raw_text": "1,[animal]-spirit",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[animal]-rider",
+      "raw_text": "1,[animal]-rider",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[animal]-keeper",
+      "raw_text": "1,[animal]-keeper",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[animal]-man",
+      "raw_text": "1,[animal]-man",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[animal]-woman",
+      "raw_text": "1,[animal]-woman",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "centaur",
+      "raw_text": "1,centaur",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "centaur ([animal])",
+      "raw_text": "1,centaur ([animal])",
+      "references": [
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal-person",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Populations.animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "animal",
+      "race"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";animal-person\n1,[animal]-headed [race]\n1,[animal]-spirit\n1,[animal]-rider\n1,[animal]-keeper\n1,[animal]-man\n1,[animal]-woman\n1,centaur\n1,centaur ([animal])",
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16878,
+    "timestamp": "2013-02-12T01:04:17Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a887898b363f52aa7ab8fd9616b299826be1ba01a160f51e1be70689ef1c5756",
+      "rawSha256": "d7e3fd2db521e7ca9ca8e20976233a5c5547b51533231de2406ea7b868235d05",
+      "revisionId": "16878",
+      "line": 9,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "featuress",
+    "qualified_name": "Planar Codex Parish.featuress",
+    "table_block_index": 0,
+    "line_number": 9
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "It is known for its [feature-descriptor] [feature-name]",
+      "raw_text": "1,It is known for its [feature-descriptor] [feature-name]",
+      "references": [
+        {
+          "raw": "[feature-descriptor]",
+          "token": "feature-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "featuress",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "feature-descriptor",
+          "target_qualified_name": "Planar Codex Parish.feature-descriptor"
+        },
+        {
+          "raw": "[feature-name]",
+          "token": "feature-name",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "featuress",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "feature-name",
+          "target_qualified_name": "Planar Codex Parish.feature-name"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "feature-descriptor",
+      "feature-name"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";featuress\n1,It is known for its [feature-descriptor] [feature-name]",
+  "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "e80fcad773bcb402bd569c43c17b6c524d168c5e45404ff9ad7fe7f0c34aaecb",
+      "revisionId": "22354",
+      "line": 224,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "specifically guard",
+    "qualified_name": "Guards.specifically guard",
+    "table_block_index": 0,
+    "line_number": 224
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "are bound to protect",
+      "raw_text": "1,are bound to protect",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "jealously guard",
+      "raw_text": "1,jealously guard",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "surround",
+      "raw_text": "1,surround",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "are the guardians of",
+      "raw_text": "1,are the guardians of",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "keep sacred",
+      "raw_text": "1,keep sacred",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";specifically guard\n1,are bound to protect\n1,jealously guard\n1,surround\n1,are the guardians of\n1,keep sacred",
+  "warnings": []
+}

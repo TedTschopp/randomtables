@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4614,
+    "timestamp": "2007-11-27T02:53:24Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "32e84a9640f621204c3dccdf1d3c17c4b7d7bfa16c0a3a61dbb7c89b2fa8f5f8",
+      "rawSha256": "0ad741c0b279b3edf1d78deb301aa7d93733f531b8de88dfef8b8530eddd0406",
+      "revisionId": "4614",
+      "line": 140,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "punishmentEvent",
+    "qualified_name": "Rituals.punishmentEvent",
+    "table_block_index": 0,
+    "line_number": 140
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "after a murderer is executed",
+      "raw_text": "1,after a murderer is executed",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when a person is exiled",
+      "raw_text": "1,when a person is exiled",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when reconciling feuding families",
+      "raw_text": "1,when reconciling feuding families",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when a person must be 'shunned'",
+      "raw_text": "1,when a person must be 'shunned'",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when disinheriting a [children]",
+      "raw_text": "1,when disinheriting a [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "punishmentEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";punishmentEvent\n1,after a murderer is executed\n1,when a person is exiled\n1,when reconciling feuding families\n1,when a person must be 'shunned'\n1,when disinheriting a [children]",
+  "warnings": []
+}

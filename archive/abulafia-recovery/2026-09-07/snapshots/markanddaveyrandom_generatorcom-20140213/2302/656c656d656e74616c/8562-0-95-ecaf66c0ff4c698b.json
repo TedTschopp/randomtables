@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8562,
+    "timestamp": "2009-04-06T08:36:38Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "72753862f07c528f1dace016f5f85b920aa6dbc0b9c72f63a3273f949175f58f",
+      "rawSha256": "ecaf66c0ff4c698bed61058dde3c97779983c22b904566dfa3621a19d2e31d48",
+      "revisionId": "8562",
+      "line": 95,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "elemental",
+    "qualified_name": "Quick and Dirty Supers Concepts.elemental",
+    "table_block_index": 0,
+    "line_number": 95
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Elemental - Air",
+      "raw_text": "1, Elemental - Air",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Elemental - Earth",
+      "raw_text": "1, Elemental - Earth",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Elemental - Fire",
+      "raw_text": "1, Elemental - Fire",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Elemental - Water",
+      "raw_text": "1, Elemental - Water",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Elemental - Plant",
+      "raw_text": "1, Elemental - Plant",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";elemental\n1, Elemental - Air\n1, Elemental - Earth\n1, Elemental - Fire\n1, Elemental - Water\n1, Elemental - Plant",
+  "warnings": []
+}

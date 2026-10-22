@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "45cd35866ed129e57fc52e3ea4df04d72ddadded9033fdd9e1f0e9ab4de19173",
+      "revisionId": "22354",
+      "line": 113,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "meteor",
+    "qualified_name": "Guards.meteor",
+    "table_block_index": 0,
+    "line_number": 113
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "meteor",
+      "raw_text": "1,meteor",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "thunder",
+      "raw_text": "1,thunder",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "ice",
+      "raw_text": "1,ice",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "blade",
+      "raw_text": "1,blade",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "knife",
+      "raw_text": "1,knife",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "axe",
+      "raw_text": "1,axe",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Village.weird]",
+      "raw_text": "1,[Village.weird]",
+      "references": [
+        {
+          "raw": "[Village.weird]",
+          "token": "Village.weird",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "meteor",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Village.weird"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";meteor\n1,meteor\n1,thunder\n1,ice\n1,blade\n1,knife\n1,axe\n1,[Village.weird]",
+  "warnings": []
+}

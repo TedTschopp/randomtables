@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Brennall",
+    "page_id": 3308
+  },
+  "source": {
+    "revision_id": 18939,
+    "timestamp": "2013-10-02T21:04:20Z",
+    "contributor": {
+      "name": "Brennall",
+      "id": 1795,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "29e28e652500505a23ea2663610e94554acfb3cdee994d7bf5e9ee9fdef3fe91",
+      "rawSha256": "38acb67c5d255bd9575552026e4ccb7ec05b797f82b0539dd7437800f2a4bd2f",
+      "revisionId": "18939",
+      "line": 13,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "18939",
+        "timestamp": "2013-10-02T21:04:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Names",
+    "qualified_name": "User:Brennall.Names",
+    "table_block_index": 0,
+    "line_number": 13
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "St. [Catholic Saint Names.main]",
+      "raw_text": "3,St. [Catholic Saint Names.main]",
+      "references": [
+        {
+          "raw": "[Catholic Saint Names.main]",
+          "token": "Catholic Saint Names.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "Catholic Saint Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Catholic Saint Names.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[Orc Tribe Name.main]",
+      "raw_text": "2,[Orc Tribe Name.main]",
+      "references": [
+        {
+          "raw": "[Orc Tribe Name.main]",
+          "token": "Orc Tribe Name.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "Orc Tribe Name",
+          "target_subtable": "main",
+          "target_qualified_name": "Orc Tribe Name.main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Fantasy Town Names.main]",
+      "raw_text": "1,[Fantasy Town Names.main]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Names.main]",
+          "token": "Fantasy Town Names.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "Fantasy Town Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Town Names.main"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Fantasy Place Name.main]",
+      "raw_text": "1,[Fantasy Place Name.main]",
+      "references": [
+        {
+          "raw": "[Fantasy Place Name.main]",
+          "token": "Fantasy Place Name.main",
+          "kind": "unresolved_cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "Fantasy Place Name",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Place Name.main"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "[NorthlanderMale.main]",
+      "raw_text": "3,[NorthlanderMale.main]",
+      "references": [
+        {
+          "raw": "[NorthlanderMale.main]",
+          "token": "NorthlanderMale.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "NorthlanderMale",
+          "target_subtable": "main",
+          "target_qualified_name": "NorthlanderMale.main"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "[NorthlanderFemale.main]",
+      "raw_text": "2,[NorthlanderFemale.main]",
+      "references": [
+        {
+          "raw": "[NorthlanderFemale.main]",
+          "token": "NorthlanderFemale.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "NorthlanderFemale",
+          "target_subtable": "main",
+          "target_qualified_name": "NorthlanderFemale.main"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "[ScottishMale.main]",
+      "raw_text": "3,[ScottishMale.main]",
+      "references": [
+        {
+          "raw": "[ScottishMale.main]",
+          "token": "ScottishMale.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "ScottishMale",
+          "target_subtable": "main",
+          "target_qualified_name": "ScottishMale.main"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "[ScottishFemale.main]",
+      "raw_text": "2,[ScottishFemale.main]",
+      "references": [
+        {
+          "raw": "[ScottishFemale.main]",
+          "token": "ScottishFemale.main",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "ScottishFemale",
+          "target_subtable": "main",
+          "target_qualified_name": "ScottishFemale.main"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "[Letters (uppercase).normal]. [American Surnames.surname]",
+      "raw_text": "3,[Letters (uppercase).normal]. [American Surnames.surname]",
+      "references": [
+        {
+          "raw": "[Letters (uppercase).normal]",
+          "token": "Letters (uppercase).normal",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "Letters (uppercase)",
+          "target_subtable": "normal",
+          "target_qualified_name": "Letters (uppercase).normal"
+        },
+        {
+          "raw": "[American Surnames.surname]",
+          "token": "American Surnames.surname",
+          "kind": "cross_page",
+          "source_page": "User:Brennall",
+          "source_subtable": "Names",
+          "target_page": "American Surnames",
+          "target_subtable": "surname",
+          "target_qualified_name": "American Surnames.surname"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "American Surnames.surname",
+      "Catholic Saint Names.main",
+      "Fantasy Town Names.main",
+      "Letters (uppercase).normal",
+      "NorthlanderFemale.main",
+      "NorthlanderMale.main",
+      "Orc Tribe Name.main",
+      "ScottishFemale.main",
+      "ScottishMale.main"
+    ],
+    "unresolved": [
+      "Fantasy Place Name.main"
+    ]
+  },
+  "raw_source": ";Names\n3,St. [Catholic Saint Names.main]\n2,[Orc Tribe Name.main]\n1,[Fantasy Town Names.main]\n1,[Fantasy Place Name.main]\n3,[NorthlanderMale.main]\n2,[NorthlanderFemale.main]\n3,[ScottishMale.main]\n2,[ScottishFemale.main]\n3,[Letters (uppercase).normal]. [American Surnames.surname]",
+  "warnings": []
+}

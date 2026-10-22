@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "7b449b0fca61f8f387a97c879bd3757a61f5fc9a297017f2a49a6a3cc68d8d12",
+      "revisionId": "22354",
+      "line": 214,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "do stuff",
+    "qualified_name": "Guards.do stuff",
+    "table_block_index": 0,
+    "line_number": 214
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "have a [ninja] [disarming attack]",
+      "raw_text": "1,have a [ninja] [disarming attack]",
+      "references": [
+        {
+          "raw": "[ninja]",
+          "token": "ninja",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "ninja",
+          "target_qualified_name": "Guards.ninja"
+        },
+        {
+          "raw": "[disarming attack]",
+          "token": "disarming attack",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "disarming attack",
+          "target_qualified_name": "Guards.disarming attack"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "can breathe out a [Dragon description.breathtype] of [Dragon description.breath]",
+      "raw_text": "1,can breathe out a [Dragon description.breathtype] of [Dragon description.breath]",
+      "references": [
+        {
+          "raw": "[Dragon description.breathtype]",
+          "token": "Dragon description.breathtype",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Dragon description",
+          "target_subtable": "breathtype",
+          "target_qualified_name": "Dragon description.breathtype"
+        },
+        {
+          "raw": "[Dragon description.breath]",
+          "token": "Dragon description.breath",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Dragon description",
+          "target_subtable": "breath",
+          "target_qualified_name": "Dragon description.breath"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "are devoted to [virtue]",
+      "raw_text": "1,are devoted to [virtue]",
+      "references": [
+        {
+          "raw": "[virtue]",
+          "token": "virtue",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "virtue",
+          "target_qualified_name": "Guards.virtue"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "hate [Quick Zone Populations.hated]",
+      "raw_text": "1,hate [Quick Zone Populations.hated]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.hated]",
+          "token": "Quick Zone Populations.hated",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "hated",
+          "target_qualified_name": "Quick Zone Populations.hated"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "respect [Quick Zone Populations.hated]",
+      "raw_text": "1,respect [Quick Zone Populations.hated]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.hated]",
+          "token": "Quick Zone Populations.hated",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "hated",
+          "target_qualified_name": "Quick Zone Populations.hated"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "talk to each other using [Dungeon Overview.nonverbal]",
+      "raw_text": "1,talk to each other using [Dungeon Overview.nonverbal]",
+      "references": [
+        {
+          "raw": "[Dungeon Overview.nonverbal]",
+          "token": "Dungeon Overview.nonverbal",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Dungeon Overview",
+          "target_subtable": "nonverbal",
+          "target_qualified_name": "Dungeon Overview.nonverbal"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "are only active [time]",
+      "raw_text": "1,are only active [time]",
+      "references": [
+        {
+          "raw": "[time]",
+          "token": "time",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "time",
+          "target_qualified_name": "Guards.time"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[specifically guard] [something cool]",
+      "raw_text": "1,[specifically guard] [something cool]",
+      "references": [
+        {
+          "raw": "[specifically guard]",
+          "token": "specifically guard",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "specifically guard",
+          "target_qualified_name": "Guards.specifically guard"
+        },
+        {
+          "raw": "[something cool]",
+          "token": "something cool",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "do stuff",
+          "target_page": "Guards",
+          "target_subtable": "something cool",
+          "target_qualified_name": "Guards.something cool"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "disarming attack",
+      "ninja",
+      "something cool",
+      "specifically guard",
+      "time",
+      "virtue"
+    ],
+    "external_subtables": [
+      "Dragon description.breath",
+      "Dragon description.breathtype",
+      "Dungeon Overview.nonverbal",
+      "Quick Zone Populations.hated"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";do stuff\n1,have a [ninja] [disarming attack]\n1,can breathe out a [Dragon description.breathtype] of [Dragon description.breath]\n1,are devoted to [virtue]\n1,hate [Quick Zone Populations.hated]\n1,respect [Quick Zone Populations.hated]\n1,talk to each other using [Dungeon Overview.nonverbal]\n1,are only active [time]\n1,[specifically guard] [something cool]",
+  "warnings": []
+}

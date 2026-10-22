@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14836,
+    "timestamp": "2012-06-24T17:02:37Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "875b7c6e1e1f341c5f7e5b876f8e9971976749b3be93ac006589dd4e0c4fb22a",
+      "rawSha256": "ce59980e4d72586194f55d7f5f103ba67f1eb52597fc9882936bec855a9d8e24",
+      "revisionId": "14836",
+      "line": 108,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "someone",
+    "qualified_name": "Village.someone",
+    "table_block_index": 0,
+    "line_number": 108
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "man",
+      "raw_text": "1,man",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "woman",
+      "raw_text": "1,woman",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "child",
+      "raw_text": "1,child",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";someone\n1,man\n1,woman\n1,child",
+  "warnings": []
+}

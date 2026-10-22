@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "5c67aaa7c0131382023ee64782e4eddcfeeb569f875add70add57c412538c767",
+      "revisionId": "23470",
+      "line": 161,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "curser",
+    "qualified_name": "Village.curser",
+    "table_block_index": 0,
+    "line_number": 161
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "witch",
+      "raw_text": "1,witch",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "ghost",
+      "raw_text": "1,ghost",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "wizard",
+      "raw_text": "1,wizard",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";curser\n1,witch\n1,ghost\n1,wizard",
+  "warnings": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14759,
+    "timestamp": "2012-06-20T11:19:00Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7076e4daa063bde166f4e1c35fc3b074f9821c343303e0448acc0b9dfb27f5fa",
+      "rawSha256": "e482571fc2d2b4b956d0336f305519df8766b160762f722a4b73da95fe9f0b4a",
+      "revisionId": "14759",
+      "line": 20,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "special-mount-quirk",
+    "qualified_name": "Ostler.special-mount-quirk",
+    "table_block_index": 0,
+    "line_number": 20
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[pre-adj-weird] [mount-weird] who [quirk]",
+      "raw_text": "1,[pre-adj-weird] [mount-weird] who [quirk]",
+      "references": [
+        {
+          "raw": "[pre-adj-weird]",
+          "token": "pre-adj-weird",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "special-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "pre-adj-weird",
+          "target_qualified_name": "Ostler.pre-adj-weird"
+        },
+        {
+          "raw": "[mount-weird]",
+          "token": "mount-weird",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "special-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "mount-weird",
+          "target_qualified_name": "Ostler.mount-weird"
+        },
+        {
+          "raw": "[quirk]",
+          "token": "quirk",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "special-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "quirk",
+          "target_qualified_name": "Ostler.quirk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "mount-weird",
+      "pre-adj-weird",
+      "quirk"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";special-mount-quirk\n1,[pre-adj-weird] [mount-weird] who [quirk]",
+  "warnings": []
+}

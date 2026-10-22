@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "e63f548ec6da387354e7e0601ee4e780469287b8ebe3dd28281a893b9b6b0314",
+      "revisionId": "10367",
+      "line": 170,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Bag",
+    "qualified_name": "Pickpocket.Bag",
+    "table_block_index": 0,
+    "line_number": 170
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bag",
+      "raw_text": "1,bag",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "backpack",
+      "raw_text": "1,backpack",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "apothecarie's bag",
+      "raw_text": "1,apothecarie's bag",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "duffel",
+      "raw_text": "1,duffel",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "haversack",
+      "raw_text": "1,haversack",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "knapsack",
+      "raw_text": "1,knapsack",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pouch",
+      "raw_text": "1,pouch",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "sack",
+      "raw_text": "1,sack",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "tote",
+      "raw_text": "1,tote",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "box",
+      "raw_text": "1,box",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "purse",
+      "raw_text": "1,purse",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "reticule",
+      "raw_text": "1,reticule",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "saddlebag",
+      "raw_text": "1,saddlebag",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "satchel",
+      "raw_text": "1,satchel",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "case",
+      "raw_text": "1,case",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Bag\n1,bag\n1,backpack\n1,apothecarie's bag\n1,duffel\n1,haversack\n1,knapsack\n1,pouch\n1,sack\n1,tote\n1,box\n1,purse\n1,reticule\n1,saddlebag\n1,satchel\n1,case",
+  "warnings": []
+}

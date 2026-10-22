@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14754,
+    "timestamp": "2012-06-20T11:07:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a4fcba8503b21abf335fb023058b13da48dddb955fac1a1bf7261d926481d3da",
+      "rawSha256": "2840fd3517d00f72c74291c0a21df6900f9bc0a0035ad2cc3eadfd1db88cff90",
+      "revisionId": "14754",
+      "line": 11,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "special-mounts",
+    "qualified_name": "Ostler.special-mounts",
+    "table_block_index": 0,
+    "line_number": 11
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[pre-adj] [mounts]",
+      "raw_text": "1,[pre-adj] [mounts]",
+      "references": [
+        {
+          "raw": "[pre-adj]",
+          "token": "pre-adj",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "special-mounts",
+          "target_page": "Ostler",
+          "target_subtable": "pre-adj",
+          "target_qualified_name": "Ostler.pre-adj"
+        },
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "special-mounts",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "mounts",
+      "pre-adj"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";special-mounts\n1,[pre-adj] [mounts]",
+  "warnings": []
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "9b49b082713aa84e546fc02c5fc6e0ab58554f384bc325f086b8581fae68365c",
+      "revisionId": "23298",
+      "line": 155,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rare spell",
+    "qualified_name": "Blazon.rare spell",
+    "table_block_index": 0,
+    "line_number": 155
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 6,
+      "text": "[Rare Spells.LevelOne]",
+      "raw_text": "6,[Rare Spells.LevelOne]",
+      "references": [
+        {
+          "raw": "[Rare Spells.LevelOne]",
+          "token": "Rare Spells.LevelOne",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "LevelOne",
+          "target_qualified_name": "Rare Spells.LevelOne"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[Rare Spells.LevelTwo]",
+      "raw_text": "5,[Rare Spells.LevelTwo]",
+      "references": [
+        {
+          "raw": "[Rare Spells.LevelTwo]",
+          "token": "Rare Spells.LevelTwo",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "LevelTwo",
+          "target_qualified_name": "Rare Spells.LevelTwo"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "[Rare Spells.LevelThree]",
+      "raw_text": "4,[Rare Spells.LevelThree]",
+      "references": [
+        {
+          "raw": "[Rare Spells.LevelThree]",
+          "token": "Rare Spells.LevelThree",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "LevelThree",
+          "target_qualified_name": "Rare Spells.LevelThree"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "[Rare Spells.clericOne]",
+      "raw_text": "3,[Rare Spells.clericOne]",
+      "references": [
+        {
+          "raw": "[Rare Spells.clericOne]",
+          "token": "Rare Spells.clericOne",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "clericOne",
+          "target_qualified_name": "Rare Spells.clericOne"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[Rare Spells.clericTwo]",
+      "raw_text": "2,[Rare Spells.clericTwo]",
+      "references": [
+        {
+          "raw": "[Rare Spells.clericTwo]",
+          "token": "Rare Spells.clericTwo",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "clericTwo",
+          "target_qualified_name": "Rare Spells.clericTwo"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[Rare Spells.clericThree]",
+      "raw_text": "1,[Rare Spells.clericThree]",
+      "references": [
+        {
+          "raw": "[Rare Spells.clericThree]",
+          "token": "Rare Spells.clericThree",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "rare spell",
+          "target_page": "Rare Spells",
+          "target_subtable": "clericThree",
+          "target_qualified_name": "Rare Spells.clericThree"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Rare Spells.LevelOne",
+      "Rare Spells.LevelThree",
+      "Rare Spells.LevelTwo",
+      "Rare Spells.clericOne",
+      "Rare Spells.clericThree",
+      "Rare Spells.clericTwo"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";rare spell\n6,[Rare Spells.LevelOne]\n5,[Rare Spells.LevelTwo]\n4,[Rare Spells.LevelThree]\n3,[Rare Spells.clericOne]\n2,[Rare Spells.clericTwo]\n1,[Rare Spells.clericThree]",
+  "warnings": []
+}

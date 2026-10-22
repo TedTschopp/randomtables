@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "a6a98398d4fc67998bf92b8d375ab162206ddd3d5a1947c52330216e3f8b1de6",
+      "revisionId": "23470",
+      "line": 194,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weird",
+    "qualified_name": "Village.weird",
+    "table_block_index": 0,
+    "line_number": 194
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "fish",
+      "raw_text": "1,fish",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "bug",
+      "raw_text": "1,bug",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "egg",
+      "raw_text": "1,egg",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "fungus",
+      "raw_text": "1,fungus",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "glass",
+      "raw_text": "1,glass",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "slime",
+      "raw_text": "1,slime",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "poison",
+      "raw_text": "1,poison",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "soul",
+      "raw_text": "1,soul",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "acid",
+      "raw_text": "1,acid",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "salt",
+      "raw_text": "1,salt",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "crystal",
+      "raw_text": "1,crystal",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "clock",
+      "raw_text": "1,clock",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "vapor",
+      "raw_text": "1,vapor",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "sex",
+      "raw_text": "1,sex",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "dream",
+      "raw_text": "1,dream",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "sleep",
+      "raw_text": "1,sleep",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "imaginary",
+      "raw_text": "1,imaginary",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "blood",
+      "raw_text": "1,blood",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "flesh",
+      "raw_text": "1,flesh",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "bone",
+      "raw_text": "1,bone",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "bile",
+      "raw_text": "1,bile",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "ash",
+      "raw_text": "1,ash",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "head",
+      "raw_text": "1,head",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "tentacle",
+      "raw_text": "1,tentacle",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "trash",
+      "raw_text": "1,trash",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "time",
+      "raw_text": "1,time",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "space",
+      "raw_text": "1,space",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "quantum",
+      "raw_text": "1,quantum",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "cosmic",
+      "raw_text": "1,cosmic",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "galactic",
+      "raw_text": "1,galactic",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "extradimensional",
+      "raw_text": "1,extradimensional",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "geometric",
+      "raw_text": "1,geometric",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "geodesic",
+      "raw_text": "1,geodesic",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "non-euclidian",
+      "raw_text": "1,non-euclidian",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "crime",
+      "raw_text": "1,crime",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "neon",
+      "raw_text": "1,neon",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "rhyme",
+      "raw_text": "1,rhyme",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "bubble",
+      "raw_text": "1,bubble",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "silicon",
+      "raw_text": "1,silicon",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 10,
+      "text": "[weird]-punk",
+      "raw_text": "10,[weird]-punk",
+      "references": [
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "weird",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "weird"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weird\n1,fish\n1,bug\n1,egg\n1,fungus\n1,glass\n1,slime\n1,poison\n1,soul\n1,acid\n1,salt\n1,crystal\n1,clock\n1,vapor\n1,sex\n1,dream\n1,sleep\n1,imaginary\n1,blood\n1,flesh\n1,bone\n1,bile\n1,ash\n1,head\n1,tentacle\n1,trash\n1,time\n1,space\n1,quantum\n1,cosmic\n1,galactic\n1,extradimensional\n1,geometric\n1,geodesic\n1,non-euclidian\n1,crime\n1,neon\n1,rhyme\n1,bubble\n1,silicon\n10,[weird]-punk",
+  "warnings": []
+}

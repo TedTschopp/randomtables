@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "e4dc294796b8b803ae98845cd9f5c1db86ee2d85a96008e2aadf74b5d8e77cdc",
+      "revisionId": "1643",
+      "line": 393,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "IntrigueCrime",
+    "qualified_name": "Pickpocket.IntrigueCrime",
+    "table_block_index": 0,
+    "line_number": 393
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 20,
+      "text": "lockpicks",
+      "raw_text": "20,lockpicks",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 15,
+      "text": "a vial of poison",
+      "raw_text": "15,a vial of poison",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 15,
+      "text": "a crumpled wanted poster",
+      "raw_text": "15,a crumpled wanted poster",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 10,
+      "text": "a pair of manacles",
+      "raw_text": "10,a pair of manacles",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 10,
+      "text": "a garrotte wire",
+      "raw_text": "10,a garrotte wire",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 5,
+      "text": "a detailed floor plan of a military stronghold",
+      "raw_text": "5,a detailed floor plan of a military stronghold",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 5,
+      "text": "a detailed floor plan of a prison",
+      "raw_text": "5,a detailed floor plan of a prison",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 5,
+      "text": "a detailed floor plan of a noble manor",
+      "raw_text": "5,a detailed floor plan of a noble manor",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 5,
+      "text": "several vials of rare poison",
+      "raw_text": "5,several vials of rare poison",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 5,
+      "text": "a valuable (stolen) piece of jewelry",
+      "raw_text": "5,a valuable (stolen) piece of jewelry",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 5,
+      "text": "a stolen treasure map",
+      "raw_text": "5,a stolen treasure map",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a severed head",
+      "raw_text": "1,a severed head",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a doomsday device",
+      "raw_text": "1,a doomsday device",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";IntrigueCrime\n20,lockpicks\n15,a vial of poison\n15,a crumpled wanted poster\n10,a pair of manacles\n10,a garrotte wire\n5,a detailed floor plan of a military stronghold\n5,a detailed floor plan of a prison\n5,a detailed floor plan of a noble manor\n5,several vials of rare poison\n5,a valuable (stolen) piece of jewelry\n5,a stolen treasure map\n1,a severed head\n1,a doomsday device",
+  "warnings": []
+}

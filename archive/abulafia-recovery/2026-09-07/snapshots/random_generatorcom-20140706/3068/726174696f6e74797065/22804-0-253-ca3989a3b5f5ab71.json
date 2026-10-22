@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "ca3989a3b5f5ab71f2a6d11fbb551ca67d493a333b1a8fd7b60f59fac9940a91",
+      "revisionId": "22804",
+      "line": 253,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rationtype",
+    "qualified_name": "Starting Equipment.rationtype",
+    "table_block_index": 0,
+    "line_number": 253
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "greasy",
+      "raw_text": "1,greasy ",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "salted",
+      "raw_text": "1,salted ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "bland",
+      "raw_text": "1,bland ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "sweetened",
+      "raw_text": "1,sweetened ",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "sour",
+      "raw_text": "1,sour ",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "peppered",
+      "raw_text": "1,peppered ",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "vile",
+      "raw_text": "1,vile ",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";rationtype\n10,\n1,greasy \n1,salted \n1,bland \n1,sweetened \n1,sour \n1,peppered \n1,vile ",
+  "warnings": []
+}

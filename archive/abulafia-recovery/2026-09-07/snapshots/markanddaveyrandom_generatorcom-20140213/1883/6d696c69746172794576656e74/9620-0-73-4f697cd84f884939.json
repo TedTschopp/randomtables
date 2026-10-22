@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "4f697cd84f884939a9a45cb68fbdacb44ad1d04366e51d051f0649698f591f6e",
+      "revisionId": "9620",
+      "line": 73,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "militaryEvent",
+    "qualified_name": "Rituals.militaryEvent",
+    "table_block_index": 0,
+    "line_number": 73
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "when preparing for battle",
+      "raw_text": "1,when preparing for battle",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when victorious in battle",
+      "raw_text": "1,when victorious in battle",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when dishonored in battle",
+      "raw_text": "1,when dishonored in battle",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when a treaty is signed",
+      "raw_text": "1,when a treaty is signed",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when a conquered army surrenders their arms",
+      "raw_text": "1,when a conquered army surrenders their arms",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when a new military rank is achieved",
+      "raw_text": "1,when a new military rank is achieved",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "when an enemy appears",
+      "raw_text": "1,when an enemy appears",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "when the enemy sounds fearful horns",
+      "raw_text": "1,when the enemy sounds fearful horns",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "when accepting the surrender of a defeated enemy",
+      "raw_text": "1,when accepting the surrender of a defeated enemy",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "after retreating from battle",
+      "raw_text": "1,after retreating from battle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "when enlisting with the army",
+      "raw_text": "1,when enlisting with the army",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "when completing military service",
+      "raw_text": "1,when completing military service",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";militaryEvent\n1,when preparing for battle\n1,when victorious in battle\n1,when dishonored in battle\n1,when a treaty is signed\n1,when a conquered army surrenders their arms\n1,when a new military rank is achieved\n1,when an enemy appears\n1,when the enemy sounds fearful horns\n1,when accepting the surrender of a defeated enemy\n1,after retreating from battle\n1,when enlisting with the army\n1,when completing military service",
+  "warnings": []
+}

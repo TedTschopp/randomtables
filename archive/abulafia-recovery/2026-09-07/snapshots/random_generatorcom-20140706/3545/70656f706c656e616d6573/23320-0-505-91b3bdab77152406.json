@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "91b3bdab7715240694386ef161d55730932d99ae846e43e6fde68646d7e0293c",
+      "revisionId": "23320",
+      "line": 505,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "peoplenames",
+    "qualified_name": "OSR weapon.peoplenames",
+    "table_block_index": 0,
+    "line_number": 505
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Demon Name.Main]",
+      "raw_text": "1,[Demon Name.Main]",
+      "references": [
+        {
+          "raw": "[Demon Name.Main]",
+          "token": "Demon Name.Main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Demon Name",
+          "target_subtable": "Main",
+          "target_qualified_name": "Demon Name.Main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Angel Name.Main]",
+      "raw_text": "1,[Angel Name.Main]",
+      "references": [
+        {
+          "raw": "[Angel Name.Main]",
+          "token": "Angel Name.Main",
+          "kind": "unresolved_cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Angel Name",
+          "target_subtable": "Main",
+          "target_qualified_name": "Angel Name.Main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[Fantasy Names.Surname]",
+      "raw_text": "2,[Fantasy Names.Surname]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.Surname]",
+          "token": "Fantasy Names.Surname",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Fantasy Names",
+          "target_subtable": "Surname",
+          "target_qualified_name": "Fantasy Names.Surname"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Catholic Saint Names.main]",
+      "raw_text": "1,[Catholic Saint Names.main]",
+      "references": [
+        {
+          "raw": "[Catholic Saint Names.main]",
+          "token": "Catholic Saint Names.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Catholic Saint Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Catholic Saint Names.main"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[Fantasy Names.MaleFirstName]",
+      "raw_text": "2,[Fantasy Names.MaleFirstName]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.MaleFirstName]",
+          "token": "Fantasy Names.MaleFirstName",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Fantasy Names",
+          "target_subtable": "MaleFirstName",
+          "target_qualified_name": "Fantasy Names.MaleFirstName"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "[Fantasy Names.FemaleFirstName]",
+      "raw_text": "2,[Fantasy Names.FemaleFirstName]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.FemaleFirstName]",
+          "token": "Fantasy Names.FemaleFirstName",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Fantasy Names",
+          "target_subtable": "FemaleFirstName",
+          "target_qualified_name": "Fantasy Names.FemaleFirstName"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Dragon names.main]",
+      "raw_text": "1,[Dragon names.main]",
+      "references": [
+        {
+          "raw": "[Dragon names.main]",
+          "token": "Dragon names.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Dragon names",
+          "target_subtable": "main",
+          "target_qualified_name": "Dragon names.main"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[Dragon type.fullname]",
+      "raw_text": "1,[Dragon type.fullname]",
+      "references": [
+        {
+          "raw": "[Dragon type.fullname]",
+          "token": "Dragon type.fullname",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Dragon type",
+          "target_subtable": "fullname",
+          "target_qualified_name": "Dragon type.fullname"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Catholic Saint Names.main",
+      "Demon Name.Main",
+      "Dragon names.main",
+      "Dragon type.fullname",
+      "Fantasy Names.FemaleFirstName",
+      "Fantasy Names.MaleFirstName",
+      "Fantasy Names.Surname"
+    ],
+    "unresolved": [
+      "Angel Name.Main"
+    ]
+  },
+  "raw_source": ";peoplenames\n1,[Demon Name.Main]\n1,[Angel Name.Main]\n2,[Fantasy Names.Surname]\n1,[Catholic Saint Names.main]\n2,[Fantasy Names.MaleFirstName]\n2,[Fantasy Names.FemaleFirstName]\n1,[Dragon names.main]\n1,[Dragon type.fullname]",
+  "warnings": []
+}

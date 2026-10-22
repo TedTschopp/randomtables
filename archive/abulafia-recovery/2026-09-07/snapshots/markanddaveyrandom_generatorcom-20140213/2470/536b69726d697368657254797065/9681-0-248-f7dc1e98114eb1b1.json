@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "f7dc1e98114eb1b1ecbf0ab4f583e1df436ec89f03db7a544e26cd58a488fdcb",
+      "revisionId": "9681",
+      "line": 248,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SkirmisherType",
+    "qualified_name": "Seige Force.SkirmisherType",
+    "table_block_index": 0,
+    "line_number": 248
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 8,
+      "text": "archers",
+      "raw_text": "8,archers",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 8,
+      "text": "bowmen",
+      "raw_text": "8,bowmen",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 8,
+      "text": "yeomen",
+      "raw_text": "8,yeomen",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 8,
+      "text": "crossbowmen",
+      "raw_text": "8,crossbowmen",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 7,
+      "text": "yeomanry",
+      "raw_text": "7,yeomanry",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 7,
+      "text": "scouts",
+      "raw_text": "7,scouts",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 6,
+      "text": "rangers",
+      "raw_text": "6,rangers",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 6,
+      "text": "longbowmen",
+      "raw_text": "6,longbowmen",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 5,
+      "text": "[Utility.Terrains] skirmishers",
+      "raw_text": "5,[Utility.Terrains] skirmishers",
+      "references": [
+        {
+          "raw": "[Utility.Terrains]",
+          "token": "Utility.Terrains",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SkirmisherType",
+          "target_page": "Utility",
+          "target_subtable": "Terrains",
+          "target_qualified_name": "Utility.Terrains"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 5,
+      "text": "skirmishers",
+      "raw_text": "5,skirmishers",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 4,
+      "text": "heavy crossbowmen",
+      "raw_text": "4,heavy crossbowmen",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 4,
+      "text": "light lancers",
+      "raw_text": "4,light lancers",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 3,
+      "text": "axe throwers",
+      "raw_text": "3,axe throwers",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 3,
+      "text": "light crossbowmen",
+      "raw_text": "3,light crossbowmen",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 3,
+      "text": "auxiliary volunteers",
+      "raw_text": "3,auxiliary volunteers",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "arbalesters",
+      "raw_text": "2,arbalesters",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 2,
+      "text": "arcanists",
+      "raw_text": "2,arcanists",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "light infantry",
+      "raw_text": "2,light infantry",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "mercenaries",
+      "raw_text": "2,mercenaries",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 2,
+      "text": "reserves",
+      "raw_text": "2,reserves",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "aeromancers",
+      "raw_text": "1,aeromancers",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "barbarians",
+      "raw_text": "1,barbarians",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "battlemages",
+      "raw_text": "1,battlemages",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "berserkers",
+      "raw_text": "1,berserkers",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "geomancers",
+      "raw_text": "1,geomancers",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "hydromancers",
+      "raw_text": "1,hydromancers",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "infantry",
+      "raw_text": "1,infantry",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "mounted archers",
+      "raw_text": "1,mounted archers",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "mounted crossbowmen",
+      "raw_text": "1,mounted crossbowmen",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "pyromancers",
+      "raw_text": "1,pyromancers",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "sorcerers",
+      "raw_text": "1,sorcerers",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "wizards",
+      "raw_text": "1,wizards",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.Terrains"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";SkirmisherType\n8,archers\n8,bowmen\n8,yeomen\n8,crossbowmen\n7,yeomanry\n7,scouts\n6,rangers\n6,longbowmen\n5,[Utility.Terrains] skirmishers\n5,skirmishers\n4,heavy crossbowmen\n4,light lancers\n3,axe throwers\n3,light crossbowmen\n3,auxiliary volunteers\n2,arbalesters\n2,arcanists\n2,light infantry\n2,mercenaries\n2,reserves\n1,aeromancers\n1,barbarians\n1,battlemages\n1,berserkers\n1,geomancers\n1,hydromancers\n1,infantry\n1,mounted archers\n1,mounted crossbowmen\n1,pyromancers\n1,sorcerers\n1,wizards",
+  "warnings": []
+}

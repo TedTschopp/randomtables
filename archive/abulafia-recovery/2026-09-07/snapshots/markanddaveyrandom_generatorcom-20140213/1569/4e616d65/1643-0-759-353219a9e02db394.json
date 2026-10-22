@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "353219a9e02db394121d2855094106d7cb473433c7ca7e8aaabe4748633bb68f",
+      "revisionId": "1643",
+      "line": 759,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Name",
+    "qualified_name": "Pickpocket.Name",
+    "table_block_index": 0,
+    "line_number": 759
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[NameStart] of [Fantasy Town Names.main]",
+      "raw_text": "1,[NameStart] of [Fantasy Town Names.main]",
+      "references": [
+        {
+          "raw": "[NameStart]",
+          "token": "NameStart",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Pickpocket",
+          "target_subtable": "NameStart",
+          "target_qualified_name": "Pickpocket.NameStart"
+        },
+        {
+          "raw": "[Fantasy Town Names.main]",
+          "token": "Fantasy Town Names.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Fantasy Town Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Town Names.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[SGNP barbarians.BarbarianFirst] [SGNP barbarians.BarbarianSurname] of the [Poetic Destinations.main]",
+      "raw_text": "1,[SGNP barbarians.BarbarianFirst] [SGNP barbarians.BarbarianSurname] of the [Poetic Destinations.main]",
+      "references": [
+        {
+          "raw": "[SGNP barbarians.BarbarianFirst]",
+          "token": "SGNP barbarians.BarbarianFirst",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "SGNP barbarians",
+          "target_subtable": "BarbarianFirst",
+          "target_qualified_name": "SGNP barbarians.BarbarianFirst"
+        },
+        {
+          "raw": "[SGNP barbarians.BarbarianSurname]",
+          "token": "SGNP barbarians.BarbarianSurname",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "SGNP barbarians",
+          "target_subtable": "BarbarianSurname",
+          "target_qualified_name": "SGNP barbarians.BarbarianSurname"
+        },
+        {
+          "raw": "[Poetic Destinations.main]",
+          "token": "Poetic Destinations.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Poetic Destinations",
+          "target_subtable": "main",
+          "target_qualified_name": "Poetic Destinations.main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[SGNP barbarians.EnchantressFirst] [SGNP barbarians.EnchantressSurname] of the [Poetic Destinations.main]",
+      "raw_text": "1,[SGNP barbarians.EnchantressFirst] [SGNP barbarians.EnchantressSurname] of the [Poetic Destinations.main]",
+      "references": [
+        {
+          "raw": "[SGNP barbarians.EnchantressFirst]",
+          "token": "SGNP barbarians.EnchantressFirst",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "SGNP barbarians",
+          "target_subtable": "EnchantressFirst",
+          "target_qualified_name": "SGNP barbarians.EnchantressFirst"
+        },
+        {
+          "raw": "[SGNP barbarians.EnchantressSurname]",
+          "token": "SGNP barbarians.EnchantressSurname",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "SGNP barbarians",
+          "target_subtable": "EnchantressSurname",
+          "target_qualified_name": "SGNP barbarians.EnchantressSurname"
+        },
+        {
+          "raw": "[Poetic Destinations.main]",
+          "token": "Poetic Destinations.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Poetic Destinations",
+          "target_subtable": "main",
+          "target_qualified_name": "Poetic Destinations.main"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[NameStart] (a sailor berthed on [Ship Names.main])",
+      "raw_text": "1,[NameStart] (a sailor berthed on [Ship Names.main])",
+      "references": [
+        {
+          "raw": "[NameStart]",
+          "token": "NameStart",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Pickpocket",
+          "target_subtable": "NameStart",
+          "target_qualified_name": "Pickpocket.NameStart"
+        },
+        {
+          "raw": "[Ship Names.main]",
+          "token": "Ship Names.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Ship Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Ship Names.main"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[NameStart] of the [Fantasy Military Unit.main]",
+      "raw_text": "1,[NameStart] of the [Fantasy Military Unit.main]",
+      "references": [
+        {
+          "raw": "[NameStart]",
+          "token": "NameStart",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Pickpocket",
+          "target_subtable": "NameStart",
+          "target_qualified_name": "Pickpocket.NameStart"
+        },
+        {
+          "raw": "[Fantasy Military Unit.main]",
+          "token": "Fantasy Military Unit.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Military Unit.main"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[Secret Society Title.main]",
+      "raw_text": "1,[Secret Society Title.main]",
+      "references": [
+        {
+          "raw": "[Secret Society Title.main]",
+          "token": "Secret Society Title.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Name",
+          "target_page": "Secret Society Title",
+          "target_subtable": "main",
+          "target_qualified_name": "Secret Society Title.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "NameStart"
+    ],
+    "external_subtables": [
+      "Fantasy Military Unit.main",
+      "Fantasy Town Names.main",
+      "Poetic Destinations.main",
+      "SGNP barbarians.BarbarianFirst",
+      "SGNP barbarians.BarbarianSurname",
+      "SGNP barbarians.EnchantressFirst",
+      "SGNP barbarians.EnchantressSurname",
+      "Secret Society Title.main",
+      "Ship Names.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";Name\n1,[NameStart] of [Fantasy Town Names.main]\n1,[SGNP barbarians.BarbarianFirst] [SGNP barbarians.BarbarianSurname] of the [Poetic Destinations.main]\n1,[SGNP barbarians.EnchantressFirst] [SGNP barbarians.EnchantressSurname] of the [Poetic Destinations.main]\n1,[NameStart] (a sailor berthed on [Ship Names.main])\n1,[NameStart] of the [Fantasy Military Unit.main]\n1,[Secret Society Title.main]",
+  "warnings": []
+}

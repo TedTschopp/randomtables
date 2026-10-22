@@ -1,11 +1,14 @@
 const expressions = require('../../JS/wiki-expressions.js');
 const templateData = require('../../JS/wiki-template-data.js');
+const { prepare: prepareRecursion } = require('../../JS/wiki-recursion.js');
 
-function createExpressionCompiler(byName, { tableId, inertText, escapeText }) {
+function createExpressionCompiler(byName, { tableId, inertText, escapeText, recursionPolicies = new Map() }) {
   const byId = new Map([...byName.values()].map(record => [tableId(record.table), record.table]));
   const valueCache = new Map();
   const costCache = new Map();
   const sourceCache = new WeakMap();
+  const recursionCache = new Map();
+  const recursionViews = new Map();
   const pages = new Set([...byName.values()].map(record => record.table.page.title));
   function reject(message) { throw new Error(message); }
   function count(parts) {
@@ -36,6 +39,31 @@ function createExpressionCompiler(byName, { tableId, inertText, escapeText }) {
     const entries = table.entries.filter(entry => entry.weight > 0);
     if (!entries.length) reject('Macro dependency has no selectable rows');
     return entries;
+  }
+  function recursionView(identifier) {
+    if (recursionViews.has(identifier)) return recursionViews.get(identifier);
+    entriesFor(identifier, new Set());
+    const source = byId.get(identifier);
+    const policy = recursionPolicies.get(identifier);
+    let cursor = 0;
+    const rows = source.entries.flatMap((entry, index) => {
+      if (entry.weight === 0) return [];
+      const start = cursor + 1;
+      cursor += entry.weight;
+      const parts = partsFor(entry);
+      return [{ start, end: cursor, row: index + 1, parts,
+        value: parts.map(part => typeof part === 'string' ? part : part.ref ? `{${part.ref}}` : '').join('') }];
+    });
+    const view = { id: identifier, status: 'ready', rows,
+      ...(policy ? { recursion: { kind: policy.kind, row: policy.row, maxDepth: policy.maxDepth } } : {}) };
+    recursionViews.set(identifier, view);
+    return view;
+  }
+  function recursionFor(identifier, ancestors) {
+    if (!recursionPolicies.has(identifier)) return null;
+    entriesFor(identifier, ancestors);
+    if (!recursionCache.has(identifier)) recursionCache.set(identifier, prepareRecursion(recursionView(identifier), recursionView));
+    return recursionCache.get(identifier);
   }
   function referencesIn(parts, result = []) {
     for (const part of parts) {
@@ -79,13 +107,29 @@ function createExpressionCompiler(byName, { tableId, inertText, escapeText }) {
   function sourceValues(identifier, ancestors) {
     if (ancestors.has(identifier)) reject('Cyclic macro argument');
     if (valueCache.has(identifier)) return valueCache.get(identifier);
-    const entries = entriesFor(identifier, ancestors);
     const values = new Set();
     let characters = 0;
-    for (const entry of entries) for (const value of choices(partsFor(entry), new Set(ancestors).add(identifier))) {
+    function add(value) {
       if (!values.has(value)) characters += value.length;
       values.add(value);
       if (values.size > 4096 || characters > 1024 * 1024) reject('Macro argument domain exceeds its validation budget');
+    }
+    const recursion = recursionFor(identifier, ancestors);
+    if (recursion) {
+      const terminals = [...new Map(recursion.choices.map(choice => [choice.text, choice.key]))].map(([text, key]) => ({ text, key }));
+      for (const choice of terminals) add(choice.text);
+      if (recursion.kind === 'unique-pair') {
+        const groups = new Map();
+        for (const choice of terminals) groups.set(choice.key, (groups.get(choice.key) || 0) + 1);
+        const combinations = terminals.length ** 2 - [...groups.values()].reduce((total, size) => total + size ** 2, 0);
+        if (terminals.length + combinations > 4096) reject('Macro argument domain exceeds its validation budget');
+        for (const first of terminals) for (const second of terminals) {
+          if (first.key !== second.key) add(first.text + recursion.literal + second.text);
+        }
+      } else for (const choice of terminals) add(recursion.literal + choice.text);
+    } else {
+      const entries = entriesFor(identifier, ancestors);
+      for (const entry of entries) for (const value of choices(partsFor(entry), new Set(ancestors).add(identifier))) add(value);
     }
     const result = [...values];
     valueCache.set(identifier, result);
@@ -94,6 +138,15 @@ function createExpressionCompiler(byName, { tableId, inertText, escapeText }) {
   function sourceCost(identifier, ancestors) {
     if (ancestors.has(identifier)) reject('Cyclic macro dependency');
     if (costCache.has(identifier)) return costCache.get(identifier);
+    const recursion = recursionFor(identifier, ancestors);
+    if (recursion) {
+      const terminalOperations = Math.max(...recursion.choices.map(choice => choice.steps.reduce((total, step) =>
+        total + partsFor(byId.get(step.id).entries[step.row - 1]).length, 0)));
+      const operations = partsFor(byId.get(identifier).entries[recursion.row - 1]).length + recursion.arity * terminalOperations;
+      const result = { ...recursion.cost, operations };
+      costCache.set(identifier, result);
+      return result;
+    }
     const entries = entriesFor(identifier, ancestors);
     const costs = entries.map(entry => cost(partsFor(entry), new Set(ancestors).add(identifier)));
     const result = { length: Math.max(...costs.map(value => value.length)), operations: Math.max(...costs.map(value => value.operations)),

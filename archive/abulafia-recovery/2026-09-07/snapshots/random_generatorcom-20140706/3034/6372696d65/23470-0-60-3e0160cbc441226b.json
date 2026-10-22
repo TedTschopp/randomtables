@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "3e0160cbc441226ba1bc03074ac3cad0df1422fee357094f8fdab33ecb2d4ac3",
+      "revisionId": "23470",
+      "line": 60,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "crime",
+    "qualified_name": "Village.crime",
+    "table_block_index": 0,
+    "line_number": 60
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "stealing",
+      "raw_text": "1,stealing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[maybeweird]witchcraft",
+      "raw_text": "1,[maybeweird]witchcraft",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "murdering a [someone]",
+      "raw_text": "1,murdering a [someone]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[maybeweird]hooliganism",
+      "raw_text": "1,[maybeweird]hooliganism",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "drunkenness",
+      "raw_text": "1,drunkenness",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[maybeweird]espionage",
+      "raw_text": "1,[maybeweird]espionage",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "arson",
+      "raw_text": "1,arson",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "swindling a [someone]",
+      "raw_text": "1,swindling a [someone]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[maybeweird]vandalism",
+      "raw_text": "1,[maybeweird]vandalism",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "crime",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "cannibalism",
+      "raw_text": "1,cannibalism",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "false pretenses",
+      "raw_text": "1,false pretenses",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "bigamy",
+      "raw_text": "1,bigamy",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "prostitution",
+      "raw_text": "1,prostitution",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "vagrancy",
+      "raw_text": "1,vagrancy",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "fornication",
+      "raw_text": "1,fornication",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "maybeweird",
+      "someone"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";crime\n1,stealing\n1,[maybeweird]witchcraft\n1,murdering a [someone]\n1,[maybeweird]hooliganism\n1,drunkenness\n1,[maybeweird]espionage\n1,arson\n1,swindling a [someone]\n1,[maybeweird]vandalism\n1,cannibalism\n1,false pretenses\n1,bigamy\n1,prostitution\n1,vagrancy\n1,fornication",
+  "warnings": []
+}

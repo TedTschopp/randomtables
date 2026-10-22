@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 16732,
+    "timestamp": "2013-02-01T10:18:26Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "aa7eab7bc6ec8cefa136fd5a2d3f7779034162deb2ada17ac3b2b17619d0a025",
+      "rawSha256": "3a7c0391f600ff3fd048801df9987f7cdd8a5db793289abf0c135d45c0468ec3",
+      "revisionId": "16732",
+      "line": 62,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "about-first",
+    "qualified_name": "Curse.about-first",
+    "table_block_index": 0,
+    "line_number": 62
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "1st",
+      "raw_text": "5,1st",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "2nd",
+      "raw_text": "3,2nd",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "3rd",
+      "raw_text": "1,3rd",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";about-first\n5,1st\n3,2nd\n1,3rd",
+  "warnings": []
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "7985ff3b60a1bbf3f88b4533909cdfcffe1aa8dfbc865dc7a305961e2de06fb1",
+      "revisionId": "9620",
+      "line": 34,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "someRites",
+    "qualified_name": "Rituals.someRites",
+    "table_block_index": 0,
+    "line_number": 34
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "[riteAny]",
+      "raw_text": "4,[riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[riteAny] and [riteAny]",
+      "raw_text": "2,[riteAny] and [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[riteAny], [riteAny], and [riteAny]",
+      "raw_text": "1,[riteAny], [riteAny], and [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "someRites",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "riteAny"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";someRites\n4,[riteAny]\n2,[riteAny] and [riteAny]\n1,[riteAny], [riteAny], and [riteAny]",
+  "warnings": []
+}

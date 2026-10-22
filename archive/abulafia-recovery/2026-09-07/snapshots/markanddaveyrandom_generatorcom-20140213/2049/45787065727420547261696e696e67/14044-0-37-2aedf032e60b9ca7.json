@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 14044,
+    "timestamp": "2012-03-12T00:57:31Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0ccd36c58815ad6bc8aa451780b168898a06c45b25dfadbb590497ea51352353",
+      "rawSha256": "2aedf032e60b9ca75724e65cfa76355af6d02db9a079224613a36d50926370a1",
+      "revisionId": "14044",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14046",
+        "timestamp": "2012-03-12T01:00:00Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Expert Training",
+    "qualified_name": "Stars Without Number.Expert Training",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Adventurer",
+      "raw_text": "1,Adventurer",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Bounty Hunter",
+      "raw_text": "1,Bounty Hunter",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Criminal",
+      "raw_text": "1,Criminal",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Explorer",
+      "raw_text": "1,Explorer",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Pilot",
+      "raw_text": "1,Pilot",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Preceptor Adept",
+      "raw_text": "1,Preceptor Adept",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Scientist",
+      "raw_text": "1,Scientist",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Xenoarcheologist",
+      "raw_text": "1,Xenoarcheologist",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Expert Training\n1,Adventurer\n1,Bounty Hunter\n1,Criminal\n1,Explorer\n1,Pilot\n1,Preceptor Adept\n1,Scientist\n1,Xenoarcheologist",
+  "warnings": []
+}

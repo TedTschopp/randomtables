@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "d92f8053415fc844ab3be4bbe1b8c8a35f7c5d038321cad1b98b9de469f9d3d0",
+      "revisionId": "21256",
+      "line": 29,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "pre-adj",
+    "qualified_name": "Ostler.pre-adj",
+    "table_block_index": 0,
+    "line_number": 29
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "desert",
+      "raw_text": "1,desert",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "wooly arctic",
+      "raw_text": "1,wooly arctic",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "forest",
+      "raw_text": "1,forest",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "swamp",
+      "raw_text": "1,swamp",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "jungle",
+      "raw_text": "1,jungle",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "riding",
+      "raw_text": "1,riding",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "racing",
+      "raw_text": "1,racing",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "pack",
+      "raw_text": "1,pack",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "draft",
+      "raw_text": "1,draft",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "plow",
+      "raw_text": "1,plow",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "tracking",
+      "raw_text": "1,tracking",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "climbing",
+      "raw_text": "1,climbing",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "jumping",
+      "raw_text": "1,jumping",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "swimming",
+      "raw_text": "1,swimming",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";pre-adj\n1,desert\n1,wooly arctic\n1,forest\n1,swamp\n1,jungle\n1,riding\n1,racing\n1,pack\n1,draft\n1,plow\n1,tracking\n1,climbing\n1,jumping\n1,swimming\n1,",
+  "warnings": []
+}

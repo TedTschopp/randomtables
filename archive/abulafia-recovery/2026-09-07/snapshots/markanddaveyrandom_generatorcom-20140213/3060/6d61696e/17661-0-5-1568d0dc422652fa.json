@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Game of Aspects",
+    "page_id": 3060
+  },
+  "source": {
+    "revision_id": 17661,
+    "timestamp": "2013-05-30T22:38:30Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b7962fcfecd7a192f7c70a72b81ee30c47ec22ef968be2f337c9c6619b4d3404",
+      "rawSha256": "1568d0dc422652faf9a9486a138c99663e347101510fe1b92eb2fc2083abad6a",
+      "revisionId": "17661",
+      "line": 5,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17661",
+        "timestamp": "2013-05-30T22:38:30Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Abulafia Random Generators:Game of Aspects.main",
+    "table_block_index": 0,
+    "line_number": 5
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Penmonkeys, write a _[Subgenre]_ story with _[Conflict]_ as the conflict or problem. You should also add _[Element]_ as an element in the story.",
+      "raw_text": "1,Penmonkeys, write a _[Subgenre]_ story with _[Conflict]_ as the conflict or problem. You should also add _[Element]_ as an element in the story.",
+      "references": [
+        {
+          "raw": "[Subgenre]",
+          "token": "Subgenre",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Game of Aspects",
+          "source_subtable": "main",
+          "target_page": "Abulafia Random Generators:Game of Aspects",
+          "target_subtable": "Subgenre",
+          "target_qualified_name": "Abulafia Random Generators:Game of Aspects.Subgenre"
+        },
+        {
+          "raw": "[Conflict]",
+          "token": "Conflict",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Game of Aspects",
+          "source_subtable": "main",
+          "target_page": "Abulafia Random Generators:Game of Aspects",
+          "target_subtable": "Conflict",
+          "target_qualified_name": "Abulafia Random Generators:Game of Aspects.Conflict"
+        },
+        {
+          "raw": "[Element]",
+          "token": "Element",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Game of Aspects",
+          "source_subtable": "main",
+          "target_page": "Abulafia Random Generators:Game of Aspects",
+          "target_subtable": "Element",
+          "target_qualified_name": "Abulafia Random Generators:Game of Aspects.Element"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Conflict",
+      "Element",
+      "Subgenre"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,Penmonkeys, write a _[Subgenre]_ story with _[Conflict]_ as the conflict or problem. You should also add _[Element]_ as an element in the story.",
+  "warnings": []
+}

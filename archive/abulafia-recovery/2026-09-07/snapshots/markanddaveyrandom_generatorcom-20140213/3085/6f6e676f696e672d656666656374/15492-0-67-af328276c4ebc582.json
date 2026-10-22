@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15492,
+    "timestamp": "2012-11-02T08:49:17Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e73c83b0fa9ed13d30f608efd46b7dfcb9a59d7ac0100a61ff20064fcde8ab55",
+      "rawSha256": "af328276c4ebc582f2bcaf67382f881d97bac9eb86f6a801ee56a1337c45d78e",
+      "revisionId": "15492",
+      "line": 67,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ongoing-effect",
+    "qualified_name": "Curse.ongoing-effect",
+    "table_block_index": 0,
+    "line_number": 67
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[low damage]",
+      "raw_text": "1,[low damage]",
+      "references": [
+        {
+          "raw": "[low damage]",
+          "token": "low damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "low damage",
+          "target_qualified_name": "Curse.low damage"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[medium damage]",
+      "raw_text": "1,[medium damage]",
+      "references": [
+        {
+          "raw": "[medium damage]",
+          "token": "medium damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "medium damage",
+          "target_qualified_name": "Curse.medium damage"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "low damage",
+      "medium damage"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ongoing-effect\n1,[low damage]\n1,[medium damage]",
+  "warnings": []
+}

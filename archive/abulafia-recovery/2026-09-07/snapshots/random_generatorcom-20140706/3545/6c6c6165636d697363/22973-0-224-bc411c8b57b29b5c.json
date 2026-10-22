@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22973,
+    "timestamp": "2014-06-11T05:58:40Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "fd6b3b962c2d941912f2de53b640078869150e31227242d06e34bc950d5e23ec",
+      "rawSha256": "bc411c8b57b29b5c6f000f3bcaf70f33358ece4dda06c864718b25fcc6568510",
+      "revisionId": "22973",
+      "line": 224,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "llaecmisc",
+    "qualified_name": "OSR weapon.llaecmisc",
+    "table_block_index": 0,
+    "line_number": 224
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "Axe +1",
+      "raw_text": "5,Axe +1",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "Axe +2",
+      "raw_text": "3,Axe +2",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "Dagger -1, cursed",
+      "raw_text": "2,Dagger -1, cursed",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 8,
+      "text": "Dagger +1",
+      "raw_text": "8,Dagger +1",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Dagger of Venom, +1",
+      "raw_text": "1,Dagger of Venom, +1",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "Dagger +2, +3 vs. goblins",
+      "raw_text": "2,Dagger +2, +3 vs. goblins",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Dagger +2, Assassin",
+      "raw_text": "1,Dagger +2, Assassin",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "Mace +1",
+      "raw_text": "4,Mace +1",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "Mace +1 of Disruption",
+      "raw_text": "2,Mace +1 of Disruption",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "Mace +2",
+      "raw_text": "3,Mace +2",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 3,
+      "text": "Trident +1 of Fish Command",
+      "raw_text": "3,Trident +1 of Fish Command",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "Trident +2 of Warning",
+      "raw_text": "3,Trident +2 of Warning",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 7,
+      "text": "War Hammer +1",
+      "raw_text": "7,War Hammer +1",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 4,
+      "text": "War Hammer +2",
+      "raw_text": "4,War Hammer +2",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "War Hammer +2, Dwarven Thrower",
+      "raw_text": "2,War Hammer +2, Dwarven Thrower",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";llaecmisc\n5,Axe +1\n3,Axe +2\n2,Dagger -1, cursed\n8,Dagger +1\n1,Dagger of Venom, +1\n2,Dagger +2, +3 vs. goblins\n1,Dagger +2, Assassin\n4,Mace +1\n2,Mace +1 of Disruption\n3,Mace +2\n3,Trident +1 of Fish Command\n3,Trident +2 of Warning\n7,War Hammer +1\n4,War Hammer +2\n2,War Hammer +2, Dwarven Thrower",
+  "warnings": []
+}

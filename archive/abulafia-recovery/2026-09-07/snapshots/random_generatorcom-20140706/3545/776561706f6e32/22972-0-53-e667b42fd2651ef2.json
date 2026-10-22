@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22972,
+    "timestamp": "2014-06-11T05:47:23Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6e80ec66a940c214bca6f2104448ad69f10cbded3e655c1c77d426bae54f0a11",
+      "rawSha256": "e667b42fd2651ef2c7a5484e7dd4b3369f39284caf40fec55cb3832c2892d351",
+      "revisionId": "22972",
+      "line": 53,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weapon2",
+    "qualified_name": "OSR weapon.weapon2",
+    "table_block_index": 0,
+    "line_number": 53
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "+2 [weapontype], [minorability]",
+      "raw_text": "1,+2 [weapontype], [minorability]",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weapon2",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        },
+        {
+          "raw": "[minorability]",
+          "token": "minorability",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weapon2",
+          "target_page": "OSR weapon",
+          "target_subtable": "minorability",
+          "target_qualified_name": "OSR weapon.minorability"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[unusualweapon]",
+      "raw_text": "2,[unusualweapon]",
+      "references": [
+        {
+          "raw": "[unusualweapon]",
+          "token": "unusualweapon",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weapon2",
+          "target_page": "OSR weapon",
+          "target_subtable": "unusualweapon",
+          "target_qualified_name": "OSR weapon.unusualweapon"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 17,
+      "text": "+2 [weapontype]",
+      "raw_text": "17,+2 [weapontype]",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weapon2",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "minorability",
+      "unusualweapon",
+      "weapontype"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weapon2\n1,+2 [weapontype], [minorability]\n2,[unusualweapon]\n17,+2 [weapontype]",
+  "warnings": []
+}

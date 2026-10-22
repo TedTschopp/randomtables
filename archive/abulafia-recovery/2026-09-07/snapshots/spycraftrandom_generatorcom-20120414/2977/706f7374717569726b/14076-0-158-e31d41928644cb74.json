@@ -1,0 +1,623 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 14076,
+    "timestamp": "2012-03-17T16:23:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "eec4abcedea7cb566c19f45f3620482021bea5141b749f44accaa35431dc8279",
+      "rawSha256": "e31d41928644cb74d2a00828da307997ab8663a6332b101d3132e2b58372ae90",
+      "revisionId": "14076",
+      "line": 158,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "postquirk",
+    "qualified_name": "Quick Populations.postquirk",
+    "table_block_index": 0,
+    "line_number": 158
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 30,
+      "text": "",
+      "raw_text": "30,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "(of child-like appearance)",
+      "raw_text": "1,(of child-like appearance)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "(of very low [att])",
+      "raw_text": "1,(of very low [att])",
+      "references": [
+        {
+          "raw": "[att]",
+          "token": "att",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "att",
+          "target_qualified_name": "Quick Populations.att"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "(of unusual [att])",
+      "raw_text": "1,(of unusual [att])",
+      "references": [
+        {
+          "raw": "[att]",
+          "token": "att",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "att",
+          "target_qualified_name": "Quick Populations.att"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "(claiming to know many secrets)",
+      "raw_text": "1,(claiming to know many secrets)",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "(who will ask you to best them in a contest)",
+      "raw_text": "1,(who will ask you to best them in a contest)",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "(kept in cage/s)",
+      "raw_text": "1,(kept in cage/s)",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "(held prisoner)",
+      "raw_text": "1,(held prisoner)",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "(with no free will)",
+      "raw_text": "1,(with no free will)",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "(who can communicate telepathically)",
+      "raw_text": "1,(who can communicate telepathically)",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "(marked by strange symbols)",
+      "raw_text": "1,(marked by strange symbols)",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "(with strange tattoos)",
+      "raw_text": "1,(with strange tattoos)",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "(in unusual dress)",
+      "raw_text": "1,(in unusual dress)",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "(who cannot speak common)",
+      "raw_text": "1,(who cannot speak common)",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "(who will speak very little common)",
+      "raw_text": "1,(who will speak very little common)",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "(who cannot ever speak)",
+      "raw_text": "1,(who cannot ever speak)",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "(who will speak in whispers)",
+      "raw_text": "1,(who will speak in whispers)",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "(who will speak in rhyme)",
+      "raw_text": "1,(who will speak in rhyme)",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "(who will speak in tongues)",
+      "raw_text": "1,(who will speak in tongues)",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "(who will speak in riddles)",
+      "raw_text": "1,(who will speak in riddles)",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "(who will refuse to speak to you)",
+      "raw_text": "1,(who will refuse to speak to you)",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "(who will speak through an intermediary)",
+      "raw_text": "1,(who will speak through an intermediary)",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "(petrified)",
+      "raw_text": "1,(petrified)",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "(vulnerable to [element])",
+      "raw_text": "1,(vulnerable to [element])",
+      "references": [
+        {
+          "raw": "[element]",
+          "token": "element",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "element",
+          "target_qualified_name": "Quick Populations.element"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "(who will be hidden away)",
+      "raw_text": "1,(who will be hidden away)",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "(with an awful odor)",
+      "raw_text": "1,(with an awful odor)",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "(who will always lie)",
+      "raw_text": "1,(who will always lie)",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "(with [element] powers)",
+      "raw_text": "1,(with [element] powers)",
+      "references": [
+        {
+          "raw": "[element]",
+          "token": "element",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "element",
+          "target_qualified_name": "Quick Populations.element"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "(who will reveal much)",
+      "raw_text": "1,(who will reveal much)",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "(who are not what they seem to be)",
+      "raw_text": "1,(who are not what they seem to be)",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "(who will always tell the truth)",
+      "raw_text": "1,(who will always tell the truth)",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "(who will know many things)",
+      "raw_text": "1,(who will know many things)",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "(who will have many valuable treasures)",
+      "raw_text": "1,(who will have many valuable treasures)",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "(who will carry exotic weapon/s)",
+      "raw_text": "1,(who will carry exotic weapon/s)",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "(who will make use of strange implement/s)",
+      "raw_text": "1,(who will make use of strange implement/s)",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "(who will make use of strange device/s)",
+      "raw_text": "1,(who will make use of strange device/s)",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "(who you should seek out)",
+      "raw_text": "1,(who you should seek out)",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "(who may appear to be petrified)",
+      "raw_text": "1,(who may appear to be petrified)",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "(who you should avoid)",
+      "raw_text": "1,(who you should avoid)",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "(who will have come to an untimely end)",
+      "raw_text": "1,(who will have come to an untimely end)",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "(disguised as [race]/s)",
+      "raw_text": "1,(disguised as [race]/s)",
+      "references": [
+        {
+          "raw": "[race]",
+          "token": "race",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Populations.race"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "(disguised as [class]/s)",
+      "raw_text": "1,(disguised as [class]/s)",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "(disguised as [animal-person]/s)",
+      "raw_text": "1,(disguised as [animal-person]/s)",
+      "references": [
+        {
+          "raw": "[animal-person]",
+          "token": "animal-person",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "animal-person",
+          "target_qualified_name": "Quick Populations.animal-person"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "(disguised as [domestic-animal]/s)",
+      "raw_text": "1,(disguised as [domestic-animal]/s)",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "(disguised as [power-animal]/s)",
+      "raw_text": "1,(disguised as [power-animal]/s)",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "(allergic to sunlight)",
+      "raw_text": "1,(allergic to sunlight)",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "(with a hatred of [class]s)",
+      "raw_text": "1,(with a hatred of [class]s)",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "(with a hatred of [race-plural])",
+      "raw_text": "1,(with a hatred of [race-plural])",
+      "references": [
+        {
+          "raw": "[race-plural]",
+          "token": "race-plural",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "race-plural",
+          "target_qualified_name": "Quick Populations.race-plural"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "(with a hatred of [domestic-animal]s)",
+      "raw_text": "1,(with a hatred of [domestic-animal]s)",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "(with a hatred of [power-animal]s)",
+      "raw_text": "1,(with a hatred of [power-animal]s)",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "postquirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "(or something like that)",
+      "raw_text": "1,(or something like that)",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "(who may have fallen on hard times)",
+      "raw_text": "1,(who may have fallen on hard times)",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "(who will have sworn never to cause harm)",
+      "raw_text": "1,(who will have sworn never to cause harm)",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "(who can never reproduce, or die of old age)",
+      "raw_text": "1,(who can never reproduce, or die of old age)",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "(with some strange connection to the spirit world)",
+      "raw_text": "1,(with some strange connection to the spirit world)",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "(who can control the weather or something)",
+      "raw_text": "1,(who can control the weather or something)",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "(who may not even exist)",
+      "raw_text": "1,(who may not even exist)",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "(who may or may not be dead)",
+      "raw_text": "1,(who may or may not be dead)",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "(probably dead)",
+      "raw_text": "1,(probably dead)",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "(probably still alive)",
+      "raw_text": "1,(probably still alive)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "animal-person",
+      "att",
+      "class",
+      "domestic-animal",
+      "element",
+      "power-animal",
+      "race",
+      "race-plural"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";postquirk\n30,\n1,(of child-like appearance)\n1,(of very low [att])\n1,(of unusual [att])\n1,(claiming to know many secrets)\n1,(who will ask you to best them in a contest)\n1,(kept in cage/s)\n1,(held prisoner)\n1,(with no free will)\n1,(who can communicate telepathically)\n1,(marked by strange symbols)\n1,(with strange tattoos)\n1,(in unusual dress)\n1,(who cannot speak common)\n1,(who will speak very little common)\n1,(who cannot ever speak)\n1,(who will speak in whispers)\n1,(who will speak in rhyme)\n1,(who will speak in tongues)\n1,(who will speak in riddles)\n1,(who will refuse to speak to you)\n1,(who will speak through an intermediary)\n1,(petrified)\n1,(vulnerable to [element])\n1,(who will be hidden away)\n1,(with an awful odor)\n1,(who will always lie)\n1,(with [element] powers)\n1,(who will reveal much)\n1,(who are not what they seem to be)\n1,(who will always tell the truth)\n1,(who will know many things)\n1,(who will have many valuable treasures)\n1,(who will carry exotic weapon/s)\n1,(who will make use of strange implement/s)\n1,(who will make use of strange device/s)\n1,(who you should seek out)\n1,(who may appear to be petrified)\n1,(who you should avoid)\n1,(who will have come to an untimely end)\n1,(disguised as [race]/s)\n1,(disguised as [class]/s)\n1,(disguised as [animal-person]/s)\n1,(disguised as [domestic-animal]/s)\n1,(disguised as [power-animal]/s)\n1,(allergic to sunlight)\n1,(with a hatred of [class]s)\n1,(with a hatred of [race-plural])\n1,(with a hatred of [domestic-animal]s)\n1,(with a hatred of [power-animal]s)\n1,(or something like that)\n1,(who may have fallen on hard times)\n1,(who will have sworn never to cause harm)\n1,(who can never reproduce, or die of old age)\n1,(with some strange connection to the spirit world)\n1,(who can control the weather or something)\n1,(who may not even exist)\n1,(who may or may not be dead)\n1,(probably dead)\n1,(probably still alive)",
+  "warnings": []
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 15258,
+    "timestamp": "2012-09-24T08:12:03Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5f6aeba2ac765a3bf346a5a21276f4a958251c6747c34fd3b9bdef8b6205b91b",
+      "rawSha256": "398108b77887d7425798ce66a68265c823ec5db408edb68822b3832be58aefa7",
+      "revisionId": "15258",
+      "line": 160,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "statue-of",
+    "qualified_name": "Village.statue-of",
+    "table_block_index": 0,
+    "line_number": 160
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.anygroup-terse]",
+      "raw_text": "1,[Quick Zone Populations.anygroup-terse]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.anygroup-terse]",
+          "token": "Quick Zone Populations.anygroup-terse",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "statue-of",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "anygroup-terse",
+          "target_qualified_name": "Quick Zone Populations.anygroup-terse"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "{{lcfirst:[Fantasy Military Unit.MascotModifier]}} {{lcfirst:[Fantasy Military Unit.MascotAnimal]}}",
+      "raw_text": "1,{{lcfirst:[Fantasy Military Unit.MascotModifier]}} {{lcfirst:[Fantasy Military Unit.MascotAnimal]}}",
+      "references": [
+        {
+          "raw": "[Fantasy Military Unit.MascotModifier]",
+          "token": "Fantasy Military Unit.MascotModifier",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "statue-of",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "MascotModifier",
+          "target_qualified_name": "Fantasy Military Unit.MascotModifier"
+        },
+        {
+          "raw": "[Fantasy Military Unit.MascotAnimal]",
+          "token": "Fantasy Military Unit.MascotAnimal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "statue-of",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "MascotAnimal",
+          "target_qualified_name": "Fantasy Military Unit.MascotAnimal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Military Unit.MascotAnimal",
+      "Fantasy Military Unit.MascotModifier",
+      "Quick Zone Populations.anygroup-terse"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";statue-of\n1,[Quick Zone Populations.anygroup-terse]\n1,{{lcfirst:[Fantasy Military Unit.MascotModifier]}} {{lcfirst:[Fantasy Military Unit.MascotAnimal]}}",
+  "warnings": []
+}

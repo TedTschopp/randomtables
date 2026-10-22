@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15487,
+    "timestamp": "2012-11-02T08:28:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "43901c4d9ceef37ef893b60a9fbf960f6012d4097945297f9f8d7438ed5843cc",
+      "rawSha256": "4f99230d7478632b6cebe343141e04c16b689e79a1b15d06b679954ac60c5700",
+      "revisionId": "15487",
+      "line": 102,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "high-damage",
+    "qualified_name": "Curse.high-damage",
+    "table_block_index": 0,
+    "line_number": 102
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "3d8 damage",
+      "raw_text": "5,3d8 damage",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "4d8 damage",
+      "raw_text": "5,4d8 damage",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "3d10 damage",
+      "raw_text": "5,3d10 damage",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 5,
+      "text": "4d10 damage",
+      "raw_text": "5,4d10 damage",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "3d12 damage",
+      "raw_text": "5,3d12 damage",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 5,
+      "text": "4d12 damage",
+      "raw_text": "5,4d12 damage",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 4,
+      "text": "3d8+[about-five-or-ten] damage",
+      "raw_text": "4,3d8+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "4d8+[about-five-or-ten] damage",
+      "raw_text": "4,4d8+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 4,
+      "text": "3d10+[about-five-or-ten] damage",
+      "raw_text": "4,3d10+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 4,
+      "text": "4d10+[about-five-or-ten] damage",
+      "raw_text": "4,4d10+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 4,
+      "text": "3d12+[about-five-or-ten] damage",
+      "raw_text": "4,3d12+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 4,
+      "text": "4d12+[about-five-or-ten] damage",
+      "raw_text": "4,4d12+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 3,
+      "text": "[about-five-or-ten]d8 damage",
+      "raw_text": "3,[about-five-or-ten]d8 damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 3,
+      "text": "[about-five-or-ten]d10 damage",
+      "raw_text": "3,[about-five-or-ten]d10 damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 3,
+      "text": "[about-five-or-ten]d12 damage",
+      "raw_text": "3,[about-five-or-ten]d12 damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "d100 damage",
+      "raw_text": "2,d100 damage",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 2,
+      "text": "[about-five]d20 damage",
+      "raw_text": "2,[about-five]d20 damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "[about-five-or-ten]d8+[about-five-or-ten] damage",
+      "raw_text": "2,[about-five-or-ten]d8+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        },
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "[about-five-or-ten]d10+[about-five-or-ten] damage",
+      "raw_text": "2,[about-five-or-ten]d10+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        },
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 2,
+      "text": "[about-five-or-ten]d12+[about-five-or-ten] damage",
+      "raw_text": "2,[about-five-or-ten]d12+[about-five-or-ten] damage",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        },
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[about-five]d100 damage",
+      "raw_text": "1,[about-five]d100 damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "high-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five",
+      "about-five-or-ten"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";high-damage\n5,3d8 damage\n5,4d8 damage\n5,3d10 damage\n5,4d10 damage\n5,3d12 damage\n5,4d12 damage\n4,3d8+[about-five-or-ten] damage\n4,4d8+[about-five-or-ten] damage\n4,3d10+[about-five-or-ten] damage\n4,4d10+[about-five-or-ten] damage\n4,3d12+[about-five-or-ten] damage\n4,4d12+[about-five-or-ten] damage\n3,[about-five-or-ten]d8 damage\n3,[about-five-or-ten]d10 damage\n3,[about-five-or-ten]d12 damage\n2,d100 damage\n2,[about-five]d20 damage\n2,[about-five-or-ten]d8+[about-five-or-ten] damage\n2,[about-five-or-ten]d10+[about-five-or-ten] damage\n2,[about-five-or-ten]d12+[about-five-or-ten] damage\n1,[about-five]d100 damage",
+  "warnings": []
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 8223,
+    "timestamp": "2008-12-08T22:57:38Z",
+    "contributor": {
+      "name": "Draekan",
+      "id": 356,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0a87ccc821fe12ddf4d6a4836a2e29510202f94a9e5c1031f1c5a68373f42c5b",
+      "rawSha256": "5b0fd42c7da96950b9f8e051c37ce8258212f583c430a7b9e7b8f104eba407b8",
+      "revisionId": "8223",
+      "line": 11,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9312",
+        "timestamp": "2009-07-22T02:03:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Found in a crate.main",
+    "table_block_index": 0,
+    "line_number": 11
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "A pair of [colour] [shoe style]",
+      "raw_text": "1, A pair of [colour] [shoe style]",
+      "references": [
+        {
+          "raw": "[colour]",
+          "token": "colour",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "colour",
+          "target_qualified_name": "Found in a crate.colour"
+        },
+        {
+          "raw": "[shoe style]",
+          "token": "shoe style",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "shoe style",
+          "target_qualified_name": "Found in a crate.shoe style"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[small number] paintbrushes",
+      "raw_text": "1, [small number] paintbrushes",
+      "references": [
+        {
+          "raw": "[small number]",
+          "token": "small number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "small number",
+          "target_qualified_name": "Found in a crate.small number"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "bee's nest",
+      "raw_text": "1, bee's nest",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "ball of [colour] yarn",
+      "raw_text": "2, ball of [colour] yarn",
+      "references": [
+        {
+          "raw": "[colour]",
+          "token": "colour",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "colour",
+          "target_qualified_name": "Found in a crate.colour"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "colour",
+      "shoe style",
+      "small number"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1, A pair of [colour] [shoe style]\n1, [small number] paintbrushes\n1, bee's nest\n2, ball of [colour] yarn",
+  "warnings": []
+}

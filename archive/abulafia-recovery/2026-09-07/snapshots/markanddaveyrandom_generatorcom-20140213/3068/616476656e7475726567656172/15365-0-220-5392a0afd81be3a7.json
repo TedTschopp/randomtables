@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15365,
+    "timestamp": "2012-10-08T09:44:26Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f5b5ac7cfba55276ada10fd723357a728d4bb94fb753dfb07cbb69f0db208b63",
+      "rawSha256": "5392a0afd81be3a7efa4bfbb6908e7b2bbb809a80b1f39877839c836117ab80b",
+      "revisionId": "15365",
+      "line": 220,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "adventuregear",
+    "qualified_name": "Starting Equipment.adventuregear",
+    "table_block_index": 0,
+    "line_number": 220
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Quick Zone Populations.domestic-animal]",
+      "raw_text": "1,[Quick Zone Populations.domestic-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.domestic-animal]",
+          "token": "Quick Zone Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventuregear",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Zone Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "grappling hook",
+      "raw_text": "1,grappling hook",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "basket of berries",
+      "raw_text": "1,basket of berries",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "bucket",
+      "raw_text": "1,bucket",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "fishing net",
+      "raw_text": "1,fishing net",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "bell",
+      "raw_text": "1,bell",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[skin]",
+      "raw_text": "1,[skin]",
+      "references": [
+        {
+          "raw": "[skin]",
+          "token": "skin",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventuregear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "skin",
+          "target_qualified_name": "Starting Equipment.skin"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "diary",
+      "raw_text": "1,diary",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "cook pot",
+      "raw_text": "1,cook pot",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "holy symbol",
+      "raw_text": "1,holy symbol",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "glass bottle (empty)",
+      "raw_text": "1,glass bottle (empty)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "skin"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.domestic-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";adventuregear\n10,\n1,[Quick Zone Populations.domestic-animal]\n1,grappling hook\n1,basket of berries\n1,bucket\n1,fishing net\n1,bell\n1,[skin]\n1,diary\n1,cook pot\n1,holy symbol\n1,glass bottle (empty)",
+  "warnings": []
+}

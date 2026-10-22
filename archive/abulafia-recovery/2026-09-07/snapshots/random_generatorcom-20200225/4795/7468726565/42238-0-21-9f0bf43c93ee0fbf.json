@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Stocking",
+    "page_id": 4795
+  },
+  "source": {
+    "revision_id": 42238,
+    "timestamp": "2020-02-19T15:53:58Z",
+    "contributor": {
+      "name": "UnwashedMendicant",
+      "id": 1870,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20200225",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20200225/random_generatorcom-20200225-history.xml.7z",
+      "sourceSha256": "9f842fc8408b1d36b1891313be7922917e606f0351a843a48a21b820916cc6fe",
+      "sourceMember": "random_generatorcom-20200225-history.xml",
+      "xmlSha256": "d6d065d292f862b5e55d265ae60d32fce8b5fd72b4622c1bd28fe7b03d2d2446",
+      "xmlBytes": 435088453,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20200225-history.xml.7z",
+      "textSha256": "c359e9fda131449d1512622c84a64b09806dfa107868b8b9784a56aff990dd18",
+      "rawSha256": "9f0bf43c93ee0fbfaadfeec159c89f2dadb786bf643454cc78e2cdb8fcf0c44c",
+      "revisionId": "42238",
+      "line": 21,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "42250",
+        "timestamp": "2020-02-19T16:18:10Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "three",
+    "qualified_name": "Dungeon Stocking.three",
+    "table_block_index": 0,
+    "line_number": 21
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "with threasure",
+      "raw_text": "1, with threasure",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "no treasure",
+      "raw_text": "5, no treasure",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";three\n1, with threasure\n5, no treasure",
+  "warnings": []
+}

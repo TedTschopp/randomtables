@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 16080,
+    "timestamp": "2012-12-06T14:56:03Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0b96ed0e6a468956639c34da77e9bef94b0d3d47a00fe12abfce0cc920fe12ca",
+      "rawSha256": "30c56fb1fb56917deba0e76a40218ae8cf15e5109e390ff3a8548e93fc9d2627",
+      "revisionId": "16080",
+      "line": 226,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17456",
+        "timestamp": "2013-03-21T19:09:43Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Action",
+    "qualified_name": "Creepy Fantasy Villain.Action",
+    "table_block_index": 0,
+    "line_number": 226
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Walks",
+      "raw_text": "1,Walks",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Walks as Man",
+      "raw_text": "1,Walks as Man",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Stalks",
+      "raw_text": "1,Stalks",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Hunts",
+      "raw_text": "1,Hunts",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Hungers",
+      "raw_text": "1,Hungers",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Thirsts",
+      "raw_text": "1,Thirsts",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Needs",
+      "raw_text": "1,Needs",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Laughs",
+      "raw_text": "1,Laughs",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Howls",
+      "raw_text": "1,Howls",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Craves",
+      "raw_text": "1,Craves",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Devours",
+      "raw_text": "1,Devours",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Ravages",
+      "raw_text": "1,Ravages",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Consumes",
+      "raw_text": "1,Consumes",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Lurks",
+      "raw_text": "1,Lurks",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Writhes",
+      "raw_text": "1,Writhes",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Whispers",
+      "raw_text": "1,Whispers",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Seeks",
+      "raw_text": "1,Seeks",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Torments",
+      "raw_text": "1,Torments",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Action\n1,Walks\n1,Walks as Man\n1,Stalks\n1,Hunts\n1,Hungers\n1,Thirsts\n1,Needs\n1,Laughs\n1,Howls\n1,Craves\n1,Devours\n1,Ravages\n1,Consumes\n1,Lurks\n1,Writhes\n1,Whispers\n1,Seeks\n1,Torments",
+  "warnings": []
+}

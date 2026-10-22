@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "fc3d89df4018414b7b6a8feff80612826e604ed934befc59e777d8c631969db6",
+      "revisionId": "16977",
+      "line": 373,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "atmosphere-descriptor",
+    "qualified_name": "Planar Codex Parish.atmosphere-descriptor",
+    "table_block_index": 0,
+    "line_number": 373
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "tropical",
+      "raw_text": "1,tropical",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dank",
+      "raw_text": "1,dank",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "sun-soaked",
+      "raw_text": "1,sun-soaked",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "wintry",
+      "raw_text": "1,wintry",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "teeming",
+      "raw_text": "1,teeming",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "overcrowded",
+      "raw_text": "1,overcrowded",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "foggy",
+      "raw_text": "1,foggy",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "damp",
+      "raw_text": "1,damp",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "frigid",
+      "raw_text": "1,frigid",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "stormwracked",
+      "raw_text": "1,stormwracked",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "charming",
+      "raw_text": "1,charming",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "silent",
+      "raw_text": "1,silent",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "tropical",
+      "raw_text": "1,tropical",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "muggy",
+      "raw_text": "1,muggy",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "sprawling",
+      "raw_text": "1,sprawling",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "sun-blasted",
+      "raw_text": "1,sun-blasted",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "starlit",
+      "raw_text": "1,starlit",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "moonlit",
+      "raw_text": "1,moonlit",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "rainy",
+      "raw_text": "1,rainy",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "idyllic",
+      "raw_text": "1,idyllic",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "pleasant",
+      "raw_text": "1,pleasant",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "sandstorm-blasted",
+      "raw_text": "1,sandstorm-blasted",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";atmosphere-descriptor\n1,tropical\n1,dank\n1,sun-soaked\n1,wintry\n1,teeming\n1,overcrowded\n1,foggy\n1,damp\n1,frigid\n1,stormwracked\n1,charming\n1,silent\n1,tropical\n1,muggy\n1,sprawling\n1,sun-blasted\n1,starlit\n1,moonlit\n1,rainy\n1,idyllic\n1,pleasant\n1,sandstorm-blasted",
+  "warnings": []
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "a96effedb3668ab73da29da0ee8d611990a8447c3701f5aed2447aef0d610a0f",
+      "revisionId": "9620",
+      "line": 333,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteFoodDrink",
+    "qualified_name": "Rituals.riteFoodDrink",
+    "table_block_index": 0,
+    "line_number": 333
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "drink a lot of alcohol",
+      "raw_text": "1,drink a lot of alcohol",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "host a great feast",
+      "raw_text": "1,host a great feast",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "host a feast where [[FantasyMenu.Descriptor] [FantasyMenu.MainMeals] is served",
+      "raw_text": "1,host a feast where [[FantasyMenu.Descriptor] [FantasyMenu.MainMeals] is served",
+      "references": [
+        {
+          "raw": "[FantasyMenu.MainMeals]",
+          "token": "FantasyMenu.MainMeals",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "riteFoodDrink",
+          "target_page": "FantasyMenu",
+          "target_subtable": "MainMeals",
+          "target_qualified_name": "FantasyMenu.MainMeals"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "drink sacred wine",
+      "raw_text": "1,drink sacred wine",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "partake of a particular narcotic drug",
+      "raw_text": "1,partake of a particular narcotic drug",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "partake of a particular hallucinogenic drug",
+      "raw_text": "1,partake of a particular hallucinogenic drug",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "host a formal ball",
+      "raw_text": "1,host a formal ball",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "eat only [specificFood] for [timePeriodShort]",
+      "raw_text": "2,eat only [specificFood] for [timePeriodShort]",
+      "references": [
+        {
+          "raw": "[specificFood]",
+          "token": "specificFood",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteFoodDrink",
+          "target_page": "Rituals",
+          "target_subtable": "specificFood",
+          "target_qualified_name": "Rituals.specificFood"
+        },
+        {
+          "raw": "[timePeriodShort]",
+          "token": "timePeriodShort",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteFoodDrink",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodShort",
+          "target_qualified_name": "Rituals.timePeriodShort"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "refrain from eating [specificFood] for [timePeriodLong]",
+      "raw_text": "2,refrain from eating [specificFood] for [timePeriodLong]",
+      "references": [
+        {
+          "raw": "[specificFood]",
+          "token": "specificFood",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteFoodDrink",
+          "target_page": "Rituals",
+          "target_subtable": "specificFood",
+          "target_qualified_name": "Rituals.specificFood"
+        },
+        {
+          "raw": "[timePeriodLong]",
+          "token": "timePeriodLong",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteFoodDrink",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodLong",
+          "target_qualified_name": "Rituals.timePeriodLong"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "specificFood",
+      "timePeriodLong",
+      "timePeriodShort"
+    ],
+    "external_subtables": [
+      "FantasyMenu.MainMeals"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";riteFoodDrink\n1,drink a lot of alcohol\n1,host a great feast\n1,host a feast where [[FantasyMenu.Descriptor] [FantasyMenu.MainMeals] is served\n1,drink sacred wine\n1,partake of a particular narcotic drug\n1,partake of a particular hallucinogenic drug\n1,host a formal ball\n2,eat only [specificFood] for [timePeriodShort]\n2,refrain from eating [specificFood] for [timePeriodLong]",
+  "warnings": []
+}

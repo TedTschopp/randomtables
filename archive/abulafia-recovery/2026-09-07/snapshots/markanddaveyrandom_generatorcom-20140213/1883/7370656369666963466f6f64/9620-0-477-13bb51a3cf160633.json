@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "13bb51a3cf160633feb10a291e3f8ca414812d07cbbe2a7fc0380ec03e56389d",
+      "revisionId": "9620",
+      "line": 477,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "specificFood",
+    "qualified_name": "Rituals.specificFood",
+    "table_block_index": 0,
+    "line_number": 477
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Utility.Fruit]s",
+      "raw_text": "1,[Utility.Fruit]s",
+      "references": [
+        {
+          "raw": "[Utility.Fruit]",
+          "token": "Utility.Fruit",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "specificFood",
+          "target_page": "Utility",
+          "target_subtable": "Fruit",
+          "target_qualified_name": "Utility.Fruit"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[FantasyFarmstead.AgricultureProduct]",
+      "raw_text": "1,[FantasyFarmstead.AgricultureProduct]",
+      "references": [
+        {
+          "raw": "[FantasyFarmstead.AgricultureProduct]",
+          "token": "FantasyFarmstead.AgricultureProduct",
+          "kind": "unresolved_cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "specificFood",
+          "target_page": "FantasyFarmstead",
+          "target_subtable": "AgricultureProduct",
+          "target_qualified_name": "FantasyFarmstead.AgricultureProduct"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[FantasyMenu.MainMeals]",
+      "raw_text": "1,[FantasyMenu.MainMeals]",
+      "references": [
+        {
+          "raw": "[FantasyMenu.MainMeals]",
+          "token": "FantasyMenu.MainMeals",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "specificFood",
+          "target_page": "FantasyMenu",
+          "target_subtable": "MainMeals",
+          "target_qualified_name": "FantasyMenu.MainMeals"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[FantasyMenu.Veggies]",
+      "raw_text": "1,[FantasyMenu.Veggies]",
+      "references": [
+        {
+          "raw": "[FantasyMenu.Veggies]",
+          "token": "FantasyMenu.Veggies",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "specificFood",
+          "target_page": "FantasyMenu",
+          "target_subtable": "Veggies",
+          "target_qualified_name": "FantasyMenu.Veggies"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "FantasyMenu.MainMeals",
+      "FantasyMenu.Veggies",
+      "Utility.Fruit"
+    ],
+    "unresolved": [
+      "FantasyFarmstead.AgricultureProduct"
+    ]
+  },
+  "raw_source": ";specificFood\n1,[Utility.Fruit]s\n1,[FantasyFarmstead.AgricultureProduct]\n1,[FantasyMenu.MainMeals]\n1,[FantasyMenu.Veggies]",
+  "warnings": []
+}

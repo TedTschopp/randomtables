@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "8c5d72fae1ddc46683c14be738eb0f137b62ffd9d38707cb10b2d9a28c45641b",
+      "revisionId": "1643",
+      "line": 202,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "OtherTables",
+    "qualified_name": "Pickpocket.OtherTables",
+    "table_block_index": 0,
+    "line_number": 202
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Swords.DaggerStart]",
+      "raw_text": "1,[Swords.DaggerStart]",
+      "references": [
+        {
+          "raw": "[Swords.DaggerStart]",
+          "token": "Swords.DaggerStart",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "OtherTables",
+          "target_page": "Swords",
+          "target_subtable": "DaggerStart",
+          "target_qualified_name": "Swords.DaggerStart"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Jewelry.main]",
+      "raw_text": "1,[Jewelry.main]",
+      "references": [
+        {
+          "raw": "[Jewelry.main]",
+          "token": "Jewelry.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "OtherTables",
+          "target_page": "Jewelry",
+          "target_subtable": "main",
+          "target_qualified_name": "Jewelry.main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[HerbalProducts.main]",
+      "raw_text": "1,[HerbalProducts.main]",
+      "references": [
+        {
+          "raw": "[HerbalProducts.main]",
+          "token": "HerbalProducts.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "OtherTables",
+          "target_page": "HerbalProducts",
+          "target_subtable": "main",
+          "target_qualified_name": "HerbalProducts.main"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a book: [FantasyBooks.main]",
+      "raw_text": "1,a book: [FantasyBooks.main]",
+      "references": [
+        {
+          "raw": "[FantasyBooks.main]",
+          "token": "FantasyBooks.main",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "OtherTables",
+          "target_page": "FantasyBooks",
+          "target_subtable": "main",
+          "target_qualified_name": "FantasyBooks.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "FantasyBooks.main",
+      "HerbalProducts.main",
+      "Jewelry.main",
+      "Swords.DaggerStart"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";OtherTables\n1,[Swords.DaggerStart]\n1,[Jewelry.main]\n1,[HerbalProducts.main]\n1,a book: [FantasyBooks.main]",
+  "warnings": []
+}

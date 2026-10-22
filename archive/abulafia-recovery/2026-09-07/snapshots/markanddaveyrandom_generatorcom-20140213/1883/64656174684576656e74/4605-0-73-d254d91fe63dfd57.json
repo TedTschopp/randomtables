@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "d254d91fe63dfd5749d5dc95634a39bdd0dd1b38bfe2ea23a0200668b8de9901",
+      "revisionId": "4605",
+      "line": 73,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "deathEvent",
+    "qualified_name": "Rituals.deathEvent",
+    "table_block_index": 0,
+    "line_number": 73
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "the death of one's [olderRelative]",
+      "raw_text": "1,the death of one's [olderRelative]",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "deathEvent",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "the untimely or violent death of one's [olderRelative]",
+      "raw_text": "1,the untimely or violent death of one's [olderRelative]",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "deathEvent",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";deathEvent\n1,the death of one's [olderRelative]\n1,the untimely or violent death of one's [olderRelative]",
+  "warnings": []
+}

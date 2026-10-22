@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "78c0ecf301cdabad57c5a4ea9032e294685977ec188e6998373d4259de140e05",
+      "revisionId": "22835",
+      "line": 113,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Curse.main",
+    "table_block_index": 0,
+    "line_number": 113
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 9,
+      "text": "[initial-effect], and [ongoing-effect], this effect [can] [remedy]",
+      "raw_text": "9,[initial-effect], and [ongoing-effect], this effect [can] [remedy]",
+      "references": [
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        },
+        {
+          "raw": "[ongoing-effect]",
+          "token": "ongoing-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "ongoing-effect",
+          "target_qualified_name": "Curse.ongoing-effect"
+        },
+        {
+          "raw": "[can]",
+          "token": "can",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "can",
+          "target_qualified_name": "Curse.can"
+        },
+        {
+          "raw": "[remedy]",
+          "token": "remedy",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "remedy",
+          "target_qualified_name": "Curse.remedy"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 12,
+      "text": "[initial-effect], this effect [can] [remedy]",
+      "raw_text": "12,[initial-effect], this effect [can] [remedy]",
+      "references": [
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        },
+        {
+          "raw": "[can]",
+          "token": "can",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "can",
+          "target_qualified_name": "Curse.can"
+        },
+        {
+          "raw": "[remedy]",
+          "token": "remedy",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "remedy",
+          "target_qualified_name": "Curse.remedy"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[initial-effect], and [ongoing-effect], and [ongoing-effect], this effect [can] [remedy]",
+      "raw_text": "1,[initial-effect], and [ongoing-effect], and [ongoing-effect], this effect [can] [remedy]",
+      "references": [
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        },
+        {
+          "raw": "[ongoing-effect]",
+          "token": "ongoing-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "ongoing-effect",
+          "target_qualified_name": "Curse.ongoing-effect"
+        },
+        {
+          "raw": "[ongoing-effect]",
+          "token": "ongoing-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "ongoing-effect",
+          "target_qualified_name": "Curse.ongoing-effect"
+        },
+        {
+          "raw": "[can]",
+          "token": "can",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "can",
+          "target_qualified_name": "Curse.can"
+        },
+        {
+          "raw": "[remedy]",
+          "token": "remedy",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "remedy",
+          "target_qualified_name": "Curse.remedy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[initial-effect], and [ongoing-effect], and [positive-effect], this effect [can] [remedy]",
+      "raw_text": "1,[initial-effect], and [ongoing-effect], and [positive-effect], this effect [can] [remedy]",
+      "references": [
+        {
+          "raw": "[initial-effect]",
+          "token": "initial-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect",
+          "target_qualified_name": "Curse.initial-effect"
+        },
+        {
+          "raw": "[ongoing-effect]",
+          "token": "ongoing-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "ongoing-effect",
+          "target_qualified_name": "Curse.ongoing-effect"
+        },
+        {
+          "raw": "[positive-effect]",
+          "token": "positive-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "positive-effect",
+          "target_qualified_name": "Curse.positive-effect"
+        },
+        {
+          "raw": "[can]",
+          "token": "can",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "can",
+          "target_qualified_name": "Curse.can"
+        },
+        {
+          "raw": "[remedy]",
+          "token": "remedy",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "main",
+          "target_page": "Curse",
+          "target_subtable": "remedy",
+          "target_qualified_name": "Curse.remedy"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "can",
+      "initial-effect",
+      "ongoing-effect",
+      "positive-effect",
+      "remedy"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n9,[initial-effect], and [ongoing-effect], this effect [can] [remedy]\n12,[initial-effect], this effect [can] [remedy]\n1,[initial-effect], and [ongoing-effect], and [ongoing-effect], this effect [can] [remedy]\n1,[initial-effect], and [ongoing-effect], and [positive-effect], this effect [can] [remedy]",
+  "warnings": []
+}

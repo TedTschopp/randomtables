@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15500,
+    "timestamp": "2012-11-02T09:07:56Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "57a8d43aad8922fb1521ea37f3adf3ec40504320d797f7e877ae53768e2f9d50",
+      "rawSha256": "7885f632d6ffcd0547d4af1110e9b374f80c7629b69953c2fe7690bc5f46c809",
+      "revisionId": "15500",
+      "line": 156,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "remedy-etc",
+    "qualified_name": "Curse.remedy-etc",
+    "table_block_index": 0,
+    "line_number": 156
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "must be removed as a curse",
+      "raw_text": "4,must be removed as a curse",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "must be neutralized as a poison",
+      "raw_text": "4,must be neutralized as a poison",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "must be both removed as a curse and neutralized as a poison",
+      "raw_text": "3,must be both removed as a curse and neutralized as a poison",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "can be removed by arcane means",
+      "raw_text": "2,can be removed by arcane means",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "can be removed by divine healing",
+      "raw_text": "2,can be removed by divine healing",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "can be removed by divine or arcane means",
+      "raw_text": "2,can be removed by divine or arcane means",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "can be removed by a specialist chirurgeon",
+      "raw_text": "2,can be removed by a specialist chirurgeon",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "can be removed by any skilled divine, arcane, or mundane healer",
+      "raw_text": "2,can be removed by any skilled divine, arcane, or mundane healer",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "can be removed by arcane means only",
+      "raw_text": "1,can be removed by arcane means only",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "can only be healed with a specific herb",
+      "raw_text": "1,can only be healed with a specific herb",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "can only be healed with a specific antidote",
+      "raw_text": "1,can only be healed with a specific antidote",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "can only be healed by its caster",
+      "raw_text": "1,can only be healed by its caster",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";remedy-etc\n4,must be removed as a curse\n4,must be neutralized as a poison\n3,must be both removed as a curse and neutralized as a poison\n2,can be removed by arcane means\n2,can be removed by divine healing\n2,can be removed by divine or arcane means\n2,can be removed by a specialist chirurgeon\n2,can be removed by any skilled divine, arcane, or mundane healer\n1,can be removed by arcane means only\n1,can only be healed with a specific herb\n1,can only be healed with a specific antidote\n1,can only be healed by its caster",
+  "warnings": []
+}

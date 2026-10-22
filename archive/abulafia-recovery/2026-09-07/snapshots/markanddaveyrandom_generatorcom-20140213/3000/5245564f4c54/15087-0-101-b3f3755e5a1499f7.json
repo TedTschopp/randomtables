@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15087,
+    "timestamp": "2012-08-01T10:10:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c2c53f3a955b43634a82f944a5c63e0526562a13e2d6b6749bf329ebdbfcd84d",
+      "rawSha256": "b3f3755e5a1499f7189c573141e7c93f137ca9f526848b64e2a598aca59e7dcf",
+      "revisionId": "15087",
+      "line": 101,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "REVOLT",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.REVOLT",
+    "table_block_index": 0,
+    "line_number": 101
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";REVOLT\nREVOLT\n\na Tyrant\na Conspirator\n\nThe Tyrant, a cruel power, is plotted against by the Conspirator.",
+  "warnings": [
+    "Line 101: preserved nonstandard row before first entry: REVOLT",
+    "Line 103: preserved nonstandard row before first entry: a Tyrant",
+    "Line 104: preserved nonstandard row before first entry: a Conspirator",
+    "Line 106: preserved nonstandard row before first entry: The Tyrant, a cruel power, is plotted against by the Conspirator."
+  ]
+}

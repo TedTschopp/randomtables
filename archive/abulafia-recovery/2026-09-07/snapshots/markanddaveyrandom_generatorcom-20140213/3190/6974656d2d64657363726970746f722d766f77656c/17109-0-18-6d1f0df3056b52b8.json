@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17109,
+    "timestamp": "2013-02-14T08:31:35Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a23a6183958bc2c2f79e6b97c59a588103dfe544417924bdb42d8d33e16b9004",
+      "rawSha256": "6d1f0df3056b52b8f8bc47a90cf5473c0d08e21345097898a5bb1f3c4b1a6e8a",
+      "revisionId": "17109",
+      "line": 18,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item-descriptor-vowel",
+    "qualified_name": "Planar Codex Parish.item-descriptor-vowel",
+    "table_block_index": 0,
+    "line_number": 18
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "eldritch",
+      "raw_text": "1,eldritch",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "ogrish",
+      "raw_text": "1,ogrish",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "ice",
+      "raw_text": "1,ice",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "orichalem",
+      "raw_text": "1,orichalem",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "adamantine",
+      "raw_text": "1,adamantine",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "elven",
+      "raw_text": "1,elven",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "enchanted",
+      "raw_text": "1,enchanted",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "invested",
+      "raw_text": "1,invested",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "epic",
+      "raw_text": "1,epic",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "imperial",
+      "raw_text": "1,imperial",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "actinic",
+      "raw_text": "1,actinic",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "evanescing",
+      "raw_text": "1,evanescing",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "astral",
+      "raw_text": "1,astral",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "ethereal",
+      "raw_text": "1,ethereal",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "exotic",
+      "raw_text": "1,exotic",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "imperial",
+      "raw_text": "1,imperial",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";item-descriptor-vowel\n1,eldritch\n1,ogrish\n1,ice\n1,orichalem\n1,adamantine\n1,elven\n1,ancient\n1,enchanted\n1,invested\n1,epic\n1,imperial\n1,actinic\n1,evanescing\n1,astral\n1,ethereal\n1,exotic\n1,imperial",
+  "warnings": []
+}

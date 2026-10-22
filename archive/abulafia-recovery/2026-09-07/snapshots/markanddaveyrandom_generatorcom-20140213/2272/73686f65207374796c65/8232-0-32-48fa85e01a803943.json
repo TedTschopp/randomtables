@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 8232,
+    "timestamp": "2008-12-08T23:32:51Z",
+    "contributor": {
+      "name": "Draekan",
+      "id": 356,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e56159efce2de4840b39a8a9607491decd6208a947cc003d569ec73cd8330c09",
+      "rawSha256": "48fa85e01a803943bb1b5c1f6ca8e8726bc51e138eaefcdb9338e2dea378e1c1",
+      "revisionId": "8232",
+      "line": 32,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9312",
+        "timestamp": "2009-07-22T02:03:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "shoe style",
+    "qualified_name": "Found in a crate.shoe style",
+    "table_block_index": 0,
+    "line_number": 32
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sandals",
+      "raw_text": "1,sandals",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "pointy toed shoes",
+      "raw_text": "2,pointy toed shoes",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": ",curling toed shoes",
+      "raw_text": "2,,curling toed shoes",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "boots",
+      "raw_text": "2,boots",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "work boots",
+      "raw_text": "1,work boots",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "combat boots",
+      "raw_text": "1,combat boots",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "leather boots",
+      "raw_text": "2,leather boots",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "suede shoes",
+      "raw_text": "1,suede shoes",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "leather shoes",
+      "raw_text": "1,leather shoes",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "stilettos",
+      "raw_text": "1,stilettos",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "cloth feet wrappings",
+      "raw_text": "1,cloth feet wrappings",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "winter boots",
+      "raw_text": "1,winter boots",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";shoe style\n1,sandals\n2,pointy toed shoes\n2,,curling toed shoes\n2,boots\n1,work boots\n1,combat boots\n2,leather boots\n1,suede shoes\n1,leather shoes\n1,stilettos\n1,cloth feet wrappings\n1,winter boots",
+  "warnings": []
+}

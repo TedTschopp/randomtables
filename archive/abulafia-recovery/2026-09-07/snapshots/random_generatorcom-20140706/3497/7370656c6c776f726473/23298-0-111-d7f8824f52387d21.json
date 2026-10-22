@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "d7f8824f52387d210d83b2c53db35685e24ab9a29b00a2cf425818f9feb17ad2",
+      "revisionId": "23298",
+      "line": 111,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "spellwords",
+    "qualified_name": "Blazon.spellwords",
+    "table_block_index": 0,
+    "line_number": 111
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[words]",
+      "raw_text": "1,[words]",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "spellwords",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "{{UC:[spell]}}",
+      "raw_text": "1,{{UC:[spell]}}",
+      "references": [
+        {
+          "raw": "[spell]",
+          "token": "spell",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "spellwords",
+          "target_page": "Blazon",
+          "target_subtable": "spell",
+          "target_qualified_name": "Blazon.spell"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "spell",
+      "words"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";spellwords\n1,[words]\n1,{{UC:[spell]}}",
+  "warnings": []
+}

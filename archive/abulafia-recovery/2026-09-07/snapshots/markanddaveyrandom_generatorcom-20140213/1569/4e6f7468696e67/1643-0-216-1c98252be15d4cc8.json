@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "1c98252be15d4cc87083c33dec6b0afaf43dae6e08a9ed7f2002b8e5968fcde6",
+      "revisionId": "1643",
+      "line": 216,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Nothing",
+    "qualified_name": "Pickpocket.Nothing",
+    "table_block_index": 0,
+    "line_number": 216
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a few hopping fleas",
+      "raw_text": "1,a few hopping fleas",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "breadcrumbs",
+      "raw_text": "1,breadcrumbs",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lint",
+      "raw_text": "1,lint",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a few fluttering white moths",
+      "raw_text": "1,a few fluttering white moths",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[Dice.4d6] fairy gold coins - they vanish into dry leaves at the next dawn",
+      "raw_text": "1,[Dice.4d6] fairy gold coins - they vanish into dry leaves at the next dawn",
+      "references": [
+        {
+          "raw": "[Dice.4d6]",
+          "token": "Dice.4d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Nothing",
+          "target_page": "Dice",
+          "target_subtable": "4d6",
+          "target_qualified_name": "Dice.4d6"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.4d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";Nothing\n1,a few hopping fleas\n1,breadcrumbs\n1,lint\n1,a few fluttering white moths\n1,[Dice.4d6] fairy gold coins - they vanish into dry leaves at the next dawn",
+  "warnings": []
+}

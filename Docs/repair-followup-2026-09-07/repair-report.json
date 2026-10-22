@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "2026-09-07 bracket and recovery case repairs, before bounded recursion",
+  "previousManifestSha256": "f762e6c866d63b25cc7baae38f7ae9bd90e0e308ae7c79557086915efe5aed75",
+  "nextManifestSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e",
+  "previous": {
+    "tables": 32255,
+    "ready": 25222,
+    "blocked": 7033,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "current": {
+    "tables": 32255,
+    "ready": 25275,
+    "blocked": 6980,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "promoted": 53,
+  "referenceCorrections": 90,
+  "correctedSourceTables": 41,
+  "preservedReady": 25222,
+  "preservedArchives": 2170,
+  "configurationHashes": {
+    "explorer/tools/source-extraction-corrections.json": "93fc7ac6b63c3e170b52dd100b459681e37a58d27aa837db2b50a0960bfb4a78",
+    "explorer/tools/recovery-case-corrections.json": "8aff266db11a5b2877231ed7dc466a4995c7313147231c4972f70676f6dc20be"
+  },
+  "rollAcceptance": {
+    "file": "roll-acceptance.json",
+    "sha256": "a1810ef4f1fc911a8fc8e2511c7eb55c1eb67cfe0ea3083ca203a7dbb5bba080",
+    "summary": {
+      "tables": 53,
+      "staticTables": 43,
+      "runtimeTables": 10,
+      "choices": 1202,
+      "rolls": 3606,
+      "warnings": 0,
+      "emptyResults": 0,
+      "maximumCharacters": 152,
+      "maximumCalls": 18,
+      "maximumDepth": 6
+    }
+  },
+  "stages": [
+    {
+      "schemaVersion": 1,
+      "previousManifestSha256": "f762e6c866d63b25cc7baae38f7ae9bd90e0e308ae7c79557086915efe5aed75",
+      "nextManifestSha256": "367939185f722d701732168c62862361c07e840893d4ef793af747c96afa5857",
+      "previous": {
+        "tables": 32255,
+        "ready": 25222,
+        "blocked": 7033,
+        "coreTables": 11,
+        "contributors": 275,
+        "pages": 1638,
+        "currentTables": 26156,
+        "historicalTables": 6099,
+        "sourceArchives": 2170,
+        "entries": 590941,
+        "historicalAttribution": 31704
+      },
+      "current": {
+        "tables": 32255,
+        "ready": 25273,
+        "blocked": 6982,
+        "coreTables": 11,
+        "contributors": 275,
+        "pages": 1638,
+        "currentTables": 26156,
+        "historicalTables": 6099,
+        "sourceArchives": 2170,
+        "entries": 590941,
+        "historicalAttribution": 31704
+      },
+      "sourceCorrection": {
+        "tableId": "wiki_abulafia_1611_5469746c6544657363726970746f72",
+        "sourceFile": "tables/secret-society-title/subtables/titledescriptor/table.json",
+        "sourceHash": "60778569a1a6e2574ca0b2aac5f48187cb57bc714f66c9cb59506d6b25af6b17",
+        "rawSourceHash": "cb29941e75f5962cdd3cdf5b200ccabae36129c515b898d6dd72a512f5d4dd75",
+        "kind": "repair-extra-self-reference-bracket",
+        "row": 1,
+        "line": 2,
+        "raw": "10,Most [TitleDescriptor]]",
+        "weight": 10,
+        "entryHash": "8d61353869e3e8292685903d20089838247cdfe3536daedeb9fe10e57f447f8b"
+      },
+      "caseBasis": {
+        "report": "Docs/quarantine-report.json",
+        "reportSha256": "c1cde3bad5742e19eaa3fc5fe9b0f83d950e847122a4e58b37550bcc79a42611",
+        "manifestSha256": "f762e6c866d63b25cc7baae38f7ae9bd90e0e308ae7c79557086915efe5aed75",
+        "candidateComponents": 39,
+        "missingTargetNames": 34,
+        "conditionalEstimate": 42,
+        "policy": "Apply only exact selectable case-reference candidates in the approved full current-and-historical catalog. Preserve source rows, weights, IDs, earlier current-scope approvals, and all readiness guards."
+      },
+      "caseRules": 71,
+      "preservedReady": 25222,
+      "preservedArchives": 2170,
+      "changed": [
+        {
+          "file": "tables/abulafia.js",
+          "beforeSha256": "d84c39a6e60c299b5d5e41851039405d18eb0dbf680f3ed1d7f2d45123c5f024",
+          "afterSha256": "e26d41a97e4b29813ff5e33be1642c943c18bc3b460d073cd2b2ad403ce24548"
+        },
+        {
+          "file": "explorer/abulafia-catalog.js",
+          "beforeSha256": "cfb4876ee90c9cafb8221d7170df7cee4b67ef9c3fd60c26854ee3583109da14",
+          "afterSha256": "20c813a9c3bec7ba32ae22ed570d7e6436a79277501bf0227b644492f49a4eff"
+        },
+        {
+          "file": "tables/abulafia/manifest.json",
+          "beforeSha256": "f762e6c866d63b25cc7baae38f7ae9bd90e0e308ae7c79557086915efe5aed75",
+          "afterSha256": "367939185f722d701732168c62862361c07e840893d4ef793af747c96afa5857"
+        },
+        {
+          "file": "explorer/tools/recovery-case-corrections.json",
+          "beforeSha256": null,
+          "afterSha256": "da5126bac8c0400581912d1d723f3a2cdbc42366cb70c49f68f1d0679cb899fb"
+        },
+        {
+          "file": "explorer/tools/source-extraction-corrections.json",
+          "beforeSha256": "c821973e64ba535001ef6fb6c3df8cff4eff9ac35c0a16f985086fb2d9272b99",
+          "afterSha256": "93fc7ac6b63c3e170b52dd100b459681e37a58d27aa837db2b50a0960bfb4a78"
+        }
+      ],
+      "descriptorIssues": [
+        {
+          "code": "cycle",
+          "detail": "Cyclic expansion requires a bounded wiki runtime"
+        },
+        {
+          "code": "blocked_dependency",
+          "detail": "Secret Society Title.TitleDescriptor"
+        }
+      ],
+      "promoted": [
+        {
+          "id": "wiki_abulafia_2184_417274696661637454797065",
+          "name": "Artifacts.ArtifactType",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_2184_426c756e74417274696661637454797065",
+          "name": "Artifacts.BluntArtifactType",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_2184_5368617270417274696661637454797065",
+          "name": "Artifacts.SharpArtifactType",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_1517_46656d616c654c656777656172",
+          "name": "ClothingFemale.FemaleLegwear",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_1517_4c656777656172",
+          "name": "ClothingFemale.Legwear",
+          "historical": false,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_1517_666c",
+          "name": "ClothingFemale.fl",
+          "historical": false,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_1517_6d6f",
+          "name": "ClothingFemale.mo",
+          "historical": false,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_2243_4e414d455245464552454e4345202d2d20666f72207265666572656e6365207768696c6520636f6d70696c696e67",
+          "name": "Dueling Character.NAMEREFERENCE -- for reference while compiling",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3400_4648",
+          "name": "Facial Hair.FH",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3271_434f57415244494345",
+          "name": "Fantasy Character History.COWARDICE",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3271_4445425453",
+          "name": "Fantasy Character History.DEBTS",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3271_46414d494c595f494e564f4c564544",
+          "name": "Fantasy Character History.FAMILY_INVOLVED",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3271_5245434f474e4954494f4e",
+          "name": "Fantasy Character History.RECOGNITION",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3978_6d696e776561706f6e",
+          "name": "Homebrew skirmish.minweapon",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_4633_426c756e74f09f8ea8",
+          "name": "Pathfinder Artifact.Blunt🎨",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_4633_5368617270f09f8ea8",
+          "name": "Pathfinder Artifact.Sharp🎨",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3304_5b5365636f6e642053656e74656e63655d",
+          "name": "SCP Foundation Idea Generator.[Second Sentence]",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_1760_6c6f636174696f6e696e646f6f72",
+          "name": "Spycraft Scene.locationindoor",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_4054_74656d70",
+          "name": "Strange New World.temp",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_4554_696e64646576",
+          "name": "Suburban development names.inddev",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3402_636f61747374796c65",
+          "name": "Weird West Clothing.coatstyle",
+          "historical": false,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3403_6d616c6570616e7473",
+          "name": "Weird West Colors.malepants",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3396_706c61696442",
+          "name": "Western Outfit.plaidB",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3396_706c61696443",
+          "name": "Western Outfit.plaidC",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_48616972",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Hair",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_4c616e646d61726b",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Landmark",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_4c61797665746d6168",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Layvetmah",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_4c65507568746565436f6f6c65687272",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.LePuhteeCoolehrr",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_4e6f6d656e",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Nomen",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_61646a",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.adj",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_61726d73",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.arms",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_61726d73736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.armsslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6368657374",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.chest",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_6368657374736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.chestslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_65796573",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.eyes",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_65796573736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.eyesslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6765747570",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.getup",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_68656164",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.head",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_68656164736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.headslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6c656773",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.legs",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6c656773736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.legsslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6d697363",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.misc",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6d697363736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.miscslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_72696e67",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.ring",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_72696e67736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.ringslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_73686f6573",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.shoes",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_73686f6573736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.shoesslot",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_e0ab90",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.ૐ",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_e288b4",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.∴",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_e2929c",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.⒜",
+          "historical": true,
+          "execution": "wiki"
+        },
+        {
+          "id": "wiki_abulafia_3696_e2929d",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.⒝",
+          "historical": true,
+          "execution": "wiki"
+        }
+      ],
+      "correctedTables": [
+        {
+          "id": "wiki_abulafia_3696_61646a",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.adj",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_1517_6d6f",
+          "name": "ClothingFemale.mo",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3403_6d616c6570616e7473",
+          "name": "Weird West Colors.malepants",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3271_4445425453",
+          "name": "Fantasy Character History.DEBTS",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3271_434f57415244494345",
+          "name": "Fantasy Character History.COWARDICE",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3271_5245434f474e4954494f4e",
+          "name": "Fantasy Character History.RECOGNITION",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3696_6765747570",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.getup",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3271_46414d494c595f494e564f4c564544",
+          "name": "Fantasy Character History.FAMILY_INVOLVED",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3696_4e6f6d656e",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Nomen",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_4054_74656d70",
+          "name": "Strange New World.temp",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_1760_6c6f636174696f6e696e646f6f72",
+          "name": "Spycraft Scene.locationindoor",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_2184_417274696661637454797065",
+          "name": "Artifacts.ArtifactType",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_2184_426c756e74417274696661637454797065",
+          "name": "Artifacts.BluntArtifactType",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_2184_5368617270417274696661637454797065",
+          "name": "Artifacts.SharpArtifactType",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_2243_4e414d455245464552454e4345202d2d20666f72207265666572656e6365207768696c6520636f6d70696c696e67",
+          "name": "Dueling Character.NAMEREFERENCE -- for reference while compiling",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3304_5b5365636f6e642053656e74656e63655d",
+          "name": "SCP Foundation Idea Generator.[Second Sentence]",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3396_706c61696442",
+          "name": "Western Outfit.plaidB",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3396_706c61696443",
+          "name": "Western Outfit.plaidC",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3400_4648",
+          "name": "Facial Hair.FH",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3696_4c616e646d61726b",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Landmark",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3696_4c65507568746565436f6f6c65687272",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.LePuhteeCoolehrr",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3978_6d696e776561706f6e",
+          "name": "Homebrew skirmish.minweapon",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_4554_696e64646576",
+          "name": "Suburban development names.inddev",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_4633_426c756e74f09f8ea8",
+          "name": "Pathfinder Artifact.Blunt🎨",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_4633_5368617270f09f8ea8",
+          "name": "Pathfinder Artifact.Sharp🎨",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3271_45584f5449435f4556454e5453",
+          "name": "Fantasy Character History.EXOTIC_EVENTS",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.DEITIES"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.UNUSUAL_PETS"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3271_464f5245535452595f534b494c4c53",
+          "name": "Fantasy Character History.FORESTRY_SKILLS",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.COMBAT_SKILLS"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3271_494e4845524954414e4345",
+          "name": "Fantasy Character History.INHERITANCE",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.GIFTS_AND_LEGACIES"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3271_504154524f4e5f4556454e5453",
+          "name": "Fantasy Character History.PATRON_EVENTS",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.RIVALS"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.BRANCH_OF_SERVICE"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.CRIMES"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.PATRON_LOVE"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.CIVIL_OCCUPATIONS"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3190_6974656d2d6e616d65",
+          "name": "Planarch Codex Parish.item-name",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "ClothingFemale.FemaleClothing"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3366_706f776572",
+          "name": "Elf-folk.power",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Exotic Landscape.main"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3354_63726f7764",
+          "name": "User:Adamwb.crowd",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Sea Encounters.names"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "User:Adamwb.paparazzo"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3636_63726f7764",
+          "name": "User:Adamwb/sandbox.crowd",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Sea Encounters.names"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "User:Adamwb/sandbox.paparazzo"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3696_63726170",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.crap",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Yon Liberal-Degenerate Lonely Hearts Club.Quality"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3271_5049524143595f4556454e5453",
+          "name": "Fantasy Character History.PIRACY_EVENTS",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.CURSES"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Fantasy Character History.EXOTIC_PERSONALITY_TRAITS"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3332_6d61696e",
+          "name": "Angel Races.main",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Angel Races.species"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3696_6368657374736c6f74",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.chestslot",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "id": "wiki_abulafia_3873_726f6f6d",
+          "name": "Aeons and Augaries Dungeon Room.room",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.statue"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.altar"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.doorways"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.roots"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.fireplace"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.fountain"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.cauldron"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.pool"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Aeons and Augaries Dungeon Room.mist"
+            }
+          ]
+        },
+        {
+          "id": "wiki_abulafia_3998_496e74656c6c6967656e742053776f7264",
+          "name": "Magic Item.Intelligent Sword",
+          "status": "blocked",
+          "issues": [
+            {
+              "code": "blocked_dependency",
+              "detail": "Magic Item.minor power"
+            },
+            {
+              "code": "blocked_dependency",
+              "detail": "Magic Item.major power"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "previousManifestSha256": "367939185f722d701732168c62862361c07e840893d4ef793af747c96afa5857",
+      "nextManifestSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e",
+      "previous": {
+        "tables": 32255,
+        "ready": 25273,
+        "blocked": 6982,
+        "coreTables": 11,
+        "contributors": 275,
+        "pages": 1638,
+        "currentTables": 26156,
+        "historicalTables": 6099,
+        "sourceArchives": 2170,
+        "entries": 590941,
+        "historicalAttribution": 31704
+      },
+      "current": {
+        "tables": 32255,
+        "ready": 25275,
+        "blocked": 6980,
+        "coreTables": 11,
+        "contributors": 275,
+        "pages": 1638,
+        "currentTables": 26156,
+        "historicalTables": 6099,
+        "sourceArchives": 2170,
+        "entries": 590941,
+        "historicalAttribution": 31704
+      },
+      "caseBasis": {
+        "report": "Docs/quarantine-report.json",
+        "reportSha256": "58b98a9c9c615d6e6f420128165ed862ff2edd5509e1e2430c75daf140f4335c",
+        "manifestSha256": "367939185f722d701732168c62862361c07e840893d4ef793af747c96afa5857",
+        "candidateComponents": 2,
+        "missingTargetNames": 4,
+        "conditionalEstimate": 2,
+        "policy": "Correct only the two newly eligible historical components whose exact case-only targets became ready in the preceding repair batch. Preserve the earlier approval records and all source, identity, probability, and execution guards."
+      },
+      "caseRules": 19,
+      "preservedReady": 25273,
+      "preservedArchives": 2170,
+      "changed": [
+        {
+          "file": "tables/abulafia.js",
+          "beforeSha256": "e26d41a97e4b29813ff5e33be1642c943c18bc3b460d073cd2b2ad403ce24548",
+          "afterSha256": "23cebdd34052ef33bba3d5337b13255ef4c5fa0f2f0a5082a2cac5c36d9de345"
+        },
+        {
+          "file": "explorer/abulafia-catalog.js",
+          "beforeSha256": "20c813a9c3bec7ba32ae22ed570d7e6436a79277501bf0227b644492f49a4eff",
+          "afterSha256": "417caf040167423d84c767a705c75cf54d94bf018563fc21b44c827c8b0accd7"
+        },
+        {
+          "file": "tables/abulafia/manifest.json",
+          "beforeSha256": "367939185f722d701732168c62862361c07e840893d4ef793af747c96afa5857",
+          "afterSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e"
+        },
+        {
+          "file": "explorer/tools/recovery-case-corrections.json",
+          "beforeSha256": "da5126bac8c0400581912d1d723f3a2cdbc42366cb70c49f68f1d0679cb899fb",
+          "afterSha256": "8aff266db11a5b2877231ed7dc466a4995c7313147231c4972f70676f6dc20be"
+        }
+      ],
+      "promoted": [
+        {
+          "id": "wiki_abulafia_3696_46656174",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.Feat",
+          "historical": true,
+          "execution": "static"
+        },
+        {
+          "id": "wiki_abulafia_3696_6c656d61796d61796d61736b7864",
+          "name": "Yon Liberal-Degenerate Lonely Hearts Club.lemaymaymaskxd",
+          "historical": true,
+          "execution": "static"
+        }
+      ]
+    }
+  ]
+}

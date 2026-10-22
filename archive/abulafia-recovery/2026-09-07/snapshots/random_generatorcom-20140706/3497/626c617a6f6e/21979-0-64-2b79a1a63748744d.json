@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21979,
+    "timestamp": "2014-05-22T18:16:13Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "944c516ab78da2fd18af6c6ff41cf06141348a3acc523fb77ae6abcba9ff68b4",
+      "rawSha256": "2b79a1a63748744d569e68313f9f8b4a1d3933221700812522574ca7219af400",
+      "revisionId": "21979",
+      "line": 64,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "blazon",
+    "qualified_name": "Blazon.blazon",
+    "table_block_index": 0,
+    "line_number": 64
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "curse",
+      "raw_text": "1,curse",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "sigil",
+      "raw_text": "1,sigil",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "seal",
+      "raw_text": "1,seal",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "stamp",
+      "raw_text": "1,stamp",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "rune",
+      "raw_text": "1,rune",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "stone",
+      "raw_text": "1,stone",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "script",
+      "raw_text": "1,script",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";blazon\n1,curse\n1,sigil\n1,seal\n1,stamp\n1,rune\n1,stone\n1,script",
+  "warnings": []
+}

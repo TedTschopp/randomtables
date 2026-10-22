@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "5ab79a17ba95bf793e45ae24cc77432bbeeaf9554589ca2ffbb85196ebbd0595",
+      "revisionId": "9620",
+      "line": 503,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "tabooSexualFemale",
+    "qualified_name": "Rituals.tabooSexualFemale",
+    "table_block_index": 0,
+    "line_number": 503
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "lying with her [olderRelative], they both must",
+      "raw_text": "1,lying with her [olderRelative], they both must",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "tabooSexualFemale",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "in adultery with an outsider, they both shall",
+      "raw_text": "1,in adultery with an outsider, they both shall",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lying with beasts, she must",
+      "raw_text": "1,lying with beasts, she must",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "guilty of corrupting a young man, she shall",
+      "raw_text": "1,guilty of corrupting a young man, she shall",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lying with another woman, they both must",
+      "raw_text": "1,lying with another woman, they both must",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "pregnant by man other than her husband, she should",
+      "raw_text": "1,pregnant by man other than her husband, she should",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pregnant outside of marriage, she should",
+      "raw_text": "1,pregnant outside of marriage, she should",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";tabooSexualFemale\n1,lying with her [olderRelative], they both must\n1,in adultery with an outsider, they both shall\n1,lying with beasts, she must\n1,guilty of corrupting a young man, she shall\n1,lying with another woman, they both must\n1,pregnant by man other than her husband, she should\n1,pregnant outside of marriage, she should",
+  "warnings": []
+}

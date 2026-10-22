@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "aa8c5036ef8d05651c1d924b2a595ae079aa1f291ec462635237b8788694ec20",
+      "revisionId": "9620",
+      "line": 293,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteBodyModification",
+    "qualified_name": "Rituals.riteBodyModification",
+    "table_block_index": 0,
+    "line_number": 293
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "get a nose piercing",
+      "raw_text": "1,get a nose piercing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "get both ears pierced",
+      "raw_text": "1,get both ears pierced",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "get a particular tattoo",
+      "raw_text": "1,get a particular tattoo",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "get ritual scarring",
+      "raw_text": "1,get ritual scarring",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "completely shave all hair off",
+      "raw_text": "1,completely shave all hair off",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "paint the face",
+      "raw_text": "1,paint the face",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "smear the entire body with mud",
+      "raw_text": "1,smear the entire body with mud",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "be circumcised",
+      "raw_text": "1,be circumcised",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "be branded with a hot iron",
+      "raw_text": "1,be branded with a hot iron",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteBodyModification\n1,get a nose piercing\n1,get both ears pierced\n1,get a particular tattoo\n1,get ritual scarring\n1,completely shave all hair off\n1,paint the face\n1,smear the entire body with mud\n1,be circumcised\n1,be branded with a hot iron",
+  "warnings": []
+}

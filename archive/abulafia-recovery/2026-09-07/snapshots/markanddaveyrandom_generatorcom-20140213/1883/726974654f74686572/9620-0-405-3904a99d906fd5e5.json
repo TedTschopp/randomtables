@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "3904a99d906fd5e5137c863115a27139171689d683df8588afe5fa58c78855f7",
+      "revisionId": "9620",
+      "line": 405,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteOther",
+    "qualified_name": "Rituals.riteOther",
+    "table_block_index": 0,
+    "line_number": 405
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "allow oneself to be possessed by spirits",
+      "raw_text": "1,allow oneself to be possessed by spirits",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "commune with the spirits of one's ancestors",
+      "raw_text": "1,commune with the spirits of one's ancestors",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "leave on a vision quest into the wilderness",
+      "raw_text": "1,leave on a vision quest into the wilderness",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "build a smoke lodge and seek a vision",
+      "raw_text": "1,build a smoke lodge and seek a vision",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "go on a pilgrimage to a sacred site",
+      "raw_text": "1,go on a pilgrimage to a sacred site",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "participate in building a new house",
+      "raw_text": "1,participate in building a new house",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "strip off all clothes",
+      "raw_text": "1,strip off all clothes",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "rip off all clothes",
+      "raw_text": "1,rip off all clothes",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "commit ritual suicide",
+      "raw_text": "1,commit ritual suicide",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "commit pretend ritual suicide",
+      "raw_text": "1,commit pretend ritual suicide",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "exchange a young [manwoman] with that of another tribe or village",
+      "raw_text": "1,exchange a young [manwoman] with that of another tribe or village",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteOther",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "go to see a fortune teller",
+      "raw_text": "1,go to see a fortune teller",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "throw a coin into the sea",
+      "raw_text": "1,throw a coin into the sea",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "bury a coin outside the village",
+      "raw_text": "1,bury a coin outside the village",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "tell a secret to the sea",
+      "raw_text": "1,tell a secret to the sea",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteOther\n1,allow oneself to be possessed by spirits\n1,commune with the spirits of one's ancestors\n1,leave on a vision quest into the wilderness\n1,build a smoke lodge and seek a vision\n1,go on a pilgrimage to a sacred site\n1,participate in building a new house\n1,strip off all clothes\n1,rip off all clothes\n1,commit ritual suicide\n1,commit pretend ritual suicide\n1,exchange a young [manwoman] with that of another tribe or village\n1,go to see a fortune teller\n1,throw a coin into the sea\n1,bury a coin outside the village\n1,tell a secret to the sea",
+  "warnings": []
+}

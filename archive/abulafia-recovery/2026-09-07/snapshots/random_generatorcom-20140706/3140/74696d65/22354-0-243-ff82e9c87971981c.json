@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "ff82e9c87971981c262b5818a14d6ee90afd17198d62b8738b8771933f3733e2",
+      "revisionId": "22354",
+      "line": 243,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "time",
+    "qualified_name": "Guards.time",
+    "table_block_index": 0,
+    "line_number": 243
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 7,
+      "text": "at night",
+      "raw_text": "7,at night",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "during the day",
+      "raw_text": "4,during the day",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "during religious ceremonies",
+      "raw_text": "2,during religious ceremonies",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "during the full moon",
+      "raw_text": "1,during the full moon",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";time\n7,at night\n4,during the day\n2,during religious ceremonies\n1,during the full moon",
+  "warnings": []
+}

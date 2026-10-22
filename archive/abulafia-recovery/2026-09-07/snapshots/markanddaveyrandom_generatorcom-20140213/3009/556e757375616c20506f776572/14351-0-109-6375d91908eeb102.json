@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14351,
+    "timestamp": "2012-05-14T16:42:36Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8fc1eab19ce868ee87e8b79956ba938bbc809eebeb0e10e39871f6eea5dab4bd",
+      "rawSha256": "6375d91908eeb102c0c73bb1f230653a9c7300e0aa12ddc133c60c3fc97ad729",
+      "revisionId": "14351",
+      "line": 109,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Unusual Power",
+    "qualified_name": "Character Personality and Traits.Unusual Power",
+    "table_block_index": 0,
+    "line_number": 109
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[Control Power] [Unusual Power Rating]",
+      "raw_text": "2,[Control Power] [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Control Power]",
+          "token": "Control Power",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Control Power",
+          "target_qualified_name": "Character Personality and Traits.Control Power"
+        },
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Intangibility [Unusual Power Rating]",
+      "raw_text": "1,Intangibility [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Invisibility [Unusual Power Rating]",
+      "raw_text": "1,Invisibility [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Mimic [Unusual Power Rating]",
+      "raw_text": "1,Mimic [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Psychic Resistance [Unusual Power Rating]",
+      "raw_text": "1,Psychic Resistance [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Shapeshifting [Unusual Power Rating]",
+      "raw_text": "1,Shapeshifting [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Size-Changing [Unusual Power Rating]",
+      "raw_text": "1,Size-Changing [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Stretching [Unusual Power Rating]",
+      "raw_text": "1,Stretching [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Telepathy [Unusual Power Rating]",
+      "raw_text": "1,Telepathy [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Teleport [Unusual Power Rating]",
+      "raw_text": "1,Teleport [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Transmutation [Unusual Power Rating]",
+      "raw_text": "1,Transmutation [Unusual Power Rating]",
+      "references": [
+        {
+          "raw": "[Unusual Power Rating]",
+          "token": "Unusual Power Rating",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Unusual Power",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Power Rating",
+          "target_qualified_name": "Character Personality and Traits.Unusual Power Rating"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Control Power",
+      "Unusual Power Rating"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Unusual Power\n2,[Control Power] [Unusual Power Rating]\n1,Intangibility [Unusual Power Rating]\n1,Invisibility [Unusual Power Rating]\n1,Mimic [Unusual Power Rating]\n1,Psychic Resistance [Unusual Power Rating]\n1,Shapeshifting [Unusual Power Rating]\n1,Size-Changing [Unusual Power Rating]\n1,Stretching [Unusual Power Rating]\n1,Telepathy [Unusual Power Rating]\n1,Teleport [Unusual Power Rating]\n1,Transmutation [Unusual Power Rating]",
+  "warnings": []
+}

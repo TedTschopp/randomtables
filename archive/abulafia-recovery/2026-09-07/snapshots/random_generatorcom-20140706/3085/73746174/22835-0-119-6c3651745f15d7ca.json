@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "6c3651745f15d7ca44a94e1189bc03eb24cd1a6aa6314effe86eb3074974cb26",
+      "revisionId": "22835",
+      "line": 119,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "stat",
+    "qualified_name": "Curse.stat",
+    "table_block_index": 0,
+    "line_number": 119
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "strength",
+      "raw_text": "1,strength",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "wisdom",
+      "raw_text": "1,wisdom",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "constitution",
+      "raw_text": "1,constitution",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "dexterity",
+      "raw_text": "1,dexterity",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "intelligence",
+      "raw_text": "1,intelligence",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "charisma",
+      "raw_text": "1,charisma",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";stat\n1,strength\n1,wisdom\n1,constitution\n1,dexterity\n1,intelligence\n1,charisma",
+  "warnings": []
+}

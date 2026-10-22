@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "1949bd45026a7d465c3bb3fbd5c4eec6ee3a7d759c1eeac61f48dc6c1a067b27",
+      "revisionId": "14219",
+      "line": 84,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "words",
+    "qualified_name": "User:Snake Eyes.words",
+    "table_block_index": 0,
+    "line_number": 84
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "BEFORE",
+      "raw_text": "1, BEFORE",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "AND",
+      "raw_text": "1, AND",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "IF",
+      "raw_text": "1, IF",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "THEN",
+      "raw_text": "1, THEN",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "WAS",
+      "raw_text": "1, WAS",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "BUT",
+      "raw_text": "1, BUT",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "OR",
+      "raw_text": "1, OR",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "IS",
+      "raw_text": "1, IS",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "SO",
+      "raw_text": "1, SO",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "ALSO",
+      "raw_text": "1, ALSO",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "FOR",
+      "raw_text": "1, FOR",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "YET",
+      "raw_text": "1, YET",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "NOT",
+      "raw_text": "1, NOT",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "AFTER",
+      "raw_text": "1, AFTER",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "ALTHOUGH",
+      "raw_text": "1, ALTHOUGH",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "BECAUSE",
+      "raw_text": "1, BECAUSE",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "BEFORE",
+      "raw_text": "1, BEFORE",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "SINCE",
+      "raw_text": "1, SINCE",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "THAN",
+      "raw_text": "1, THAN",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "UNLESS",
+      "raw_text": "1, UNLESS",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "UNTIL",
+      "raw_text": "1, UNTIL",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "WHILE",
+      "raw_text": "1, WHILE",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "EITHER",
+      "raw_text": "1, EITHER",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "BOTH",
+      "raw_text": "1, BOTH",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "NOT ONLY",
+      "raw_text": "1, NOT ONLY",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "WHEREAS",
+      "raw_text": "1, WHEREAS",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "DURING",
+      "raw_text": "1, DURING",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "AS",
+      "raw_text": "1, AS",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "NOR",
+      "raw_text": "1, NOR",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "ONCE",
+      "raw_text": "1, ONCE",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "SINCE",
+      "raw_text": "1, SINCE",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "UNTIL",
+      "raw_text": "1, UNTIL",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "THAT",
+      "raw_text": "1, THAT",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "WHEN",
+      "raw_text": "1, WHEN",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "WHENEVER",
+      "raw_text": "1, WHENEVER",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "EVEN",
+      "raw_text": "1, EVEN",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "GREATER",
+      "raw_text": "1, GREATER",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "LESS",
+      "raw_text": "1, LESS",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "[words][words]",
+      "raw_text": "1, [words][words]",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "words",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "words",
+          "target_qualified_name": "User:Snake Eyes.words"
+        },
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "words",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "words",
+          "target_qualified_name": "User:Snake Eyes.words"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "words"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";words\n1, BEFORE\n1, AND\n1, IF\n1, THEN\n1, WAS\n1, BUT\n1, OR\n1, IS\n1, SO\n1, ALSO\n1, FOR\n1, YET\n1, NOT\n1, AFTER\n1, ALTHOUGH\n1, BECAUSE\n1, BEFORE\n1, SINCE\n1, THAN\n1, UNLESS\n1, UNTIL\n1, WHILE\n1, EITHER\n1, BOTH\n1, NOT ONLY\n1, WHEREAS\n1, DURING\n1, AS\n1, NOR\n1, ONCE\n1, SINCE\n1, UNTIL\n1, THAT\n1, WHEN\n1, WHENEVER\n1, EVEN\n1, GREATER\n1, LESS\n1, [words][words]",
+  "warnings": []
+}

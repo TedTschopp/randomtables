@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "a815ede93dc835130bdcae44e98b043b7518ec93f2da906153d48361b4aed75d",
+      "revisionId": "22835",
+      "line": 403,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "can",
+    "qualified_name": "Curse.can",
+    "table_block_index": 0,
+    "line_number": 403
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "can",
+      "raw_text": "1,can",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "will",
+      "raw_text": "1,will",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "can only",
+      "raw_text": "1,can only",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[chance to]",
+      "raw_text": "1,[chance to]",
+      "references": [
+        {
+          "raw": "[chance to]",
+          "token": "chance to",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "can",
+          "target_page": "Curse",
+          "target_subtable": "chance to",
+          "target_qualified_name": "Curse.chance to"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "chance to"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";can\n1,can\n1,will\n1,can only\n1,[chance to]",
+  "warnings": []
+}

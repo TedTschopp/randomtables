@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15359,
+    "timestamp": "2012-10-08T09:13:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9526a04d4ae507efcfd39f1e5e5b8eba2f617c32bab6d09e0c3c877be7bf9c81",
+      "rawSha256": "9b7b0afbc3516cfafc9bf244fe8d273ab29bd1d4da0d57fdb5a9288c160e3dbe",
+      "revisionId": "15359",
+      "line": 164,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "coins",
+    "qualified_name": "Starting Equipment.coins",
+    "table_block_index": 0,
+    "line_number": 164
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "no coins",
+      "raw_text": "1,no coins",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[digit][digit] copper pieces",
+      "raw_text": "1,[digit][digit] copper pieces",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[digit][digit][digit] copper pieces",
+      "raw_text": "1,[digit][digit][digit] copper pieces",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[digit][digit] silver pieces",
+      "raw_text": "1,[digit][digit] silver pieces",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[digit] silver pieces",
+      "raw_text": "1,[digit] silver pieces",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "coins",
+          "target_page": "Starting Equipment",
+          "target_subtable": "digit",
+          "target_qualified_name": "Starting Equipment.digit"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "digit"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";coins\n1,no coins\n1,[digit][digit] copper pieces\n1,[digit][digit][digit] copper pieces\n1,[digit][digit] silver pieces\n1,[digit] silver pieces",
+  "warnings": []
+}

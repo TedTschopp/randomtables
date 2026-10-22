@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "ab9a709de8427b38e267fb0a3c9cdfbafa9ab50562089e0cb06d5d0b0ff3006d",
+      "revisionId": "17133",
+      "line": 189,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "species-minority",
+    "qualified_name": "Planar Codex Parish.species-minority",
+    "table_block_index": 0,
+    "line_number": 189
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": ". who prevent all others from settling here",
+      "raw_text": "1,. who prevent all others from settling here",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": ". who annihilate any others who try to settle here",
+      "raw_text": "1,. who annihilate any others who try to settle here",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": ". There is a small [species-descriptor] [species-name-singular] enclave within its borders",
+      "raw_text": "1,. There is a small [species-descriptor] [species-name-singular] enclave within its borders",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "who live peacefully alongside a a significant minority of [species-descriptor] [species-name-plural]",
+      "raw_text": "1, who live peacefully alongside a a significant minority of [species-descriptor] [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "and their [species-relationship], the [species-name-plural]",
+      "raw_text": "1, and their [species-relationship], the [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-relationship]",
+          "token": "species-relationship",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-relationship",
+          "target_qualified_name": "Planar Codex Parish.species-relationship"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "species-descriptor",
+      "species-name-plural",
+      "species-name-singular",
+      "species-relationship"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";species-minority\n1,. who prevent all others from settling here\n1,. who annihilate any others who try to settle here\n1,. There is a small [species-descriptor] [species-name-singular] enclave within its borders\n1, who live peacefully alongside a a significant minority of [species-descriptor] [species-name-plural]\n1, and their [species-relationship], the [species-name-plural]",
+  "warnings": []
+}

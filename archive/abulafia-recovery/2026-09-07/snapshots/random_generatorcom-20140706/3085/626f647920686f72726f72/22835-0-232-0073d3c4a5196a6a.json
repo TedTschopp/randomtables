@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "0073d3c4a5196a6ae9afd4e85cae64e66ec4375440cd545183c84bef9917653e",
+      "revisionId": "22835",
+      "line": 232,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "body horror",
+    "qualified_name": "Curse.body horror",
+    "table_block_index": 0,
+    "line_number": 232
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "your [bodyparts] turn to [material]",
+      "raw_text": "1,your [bodyparts] turn to [material]",
+      "references": [
+        {
+          "raw": "[bodyparts]",
+          "token": "bodyparts",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "body horror",
+          "target_page": "Curse",
+          "target_subtable": "bodyparts",
+          "target_qualified_name": "Curse.bodyparts"
+        },
+        {
+          "raw": "[material]",
+          "token": "material",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "body horror",
+          "target_page": "Curse",
+          "target_subtable": "material",
+          "target_qualified_name": "Curse.material"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "your [bodyparts] turn to [bodyparts]",
+      "raw_text": "1,your [bodyparts] turn to [bodyparts]",
+      "references": [
+        {
+          "raw": "[bodyparts]",
+          "token": "bodyparts",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "body horror",
+          "target_page": "Curse",
+          "target_subtable": "bodyparts",
+          "target_qualified_name": "Curse.bodyparts"
+        },
+        {
+          "raw": "[bodyparts]",
+          "token": "bodyparts",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "body horror",
+          "target_page": "Curse",
+          "target_subtable": "bodyparts",
+          "target_qualified_name": "Curse.bodyparts"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "bodyparts",
+      "material"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";body horror\n1,your [bodyparts] turn to [material]\n1,your [bodyparts] turn to [bodyparts]",
+  "warnings": []
+}

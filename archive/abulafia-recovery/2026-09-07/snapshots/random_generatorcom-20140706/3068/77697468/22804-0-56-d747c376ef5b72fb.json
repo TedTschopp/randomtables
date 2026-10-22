@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "d747c376ef5b72fb7b980ad2e00f36c997fccd656f7d3dbd1df20b9b3765d0b8",
+      "revisionId": "22804",
+      "line": 56,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "with",
+    "qualified_name": "Starting Equipment.with",
+    "table_block_index": 0,
+    "line_number": 56
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "with",
+      "raw_text": "1,with ",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "containing",
+      "raw_text": "1,containing",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "stored within which is",
+      "raw_text": "1,stored within which is",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "which has",
+      "raw_text": "1,which has ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "which keeps",
+      "raw_text": "1,which keeps",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "storing",
+      "raw_text": "1,storing",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "has",
+      "raw_text": "1,has",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";with\n1,with \n1,containing\n1,stored within which is\n1,which has \n1,which keeps\n1,storing\n1,has",
+  "warnings": []
+}

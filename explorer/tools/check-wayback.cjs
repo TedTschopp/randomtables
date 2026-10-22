@@ -287,7 +287,8 @@ function buildPlan(repo) {
   for (const id of ids) {
     const metadata = tables.get(id);
     assert.ok(metadata, `Unknown referring table: ${id}`);
-    assert.match(metadata.archiveFile, /^tables\/abulafia\/source\/\d+\.json$/, 'Unexpected source archive path');
+    assert.match(metadata.archiveFile, /^tables\/abulafia\/source\/(?:historical\/)?\d+\.json$/, 'Unexpected source archive path');
+    assert.equal(metadata.archiveFile.includes('/historical/'), Boolean(metadata.historical), 'Historical archive scope mismatch');
     if (!archives.has(metadata.archiveFile)) {
       const content = read(metadata.archiveFile);
       const expected = manifest.generatedFiles[metadata.archiveFile];

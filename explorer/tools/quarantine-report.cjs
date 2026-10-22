@@ -342,17 +342,30 @@ function buildReport(repo) {
   const notImported = inventory.scope.notImportedTables;
   assert.ok(Number.isSafeInteger(notImported) && notImported >= 0, 'Inventory not-imported count must be nonnegative');
   assert.equal(inventory.scope.importedTables, analysis.summary.importedTables, 'Inventory imported count mismatch');
-  assert.equal(inventory.scope.currentWikiTables, analysis.summary.importedTables + notImported, 'Inventory current scope mismatch');
+  const historicalTables = manifest.tables.filter(table => table.historical);
+  assert.equal(inventory.scope.importedHistoricalTables || 0, historicalTables.length, 'Inventory historical scope mismatch');
+  assert.equal(inventory.scope.currentWikiTables + historicalTables.length, analysis.summary.importedTables + notImported, 'Inventory current scope mismatch');
   const readyRuntime = manifest.tables.filter(table => table.status === 'ready' && table.execution === 'wiki').length;
   const expectedStates = { 'ready-static': analysis.summary.readyTables - readyRuntime, 'ready-runtime': readyRuntime,
     blocked: analysis.summary.blockedTables, 'not-imported': notImported };
-  for (const [state, count] of Object.entries(expectedStates)) assert.equal(inventory.current.summary.byState[state] || 0, count, `Inventory state mismatch: ${state}`);
+  const catalog = historicalTables.length ? inventory.catalog : inventory.current;
+  for (const [state, count] of Object.entries(expectedStates)) assert.equal(catalog?.summary.byState[state] || 0, count, `Inventory state mismatch: ${state}`);
+  if (historicalTables.length) {
+    assert.equal(inventory.scope.currentImportedTables, manifest.tables.length - historicalTables.length, 'Inventory current imported scope mismatch');
+    for (const [scope, tables, outside] of [['current', manifest.tables.filter(table => !table.historical), notImported], ['historical', historicalTables, 0]]) {
+      const runtime = tables.filter(table => table.status === 'ready' && table.execution === 'wiki').length;
+      const states = { 'ready-static': tables.filter(table => table.status === 'ready').length - runtime, 'ready-runtime': runtime,
+        blocked: tables.filter(table => table.status === 'blocked').length, 'not-imported': outside };
+      for (const [state, count] of Object.entries(states)) assert.equal(inventory[scope]?.summary.byState[state] || 0, count, `Inventory ${scope} state mismatch: ${state}`);
+    }
+  }
   const metadata = new Map(manifest.tables.map(table => [table.id, table]));
   const archives = new Map();
   const snapshots = new Map();
   for (const id of [...new Set(analysis.roots.flatMap(component => component.tableIds))].sort(compare)) {
     const table = metadata.get(id);
-    assert.match(table.archiveFile, /^tables\/abulafia\/source\/\d+\.json$/, 'Unexpected archive path');
+    assert.match(table.archiveFile, /^tables\/abulafia\/source\/(?:historical\/)?\d+\.json$/, 'Unexpected archive path');
+    assert.equal(table.archiveFile.includes('/historical/'), Boolean(table.historical), 'Historical archive scope mismatch');
     if (!archives.has(table.archiveFile)) {
       const content = read(table.archiveFile);
       const expected = manifest.generatedFiles[table.archiveFile];
@@ -378,6 +391,8 @@ function buildReport(repo) {
     provenance: { repository: manifest.repository, commit: manifest.commit, manifest: manifestFile, manifestSha256: hash(manifestBytes),
       macroInventory: inventoryFile, inputHashes: Object.fromEntries(Object.entries(inputHashes).sort(([left], [right]) => compare(left, right))) },
     scope: { currentWikiTables: inventory.scope.currentWikiTables, importedTables: analysis.summary.importedTables,
+      ...(historicalTables.length ? { importedHistoricalTables: historicalTables.length,
+        currentStateCounts: inventory.current.summary.byState, historicalStateCounts: inventory.historical.summary.byState } : {}),
       notImportedTables: notImported, archivedPagesInspected: archives.size, stateCounts: expectedStates },
     ...describeRepairs(analysis, manifest, snapshots)
   };
@@ -394,7 +409,9 @@ function renderMarkdown(report) {
     return `${delimiter}${padding}${text}${padding}${delimiter}`;
   };
   const encodePath = value => value.split('/').map(encodeURIComponent).join('/');
-  const sourceLink = example => `[pinned source](${report.provenance.repository}/blob/${report.provenance.commit}/${encodePath(example.sourceFile)})`;
+  const sourceLink = example => example.sourceFile.startsWith('archive/abulafia-recovery/') ?
+    `[preserved XML source](../${encodePath(example.sourceFile)})` :
+    `[pinned source](${report.provenance.repository}/blob/${report.provenance.commit}/${encodePath(example.sourceFile)})`;
   const tableLink = (root, id) => {
     const index = root.tableIds.indexOf(id);
     const example = root.examples.find(record => record.tableId === id);
@@ -406,6 +423,7 @@ function renderMarkdown(report) {
     '# Quarantine Recovery Report', '',
     `Snapshot: ${report.snapshotDate}. Source revision: ${code(report.provenance.commit)}.`, '',
     `The imported catalog contains **${number(report.summary.readyTables)} ready** and **${number(report.summary.blockedTables)} quarantined** tables. This report changes neither source data nor readiness.`, '',
+    ...(report.scope.importedHistoricalTables ? [`The catalog includes **${number(report.scope.importedHistoricalTables)} imported historical definitions**, separate from ${number(report.scope.currentWikiTables)} current tables. Current tables with blockers: **${number(report.scope.currentStateCounts.blocked || 0)}**; historical tables with blockers: **${number(report.scope.historicalStateCounts.blocked || 0)}**.`, ''] : []),
     `The **${number(report.scope.notImportedTables)} current tables that are not imported** remain outside this repair scope. No new contributor or table is imported, and no global alias is proposed.`, '',
     '## Recommendation', '',
     ...(candidateRoots.size ? [

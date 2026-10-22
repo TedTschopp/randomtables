@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "fa7c238433b0d9431218e5115d0a795cd01b385e0fdbde8dff1cddfc69db2b69",
+      "revisionId": "22803",
+      "line": 64,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "headetc",
+    "qualified_name": "Quick Horrors.headetc",
+    "table_block_index": 0,
+    "line_number": 64
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[spikybody]; [spikyhead]; [spikytail]",
+      "raw_text": "1,[spikybody]; [spikyhead]; [spikytail]",
+      "references": [
+        {
+          "raw": "[spikybody]",
+          "token": "spikybody",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikybody",
+          "target_qualified_name": "Quick Horrors.spikybody"
+        },
+        {
+          "raw": "[spikyhead]",
+          "token": "spikyhead",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikyhead",
+          "target_qualified_name": "Quick Horrors.spikyhead"
+        },
+        {
+          "raw": "[spikytail]",
+          "token": "spikytail",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikytail",
+          "target_qualified_name": "Quick Horrors.spikytail"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[spikyhead]; [spikytail]",
+      "raw_text": "2,[spikyhead]; [spikytail]",
+      "references": [
+        {
+          "raw": "[spikyhead]",
+          "token": "spikyhead",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikyhead",
+          "target_qualified_name": "Quick Horrors.spikyhead"
+        },
+        {
+          "raw": "[spikytail]",
+          "token": "spikytail",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikytail",
+          "target_qualified_name": "Quick Horrors.spikytail"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "[spikybody]",
+      "raw_text": "3,[spikybody]",
+      "references": [
+        {
+          "raw": "[spikybody]",
+          "token": "spikybody",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikybody",
+          "target_qualified_name": "Quick Horrors.spikybody"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "[spikyhead]",
+      "raw_text": "3,[spikyhead]",
+      "references": [
+        {
+          "raw": "[spikyhead]",
+          "token": "spikyhead",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikyhead",
+          "target_qualified_name": "Quick Horrors.spikyhead"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "[spikytail]",
+      "raw_text": "3,[spikytail]",
+      "references": [
+        {
+          "raw": "[spikytail]",
+          "token": "spikytail",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "headetc",
+          "target_page": "Quick Horrors",
+          "target_subtable": "spikytail",
+          "target_qualified_name": "Quick Horrors.spikytail"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "spikybody",
+      "spikyhead",
+      "spikytail"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";headetc\n1,[spikybody]; [spikyhead]; [spikytail]\n2,[spikyhead]; [spikytail]\n3,[spikybody]\n3,[spikyhead]\n3,[spikytail]",
+  "warnings": []
+}

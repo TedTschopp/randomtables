@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9406,
+    "timestamp": "2009-07-31T10:54:26Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8cb92bdccbaacaf08c718ab8106613e4c16651ccfbe0cec69cea54ca631f1b22",
+      "rawSha256": "8a4a605a3d2a24a88a366fb6062c2b9476a7e229e82065c2652a294717b0df48",
+      "revisionId": "9406",
+      "line": 69,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "named",
+    "qualified_name": "New gen.named",
+    "table_block_index": 0,
+    "line_number": 69
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Phantasm",
+      "raw_text": "1,Phantasm ",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "The Phantom of [place]",
+      "raw_text": "1,The Phantom of [place]",
+      "references": [
+        {
+          "raw": "[place]",
+          "token": "place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "named",
+          "target_page": "New gen",
+          "target_subtable": "place",
+          "target_qualified_name": "New gen.place"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "Dracula",
+      "raw_text": "2,Dracula",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Mummy",
+      "raw_text": "1,Mummy",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Frankenstein",
+      "raw_text": "1,Frankenstein",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Dr. Jekyll and Mr. Hyde",
+      "raw_text": "1,Dr. Jekyll and Mr. Hyde",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Sasquatch",
+      "raw_text": "1,Sasquatch",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "deep one",
+      "raw_text": "1,deep one",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Wolfman",
+      "raw_text": "1,Wolfman",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "[Invisible [sex",
+      "raw_text": "1,[Invisible [sex",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "great old one",
+      "raw_text": "1,great old one",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "outer god",
+      "raw_text": "1,outer god",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "windgo",
+      "raw_text": "1,windgo",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Black Goat of the Woods",
+      "raw_text": "1,Black Goat of the Woods",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Cthulhu Spawn",
+      "raw_text": "1,Cthulhu Spawn",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Hastur the Unspeakable",
+      "raw_text": "1,Hastur the Unspeakable",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Shoggoth",
+      "raw_text": "1,Shoggoth",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Yog-Sothoth",
+      "raw_text": "1,Yog-Sothoth",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Hound Of Tindalos",
+      "raw_text": "1,Hound Of Tindalos",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Shadowy Figure",
+      "raw_text": "1,Shadowy Figure",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Dunwich Horror",
+      "raw_text": "1,Dunwich Horror",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Tcho-tcho",
+      "raw_text": "1,Tcho-tcho",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Rat-thing",
+      "raw_text": "1,Rat-thing",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Ghoul",
+      "raw_text": "1,Ghoul",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Ghast",
+      "raw_text": "1,Ghast",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Fire Vampire",
+      "raw_text": "1,Fire Vampire",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Flying Polyp",
+      "raw_text": "1,Flying Polyp",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Byakhee",
+      "raw_text": "1,Byakhee",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "God Of The Bloody Tongue",
+      "raw_text": "1,God Of The Bloody Tongue\t",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Crawling Chaos",
+      "raw_text": "1,Crawling Chaos",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "place"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";named\n1,Phantasm \n1,The Phantom of [place]\n2,Dracula\n1,Mummy\n1,Frankenstein\n1,Dr. Jekyll and Mr. Hyde\n1,Sasquatch\n1,deep one\n1,Wolfman\n1,[Invisible [sex\n1,great old one\n1,outer god\n1,windgo\n1,Black Goat of the Woods\n1,Cthulhu Spawn\n1,Hastur the Unspeakable\n1,Shoggoth\n1,Yog-Sothoth\n1,Hound Of Tindalos\n1,Shadowy Figure\n1,Dunwich Horror\n1,Tcho-tcho\n1,Rat-thing\n1,Ghoul\n1,Ghast\n1,Fire Vampire\n1,Flying Polyp\n1,Byakhee\n1,God Of The Bloody Tongue\t\n1,Crawling Chaos",
+  "warnings": []
+}

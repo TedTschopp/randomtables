@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15087,
+    "timestamp": "2012-08-01T10:10:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c2c53f3a955b43634a82f944a5c63e0526562a13e2d6b6749bf329ebdbfcd84d",
+      "rawSha256": "71a9f4c59d27665f9b9cca011a418b2d4ee2e63b907d35fa37044322b57c990d",
+      "revisionId": "15087",
+      "line": 238,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RIVALRYOFSUPERIORVERSUSINFERIOR",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.RIVALRYOFSUPERIORVERSUSINFERIOR",
+    "table_block_index": 0,
+    "line_number": 238
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";RIVALRYOFSUPERIORVERSUSINFERIOR\nRIVALRY OF SUPERIOR VERSUS INFERIOR\n\na Superior Rival\nan Inferior Rival\nthe Object of Rivalry\n\nA Superior Rival bests an Inferior Rival and wins the Object of Rivalry.",
+  "warnings": [
+    "Line 237: preserved nonstandard row before first entry: RIVALRY OF SUPERIOR VERSUS INFERIOR",
+    "Line 239: preserved nonstandard row before first entry: a Superior Rival",
+    "Line 240: preserved nonstandard row before first entry: an Inferior Rival",
+    "Line 241: preserved nonstandard row before first entry: the Object of Rivalry",
+    "Line 243: preserved nonstandard row before first entry: A Superior Rival bests an Inferior Rival and wins the Object of Rivalry."
+  ]
+}

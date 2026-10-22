@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "f1ead4cab3313ad46c832ed48f9ce82ec54e10b85e278ff82cf59b2c25372128",
+      "revisionId": "22804",
+      "line": 112,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "describewood",
+    "qualified_name": "Starting Equipment.describewood",
+    "table_block_index": 0,
+    "line_number": 112
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Utility.Wood]",
+      "raw_text": "1,[Utility.Wood] ",
+      "references": [
+        {
+          "raw": "[Utility.Wood]",
+          "token": "Utility.Wood",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describewood",
+          "target_page": "Utility",
+          "target_subtable": "Wood",
+          "target_qualified_name": "Utility.Wood"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.Wood"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";describewood\n10,\n1,[Utility.Wood] ",
+  "warnings": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14887,
+    "timestamp": "2012-06-27T14:26:23Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a8d84c4bce0bdaec88879d78a2db8ed6427a60be8ba63c3e3a8f5b7cfbb2ff04",
+      "rawSha256": "08374925777cb1f0298d04a4a77e16616ae0d5a1b949bd6a9d731d272a834d03",
+      "revisionId": "14887",
+      "line": 47,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "food",
+    "qualified_name": "Village.food",
+    "table_block_index": 0,
+    "line_number": 47
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Foodstuffs.Meattype]",
+      "raw_text": "1,[Foodstuffs.Meattype]",
+      "references": [
+        {
+          "raw": "[Foodstuffs.Meattype]",
+          "token": "Foodstuffs.Meattype",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "food",
+          "target_page": "Foodstuffs",
+          "target_subtable": "Meattype",
+          "target_qualified_name": "Foodstuffs.Meattype"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Foodstuffs.DryGood]",
+      "raw_text": "1,[Foodstuffs.DryGood]",
+      "references": [
+        {
+          "raw": "[Foodstuffs.DryGood]",
+          "token": "Foodstuffs.DryGood",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "food",
+          "target_page": "Foodstuffs",
+          "target_subtable": "DryGood",
+          "target_qualified_name": "Foodstuffs.DryGood"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Foodstuffs.DryGood",
+      "Foodstuffs.Meattype"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";food\n1,[Foodstuffs.Meattype]\n1,[Foodstuffs.DryGood]",
+  "warnings": []
+}

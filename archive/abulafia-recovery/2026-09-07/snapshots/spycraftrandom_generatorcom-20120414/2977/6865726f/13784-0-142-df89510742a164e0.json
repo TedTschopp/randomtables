@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13784,
+    "timestamp": "2012-02-29T08:05:56Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "6b135215d772e7bc76972268259d3716b09b160faadc990554926636e8f3cadc",
+      "rawSha256": "df89510742a164e049dd0b473999f1133eb6102bb0cfb12e829b53226ef80db4",
+      "revisionId": "13784",
+      "line": 142,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hero",
+    "qualified_name": "Quick Populations.hero",
+    "table_block_index": 0,
+    "line_number": 142
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "a lone [prequirk][race] [class] [postquirk]",
+      "raw_text": "3,a lone [prequirk][race] [class] [postquirk] ",
+      "references": [
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        },
+        {
+          "raw": "[race]",
+          "token": "race",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Populations.race"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[postquirk]",
+          "token": "postquirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "postquirk",
+          "target_qualified_name": "Quick Populations.postquirk"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "2 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class]",
+      "raw_text": "3,2 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class] ",
+      "references": [
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        },
+        {
+          "raw": "[race-plural]",
+          "token": "race-plural",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "race-plural",
+          "target_qualified_name": "Quick Populations.race-plural"
+        },
+        {
+          "raw": "[postquirk]",
+          "token": "postquirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "postquirk",
+          "target_qualified_name": "Quick Populations.postquirk"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "3 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class]",
+      "raw_text": "2,3 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class]",
+      "references": [
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        },
+        {
+          "raw": "[race-plural]",
+          "token": "race-plural",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "race-plural",
+          "target_qualified_name": "Quick Populations.race-plural"
+        },
+        {
+          "raw": "[postquirk]",
+          "token": "postquirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "postquirk",
+          "target_qualified_name": "Quick Populations.postquirk"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "4 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class], 1 [class]",
+      "raw_text": "1,4 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class], 1 [class] ",
+      "references": [
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        },
+        {
+          "raw": "[race-plural]",
+          "token": "race-plural",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "race-plural",
+          "target_qualified_name": "Quick Populations.race-plural"
+        },
+        {
+          "raw": "[postquirk]",
+          "token": "postquirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "postquirk",
+          "target_qualified_name": "Quick Populations.postquirk"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "class",
+      "postquirk",
+      "prequirk",
+      "race",
+      "race-plural"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";hero\n3,a lone [prequirk][race] [class] [postquirk] \n3,2 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class] \n2,3 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class]\n1,4 [prequirk][race-plural] [postquirk]: 1 [class], 1 [class], 1 [class], 1 [class] ",
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17071,
+    "timestamp": "2013-02-13T04:03:09Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "6f8f1564317b2713001079a8686e58bc92ddb055b6a4e102159a3bc53dedba99",
+      "rawSha256": "d66e6e27dc5452bd3da55c58de014a3191d0563b9d47a9e69f9f99c3c4a00603",
+      "revisionId": "17071",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item",
+    "qualified_name": "Planar Codex Parish.item",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[item-descriptor] [item-name]",
+      "raw_text": "1,[item-descriptor] [item-name]",
+      "references": [
+        {
+          "raw": "[item-descriptor]",
+          "token": "item-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-descriptor",
+          "target_qualified_name": "Planar Codex Parish.item-descriptor"
+        },
+        {
+          "raw": "[item-name]",
+          "token": "item-name",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-name",
+          "target_qualified_name": "Planar Codex Parish.item-name"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "item-descriptor",
+      "item-name"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";item\n1,[item-descriptor] [item-name]",
+  "warnings": []
+}

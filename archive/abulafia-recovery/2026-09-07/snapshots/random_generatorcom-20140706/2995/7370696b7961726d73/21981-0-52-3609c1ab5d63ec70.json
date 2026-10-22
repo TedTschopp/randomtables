@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 21981,
+    "timestamp": "2014-05-22T18:37:39Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9cb3cccead54be27bc7b148a6cffa54a99fa3c5a0e3873b3fe6b1f810183571a",
+      "rawSha256": "3609c1ab5d63ec705ade462ee718217b35d7b22e8416fb1b8eb125e335e0df02",
+      "revisionId": "21981",
+      "line": 52,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "spikyarms",
+    "qualified_name": "Quick Horrors.spikyarms",
+    "table_block_index": 0,
+    "line_number": 52
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "three arms",
+      "raw_text": "1,three arms",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "four arms",
+      "raw_text": "1,four arms",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "five arms",
+      "raw_text": "1,five arms",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "folded, vestigial arms",
+      "raw_text": "1,folded, vestigial arms",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "arms of unnatural strength",
+      "raw_text": "1,arms of unnatural strength",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "lobster claws",
+      "raw_text": "1,lobster claws",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "metal claws",
+      "raw_text": "1,metal claws",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "wings",
+      "raw_text": "1,wings",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "human hands",
+      "raw_text": "1,human hands",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";spikyarms\n1,three arms\n1,four arms\n1,five arms\n1,folded, vestigial arms\n1,arms of unnatural strength\n1,lobster claws\n1,metal claws\n1,wings\n1,human hands",
+  "warnings": []
+}

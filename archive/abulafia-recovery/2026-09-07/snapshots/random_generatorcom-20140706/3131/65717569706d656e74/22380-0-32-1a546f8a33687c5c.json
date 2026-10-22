@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 22380,
+    "timestamp": "2014-05-29T10:59:56Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "1030a425edc1d2bbc06e46d465ca87141b6484945120476e7f172e160aed5d8f",
+      "rawSha256": "1a546f8a33687c5ce1d94e8bf05e1c30cccc8e2108e459d2391fb98d7bcd564c",
+      "revisionId": "22380",
+      "line": 32,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22380",
+        "timestamp": "2014-05-29T10:59:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "equipment",
+    "qualified_name": "Hireling.equipment",
+    "table_block_index": 0,
+    "line_number": 32
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Starting Equipment.hireling-gear]",
+      "raw_text": "1,[Starting Equipment.hireling-gear]",
+      "references": [
+        {
+          "raw": "[Starting Equipment.hireling-gear]",
+          "token": "Starting Equipment.hireling-gear",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "equipment",
+          "target_page": "Starting Equipment",
+          "target_subtable": "hireling-gear",
+          "target_qualified_name": "Starting Equipment.hireling-gear"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Starting Equipment.hireling-gear"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";equipment\n1,[Starting Equipment.hireling-gear]",
+  "warnings": []
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Game of Aspects",
+    "page_id": 3060
+  },
+  "source": {
+    "revision_id": 15264,
+    "timestamp": "2012-09-28T19:42:54Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "43ae228099c0fb2a5313f64616cf2f5a4d93aa8bb2c0288dd24d5f2b6c03d709",
+      "rawSha256": "2a148cb583a8529270de86d7da60a469fe8302705145fd6b7f355fadb5d77d4d",
+      "revisionId": "15264",
+      "line": 52,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17661",
+        "timestamp": "2013-05-30T22:38:30Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Element",
+    "qualified_name": "Abulafia Random Generators:Game of Aspects.Element",
+    "table_block_index": 0,
+    "line_number": 52
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Unicorn",
+      "raw_text": "1,Unicorn",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Sentient Supercomputer",
+      "raw_text": "1,Sentient Supercomputer",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Sea Monster",
+      "raw_text": "1,Sea Monster",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Plane (or Spaceship) Crash",
+      "raw_text": "1,Plane (or Spaceship) Crash",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "A Dead Body",
+      "raw_text": "1,A Dead Body",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "A Summoning Ritual",
+      "raw_text": "1,A Summoning Ritual",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "A Hallucination",
+      "raw_text": "1,A Hallucination",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Flying Monkeys",
+      "raw_text": "1,Flying Monkeys",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "A Hologram",
+      "raw_text": "1,A Hologram",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "The Devil",
+      "raw_text": "1,The Devil",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "A Dirty Magazine",
+      "raw_text": "1,A Dirty Magazine",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "An Ancient Sword",
+      "raw_text": "1,An Ancient Sword",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "The Restless Dead",
+      "raw_text": "1,The Restless Dead",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "A Gourmet Meal",
+      "raw_text": "1,A Gourmet Meal",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "A Severed Hand",
+      "raw_text": "1,A Severed Hand",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Poisonous Snakes",
+      "raw_text": "1,Poisonous Snakes",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "A Black Hole",
+      "raw_text": "1,A Black Hole",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Some Manner Of Werecreature/Shapeshifter",
+      "raw_text": "1,Some Manner Of Werecreature/Shapeshifter",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "A Talking Tree",
+      "raw_text": "1,A Talking Tree",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Heaven\n</Main>",
+      "raw_text": "1,Heaven\n</Main>",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Element\n1,Unicorn\n1,Sentient Supercomputer\n1,Sea Monster\n1,Plane (or Spaceship) Crash\n1,A Dead Body\n1,A Summoning Ritual\n1,A Hallucination\n1,Flying Monkeys\n1,A Hologram\n1,The Devil\n1,A Dirty Magazine\n1,An Ancient Sword\n1,The Restless Dead\n1,A Gourmet Meal\n1,A Severed Hand\n1,Poisonous Snakes\n1,A Black Hole\n1,Some Manner Of Werecreature/Shapeshifter\n1,A Talking Tree\n1,Heaven\n\n</Main>",
+  "warnings": []
+}

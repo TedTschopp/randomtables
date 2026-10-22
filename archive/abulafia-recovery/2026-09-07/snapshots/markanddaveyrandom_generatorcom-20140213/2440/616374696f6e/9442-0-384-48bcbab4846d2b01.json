@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "48bcbab4846d2b013ff052d3cd995f5150fc5f9c2c5ab4f8692847d2786bb4ee",
+      "revisionId": "9442",
+      "line": 384,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "action",
+    "qualified_name": "New gen.action",
+    "table_block_index": 0,
+    "line_number": 384
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Horror",
+      "raw_text": "1,Horror",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "Invasion",
+      "raw_text": "3,Invasion",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "Attack",
+      "raw_text": "3,Attack",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Blood",
+      "raw_text": "1,Blood",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "Curse",
+      "raw_text": "3,Curse",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 3,
+      "text": "Revenge",
+      "raw_text": "3,Revenge",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Terror",
+      "raw_text": "1,Terror",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "Return",
+      "raw_text": "3,Return",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Spawn",
+      "raw_text": "1,Spawn",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "Wrath",
+      "raw_text": "3,Wrath",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Gore",
+      "raw_text": "1,Gore",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "City",
+      "raw_text": "1,City",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Massacre",
+      "raw_text": "1,Massacre",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Nightmare",
+      "raw_text": "1,Nightmare",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "KILLER",
+      "raw_text": "1,KILLER",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "NIGHT",
+      "raw_text": "1,NIGHT",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";action\n1,Horror\n3,Invasion\n3,Attack\n1,Blood\n3,Curse\n3,Revenge\n1,Terror\n3,Return\n1,Spawn\n3,Wrath\n1,Gore\n1,City\n1,Massacre\n1,Nightmare\n1,KILLER\n1,NIGHT",
+  "warnings": []
+}

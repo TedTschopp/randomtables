@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4656,
+    "timestamp": "2007-11-27T14:47:10Z",
+    "contributor": {
+      "name": "Jmstar",
+      "id": 3,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "4bc856aa2f4004f86382d4e4b0c52c7652c329a28d7db1237c19e8b21dddce02",
+      "rawSha256": "bf85280ba82ef75cabde20f8bd2789f7efcecfc3a3499b31074a411db3cee8d4",
+      "revisionId": "4656",
+      "line": 58,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "supernaturalEvent",
+    "qualified_name": "Rituals.supernaturalEvent",
+    "table_block_index": 0,
+    "line_number": 58
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "when the corn crake warns of ghosts",
+      "raw_text": "1,when the corn crake warns of ghosts",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when the dead are restless in their graves",
+      "raw_text": "1,when the dead are restless in their graves",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when the moon devours the sun",
+      "raw_text": "1,when the moon devours the sun",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when a [children] is taken by the hidden people",
+      "raw_text": "1,when a [children] is taken by the hidden people",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "supernaturalEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when a young [manwoman] is bitten by a goat",
+      "raw_text": "1,when a young [manwoman] is bitten by a goat",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "supernaturalEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when a [manwoman]'s mind is broken by evil",
+      "raw_text": "1,when a [manwoman]'s mind is broken by evil",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "supernaturalEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "when the storm ghosts howl",
+      "raw_text": "1,when the storm ghosts howl",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "when a burial mound is found empty",
+      "raw_text": "1,when a burial mound is found empty",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "when cat bones are scattered on the threshold",
+      "raw_text": "1,when cat bones are scattered on the threshold",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "when nets return malformed thigns from the sea",
+      "raw_text": "1,when nets return malformed thigns from the sea",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children",
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";supernaturalEvent\n1,when the corn crake warns of ghosts\n1,when the dead are restless in their graves\n1,when the moon devours the sun\n1,when a [children] is taken by the hidden people\n1,when a young [manwoman] is bitten by a goat\n1,when a [manwoman]'s mind is broken by evil\n1,when the storm ghosts howl\n1,when a burial mound is found empty\n1,when cat bones are scattered on the threshold\n1,when nets return malformed thigns from the sea",
+  "warnings": []
+}

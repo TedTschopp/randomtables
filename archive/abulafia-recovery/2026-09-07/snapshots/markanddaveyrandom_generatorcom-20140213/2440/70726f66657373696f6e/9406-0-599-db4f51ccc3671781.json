@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9406,
+    "timestamp": "2009-07-31T10:54:26Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8cb92bdccbaacaf08c718ab8106613e4c16651ccfbe0cec69cea54ca631f1b22",
+      "rawSha256": "db4f51ccc3671781924df7a8200fd481c020825a377664f516cb395acd0618e0",
+      "revisionId": "9406",
+      "line": 599,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "profession",
+    "qualified_name": "New gen.profession",
+    "table_block_index": 0,
+    "line_number": 599
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Baron",
+      "raw_text": "1,Baron",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Beach Girl",
+      "raw_text": "1,Beach Girl",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Biker",
+      "raw_text": "1,Biker",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "bimbo",
+      "raw_text": "1,bimbo",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Cheerleader",
+      "raw_text": "1,Cheerleader",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "Cop",
+      "raw_text": "2,Cop",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Detective",
+      "raw_text": "1,Detective",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Student",
+      "raw_text": "1,Student",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Clown",
+      "raw_text": "1,Clown",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Centerfold",
+      "raw_text": "1,Centerfold",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Doctor",
+      "raw_text": "1,Doctor",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Hooker",
+      "raw_text": "1,Hooker",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Stripper",
+      "raw_text": "1,Stripper",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Dentist",
+      "raw_text": "1,Dentist",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Hunter",
+      "raw_text": "1,Hunter",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 3,
+      "text": "[killer]",
+      "raw_text": "3,[killer]",
+      "references": [
+        {
+          "raw": "[killer]",
+          "token": "killer",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "profession",
+          "target_page": "New gen",
+          "target_subtable": "killer",
+          "target_qualified_name": "New gen.killer"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Witch",
+      "raw_text": "1,Witch",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Pirate",
+      "raw_text": "1,Pirate",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "[profession]s]",
+      "raw_text": "1,[profession]s]",
+      "references": [
+        {
+          "raw": "[profession]",
+          "token": "profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "profession",
+          "target_page": "New gen",
+          "target_subtable": "profession",
+          "target_qualified_name": "New gen.profession"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "LAWYER",
+      "raw_text": "1,LAWYER",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "FARMER",
+      "raw_text": "1,FARMER",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "PRIEST",
+      "raw_text": "1,PRIEST",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "killer",
+      "profession"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";profession\n1,Baron\n1,Beach Girl\n1,Biker\n1,bimbo\n1,Cheerleader\n2,Cop\n1,Detective\n1,Student\n1,Clown\n1,Centerfold\n1,Doctor\n1,Hooker\n1,Stripper\n1,Dentist\n1,Hunter\n3,[killer]\n1,Witch\n1,Pirate\n1,[profession]s]\n1,LAWYER\n1,FARMER\n1,PRIEST",
+  "warnings": []
+}

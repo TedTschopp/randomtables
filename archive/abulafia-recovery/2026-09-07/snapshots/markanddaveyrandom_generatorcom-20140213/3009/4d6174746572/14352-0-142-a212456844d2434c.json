@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14352,
+    "timestamp": "2012-05-14T16:43:23Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f84e1982101e879e5d7e5b94a669828d5060b4dbc77fe37900c01d2a3bcb6fe8",
+      "rawSha256": "a212456844d2434c9ce58942ca2c669f807ae2a8adfbb91b782cd0c59f362b6b",
+      "revisionId": "14352",
+      "line": 142,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Matter",
+    "qualified_name": "Character Personality and Traits.Matter",
+    "table_block_index": 0,
+    "line_number": 142
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Air",
+      "raw_text": "1,Air",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Earth",
+      "raw_text": "1,Earth",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Fire",
+      "raw_text": "1,Fire",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Ice",
+      "raw_text": "1,Ice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Metal",
+      "raw_text": "1,Metal",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Plant",
+      "raw_text": "1,Plant",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Water",
+      "raw_text": "1,Water",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Weather",
+      "raw_text": "1,Weather",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Matter\n1,Air\n1,Earth\n1,Fire\n1,Ice\n1,Metal\n1,Plant\n1,Water\n1,Weather",
+  "warnings": []
+}

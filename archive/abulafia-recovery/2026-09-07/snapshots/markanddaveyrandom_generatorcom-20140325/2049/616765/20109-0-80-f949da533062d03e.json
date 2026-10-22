@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "f949da533062d03e066be6ea836c35e2a7f9dc5803d60cadf9fa8a43789b53f2",
+      "revisionId": "20109",
+      "line": 80,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "age",
+    "qualified_name": "Stars Without Number.age",
+    "table_block_index": 0,
+    "line_number": 80
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "young",
+      "raw_text": "1,young",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "middle-aged",
+      "raw_text": "1,middle-aged",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "old",
+      "raw_text": "1,old",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";age\n1,young\n1,middle-aged\n1,old",
+  "warnings": []
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "928822901f631e899836423654d5d3fe18ae78695b03f7a3bfaa9f13ca3831ff",
+      "revisionId": "10367",
+      "line": 554,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RichPractical",
+    "qualified_name": "Pickpocket.RichPractical",
+    "table_block_index": 0,
+    "line_number": 554
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a firestarter kit",
+      "raw_text": "1,a firestarter kit",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a healer's kit",
+      "raw_text": "1,a healer's kit",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a magnifying glass",
+      "raw_text": "1,a magnifying glass",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a mapcase containing a map",
+      "raw_text": "1,a mapcase containing a map",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a pair of scissors",
+      "raw_text": "1,a pair of scissors",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a penknife",
+      "raw_text": "1,a penknife",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a pewter mug stamped with [Decoration]",
+      "raw_text": "1,a pewter mug stamped with [Decoration]",
+      "references": [
+        {
+          "raw": "[Decoration]",
+          "token": "Decoration",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichPractical",
+          "target_page": "Pickpocket",
+          "target_subtable": "Decoration",
+          "target_qualified_name": "Pickpocket.Decoration"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a pincushion",
+      "raw_text": "1,a pincushion",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a pocketknife",
+      "raw_text": "1,a pocketknife",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a signal whistle",
+      "raw_text": "1,a signal whistle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a silver spoon",
+      "raw_text": "1,a silver spoon",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a silver whistle",
+      "raw_text": "1,a silver whistle",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a small abacus",
+      "raw_text": "1,a small abacus",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a small box of matches",
+      "raw_text": "1,a small box of matches",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a spyglass",
+      "raw_text": "1,a spyglass",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a thimble",
+      "raw_text": "1,a thimble",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a whetstone",
+      "raw_text": "1,a whetstone",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "an accounts ledger",
+      "raw_text": "1,an accounts ledger",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "an alabaster goblet",
+      "raw_text": "1,an alabaster goblet",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "an brass-bound drinking horn",
+      "raw_text": "1,an brass-bound drinking horn",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "an hourglass",
+      "raw_text": "1,an hourglass",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a silver spoon",
+      "raw_text": "1,a silver spoon",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "an inkpen and a vial of black ink",
+      "raw_text": "1,an inkpen and a vial of black ink",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "craftsman's tools",
+      "raw_text": "1,craftsman's tools",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "an armor cleaning kit",
+      "raw_text": "1,an armor cleaning kit",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a primitive flair",
+      "raw_text": "1,a primitive flair",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "an ornate knife",
+      "raw_text": "1,an ornate knife",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a manicure kit",
+      "raw_text": "1,a manicure kit",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Decoration"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";RichPractical\n1,a firestarter kit\n1,a healer's kit\n1,a magnifying glass\n1,a mapcase containing a map\n1,a pair of scissors\n1,a penknife\n1,a pewter mug stamped with [Decoration]\n1,a pincushion\n1,a pocketknife\n1,a signal whistle\n1,a silver spoon\n1,a silver whistle\n1,a small abacus\n1,a small box of matches\n1,a spyglass\n1,a thimble\n1,a whetstone\n1,an accounts ledger\n1,an alabaster goblet\n1,an brass-bound drinking horn\n1,an hourglass\n1,a silver spoon\n1,an inkpen and a vial of black ink\n1,craftsman's tools\n1,an armor cleaning kit\n1,a primitive flair\n1,an ornate knife\n1,a manicure kit",
+  "warnings": []
+}

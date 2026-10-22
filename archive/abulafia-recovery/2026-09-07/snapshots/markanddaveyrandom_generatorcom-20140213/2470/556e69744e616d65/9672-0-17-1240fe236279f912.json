@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9672,
+    "timestamp": "2009-10-22T22:49:15Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "fd9a3e36903be2cdde33d2462b8eb6ae38eb237a5f837a836020e32d169e19b9",
+      "rawSha256": "1240fe236279f912a88b317790dd8f0a63fa299d48f018c67c32e661b3f4357a",
+      "revisionId": "9672",
+      "line": 17,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "UnitName",
+    "qualified_name": "Seige Force.UnitName",
+    "table_block_index": 0,
+    "line_number": 17
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Fantasy Military Unit.ArmyOrdinal] [SeigeUnitName][Fantasy Military Unit.ArmyGroup]",
+      "raw_text": "1,[Fantasy Military Unit.ArmyOrdinal] [SeigeUnitName][Fantasy Military Unit.ArmyGroup]",
+      "references": [
+        {
+          "raw": "[Fantasy Military Unit.ArmyOrdinal]",
+          "token": "Fantasy Military Unit.ArmyOrdinal",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "UnitName",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "ArmyOrdinal",
+          "target_qualified_name": "Fantasy Military Unit.ArmyOrdinal"
+        },
+        {
+          "raw": "[SeigeUnitName]",
+          "token": "SeigeUnitName",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "UnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "SeigeUnitName",
+          "target_qualified_name": "Seige Force.SeigeUnitName"
+        },
+        {
+          "raw": "[Fantasy Military Unit.ArmyGroup]",
+          "token": "Fantasy Military Unit.ArmyGroup",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "UnitName",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "ArmyGroup",
+          "target_qualified_name": "Fantasy Military Unit.ArmyGroup"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Fantasy Military Unit.ArmyOrdinal] [Fantasy Military Unit.LightHeavy] [Fantasy Military\nUnit.ArmyGroup]",
+      "raw_text": "1,[Fantasy Military Unit.ArmyOrdinal] [Fantasy Military Unit.LightHeavy] [Fantasy Military \nUnit.ArmyGroup]",
+      "references": [
+        {
+          "raw": "[Fantasy Military Unit.ArmyOrdinal]",
+          "token": "Fantasy Military Unit.ArmyOrdinal",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "UnitName",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "ArmyOrdinal",
+          "target_qualified_name": "Fantasy Military Unit.ArmyOrdinal"
+        },
+        {
+          "raw": "[Fantasy Military Unit.LightHeavy]",
+          "token": "Fantasy Military Unit.LightHeavy",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "UnitName",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "LightHeavy",
+          "target_qualified_name": "Fantasy Military Unit.LightHeavy"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "SeigeUnitName"
+    ],
+    "external_subtables": [
+      "Fantasy Military Unit.ArmyGroup",
+      "Fantasy Military Unit.ArmyOrdinal",
+      "Fantasy Military Unit.LightHeavy"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";UnitName\n1,[Fantasy Military Unit.ArmyOrdinal] [SeigeUnitName][Fantasy Military Unit.ArmyGroup]\n1,[Fantasy Military Unit.ArmyOrdinal] [Fantasy Military Unit.LightHeavy] [Fantasy Military \n\nUnit.ArmyGroup]",
+  "warnings": []
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Game of Aspects",
+    "page_id": 3060
+  },
+  "source": {
+    "revision_id": 15262,
+    "timestamp": "2012-09-28T19:39:50Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "3eb97fdb980fc2b4b299abf51830e0c216f9ef095345506dd72dd9c3e376ee28",
+      "rawSha256": "63a737edfe78c316995c65db8ff3ca7f4e79f0903cdcc1faaeb5dc1c9acf84f6",
+      "revisionId": "15262",
+      "line": 30,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17661",
+        "timestamp": "2013-05-30T22:38:30Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Conflict",
+    "qualified_name": "Abulafia Random Generators:Game of Aspects.Conflict",
+    "table_block_index": 0,
+    "line_number": 30
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Civil War!",
+      "raw_text": "1,Civil War!",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Heist Gone Wrong!",
+      "raw_text": "1,Heist Gone Wrong!",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Assassin!",
+      "raw_text": "1,Assassin!",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Abduction!",
+      "raw_text": "1,Abduction!",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Exiled!",
+      "raw_text": "1,Exiled!",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Haunted By The Past!",
+      "raw_text": "1,Haunted By The Past!",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Sins Of The Father!",
+      "raw_text": "1,Sins Of The Father!",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Betrayed!",
+      "raw_text": "1,Betrayed!",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "A Changed World!",
+      "raw_text": "1,A Changed World!",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Trapped!",
+      "raw_text": "1,Trapped!",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "A Quest For Something!",
+      "raw_text": "1,A Quest For Something!",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "A Quest For Someone!",
+      "raw_text": "1,A Quest For Someone!",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Revenge!",
+      "raw_text": "1,Revenge!",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Enemies At The Gate!",
+      "raw_text": "1,Enemies At The Gate!",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Family Thrown Apart!",
+      "raw_text": "1,Family Thrown Apart!",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Disease!",
+      "raw_text": "1,Disease!",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Lost!",
+      "raw_text": "1,Lost!",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Get The Band Back Together!",
+      "raw_text": "1,Get The Band Back Together!",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Sanctioned Competition!",
+      "raw_text": "1,Sanctioned Competition!",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Conflict\nLover’s Quarrel!\n1,Civil War!\n1,Heist Gone Wrong!\n1,Assassin!\n1,Abduction!\n1,Exiled!\n1,Haunted By The Past!\n1,Sins Of The Father!\n1,Betrayed!\n1,A Changed World!\n1,Trapped!\n1,A Quest For Something!\n1,A Quest For Someone!\n1,Revenge!\n1,Enemies At The Gate!\n1,Family Thrown Apart!\n1,Disease!\n1,Lost!\n1,Get The Band Back Together!\n1,Sanctioned Competition!",
+  "warnings": [
+    "Line 28: preserved nonstandard row before first entry: Lover’s Quarrel!"
+  ]
+}

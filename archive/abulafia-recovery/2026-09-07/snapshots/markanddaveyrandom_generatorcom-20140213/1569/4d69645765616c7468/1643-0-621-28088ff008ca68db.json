@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "28088ff008ca68db9ff77f0fb482665d7223a0bfa0f53a8512e9682cfa0383a3",
+      "revisionId": "1643",
+      "line": 621,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidWealth",
+    "qualified_name": "Pickpocket.MidWealth",
+    "table_block_index": 0,
+    "line_number": 621
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "[MidCoins]",
+      "raw_text": "10,[MidCoins]",
+      "references": [
+        {
+          "raw": "[MidCoins]",
+          "token": "MidCoins",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidCoins",
+          "target_qualified_name": "Pickpocket.MidCoins"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[MidGems]",
+      "raw_text": "5,[MidGems]",
+      "references": [
+        {
+          "raw": "[MidGems]",
+          "token": "MidGems",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidGems",
+          "target_qualified_name": "Pickpocket.MidGems"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "[MidCoins], [MidGems]",
+      "raw_text": "5,[MidCoins], [MidGems]",
+      "references": [
+        {
+          "raw": "[MidCoins]",
+          "token": "MidCoins",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidCoins",
+          "target_qualified_name": "Pickpocket.MidCoins"
+        },
+        {
+          "raw": "[MidGems]",
+          "token": "MidGems",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidGems",
+          "target_qualified_name": "Pickpocket.MidGems"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[MidOtherWealth]",
+      "raw_text": "2,[MidOtherWealth]",
+      "references": [
+        {
+          "raw": "[MidOtherWealth]",
+          "token": "MidOtherWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidOtherWealth",
+          "target_qualified_name": "Pickpocket.MidOtherWealth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "MidCoins",
+      "MidGems",
+      "MidOtherWealth"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MidWealth\n10,[MidCoins]\n5,[MidGems]\n5,[MidCoins], [MidGems]\n2,[MidOtherWealth]",
+  "warnings": []
+}

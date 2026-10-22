@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "7d059451b34c080cf804a8b583ddefd4efb85273ea2fdcc2ee2eb05878d739a9",
+      "revisionId": "17133",
+      "line": 196,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "species-relationship",
+    "qualified_name": "Planar Codex Parish.species-relationship",
+    "table_block_index": 0,
+    "line_number": 196
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "clients",
+      "raw_text": "1,clients",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "patrons",
+      "raw_text": "1,patrons",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "masters",
+      "raw_text": "1,masters",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "slaves",
+      "raw_text": "1,slaves",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "rivals",
+      "raw_text": "1,rivals",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "allies",
+      "raw_text": "1,allies",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "uneasy allies",
+      "raw_text": "1,uneasy allies",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "enemies",
+      "raw_text": "1,enemies",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "despised enemies",
+      "raw_text": "1,despised enemies",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "allies of convenience",
+      "raw_text": "1,allies of convenience",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "allies of necessity",
+      "raw_text": "1,allies of necessity",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "satraps",
+      "raw_text": "1,satraps",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "symbionts",
+      "raw_text": "1,symbionts",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "creations",
+      "raw_text": "1,creations",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";species-relationship\n1,clients\n1,patrons\n1,masters\n1,slaves\n1,rivals\n1,allies\n1,uneasy allies\n1,enemies\n1,despised enemies\n1,allies of convenience\n1,allies of necessity\n1,satraps\n1,symbionts\n1,creations",
+  "warnings": []
+}

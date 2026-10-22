@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "03dba2015cace068c0e90245894948572d9b9d05ac38f6994c41c34895d79b91",
+      "revisionId": "14219",
+      "line": 157,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Conscientiousness",
+    "qualified_name": "User:Snake Eyes.Conscientiousness",
+    "table_block_index": 0,
+    "line_number": 157
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 101,
+      "text": "Competence",
+      "raw_text": "101, Competence",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 102,
+      "text": "Order",
+      "raw_text": "102, Order",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 103,
+      "text": "Dutifulness",
+      "raw_text": "103, Dutifulness",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 104,
+      "text": "Achievement Striving",
+      "raw_text": "104, Achievement Striving",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 105,
+      "text": "Self-Discipline",
+      "raw_text": "105, Self-Discipline",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 106,
+      "text": "Deliberation",
+      "raw_text": "106, Deliberation",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Conscientiousness\n101, Competence\n102, Order\n103, Dutifulness\n104, Achievement Striving\n105, Self-Discipline\n106, Deliberation",
+  "warnings": []
+}

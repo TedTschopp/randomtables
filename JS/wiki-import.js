@@ -51,7 +51,7 @@
       if (typeof entry.text !== 'string') throw new Error(`Invalid wiki program entry: ${table.id}`);
       const start = total + 1;
       total += entry.weight;
-      rows.push(Object.freeze({ start, end: total, value: entry.text, parts: copyParts(table.program[index]) }));
+      rows.push(Object.freeze({ start, end: total, row: index + 1, value: entry.text, parts: copyParts(table.program[index]) }));
     }
     if (!Number.isSafeInteger(total) || total <= 0 || total !== table.totalWeight) throw new Error(`Invalid wiki program total: ${table.id}`);
     return { rows: Object.freeze(rows), total };
@@ -90,6 +90,9 @@
       if (table.execution !== undefined && table.execution !== 'wiki' || table.program !== undefined && table.execution !== 'wiki') {
         throw new Error(`Invalid wiki execution mode: ${table.id}`);
       }
+      if (table.recursion !== undefined && (table.execution !== 'wiki' || table.status !== 'ready' || !root.WikiRecursion)) {
+        throw new Error(`Invalid recursion execution mode: ${table.id}`);
+      }
       if (core && table.execution === 'wiki') throw new Error(`Wiki expressions cannot enter the compatibility bundle: ${table.id}`);
       let values = table.values;
       if (table.status === 'blocked') {
@@ -107,7 +110,12 @@
       const { values: unusedValues, ...description } = table;
       descriptions.set(table.id, { ...description, legacyAvailable: core });
       execution.set(table.id, Object.freeze({ id: table.id, name: String(table.name), status: table.status,
+        ...(table.recursion ? { recursion: table.recursion } : {}),
         ...(table.status === 'ready' && table.execution === 'wiki' ? programRows(table) : valueRows(values, table.id)) }));
+    }
+    for (const [identifier, table] of execution) if (table.recursion) {
+      const recursion = root.WikiRecursion.prepare(table, target => execution.get(target) || executables.get(target));
+      execution.set(identifier, Object.freeze({ ...table, recursion }));
     }
     for (const [alias, target] of Object.entries(bundle.aliases || {})) {
       if (!/^\w+$/.test(alias) || descriptions.get(target)?.status !== 'ready' || descriptions.get(target)?.execution === 'wiki') {
@@ -200,9 +208,32 @@
       const side = Math.floor(sample * target.total) + 1;
       const row = target.rows.find(candidate => side >= candidate.start && side <= candidate.end);
       if (!row) fail('error', table, `No selectable wiki row at ${table}.`);
-      steps.push({ id: table, depth, value: row.value });
+      const recursion = target.recursion?.row === row.row ? target.recursion : null;
+      steps.push({ id: table, depth, value: row.value, ...(recursion ? { policy: recursion.kind } : {}) });
       active.add(table);
       try {
+        if (recursion) {
+          const selected = new Set();
+          const values = [];
+          for (let item = 0; item < recursion.arity; item += 1) {
+            const candidates = recursion.choices.filter(choice => !selected.has(choice.key));
+            const total = candidates.reduce((sum, choice) => sum + choice.weight, 0);
+            if (!total) fail('constraint', table, 'No distinct terminal value remains.');
+            const sample = Math.random();
+            if (!Number.isFinite(sample) || sample < 0 || sample >= 1) fail('error', table, 'Random sample must be in [0, 1).');
+            let side = Math.floor(sample * total) + 1;
+            const choice = candidates.find(candidate => { side -= candidate.weight; return side <= 0; });
+            for (const step of choice.steps) {
+              calls += 1;
+              if (calls > 512 || depth + 1 + step.depth >= 32) fail('limit', table, 'Bounded recursion exceeds the remaining expansion budget.');
+              steps.push({ ...step, depth: depth + 1 + step.depth, policy: 'terminal-only' });
+            }
+            selected.add(choice.key);
+            values.push(choice.text);
+          }
+          return recursion.arity === 2 ? append(append(values[0], recursion.literal, table), values[1], table) :
+            append(recursion.literal, values[0], table);
+        }
         return row.parts ? expandParts(row.parts, depth, table) : expandValue(row.value, depth, table);
       } finally {
         active.delete(table);

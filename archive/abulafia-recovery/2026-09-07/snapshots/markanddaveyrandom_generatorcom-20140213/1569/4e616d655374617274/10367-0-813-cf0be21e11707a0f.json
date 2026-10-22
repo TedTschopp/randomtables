@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "cf0be21e11707a0fefcab32723f97c2e41f62d9f8e25c8a7beb247d75dc834a3",
+      "revisionId": "10367",
+      "line": 813,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "NameStart",
+    "qualified_name": "Pickpocket.NameStart",
+    "table_block_index": 0,
+    "line_number": 813
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Fantasy Names.StartMale]",
+      "raw_text": "1,[Fantasy Names.StartMale]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.StartMale]",
+          "token": "Fantasy Names.StartMale",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "NameStart",
+          "target_page": "Fantasy Names",
+          "target_subtable": "StartMale",
+          "target_qualified_name": "Fantasy Names.StartMale"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Fantasy Names.StartFemale]",
+      "raw_text": "1,[Fantasy Names.StartFemale]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.StartFemale]",
+          "token": "Fantasy Names.StartFemale",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "NameStart",
+          "target_page": "Fantasy Names",
+          "target_subtable": "StartFemale",
+          "target_qualified_name": "Fantasy Names.StartFemale"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[HalflingHippies.HalflingMale]",
+      "raw_text": "1,[HalflingHippies.HalflingMale]",
+      "references": [
+        {
+          "raw": "[HalflingHippies.HalflingMale]",
+          "token": "HalflingHippies.HalflingMale",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "NameStart",
+          "target_page": "HalflingHippies",
+          "target_subtable": "HalflingMale",
+          "target_qualified_name": "HalflingHippies.HalflingMale"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[HalflingHippies.HalflingFemale]",
+      "raw_text": "1,[HalflingHippies.HalflingFemale]",
+      "references": [
+        {
+          "raw": "[HalflingHippies.HalflingFemale]",
+          "token": "HalflingHippies.HalflingFemale",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "NameStart",
+          "target_page": "HalflingHippies",
+          "target_subtable": "HalflingFemale",
+          "target_qualified_name": "HalflingHippies.HalflingFemale"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Names.StartFemale",
+      "Fantasy Names.StartMale",
+      "HalflingHippies.HalflingFemale",
+      "HalflingHippies.HalflingMale"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";NameStart\n1,[Fantasy Names.StartMale]\n1,[Fantasy Names.StartFemale]\n1,[HalflingHippies.HalflingMale]\n1,[HalflingHippies.HalflingFemale]",
+  "warnings": []
+}

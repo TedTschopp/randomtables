@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 14044,
+    "timestamp": "2012-03-12T00:57:31Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0ccd36c58815ad6bc8aa451780b168898a06c45b25dfadbb590497ea51352353",
+      "rawSha256": "d7fd4f9feb4c6c6d2958676207bc02f799b4705ee0905865ea4a7db0317cef87",
+      "revisionId": "14044",
+      "line": 57,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14046",
+        "timestamp": "2012-03-12T01:00:00Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Warrior Training",
+    "qualified_name": "Stars Without Number.Warrior Training",
+    "table_block_index": 0,
+    "line_number": 57
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Adventurer",
+      "raw_text": "1,Adventurer",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Assassin",
+      "raw_text": "1,Assassin",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Commando",
+      "raw_text": "1,Commando",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Exchange Enforcer",
+      "raw_text": "1,Exchange Enforcer",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Ground Force",
+      "raw_text": "1,Ground Force",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Mercenary",
+      "raw_text": "1,Mercenary",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Space Marine",
+      "raw_text": "1,Space Marine",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Templar",
+      "raw_text": "1,Templar",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Warrior Training\n1,Adventurer\n1,Assassin\n1,Commando\n1,Exchange Enforcer\n1,Ground Force\n1,Mercenary\n1,Space Marine\n1,Templar",
+  "warnings": []
+}

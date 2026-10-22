@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14759,
+    "timestamp": "2012-06-20T11:19:00Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7076e4daa063bde166f4e1c35fc3b074f9821c343303e0448acc0b9dfb27f5fa",
+      "rawSha256": "300e4e27575f51a954733b6821384f9e2b445bb0a9d1ce40e84ff385833f75c3",
+      "revisionId": "14759",
+      "line": 11,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "general-mount-quirk",
+    "qualified_name": "Ostler.general-mount-quirk",
+    "table_block_index": 0,
+    "line_number": 11
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[pre-adj] [mount] who [quirk]",
+      "raw_text": "1,[pre-adj] [mount] who [quirk]",
+      "references": [
+        {
+          "raw": "[pre-adj]",
+          "token": "pre-adj",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "general-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "pre-adj",
+          "target_qualified_name": "Ostler.pre-adj"
+        },
+        {
+          "raw": "[mount]",
+          "token": "mount",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "general-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "mount",
+          "target_qualified_name": "Ostler.mount"
+        },
+        {
+          "raw": "[quirk]",
+          "token": "quirk",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "general-mount-quirk",
+          "target_page": "Ostler",
+          "target_subtable": "quirk",
+          "target_qualified_name": "Ostler.quirk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "mount",
+      "pre-adj",
+      "quirk"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";general-mount-quirk\n1,[pre-adj] [mount] who [quirk]",
+  "warnings": []
+}

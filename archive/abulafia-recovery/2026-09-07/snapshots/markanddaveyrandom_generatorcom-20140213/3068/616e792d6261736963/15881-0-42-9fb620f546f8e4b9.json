@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15881,
+    "timestamp": "2012-11-23T12:36:17Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "68d445463ca7a980a1c2f8cdecf5582449ff8bd5a0ce3eded6a1df23f12b2f53",
+      "rawSha256": "9fb620f546f8e4b9d1142c854483378dd4eb62dabf70e8a9f8a7f46788d78249",
+      "revisionId": "15881",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "any-basic",
+    "qualified_name": "Starting Equipment.any-basic",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[clothes]",
+      "raw_text": "1,[clothes]",
+      "references": [
+        {
+          "raw": "[clothes]",
+          "token": "clothes",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-basic",
+          "target_page": "Starting Equipment",
+          "target_subtable": "clothes",
+          "target_qualified_name": "Starting Equipment.clothes"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[armor]",
+      "raw_text": "1,[armor]",
+      "references": [
+        {
+          "raw": "[armor]",
+          "token": "armor",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-basic",
+          "target_page": "Starting Equipment",
+          "target_subtable": "armor",
+          "target_qualified_name": "Starting Equipment.armor"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[meleeweapon]",
+      "raw_text": "1,[meleeweapon]",
+      "references": [
+        {
+          "raw": "[meleeweapon]",
+          "token": "meleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-basic",
+          "target_page": "Starting Equipment",
+          "target_subtable": "meleeweapon",
+          "target_qualified_name": "Starting Equipment.meleeweapon"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[rangedweapon]",
+      "raw_text": "1,[rangedweapon]",
+      "references": [
+        {
+          "raw": "[rangedweapon]",
+          "token": "rangedweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-basic",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rangedweapon",
+          "target_qualified_name": "Starting Equipment.rangedweapon"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "armor",
+      "clothes",
+      "meleeweapon",
+      "rangedweapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";any-basic\n1,[clothes]\n1,[armor]\n1,[meleeweapon]\n1,[rangedweapon]",
+  "warnings": []
+}

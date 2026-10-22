@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "dc05c3d15b856049c9e018374493f3904f3a3411c02ba780e38d1e59c6d03331",
+      "revisionId": "10367",
+      "line": 359,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RichConsumable",
+    "qualified_name": "Pickpocket.RichConsumable",
+    "table_block_index": 0,
+    "line_number": 359
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[RichEdible]",
+      "raw_text": "5,[RichEdible]",
+      "references": [
+        {
+          "raw": "[RichEdible]",
+          "token": "RichEdible",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichEdible",
+          "target_qualified_name": "Pickpocket.RichEdible"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[RichDrinkable]",
+      "raw_text": "5,[RichDrinkable]",
+      "references": [
+        {
+          "raw": "[RichDrinkable]",
+          "token": "RichDrinkable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichDrinkable",
+          "target_qualified_name": "Pickpocket.RichDrinkable"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[RichRecreational]",
+      "raw_text": "2,[RichRecreational]",
+      "references": [
+        {
+          "raw": "[RichRecreational]",
+          "token": "RichRecreational",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichRecreational",
+          "target_qualified_name": "Pickpocket.RichRecreational"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[RichSeasoning]",
+      "raw_text": "1,[RichSeasoning]",
+      "references": [
+        {
+          "raw": "[RichSeasoning]",
+          "token": "RichSeasoning",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichSeasoning",
+          "target_qualified_name": "Pickpocket.RichSeasoning"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "RichDrinkable",
+      "RichEdible",
+      "RichRecreational",
+      "RichSeasoning"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";RichConsumable\n5,[RichEdible]\n5,[RichDrinkable]\n2,[RichRecreational]\n1,[RichSeasoning]",
+  "warnings": []
+}

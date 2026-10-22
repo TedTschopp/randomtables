@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "6ba585e50fa70b850014b355b344ab3d987ef935701e7eb4b598e1121730cf5a",
+      "revisionId": "22803",
+      "line": 56,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bodytype",
+    "qualified_name": "Quick Horrors.bodytype",
+    "table_block_index": 0,
+    "line_number": 56
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[armsandlegs]; [headetc]",
+      "raw_text": "1,[armsandlegs]; [headetc]",
+      "references": [
+        {
+          "raw": "[armsandlegs]",
+          "token": "armsandlegs",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "bodytype",
+          "target_page": "Quick Horrors",
+          "target_subtable": "armsandlegs",
+          "target_qualified_name": "Quick Horrors.armsandlegs"
+        },
+        {
+          "raw": "[headetc]",
+          "token": "headetc",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "bodytype",
+          "target_page": "Quick Horrors",
+          "target_subtable": "headetc",
+          "target_qualified_name": "Quick Horrors.headetc"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "armsandlegs",
+      "headetc"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bodytype\n1,[armsandlegs]; [headetc]",
+  "warnings": []
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "22b1389a1a0ddc1f3a87dc0cfa105938372c460b6a2b72eb25e691b1b9a715eb",
+      "revisionId": "23470",
+      "line": 177,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "raiders",
+    "qualified_name": "Village.raiders",
+    "table_block_index": 0,
+    "line_number": 177
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "the rulers",
+      "raw_text": "1,the rulers",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[maybeweird]elves",
+      "raw_text": "1,[maybeweird]elves",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "raiders",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[maybeweird]bandits",
+      "raw_text": "1,[maybeweird]bandits",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "raiders",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[maybeweird][Quick Zone Populations.power-animal]men",
+      "raw_text": "1,[maybeweird][Quick Zone Populations.power-animal]men",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "raiders",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "raiders",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "maybeweird"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";raiders\n1,the rulers\n1,[maybeweird]elves\n1,[maybeweird]bandits\n1,[maybeweird][Quick Zone Populations.power-animal]men",
+  "warnings": []
+}

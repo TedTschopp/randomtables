@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15359,
+    "timestamp": "2012-10-08T09:13:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9526a04d4ae507efcfd39f1e5e5b8eba2f617c32bab6d09e0c3c877be7bf9c81",
+      "rawSha256": "aacc7c72b14bb20f72a96546843ca4b6860134ff4ef07cda27d08dc24a1dcb9b",
+      "revisionId": "15359",
+      "line": 187,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "family",
+    "qualified_name": "Starting Equipment.family",
+    "table_block_index": 0,
+    "line_number": 187
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "brother",
+      "raw_text": "4,brother",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "sister",
+      "raw_text": "4,sister",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 6,
+      "text": "father",
+      "raw_text": "6,father",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 6,
+      "text": "mother",
+      "raw_text": "6,mother",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "grandfather",
+      "raw_text": "2,grandfather",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "grandmother",
+      "raw_text": "2,grandmother",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "uncle",
+      "raw_text": "1,uncle",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "aunt",
+      "raw_text": "1,aunt",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";family\n4,brother\n4,sister\n6,father\n6,mother\n2,grandfather\n2,grandmother\n1,uncle\n1,aunt",
+  "warnings": []
+}

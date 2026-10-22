@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "033fb230523aafcc8ddd2afe3d61e507d694c7cd9ce60e2d62dc93445422c266",
+      "revisionId": "9442",
+      "line": 494,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "killer",
+    "qualified_name": "New gen.killer",
+    "table_block_index": 0,
+    "line_number": 494
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Killer",
+      "raw_text": "1,Killer",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Murderer",
+      "raw_text": "1,Murderer",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Slasher",
+      "raw_text": "1,Slasher",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "slayer",
+      "raw_text": "1,slayer",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "mutilator",
+      "raw_text": "1,mutilator",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Strangler",
+      "raw_text": "1,Strangler",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "craker",
+      "raw_text": "1,craker",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "burnnaitor",
+      "raw_text": "1,burnnaitor",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "eater",
+      "raw_text": "1,eater",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "guter",
+      "raw_text": "1,guter",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "mother",
+      "raw_text": "1,mother",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "lover",
+      "raw_text": "1,lover",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";killer\n1,Killer\n1,Murderer\n1,Slasher\n1,slayer\n1,mutilator\n1,Strangler\n1,craker\n1,burnnaitor\n1,eater\n1,guter\n1,mother\n1,lover",
+  "warnings": []
+}

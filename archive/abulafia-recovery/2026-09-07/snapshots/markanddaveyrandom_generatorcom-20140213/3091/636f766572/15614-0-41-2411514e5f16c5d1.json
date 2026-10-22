@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Door",
+    "page_id": 3091
+  },
+  "source": {
+    "revision_id": 15614,
+    "timestamp": "2012-11-08T12:50:03Z",
+    "contributor": {
+      "name": "Valis",
+      "id": 1726,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "2a6c1318a350bb02c215bb903a12356b084e0820590909ba23771dc7446f1839",
+      "rawSha256": "2411514e5f16c5d1bc1d0c0f5b3e04e357f5743c859ed5daf2af042926a48d48",
+      "revisionId": "15614",
+      "line": 41,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15633",
+        "timestamp": "2012-11-08T13:02:11Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cover",
+    "qualified_name": "Dungeon Door.cover",
+    "table_block_index": 0,
+    "line_number": 41
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "simple cloth",
+      "raw_text": "1,simple cloth",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "arras",
+      "raw_text": "1,arras",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "bead curtain",
+      "raw_text": "1,bead curtain",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "jalousie",
+      "raw_text": "1,jalousie",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lambrequin",
+      "raw_text": "1,lambrequin",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "heavy cloth",
+      "raw_text": "1,heavy cloth",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "drape",
+      "raw_text": "1,drape",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "leather",
+      "raw_text": "1,leather",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "draw curtain",
+      "raw_text": "1,draw curtain",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "mini-blind",
+      "raw_text": "1,mini-blind",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "pleated shade",
+      "raw_text": "1,pleated shade",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "portiere",
+      "raw_text": "1,portiere",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "purdah",
+      "raw_text": "1,purdah",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "roller shade",
+      "raw_text": "1,roller shade",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "shutter",
+      "raw_text": "1,shutter",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "venetian blinds",
+      "raw_text": "1,venetian blinds",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "valence",
+      "raw_text": "1,valence",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cover\n1,simple cloth\n1,arras\n1,bead curtain\n1,jalousie\n1,lambrequin\n1,heavy cloth\n1,drape\n1,leather\n1,draw curtain\n1,mini-blind\n1,pleated shade\n1,portiere\n1,purdah\n1,roller shade\n1,shutter\n1,venetian blinds\n1,valence",
+  "warnings": []
+}

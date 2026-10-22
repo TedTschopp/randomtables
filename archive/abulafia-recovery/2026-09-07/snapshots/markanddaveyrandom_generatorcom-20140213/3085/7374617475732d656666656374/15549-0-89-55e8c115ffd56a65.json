@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15549,
+    "timestamp": "2012-11-05T11:21:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "df735ac1c721fc047920797f5851825f6962624a955cc7995b4caeb9a5b95cad",
+      "rawSha256": "55e8c115ffd56a65a36b7fee436ed5971b445a55c983843a85139d2a95ecda89",
+      "revisionId": "15549",
+      "line": 89,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "status-effect",
+    "qualified_name": "Curse.status-effect",
+    "table_block_index": 0,
+    "line_number": 89
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "slowed",
+      "raw_text": "1,slowed",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "undead",
+      "raw_text": "1,undead",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "vulnerable [about-5] to [damage-type]",
+      "raw_text": "1,vulnerable [about-5] to [damage-type]",
+      "references": [
+        {
+          "raw": "[about-5]",
+          "token": "about-5",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "status-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-5",
+          "target_qualified_name": "Curse.about-5"
+        },
+        {
+          "raw": "[damage-type]",
+          "token": "damage-type",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "status-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage-type",
+          "target_qualified_name": "Curse.damage-type"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "blinded",
+      "raw_text": "1,blinded",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "silenced",
+      "raw_text": "1,silenced",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "paralyzed",
+      "raw_text": "1,paralyzed",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-5",
+      "damage-type"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";status-effect\n1,slowed\n1,undead\n1,vulnerable [about-5] to [damage-type]\n1,blinded\n1,silenced\n1,paralyzed",
+  "warnings": []
+}

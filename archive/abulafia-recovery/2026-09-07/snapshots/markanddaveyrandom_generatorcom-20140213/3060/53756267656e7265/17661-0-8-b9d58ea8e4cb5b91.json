@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Game of Aspects",
+    "page_id": 3060
+  },
+  "source": {
+    "revision_id": 17661,
+    "timestamp": "2013-05-30T22:38:30Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b7962fcfecd7a192f7c70a72b81ee30c47ec22ef968be2f337c9c6619b4d3404",
+      "rawSha256": "b9d58ea8e4cb5b91b58a25ed4c8d7765ab606098437a8a9537e3348fdc7d3c54",
+      "revisionId": "17661",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17661",
+        "timestamp": "2013-05-30T22:38:30Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Subgenre",
+    "qualified_name": "Abulafia Random Generators:Game of Aspects.Subgenre",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Men’s Adventure",
+      "raw_text": "1,Men’s Adventure",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Dieselpunk",
+      "raw_text": "1,Dieselpunk",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Post-Apocalyptic",
+      "raw_text": "1,Post-Apocalyptic",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Southern Gothic",
+      "raw_text": "1,Southern Gothic",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Comic Fantasy",
+      "raw_text": "1,Comic Fantasy",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Superhero",
+      "raw_text": "1,Superhero",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Hardboiled",
+      "raw_text": "1,Hardboiled",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Wuxia",
+      "raw_text": "1,Wuxia",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Weird West",
+      "raw_text": "1,Weird West",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Wild West",
+      "raw_text": "1,Wild West",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Yuri",
+      "raw_text": "1,Yuri",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Whodunit",
+      "raw_text": "1,Whodunit",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Science-Fantasy",
+      "raw_text": "1,Science-Fantasy",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Magic Realism",
+      "raw_text": "1,Magic Realism",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Spy Thriller",
+      "raw_text": "1,Spy Thriller",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Black Comedy",
+      "raw_text": "1,Black Comedy",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Alien Invasion",
+      "raw_text": "1,Alien Invasion",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Time Travel",
+      "raw_text": "1,Time Travel",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Twisted Fairy Tale",
+      "raw_text": "1,Twisted Fairy Tale",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Fanfiction",
+      "raw_text": "1,Fanfiction",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Noir",
+      "raw_text": "1, Noir",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Horror",
+      "raw_text": "1, Horror",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Subgenre\n1,Men’s Adventure\n1,Dieselpunk\n1,Post-Apocalyptic\n1,Southern Gothic\n1,Comic Fantasy\n1,Superhero\n1,Hardboiled\n1,Wuxia\n1,Weird West\n1,Wild West\n1,Yuri\n1,Whodunit\n1,Science-Fantasy\n1,Magic Realism\n1,Spy Thriller\n1,Black Comedy\n1,Alien Invasion\n1,Time Travel\n1,Twisted Fairy Tale\n1,Fanfiction\n1, Noir\n1, Horror",
+  "warnings": []
+}

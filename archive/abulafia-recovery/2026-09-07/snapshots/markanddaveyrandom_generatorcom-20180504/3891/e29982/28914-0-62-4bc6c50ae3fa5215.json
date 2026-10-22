@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28914,
+    "timestamp": "2015-09-13T21:02:27Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "540fb53bb0666b90b45a01964299892fabfdc387c11d757500455c7b0078d44c",
+      "rawSha256": "4bc6c50ae3fa5215c448c67fddcf720129d023072ff010c21c30a188813f75bc",
+      "revisionId": "28914",
+      "line": 62,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "♂",
+    "qualified_name": "QuickAdjective.♂",
+    "table_block_index": 0,
+    "line_number": 62
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 0,
+      "text": "were-/male/men",
+      "raw_text": "0,were-/male/men",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";♂\n0,were-/male/men",
+  "warnings": []
+}

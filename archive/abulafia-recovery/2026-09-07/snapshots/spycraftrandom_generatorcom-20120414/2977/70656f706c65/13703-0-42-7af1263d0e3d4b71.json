@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13703,
+    "timestamp": "2012-02-29T04:54:39Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "75af8df70105b22d797eb92a281492d18446ce871a984b9080de09eb0a70ed8b",
+      "rawSha256": "7af1263d0e3d4b71bfdd4356d12dc557480aa2c91d8c4636c1af0289a28df610",
+      "revisionId": "13703",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "people",
+    "qualified_name": "Quick Populations.people",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Dice.digit][Dice.digit] [race]s",
+      "raw_text": "1,[Dice.digit][Dice.digit] [race]s",
+      "references": [
+        {
+          "raw": "[Dice.digit]",
+          "token": "Dice.digit",
+          "kind": "cross_page",
+          "source_page": "Quick Populations",
+          "source_subtable": "people",
+          "target_page": "Dice",
+          "target_subtable": "digit",
+          "target_qualified_name": "Dice.digit"
+        },
+        {
+          "raw": "[Dice.digit]",
+          "token": "Dice.digit",
+          "kind": "cross_page",
+          "source_page": "Quick Populations",
+          "source_subtable": "people",
+          "target_page": "Dice",
+          "target_subtable": "digit",
+          "target_qualified_name": "Dice.digit"
+        },
+        {
+          "raw": "[race]",
+          "token": "race",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "people",
+          "target_page": "Quick Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Populations.race"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "race"
+    ],
+    "external_subtables": [
+      "Dice.digit"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";people\n1,[Dice.digit][Dice.digit] [race]s",
+  "warnings": []
+}

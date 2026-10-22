@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "85f62686842a0cf240bdebf60e2839bf17e8fe96b3c9c15374d8c6daa9d930a6",
+      "revisionId": "9620",
+      "line": 4,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Rituals.main",
+    "table_block_index": 0,
+    "line_number": 4
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[ritualStart] [eventAny] [riteClause].",
+      "raw_text": "2,[ritualStart] [eventAny] [riteClause].",
+      "references": [
+        {
+          "raw": "[ritualStart]",
+          "token": "ritualStart",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "main",
+          "target_page": "Rituals",
+          "target_subtable": "ritualStart",
+          "target_qualified_name": "Rituals.ritualStart"
+        },
+        {
+          "raw": "[eventAny]",
+          "token": "eventAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "main",
+          "target_page": "Rituals",
+          "target_subtable": "eventAny",
+          "target_qualified_name": "Rituals.eventAny"
+        },
+        {
+          "raw": "[riteClause]",
+          "token": "riteClause",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "main",
+          "target_page": "Rituals",
+          "target_subtable": "riteClause",
+          "target_qualified_name": "Rituals.riteClause"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[privelegeClause] [someRites].",
+      "raw_text": "1,[privelegeClause] [someRites].",
+      "references": [
+        {
+          "raw": "[privelegeClause]",
+          "token": "privelegeClause",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "main",
+          "target_page": "Rituals",
+          "target_subtable": "privelegeClause",
+          "target_qualified_name": "Rituals.privelegeClause"
+        },
+        {
+          "raw": "[someRites]",
+          "token": "someRites",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "main",
+          "target_page": "Rituals",
+          "target_subtable": "someRites",
+          "target_qualified_name": "Rituals.someRites"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "eventAny",
+      "privelegeClause",
+      "riteClause",
+      "ritualStart",
+      "someRites"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n2,[ritualStart] [eventAny] [riteClause].\n1,[privelegeClause] [someRites].",
+  "warnings": []
+}

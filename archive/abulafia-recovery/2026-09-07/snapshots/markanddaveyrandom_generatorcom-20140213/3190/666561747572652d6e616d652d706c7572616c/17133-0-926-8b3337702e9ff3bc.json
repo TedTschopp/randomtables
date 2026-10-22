@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "8b3337702e9ff3bc6db7ed31c6ea730574c7b60446c89cd7672115b9ac98d7df",
+      "revisionId": "17133",
+      "line": 926,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "feature-name-plural",
+    "qualified_name": "Planar Codex Parish.feature-name-plural",
+    "table_block_index": 0,
+    "line_number": 926
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "plantations",
+      "raw_text": "1,plantations",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "gardens",
+      "raw_text": "1,gardens",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "arcades",
+      "raw_text": "1,arcades",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "bazaars",
+      "raw_text": "1,bazaars",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "parks",
+      "raw_text": "1,parks",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "theaters",
+      "raw_text": "1,theaters",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "colosseums",
+      "raw_text": "1,colosseums",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "forums",
+      "raw_text": "1,forums",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "parliaments",
+      "raw_text": "1,parliaments",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "fairgrounds",
+      "raw_text": "1,fairgrounds",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "craters",
+      "raw_text": "1,craters",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "necropolises",
+      "raw_text": "1,necropolises",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "temples",
+      "raw_text": "1,temples",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "observatories",
+      "raw_text": "1,observatories",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "lighthouses",
+      "raw_text": "1,lighthouses",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "harbors",
+      "raw_text": "1,harbors",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "canals",
+      "raw_text": "1,canals",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "labyrinths",
+      "raw_text": "1,labyrinths",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "landfills",
+      "raw_text": "1,landfills",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "sewers",
+      "raw_text": "1,sewers",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "caves",
+      "raw_text": "1,caves",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "dungeons",
+      "raw_text": "1,dungeons",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "monasteries",
+      "raw_text": "1,monasteries",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "abbeys",
+      "raw_text": "1,abbeys",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "slums",
+      "raw_text": "1,slums",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "docks",
+      "raw_text": "1,docks",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "palaces",
+      "raw_text": "1,palaces",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "auction houses",
+      "raw_text": "1,auction houses",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "warehouses",
+      "raw_text": "1,warehouses",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "towers",
+      "raw_text": "1,towers",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "breweries",
+      "raw_text": "1,breweries",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "alleys",
+      "raw_text": "1,alleys",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "wells",
+      "raw_text": "1,wells",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "lakes",
+      "raw_text": "1,lakes",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "menageries",
+      "raw_text": "1,menageries",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "manors",
+      "raw_text": "1,manors",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "ruins",
+      "raw_text": "1,ruins",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "prisons",
+      "raw_text": "1,prisons",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "tree-cities",
+      "raw_text": "1,tree-cities",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "pits",
+      "raw_text": "1,pits",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "tombs",
+      "raw_text": "1,tombs",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "asylums",
+      "raw_text": "1,asylums",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "hospitals",
+      "raw_text": "1,hospitals",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "architectures",
+      "raw_text": "1,architectures",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "bourses",
+      "raw_text": "1,bourses",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "pilgrims' shrines",
+      "raw_text": "1,pilgrims' shrines",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "gates",
+      "raw_text": "1,gates",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "stockyards",
+      "raw_text": "1,stockyards",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "stockades",
+      "raw_text": "1,stockades",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "palisades",
+      "raw_text": "1,palisades",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "barbicans",
+      "raw_text": "1,barbicans",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "wurms",
+      "raw_text": "1,wurms",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "fortresses",
+      "raw_text": "1,fortresses",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "vaults",
+      "raw_text": "1,vaults",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "mines",
+      "raw_text": "1,mines",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "shantytowns",
+      "raw_text": "1,shantytowns",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "arenas",
+      "raw_text": "1,arenas",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "stadiums",
+      "raw_text": "1,stadiums",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "racetracks",
+      "raw_text": "1,racetracks",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "festival grounds",
+      "raw_text": "1,festival grounds",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "walls",
+      "raw_text": "1,walls",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";feature-name-plural\n1,plantations\n1,gardens\n1,arcades\n1,bazaars\n1,parks\n1,theaters\n1,colosseums\n1,forums\n1,parliaments\n1,fairgrounds\n1,craters\n1,necropolises\n1,temples\n1,observatories\n1,lighthouses\n1,harbors\n1,canals\n1,labyrinths\n1,landfills\n1,sewers\n1,caves\n1,dungeons\n1,monasteries\n1,abbeys\n1,slums\n1,docks\n1,palaces\n1,auction houses\n1,warehouses\n1,towers\n1,breweries\n1,alleys\n1,wells\n1,lakes\n1,menageries\n1,manors\n1,ruins\n1,prisons\n1,tree-cities\n1,pits\n1,tombs\n1,asylums\n1,hospitals\n1,architectures\n1,bourses\n1,pilgrims' shrines\n1,gates\n1,stockyards\n1,stockades\n1,palisades\n1,barbicans\n1,wurms\n1,fortresses\n1,vaults\n1,mines\n1,shantytowns\n1,arenas\n1,stadiums\n1,racetracks\n1,festival grounds\n1,walls",
+  "warnings": []
+}

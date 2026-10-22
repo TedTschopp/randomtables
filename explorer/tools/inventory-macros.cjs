@@ -295,40 +295,70 @@ function runtimeSupport() {
   };
 }
 
+function inventoryTableSets(records, manifest) {
+  const assert = require('node:assert/strict');
+  const { tableId } = require('./import-abulafia.cjs');
+  const imported = new Map(manifest.tables.map(table => [table.id, table]));
+  const current = [];
+  const historical = [];
+  const seen = new Set();
+  for (const record of records) {
+    const id = tableId(record.table);
+    const metadata = imported.get(id);
+    if (record.historical && !metadata) continue;
+    assert.equal(seen.has(id), false, 'Duplicate inventory source identity');
+    seen.add(id);
+    if (metadata) {
+      assert.equal(record.sourceHash, metadata.sourceHash, 'Inventory source hash mismatch');
+      assert.equal(record.sourceFile, metadata.sourceFile, 'Inventory source file mismatch');
+      assert.equal(record.table.subtable.qualified_name, metadata.name, 'Inventory source name mismatch');
+      assert.equal(Boolean(record.historical), Boolean(metadata.historical), 'Inventory historical scope mismatch');
+    }
+    const table = { id, name: record.table.subtable.qualified_name, file: record.sourceFile,
+      archiveFile: metadata?.archiveFile, ...(record.historical ? { historical: true } : {}),
+      state: !metadata ? 'not-imported' : metadata.status === 'blocked' ? 'blocked' : metadata.execution === 'wiki' ? 'ready-runtime' : 'ready-static',
+      entries: record.table.entries };
+    (record.historical ? historical : current).push(table);
+  }
+  const catalog = [...current, ...historical];
+  assert.equal(catalog.filter(table => table.state !== 'not-imported').length, manifest.summary.tables, 'Inventory imported scope is missing source records');
+  return { current, historical, catalog };
+}
+
 function buildInventory(repo, sourceRoot) {
   const assert = require('node:assert/strict');
   const crypto = require('node:crypto');
   const fs = require('node:fs');
   const path = require('node:path');
   const { execFileSync } = require('node:child_process');
-  const { loadCorpus, tableId } = require('./import-abulafia.cjs');
+  const { loadCorpus, loadRecoveryCorpus, tableId } = require('./import-abulafia.cjs');
   const manifestBytes = fs.readFileSync(path.join(repo, 'tables/abulafia/manifest.json'));
   const manifest = JSON.parse(manifestBytes);
   const commit = execFileSync('git', ['-C', sourceRoot, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
   assert.equal(commit, manifest.commit, 'The source checkout must match the imported revision');
   assert.equal(execFileSync('git', ['-C', sourceRoot, 'status', '--porcelain'], { encoding: 'utf8' }).trim(), '', 'Use a clean source checkout');
-  const imported = new Map(manifest.tables.map(table => [table.id, table]));
-  const records = loadCorpus(sourceRoot);
-  const wikiTables = records.map(record => {
-    const id = tableId(record.table);
-    const metadata = imported.get(id);
-    return { id, name: record.table.subtable.qualified_name, file: record.sourceFile,
-      archiveFile: metadata?.archiveFile,
-      state: !metadata ? 'not-imported' : metadata.status === 'blocked' ? 'blocked' : metadata.execution === 'wiki' ? 'ready-runtime' : 'ready-static',
-      entries: record.table.entries };
-  });
-  assert.equal(wikiTables.filter(table => table.state !== 'not-imported').length, manifest.summary.tables);
+  let records = loadCorpus(sourceRoot, { includeHistorical: Boolean(manifest.recovery) });
+  const recoveryFile = 'explorer/tools/historical-recovery.json';
+  const recovery = manifest.recovery ? JSON.parse(fs.readFileSync(path.join(repo, recoveryFile))) : null;
+  if (recovery) {
+    assert.equal(crypto.createHash('sha256').update(JSON.stringify(recovery)).digest('hex'), manifest.recovery.configurationSha256,
+      'Inventory historical recovery configuration is stale');
+    if (recovery.xml) records = loadRecoveryCorpus(repo, recovery.xml, records, manifest);
+  }
+  const sets = inventoryTableSets(records, manifest);
+  const wikiTables = sets.current;
+  const catalogById = new Map(sets.catalog.map(table => [table.id, table]));
   const local = loadLocalTables(repo);
   const current = summarizeTables(wikiTables);
   const legacy = summarizeTables(local.tables);
   const unparsed = [];
-  for (const [index, record] of records.entries()) for (const macro of unparsedExpressions(record.table)) {
-    const table = wikiTables[index];
+  for (const record of records.filter(record => catalogById.has(tableId(record.table)))) for (const macro of unparsedExpressions(record.table)) {
+    const table = catalogById.get(tableId(record.table));
     unparsed.push({ name: macro.name, table: table.name, file: table.file, archiveFile: table.archiveFile, state: table.state,
       line: macro.line, closed: macro.closed, protected: macro.protected, example: macro.raw.slice(0, 240), truncated: macro.raw.length > 240 });
   }
   const patterns = new Map();
-  for (const table of wikiTables) for (const entry of table.entries) {
+  for (const table of sets.catalog) for (const entry of table.entries) {
     if (!(Number.isSafeInteger(entry.weight) && entry.weight > 0)) continue;
     const calls = scanExpressions(entry.text).macros.filter(macro => macro.closed && !macro.protected);
     const roots = calls.filter(macro => macro.parentStart === null);
@@ -349,9 +379,11 @@ function buildInventory(repo, sourceRoot) {
     validation.set(code, (validation.get(code) || 0) + 1);
   }
   const runtime = fs.readFileSync(path.join(repo, 'JS/wiki-import.js'), 'utf8');
-  const supportFiles = ['JS/wiki-expressions.js', 'JS/wiki-template-data.js', 'explorer/tools/compile-wiki-expressions.cjs',
+  const supportFiles = ['JS/wiki-expressions.js', 'JS/wiki-template-data.js', 'JS/wiki-recursion.js', 'explorer/tools/compile-wiki-expressions.cjs',
     'explorer/vendor/jsep.iife.min.js', 'explorer/tools/macro-requirements.json', 'explorer/tools/case-reference-corrections.json',
-    'explorer/tools/source-extraction-corrections.json'];
+    'explorer/tools/source-extraction-corrections.json', 'explorer/tools/recursion-policies.json', ...(recovery ? [recoveryFile, 'explorer/tools/recovery-case-corrections.json',
+      'explorer/tools/all-case-reference-corrections.json',
+      ...(recovery.xml ? [recovery.xml.file] : [])] : [])];
   const { sourceArchive, definitions } = require('./macro-requirements.json');
   return {
     schemaVersion: 1, generatedOn: new Date().toISOString().slice(0, 10),
@@ -361,16 +393,19 @@ function buildInventory(repo, sourceRoot) {
       compilerSha256: crypto.createHash('sha256').update(fs.readFileSync(path.join(repo, 'explorer/tools/import-abulafia.cjs'))).digest('hex'),
       supportFileHashes: Object.fromEntries(supportFiles.map(file => [file, crypto.createHash('sha256').update(fs.readFileSync(path.join(repo, file))).digest('hex')])) },
     scope: { currentWikiTables: wikiTables.length, importedTables: manifest.summary.tables,
-      currentWikiPages: new Set(records.map(record => record.table.page.page_id)).size,
+      currentWikiPages: new Set(records.filter(record => !record.historical).map(record => record.table.page.page_id)).size,
       notImportedTables: wikiTables.filter(table => table.state === 'not-imported').length,
+      ...(recovery ? { currentImportedTables: wikiTables.filter(table => table.state !== 'not-imported').length,
+        importedHistoricalTables: sets.historical.length, catalogWikiTables: sets.catalog.length } : {}),
       localScriptFiles: local.scriptFiles, loadedLocalScripts: local.loadedScripts, localJsonFiles: local.jsonFiles,
-      localFiles: local.files, retainedHistoricalRevisionsIncluded: false },
+      localFiles: local.files, retainedHistoricalRevisionsIncluded: Boolean(recovery) },
     ...runtimeSupport(), current, legacy, wordlists: local.wordlists,
+    ...(recovery ? { historical: summarizeTables(sets.historical), catalog: summarizeTables(sets.catalog) } : {}),
     requirements: requirementsFor(current.macros), templateEvidence: { sourceArchive, definitions },
     unparsedSource: unparsed,
     expressionPatterns: [...patterns.values()].map(group => ({ ...group, tables: group.tables.size }))
       .sort((first, second) => second.tables - first.tables || first.pattern.localeCompare(second.pattern)),
-    otherSyntax: otherSyntax([...wikiTables, ...local.tables]),
+    otherSyntax: otherSyntax([...sets.catalog, ...local.tables]),
     validationIssues: Object.fromEntries([...validation].sort((first, second) => second[1] - first[1]))
   };
 }
@@ -382,7 +417,9 @@ function renderMarkdown(report) {
   const inactive = report.current.macros.filter(macro => macro.executableTables === 0);
   const unsupported = active.filter(macro => !report.supportedOperations.includes(macro.name));
   const sourceLink = location => {
-    const target = `${report.provenance.repository}/blob/${report.provenance.commit}/${location.file.split('/').map(encodeURIComponent).join('/')}`;
+    const encoded = location.file.split('/').map(encodeURIComponent).join('/');
+    const target = location.file.startsWith('archive/abulafia-recovery/') ? `../${encoded}` :
+      `${report.provenance.repository}/blob/${report.provenance.commit}/${encoded}`;
     const label = location.table.replace(/\|/g, ' / ').replace(/[\[\]<>]/g, '');
     return `[${label}](${target})`;
   };
@@ -393,12 +430,14 @@ function renderMarkdown(report) {
     '# Macro Inventory', '', `Snapshot: ${report.generatedOn}. Source revision: \`${report.provenance.commit}\`.`, '',
     '## Bottom Line', '',
     `The current wiki tables use **${active.length} macro names in selectable rows**. **${active.length - unsupported.length} names** have implemented support through bounded evaluation or explicit plain-text projections. **${unsupported.length} ${unsupported.length === 1 ? 'name' : 'names'}** ${unsupported.length === 1 ? 'remains' : 'remain'} unsupported. An implemented name does not guarantee that its arguments or dependencies pass validation.`, '',
-    `The scan covers **${number(report.scope.currentWikiTables)} current wiki tables**: ${number(report.scope.importedTables)} imported and ${number(report.scope.notImportedTables)} not imported. It also covers every local table script, both alternate JSON collections, and the local wordlists. Source data and runtime behavior were not changed by this inventory.`, '',
+    `The scan covers **${number(report.scope.currentWikiTables)} current wiki tables**: ${number(report.scope.currentImportedTables ?? report.scope.importedTables)} imported and ${number(report.scope.notImportedTables)} not imported.${report.historical ? ` It separately includes **${number(report.scope.importedHistoricalTables)} imported historical definitions**.` : ''} It also covers every local table script, both alternate JSON collections, and the local wordlists. Source data and runtime behavior were not changed by this inventory.`, '',
     '## Coverage', '', '| Scope | Tables or Definitions | Entries |', '| --- | ---: | ---: |',
     `| Current wiki corpus | ${number(report.current.summary.tables)} | ${number(report.current.summary.entries)} |`,
+    ...(report.historical ? [`| Imported historical definitions | ${number(report.historical.summary.tables)} | ${number(report.historical.summary.entries)} |`] : []),
     `| Local JavaScript and JSON definitions | ${number(report.legacy.summary.tables)} | ${number(report.legacy.summary.entries)} |`, '',
     `Local sources: ${report.scope.localScriptFiles} JavaScript files (${report.scope.loadedLocalScripts} loaded by the classic home page), ${report.scope.localJsonFiles} JSON files, and ${report.wordlists.length} text wordlists. Local definitions include shadowed and unloaded data and are not added to the active browser table count.`, '',
     `Wiki state counts: ${Object.entries(report.current.summary.byState).map(([state, count]) => `\`${state}\`: ${number(count)}`).join('; ')}.`, '',
+    ...(report.historical ? [`Historical state counts: ${Object.entries(report.historical.summary.byState).map(([state, count]) => `\`${state}\`: ${number(count)}`).join('; ')}. Historical macro usage and diagnostics are retained separately in the JSON; the selectable-macro table below describes the current corpus only.`, ''] : []),
     `Local state counts: ${Object.entries(report.legacy.summary.byState).map(([state, count]) => `\`${state}\`: ${number(count)}`).join('; ')}.`, '',
     '## Selectable-Row Macros', '',
     'Counts below are distinct source tables containing well-closed, unprotected macro calls in positive, valid-weight rows. They are not predicted unlock counts. One table may appear in several rows, so columns must not be summed. Names are grouped case-insensitively with underscores treated as spaces; actual spellings remain in the JSON evidence, and grouping does not imply that every spelling is supported.', '',
@@ -418,7 +457,7 @@ function renderMarkdown(report) {
   lines.push('');
   for (const group of report.requirements) lines.push(`- **${group.label}:** ${group.requirement} ${group.caution}`);
   lines.push('', '## Source Examples', '',
-    'Examples link to the exact current table JSON at the pinned source commit. Entry numbers refer to the parsed source entry array, starting at 1. The machine-readable report retains every occurrence, exact spellings, weights, states, offsets, and available local archive paths.', '',
+    'Examples link to exact table JSON at the pinned source commit or to hash-verified local XML snapshots. Entry numbers refer to the parsed source entry array, starting at 1. The machine-readable report retains every occurrence, exact spellings, weights, states, offsets, and available local archive paths.', '',
     '| Macro | Exact Spellings | Source Table | Entry | Expression |', '| --- | --- | --- | ---: | --- |');
   for (const macro of active) {
     const location = macro.locations.find(item => item.executable);
@@ -458,7 +497,7 @@ function renderMarkdown(report) {
   lines.push('', '## Reproduce', '', 'From the repository root:', '', '```sh',
     'node --test explorer/tests/macro-inventory.test.cjs',
     'node explorer/tools/inventory-macros.cjs --source ../random-generator-com-wiki-dump --output Docs', '```', '',
-    'The scan follows page-manifest membership and does not treat retained obsolete files as current tables. Historical revisions are not part of the implementation backlog or the totals. Imported archives are not counted again as separate tables; raw source is compared with parsed entries for coverage gaps. Template implementations and transitive template dependencies are not added to direct table-usage counts.', '',
+    'Current membership follows page manifests. Only explicitly imported historical definitions enter the separate historical and combined catalog totals; unused retained revisions remain outside the backlog. Source archives are not counted again as separate tables. Raw source is compared with parsed entries for coverage gaps; template implementations and transitive template dependencies are not added to direct table-usage counts.', '',
     'The scanner reads wiki content as JSON and text, never as executable code. Local JavaScript data definitions are evaluated only in an isolated, time-limited development VM to preserve their actual registration and range semantics. No browser runtime or server dependency is introduced. Existing output files are never overwritten unless their contents are identical.', '',
     'Full per-occurrence evidence: [macro-inventory.json](macro-inventory.json). Scanner: [inventory-macros.cjs](../explorer/tools/inventory-macros.cjs).', '');
   return lines.join('\n');
@@ -485,7 +524,7 @@ function main() {
     rawOnlyOccurrences: report.unparsedSource.length, otherSyntax: report.otherSyntax.map(({ examples, ...group }) => group) }, null, 2));
 }
 
-module.exports = { scanExpressions, summarizeTables, unparsedExpressions, loadLocalTables, otherSyntax, requirementsFor, runtimeSupport, buildInventory, renderMarkdown };
+module.exports = { scanExpressions, summarizeTables, unparsedExpressions, loadLocalTables, inventoryTableSets, otherSyntax, requirementsFor, runtimeSupport, buildInventory, renderMarkdown };
 
 if (require.main === module) {
   try { main(); } catch (error) { console.error(error); process.exitCode = 1; }

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "e9dc32dbb18038f01625db4777e4b69dd36f3f9d40227106b662abdade321899",
+      "revisionId": "17133",
+      "line": 567,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "feature-descriptor",
+    "qualified_name": "Planar Codex Parish.feature-descriptor",
+    "table_block_index": 0,
+    "line_number": 567
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "macabre",
+      "raw_text": "1,macabre",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "tainted",
+      "raw_text": "1,tainted",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "notorious",
+      "raw_text": "1,notorious",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "luxurious",
+      "raw_text": "1,luxurious",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "posh",
+      "raw_text": "1,posh",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "uninhabitable",
+      "raw_text": "1,uninhabitable",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "silent",
+      "raw_text": "1,silent",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "sinking",
+      "raw_text": "1,sinking",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "collapsing",
+      "raw_text": "1,collapsing",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "overcrowded",
+      "raw_text": "1,overcrowded",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "crumbling",
+      "raw_text": "1,crumbling",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "stone",
+      "raw_text": "1,stone",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "forbidden",
+      "raw_text": "1,forbidden",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "iron",
+      "raw_text": "1,iron",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "forgotten",
+      "raw_text": "1,forgotten",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "wooden",
+      "raw_text": "1,wooden",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "adamancrete",
+      "raw_text": "1,adamancrete",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "clockwork",
+      "raw_text": "1,clockwork",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "filthy",
+      "raw_text": "1,filthy",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "cobbled",
+      "raw_text": "1,cobbled",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "weathered",
+      "raw_text": "1,weathered",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "shining",
+      "raw_text": "1,shining",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "obsidian",
+      "raw_text": "1,obsidian",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "foetid",
+      "raw_text": "1,foetid",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "marble",
+      "raw_text": "1,marble",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "cursed",
+      "raw_text": "1,cursed",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "endless",
+      "raw_text": "1,endless",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "stately",
+      "raw_text": "1,stately",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "quarantined",
+      "raw_text": "1,quarantined",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "magnificent",
+      "raw_text": "1,magnificent",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "central",
+      "raw_text": "1,central",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "colossal",
+      "raw_text": "1,colossal",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "haunted",
+      "raw_text": "1,haunted",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";feature-descriptor\n1,macabre\n1,tainted\n1,notorious\n1,luxurious\n1,posh\n1,uninhabitable\n1,silent\n1,sinking\n1,collapsing\n1,overcrowded\n1,crumbling\n1,stone\n1,forbidden\n1,iron\n1,forgotten\n1,wooden\n1,adamancrete\n1,clockwork\n1,filthy\n1,cobbled\n1,weathered\n1,shining\n1,obsidian\n1,foetid\n1,marble\n1,cursed\n1,endless\n1,stately\n1,ancient\n1,quarantined\n1,magnificent\n1,central\n1,colossal\n1,haunted",
+  "warnings": []
+}

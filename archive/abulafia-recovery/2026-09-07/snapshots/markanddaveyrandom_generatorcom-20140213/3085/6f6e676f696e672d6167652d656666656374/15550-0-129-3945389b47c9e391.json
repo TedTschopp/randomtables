@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15550,
+    "timestamp": "2012-11-05T13:26:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d27b4d0ba90df3753907e5a5bc3b1d65d91c03b01edaf96e1c9339ca7d1870ce",
+      "rawSha256": "3945389b47c9e3913acb4b78a148e1aab0a7846b90c03948fcbdc93540bdd725",
+      "revisionId": "15550",
+      "line": 129,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ongoing-age-effect",
+    "qualified_name": "Curse.ongoing-age-effect",
+    "table_block_index": 0,
+    "line_number": 129
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "age at an unnatural rate (one year every [period])",
+      "raw_text": "1,age at an unnatural rate (one year every [period])",
+      "references": [
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "age at an unnatural rate ([about-two-or-five] years every [period])",
+      "raw_text": "1,age at an unnatural rate ([about-two-or-five] years every [period])",
+      "references": [
+        {
+          "raw": "[about-two-or-five]",
+          "token": "about-two-or-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-two-or-five",
+          "target_qualified_name": "Curse.about-two-or-five"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "grow younger over time (lose one year every [period])",
+      "raw_text": "1,grow younger over time (lose one year every [period])",
+      "references": [
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "grow younger over time (lose [about-two-or-five] years every [period])",
+      "raw_text": "1,grow younger over time (lose [about-two-or-five] years every [period])",
+      "references": [
+        {
+          "raw": "[about-two-or-five]",
+          "token": "about-two-or-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-two-or-five",
+          "target_qualified_name": "Curse.about-two-or-five"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-age-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-two-or-five",
+      "period"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ongoing-age-effect\n1,age at an unnatural rate (one year every [period])\n1,age at an unnatural rate ([about-two-or-five] years every [period])\n1,grow younger over time (lose one year every [period])\n1,grow younger over time (lose [about-two-or-five] years every [period])",
+  "warnings": []
+}

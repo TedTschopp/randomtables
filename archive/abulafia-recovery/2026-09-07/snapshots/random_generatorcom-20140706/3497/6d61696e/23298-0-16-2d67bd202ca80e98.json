@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "2d67bd202ca80e98f7e7923a595cefaadb3f5e6254f0ffa5c6d9c95bb8a682e3",
+      "revisionId": "23298",
+      "line": 16,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Blazon.main",
+    "table_block_index": 0,
+    "line_number": 16
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[maybeeffect][device][maybecolor] [blazon][maybeona]",
+      "raw_text": "1,[maybeeffect][device][maybecolor] [blazon][maybeona]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[device]",
+          "token": "device",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "device",
+          "target_qualified_name": "Blazon.device"
+        },
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[blazon]",
+          "token": "blazon",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "blazon",
+          "target_qualified_name": "Blazon.blazon"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[maybeeffect][subject][maybeincolor][maybeona]",
+      "raw_text": "1,[maybeeffect][subject][maybeincolor][maybeona]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeincolor]",
+          "token": "maybeincolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeincolor",
+          "target_qualified_name": "Blazon.maybeincolor"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[maybecolor][maybeeffect][subject][maybeona]",
+      "raw_text": "1,[maybecolor][maybeeffect][subject][maybeona]",
+      "references": [
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[device][maybecolor] [blazon][maybeona]",
+      "raw_text": "2,[device][maybecolor] [blazon][maybeona]",
+      "references": [
+        {
+          "raw": "[device]",
+          "token": "device",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "device",
+          "target_qualified_name": "Blazon.device"
+        },
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[blazon]",
+          "token": "blazon",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "blazon",
+          "target_qualified_name": "Blazon.blazon"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[maybeeffect][device][maybecolor] [blazon]",
+      "raw_text": "2,[maybeeffect][device][maybecolor] [blazon]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[device]",
+          "token": "device",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "device",
+          "target_qualified_name": "Blazon.device"
+        },
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[blazon]",
+          "token": "blazon",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "blazon",
+          "target_qualified_name": "Blazon.blazon"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 8,
+      "text": "[maybeeffect][subject][maybeona]",
+      "raw_text": "8,[maybeeffect][subject][maybeona]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 8,
+      "text": "[maybeeffect][subject][maybeincolor]",
+      "raw_text": "8,[maybeeffect][subject][maybeincolor]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeincolor]",
+          "token": "maybeincolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeincolor",
+          "target_qualified_name": "Blazon.maybeincolor"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 8,
+      "text": "[subject][maybeincolor][maybeona]",
+      "raw_text": "8,[subject][maybeincolor][maybeona]",
+      "references": [
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeincolor]",
+          "token": "maybeincolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeincolor",
+          "target_qualified_name": "Blazon.maybeincolor"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 8,
+      "text": "[maybeeffect][subject][maybeona]",
+      "raw_text": "8,[maybeeffect][subject][maybeona]",
+      "references": [
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 8,
+      "text": "[maybecolor][subject][maybeona]",
+      "raw_text": "8,[maybecolor][subject][maybeona]",
+      "references": [
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 8,
+      "text": "[maybecolor][maybeeffect][subject]",
+      "raw_text": "8,[maybecolor][maybeeffect][subject]",
+      "references": [
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 8,
+      "text": "[maybecolor][subject][maybeona]",
+      "raw_text": "8,[maybecolor][subject][maybeona]",
+      "references": [
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[maybeona]",
+          "token": "maybeona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeona",
+          "target_qualified_name": "Blazon.maybeona"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 8,
+      "text": "[maybecolor][maybeeffect][subject]",
+      "raw_text": "8,[maybecolor][maybeeffect][subject]",
+      "references": [
+        {
+          "raw": "[maybecolor]",
+          "token": "maybecolor",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybecolor",
+          "target_qualified_name": "Blazon.maybecolor"
+        },
+        {
+          "raw": "[maybeeffect]",
+          "token": "maybeeffect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "maybeeffect",
+          "target_qualified_name": "Blazon.maybeeffect"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "main",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "blazon",
+      "device",
+      "maybecolor",
+      "maybeeffect",
+      "maybeincolor",
+      "maybeona",
+      "subject"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,[maybeeffect][device][maybecolor] [blazon][maybeona]\n1,[maybeeffect][subject][maybeincolor][maybeona]\n1,[maybecolor][maybeeffect][subject][maybeona]\n2,[device][maybecolor] [blazon][maybeona]\n2,[maybeeffect][device][maybecolor] [blazon]\n8,[maybeeffect][subject][maybeona]\n8,[maybeeffect][subject][maybeincolor]\n8,[subject][maybeincolor][maybeona]\n8,[maybeeffect][subject][maybeona]\n8,[maybecolor][subject][maybeona]\n8,[maybecolor][maybeeffect][subject]\n8,[maybecolor][subject][maybeona]\n8,[maybecolor][maybeeffect][subject]",
+  "warnings": []
+}

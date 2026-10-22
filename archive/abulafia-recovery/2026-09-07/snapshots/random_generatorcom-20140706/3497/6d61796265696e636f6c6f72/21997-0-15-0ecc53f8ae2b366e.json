@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21997,
+    "timestamp": "2014-05-23T12:25:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "150f84350455ef0bbd8a1661cb9d5e31eaa7898b5216f2738d290a75cd954b07",
+      "rawSha256": "0ecc53f8ae2b366e76009c80f4daeaabcbcf696d0bf575415de27887f3d0b867",
+      "revisionId": "21997",
+      "line": 15,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybeincolor",
+    "qualified_name": "Blazon.maybeincolor",
+    "table_block_index": 0,
+    "line_number": 15
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "in [color]",
+      "raw_text": "1, in [color]",
+      "references": [
+        {
+          "raw": "[color]",
+          "token": "color",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybeincolor",
+          "target_page": "Blazon",
+          "target_subtable": "color",
+          "target_qualified_name": "Blazon.color"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "color"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybeincolor\n1, in [color]\n4,",
+  "warnings": []
+}

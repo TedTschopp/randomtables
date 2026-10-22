@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 17164,
+    "timestamp": "2013-02-22T11:33:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "396c0c4d43dc8cb4b9a97fa77794a6e56dd10d70e0a1095757f902399cd8a6c6",
+      "rawSha256": "c44720cb32954eb818c71a6a9d02ed0911712783ea67394a5345d4e7904e2545",
+      "revisionId": "17164",
+      "line": 22,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursenamenoun",
+    "qualified_name": "Curse.cursenamenoun",
+    "table_block_index": 0,
+    "line_number": 22
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "TASK",
+      "raw_text": "1,TASK",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "EFFORT",
+      "raw_text": "1,EFFORT",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "MARK",
+      "raw_text": "1,MARK",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "LAMENT",
+      "raw_text": "1,LAMENT",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "DILEMMA",
+      "raw_text": "1,DILEMMA",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "PROMISE",
+      "raw_text": "1,PROMISE",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "PRICE",
+      "raw_text": "1,PRICE",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "SORROW",
+      "raw_text": "1,SORROW",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "END",
+      "raw_text": "1,END",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "TROUBLES",
+      "raw_text": "1,TROUBLES",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "JOKE",
+      "raw_text": "1,JOKE",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "TEST",
+      "raw_text": "1,TEST",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "BREW",
+      "raw_text": "1,BREW",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "SERUM",
+      "raw_text": "1,SERUM",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "MALADY",
+      "raw_text": "1,MALADY",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cursenamenoun\n1,TASK\n1,EFFORT\n1,MARK\n1,LAMENT\n1,DILEMMA\n1,PROMISE\n1,PRICE\n1,SORROW\n1,END\n1,TROUBLES\n1,JOKE\n1,TEST\n1,BREW\n1,SERUM\n1,MALADY",
+  "warnings": []
+}

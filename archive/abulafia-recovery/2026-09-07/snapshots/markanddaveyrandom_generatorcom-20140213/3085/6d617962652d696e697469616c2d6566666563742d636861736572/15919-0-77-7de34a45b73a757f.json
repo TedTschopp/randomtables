@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15919,
+    "timestamp": "2012-11-25T11:14:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "15e36758157f42c79ccb11021e2923da8a5aed97d1bb8cedac2746985513a387",
+      "rawSha256": "7de34a45b73a757f79ba4102273331e35c31305c73eb24b7539fa3d8cf5cbd74",
+      "revisionId": "15919",
+      "line": 77,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybe-initial-effect-chaser",
+    "qualified_name": "Curse.maybe-initial-effect-chaser",
+    "table_block_index": 0,
+    "line_number": 77
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "and [initial-effect-chaser]",
+      "raw_text": "2, and [initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "maybe-initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "initial-effect-chaser"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybe-initial-effect-chaser\n1,\n2, and [initial-effect-chaser]",
+  "warnings": []
+}

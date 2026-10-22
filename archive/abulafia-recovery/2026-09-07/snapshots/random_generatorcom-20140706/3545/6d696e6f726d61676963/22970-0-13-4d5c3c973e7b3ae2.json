@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22970,
+    "timestamp": "2014-06-11T05:46:40Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "74a29ed2ae661f9695639cd1083a8adb71a4df1956b93b6e3dc64f98e454f120",
+      "rawSha256": "4d5c3c973e7b3ae24843f32c5dde73287c41293ed71ae497f68bf596b6b202d0",
+      "revisionId": "22970",
+      "line": 13,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "minormagic",
+    "qualified_name": "OSR weapon.minormagic",
+    "table_block_index": 0,
+    "line_number": 13
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Cursed Armour or Shield",
+      "raw_text": "1,Cursed Armour or Shield",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "+1 Missile Weapon",
+      "raw_text": "1,+1 Missile Weapon",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "+1 Shield",
+      "raw_text": "1,+1 Shield",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "[names], a [weapon1]",
+      "raw_text": "3,[names], a [weapon1]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "minormagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[weapon1]",
+          "token": "weapon1",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "minormagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapon1",
+          "target_qualified_name": "OSR weapon.weapon1"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names",
+      "weapon1"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";minormagic\n1,Cursed Armour or Shield\n1,+1 Missile Weapon\n1,+1 Shield\n3,[names], a [weapon1]",
+  "warnings": []
+}

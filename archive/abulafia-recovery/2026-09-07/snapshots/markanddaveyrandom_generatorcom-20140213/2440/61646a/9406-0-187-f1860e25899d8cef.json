@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9406,
+    "timestamp": "2009-07-31T10:54:26Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8cb92bdccbaacaf08c718ab8106613e4c16651ccfbe0cec69cea54ca631f1b22",
+      "rawSha256": "f1860e25899d8cef7964758b0c05db1026e4aa901b22d5c0a512584ace9682f6",
+      "revisionId": "9406",
+      "line": 187,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "adj",
+    "qualified_name": "New gen.adj",
+    "table_block_index": 0,
+    "line_number": 187
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[type]",
+      "raw_text": "3,[type]",
+      "references": [
+        {
+          "raw": "[type]",
+          "token": "type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "adj",
+          "target_page": "New gen",
+          "target_subtable": "type",
+          "target_qualified_name": "New gen.type"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "Psycho",
+      "raw_text": "3,Psycho",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Alien",
+      "raw_text": "1,Alien",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Cannibal",
+      "raw_text": "1,Cannibal",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Demonic",
+      "raw_text": "1,Demonic",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Insane",
+      "raw_text": "1,Insane",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Mad",
+      "raw_text": "1,Mad",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[weapon]",
+      "raw_text": "1,[weapon]",
+      "references": [
+        {
+          "raw": "[weapon]",
+          "token": "weapon",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "adj",
+          "target_page": "New gen",
+          "target_subtable": "weapon",
+          "target_qualified_name": "New gen.weapon"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Zombie",
+      "raw_text": "1,Zombie",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "Evil",
+      "raw_text": "3,Evil",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Amazing",
+      "raw_text": "1,Amazing",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Astro",
+      "raw_text": "1,Astro",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Abominable",
+      "raw_text": "1,Abominable",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "type",
+      "weapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";adj\n3,[type]\n3,Psycho\n1,Alien\n1,Cannibal\n1,Demonic\n1,Insane\n1,Mad\n1,[weapon]\n1,Zombie\n3,Evil\n1,Amazing\n1,Astro\n1,Abominable",
+  "warnings": []
+}

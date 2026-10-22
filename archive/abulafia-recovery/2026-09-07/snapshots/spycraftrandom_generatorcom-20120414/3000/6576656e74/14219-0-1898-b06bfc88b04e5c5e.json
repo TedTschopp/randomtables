@@ -1,0 +1,1162 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "b06bfc88b04e5c5e5cc3dce5f6c4e28f18e279f9c95046fd9e06682cd4e2a8bf",
+      "revisionId": "14219",
+      "line": 1898,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "event",
+    "qualified_name": "User:Snake Eyes.event",
+    "table_block_index": 0,
+    "line_number": 1898
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Wedding",
+      "raw_text": "1, Wedding",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Birth",
+      "raw_text": "1, Birth",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Tournament",
+      "raw_text": "1, Tournament",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Contest",
+      "raw_text": "1, Contest",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Visit by Dignitary",
+      "raw_text": "1, Visit by Dignitary",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Edict",
+      "raw_text": "1, Edict",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Inquisition",
+      "raw_text": "1, Inquisition",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Witch Aunt",
+      "raw_text": "1, Witch Aunt",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Persecution",
+      "raw_text": "1, Persecution",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Royal Proclamation",
+      "raw_text": "1, Royal Proclamation",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Scandal",
+      "raw_text": "1, Scandal",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Tex Levy",
+      "raw_text": "1, Tex Levy",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Surgery",
+      "raw_text": "1, Surgery",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Bad weather",
+      "raw_text": "1, Bad weather",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Severe weather",
+      "raw_text": "1, Severe weather",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Monster attack",
+      "raw_text": "1, Monster attack",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Highwaymen",
+      "raw_text": "1, Highwaymen",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Local unrest",
+      "raw_text": "1, Local unrest",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Labor dispute",
+      "raw_text": "1, Labor dispute",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Raid",
+      "raw_text": "1, Raid",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Call to arms",
+      "raw_text": "1, Call to arms",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Civil war",
+      "raw_text": "1, Civil war",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Royal visit",
+      "raw_text": "1, Royal visit",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Bad omens",
+      "raw_text": "1, Bad omens",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Natural disaster",
+      "raw_text": "1, Natural disaster",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Major Intrigue",
+      "raw_text": "1, Major Intrigue",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Riots",
+      "raw_text": "1, Riots",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Rebellion",
+      "raw_text": "1, Rebellion",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Civil Unrest",
+      "raw_text": "1, Civil Unrest",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Death",
+      "raw_text": "1, Death",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Illness",
+      "raw_text": "1, Illness",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Assassination Attempt",
+      "raw_text": "1, Assassination Attempt",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Assassination",
+      "raw_text": "1, Assassination",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Sickness",
+      "raw_text": "1, Sickness",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Sickness of Personage",
+      "raw_text": "1, Sickness of Personage",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Death of Personage",
+      "raw_text": "1, Death of Personage",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "War",
+      "raw_text": "1, War",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Raids",
+      "raw_text": "1, Raids",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Border Raid",
+      "raw_text": "1, Border Raid",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Pirate Raid",
+      "raw_text": "1, Pirate Raid",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Barbarian Raid",
+      "raw_text": "1, Barbarian Raid",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Viking Raid",
+      "raw_text": "1, Viking Raid",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Civil War",
+      "raw_text": "1, Civil War",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Invasion from[compass]",
+      "raw_text": "1, Invasion from[compass]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "event",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Foreign War",
+      "raw_text": "1, Foreign War",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Crusade",
+      "raw_text": "1, Crusade",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Holy War",
+      "raw_text": "1, Holy War",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Terrorization",
+      "raw_text": "1, Terrorization",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Genocide",
+      "raw_text": "1, Genocide",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Terrorism",
+      "raw_text": "1, Terrorism",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Crime",
+      "raw_text": "1, Crime",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Crime Wave",
+      "raw_text": "1, Crime Wave",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Major Brigandage",
+      "raw_text": "1, Major Brigandage",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Marauding Mythic Creature",
+      "raw_text": "1, Marauding Mythic Creature",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Epidemic",
+      "raw_text": "1, Epidemic",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Epidemic spreading[compass]",
+      "raw_text": "1, Epidemic spreading[compass]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "event",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Plague",
+      "raw_text": "1, Plague",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Infestation",
+      "raw_text": "1, Infestation",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Good Harvest",
+      "raw_text": "1, Good Harvest",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Great Harvest",
+      "raw_text": "1, Great Harvest",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Exemplary Harvest",
+      "raw_text": "1, Exemplary Harvest",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Population Growth",
+      "raw_text": "1, Population Growth",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Population Fall",
+      "raw_text": "1, Population Fall",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Price Collapse",
+      "raw_text": "1, Price Collapse",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Agricultural Price Collapse",
+      "raw_text": "1, Agricultural Price Collapse",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Poor Harvest",
+      "raw_text": "1, Poor Harvest",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Bad Harvest",
+      "raw_text": "1, Bad Harvest",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Ruined Harvest",
+      "raw_text": "1, Ruined Harvest",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Animal Blight",
+      "raw_text": "1, Animal Blight",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Crop Blight",
+      "raw_text": "1, Crop Blight",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Famine",
+      "raw_text": "1, Famine",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Food Shortage",
+      "raw_text": "1, Food Shortage",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Natural Food Blight",
+      "raw_text": "1, Natural Food Blight",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Food Riots",
+      "raw_text": "1, Food Riots",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Prices High",
+      "raw_text": "1, Prices High",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Food Prices High",
+      "raw_text": "1, Food Prices High",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Sundry Prices High",
+      "raw_text": "1, Sundry Prices High",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Martial Prices High",
+      "raw_text": "1, Martial Prices High",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Trade Block",
+      "raw_text": "1, Trade Block",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Disaster",
+      "raw_text": "1, Disaster",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Avalanche",
+      "raw_text": "1, Avalanche",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Earthquake",
+      "raw_text": "1, Earthquake",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Fire",
+      "raw_text": "1, Fire",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Bush Fire",
+      "raw_text": "1, Bush Fire",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Flood",
+      "raw_text": "1, Flood",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Meteor",
+      "raw_text": "1, Meteor",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Mudslide",
+      "raw_text": "1, Mudslide",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Volcanic Eruption",
+      "raw_text": "1, Volcanic Eruption",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Volcanic Activity",
+      "raw_text": "1, Volcanic Activity",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Collapse of Bridge",
+      "raw_text": "1, Collapse of Bridge",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Collapse of Building[locations]",
+      "raw_text": "1, Collapse of Building[locations]",
+      "references": [
+        {
+          "raw": "[locations]",
+          "token": "locations",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "event",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "locations",
+          "target_qualified_name": "User:Snake Eyes.locations"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Major Damage to Bridge",
+      "raw_text": "1, Major Damage to Bridge ",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Major Damage to Building[locations]",
+      "raw_text": "1, Major Damage to Building[locations]",
+      "references": [
+        {
+          "raw": "[locations]",
+          "token": "locations",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "event",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "locations",
+          "target_qualified_name": "User:Snake Eyes.locations"
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Freak Weather",
+      "raw_text": "1, Freak Weather",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Blizzard",
+      "raw_text": "1, Blizzard",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Cold Snap",
+      "raw_text": "1, Cold Snap",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Drought",
+      "raw_text": "1, Drought",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Heatwave",
+      "raw_text": "1, Heatwave",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Hurricane",
+      "raw_text": "1, Hurricane",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Cyclone",
+      "raw_text": "1, Cyclone",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Tidal Wave",
+      "raw_text": "1, Tidal Wave",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Tornado",
+      "raw_text": "1, Tornado",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "Lightning Strike",
+      "raw_text": "1, Lightning Strike",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Predator Raid",
+      "raw_text": "1, Predator Raid",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Neighbor Dispute",
+      "raw_text": "1, Neighbor Dispute",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Visitor",
+      "raw_text": "1, Visitor",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "New Household",
+      "raw_text": "1, New Household",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "New Clan-house",
+      "raw_text": "1, New Clan-house",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "New Guild",
+      "raw_text": "1, New Guild",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Mystery",
+      "raw_text": "1, Mystery",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Discovery",
+      "raw_text": "1, Discovery",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Battery",
+      "raw_text": "1, Battery",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Fraud",
+      "raw_text": "1, Fraud",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "Corruption",
+      "raw_text": "1, Corruption",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Conspiracy",
+      "raw_text": "1, Conspiracy",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Larceny",
+      "raw_text": "1, Larceny",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Laxness",
+      "raw_text": "1, Laxness",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Leirwite",
+      "raw_text": "1, Leirwite",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "Murder",
+      "raw_text": "1, Murder",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Poaching",
+      "raw_text": "1, Poaching",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Assault",
+      "raw_text": "1, Assault",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "Rape",
+      "raw_text": "1, Rape",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Rebellion",
+      "raw_text": "1, Rebellion",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "Revolt",
+      "raw_text": "1, Revolt",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Temple Crime",
+      "raw_text": "1, Temple Crime",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Adultery",
+      "raw_text": "1, Adultery",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Witchcraft",
+      "raw_text": "1, Witchcraft",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Blasphemy",
+      "raw_text": "1, Blasphemy",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Heresy",
+      "raw_text": "1, Heresy",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Conversion",
+      "raw_text": "1, Conversion",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Lords Blessing",
+      "raw_text": "1, Lords Blessing",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Amalgamation",
+      "raw_text": "1, Amalgamation",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Chevage",
+      "raw_text": "1, Chevage",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Manumission",
+      "raw_text": "1, Manumission",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Merchet",
+      "raw_text": "1, Merchet",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Status Dispute",
+      "raw_text": "1, Status Dispute",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Economic Collapse",
+      "raw_text": "1, Economic Collapse",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Bankruptcy",
+      "raw_text": "1, Bankruptcy",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Tenant Hardship",
+      "raw_text": "1, Tenant Hardship",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Heriot",
+      "raw_text": "1, Heriot",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Wardship",
+      "raw_text": "1, Wardship",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Buried Treasure",
+      "raw_text": "1, Buried Treasure",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Runaway",
+      "raw_text": "1, Runaway",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Adoption",
+      "raw_text": "1, Adoption",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Birth",
+      "raw_text": "1, Birth",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "Disappearance",
+      "raw_text": "1, Disappearance",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "Crime of Passion",
+      "raw_text": "1, Crime of Passion",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "Robbery",
+      "raw_text": "1, Robbery",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "Land Petition",
+      "raw_text": "1, Land Petition",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "Supernatural Visitation",
+      "raw_text": "1, Supernatural Visitation",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "Communication",
+      "raw_text": "1, Communication",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "Permanent Communication",
+      "raw_text": "1, Permanent Communication",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "compass",
+      "locations"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";event\n1, Wedding\n1, Birth\n1, Tournament\n1, Contest\n1, Visit by Dignitary\n1, Edict\n1, Inquisition\n1, Witch Aunt\n1, Persecution\n1, Royal Proclamation\n1, Scandal\n1, Tex Levy\n1, Surgery\n1, Bad weather\n1, Severe weather\n1, Monster attack\n1, Highwaymen\n1, Local unrest\n1, Labor dispute\n1, Raid\n1, Call to arms\n1, Civil war\n1, Royal visit\n1, Bad omens\n1, Natural disaster\n1, Major Intrigue\n1, Riots\n1, Rebellion\n1, Civil Unrest\n1, Death\n1, Illness\n1, Assassination Attempt\n1, Assassination\n1, Sickness\n1, Sickness of Personage\n1, Death of Personage\n1, War\n1, Raids\n1, Border Raid\n1, Pirate Raid\n1, Barbarian Raid\n1, Viking Raid\n1, Civil War\n1, Invasion from[compass]\n1, Foreign War\n1, Crusade\n1, Holy War\n1, Terrorization\n1, Genocide\n1, Terrorism\n1, Crime\n1, Crime Wave\n1, Major Brigandage\n1, Marauding Mythic Creature\n1, Epidemic\n1, Epidemic spreading[compass]\n1, Plague\n1, Infestation\n1, Good Harvest\n1, Great Harvest\n1, Exemplary Harvest\n1, Population Growth\n1, Population Fall\n1, Price Collapse\n1, Agricultural Price Collapse\n1, Poor Harvest\n1, Bad Harvest\n1, Ruined Harvest\n1, Animal Blight\n1, Crop Blight\n1, Famine\n1, Food Shortage\n1, Natural Food Blight\n1, Food Riots\n1, Prices High\n1, Food Prices High\n1, Sundry Prices High\n1, Martial Prices High\n1, Trade Block\n1, Disaster\n1, Avalanche\n1, Earthquake\n1, Fire\n1, Bush Fire\n1, Flood\n1, Meteor\n1, Mudslide\n1, Volcanic Eruption\n1, Volcanic Activity\n1, Collapse of Bridge\n1, Collapse of Building[locations]\n1, Major Damage to Bridge \n1, Major Damage to Building[locations]\n1, Freak Weather\n1, Blizzard\n1, Cold Snap\n1, Drought\n1, Heatwave\n1, Hurricane\n1, Cyclone\n1, Tidal Wave\n1, Tornado\n1, Lightning Strike\n1, Predator Raid\n1, Neighbor Dispute\n1, Visitor\n1, New Household\n1, New Clan-house\n1, New Guild\n1, Mystery\n1, Discovery\n1, Battery\n1, Fraud\n1, Corruption\n1, Conspiracy\n1, Larceny\n1, Laxness\n1, Leirwite\n1, Murder\n1, Poaching\n1, Assault\n1, Rape\n1, Rebellion\n1, Revolt\n1, Temple Crime\n1, Adultery\n1, Witchcraft\n1, Blasphemy\n1, Heresy\n1, Conversion\n1, Lords Blessing\n1, Amalgamation\n1, Chevage\n1, Manumission\n1, Merchet\n1, Status Dispute\n1, Economic Collapse\n1, Bankruptcy\n1, Tenant Hardship\n1, Heriot\n1, Wardship\n1, Buried Treasure\n1, Runaway\n1, Adoption\n1, Birth\n1, Disappearance\n1, Crime of Passion\n1, Robbery\n1, Land Petition\n1, Supernatural Visitation\n1, Communication\n1, Permanent Communication",
+  "warnings": []
+}

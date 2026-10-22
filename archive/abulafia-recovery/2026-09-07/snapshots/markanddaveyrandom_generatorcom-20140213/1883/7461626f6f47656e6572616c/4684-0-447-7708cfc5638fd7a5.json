@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4684,
+    "timestamp": "2007-11-27T19:19:46Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "31ef24e6217b31ee9a44ecfc82452fe9ad6dd535acb54f666eea4bfce002ae1a",
+      "rawSha256": "7708cfc5638fd7a56edce02b9278f95a51c1099e576f6693fc12b0a4c5082ba1",
+      "revisionId": "4684",
+      "line": 447,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "tabooGeneral",
+    "qualified_name": "Rituals.tabooGeneral",
+    "table_block_index": 0,
+    "line_number": 447
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "worshipping the gods of another people",
+      "raw_text": "1,worshipping the gods of another people",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "bearing false witness",
+      "raw_text": "1,bearing false witness",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "disrespectful toward the village elders",
+      "raw_text": "1,disrespectful toward the village elders",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "posessed of an evil spirit",
+      "raw_text": "1,posessed of an evil spirit",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "given to too much strong drink",
+      "raw_text": "1,given to too much strong drink",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";tabooGeneral\n1,worshipping the gods of another people\n1,bearing false witness\n1,disrespectful toward the village elders\n1,posessed of an evil spirit\n1,given to too much strong drink",
+  "warnings": []
+}

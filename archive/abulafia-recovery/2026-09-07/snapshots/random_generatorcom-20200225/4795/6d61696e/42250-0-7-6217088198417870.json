@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Stocking",
+    "page_id": 4795
+  },
+  "source": {
+    "revision_id": 42250,
+    "timestamp": "2020-02-19T16:18:10Z",
+    "contributor": {
+      "name": "UnwashedMendicant",
+      "id": 1870,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20200225",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20200225/random_generatorcom-20200225-history.xml.7z",
+      "sourceSha256": "9f842fc8408b1d36b1891313be7922917e606f0351a843a48a21b820916cc6fe",
+      "sourceMember": "random_generatorcom-20200225-history.xml",
+      "xmlSha256": "d6d065d292f862b5e55d265ae60d32fce8b5fd72b4622c1bd28fe7b03d2d2446",
+      "xmlBytes": 435088453,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20200225-history.xml.7z",
+      "textSha256": "33eb109b2ed3e43d0278e3db905361ffc0352aef4a93c6d4a53a1ff6153c7a8e",
+      "rawSha256": "6217088198417870f4aa991663d9194a2eb8d1d96cdbd3931a705883fd4987f7",
+      "revisionId": "42250",
+      "line": 7,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "42250",
+        "timestamp": "2020-02-19T16:18:10Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Dungeon Stocking.main",
+    "table_block_index": 0,
+    "line_number": 7
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 30,
+      "text": "Monster[one]",
+      "raw_text": "30, Monster[one]",
+      "references": [
+        {
+          "raw": "[one]",
+          "token": "one",
+          "kind": "local",
+          "source_page": "Dungeon Stocking",
+          "source_subtable": "main",
+          "target_page": "Dungeon Stocking",
+          "target_subtable": "one",
+          "target_qualified_name": "Dungeon Stocking.one"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 15,
+      "text": "Trap[two]",
+      "raw_text": "15, Trap[two]",
+      "references": [
+        {
+          "raw": "[two]",
+          "token": "two",
+          "kind": "local",
+          "source_page": "Dungeon Stocking",
+          "source_subtable": "main",
+          "target_page": "Dungeon Stocking",
+          "target_subtable": "two",
+          "target_qualified_name": "Dungeon Stocking.two"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 15,
+      "text": "Special",
+      "raw_text": "15, Special",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 30,
+      "text": "EMPTY[three]",
+      "raw_text": "30, EMPTY[three]",
+      "references": [
+        {
+          "raw": "[three]",
+          "token": "three",
+          "kind": "local",
+          "source_page": "Dungeon Stocking",
+          "source_subtable": "main",
+          "target_page": "Dungeon Stocking",
+          "target_subtable": "three",
+          "target_qualified_name": "Dungeon Stocking.three"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "one",
+      "three",
+      "two"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n30, Monster[one]\n15, Trap[two]\n15, Special\n30, EMPTY[three]",
+  "warnings": []
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16998,
+    "timestamp": "2013-02-11T22:46:53Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f0a25622040229785497c39221a0e79a15a0c1c486cc021e9ed2d6ae19ecea2b",
+      "rawSha256": "4b9221701fa6a8a92afc4a44c3753f6bac83a6649b67e17e541e63267aabae3a",
+      "revisionId": "16998",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "species-minority",
+    "qualified_name": "Planar Codex Parish.species-minority",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "There is a small [species-descriptor] [species-name-singular] enclave within its borders",
+      "raw_text": "1,There is a small [species-descriptor] [species-name-singular] enclave within its borders",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "species-minority",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "species-descriptor",
+      "species-name-singular"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";species-minority\n1,\n1,There is a small [species-descriptor] [species-name-singular] enclave within its borders",
+  "warnings": []
+}

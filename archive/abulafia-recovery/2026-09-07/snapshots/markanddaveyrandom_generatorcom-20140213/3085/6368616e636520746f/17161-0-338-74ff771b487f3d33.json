@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 17161,
+    "timestamp": "2013-02-22T11:17:47Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5ee96731a6c848820c535951ca1e733ad3e435e2e61ec997af277124c81d5ffd",
+      "rawSha256": "74ff771b487f3d333fbab196e0dcf7f34fa2e0b5438f9041317c3c837c337430",
+      "revisionId": "17161",
+      "line": 338,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "chance to",
+    "qualified_name": "Curse.chance to",
+    "table_block_index": 0,
+    "line_number": 338
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "has a [Dice.digit][Dice.digit]% chance to",
+      "raw_text": "1,has a [Dice.digit][Dice.digit]% chance to",
+      "references": [
+        {
+          "raw": "[Dice.digit]",
+          "token": "Dice.digit",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "chance to",
+          "target_page": "Dice",
+          "target_subtable": "digit",
+          "target_qualified_name": "Dice.digit"
+        },
+        {
+          "raw": "[Dice.digit]",
+          "token": "Dice.digit",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "chance to",
+          "target_page": "Dice",
+          "target_subtable": "digit",
+          "target_qualified_name": "Dice.digit"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.digit"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";chance to\n1,has a [Dice.digit][Dice.digit]% chance to",
+  "warnings": []
+}

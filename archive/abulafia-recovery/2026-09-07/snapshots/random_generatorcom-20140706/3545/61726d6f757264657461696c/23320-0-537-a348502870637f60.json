@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "a348502870637f607d1e3771edb425cd202653babe82ea25db6f7495d97f3816",
+      "revisionId": "23320",
+      "line": 537,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "armourdetail",
+    "qualified_name": "OSR weapon.armourdetail",
+    "table_block_index": 0,
+    "line_number": 537
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "",
+      "raw_text": "5,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": ", [Color.all] in colour",
+      "raw_text": "1,, [Color.all] in colour",
+      "references": [
+        {
+          "raw": "[Color.all]",
+          "token": "Color.all",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "armourdetail",
+          "target_page": "Color",
+          "target_subtable": "all",
+          "target_qualified_name": "Color.all"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": ", [Color.dark] in colour",
+      "raw_text": "1,, [Color.dark] in colour",
+      "references": [
+        {
+          "raw": "[Color.dark]",
+          "token": "Color.dark",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "armourdetail",
+          "target_page": "Color",
+          "target_subtable": "dark",
+          "target_qualified_name": "Color.dark"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": ", with a [Color.metallic] finish",
+      "raw_text": "1,, with a [Color.metallic] finish",
+      "references": [
+        {
+          "raw": "[Color.metallic]",
+          "token": "Color.metallic",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "armourdetail",
+          "target_page": "Color",
+          "target_subtable": "metallic",
+          "target_qualified_name": "Color.metallic"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": ", bearing [Utility.CoatOfArms]",
+      "raw_text": "2,, bearing [Utility.CoatOfArms]",
+      "references": [
+        {
+          "raw": "[Utility.CoatOfArms]",
+          "token": "Utility.CoatOfArms",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "armourdetail",
+          "target_page": "Utility",
+          "target_subtable": "CoatOfArms",
+          "target_qualified_name": "Utility.CoatOfArms"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": ", [names]",
+      "raw_text": "1,, [names]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "armourdetail",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names"
+    ],
+    "external_subtables": [
+      "Color.all",
+      "Color.dark",
+      "Color.metallic",
+      "Utility.CoatOfArms"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";armourdetail\n5,\n1,, [Color.all] in colour\n1,, [Color.dark] in colour\n1,, with a [Color.metallic] finish\n2,, bearing [Utility.CoatOfArms]\n1,, [names]",
+  "warnings": []
+}

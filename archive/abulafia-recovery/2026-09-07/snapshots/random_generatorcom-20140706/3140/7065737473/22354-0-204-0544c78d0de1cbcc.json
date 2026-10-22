@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "0544c78d0de1cbccf81b06592dc3f54ca95f1a04e76423b85f26e2f7a7217e5f",
+      "revisionId": "22354",
+      "line": 204,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "pests",
+    "qualified_name": "Guards.pests",
+    "table_block_index": 0,
+    "line_number": 204
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "rats",
+      "raw_text": "1,rats",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "mice",
+      "raw_text": "1,mice",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "snakes",
+      "raw_text": "1,snakes",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "frogs",
+      "raw_text": "1,frogs",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "fish",
+      "raw_text": "1,fish",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "birds",
+      "raw_text": "1,birds",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Insect.main]s",
+      "raw_text": "1,[Insect.main]s",
+      "references": [
+        {
+          "raw": "[Insect.main]",
+          "token": "Insect.main",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "pests",
+          "target_page": "Insect",
+          "target_subtable": "main",
+          "target_qualified_name": "Insect.main"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[Quick Zone Populations.beasts-terse-nonum]",
+      "raw_text": "1,[Quick Zone Populations.beasts-terse-nonum]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.beasts-terse-nonum]",
+          "token": "Quick Zone Populations.beasts-terse-nonum",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "pests",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "beasts-terse-nonum",
+          "target_qualified_name": "Quick Zone Populations.beasts-terse-nonum"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Insect.main",
+      "Quick Zone Populations.beasts-terse-nonum"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";pests\n1,rats\n1,mice\n1,snakes\n1,frogs\n1,fish\n1,birds\n1,[Insect.main]s\n1,[Quick Zone Populations.beasts-terse-nonum]",
+  "warnings": []
+}

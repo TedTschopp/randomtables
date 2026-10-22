@@ -15,11 +15,12 @@ optional development checks.
 
 ## Abulafia Import
 
-The explorer includes 25,748 namespaced tables from the archived Abulafia wiki:
-20,332 validated tables and 5,416 preserved but quarantined tables. The import
-follows both recorded editors and earliest retained contributors, recursively
-including contributors encountered through dependencies. Existing table names
-are never overwritten by imported data.
+The explorer includes 32,255 namespaced tables from the archived Abulafia wiki:
+25,716 validated tables and 6,539 preserved but quarantined tables. All 26,156
+current tables are imported, alongside 6,099 reviewed historical definitions.
+Selection follows both recorded editors and earliest retained contributors,
+recursively including contributors encountered through dependencies. Existing
+table names are never overwritten by imported data.
 
 The browser-only wiki evaluator supports bounded nested macros for grammar,
 casing, arithmetic, strings, conditionals, and array helpers. Its expansion added
@@ -31,13 +32,38 @@ Presentation templates retain plain text; unsupported or invalid expressions
 remain quarantined. See the [macro inventory](Docs/macro-inventory.md) for coverage.
 
 The [recovery report](Docs/quarantine-report.md) ranks the remaining blockers.
-The eligible case-only repair pass is complete under the current safety rules.
 Corrections use explicit source and target identities, not global case-insensitive
-lookup. The 408 current but unimported tables remain outside this repair scope.
+lookup. The [completed import and historical recovery](Docs/import-recovery-2026-09-07/README.md)
+first adds the 408 omitted current tables, then restores verified dependencies
+and enables 165 current tables. Historical imports retain their own blockers;
+the [bracket and case follow-up](Docs/repair-followup-2026-09-07/README.md)
+then applies 90 additional case rules and enables 53 tables. The malformed
+`Most [TitleDescriptor]]` reference is corrected only in the compiled view;
+its original archived row and weight remain intact.
+
+Two [reviewed recursion policies](Docs/bounded-recursion-2026-09-07/README.md)
+enable another 180 tables. The vegetable pair row produces exactly two distinct
+resolved items, and the descriptor wrapper allows one `Most` prefix. These are
+results-engine constraints, not table edits. Stored weights stay intact, while
+terminal-only selection and uniqueness intentionally change conditional output
+probabilities. Other recursion remains blocked.
+
+The [complete case-repair pass](Docs/complete-case-repair-2026-09-07/README.md)
+applies 1,438 additional source-bound corrections across 408 tables and enables
+192 more tables. It covers misspelled tokens, blocked targets, and zero-weight
+source rows without changing archived text, weights, identities, or earlier
+approvals. The [remaining reference inventory](Docs/missing-unresolved-references.md)
+contains no case-only candidates; other validation blockers remain in place.
+
+The [recursion-aware macro repair](Docs/recursion-macro-2026-09-08/README.md)
+enables 69 more tables, including `Secret Society Title.main`. Macro validation
+now uses the existing approved finite recursion rules for argument values and
+expansion costs. No new policy, source change, or relaxed limit is introduced;
+all 25,647 previously ready tables and the complete classic bundle are unchanged.
 
 See [tables/abulafia/README.md](tables/abulafia/README.md) for source attribution,
 compatibility aliases, validation limits, and repeatable import commands. The
-generated import occupies about 259 MB, mostly source snapshots and audit data.
+generated import occupies about 335 MB, mostly source snapshots and audit data.
 The browser does not load those archives at startup. Only the explorer loads
 the full compressed runtime catalog.
 

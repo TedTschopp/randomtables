@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14783,
+    "timestamp": "2012-06-20T14:12:12Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9234c69b910e15fa8adcf2386c2c53a684aa0c2836c44242eac851d98be38e99",
+      "rawSha256": "158cddea4a8a8caf1c6481ddfdf3869e028269bc763f9276d7a56220619f46bc",
+      "revisionId": "14783",
+      "line": 99,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weirdquirk",
+    "qualified_name": "Ostler.weirdquirk",
+    "table_block_index": 0,
+    "line_number": 99
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "talks",
+      "raw_text": "1,talks",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "is blind",
+      "raw_text": "1,is blind",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "was born with no eyes",
+      "raw_text": "1,was born with no eyes",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "never sleeps, or blinks",
+      "raw_text": "1,never sleeps, or blinks",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "glows in the dark",
+      "raw_text": "1,glows in the dark",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "has no head, but is somehow alive",
+      "raw_text": "1,has no head, but is somehow alive",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "is albino",
+      "raw_text": "1,is albino",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weirdquirk\n1,talks\n1,is blind\n1,was born with no eyes\n1,never sleeps, or blinks\n1,glows in the dark\n1,has no head, but is somehow alive\n1,is albino",
+  "warnings": []
+}

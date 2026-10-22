@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "a703141070b0946d95b1e41a381e05204ddd5b1ada0a1f012a585f78a01573e2",
+      "revisionId": "9681",
+      "line": 91,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ScoutType",
+    "qualified_name": "Seige Force.ScoutType",
+    "table_block_index": 0,
+    "line_number": 91
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 8,
+      "text": "light cavalry",
+      "raw_text": "8,light cavalry",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 8,
+      "text": "scout cavalry",
+      "raw_text": "8,scout cavalry",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 8,
+      "text": "scouts",
+      "raw_text": "8,scouts",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 7,
+      "text": "rangers",
+      "raw_text": "7,rangers",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 6,
+      "text": "light horsemen",
+      "raw_text": "6,light horsemen",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 6,
+      "text": "shortbowmen",
+      "raw_text": "6,shortbowmen",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 6,
+      "text": "woodsmen",
+      "raw_text": "6,woodsmen",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 6,
+      "text": "horsemen",
+      "raw_text": "6,horsemen",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 5,
+      "text": "light yeomen",
+      "raw_text": "5,light yeomen",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 5,
+      "text": "light dragoons",
+      "raw_text": "5,light dragoons",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 5,
+      "text": "scout dragoons",
+      "raw_text": "5,scout dragoons",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 5,
+      "text": "archers",
+      "raw_text": "5,archers",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 5,
+      "text": "bowmen",
+      "raw_text": "5,bowmen",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 4,
+      "text": "highlanders",
+      "raw_text": "4,highlanders",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 4,
+      "text": "mounted reconnaissance troops",
+      "raw_text": "4,mounted reconnaissance troops",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 4,
+      "text": "mounted surveillance troops",
+      "raw_text": "4,mounted surveillance troops",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 4,
+      "text": "yeomen",
+      "raw_text": "4,yeomen",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 4,
+      "text": "yeomanry",
+      "raw_text": "4,yeomanry",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 4,
+      "text": "light infantry",
+      "raw_text": "4,light infantry",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 3,
+      "text": "axe throwers",
+      "raw_text": "3,axe throwers",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 3,
+      "text": "longbowmen",
+      "raw_text": "3,longbowmen",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 3,
+      "text": "mountaineers",
+      "raw_text": "3,mountaineers",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 3,
+      "text": "mounted archers",
+      "raw_text": "3,mounted archers",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 3,
+      "text": "mounted bowmen",
+      "raw_text": "3,mounted bowmen",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 3,
+      "text": "[Utility.Terrains] scouts",
+      "raw_text": "3,[Utility.Terrains] scouts",
+      "references": [
+        {
+          "raw": "[Utility.Terrains]",
+          "token": "Utility.Terrains",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "ScoutType",
+          "target_page": "Utility",
+          "target_subtable": "Terrains",
+          "target_qualified_name": "Utility.Terrains"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 3,
+      "text": "[Utility.Terrains] rangers",
+      "raw_text": "3,[Utility.Terrains] rangers",
+      "references": [
+        {
+          "raw": "[Utility.Terrains]",
+          "token": "Utility.Terrains",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "ScoutType",
+          "target_page": "Utility",
+          "target_subtable": "Terrains",
+          "target_qualified_name": "Utility.Terrains"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 2,
+      "text": "arcane rangers",
+      "raw_text": "2,arcane rangers",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 2,
+      "text": "arcane scouts",
+      "raw_text": "2,arcane scouts",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 2,
+      "text": "expeditionary troops",
+      "raw_text": "2,expeditionary troops",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 2,
+      "text": "light cossacks",
+      "raw_text": "2,light cossacks",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 2,
+      "text": "scout hussars",
+      "raw_text": "2,scout hussars",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 2,
+      "text": "mounted crossbowmen",
+      "raw_text": "2,mounted crossbowmen",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 2,
+      "text": "riverine scouts",
+      "raw_text": "2,riverine scouts",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 2,
+      "text": "spellscouts",
+      "raw_text": "2,spellscouts",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "aerial cavalry",
+      "raw_text": "1,aerial cavalry",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "assassins",
+      "raw_text": "1,assassins",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "cartography troops",
+      "raw_text": "1,cartography troops",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "[Fantasy Military Unit.LightHeavy] [Fantasy Military Unit.Steed] riders",
+      "raw_text": "1,[Fantasy Military Unit.LightHeavy] [Fantasy Military Unit.Steed] riders",
+      "references": [
+        {
+          "raw": "[Fantasy Military Unit.LightHeavy]",
+          "token": "Fantasy Military Unit.LightHeavy",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "ScoutType",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "LightHeavy",
+          "target_qualified_name": "Fantasy Military Unit.LightHeavy"
+        },
+        {
+          "raw": "[Fantasy Military Unit.Steed]",
+          "token": "Fantasy Military Unit.Steed",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "ScoutType",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "Steed",
+          "target_qualified_name": "Fantasy Military Unit.Steed"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "[Fantasy Military Unit.HumanUnusualSteed] riders",
+      "raw_text": "1,[Fantasy Military Unit.HumanUnusualSteed] riders",
+      "references": [
+        {
+          "raw": "[Fantasy Military Unit.HumanUnusualSteed]",
+          "token": "Fantasy Military Unit.HumanUnusualSteed",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "ScoutType",
+          "target_page": "Fantasy Military Unit",
+          "target_subtable": "HumanUnusualSteed",
+          "target_qualified_name": "Fantasy Military Unit.HumanUnusualSteed"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "scrying-scouts",
+      "raw_text": "1,scrying-scouts",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Military Unit.HumanUnusualSteed",
+      "Fantasy Military Unit.LightHeavy",
+      "Fantasy Military Unit.Steed",
+      "Utility.Terrains"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";ScoutType\n8,light cavalry\n8,scout cavalry\n8,scouts\n7,rangers\n6,light horsemen\n6,shortbowmen\n6,woodsmen\n6,horsemen\n5,light yeomen\n5,light dragoons\n5,scout dragoons\n5,archers\n5,bowmen\n4,highlanders\n4,mounted reconnaissance troops\n4,mounted surveillance troops\n4,yeomen\n4,yeomanry\n4,light infantry\n3,axe throwers\n3,longbowmen\n3,mountaineers\n3,mounted archers\n3,mounted bowmen\n3,[Utility.Terrains] scouts\n3,[Utility.Terrains] rangers\n2,arcane rangers\n2,arcane scouts\n2,expeditionary troops\n2,light cossacks\n2,scout hussars\n2,mounted crossbowmen\n2,riverine scouts\n2,spellscouts\n1,aerial cavalry\n1,assassins\n1,cartography troops\n1,[Fantasy Military Unit.LightHeavy] [Fantasy Military Unit.Steed] riders\n1,[Fantasy Military Unit.HumanUnusualSteed] riders\n1,scrying-scouts",
+  "warnings": []
+}

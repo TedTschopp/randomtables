@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "22dba539fb2c2949b861eaaab834152e7579203372649f70669e189cfd816517",
+      "revisionId": "10367",
+      "line": 7,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Pickpocket.main",
+    "table_block_index": 0,
+    "line_number": 7
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "You see 1 possible mark: <br/><br/>[Heist]",
+      "raw_text": "1,You see 1 possible mark: <br/><br/>[Heist]",
+      "references": [
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "You see 2 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]",
+      "raw_text": "2,You see 2 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]",
+      "references": [
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "You see 3 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]",
+      "raw_text": "3,You see 3 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]",
+      "references": [
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "You see 4 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]",
+      "raw_text": "4,You see 4 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]",
+      "references": [
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "You see 5 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]<br/><br/>5. [Heist]",
+      "raw_text": "5,You see 5 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]<br/><br/>5. [Heist]",
+      "references": [
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        },
+        {
+          "raw": "[Heist]",
+          "token": "Heist",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "main",
+          "target_page": "Pickpocket",
+          "target_subtable": "Heist",
+          "target_qualified_name": "Pickpocket.Heist"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Heist"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,You see 1 possible mark: <br/><br/>[Heist]\n2,You see 2 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]\n3,You see 3 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]\n4,You see 4 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]\n5,You see 5 possible marks: <br/><br/>1. [Heist]<br/><br/>2. [Heist]<br/><br/>3. [Heist]<br/><br/>4. [Heist]<br/><br/>5. [Heist]",
+  "warnings": []
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28915,
+    "timestamp": "2015-09-13T21:15:39Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "f73e1bf83f39a21e78f13b6385edb1459ecc6c15fc766d2d5cfce62f6e05b0a4",
+      "rawSha256": "c1a248facc0a86150d366cd9fd79bcb884d62fcd92dd8f1c75782751d3164cd6",
+      "revisionId": "28915",
+      "line": 75,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "eye",
+    "qualified_name": "QuickAdjective.eye",
+    "table_block_index": 0,
+    "line_number": 75
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "amber",
+      "raw_text": "1,amber",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "black",
+      "raw_text": "1,black",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "blue",
+      "raw_text": "1,blue",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "brown",
+      "raw_text": "1,brown",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "dark",
+      "raw_text": "1,dark",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "green",
+      "raw_text": "1,green",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "hazel",
+      "raw_text": "1,hazel",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "hollow",
+      "raw_text": "1,hollow",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "milk",
+      "raw_text": "1,milk",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "wide",
+      "raw_text": "1,wide",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";eye\n1,amber\n1,black\n1,blue\n1,brown\n1,dark\n1,green\n1,hazel\n1,hollow\n1,milk\n1,wide",
+  "warnings": []
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "97e9ceaa648502a219a0a656a3de125c1bcac6b9f5b6e67eb24081e33332d709",
+      "revisionId": "23298",
+      "line": 51,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "device",
+    "qualified_name": "Blazon.device",
+    "table_block_index": 0,
+    "line_number": 51
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "cryptic",
+      "raw_text": "1,cryptic",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "golden",
+      "raw_text": "1,golden",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "holy",
+      "raw_text": "1,holy",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "arcane",
+      "raw_text": "1,arcane",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "unholy",
+      "raw_text": "1,unholy",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "labyrinth",
+      "raw_text": "1,labyrinth",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[source]",
+      "raw_text": "1,[source]",
+      "references": [
+        {
+          "raw": "[source]",
+          "token": "source",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "device",
+          "target_page": "Blazon",
+          "target_subtable": "source",
+          "target_qualified_name": "Blazon.source"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "[Lowtech Civilizations.mixed]",
+      "raw_text": "2,[Lowtech Civilizations.mixed]",
+      "references": [
+        {
+          "raw": "[Lowtech Civilizations.mixed]",
+          "token": "Lowtech Civilizations.mixed",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "device",
+          "target_page": "Lowtech Civilizations",
+          "target_subtable": "mixed",
+          "target_qualified_name": "Lowtech Civilizations.mixed"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 4,
+      "text": "[Quick Zone Populations.power-animal]",
+      "raw_text": "4,[Quick Zone Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "device",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "source"
+    ],
+    "external_subtables": [
+      "Lowtech Civilizations.mixed",
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";device\n1,cryptic\n1,golden\n1,holy\n1,arcane\n1,unholy\n1,labyrinth\n1,[source]\n2,[Lowtech Civilizations.mixed]\n4,[Quick Zone Populations.power-animal]",
+  "warnings": []
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14824,
+    "timestamp": "2012-06-24T16:24:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "937c625002360376c27fe9fb3c73bc447703b84e1761e862eb4b2c4b042c99ae",
+      "rawSha256": "2d40e60d523a9524834aa5af7c2d173e27a0b41e64539c8a056f6ca0ce374bac",
+      "revisionId": "14824",
+      "line": 85,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weird",
+    "qualified_name": "Village.weird",
+    "table_block_index": 0,
+    "line_number": 85
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "fish",
+      "raw_text": "1,fish",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "egg",
+      "raw_text": "1,egg",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fungus",
+      "raw_text": "1,fungus",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "glass",
+      "raw_text": "1,glass",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weird\n1,fish\n1,egg\n1,fungus\n1,glass",
+  "warnings": []
+}

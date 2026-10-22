@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "cd7f2a123fc2668f6eb974117f3b3d5a29d9a8328b4a2c282582415d159c4b25",
+      "revisionId": "9620",
+      "line": 494,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "tabooSexualMale",
+    "qualified_name": "Rituals.tabooSexualMale",
+    "table_block_index": 0,
+    "line_number": 494
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "lying with his [olderRelative], they both must",
+      "raw_text": "1,lying with his [olderRelative], they both must",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "tabooSexualMale",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "in adultery with his neighbor's wife, they both must",
+      "raw_text": "1,in adultery with his neighbor's wife, they both must",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lying with beasts, he must",
+      "raw_text": "1,lying with beasts, he must",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "guilty of corrupting a young woman, he must",
+      "raw_text": "1,guilty of corrupting a young woman, he must",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lying with another man, they both must",
+      "raw_text": "1,lying with another man, they both must",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "the father of a child out of wedlock, he must",
+      "raw_text": "1,the father of a child out of wedlock, he must",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "seeking after the wife of another man, he must",
+      "raw_text": "1,seeking after the wife of another man, he must",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";tabooSexualMale\n1,lying with his [olderRelative], they both must\n1,in adultery with his neighbor's wife, they both must\n1,lying with beasts, he must\n1,guilty of corrupting a young woman, he must\n1,lying with another man, they both must\n1,the father of a child out of wedlock, he must\n1,seeking after the wife of another man, he must",
+  "warnings": []
+}

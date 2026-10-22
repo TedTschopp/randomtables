@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13700,
+    "timestamp": "2012-02-29T04:47:33Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "26e58d033fcd41f213194aecd7d8838433b8cde057ebe1fb6468cceaec3bd3aa",
+      "rawSha256": "07d98771bb225c369604267cb3bf2d0ca55f051a28d96783dc96fb2622e7ce76",
+      "revisionId": "13700",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "power-animal",
+    "qualified_name": "Quick Populations.power-animal",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "fish",
+      "raw_text": "1,fish",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "frog",
+      "raw_text": "1,frog",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "beetle",
+      "raw_text": "1,beetle",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "centipede",
+      "raw_text": "1,centipede",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "tiger",
+      "raw_text": "1,tiger",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "bear",
+      "raw_text": "1,bear",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "snake",
+      "raw_text": "1,snake",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "bat",
+      "raw_text": "1,bat",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "spider",
+      "raw_text": "1,spider",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "crow",
+      "raw_text": "1,crow",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "elephant",
+      "raw_text": "1,elephant",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "shark",
+      "raw_text": "1,shark",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "squid",
+      "raw_text": "1,squid",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[domestic-animal]-[power-animal] hybrid",
+      "raw_text": "1,[domestic-animal]-[power-animal] hybrid",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        },
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[power-animal]-[power-animal] hybrid",
+      "raw_text": "1,[power-animal]-[power-animal] hybrid",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        },
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "power-animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "domestic-animal",
+      "power-animal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";power-animal\n1,fish\n1,frog\n1,beetle\n1,centipede\n1,tiger\n1,bear\n1,snake\n1,bat\n1,spider\n1,crow\n1,elephant\n1,shark\n1,squid\n1,[domestic-animal]-[power-animal] hybrid\n1,[power-animal]-[power-animal] hybrid",
+  "warnings": []
+}

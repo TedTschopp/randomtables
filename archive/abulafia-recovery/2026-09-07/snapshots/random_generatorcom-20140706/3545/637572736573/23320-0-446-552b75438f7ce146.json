@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "552b75438f7ce14661c3fb0654697b6527630b565039afc750042cbe7319ab36",
+      "revisionId": "23320",
+      "line": 446,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "curses",
+    "qualified_name": "OSR weapon.curses",
+    "table_block_index": 0,
+    "line_number": 446
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "-1",
+      "raw_text": "2,-1",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "-2",
+      "raw_text": "2,-2",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "-3",
+      "raw_text": "1,-3",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "attracts missiles at +1",
+      "raw_text": "1,attracts missiles at +1",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "of doubt and fear in combat, always flees",
+      "raw_text": "1,of doubt and fear in combat, always flees",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "of recklessness in combat, unable to retreat",
+      "raw_text": "1,of recklessness in combat, unable to retreat",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[strongmagiccursed]",
+      "raw_text": "1,[strongmagiccursed]",
+      "references": [
+        {
+          "raw": "[strongmagiccursed]",
+          "token": "strongmagiccursed",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "curses",
+          "target_page": "OSR weapon",
+          "target_subtable": "strongmagiccursed",
+          "target_qualified_name": "OSR weapon.strongmagiccursed"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "strongmagiccursed"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";curses\n2,-1\n2,-2\n1,-3\n1,attracts missiles at +1\n1,of doubt and fear in combat, always flees\n1,of recklessness in combat, unable to retreat\n1,[strongmagiccursed]",
+  "warnings": []
+}

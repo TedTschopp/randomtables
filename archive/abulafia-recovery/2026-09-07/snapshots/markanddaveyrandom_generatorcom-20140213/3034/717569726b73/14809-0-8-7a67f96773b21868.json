@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14809,
+    "timestamp": "2012-06-24T15:53:20Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cb91c5be73bafca4eb602e10058ad9d26e0c6439bbd030157b562b2071be57b7",
+      "rawSha256": "7a67f96773b2186802d24f406e7f9bd4c9481b9a75f9a3f503939ba01163f726",
+      "revisionId": "14809",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirks",
+    "qualified_name": "Village.quirks",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[quirk1]",
+      "raw_text": "1,[quirk1]",
+      "references": [
+        {
+          "raw": "[quirk1]",
+          "token": "quirk1",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk1",
+          "target_qualified_name": "Village.quirk1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[quirk1], [quirk2]",
+      "raw_text": "2,[quirk1], [quirk2]",
+      "references": [
+        {
+          "raw": "[quirk1]",
+          "token": "quirk1",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk1",
+          "target_qualified_name": "Village.quirk1"
+        },
+        {
+          "raw": "[quirk2]",
+          "token": "quirk2",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk2",
+          "target_qualified_name": "Village.quirk2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[quirk1], [quirk2], [quirk2]",
+      "raw_text": "1,[quirk1], [quirk2], [quirk2]",
+      "references": [
+        {
+          "raw": "[quirk1]",
+          "token": "quirk1",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk1",
+          "target_qualified_name": "Village.quirk1"
+        },
+        {
+          "raw": "[quirk2]",
+          "token": "quirk2",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk2",
+          "target_qualified_name": "Village.quirk2"
+        },
+        {
+          "raw": "[quirk2]",
+          "token": "quirk2",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirks",
+          "target_page": "Village",
+          "target_subtable": "quirk2",
+          "target_qualified_name": "Village.quirk2"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "quirk1",
+      "quirk2"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";quirks\n1,[quirk1]\n2,[quirk1], [quirk2]\n1,[quirk1], [quirk2], [quirk2]",
+  "warnings": []
+}

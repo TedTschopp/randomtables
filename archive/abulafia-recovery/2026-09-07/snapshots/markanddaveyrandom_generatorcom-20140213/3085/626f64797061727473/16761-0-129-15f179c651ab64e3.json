@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 16761,
+    "timestamp": "2013-02-02T14:48:07Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "96015dbebe35db09e3c3f1242f2b2892bf2be77a8d8ee64353a6fb01c1370774",
+      "rawSha256": "15f179c651ab64e3c813d6c2ead2f1fffb4a0fdda5d1d79deedf221ae26ded80",
+      "revisionId": "16761",
+      "line": 129,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bodyparts",
+    "qualified_name": "Curse.bodyparts",
+    "table_block_index": 0,
+    "line_number": 129
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "legs",
+      "raw_text": "1,legs",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "eyes",
+      "raw_text": "1,eyes",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "hands",
+      "raw_text": "1,hands",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "intestines",
+      "raw_text": "1,intestines",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "ears",
+      "raw_text": "1,ears",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "teeth",
+      "raw_text": "1,teeth",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "genitals",
+      "raw_text": "1,genitals",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "knees",
+      "raw_text": "1,knees",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bodyparts\n1,legs\n1,eyes\n1,hands\n1,intestines\n1,ears\n1,teeth\n1,genitals\n1,knees",
+  "warnings": []
+}

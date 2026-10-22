@@ -50,18 +50,25 @@ drawer. Browser Back and Forward restore table, graph scope, and depth.
 
 The explorer loads the same ordered table-script list as the classic home page,
 including its compatibility bundle, then adds the full Abulafia catalog. This
-snapshot indexes 26,871 tables and 46,573 directed relationships. The wiki import
-contains 25,748 tables: 20,332 ready and 5,416 quarantined. Ready imports comprise
-19,674 static tables and 658 wiki-runtime tables. Unregistered scripts
+snapshot indexes 33,378 tables and 57,013 directed relationships. The wiki import
+contains 32,255 tables: 25,716 ready and 6,539 quarantined. It includes all 26,156
+current tables and 6,099 historical definitions. Ready imports comprise
+24,562 static tables and 1,154 wiki-runtime tables. Unregistered scripts
 and alternate JSON formats elsewhere in the repository are not automatically
 imported.
 
 All 34 previously unresolved classic targets have been repaired through local
 reference corrections or five explicit compatibility aliases. The classic/core
 registry has no unresolved targets. The compiled wiki catalog still contains
-928 unresolved targets, shown as dashed nodes and accessible through the
+842 unresolved targets, shown as dashed nodes and accessible through the
 **unresolved** control. Imports with executable dependencies on them are
-quarantined. These are source-data defects, not missing browser downloads.
+quarantined. Historical imports and preserved zero-weight references also
+contribute to this source graph. These are not missing browser downloads.
+
+The [complete reference inventory](../Docs/missing-unresolved-references.md)
+lists every unresolved graph target and reference diagnostic, with source rows
+and candidate identities in its [JSON companion](../Docs/missing-unresolved-references.json).
+No case-only candidates remain after the reviewed complete case-repair pass.
 
 Zero-weight rows remain visible as original source text at 0% probability. Their
 references remain in the source relationship map, but cannot be rolled and do
@@ -110,6 +117,36 @@ Bookmarks and display preferences use the browser's local storage under
 `randomtables.table-atlas.v1`. They do not modify files or synchronize elsewhere.
 When browser storage is unavailable, changes remain in memory for the session.
 
+## Controlled Recursion
+
+Two source-bound policies are implemented in the results engine, outside the
+table data. Selecting the approved recursive row in `FantasyMenu.VeggiesCookable`
+produces exactly two distinct terminating items. Each child can follow ordinary
+acyclic references, but cannot select another recursive row. Selecting the
+approved wrapper in `Secret Society Title.TitleDescriptor` produces one `Most`
+prefix and a terminating descriptor.
+
+Uniqueness compares resolved values using Unicode NFC normalization, collapsed
+whitespace, trimming, and lowercase conversion. Display text is preserved.
+Exclusions apply to one combination, not to later rolls or other combinations.
+Traces identify the policy and terminal-only draws.
+
+Stored rows and weights are unchanged. Terminal selection preserves exact
+source-path weights, conditioned on termination and, for the second pair item,
+distinctness. These constraints intentionally change conditional output
+probabilities. Ordinary repeated references keep their independent-draw behavior.
+General mutual recursion and unsupported shapes remain blocked; existing runtime
+limits remain active. The [dated results and audit](../Docs/bounded-recursion-2026-09-07/README.md)
+record all 180 newly enabled tables and the preserved baseline.
+
+Macro argument-domain and expansion-cost preflight now use the same finite-policy
+validator as browser registration. This enables `Secret Society Title.main` and
+68 other tables that were rejected by the earlier raw-cycle walk. Possible
+argument values include both normal terminal draws and approved compound results;
+invalid arguments and over-budget domains remain blocked. The
+[macro integration audit](../Docs/recursion-macro-2026-09-08/README.md) records the
+69 promotions without changing either approved policy or any prior ready table.
+
 ## Maintenance
 
 [registry.js](registry.js) observes table registrations and records their source.
@@ -123,6 +160,9 @@ building its model.
 immutable programs; [../JS/wiki-template-data.js](../JS/wiki-template-data.js)
 contains the reviewed grammar and array template bodies. The importer uses the
 same evaluator through [tools/compile-wiki-expressions.cjs](tools/compile-wiki-expressions.cjs).
+[../JS/wiki-recursion.js](../JS/wiki-recursion.js) validates finite terminal pools
+for both the importer and browser. Approved shapes and exact source bindings live
+in [tools/recursion-policies.json](tools/recursion-policies.json).
 
 Script tags are explicit so the app works with `file://` URLs, without `fetch`,
 module loading, or a build step. When changing the original page's table script
@@ -134,8 +174,9 @@ on the next page load. Generated import files must be updated through the
 ## Macro Inventory
 
 The [macro inventory](../Docs/macro-inventory.md) covers all 26,156 current wiki
-tables, including imported-ready, quarantined, and not-imported tables, plus local
-JavaScript definitions, alternate JSON collections, and wordlists. It separates
+tables and separately counts the 6,099 imported historical definitions, plus local
+JavaScript definitions, alternate JSON collections, and wordlists. No current
+tables remain outside the import. The inventory separates
 current support, remaining operations, archived template dependencies, and source
 repairs. The [JSON evidence](../Docs/macro-inventory.json) retains each occurrence.
 
@@ -145,6 +186,9 @@ The report contains the reproduction command and exact source revision.
 
 ## Quarantine Recovery
 
+The following repair counts are historical checkpoints. Current totals appear
+under [Data Boundaries](#data-boundaries).
+
 The first repair batch applies 363 exact row-level case corrections across 196
 tables. It enables 377 additional tables: 282 static and 95 wiki-runtime tables.
 This exceeds the report's 337-table conditional estimate because 40 additional
@@ -153,8 +197,8 @@ programs are unchanged. The original archives and row text retain their spelling
 
 A follow-up batch adds three corrections across three tables, enabling 12 more:
 10 static and two wiki-runtime tables. Combined, the two batches apply 366
-corrections across 199 tables and enable 389 tables. No eligible case-only
-candidates remain under the existing rules. All 20,279 tables ready before the
+corrections across 199 tables and enable 389 tables. At that checkpoint, no eligible
+case-only candidates remained under the existing rules. All 20,279 tables ready before the
 follow-up and all 1,554 source archives are unchanged.
 
 Follow-up acceptance covered 456 deterministic rolls over all 152 selectable
@@ -164,7 +208,7 @@ offline browser tests passed, including repaired references and nested traces.
 
 The [correction records](tools/case-reference-corrections.json) bind each change to
 its source file and hash, row text hash, original token, weight, reference count,
-and target ID and hash. The importer rejects stale, ambiguous, out-of-scope,
+and target ID and hash. These earlier batches reject stale, ambiguous, out-of-scope,
 nonselectable, or non-case-only changes. No global case folding or alias is added.
 The manifest and catalog retain each applied table's `referenceCorrections` trail.
 Each batch retains its own pre-repair report and manifest hashes; the original
@@ -181,8 +225,8 @@ parsed row text, weights, identities, and contributor selection are preserved.
 
 This pass enables 41 tables: 31 static and 10 wiki-runtime tables. The estimate
 was 31; ten additional Blues macro tables became valid after their dependency
-was repaired. All 20,291 previously ready tables remain exact. The catalog now
-has 482,283 wiki rows, including two recovered from raw source; the archives
+was repaired. All 20,291 previously ready tables remain exact. That catalog snapshot
+had 482,283 wiki rows, including two recovered from raw source; its archives
 still preserve their original 482,281 parsed entries.
 
 Acceptance covered all 129 newly selectable compiled choices in 387 deterministic
@@ -210,7 +254,79 @@ Omit `--output` for a read-only summary. Different existing reports and changed
 input hashes are rejected. Review a later snapshot in a new output directory
 before replacing published reports. The tool does not rewrite archives, import
 additional contributors, change identifiers, or promote quarantined tables.
-The 408 current but unimported wiki tables remain a separate scope decision.
+The formerly omitted 408 current tables are now imported, as described below.
+
+The later [bracket and case follow-up](../Docs/repair-followup-2026-09-07/README.md)
+corrects the malformed descriptor reference through a source-bound projection
+and applies 90 additional case rules across 41 source tables. Those rules use
+the full current-and-historical selection; the older 366 rules keep their original
+current-only scope. The two follow-up batches enable 53 tables and preserve all
+25,222 previously ready objects and 2,170 archives. The descriptor remains blocked
+at that checkpoint because the corrected reference exposes self-recursion.
+
+The separately approved [recursion policies](tools/recursion-policies.json) then
+enable 180 tables while preserving all 25,275 prior ready objects and the same
+archives. That checkpoint exposed five further eligible case-only components.
+
+The [complete case-repair pass](../Docs/complete-case-repair-2026-09-07/README.md)
+then fixes all 206 unresolved case-only target names and the additional visible
+token-case mistakes identified across the full catalog. Its
+[1,438 exact approvals](tools/all-case-reference-corrections.json) cover 408
+source tables, including two zero-weight rows and references to blocked targets.
+It enables 192 tables: 98 corrected sources and 94 dependents. The other 310
+corrected sources retain unrelated blockers. All 25,455 previously ready objects
+and all 2,170 archives remain exact.
+
+This separate full-catalog scope binds original row evidence and preserves the
+older approval batches. Page-only corrections retain exact subtable spelling
+when differently cased subtables coexist; three explicit compact-page aliases
+require matching source metadata and a unique page identity. No global alias,
+table-name rewrite, additional recursion form, or relaxed runtime limit is added.
+Both the ranked report and full reference inventory now have zero case-only
+candidates. Acceptance covers 8,118 rolls over 2,706 newly enabled choices,
+173 unit/integrity tests, and 21 offline browser tests.
+
+## Current and Historical Recovery
+
+The [2026-09-07 result](../Docs/import-recovery-2026-09-07/README.md) records two
+separate operations. First, all 408 omitted current tables were imported:
+353 ready and 55 blocked. Second, source-bound historical recovery imported
+6,099 definitions and enabled 165 current tables without changing runtime limits.
+
+At that recovery checkpoint, before the later bracket, case, and recursion work:
+
+| Scope | Imported | Ready | Blocked |
+| --- | ---: | ---: | ---: |
+| Current corpus | 26,156 | 20,850 | 5,306 |
+| Imported history | 6,099 | 4,372 | 1,727 |
+| Total wiki catalog | 32,255 | 25,222 | 7,033 |
+
+Current blockers decreased from 5,471 after Step 1 to 5,306. The higher total
+blocked count includes newly preserved historical defects, not regressions in
+previously ready tables. All 20,685 tables ready after Step 1 and all 1,592 current
+source archives remain exact; the original compatibility aliases are unchanged.
+
+Of 183 investigated target names, 129 had restored baseline-history definitions:
+98 ready and 31 still blocked at that checkpoint. Another seven renamed literal leaves support 12
+exact call-site corrections. The other 47 renamed targets remain withheld. No
+global aliases, replacement IDs, guessed rows, or relaxed recursion limits were
+introduced. The [target list](../Docs/import-recovery-2026-09-07/recovery-targets.md)
+records every disposition at that checkpoint. Later case and recursion changes
+are recorded separately above; the current report describes the remaining backlog.
+
+Historical selection uses the latest retained definition, not the latest runnable
+one. Contributor and dependency closure includes 6,056 pinned-history records
+plus 43 collision-free XML records. Another 829 XML name identities collide with
+pinned IDs, and 11 have conflicting definitions within a revision; their evidence
+is preserved without registration. Historical source archives use their own
+subdirectory, so existing current archives are not replaced.
+
+Acceptance passed 149 unit/integrity tests and 18 offline browser tests. All 96,161
+newly selectable compiled choices were exercised in 288,483 deterministic rolls
+with zero warnings, including valid empty outcomes. This covers three dependency
+profiles per root choice, not every Cartesian combination. Regeneration with
+`--all-current --recover-history --write` wrote zero files. See the
+[import commands](../tables/abulafia/README.md#repeat-the-import) for reproduction.
 
 ## Archive.org Checks
 
@@ -239,11 +355,12 @@ stops the run. Errors and timeouts remain incomplete checks, not negative result
 Only public wiki page URLs are sent to Archive.org, never source rows or author
 records. The checker reads JSON metadata; it does not download or execute pages.
 
-The current plan covers 683 absent target names on 260 distinct source page names.
+The pre-recovery plan covered 683 absent target names on 260 distinct source page names.
 Another 174 targets have local case-only candidates, and four malformed references
 need source review. Those groups remain visible but are not queried automatically.
-This is the active wiki quarantine scope, not every graph placeholder or the 408
-unimported tables. Absence from the import does not prove absence from the source.
+These are dated audit counts, not the expanded catalog's live backlog. That audit
+excluded the then-unimported 408 current tables. Absence from an import does not
+prove absence from the source.
 
 The [complete source audit](../Docs/wayback-complete-2026-09-07/missing-sources.md)
 lists all 260 source pages and retains 914 distinct availability-query results.
@@ -258,12 +375,10 @@ the completed audit reuses its five queries without changing its evidence.
 An archived page does **not** confirm the requested subtable is present. A negative
 result across all planned variants is still not proof that the source was lost.
 
-Check the completed audit for remaining work without making network requests:
-
-```sh
-node explorer/tools/check-wayback.cjs --check --max-requests 0 \
-  --resume Docs/wayback-complete-2026-09-07/wayback-report.json
-```
+The completed audit remains bound to its original input and checker hashes.
+Do not resume it against the expanded catalog: stale bindings are rejected.
+Use the read-only preview above to inspect a new plan; leave dated audit evidence
+unchanged. Reproducing an old plan requires its recorded pre-recovery inputs.
 
 Each output contains `wayback-report.json` and `wayback-report.md`. Use a new output
 directory for each run: different existing files and symlinks are rejected.
@@ -285,7 +400,7 @@ or a refused write. A budget-limited run can exit successfully with work pending
 
 ## Backup Definition Comparison
 
-The [completed comparison](../Docs/backup-comparison-2026-09-07/backup-report.md)
+The [dated comparison](../Docs/backup-comparison-2026-09-07/backup-report.md)
 checks actual subtable definitions, not just archived page availability. It covers
 15 explicitly inventoried history XML snapshots from the three WikiTeam archive
 collections and 982 table files from three pinned converted collections.
@@ -294,14 +409,17 @@ Of the 683 exact target identities, 129 have historical definitions already in t
 current XML export, 54 have definitions in additional XML snapshots, and five have
 candidates only in converted copies. Three have definitions without positive-weight
 rows, and 492 were not found in the inspected sources. The 174 local case candidates
-and four malformed references remain separate. No tables were imported or enabled.
+and four malformed references remain separate. That comparison imported or enabled
+no tables; the subsequent recovery is documented separately above.
 Matching definitions still need historical, dependency, probability, attribution,
 and contributor-wide import review; these are not guaranteed runnable recoveries.
 
 The optional [comparator](tools/compare-backups.cjs) reads the local audit cache and
 rechecks its frozen jobs, tool hashes, source files, and current quarantine inputs.
 It makes no network requests and does not execute downloaded code. From the
-repository root, preview the completed comparison without writes:
+repository root at the original audit checkpoint, preview the comparison without
+writes. Against the expanded catalog, the frozen audit correctly rejects stale
+quarantine bindings; do not replace old hashes merely to make it pass:
 
 ```sh
 node explorer/tools/compare-backups.cjs \
@@ -357,21 +475,25 @@ retains their exact names and page IDs. Another 11,297 source-qualified converte
 records are inventoried separately, including 1,222 records needing colon-format
 review. They are not added to the wiki count as unique recovered tables.
 
-No tables were imported, renamed, enabled, or repaired. Whole archives retain
+That census imported, renamed, enabled, or repaired no tables. Whole archives retain
 the other contributor-owned tables available in each export. Any later import
 must still apply the existing contributor-wide selection, attribution,
 dependency, probability, and collision checks. Empty subtable names and
 historical identities are preserved, not silently renamed or merged.
 
-The current corpus remains 26,156 tables: 25,748 imported, 20,332 runnable, and
-5,416 imported but blocked. Complete acquisition of the identified sources does
+At census time, the current corpus contained 26,156 tables: 25,748 imported,
+20,332 runnable, and 5,416 imported but blocked. The later two-step recovery above
+supersedes those import counts. The dated 408-not-imported and 492-not-found lists
+remain evidence of what was known then. Complete acquisition of the identified sources does
 not establish a complete backup of the original live wiki. Other archive
 packages, Wayback HTML, suppressed revisions, and unlocated sources remain
 outside this census.
 
 The optional [inventory tool](tools/backup-inventory.cjs) uses Node, local files,
 and the pinned source checkout. It makes no network requests. From the repository
-root, verify archives and census bindings and preview totals without writes:
+root at the original audit checkpoint, verify archives and census bindings and
+preview totals without writes. Its frozen import/report bindings intentionally
+reject the expanded live catalog rather than silently changing the old census:
 
 ```sh
 node explorer/tools/backup-inventory.cjs \

@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "78982abc2c0bef827ade6765fcbcf07c384adde7ee35adb6ec09f31bf966a50b",
+      "revisionId": "1643",
+      "line": 43,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorBagDescriptor",
+    "qualified_name": "Pickpocket.PoorBagDescriptor",
+    "table_block_index": 0,
+    "line_number": 43
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a battered",
+      "raw_text": "1,a battered",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a brown",
+      "raw_text": "1,a brown",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a canvas",
+      "raw_text": "1,a canvas",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a careworn",
+      "raw_text": "1,a careworn",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a common",
+      "raw_text": "1,a common",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a dingy",
+      "raw_text": "1,a dingy",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a faded",
+      "raw_text": "1,a faded",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a fragile",
+      "raw_text": "1,a fragile",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a frayed",
+      "raw_text": "1,a frayed",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a gray",
+      "raw_text": "1,a gray",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a grimy",
+      "raw_text": "1,a grimy",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a modest",
+      "raw_text": "1,a modest",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a moth-eaten",
+      "raw_text": "1,a moth-eaten",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a patched",
+      "raw_text": "1,a patched",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a plain",
+      "raw_text": "1,a plain",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a ragged",
+      "raw_text": "1,a ragged",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a rugged",
+      "raw_text": "1,a rugged",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "a shabby",
+      "raw_text": "1,a shabby",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "a simple",
+      "raw_text": "1,a simple",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "a stained",
+      "raw_text": "1,a stained",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "a sturdy",
+      "raw_text": "1,a sturdy",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a tattered",
+      "raw_text": "1,a tattered",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a threadbare",
+      "raw_text": "1,a threadbare",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "a timeworn",
+      "raw_text": "1,a timeworn",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "a tired",
+      "raw_text": "1,a tired",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a well-worn",
+      "raw_text": "1,a well-worn",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a worn",
+      "raw_text": "1,a worn",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a worn-out",
+      "raw_text": "1,a worn-out",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "an old",
+      "raw_text": "1,an old",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "an old-fashioned",
+      "raw_text": "1,an old-fashioned",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "an old leather",
+      "raw_text": "1,an old leather",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "an ordinary",
+      "raw_text": "1,an ordinary",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "an unremarkable",
+      "raw_text": "1,an unremarkable",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "a [Utility.Cloth]",
+      "raw_text": "1,a [Utility.Cloth]",
+      "references": [
+        {
+          "raw": "[Utility.Cloth]",
+          "token": "Utility.Cloth",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorBagDescriptor",
+          "target_page": "Utility",
+          "target_subtable": "Cloth",
+          "target_qualified_name": "Utility.Cloth"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "a [Utility.RelativeSize]",
+      "raw_text": "1,a [Utility.RelativeSize]",
+      "references": [
+        {
+          "raw": "[Utility.RelativeSize]",
+          "token": "Utility.RelativeSize",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorBagDescriptor",
+          "target_page": "Utility",
+          "target_subtable": "RelativeSize",
+          "target_qualified_name": "Utility.RelativeSize"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 10,
+      "text": "a",
+      "raw_text": "10,a",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.Cloth",
+      "Utility.RelativeSize"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";PoorBagDescriptor\n1,a battered\n1,a brown\n1,a canvas\n1,a careworn\n1,a common\n1,a dingy\n1,a faded\n1,a fragile\n1,a frayed\n1,a gray\n1,a grimy\n1,a modest\n1,a moth-eaten\n1,a patched\n1,a plain\n1,a ragged\n1,a rugged\n1,a shabby\n1,a simple\n1,a stained\n1,a sturdy\n1,a tattered\n1,a threadbare\n1,a timeworn\n1,a tired\n1,a well-worn\n1,a worn\n1,a worn-out\n1,an old\n1,an old-fashioned\n1,an old leather\n1,an ordinary\n1,an unremarkable\n1,a [Utility.Cloth]\n1,a [Utility.RelativeSize]\n10,a",
+  "warnings": []
+}

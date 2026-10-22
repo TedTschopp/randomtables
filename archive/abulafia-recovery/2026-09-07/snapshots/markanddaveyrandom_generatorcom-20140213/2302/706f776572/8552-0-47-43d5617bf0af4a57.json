@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8552,
+    "timestamp": "2009-04-06T07:49:33Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "193315e7610dec4ac4d3dae2cedac91a720c42981561e548e731bfda86e26826",
+      "rawSha256": "43d5617bf0af4a5758d4b1fc9f2f101663ba87d1ea4ca82556d26cfb55a0c348",
+      "revisionId": "8552",
+      "line": 47,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "power",
+    "qualified_name": "Quick and Dirty Supers Concepts.power",
+    "table_block_index": 0,
+    "line_number": 47
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Amphibian",
+      "raw_text": "1, Amphibian",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Android",
+      "raw_text": "1, Android",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Battlesuit",
+      "raw_text": "1, Battlesuit",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Cyborg",
+      "raw_text": "1, Cyborg",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1, Demon",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Detective",
+      "raw_text": "1, Detective",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Duplicator",
+      "raw_text": "1, Duplicator",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Elemental",
+      "raw_text": "1, Elemental",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Energy Controller",
+      "raw_text": "1, Energy Controller",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Gadgeteer",
+      "raw_text": "1, Gadgeteer",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Illusionist",
+      "raw_text": "1, Illusionist",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Lucky",
+      "raw_text": "1, Lucky",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Martial Artist",
+      "raw_text": "1, Martial Artist",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Mimic",
+      "raw_text": "1, Mimic",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Mystic",
+      "raw_text": "1, Mystic",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Powerhouse",
+      "raw_text": "1, Powerhouse",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Psychic",
+      "raw_text": "1, Psychic",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Savage",
+      "raw_text": "1, Savage",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Shape-shifter",
+      "raw_text": "1, Shape-shifter",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Speedster",
+      "raw_text": "1, Speedster",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Spy",
+      "raw_text": "1, Spy",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Survivor",
+      "raw_text": "1, Survivor",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Totem",
+      "raw_text": "1, Totem",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Weapon Master",
+      "raw_text": "1, Weapon Master",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";power\n1, Amphibian\n1, Android\n1, Battlesuit\n1, Cyborg\n1, Demon\n1, Detective\n1, Duplicator\n1, Elemental\n1, Energy Controller\n1, Gadgeteer\n1, Illusionist\n1, Lucky\n1, Martial Artist\n1, Mimic\n1, Mystic\n1, Powerhouse\n1, Psychic\n1, Savage\n1, Shape-shifter\n1, Speedster\n1, Spy\n1, Survivor\n1, Totem\n1, Weapon Master",
+  "warnings": []
+}

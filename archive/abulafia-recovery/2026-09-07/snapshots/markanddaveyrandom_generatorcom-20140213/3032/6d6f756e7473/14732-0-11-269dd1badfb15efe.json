@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14732,
+    "timestamp": "2012-06-20T09:05:46Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "2817d557310e11581f6736d0b370356e433a2bb679fabf8788d19bed80c8763b",
+      "rawSha256": "269dd1badfb15efe7332f9ca61f862c1ef21a599baea1b63aae2959943c3795f",
+      "revisionId": "14732",
+      "line": 11,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mounts",
+    "qualified_name": "Ostler.mounts",
+    "table_block_index": 0,
+    "line_number": 11
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "horses",
+      "raw_text": "1, horses",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "mules",
+      "raw_text": "1, mules",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "camels",
+      "raw_text": "1, camels",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "elephants",
+      "raw_text": "1, elephants",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "cats",
+      "raw_text": "1, cats",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "hounds",
+      "raw_text": "1, hounds",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mounts\n1, horses\n1, mules\n1, camels\n1, elephants\n1, cats\n1, hounds",
+  "warnings": []
+}

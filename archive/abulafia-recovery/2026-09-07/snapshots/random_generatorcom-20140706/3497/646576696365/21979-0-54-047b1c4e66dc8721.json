@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21979,
+    "timestamp": "2014-05-22T18:16:13Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "944c516ab78da2fd18af6c6ff41cf06141348a3acc523fb77ae6abcba9ff68b4",
+      "rawSha256": "047b1c4e66dc87217b64572ec7c577f64afff019141d573ac8457ed1e1875ab4",
+      "revisionId": "21979",
+      "line": 54,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "device",
+    "qualified_name": "Blazon.device",
+    "table_block_index": 0,
+    "line_number": 54
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "cryptic",
+      "raw_text": "1,cryptic",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "eagle",
+      "raw_text": "1,eagle",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lion",
+      "raw_text": "1,lion",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "fire",
+      "raw_text": "1,fire",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "bear",
+      "raw_text": "1,bear",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "wooden",
+      "raw_text": "1,wooden",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "golden",
+      "raw_text": "1,golden",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "[Quick Zone Populations.power-animal]",
+      "raw_text": "4,[Quick Zone Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "device",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";device\n1,cryptic\n1,eagle\n1,lion\n1,fire\n1,bear\n1,wooden\n1,golden\n4,[Quick Zone Populations.power-animal]",
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14876,
+    "timestamp": "2012-06-27T13:46:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b57fb84c9c6188585b662a9162e65867e9e8fc2b6baa1acb3604942dc770b3ac",
+      "rawSha256": "5300bbb1771340b90d0648fa4749b5f500a731ab1b34ae00c7831dc92812df2c",
+      "revisionId": "14876",
+      "line": 117,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybeweird",
+    "qualified_name": "Village.maybeweird",
+    "table_block_index": 0,
+    "line_number": 117
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "",
+      "raw_text": "2,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[weird]",
+      "raw_text": "1,[weird] ",
+      "references": [
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "maybeweird",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "weird"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybeweird\n2,\n1,[weird] ",
+  "warnings": []
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 21981,
+    "timestamp": "2014-05-22T18:37:39Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9cb3cccead54be27bc7b148a6cffa54a99fa3c5a0e3873b3fe6b1f810183571a",
+      "rawSha256": "0274dc871d51026847a334ac95878a1b73eb23e3da710cbe6e8e0c0b077ca911",
+      "revisionId": "21981",
+      "line": 70,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "spikybody",
+    "qualified_name": "Quick Horrors.spikybody",
+    "table_block_index": 0,
+    "line_number": 70
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "{{Article|[Insect.main]}} body",
+      "raw_text": "1,{{Article|[Insect.main]}} body",
+      "references": [
+        {
+          "raw": "[Insect.main]",
+          "token": "Insect.main",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "spikybody",
+          "target_page": "Insect",
+          "target_subtable": "main",
+          "target_qualified_name": "Insect.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "spikes all over",
+      "raw_text": "1,spikes all over",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "an armored body",
+      "raw_text": "1,an armored body",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "the body of a man",
+      "raw_text": "1,the body of a man",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "the body of a woman",
+      "raw_text": "1,the body of a woman",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Insect.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";spikybody\n1,{{Article|[Insect.main]}} body\n1,spikes all over\n1,an armored body\n1,the body of a man\n1,the body of a woman",
+  "warnings": []
+}

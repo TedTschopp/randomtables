@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "3dcc8e00316e967c87fd087ad82afab0d5cebac522bc3385e73242345f4c738c",
+      "revisionId": "22804",
+      "line": 100,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "describecloth",
+    "qualified_name": "Starting Equipment.describecloth",
+    "table_block_index": 0,
+    "line_number": 100
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 25,
+      "text": "",
+      "raw_text": "25,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 25,
+      "text": "[cloth]",
+      "raw_text": "25,[cloth] ",
+      "references": [
+        {
+          "raw": "[cloth]",
+          "token": "cloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describecloth",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cloth",
+          "target_qualified_name": "Starting Equipment.cloth"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Quick Zone Populations.zaksjob]",
+      "raw_text": "1,[Quick Zone Populations.zaksjob] ",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.zaksjob]",
+          "token": "Quick Zone Populations.zaksjob",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describecloth",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "zaksjob",
+          "target_qualified_name": "Quick Zone Populations.zaksjob"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[cloth] [Quick Zone Populations.zaksjob]",
+      "raw_text": "1,[cloth] [Quick Zone Populations.zaksjob] ",
+      "references": [
+        {
+          "raw": "[cloth]",
+          "token": "cloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describecloth",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cloth",
+          "target_qualified_name": "Starting Equipment.cloth"
+        },
+        {
+          "raw": "[Quick Zone Populations.zaksjob]",
+          "token": "Quick Zone Populations.zaksjob",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describecloth",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "zaksjob",
+          "target_qualified_name": "Quick Zone Populations.zaksjob"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cloth"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.zaksjob"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";describecloth\n25,\n25,[cloth] \n1,[Quick Zone Populations.zaksjob] \n1,[cloth] [Quick Zone Populations.zaksjob] ",
+  "warnings": []
+}

@@ -1,0 +1,1521 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "555b0f9638376fad368c076ab2a1a75509cd28a071a0288867c5be2aa7f72a22",
+      "revisionId": "10367",
+      "line": 819,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorContents",
+    "qualified_name": "Pickpocket.PoorContents",
+    "table_block_index": 0,
+    "line_number": 819
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "[PoorWealth]",
+      "raw_text": "4,[PoorWealth]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[PoorWealth], and [PoorConsumable]",
+      "raw_text": "4,[PoorWealth], and [PoorConsumable]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "[PoorWealth], and [PoorPractical]",
+      "raw_text": "4,[PoorWealth], and [PoorPractical]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "[PoorWealth], and [Nature]",
+      "raw_text": "4,[PoorWealth], and [Nature]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 4,
+      "text": "[PoorWealth], and [Music]",
+      "raw_text": "4,[PoorWealth], and [Music]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 4,
+      "text": "[PoorWealth], and [PoorMiscellaneous]",
+      "raw_text": "4,[PoorWealth], and [PoorMiscellaneous]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 4,
+      "text": "[PoorWealth], and [CharmsReligion]",
+      "raw_text": "4,[PoorWealth], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "[PoorWealth], and [Writing]",
+      "raw_text": "4,[PoorWealth], and [Writing]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 4,
+      "text": "[PoorWealth], and [Weapon]",
+      "raw_text": "4,[PoorWealth], and [Weapon]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 4,
+      "text": "[PoorWealth], and [IntrigueCrime]",
+      "raw_text": "4,[PoorWealth], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[PoorWealth]",
+          "token": "PoorWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorWealth",
+          "target_qualified_name": "Pickpocket.PoorWealth"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "[PoorConsumable], and [PoorPractical]",
+      "raw_text": "1,[PoorConsumable], and [PoorPractical]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[PoorConsumable], and [Nature]",
+      "raw_text": "1,[PoorConsumable], and [Nature]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "[PoorConsumable], and [Music]",
+      "raw_text": "1,[PoorConsumable], and [Music]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[PoorConsumable], and [PoorMiscellaneous]",
+      "raw_text": "1,[PoorConsumable], and [PoorMiscellaneous]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[PoorConsumable], and [CharmsReligion]",
+      "raw_text": "1,[PoorConsumable], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "[PoorConsumable], and [Writing]",
+      "raw_text": "1,[PoorConsumable], and [Writing]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "[PoorConsumable], and [Weapon]",
+      "raw_text": "1,[PoorConsumable], and [Weapon]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "[PoorConsumable], and [IntrigueCrime]",
+      "raw_text": "1,[PoorConsumable], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "[PoorPractical], and [Nature]",
+      "raw_text": "1,[PoorPractical], and [Nature]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "[PoorPractical], and [Music]",
+      "raw_text": "1,[PoorPractical], and [Music]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[PoorPractical], and [PoorMiscellaneous]",
+      "raw_text": "1,[PoorPractical], and [PoorMiscellaneous]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "[PoorPractical], and [CharmsReligion]",
+      "raw_text": "1,[PoorPractical], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "[PoorPractical], and [Writing]",
+      "raw_text": "1,[PoorPractical], and [Writing]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "[PoorPractical], and [Weapon]",
+      "raw_text": "1,[PoorPractical], and [Weapon]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "[PoorPractical], and [IntrigueCrime]",
+      "raw_text": "1,[PoorPractical], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[Music], and [Nature]",
+      "raw_text": "1,[Music], and [Nature]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "[PoorMiscellaneous], and [Nature]",
+      "raw_text": "1,[PoorMiscellaneous], and [Nature]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "[CharmsReligion], and [Nature]",
+      "raw_text": "1,[CharmsReligion], and [Nature]",
+      "references": [
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "[Writing], and [Nature]",
+      "raw_text": "1,[Writing], and [Nature]",
+      "references": [
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "[Weapon], and [Nature]",
+      "raw_text": "1,[Weapon], and [Nature]",
+      "references": [
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "[Nature], and [IntrigueCrime]",
+      "raw_text": "1,[Nature], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "[Music], and [PoorMiscellaneous]",
+      "raw_text": "1,[Music], and [PoorMiscellaneous]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "[Music], and [CharmsReligion]",
+      "raw_text": "1,[Music], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "[Music], and [Writing]",
+      "raw_text": "1,[Music], and [Writing]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "[Music], and [Weapon]",
+      "raw_text": "1,[Music], and [Weapon]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "[Music], and [IntrigueCrime]",
+      "raw_text": "1,[Music], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "[PoorMiscellaneous], and [CharmsReligion]",
+      "raw_text": "1,[PoorMiscellaneous], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "[PoorMiscellaneous], and [Writing]",
+      "raw_text": "1,[PoorMiscellaneous], and [Writing]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "[PoorMiscellaneous], and [Weapon]",
+      "raw_text": "1,[PoorMiscellaneous], and [Weapon]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "[PoorMiscellaneous], and [IntrigueCrime]",
+      "raw_text": "1,[PoorMiscellaneous], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "[CharmsReligion], and [Writing]",
+      "raw_text": "1,[CharmsReligion], and [Writing]",
+      "references": [
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "[CharmsReligion], and [Weapon]",
+      "raw_text": "1,[CharmsReligion], and [Weapon]",
+      "references": [
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "[CharmsReligion], and [IntrigueCrime]",
+      "raw_text": "1,[CharmsReligion], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "[Writing], and [Weapon]",
+      "raw_text": "1,[Writing], and [Weapon]",
+      "references": [
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "[Writing], and [IntrigueCrime]",
+      "raw_text": "1,[Writing], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "[Weapon], and [IntrigueCrime]",
+      "raw_text": "1,[Weapon], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "[PoorConsumable]",
+      "raw_text": "1,[PoorConsumable]",
+      "references": [
+        {
+          "raw": "[PoorConsumable]",
+          "token": "PoorConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorConsumable",
+          "target_qualified_name": "Pickpocket.PoorConsumable"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "[PoorPractical]",
+      "raw_text": "1,[PoorPractical]",
+      "references": [
+        {
+          "raw": "[PoorPractical]",
+          "token": "PoorPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorPractical",
+          "target_qualified_name": "Pickpocket.PoorPractical"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "[Nature]",
+      "raw_text": "1,[Nature]",
+      "references": [
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "[Music]",
+      "raw_text": "1,[Music]",
+      "references": [
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "[PoorMiscellaneous]",
+      "raw_text": "1,[PoorMiscellaneous]",
+      "references": [
+        {
+          "raw": "[PoorMiscellaneous]",
+          "token": "PoorMiscellaneous",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorMiscellaneous",
+          "target_qualified_name": "Pickpocket.PoorMiscellaneous"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "[CharmsReligion]",
+      "raw_text": "1,[CharmsReligion]",
+      "references": [
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "[Writing]",
+      "raw_text": "1,[Writing]",
+      "references": [
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "[Weapon]",
+      "raw_text": "1,[Weapon]",
+      "references": [
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "[IntrigueCrime]",
+      "raw_text": "1,[IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "weight": 5,
+      "text": "[JustOneThing]",
+      "raw_text": "5,[JustOneThing]",
+      "references": [
+        {
+          "raw": "[JustOneThing]",
+          "token": "JustOneThing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "JustOneThing",
+          "target_qualified_name": "Pickpocket.JustOneThing"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "CharmsReligion",
+      "IntrigueCrime",
+      "JustOneThing",
+      "Music",
+      "Nature",
+      "PoorConsumable",
+      "PoorMiscellaneous",
+      "PoorPractical",
+      "PoorWealth",
+      "Weapon",
+      "Writing"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorContents\n4,[PoorWealth]\n4,[PoorWealth], and [PoorConsumable]\n4,[PoorWealth], and [PoorPractical]\n4,[PoorWealth], and [Nature]\n4,[PoorWealth], and [Music]\n4,[PoorWealth], and [PoorMiscellaneous]\n4,[PoorWealth], and [CharmsReligion]\n4,[PoorWealth], and [Writing]\n4,[PoorWealth], and [Weapon]\n4,[PoorWealth], and [IntrigueCrime]\n1,[PoorConsumable], and [PoorPractical]\n1,[PoorConsumable], and [Nature]\n1,[PoorConsumable], and [Music]\n1,[PoorConsumable], and [PoorMiscellaneous]\n1,[PoorConsumable], and [CharmsReligion]\n1,[PoorConsumable], and [Writing]\n1,[PoorConsumable], and [Weapon]\n1,[PoorConsumable], and [IntrigueCrime]\n1,[PoorPractical], and [Nature]\n1,[PoorPractical], and [Music]\n1,[PoorPractical], and [PoorMiscellaneous]\n1,[PoorPractical], and [CharmsReligion]\n1,[PoorPractical], and [Writing]\n1,[PoorPractical], and [Weapon]\n1,[PoorPractical], and [IntrigueCrime]\n1,[Music], and [Nature]\n1,[PoorMiscellaneous], and [Nature]\n1,[CharmsReligion], and [Nature]\n1,[Writing], and [Nature]\n1,[Weapon], and [Nature]\n1,[Nature], and [IntrigueCrime]\n1,[Music], and [PoorMiscellaneous]\n1,[Music], and [CharmsReligion]\n1,[Music], and [Writing]\n1,[Music], and [Weapon]\n1,[Music], and [IntrigueCrime]\n1,[PoorMiscellaneous], and [CharmsReligion]\n1,[PoorMiscellaneous], and [Writing]\n1,[PoorMiscellaneous], and [Weapon]\n1,[PoorMiscellaneous], and [IntrigueCrime]\n1,[CharmsReligion], and [Writing]\n1,[CharmsReligion], and [Weapon]\n1,[CharmsReligion], and [IntrigueCrime]\n1,[Writing], and [Weapon]\n1,[Writing], and [IntrigueCrime]\n1,[Weapon], and [IntrigueCrime]\n1,[PoorConsumable]\n1,[PoorPractical]\n1,[Nature]\n1,[Music]\n1,[PoorMiscellaneous]\n1,[CharmsReligion]\n1,[Writing]\n1,[Weapon]\n1,[IntrigueCrime]\n5,[JustOneThing]",
+  "warnings": []
+}

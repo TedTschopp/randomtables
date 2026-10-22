@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "ec78b439c65fa7cead7a25aeeee2d07f2edee8b40f5227461eaf9042317eb86c",
+      "revisionId": "22835",
+      "line": 314,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "med-damage",
+    "qualified_name": "Curse.med-damage",
+    "table_block_index": 0,
+    "line_number": 314
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "1d10",
+      "raw_text": "4,1d10",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "2d6",
+      "raw_text": "4,2d6",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "2d8",
+      "raw_text": "4,2d8",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "4d4",
+      "raw_text": "4,4d4",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 4,
+      "text": "3d6",
+      "raw_text": "4,3d6",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "2d6+[about-five-or-ten]",
+      "raw_text": "2,2d6+[about-five-or-ten]",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "med-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "2d8+[about-five-or-ten]",
+      "raw_text": "2,2d8+[about-five-or-ten]",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "med-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "4d4+[about-five-or-ten]",
+      "raw_text": "2,4d4+[about-five-or-ten]",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "med-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "3d6+[about-five-or-ten]",
+      "raw_text": "2,3d6+[about-five-or-ten]",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "med-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five-or-ten"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";med-damage\n4,1d10\n4,2d6\n4,2d8\n4,4d4\n4,3d6\n2,2d6+[about-five-or-ten]\n2,2d8+[about-five-or-ten]\n2,4d4+[about-five-or-ten]\n2,3d6+[about-five-or-ten]",
+  "warnings": []
+}

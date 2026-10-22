@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 15754,
+    "timestamp": "2012-11-13T09:25:13Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "291bd5f2a0da97eb2315b996ce5563ee97687f1a9ab0475bfc8cabf64108d46e",
+      "rawSha256": "ac43c5bde9f4003103d39dc041b8d30bbb5515323a72f9f8512090df70f6cbf6",
+      "revisionId": "15754",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main-bigpopulation",
+    "qualified_name": "Village.main-bigpopulation",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[quirks]<br />usually population [bigpopulation]<br />[local heroes]<br />[maybe group]",
+      "raw_text": "1,[quirks]<br />usually population [bigpopulation]<br />[local heroes]<br />[maybe group]",
+      "references": [
+        {
+          "raw": "[quirks]",
+          "token": "quirks",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "main-bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "quirks",
+          "target_qualified_name": "Village.quirks"
+        },
+        {
+          "raw": "[bigpopulation]",
+          "token": "bigpopulation",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "main-bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "bigpopulation",
+          "target_qualified_name": "Village.bigpopulation"
+        },
+        {
+          "raw": "[local heroes]",
+          "token": "local heroes",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "main-bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "local heroes",
+          "target_qualified_name": "Village.local heroes"
+        },
+        {
+          "raw": "[maybe group]",
+          "token": "maybe group",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "main-bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "maybe group",
+          "target_qualified_name": "Village.maybe group"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "bigpopulation",
+      "local heroes",
+      "maybe group",
+      "quirks"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main-bigpopulation\n1,[quirks]<br />usually population [bigpopulation]<br />[local heroes]<br />[maybe group]",
+  "warnings": []
+}

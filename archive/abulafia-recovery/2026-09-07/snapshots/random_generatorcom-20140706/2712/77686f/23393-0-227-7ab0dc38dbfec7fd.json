@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 23393,
+    "timestamp": "2014-06-25T17:20:48Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "1f6ac1e75e68be708f80149250b035bbaf38a87839d50faf12d9343c60bae367",
+      "rawSha256": "7ab0dc38dbfec7fd5b3b463b16e3df90bc8dcba4df29c4c1d4fa376743990bd7",
+      "revisionId": "23393",
+      "line": 227,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23393",
+        "timestamp": "2014-06-25T17:20:48Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "who",
+    "qualified_name": "Creepy Fantasy Villain.who",
+    "table_block_index": 0,
+    "line_number": 227
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "who",
+      "raw_text": "1,who",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "that",
+      "raw_text": "2,that",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "which",
+      "raw_text": "1,which",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";who\n1,who\n2,that\n1,which",
+  "warnings": []
+}

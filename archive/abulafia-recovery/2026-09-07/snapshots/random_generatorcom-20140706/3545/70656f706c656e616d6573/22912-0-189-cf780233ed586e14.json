@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22912,
+    "timestamp": "2014-06-10T22:41:28Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6cee8dae03544722b1c77a12fc4440bb754d371a74944a84ee3b20db2a3a5876",
+      "rawSha256": "cf780233ed586e1419a59676d89ed87b7bd6c463f10416a8a62a4bee69b5a127",
+      "revisionId": "22912",
+      "line": 189,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "peoplenames",
+    "qualified_name": "OSR weapon.peoplenames",
+    "table_block_index": 0,
+    "line_number": 189
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Demon Name.main]",
+      "raw_text": "1,[Demon Name.main]",
+      "references": [
+        {
+          "raw": "[Demon Name.main]",
+          "token": "Demon Name.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Demon Name",
+          "target_subtable": "main",
+          "target_qualified_name": "Demon Name.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Angel Name.main]",
+      "raw_text": "1,[Angel Name.main]",
+      "references": [
+        {
+          "raw": "[Angel Name.main]",
+          "token": "Angel Name.main",
+          "kind": "unresolved_cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Angel Name",
+          "target_subtable": "main",
+          "target_qualified_name": "Angel Name.main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Fantasy Names.main]",
+      "raw_text": "1,[Fantasy Names.main]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.main]",
+          "token": "Fantasy Names.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Fantasy Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Names.main"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Catholic Saint Names.main]",
+      "raw_text": "1,[Catholic Saint Names.main]",
+      "references": [
+        {
+          "raw": "[Catholic Saint Names.main]",
+          "token": "Catholic Saint Names.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "peoplenames",
+          "target_page": "Catholic Saint Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Catholic Saint Names.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Catholic Saint Names.main",
+      "Demon Name.main",
+      "Fantasy Names.main"
+    ],
+    "unresolved": [
+      "Angel Name.main"
+    ]
+  },
+  "raw_source": ";peoplenames\n1,[Demon Name.main]\n1,[Angel Name.main]\n1,[Fantasy Names.main]\n1,[Catholic Saint Names.main]",
+  "warnings": []
+}

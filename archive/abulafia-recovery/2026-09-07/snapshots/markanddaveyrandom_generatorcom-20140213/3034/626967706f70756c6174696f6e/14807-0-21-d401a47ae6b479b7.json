@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14807,
+    "timestamp": "2012-06-24T15:48:48Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "abeb00cd04689b70373a41bb49302e2a77ac21e9749934104b097aa3f958c630",
+      "rawSha256": "d401a47ae6b479b7a68f063a31d8029dcf3dae1bf323addac135a97a3189e15a",
+      "revisionId": "14807",
+      "line": 21,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bigpopulation",
+    "qualified_name": "Village.bigpopulation",
+    "table_block_index": 0,
+    "line_number": 21
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "850 (3 noble houses, 2 tailors, tavern, mason, carpenter, mill, baker)",
+      "raw_text": "3,850 (3 noble houses, 2 tailors, tavern, mason, carpenter, mill, baker)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "1500 (5 noble houses, 4 tailors, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)",
+      "raw_text": "2,1500 (5 noble houses, 4 tailors, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "2500 (5 noble houses, 4 tailors, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)",
+      "raw_text": "1,2500 (5 noble houses, 4 tailors, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bigpopulation\n3,850 (3 noble houses, 2 tailors, tavern, mason, carpenter, mill, baker)\n2,1500 (5 noble houses, 4 tailors, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)\n1,2500 (5 noble houses, 4 tailors, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)",
+  "warnings": []
+}

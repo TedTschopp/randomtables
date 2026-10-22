@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "34f9c2a32c442424de99edfb0b9a1aa8c4d84ea9db22174cd879a59678818054",
+      "revisionId": "9620",
+      "line": 344,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ritePerformance",
+    "qualified_name": "Rituals.ritePerformance",
+    "table_block_index": 0,
+    "line_number": 344
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "read a sacred text",
+      "raw_text": "1,read a sacred text",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "perform a particular dance",
+      "raw_text": "1,perform a particular dance",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "perform a particular piece of theater",
+      "raw_text": "1,perform a particular piece of theater",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "sing a particular song",
+      "raw_text": "1,sing a particular song",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "perform sacred drumming",
+      "raw_text": "1,perform sacred drumming",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "have a procession",
+      "raw_text": "1,have a procession",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pray publicly",
+      "raw_text": "1,pray publicly",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "reenact a particular event",
+      "raw_text": "1,reenact a particular event",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "assume the identity of a totem animal using masks and costumes",
+      "raw_text": "1,assume the identity of a totem animal using masks and costumes",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "dance naked around a fire",
+      "raw_text": "1,dance naked around a fire",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "jump over a fire",
+      "raw_text": "1,jump over a fire",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "tell a frightening story to the village youths",
+      "raw_text": "1,tell a frightening story to the village youths",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "spend a night howling at the moon",
+      "raw_text": "1,spend a night howling at the moon",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "be hypnotized",
+      "raw_text": "1,be hypnotized",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ritePerformance\n1,read a sacred text\n1,perform a particular dance\n1,perform a particular piece of theater\n1,sing a particular song\n1,perform sacred drumming\n1,have a procession\n1,pray publicly\n1,reenact a particular event\n1,assume the identity of a totem animal using masks and costumes\n1,dance naked around a fire\n1,jump over a fire\n1,tell a frightening story to the village youths\n1,spend a night howling at the moon\n1,be hypnotized",
+  "warnings": []
+}

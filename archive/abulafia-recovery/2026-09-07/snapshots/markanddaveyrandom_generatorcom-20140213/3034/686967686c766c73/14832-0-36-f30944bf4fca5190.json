@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14832,
+    "timestamp": "2012-06-24T16:46:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "17b4f87dcbd1b90d37d06258511fce9f824571b616f275691a8b5ed7f26cfda2",
+      "rawSha256": "f30944bf4fca51909d949821d1c35b34d9c856a78da35129e7a6ae04018b2c68",
+      "revisionId": "14832",
+      "line": 36,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "highlvls",
+    "qualified_name": "Village.highlvls",
+    "table_block_index": 0,
+    "line_number": 36
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1350,
+      "text": "[lv7]",
+      "raw_text": "1350,[lv7]",
+      "references": [
+        {
+          "raw": "[lv7]",
+          "token": "lv7",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "highlvls",
+          "target_page": "Village",
+          "target_subtable": "lv7",
+          "target_qualified_name": "Village.lv7"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 135,
+      "text": "[lv8]",
+      "raw_text": "135,[lv8]",
+      "references": [
+        {
+          "raw": "[lv8]",
+          "token": "lv8",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "highlvls",
+          "target_page": "Village",
+          "target_subtable": "lv8",
+          "target_qualified_name": "Village.lv8"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 10,
+      "text": "[lv9]",
+      "raw_text": "10,[lv9]",
+      "references": [
+        {
+          "raw": "[lv9]",
+          "token": "lv9",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "highlvls",
+          "target_page": "Village",
+          "target_subtable": "lv9",
+          "target_qualified_name": "Village.lv9"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[lv10]",
+      "raw_text": "1,[lv10]",
+      "references": [
+        {
+          "raw": "[lv10]",
+          "token": "lv10",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "highlvls",
+          "target_page": "Village",
+          "target_subtable": "lv10",
+          "target_qualified_name": "Village.lv10"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "lv10",
+      "lv7",
+      "lv8",
+      "lv9"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";highlvls\n1350,[lv7]\n135,[lv8]\n10,[lv9]\n1,[lv10]",
+  "warnings": []
+}

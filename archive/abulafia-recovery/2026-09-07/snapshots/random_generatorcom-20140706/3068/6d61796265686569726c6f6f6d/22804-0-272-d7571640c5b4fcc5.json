@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "d7571640c5b4fcc5bb0282d75b23958713324a905435d19e37e4ff1934587220",
+      "revisionId": "22804",
+      "line": 272,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybeheirloom",
+    "qualified_name": "Starting Equipment.maybeheirloom",
+    "table_block_index": 0,
+    "line_number": 272
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": ", [family]'s [metal-precious] watch",
+      "raw_text": "1,, [family]'s [metal-precious] watch",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        },
+        {
+          "raw": "[metal-precious]",
+          "token": "metal-precious",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "metal-precious",
+          "target_qualified_name": "Starting Equipment.metal-precious"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": ", [family]'s [metal-precious] brooch",
+      "raw_text": "1,, [family]'s [metal-precious] brooch",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        },
+        {
+          "raw": "[metal-precious]",
+          "token": "metal-precious",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "metal-precious",
+          "target_qualified_name": "Starting Equipment.metal-precious"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": ", [family]'s [metal-precious] locket",
+      "raw_text": "1,, [family]'s [metal-precious] locket",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        },
+        {
+          "raw": "[metal-precious]",
+          "token": "metal-precious",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "metal-precious",
+          "target_qualified_name": "Starting Equipment.metal-precious"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": ", [metal-precious] tooth",
+      "raw_text": "1,, [metal-precious] tooth",
+      "references": [
+        {
+          "raw": "[metal-precious]",
+          "token": "metal-precious",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "metal-precious",
+          "target_qualified_name": "Starting Equipment.metal-precious"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "family",
+      "metal-precious"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybeheirloom\n10,\n1,, [family]'s [metal-precious] watch\n1,, [family]'s [metal-precious] brooch\n1,, [family]'s [metal-precious] locket\n1,, [metal-precious] tooth",
+  "warnings": []
+}

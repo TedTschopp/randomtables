@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "10f191d0ca673dc9bd59eabf919486c12c73c900bed7338d952e774736ca0dd9",
+      "revisionId": "21256",
+      "line": 69,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mount-weird",
+    "qualified_name": "Ostler.mount-weird",
+    "table_block_index": 0,
+    "line_number": 69
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.power-animal]",
+      "raw_text": "1,[Quick Zone Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "mount-weird",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";mount-weird\n1,[Quick Zone Populations.power-animal]",
+  "warnings": []
+}

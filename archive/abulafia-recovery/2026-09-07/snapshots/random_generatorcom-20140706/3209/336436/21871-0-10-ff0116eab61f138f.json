@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modifier",
+    "page_id": 3209
+  },
+  "source": {
+    "revision_id": 21871,
+    "timestamp": "2014-05-20T16:20:28Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9280b6923969fe6ebdb439c7d5ca71b77017d4edef849d4fae754b66b59a8e6a",
+      "rawSha256": "ff0116eab61f138fbf8e011f8e692b85fe030d94e0b38e9599215b12d67f8d52",
+      "revisionId": "21871",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22112",
+        "timestamp": "2014-05-26T08:04:03Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "3d6",
+    "qualified_name": "Modifier.3d6",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "3",
+      "raw_text": "1,3",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "4",
+      "raw_text": "3,4",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 6,
+      "text": "5",
+      "raw_text": "6,5",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 10,
+      "text": "6",
+      "raw_text": "10,6",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 15,
+      "text": "7",
+      "raw_text": "15,7",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 21,
+      "text": "8",
+      "raw_text": "21,8",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 25,
+      "text": "9",
+      "raw_text": "25,9",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 27,
+      "text": "10",
+      "raw_text": "27,10",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 27,
+      "text": "11",
+      "raw_text": "27,11",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 25,
+      "text": "12",
+      "raw_text": "25,12",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 21,
+      "text": "13",
+      "raw_text": "21,13",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 15,
+      "text": "14",
+      "raw_text": "15,14",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 10,
+      "text": "15",
+      "raw_text": "10,15",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 6,
+      "text": "16",
+      "raw_text": "6,16",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 3,
+      "text": "17",
+      "raw_text": "3,17",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "18",
+      "raw_text": "1,18",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";3d6\n1,3\n3,4\n6,5\n10,6\n15,7\n21,8\n25,9\n27,10\n27,11\n25,12\n21,13\n15,14\n10,15\n6,16\n3,17\n1,18",
+  "warnings": []
+}

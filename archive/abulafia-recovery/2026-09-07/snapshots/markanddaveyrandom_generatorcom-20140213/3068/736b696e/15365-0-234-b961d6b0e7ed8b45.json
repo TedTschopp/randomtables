@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15365,
+    "timestamp": "2012-10-08T09:44:26Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f5b5ac7cfba55276ada10fd723357a728d4bb94fb753dfb07cbb69f0db208b63",
+      "rawSha256": "b961d6b0e7ed8b45d2219ba83e4a5040ee4e80d1d6162ea494e0bc84a50d59c5",
+      "revisionId": "15365",
+      "line": 234,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "skin",
+    "qualified_name": "Starting Equipment.skin",
+    "table_block_index": 0,
+    "line_number": 234
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "aleskin",
+      "raw_text": "1,aleskin",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "wineskin",
+      "raw_text": "1,wineskin",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "waterskin\n<sgdisplay iterations=\"1\">[rope]</sgdisplay>\n<sgdisplay iterations=\"1\">[adventuregear]</sgdisplay>",
+      "raw_text": "1,waterskin\n<sgdisplay iterations=\"1\">[rope]</sgdisplay>\n<sgdisplay iterations=\"1\">[adventuregear]</sgdisplay>",
+      "references": [
+        {
+          "raw": "[rope]",
+          "token": "rope",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "skin",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rope",
+          "target_qualified_name": "Starting Equipment.rope"
+        },
+        {
+          "raw": "[adventuregear]",
+          "token": "adventuregear",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "skin",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventuregear",
+          "target_qualified_name": "Starting Equipment.adventuregear"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "adventuregear",
+      "rope"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";skin\n1,aleskin\n1,wineskin\n1,waterskin\n\n\n<sgdisplay iterations=\"1\">[rope]</sgdisplay>\n<sgdisplay iterations=\"1\">[adventuregear]</sgdisplay>",
+  "warnings": []
+}

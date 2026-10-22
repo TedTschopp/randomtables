@@ -1,0 +1,744 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 23393,
+    "timestamp": "2014-06-25T17:20:48Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "1f6ac1e75e68be708f80149250b035bbaf38a87839d50faf12d9343c60bae367",
+      "rawSha256": "0593e390999375cfb755902a9a33ae30725e4a2f175e7528f3fadda917c07510",
+      "revisionId": "23393",
+      "line": 97,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23393",
+        "timestamp": "2014-06-25T17:20:48Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Scary",
+    "qualified_name": "Creepy Fantasy Villain.Scary",
+    "table_block_index": 0,
+    "line_number": 97
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Maggots",
+      "raw_text": "1,Maggots",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Despair",
+      "raw_text": "1,Despair",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Nine Shadows",
+      "raw_text": "1,Nine Shadows",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Mutilations",
+      "raw_text": "1,Mutilations",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Thirst",
+      "raw_text": "1,Thirst",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Starvation",
+      "raw_text": "1,Starvation",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "30 Lies",
+      "raw_text": "1,30 Lies",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "The Red Eye",
+      "raw_text": "1,The Red Eye",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "The Bleak Eye",
+      "raw_text": "1,The Bleak Eye",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "The Unshriven Light",
+      "raw_text": "1,The Unshriven Light",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Dust",
+      "raw_text": "1,Dust",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "The Desert Waste",
+      "raw_text": "1,The Desert Waste",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "The Abandoned City",
+      "raw_text": "1,The Abandoned City",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "The Long Cold",
+      "raw_text": "1,The Long Cold",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Terror",
+      "raw_text": "1,Terror",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Failure",
+      "raw_text": "1,Failure",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Desolation",
+      "raw_text": "1,Desolation",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "All Diseases",
+      "raw_text": "1,All Diseases",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "All Maladies",
+      "raw_text": "1,All Maladies",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "All Fates",
+      "raw_text": "1,All Fates",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Disintegration",
+      "raw_text": "1,Disintegration",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Annihilation",
+      "raw_text": "1,Annihilation",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Annihilations",
+      "raw_text": "1,Annihilations",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Sorrow",
+      "raw_text": "1,Sorrow",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "All Sorrows",
+      "raw_text": "1,All Sorrows",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Murder",
+      "raw_text": "1,Murder",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "The Claws",
+      "raw_text": "1,The Claws",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "The Unholy",
+      "raw_text": "1,The Unholy",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "All Pain",
+      "raw_text": "1,All Pain",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Plagues",
+      "raw_text": "1,Plagues",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Fear",
+      "raw_text": "1,Fear",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "The Infinite Night",
+      "raw_text": "1,The Infinite Night",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "All Desolations",
+      "raw_text": "1,All Desolations",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "The Wolves",
+      "raw_text": "1,The Wolves",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "the Insects",
+      "raw_text": "1,the Insects",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "The Maggots",
+      "raw_text": "1,The Maggots",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "The Devouring",
+      "raw_text": "1,The Devouring",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "The Drowned",
+      "raw_text": "1,The Drowned",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "The Lunacies",
+      "raw_text": "1,The Lunacies",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "One Thousand Terrors",
+      "raw_text": "1,One Thousand Terrors",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "One Thousand Lunacies",
+      "raw_text": "1,One Thousand Lunacies",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "One Thousand Mutilations",
+      "raw_text": "1,One Thousand Mutilations",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "The Damned",
+      "raw_text": "1,The Damned",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "All Flesh",
+      "raw_text": "1,All Flesh",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Jackals",
+      "raw_text": "1,Jackals",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Dread",
+      "raw_text": "1,Dread",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Claws",
+      "raw_text": "1,Claws",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Drowning",
+      "raw_text": "1,Drowning",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Worms",
+      "raw_text": "1,Worms",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "The Worms",
+      "raw_text": "1,The Worms",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "The Burning",
+      "raw_text": "1,The Burning",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "The Other Moon",
+      "raw_text": "1,The Other Moon",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "The Hollow World",
+      "raw_text": "1,The Hollow World",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Snake Bearing Baskets",
+      "raw_text": "1,Snake Bearing Baskets",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Gore Ghost",
+      "raw_text": "1,Gore Ghost",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Gore Ghosts",
+      "raw_text": "1,Gore Ghosts",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Heartless",
+      "raw_text": "1,Heartless",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "The Heartless",
+      "raw_text": "1,The Heartless",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "The Trampled Flag",
+      "raw_text": "1,The Trampled Flag",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Blood",
+      "raw_text": "1,Blood",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Black Sky",
+      "raw_text": "1,Black Sky",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "The River of Sorrow",
+      "raw_text": "1,The River of Sorrow",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Birds",
+      "raw_text": "1,Birds",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Spiders",
+      "raw_text": "1,Spiders",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Hungry Machines",
+      "raw_text": "1,Hungry Machines",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Children",
+      "raw_text": "1,Children",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Ill Stars",
+      "raw_text": "1,Ill Stars",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Writhing Dogs",
+      "raw_text": "1,Writhing Dogs",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Screams",
+      "raw_text": "1,Screams",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Soul Faking",
+      "raw_text": "1,Soul Faking",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Circus",
+      "raw_text": "1,Circus",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "The Verminous Stables",
+      "raw_text": "1,The Verminous Stables  ",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Questing",
+      "raw_text": "1,Questing",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Hungry",
+      "raw_text": "1,Hungry",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Eye Plucked",
+      "raw_text": "1,Eye Plucked",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Crow",
+      "raw_text": "1,Crow",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Crows",
+      "raw_text": "1,Crows",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Hateful",
+      "raw_text": "1,Hateful",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Bile",
+      "raw_text": "1,Bile",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Filth and Muck",
+      "raw_text": "1,Filth and Muck",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Serenity",
+      "raw_text": "1,Serenity ",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Agony",
+      "raw_text": "1,Agony",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Skull Beetles",
+      "raw_text": "1,Skull Beetles",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Lost Sheep",
+      "raw_text": "1,Lost Sheep",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Nailing Of Dogs",
+      "raw_text": "1,Nailing Of Dogs",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Whispered Omens",
+      "raw_text": "1,Whispered Omens",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Fearful Children",
+      "raw_text": "1,Fearful Children",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Succulent Pets",
+      "raw_text": "1,Succulent Pets",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Limbless",
+      "raw_text": "1,Limbless",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Wrong Birthed",
+      "raw_text": "1,Wrong Birthed",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Brides",
+      "raw_text": "1,Brides",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Forlorn Marsh",
+      "raw_text": "1,Forlorn Marsh",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Skinbag",
+      "raw_text": "1,Skinbag",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Needful things",
+      "raw_text": "1,Needful things",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Nameless Science",
+      "raw_text": "1,Nameless Science",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Bone White School",
+      "raw_text": "1,Bone White School",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Drilling",
+      "raw_text": "1,Drilling",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Deathless Stag",
+      "raw_text": "1,Deathless Stag",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Necrotic Power",
+      "raw_text": "1,Necrotic Power",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Scary\n1,Maggots\n1,Despair\n1,Nine Shadows\n1,Mutilations\n1,Thirst\n1,Starvation\n1,30 Lies\n1,The Red Eye\n1,The Bleak Eye\n1,The Unshriven Light\n1,Dust\n1,The Desert Waste\n1,The Abandoned City\n1,The Long Cold\n1,Terror\n1,Failure\n1,Desolation\n1,All Diseases\n1,All Maladies\n1,All Fates\n1,Disintegration\n1,Annihilation\n1,Annihilations\n1,Sorrow\n1,All Sorrows\n1,Murder\n1,The Claws\n1,The Unholy\n1,All Pain\n1,Plagues\n1,Fear\n1,The Infinite Night\n1,All Desolations\n1,The Wolves\n1,the Insects\n1,The Maggots\n1,The Devouring\n1,The Drowned\n1,The Lunacies\n1,One Thousand Terrors\n1,One Thousand Lunacies\n1,One Thousand Mutilations\n1,The Damned\n1,All Flesh\n1,Jackals\n1,Dread\n1,Claws\n1,Drowning\n1,Worms\n1,The Worms\n1,The Burning\n1,The Other Moon\n1,The Hollow World\n1,Snake Bearing Baskets\n1,Gore Ghost\n1,Gore Ghosts\n1,Heartless\n1,The Heartless\n1,The Trampled Flag\n1,Blood\n1,Black Sky\n1,The River of Sorrow\n1,Birds\n1,Spiders\n1,Hungry Machines\n1,Children\n1,Ill Stars\n1,Writhing Dogs\n1,Screams\n1,Soul Faking\n1,Circus\n1,The Verminous Stables  \n1,Questing\n1,Hungry\n1,Eye Plucked\n1,Crow\n1,Crows\n1,Hateful\n1,Bile\n1,Filth and Muck\n1,Serenity \n1,Agony\n1,Skull Beetles\n1,Lost Sheep\n1,Nailing Of Dogs\n1,Whispered Omens\n1,Fearful Children\n1,Succulent Pets\n1,Limbless\n1,Wrong Birthed\n1,Brides\n1,Forlorn Marsh\n1,Skinbag\n1,Needful things\n1,Nameless Science\n1,Bone White School\n1,Drilling\n1,Deathless Stag\n1,Necrotic Power",
+  "warnings": []
+}

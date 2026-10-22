@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15511,
+    "timestamp": "2012-11-02T09:36:09Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e79c84e1912da6ce9b8161361ae3f4e3fb1f0df6186bc9d415203a67504f5b4f",
+      "rawSha256": "1e148aad48bb9027168ab03e3b88c6cdfc915d16f58f3967d3be3424fc6d1c95",
+      "revisionId": "15511",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "about-one-or-five",
+    "qualified_name": "Curse.about-one-or-five",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[about-five]",
+      "raw_text": "1,[about-five]",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "about-one-or-five",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[about-ten]",
+      "raw_text": "1,[about-ten]",
+      "references": [
+        {
+          "raw": "[about-ten]",
+          "token": "about-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "about-one-or-five",
+          "target_page": "Curse",
+          "target_subtable": "about-ten",
+          "target_qualified_name": "Curse.about-ten"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five",
+      "about-ten"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";about-one-or-five\n1,[about-five]\n1,[about-ten]",
+  "warnings": []
+}

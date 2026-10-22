@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "fb7a1dcbdce0b8c6f0558498a08fd3ff0e590b3859928be0f01f7df68244cac2",
+      "revisionId": "9620",
+      "line": 252,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "works",
+    "qualified_name": "Rituals.works",
+    "table_block_index": 0,
+    "line_number": 252
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a new palace",
+      "raw_text": "1,a new palace",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a new temple",
+      "raw_text": "1,a new temple",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a ship",
+      "raw_text": "1,a ship",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a military monument",
+      "raw_text": "1,a military monument",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "an offal-pit",
+      "raw_text": "1,an offal-pit",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a slave pit",
+      "raw_text": "1,a slave pit",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a warding stone",
+      "raw_text": "1,a warding stone",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a pallisade",
+      "raw_text": "1,a pallisade",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a trading house",
+      "raw_text": "1,a trading house",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a grist mill",
+      "raw_text": "1,a grist mill",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a stone circle",
+      "raw_text": "1,a stone circle",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "the longhouse of a chief",
+      "raw_text": "1,the longhouse of a chief",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "an aqueduct",
+      "raw_text": "1,an aqueduct",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a bathhouse",
+      "raw_text": "1,a bathhouse",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a ziggurat",
+      "raw_text": "1,a ziggurat",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a shrine",
+      "raw_text": "1,a shrine",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";works\n1,a new palace\n1,a new temple\n1,a ship\n1,a military monument\n1,an offal-pit\n1,a slave pit\n1,a warding stone\n1,a pallisade\n1,a trading house\n1,a grist mill\n1,a stone circle\n1,the longhouse of a chief\n1,an aqueduct\n1,a bathhouse\n1,a ziggurat\n1,a shrine",
+  "warnings": []
+}

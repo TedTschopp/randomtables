@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "0bf42cac21d746e1a3fe5666945c09f1f9b9b012be8d71c30d465fb3c8ef1417",
+      "revisionId": "20109",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Stars Without Number.main",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[class] [Background] [Expert Training]",
+      "raw_text": "1,[class] [Background] [Expert Training]",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "class",
+          "target_qualified_name": "Stars Without Number.class"
+        },
+        {
+          "raw": "[Background]",
+          "token": "Background",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Background",
+          "target_qualified_name": "Stars Without Number.Background"
+        },
+        {
+          "raw": "[Expert Training]",
+          "token": "Expert Training",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Expert Training",
+          "target_qualified_name": "Stars Without Number.Expert Training"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[class] [Background] [Warrior Training]",
+      "raw_text": "1,[class] [Background] [Warrior Training]",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "class",
+          "target_qualified_name": "Stars Without Number.class"
+        },
+        {
+          "raw": "[Background]",
+          "token": "Background",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Background",
+          "target_qualified_name": "Stars Without Number.Background"
+        },
+        {
+          "raw": "[Warrior Training]",
+          "token": "Warrior Training",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Warrior Training",
+          "target_qualified_name": "Stars Without Number.Warrior Training"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[class] [Background] [Psychic Training]",
+      "raw_text": "1,[class] [Background] [Psychic Training] ",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "class",
+          "target_qualified_name": "Stars Without Number.class"
+        },
+        {
+          "raw": "[Background]",
+          "token": "Background",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Background",
+          "target_qualified_name": "Stars Without Number.Background"
+        },
+        {
+          "raw": "[Psychic Training]",
+          "token": "Psychic Training",
+          "kind": "local",
+          "source_page": "Stars Without Number",
+          "source_subtable": "main",
+          "target_page": "Stars Without Number",
+          "target_subtable": "Psychic Training",
+          "target_qualified_name": "Stars Without Number.Psychic Training"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Background",
+      "Expert Training",
+      "Psychic Training",
+      "Warrior Training",
+      "class"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,[class] [Background] [Expert Training]\n1,[class] [Background] [Warrior Training]\n1,[class] [Background] [Psychic Training] ",
+  "warnings": []
+}

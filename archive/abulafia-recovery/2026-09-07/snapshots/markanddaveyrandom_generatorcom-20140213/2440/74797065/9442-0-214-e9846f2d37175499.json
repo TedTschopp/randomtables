@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "e9846f2d371754996caa9482566a4d1252b24d2b215f94469c677991d32dc22c",
+      "revisionId": "9442",
+      "line": 214,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "type",
+    "qualified_name": "New gen.type",
+    "table_block_index": 0,
+    "line_number": 214
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Alien",
+      "raw_text": "1,Alien",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "50 Foot",
+      "raw_text": "1,50 Foot",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Astro",
+      "raw_text": "1,Astro",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Atom Age",
+      "raw_text": "1,Atom Age",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "American",
+      "raw_text": "1,American",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Aztec",
+      "raw_text": "1,Aztec",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Awful",
+      "raw_text": "1,Awful",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "the Abominable",
+      "raw_text": "1,the Abominable",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Bizarre",
+      "raw_text": "1,Bizarre",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Blood-Sucking",
+      "raw_text": "1,Blood-Sucking",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Bloodthirsty",
+      "raw_text": "1,Bloodthirsty",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Deadly",
+      "raw_text": "1,Deadly",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Deformed",
+      "raw_text": "1,Deformed",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Diabolical",
+      "raw_text": "1,Diabolical",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Dreaded",
+      "raw_text": "1,Dreaded",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "[part] Devouring]",
+      "raw_text": "1,[part] Devouring]",
+      "references": [
+        {
+          "raw": "[part]",
+          "token": "part",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "type",
+          "target_page": "New gen",
+          "target_subtable": "part",
+          "target_qualified_name": "New gen.part"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Evil",
+      "raw_text": "1,Evil",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Flesh-Eating",
+      "raw_text": "1,Flesh-Eating",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Horrific",
+      "raw_text": "1,Horrific",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Killer",
+      "raw_text": "1,Killer",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Murderous",
+      "raw_text": "1,Murderous",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Mutated",
+      "raw_text": "1,Mutated",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Nightmarish",
+      "raw_text": "1,Nightmarish",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Wild",
+      "raw_text": "1,Wild",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Wicked",
+      "raw_text": "1,Wicked",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Satanic",
+      "raw_text": "1,Satanic",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Space",
+      "raw_text": "1,Space",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Vampire",
+      "raw_text": "1,Vampire",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Alien",
+      "raw_text": "1,Alien",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Rock",
+      "raw_text": "1,Rock",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Undead",
+      "raw_text": "1,Undead",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Unliving",
+      "raw_text": "1,Unliving",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Mega",
+      "raw_text": "1,Mega",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Cyber",
+      "raw_text": "1,Cyber",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Bloody",
+      "raw_text": "1,Bloody",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "shdow",
+      "raw_text": "1,shdow",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "darkness",
+      "raw_text": "1,darkness",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "girl",
+      "raw_text": "1,girl",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "part"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";type\n4,\n1,Alien\n1,50 Foot\n1,Astro\n1,Atom Age\n1,American\n1,Aztec\n1,Awful\n1,the Abominable\n1,Bizarre\n1,Blood-Sucking\n1,Bloodthirsty\n1,Deadly\n1,Deformed\n1,Diabolical\n1,Dreaded\n1,[part] Devouring]\n1,Evil\n1,Flesh-Eating\n1,Horrific\n1,Killer\n1,Murderous\n1,Mutated\n1,Nightmarish\n1,Wild\n1,Wicked\n1,Satanic\n1,Space\n1,Vampire\n1,Alien\n1,Rock\n1,Undead\n1,Unliving\n1,Mega\n1,Cyber\n1,Bloody\n1,shdow\n1,darkness\n1,girl",
+  "warnings": []
+}

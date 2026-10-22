@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "85263c6c769a039695653a48f21809db66f06c55e0162cfb19c7584850c3bc04",
+      "revisionId": "17133",
+      "line": 720,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "species-name-singular",
+    "qualified_name": "Planar Codex Parish.species-name-singular",
+    "table_block_index": 0,
+    "line_number": 720
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Android",
+      "raw_text": "1,Android",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Human",
+      "raw_text": "1,Human",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Elf",
+      "raw_text": "1,Elf",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Halfling",
+      "raw_text": "1,Halfling",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Dwarve",
+      "raw_text": "1,Dwarve",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Amazon",
+      "raw_text": "1,Amazon",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Ghoul",
+      "raw_text": "1,Ghoul",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Beast Folk",
+      "raw_text": "1,Beast Folk",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Minotaur",
+      "raw_text": "1,Minotaur",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Great Ape",
+      "raw_text": "1,Great Ape",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Mushroom Folk",
+      "raw_text": "1,Mushroom Folk",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Vampire",
+      "raw_text": "1,Vampire",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Starfish Man",
+      "raw_text": "1,Starfish Man",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Deep Folk",
+      "raw_text": "1,Deep Folk",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Gargoyle",
+      "raw_text": "1,Gargoyle",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Rat Thing",
+      "raw_text": "1,Rat Thing",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Ogre",
+      "raw_text": "1,Ogre",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Titan",
+      "raw_text": "1,Titan",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1,Demon",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Thrall",
+      "raw_text": "1,Thrall",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Elemental",
+      "raw_text": "1,Elemental",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Construct",
+      "raw_text": "1,Construct",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Lightning Brain",
+      "raw_text": "1,Lightning Brain",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Slime",
+      "raw_text": "1,Slime",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Gith",
+      "raw_text": "1,Gith",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Squid Folk",
+      "raw_text": "1,Squid Folk",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Spider",
+      "raw_text": "1,Spider",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Cat-Demon",
+      "raw_text": "1,Cat-Demon",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Giant Ant",
+      "raw_text": "1,Giant Ant",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Giant Wasp",
+      "raw_text": "1,Giant Wasp",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Beyond-Spawn",
+      "raw_text": "1,Beyond-Spawn",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Slug",
+      "raw_text": "1,Slug",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Raptor Man",
+      "raw_text": "1,Raptor Man",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Krakenoid",
+      "raw_text": "1,Krakenoid",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Shadow",
+      "raw_text": "1,Shadow",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Siren",
+      "raw_text": "1,Siren",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Ghost",
+      "raw_text": "1,Ghost",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Lizard Folk",
+      "raw_text": "1,Lizard Folk",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Angel",
+      "raw_text": "1,Angel",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Centaur",
+      "raw_text": "1,Centaur",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Scorpion",
+      "raw_text": "1,Scorpion",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Rook Folk",
+      "raw_text": "1,Rook Folk",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Archon",
+      "raw_text": "1,Archon",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Gorgon",
+      "raw_text": "1,Gorgon",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Vulture Folk",
+      "raw_text": "1,Vulture Folk",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Pixie",
+      "raw_text": "1,Pixie",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Yeti",
+      "raw_text": "1,Yeti",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Serpent-Thing",
+      "raw_text": "1,Serpent-Thing",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Automaton",
+      "raw_text": "1,Automaton",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";species-name-singular\n1,Android\n1,Human\n1,Elf\n1,Halfling\n1,Dwarve\n1,Amazon\n1,Ghoul\n1,Beast Folk\n1,Minotaur\n1,Great Ape\n1,Mushroom Folk\n1,Vampire\n1,Starfish Man\n1,Deep Folk\n1,Gargoyle\n1,Rat Thing\n1,Ogre\n1,Titan\n1,Demon\n1,Thrall\n1,Elemental\n1,Construct\n1,Lightning Brain\n1,Slime\n1,Gith\n1,Squid Folk\n1,Spider\n1,Cat-Demon\n1,Giant Ant\n1,Giant Wasp\n1,Beyond-Spawn\n1,Slug\n1,Raptor Man\n1,Krakenoid\n1,Shadow\n1,Siren\n1,Ghost\n1,Lizard Folk\n1,Angel\n1,Centaur\n1,Scorpion\n1,Rook Folk\n1,Archon\n1,Gorgon\n1,Vulture Folk\n1,Pixie\n1,Yeti\n1,Serpent-Thing\n1,Automaton",
+  "warnings": []
+}

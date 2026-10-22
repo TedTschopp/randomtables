@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 16077,
+    "timestamp": "2012-12-06T02:38:48Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "031766fc683e7b68dbf05685eb7de9d0c2d8d5fbf1580c74c8d7fb77d82c452c",
+      "rawSha256": "6a203636c0bb036df9cba0206e47772df59c03239e96f4560f47b63281ea6987",
+      "revisionId": "16077",
+      "line": 32,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17754",
+        "timestamp": "2013-06-18T18:25:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "equipment",
+    "qualified_name": "Hireling.equipment",
+    "table_block_index": 0,
+    "line_number": 32
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Starting Equipment.adventurer gear]",
+      "raw_text": "1,[Starting Equipment.adventurer gear]",
+      "references": [
+        {
+          "raw": "[Starting Equipment.adventurer gear]",
+          "token": "Starting Equipment.adventurer gear",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "equipment",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventurer gear",
+          "target_qualified_name": "Starting Equipment.adventurer gear"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Starting Equipment.adventurer gear"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";equipment\n1,[Starting Equipment.adventurer gear]",
+  "warnings": []
+}

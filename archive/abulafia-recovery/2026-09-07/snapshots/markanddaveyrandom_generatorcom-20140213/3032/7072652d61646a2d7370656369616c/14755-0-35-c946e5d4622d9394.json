@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14755,
+    "timestamp": "2012-06-20T11:09:47Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "64cb2bc2bccc7f92830b3adba3d543bf2c72f4472b3b34e3ab6bdac83d113a68",
+      "rawSha256": "c946e5d4622d93943c3cbefd30048d9773df6ac664c6129365f3f8ecff47b3ca",
+      "revisionId": "14755",
+      "line": 35,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "pre-adj-special",
+    "qualified_name": "Ostler.pre-adj-special",
+    "table_block_index": 0,
+    "line_number": 35
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "shadow",
+      "raw_text": "1,shadow",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "fey",
+      "raw_text": "1,fey",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "amphibious",
+      "raw_text": "1,amphibious",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "double",
+      "raw_text": "1,double",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "devil",
+      "raw_text": "1,devil",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "dire",
+      "raw_text": "1,dire",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "flying",
+      "raw_text": "1,flying",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[pre-adj]",
+      "raw_text": "1,[pre-adj]",
+      "references": [
+        {
+          "raw": "[pre-adj]",
+          "token": "pre-adj",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "pre-adj-special",
+          "target_page": "Ostler",
+          "target_subtable": "pre-adj",
+          "target_qualified_name": "Ostler.pre-adj"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "pre-adj"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";pre-adj-special\n1,shadow\n1,fey\n1,amphibious\n1,double\n1,devil\n1,dire\n1,flying\n1,[pre-adj]",
+  "warnings": []
+}

@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "c627351d20385b0f6c75047505454dee261553a463f18e511fa5eeff05703f12",
+      "revisionId": "17133",
+      "line": 503,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "individual-descriptor",
+    "qualified_name": "Planar Codex Parish.individual-descriptor",
+    "table_block_index": 0,
+    "line_number": 503
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "loathesome",
+      "raw_text": "1,loathesome",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "insomniac",
+      "raw_text": "1,insomniac",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "contagious",
+      "raw_text": "1,contagious",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "mutated",
+      "raw_text": "1,mutated",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "winsome",
+      "raw_text": "1,winsome",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "furtive",
+      "raw_text": "1,furtive",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "feverish",
+      "raw_text": "1,feverish",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "tenacious",
+      "raw_text": "1,tenacious",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "hunchbacked",
+      "raw_text": "1,hunchbacked",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "sterilized",
+      "raw_text": "1,sterilized",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "ill",
+      "raw_text": "1,ill",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "diseased",
+      "raw_text": "1,diseased",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "handsome",
+      "raw_text": "1,handsome",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "lascivious",
+      "raw_text": "1,lascivious",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "undersexed",
+      "raw_text": "1,undersexed",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "elderly",
+      "raw_text": "1,elderly",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "unaging",
+      "raw_text": "1,unaging",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "musical",
+      "raw_text": "1,musical",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "ugly",
+      "raw_text": "1,ugly",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "pregnant",
+      "raw_text": "1,pregnant",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "wealthy",
+      "raw_text": "1,wealthy",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "corpulent",
+      "raw_text": "1,corpulent",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "skinny",
+      "raw_text": "1,skinny",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "tattooed",
+      "raw_text": "1,tattooed",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "baubled",
+      "raw_text": "1,baubled",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "resplendent",
+      "raw_text": "1,resplendent",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "elegant",
+      "raw_text": "1,elegant",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "robust",
+      "raw_text": "1,robust",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "limping",
+      "raw_text": "1,limping",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "serene",
+      "raw_text": "1,serene",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "romantic",
+      "raw_text": "1,romantic",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "vivacious",
+      "raw_text": "1,vivacious",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "sullen",
+      "raw_text": "1,sullen",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "young",
+      "raw_text": "1,young",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "childish",
+      "raw_text": "1,childish",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "cynical",
+      "raw_text": "1,cynical",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "fierce",
+      "raw_text": "1,fierce",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "feeble",
+      "raw_text": "1,feeble",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "feebleminded",
+      "raw_text": "1,feebleminded",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "insane",
+      "raw_text": "1,insane",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "venomous",
+      "raw_text": "1,venomous",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "gossipy",
+      "raw_text": "1,gossipy",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "limbless",
+      "raw_text": "1,limbless",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "deaf",
+      "raw_text": "1,deaf",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "blind",
+      "raw_text": "1,blind",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "earnest",
+      "raw_text": "1,earnest",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "disapproving",
+      "raw_text": "1,disapproving",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "mute",
+      "raw_text": "1,mute",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "unremarkable",
+      "raw_text": "1,unremarkable",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "tormented",
+      "raw_text": "1,tormented",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "anguished",
+      "raw_text": "1,anguished",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "reserved",
+      "raw_text": "1,reserved",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "energetic",
+      "raw_text": "1,energetic",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "topknotted",
+      "raw_text": "1,topknotted",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "bearded",
+      "raw_text": "1,bearded",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "mustachioed",
+      "raw_text": "1,mustachioed",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "shaved",
+      "raw_text": "1,shaved",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "bald",
+      "raw_text": "1,bald",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "notorious",
+      "raw_text": "1,notorious",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "one-eyed",
+      "raw_text": "1,one-eyed",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "savage",
+      "raw_text": "1,savage",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "effete",
+      "raw_text": "1,effete",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";individual-descriptor\n1,loathesome\n1,insomniac\n1,contagious\n1,mutated\n1,winsome\n1,furtive\n1,feverish\n1,tenacious\n1,hunchbacked\n1,sterilized\n1,ill\n1,diseased\n1,handsome\n1,lascivious\n1,undersexed\n1,elderly\n1,unaging\n1,musical\n1,ugly\n1,pregnant\n1,wealthy\n1,corpulent\n1,skinny\n1,tattooed\n1,baubled\n1,resplendent\n1,elegant\n1,robust\n1,limping\n1,serene\n1,romantic\n1,vivacious\n1,sullen\n1,young\n1,childish\n1,cynical\n1,fierce\n1,feeble\n1,feebleminded\n1,insane\n1,venomous\n1,gossipy\n1,limbless\n1,deaf\n1,blind\n1,earnest\n1,disapproving\n1,mute\n1,unremarkable\n1,tormented\n1,anguished\n1,reserved\n1,energetic\n1,topknotted\n1,bearded\n1,mustachioed\n1,shaved\n1,bald\n1,notorious\n1,one-eyed\n1,savage\n1,effete",
+  "warnings": []
+}

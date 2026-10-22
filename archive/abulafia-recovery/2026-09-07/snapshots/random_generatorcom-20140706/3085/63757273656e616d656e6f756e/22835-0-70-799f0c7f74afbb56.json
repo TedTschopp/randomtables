@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "799f0c7f74afbb565df41733958c07c4168a8a4e8d04179fe138020467c2d8ba",
+      "revisionId": "22835",
+      "line": 70,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursenamenoun",
+    "qualified_name": "Curse.cursenamenoun",
+    "table_block_index": 0,
+    "line_number": 70
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "TASK",
+      "raw_text": "1,TASK",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "EFFORT",
+      "raw_text": "1,EFFORT",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "MARK",
+      "raw_text": "1,MARK",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "LAMENT",
+      "raw_text": "1,LAMENT",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "DILEMMA",
+      "raw_text": "1,DILEMMA",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "PROMISE",
+      "raw_text": "1,PROMISE",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "PRICE",
+      "raw_text": "1,PRICE",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "SORROW",
+      "raw_text": "1,SORROW",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "END",
+      "raw_text": "1,END",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "TROUBLE",
+      "raw_text": "1,TROUBLE",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "JOKE",
+      "raw_text": "1,JOKE",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "TEST",
+      "raw_text": "1,TEST",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "BREW",
+      "raw_text": "1,BREW",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "SERUM",
+      "raw_text": "1,SERUM",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "MALADY",
+      "raw_text": "1,MALADY",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "BEAST",
+      "raw_text": "1,BEAST",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "TRIAL",
+      "raw_text": "1,TRIAL",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "JUDGEMENT",
+      "raw_text": "1,JUDGEMENT",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "SENTENCE",
+      "raw_text": "1,SENTENCE",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "SKULL",
+      "raw_text": "1,SKULL",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "TOOL",
+      "raw_text": "1,TOOL",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "WEAPON",
+      "raw_text": "1,WEAPON",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "JINX",
+      "raw_text": "1,JINX",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "EYE",
+      "raw_text": "1,EYE",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cursenamenoun\n1,TASK\n1,EFFORT\n1,MARK\n1,LAMENT\n1,DILEMMA\n1,PROMISE\n1,PRICE\n1,SORROW\n1,END\n1,TROUBLE\n1,JOKE\n1,TEST\n1,BREW\n1,SERUM\n1,MALADY\n1,BEAST\n1,TRIAL\n1,JUDGEMENT\n1,SENTENCE\n1,SKULL\n1,TOOL\n1,WEAPON\n1,JINX\n1,EYE",
+  "warnings": []
+}

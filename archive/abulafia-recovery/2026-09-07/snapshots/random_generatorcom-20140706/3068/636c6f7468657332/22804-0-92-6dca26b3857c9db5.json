@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "6dca26b3857c9db5f5d2e301b54ae4f480cec0f457c457f933eed5e3d822fe79",
+      "revisionId": "22804",
+      "line": 92,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "clothes2",
+    "qualified_name": "Starting Equipment.clothes2",
+    "table_block_index": 0,
+    "line_number": 92
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[top], [pant]",
+      "raw_text": "1,[top], [pant]",
+      "references": [
+        {
+          "raw": "[top]",
+          "token": "top",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes2",
+          "target_page": "Starting Equipment",
+          "target_subtable": "top",
+          "target_qualified_name": "Starting Equipment.top"
+        },
+        {
+          "raw": "[pant]",
+          "token": "pant",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes2",
+          "target_page": "Starting Equipment",
+          "target_subtable": "pant",
+          "target_qualified_name": "Starting Equipment.pant"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[robe]",
+      "raw_text": "1,[robe]",
+      "references": [
+        {
+          "raw": "[robe]",
+          "token": "robe",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes2",
+          "target_page": "Starting Equipment",
+          "target_subtable": "robe",
+          "target_qualified_name": "Starting Equipment.robe"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "pant",
+      "robe",
+      "top"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";clothes2\n1,[top], [pant]\n1,[robe]",
+  "warnings": []
+}

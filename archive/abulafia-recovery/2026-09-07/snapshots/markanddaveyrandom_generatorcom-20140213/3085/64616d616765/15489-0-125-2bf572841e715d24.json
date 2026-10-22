@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15489,
+    "timestamp": "2012-11-02T08:37:38Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f3d99927ef133a3e1d83bfdd27466000eef9fd6460b1445e76a88f92b6714a2f",
+      "rawSha256": "2bf572841e715d24be97a5768a9e2dc04ec8a76999d3a366ca787fc667acfdb8",
+      "revisionId": "15489",
+      "line": 125,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "damage",
+    "qualified_name": "Curse.damage",
+    "table_block_index": 0,
+    "line_number": 125
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "damage",
+      "raw_text": "3,damage",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[damage-type] damage",
+      "raw_text": "1,[damage-type] damage",
+      "references": [
+        {
+          "raw": "[damage-type]",
+          "token": "damage-type",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "damage",
+          "target_page": "Curse",
+          "target_subtable": "damage-type",
+          "target_qualified_name": "Curse.damage-type"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "damage-type"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";damage\n3,damage\n1,[damage-type] damage",
+  "warnings": []
+}

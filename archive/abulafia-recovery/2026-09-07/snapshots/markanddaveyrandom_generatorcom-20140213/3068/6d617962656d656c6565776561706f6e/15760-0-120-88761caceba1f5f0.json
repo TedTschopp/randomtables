@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15760,
+    "timestamp": "2012-11-13T09:50:38Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "303c5825f1b0e733f76cd9f57a44751718b1273bc6cd98c93b132bbb0268731d",
+      "rawSha256": "88761caceba1f5f05db5af3dfd00fe896e1c3eaefc11bfb9bf00ffdd7f501bc6",
+      "revisionId": "15760",
+      "line": 120,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybemeleeweapon",
+    "qualified_name": "Starting Equipment.maybemeleeweapon",
+    "table_block_index": 0,
+    "line_number": 120
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "no melee weapon",
+      "raw_text": "1,no melee weapon",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 6,
+      "text": "[melee weapon]",
+      "raw_text": "6,[melee weapon]",
+      "references": [
+        {
+          "raw": "[melee weapon]",
+          "token": "melee weapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybemeleeweapon",
+          "target_page": "Starting Equipment",
+          "target_subtable": "melee weapon",
+          "target_qualified_name": "Starting Equipment.melee weapon"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "melee weapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybemeleeweapon\n1,no melee weapon\n6,[melee weapon]",
+  "warnings": []
+}

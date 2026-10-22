@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "1939a5da49e991dda002f3a838715c89273f80d65efda9ef714e911188564c61",
+      "revisionId": "9620",
+      "line": 123,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "marriageEvent",
+    "qualified_name": "Rituals.marriageEvent",
+    "table_block_index": 0,
+    "line_number": 123
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "at the marriage of your first [children]",
+      "raw_text": "1,at the marriage of your first [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "at the marriage of your [children]",
+      "raw_text": "1,at the marriage of your [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when your [children] gets betrothed",
+      "raw_text": "1,when your [children] gets betrothed",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when your [children] gets engaged",
+      "raw_text": "1,when your [children] gets engaged",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when a royal [children] gets betrothed",
+      "raw_text": "1,when a royal [children] gets betrothed",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when a royal [children] gets married",
+      "raw_text": "1,when a royal [children] gets married",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "when a name is chosen for a [children]",
+      "raw_text": "1,when a name is chosen for a [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "when a man takes a new wife",
+      "raw_text": "1,when a man takes a new wife",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "when a wife chooses her husband",
+      "raw_text": "1,when a wife chooses her husband",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "when the parents of children arrange their marriage",
+      "raw_text": "1,when the parents of children arrange their marriage",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "when a [manwoman] wishes to lie with a [manwoman]",
+      "raw_text": "1,when a [manwoman] wishes to lie with a [manwoman] ",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "marriageEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children",
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";marriageEvent\n1,at the marriage of your first [children]\n1,at the marriage of your [children]\n1,when your [children] gets betrothed\n1,when your [children] gets engaged\n1,when a royal [children] gets betrothed\n1,when a royal [children] gets married\n1,when a name is chosen for a [children]\n1,when a man takes a new wife\n1,when a wife chooses her husband\n1,when the parents of children arrange their marriage\n1,when a [manwoman] wishes to lie with a [manwoman] ",
+  "warnings": []
+}

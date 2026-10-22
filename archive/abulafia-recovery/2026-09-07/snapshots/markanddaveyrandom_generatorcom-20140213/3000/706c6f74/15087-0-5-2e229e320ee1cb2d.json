@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15087,
+    "timestamp": "2012-08-01T10:10:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c2c53f3a955b43634a82f944a5c63e0526562a13e2d6b6749bf329ebdbfcd84d",
+      "rawSha256": "2e229e320ee1cb2d2e15033f398f43b0581be29f2b73e017c4dc0ff4724300c3",
+      "revisionId": "15087",
+      "line": 5,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "plot",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.plot",
+    "table_block_index": 0,
+    "line_number": 5
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 91,
+      "text": "[supplication]",
+      "raw_text": "91, [supplication]",
+      "references": [
+        {
+          "raw": "[supplication]",
+          "token": "supplication",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "supplication",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.supplication"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 91,
+      "text": "[deliverance]",
+      "raw_text": "91, [deliverance]",
+      "references": [
+        {
+          "raw": "[deliverance]",
+          "token": "deliverance",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "deliverance",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.deliverance"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 91,
+      "text": "[crime]",
+      "raw_text": "91, [crime]",
+      "references": [
+        {
+          "raw": "[crime]",
+          "token": "crime",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "crime",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.crime"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 91,
+      "text": "[vengeance]",
+      "raw_text": "91, [vengeance]",
+      "references": [
+        {
+          "raw": "[vengeance]",
+          "token": "vengeance",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "vengeance",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.vengeance"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[PURSUIT]",
+      "raw_text": "1, [PURSUIT]",
+      "references": [
+        {
+          "raw": "[PURSUIT]",
+          "token": "PURSUIT",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "PURSUIT",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.PURSUIT"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[DISASTER]",
+      "raw_text": "1, [DISASTER]",
+      "references": [
+        {
+          "raw": "[DISASTER]",
+          "token": "DISASTER",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "DISASTER",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.DISASTER"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[FALLINGPREYTOCRUELTYORMISFORTUNE]",
+      "raw_text": "1, [FALLINGPREYTOCRUELTYORMISFORTUNE]",
+      "references": [
+        {
+          "raw": "[FALLINGPREYTOCRUELTYORMISFORTUNE]",
+          "token": "FALLINGPREYTOCRUELTYORMISFORTUNE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "FALLINGPREYTOCRUELTYORMISFORTUNE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.FALLINGPREYTOCRUELTYORMISFORTUNE"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[REVOLT]",
+      "raw_text": "1, [REVOLT]",
+      "references": [
+        {
+          "raw": "[REVOLT]",
+          "token": "REVOLT",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "REVOLT",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.REVOLT"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[DARINGENTERPRISE]",
+      "raw_text": "1, [DARINGENTERPRISE]",
+      "references": [
+        {
+          "raw": "[DARINGENTERPRISE]",
+          "token": "DARINGENTERPRISE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "DARINGENTERPRISE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.DARINGENTERPRISE"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "[ABDUCTION]",
+      "raw_text": "1, [ABDUCTION]",
+      "references": [
+        {
+          "raw": "[ABDUCTION]",
+          "token": "ABDUCTION",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ABDUCTION",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ABDUCTION"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "[THEENIGMA]",
+      "raw_text": "1, [THEENIGMA]",
+      "references": [
+        {
+          "raw": "[THEENIGMA]",
+          "token": "THEENIGMA",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "THEENIGMA",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.THEENIGMA"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[OBTAINING]",
+      "raw_text": "1, [OBTAINING]",
+      "references": [
+        {
+          "raw": "[OBTAINING]",
+          "token": "OBTAINING",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "OBTAINING",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.OBTAINING"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "[ENMITYOFKIN]",
+      "raw_text": "1, [ENMITYOFKIN]",
+      "references": [
+        {
+          "raw": "[ENMITYOFKIN]",
+          "token": "ENMITYOFKIN",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ENMITYOFKIN",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ENMITYOFKIN"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[RIVALYOFKIN]",
+      "raw_text": "1, [RIVALYOFKIN]",
+      "references": [
+        {
+          "raw": "[RIVALYOFKIN]",
+          "token": "RIVALYOFKIN",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "RIVALYOFKIN",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.RIVALYOFKIN"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[MURDEROUSADULTERY]",
+      "raw_text": "1, [MURDEROUSADULTERY]",
+      "references": [
+        {
+          "raw": "[MURDEROUSADULTERY]",
+          "token": "MURDEROUSADULTERY",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "MURDEROUSADULTERY",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.MURDEROUSADULTERY"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "[MADNESS]",
+      "raw_text": "1, [MADNESS]",
+      "references": [
+        {
+          "raw": "[MADNESS]",
+          "token": "MADNESS",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "MADNESS",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.MADNESS"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "[FATALIMPRUDENCE]",
+      "raw_text": "1, [FATALIMPRUDENCE]",
+      "references": [
+        {
+          "raw": "[FATALIMPRUDENCE]",
+          "token": "FATALIMPRUDENCE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "FATALIMPRUDENCE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.FATALIMPRUDENCE"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "[INVOLUNTARYCRIMESOFLOVE]",
+      "raw_text": "1, [INVOLUNTARYCRIMESOFLOVE]",
+      "references": [
+        {
+          "raw": "[INVOLUNTARYCRIMESOFLOVE]",
+          "token": "INVOLUNTARYCRIMESOFLOVE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "INVOLUNTARYCRIMESOFLOVE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.INVOLUNTARYCRIMESOFLOVE"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "[SLAYINGOFKINUNRECOGNIZED]",
+      "raw_text": "1, [SLAYINGOFKINUNRECOGNIZED]",
+      "references": [
+        {
+          "raw": "[SLAYINGOFKINUNRECOGNIZED]",
+          "token": "SLAYINGOFKINUNRECOGNIZED",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "SLAYINGOFKINUNRECOGNIZED",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.SLAYINGOFKINUNRECOGNIZED"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "[SELF-SACRIFICEFORANIDEAL]",
+      "raw_text": "1, [SELF-SACRIFICEFORANIDEAL]",
+      "references": [
+        {
+          "raw": "[SELF-SACRIFICEFORANIDEAL]",
+          "token": "SELF-SACRIFICEFORANIDEAL",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "SELF-SACRIFICEFORANIDEAL",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.SELF-SACRIFICEFORANIDEAL"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[SELF-SACRIFICEFORAKIN]",
+      "raw_text": "1, [SELF-SACRIFICEFORAKIN]",
+      "references": [
+        {
+          "raw": "[SELF-SACRIFICEFORAKIN]",
+          "token": "SELF-SACRIFICEFORAKIN",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "SELF-SACRIFICEFORAKIN",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.SELF-SACRIFICEFORAKIN"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "[ALLSACRIFICEFORPASSION]",
+      "raw_text": "1, [ALLSACRIFICEFORPASSION]",
+      "references": [
+        {
+          "raw": "[ALLSACRIFICEFORPASSION]",
+          "token": "ALLSACRIFICEFORPASSION",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ALLSACRIFICEFORPASSION",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ALLSACRIFICEFORPASSION"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "[NECESSITYOFSACRIFICINGLOVEDONES]",
+      "raw_text": "1, [NECESSITYOFSACRIFICINGLOVEDONES]",
+      "references": [
+        {
+          "raw": "[NECESSITYOFSACRIFICINGLOVEDONES]",
+          "token": "NECESSITYOFSACRIFICINGLOVEDONES",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "NECESSITYOFSACRIFICINGLOVEDONES",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.NECESSITYOFSACRIFICINGLOVEDONES"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "[RIVALRYOFSUPERIORVERSUSINFERIOR]",
+      "raw_text": "1, [RIVALRYOFSUPERIORVERSUSINFERIOR]",
+      "references": [
+        {
+          "raw": "[RIVALRYOFSUPERIORVERSUSINFERIOR]",
+          "token": "RIVALRYOFSUPERIORVERSUSINFERIOR",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "RIVALRYOFSUPERIORVERSUSINFERIOR",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.RIVALRYOFSUPERIORVERSUSINFERIOR"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "[ADULTERY]",
+      "raw_text": "1, [ADULTERY]",
+      "references": [
+        {
+          "raw": "[ADULTERY]",
+          "token": "ADULTERY",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ADULTERY",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ADULTERY"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[CRIMESOFLOVE]",
+      "raw_text": "1, [CRIMESOFLOVE]",
+      "references": [
+        {
+          "raw": "[CRIMESOFLOVE]",
+          "token": "CRIMESOFLOVE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "CRIMESOFLOVE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.CRIMESOFLOVE"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "[DISCOVERYOFTHEDISHONOUROFALOVEDONE]",
+      "raw_text": "1, [DISCOVERYOFTHEDISHONOUROFALOVEDONE]",
+      "references": [
+        {
+          "raw": "[DISCOVERYOFTHEDISHONOUROFALOVEDONE]",
+          "token": "DISCOVERYOFTHEDISHONOUROFALOVEDONE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "DISCOVERYOFTHEDISHONOUROFALOVEDONE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.DISCOVERYOFTHEDISHONOUROFALOVEDONE"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "[OBSTACLESTOLOVE]",
+      "raw_text": "1, [OBSTACLESTOLOVE]",
+      "references": [
+        {
+          "raw": "[OBSTACLESTOLOVE]",
+          "token": "OBSTACLESTOLOVE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "OBSTACLESTOLOVE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.OBSTACLESTOLOVE"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "[ANENEMYLOVED]",
+      "raw_text": "1, [ANENEMYLOVED]",
+      "references": [
+        {
+          "raw": "[ANENEMYLOVED]",
+          "token": "ANENEMYLOVED",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ANENEMYLOVED",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ANENEMYLOVED"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "[AMBITION]",
+      "raw_text": "1, [AMBITION]",
+      "references": [
+        {
+          "raw": "[AMBITION]",
+          "token": "AMBITION",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "AMBITION",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.AMBITION"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "[CONFLICTWITHANIMMORTAL]",
+      "raw_text": "1, [CONFLICTWITHANIMMORTAL]",
+      "references": [
+        {
+          "raw": "[CONFLICTWITHANIMMORTAL]",
+          "token": "CONFLICTWITHANIMMORTAL",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "CONFLICTWITHANIMMORTAL",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.CONFLICTWITHANIMMORTAL"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "[MISTAKENJEALOUSY]",
+      "raw_text": "1, [MISTAKENJEALOUSY]",
+      "references": [
+        {
+          "raw": "[MISTAKENJEALOUSY]",
+          "token": "MISTAKENJEALOUSY",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "MISTAKENJEALOUSY",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.MISTAKENJEALOUSY"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "[ERRONEOUSJUDGEMENT]",
+      "raw_text": "1, [ERRONEOUSJUDGEMENT]",
+      "references": [
+        {
+          "raw": "[ERRONEOUSJUDGEMENT]",
+          "token": "ERRONEOUSJUDGEMENT",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "ERRONEOUSJUDGEMENT",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.ERRONEOUSJUDGEMENT"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "[REMORSE]",
+      "raw_text": "1, [REMORSE]",
+      "references": [
+        {
+          "raw": "[REMORSE]",
+          "token": "REMORSE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "REMORSE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.REMORSE"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "[RECOVERYOFALOSTONE]",
+      "raw_text": "1, [RECOVERYOFALOSTONE]",
+      "references": [
+        {
+          "raw": "[RECOVERYOFALOSTONE]",
+          "token": "RECOVERYOFALOSTONE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "RECOVERYOFALOSTONE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.RECOVERYOFALOSTONE"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "[LOSSOFLOVEDONE]",
+      "raw_text": "1, [LOSSOFLOVEDONE]",
+      "references": [
+        {
+          "raw": "[LOSSOFLOVEDONE]",
+          "token": "LOSSOFLOVEDONE",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "plot",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "LOSSOFLOVEDONE",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.LOSSOFLOVEDONE"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "ABDUCTION",
+      "ADULTERY",
+      "ALLSACRIFICEFORPASSION",
+      "AMBITION",
+      "ANENEMYLOVED",
+      "CONFLICTWITHANIMMORTAL",
+      "CRIMESOFLOVE",
+      "DARINGENTERPRISE",
+      "DISASTER",
+      "DISCOVERYOFTHEDISHONOUROFALOVEDONE",
+      "ENMITYOFKIN",
+      "ERRONEOUSJUDGEMENT",
+      "FALLINGPREYTOCRUELTYORMISFORTUNE",
+      "FATALIMPRUDENCE",
+      "INVOLUNTARYCRIMESOFLOVE",
+      "LOSSOFLOVEDONE",
+      "MADNESS",
+      "MISTAKENJEALOUSY",
+      "MURDEROUSADULTERY",
+      "NECESSITYOFSACRIFICINGLOVEDONES",
+      "OBSTACLESTOLOVE",
+      "OBTAINING",
+      "PURSUIT",
+      "RECOVERYOFALOSTONE",
+      "REMORSE",
+      "REVOLT",
+      "RIVALRYOFSUPERIORVERSUSINFERIOR",
+      "RIVALYOFKIN",
+      "SELF-SACRIFICEFORAKIN",
+      "SELF-SACRIFICEFORANIDEAL",
+      "SLAYINGOFKINUNRECOGNIZED",
+      "THEENIGMA",
+      "crime",
+      "deliverance",
+      "supplication",
+      "vengeance"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";plot\n91, [supplication]\n91, [deliverance]\n91, [crime]\n91, [vengeance]\n1, [PURSUIT]\n1, [DISASTER]\n1, [FALLINGPREYTOCRUELTYORMISFORTUNE]\n1, [REVOLT]\n1, [DARINGENTERPRISE]\n1, [ABDUCTION]\n1, [THEENIGMA]\n1, [OBTAINING]\n1, [ENMITYOFKIN]\n1, [RIVALYOFKIN]\n1, [MURDEROUSADULTERY]\n1, [MADNESS]\n1, [FATALIMPRUDENCE]\n1, [INVOLUNTARYCRIMESOFLOVE]\n1, [SLAYINGOFKINUNRECOGNIZED]\n1, [SELF-SACRIFICEFORANIDEAL]\n1, [SELF-SACRIFICEFORAKIN]\n1, [ALLSACRIFICEFORPASSION]\n1, [NECESSITYOFSACRIFICINGLOVEDONES]\n1, [RIVALRYOFSUPERIORVERSUSINFERIOR]\n1, [ADULTERY]\n1, [CRIMESOFLOVE]\n1, [DISCOVERYOFTHEDISHONOUROFALOVEDONE]\n1, [OBSTACLESTOLOVE]\n1, [ANENEMYLOVED]\n1, [AMBITION]\n1, [CONFLICTWITHANIMMORTAL]\n1, [MISTAKENJEALOUSY]\n1, [ERRONEOUSJUDGEMENT]\n1, [REMORSE]\n1, [RECOVERYOFALOSTONE]\n1, [LOSSOFLOVEDONE]",
+  "warnings": []
+}

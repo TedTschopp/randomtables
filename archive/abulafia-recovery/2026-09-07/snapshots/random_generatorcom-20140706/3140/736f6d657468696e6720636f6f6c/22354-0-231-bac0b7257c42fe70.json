@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "bac0b7257c42fe70b11c19c12253064f4b8807bafab74159a0a8d77db8b9071c",
+      "revisionId": "22354",
+      "line": 231,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "something cool",
+    "qualified_name": "Guards.something cool",
+    "table_block_index": 0,
+    "line_number": 231
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "the [thing] of [whatever]",
+      "raw_text": "1,the [thing] of [whatever]",
+      "references": [
+        {
+          "raw": "[thing]",
+          "token": "thing",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "something cool",
+          "target_page": "Guards",
+          "target_subtable": "thing",
+          "target_qualified_name": "Guards.thing"
+        },
+        {
+          "raw": "[whatever]",
+          "token": "whatever",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "something cool",
+          "target_page": "Guards",
+          "target_subtable": "whatever",
+          "target_qualified_name": "Guards.whatever"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Indiana Jones Titles.subtitle]",
+      "raw_text": "1,[Indiana Jones Titles.subtitle]",
+      "references": [
+        {
+          "raw": "[Indiana Jones Titles.subtitle]",
+          "token": "Indiana Jones Titles.subtitle",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "something cool",
+          "target_page": "Indiana Jones Titles",
+          "target_subtable": "subtitle",
+          "target_qualified_name": "Indiana Jones Titles.subtitle"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "thing",
+      "whatever"
+    ],
+    "external_subtables": [
+      "Indiana Jones Titles.subtitle"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";something cool\n1,the [thing] of [whatever]\n1,[Indiana Jones Titles.subtitle]",
+  "warnings": []
+}

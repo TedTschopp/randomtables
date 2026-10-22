@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16901,
+    "timestamp": "2013-02-12T01:39:17Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "79cbc17c316e267215cd4186349ce9b7132ff7ff959a2b2040edb5c400ab3975",
+      "rawSha256": "5ed724a789dc4d2aa4b85bb64abc26b0ff2cee93516e980b9618a055babd02e7",
+      "revisionId": "16901",
+      "line": 29,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "event-name",
+    "qualified_name": "Planar Codex Parish.event-name",
+    "table_block_index": 0,
+    "line_number": 29
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Wedding",
+      "raw_text": "1,Wedding",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Funeral",
+      "raw_text": "1,Funeral",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Festival",
+      "raw_text": "1,Festival",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Workday",
+      "raw_text": "1,Workday",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Riot",
+      "raw_text": "1,Riot",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Fire",
+      "raw_text": "1,Fire",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Earthquake",
+      "raw_text": "1,Earthquake",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Temple Day",
+      "raw_text": "1,Temple Day",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Birth",
+      "raw_text": "1,Birth",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Battle",
+      "raw_text": "1,Battle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Grim Portents",
+      "raw_text": "1,Grim Portents",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Plague",
+      "raw_text": "1,Plague",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Pilgrimage",
+      "raw_text": "1,Pilgrimage",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Kidnapping",
+      "raw_text": "1,Kidnapping",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Heist",
+      "raw_text": "1,Heist",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Succession / Change of Government",
+      "raw_text": "1,Succession / Change of Government",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Escape",
+      "raw_text": "1,Escape",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Invasion",
+      "raw_text": "1,Invasion",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";event-name\n1,Wedding\n1,Funeral\n1,Festival\n1,Workday\n1,Riot\n1,Fire\n1,Earthquake\n1,Temple Day\n1,Birth\n1,Battle\n1,Grim Portents\n1,Plague\n1,Pilgrimage\n1,Kidnapping\n1,Heist\n1,Succession / Change of Government\n1,Escape\n1,Invasion",
+  "warnings": []
+}

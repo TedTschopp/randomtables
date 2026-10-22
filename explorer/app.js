@@ -354,11 +354,14 @@
     function renderTrace() {
       const steps = state.results.flatMap(result => result.steps);
       const content = document.createDocumentFragment();
+      const policies = { 'unique-pair': 'Distinct pair; depth 1; conditional weights',
+        'bounded-wrapper': 'Single wrapper; depth 1; conditional weights', 'terminal-only': 'Terminal-only draw' };
       for (const step of steps.slice(0, state.traceLimit)) {
         const link = tableLink(model.byId.get(step.id), 'trace-step');
         link.textContent = TableAtlas.labelFor(step.id);
         link.style.marginLeft = `${Math.min(step.depth, 4) * 9}px`;
         link.append(make('small', '', step.value.length > 100 ? `${step.value.slice(0, 100)}...` : step.value || '(empty result)'));
+        if (policies[step.policy]) link.append(make('small', 'trace-policy', policies[step.policy]));
         content.append(link);
       }
       if (steps.length > state.traceLimit) {

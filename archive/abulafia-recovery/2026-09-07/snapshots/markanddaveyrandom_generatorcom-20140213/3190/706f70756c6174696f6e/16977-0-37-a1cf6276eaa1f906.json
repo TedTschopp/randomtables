@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "a1cf6276eaa1f906a08aa93477d0ae1f9a563edeb32eccc888ed91b37030bb5d",
+      "revisionId": "16977",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "population",
+    "qualified_name": "Planar Codex Parish.population",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "For thousands of years, the [species-plural] and the [species-plural] have shared this parish in partnership and harmony.",
+      "raw_text": "1,For thousands of years, the [species-plural] and the [species-plural] have shared this parish in partnership and harmony.",
+      "references": [
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "After years of direct confrontation, the [species-plural] and [species-plural] have settled into their respective enclaves.",
+      "raw_text": "1,After years of direct confrontation, the [species-plural] and [species-plural] have settled into their respective enclaves.",
+      "references": [
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "The vast majority of the inhabitants are [species-descriptor] [species-name-plural]",
+      "raw_text": "1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small [species-descriptor] [species-name-singular] enclave within the borders",
+      "raw_text": "1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small [species-descriptor] [species-name-singular] enclave within the borders",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small enclave of [species-descriptor] [species-name-plural] within the borders",
+      "raw_text": "1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small enclave of [species-descriptor] [species-name-plural] within the borders",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "It is populated by [species-descriptor] [species-name-plural] and their clients, the [species-name-plural]",
+      "raw_text": "1,It is populated by [species-descriptor] [species-name-plural] and their clients, the [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "The [species-descriptor] [species-name-plural] live here alongside a significant minority of [species-descriptor] [species-name-plural]",
+      "raw_text": "1,The [species-descriptor] [species-name-plural] live here alongside a significant minority of [species-descriptor] [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [species-descriptor] [species-name-plural]",
+      "raw_text": "1,The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [species-descriptor] [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "It is populated by a restive melting pot of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [species-name-plural]",
+      "raw_text": "1,It is populated by a restive melting pot of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Before the pogroms, [species-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain",
+      "raw_text": "1,Before the pogroms, [species-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "species-descriptor",
+      "species-name-plural",
+      "species-name-singular",
+      "species-plural"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";population\n1,For thousands of years, the [species-plural] and the [species-plural] have shared this parish in partnership and harmony.\n1,After years of direct confrontation, the [species-plural] and [species-plural] have settled into their respective enclaves.\n1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural]\n1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small [species-descriptor] [species-name-singular] enclave within the borders\n1,The vast majority of the inhabitants are [species-descriptor] [species-name-plural] but there is a small enclave of [species-descriptor] [species-name-plural] within the borders\n1,It is populated by [species-descriptor] [species-name-plural] and their clients, the [species-name-plural]\n1,The [species-descriptor] [species-name-plural] live here alongside a significant minority of [species-descriptor] [species-name-plural]\n1,The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [species-descriptor] [species-name-plural]\n1,It is populated by a restive melting pot of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [species-name-plural]\n1,Before the pogroms, [species-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain",
+  "warnings": []
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "39bd014e1ffc3973bb6cdd40faa1de12563307bcb8d01e9624124a1fcb2778b9",
+      "revisionId": "14222",
+      "line": 179,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "compass",
+    "qualified_name": "User:Snake Eyes.compass",
+    "table_block_index": 0,
+    "line_number": 179
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[distance][direction]",
+      "raw_text": "1, [distance][direction]",
+      "references": [
+        {
+          "raw": "[distance]",
+          "token": "distance",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "compass",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "distance",
+          "target_qualified_name": "User:Snake Eyes.distance"
+        },
+        {
+          "raw": "[direction]",
+          "token": "direction",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "compass",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "direction",
+          "target_qualified_name": "User:Snake Eyes.direction"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[direction]\n1;direction",
+      "raw_text": "1, [direction]\n1;direction",
+      "references": [
+        {
+          "raw": "[direction]",
+          "token": "direction",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "compass",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "direction",
+          "target_qualified_name": "User:Snake Eyes.direction"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Lost",
+      "raw_text": "1, Lost",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "North",
+      "raw_text": "1, North",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "North by Northeast",
+      "raw_text": "1, North by Northeast",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Northeast",
+      "raw_text": "1, Northeast",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "East by Northeast",
+      "raw_text": "1, East by Northeast",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "East",
+      "raw_text": "1, East",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "East by Southeast",
+      "raw_text": "1, East by Southeast",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Southeast",
+      "raw_text": "1, Southeast",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "South by Southeast",
+      "raw_text": "1, South by Southeast",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "South",
+      "raw_text": "1, South",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "South by Southwest",
+      "raw_text": "1, South by Southwest",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Southwest",
+      "raw_text": "1, Southwest",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "West by Southwest",
+      "raw_text": "1, West by Southwest",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "West",
+      "raw_text": "1, West",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "West by Northwest",
+      "raw_text": "1, West by Northwest",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Northwest",
+      "raw_text": "1, Northwest",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "North by Northwest",
+      "raw_text": "1, North by Northwest",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Below",
+      "raw_text": "1, Below",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Above",
+      "raw_text": "1, Above",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Extra-dimensional",
+      "raw_text": "1, Extra-dimensional",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "direction",
+      "distance"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";compass\n1, [distance][direction]\n1, [direction]\n\n1;direction\n1, Lost\n1, North\n1, North by Northeast\n1, Northeast\n1, East by Northeast\n1, East\n1, East by Southeast\n1, Southeast\n1, South by Southeast\n1, South\n1, South by Southwest\n1, Southwest\n1, West by Southwest\n1, West\n1, West by Northwest\n1, Northwest\n1, North by Northwest\n1, Below\n1, Above\n1, Extra-dimensional",
+  "warnings": []
+}

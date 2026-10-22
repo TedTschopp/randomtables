@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "47f7fa5d17545e4d3395df892399857ff1a2edeff70c30262be8e20e3e289891",
+      "revisionId": "10367",
+      "line": 584,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PrestigeItem",
+    "qualified_name": "Pickpocket.PrestigeItem",
+    "table_block_index": 0,
+    "line_number": 584
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Sealing wax and a seal with [Decoration]",
+      "raw_text": "1,Sealing wax and a seal with [Decoration]",
+      "references": [
+        {
+          "raw": "[Decoration]",
+          "token": "Decoration",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PrestigeItem",
+          "target_page": "Pickpocket",
+          "target_subtable": "Decoration",
+          "target_qualified_name": "Pickpocket.Decoration"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a badge of office",
+      "raw_text": "1,a badge of office",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "an amulet indicating membership in an organization or society ([Secret Society Title.SecretSocietyName])",
+      "raw_text": "1,an amulet indicating membership in an organization or society ([Secret Society Title.SecretSocietyName])",
+      "references": [
+        {
+          "raw": "[Secret Society Title.SecretSocietyName]",
+          "token": "Secret Society Title.SecretSocietyName",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PrestigeItem",
+          "target_page": "Secret Society Title",
+          "target_subtable": "SecretSocietyName",
+          "target_qualified_name": "Secret Society Title.SecretSocietyName"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a card indicating membership in an organization or  society ([Secret Society Title.SecretSocietyName])",
+      "raw_text": "1,a card indicating membership in an organization or  society ([Secret Society Title.SecretSocietyName])",
+      "references": [
+        {
+          "raw": "[Secret Society Title.SecretSocietyName]",
+          "token": "Secret Society Title.SecretSocietyName",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PrestigeItem",
+          "target_page": "Secret Society Title",
+          "target_subtable": "SecretSocietyName",
+          "target_qualified_name": "Secret Society Title.SecretSocietyName"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a signet ring",
+      "raw_text": "1,a signet ring",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a medal",
+      "raw_text": "1,a medal",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a letter signed by a ruler giving authority to the bearer ([Name])",
+      "raw_text": "1,a letter signed by a ruler giving authority to the bearer ([Name])",
+      "references": [
+        {
+          "raw": "[Name]",
+          "token": "Name",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PrestigeItem",
+          "target_page": "Pickpocket",
+          "target_subtable": "Name",
+          "target_qualified_name": "Pickpocket.Name"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Decoration",
+      "Name"
+    ],
+    "external_subtables": [
+      "Secret Society Title.SecretSocietyName"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";PrestigeItem\n1,Sealing wax and a seal with [Decoration]\n1,a badge of office\n1,an amulet indicating membership in an organization or society ([Secret Society Title.SecretSocietyName])\n1,a card indicating membership in an organization or  society ([Secret Society Title.SecretSocietyName])\n1,a signet ring\n1,a medal\n1,a letter signed by a ruler giving authority to the bearer ([Name])",
+  "warnings": []
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "d97775b45701b57b697b8cbad6ecdfed2a3dcbaa128e4945911a5024ae2d9a9a",
+      "revisionId": "10367",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Heist",
+    "qualified_name": "Pickpocket.Heist",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "You may be able to [StealVerb] [PoorBagDescriptor] [Bag] from [NPCDescriptor] [PoorNPC]. <br/>(It contains [PoorContents].)",
+      "raw_text": "1,You may be able to [StealVerb] [PoorBagDescriptor] [Bag] from [NPCDescriptor] [PoorNPC]. <br/>(It contains [PoorContents].)",
+      "references": [
+        {
+          "raw": "[StealVerb]",
+          "token": "StealVerb",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "StealVerb",
+          "target_qualified_name": "Pickpocket.StealVerb"
+        },
+        {
+          "raw": "[PoorBagDescriptor]",
+          "token": "PoorBagDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorBagDescriptor",
+          "target_qualified_name": "Pickpocket.PoorBagDescriptor"
+        },
+        {
+          "raw": "[Bag]",
+          "token": "Bag",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "Bag",
+          "target_qualified_name": "Pickpocket.Bag"
+        },
+        {
+          "raw": "[NPCDescriptor]",
+          "token": "NPCDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "NPCDescriptor",
+          "target_qualified_name": "Pickpocket.NPCDescriptor"
+        },
+        {
+          "raw": "[PoorNPC]",
+          "token": "PoorNPC",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorNPC",
+          "target_qualified_name": "Pickpocket.PoorNPC"
+        },
+        {
+          "raw": "[PoorContents]",
+          "token": "PoorContents",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorContents",
+          "target_qualified_name": "Pickpocket.PoorContents"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "You may be able to [StealVerb] [MidBagDescriptor] [Bag] from [NPCDescriptor] [MidNPC]. <br/>(It contains [MidContents].)",
+      "raw_text": "1,You may be able to [StealVerb] [MidBagDescriptor] [Bag] from [NPCDescriptor] [MidNPC]. <br/>(It contains [MidContents].)",
+      "references": [
+        {
+          "raw": "[StealVerb]",
+          "token": "StealVerb",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "StealVerb",
+          "target_qualified_name": "Pickpocket.StealVerb"
+        },
+        {
+          "raw": "[MidBagDescriptor]",
+          "token": "MidBagDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidBagDescriptor",
+          "target_qualified_name": "Pickpocket.MidBagDescriptor"
+        },
+        {
+          "raw": "[Bag]",
+          "token": "Bag",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "Bag",
+          "target_qualified_name": "Pickpocket.Bag"
+        },
+        {
+          "raw": "[NPCDescriptor]",
+          "token": "NPCDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "NPCDescriptor",
+          "target_qualified_name": "Pickpocket.NPCDescriptor"
+        },
+        {
+          "raw": "[MidNPC]",
+          "token": "MidNPC",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidNPC",
+          "target_qualified_name": "Pickpocket.MidNPC"
+        },
+        {
+          "raw": "[MidContents]",
+          "token": "MidContents",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidContents",
+          "target_qualified_name": "Pickpocket.MidContents"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "You may be able to [StealVerb] [RichBagDescriptor] [Bag] from [NPCDescriptor] [RichNPC]. <br/>(It contains [RichContents].)",
+      "raw_text": "1,You may be able to [StealVerb] [RichBagDescriptor] [Bag] from [NPCDescriptor] [RichNPC]. <br/>(It contains [RichContents].)",
+      "references": [
+        {
+          "raw": "[StealVerb]",
+          "token": "StealVerb",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "StealVerb",
+          "target_qualified_name": "Pickpocket.StealVerb"
+        },
+        {
+          "raw": "[RichBagDescriptor]",
+          "token": "RichBagDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichBagDescriptor",
+          "target_qualified_name": "Pickpocket.RichBagDescriptor"
+        },
+        {
+          "raw": "[Bag]",
+          "token": "Bag",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "Bag",
+          "target_qualified_name": "Pickpocket.Bag"
+        },
+        {
+          "raw": "[NPCDescriptor]",
+          "token": "NPCDescriptor",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "NPCDescriptor",
+          "target_qualified_name": "Pickpocket.NPCDescriptor"
+        },
+        {
+          "raw": "[RichNPC]",
+          "token": "RichNPC",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichNPC",
+          "target_qualified_name": "Pickpocket.RichNPC"
+        },
+        {
+          "raw": "[RichContents]",
+          "token": "RichContents",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "Heist",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichContents",
+          "target_qualified_name": "Pickpocket.RichContents"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Bag",
+      "MidBagDescriptor",
+      "MidContents",
+      "MidNPC",
+      "NPCDescriptor",
+      "PoorBagDescriptor",
+      "PoorContents",
+      "PoorNPC",
+      "RichBagDescriptor",
+      "RichContents",
+      "RichNPC",
+      "StealVerb"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Heist\n1,You may be able to [StealVerb] [PoorBagDescriptor] [Bag] from [NPCDescriptor] [PoorNPC]. <br/>(It contains [PoorContents].)\n1,You may be able to [StealVerb] [MidBagDescriptor] [Bag] from [NPCDescriptor] [MidNPC]. <br/>(It contains [MidContents].)\n1,You may be able to [StealVerb] [RichBagDescriptor] [Bag] from [NPCDescriptor] [RichNPC]. <br/>(It contains [RichContents].)",
+  "warnings": []
+}

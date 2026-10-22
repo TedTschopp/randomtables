@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "d17300f538ecf0e889784f789bf90c565a1cf36c427a590c9d32b4a08c6d10bc",
+      "revisionId": "9681",
+      "line": 18,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SeigeUnitName",
+    "qualified_name": "Seige Force.SeigeUnitName",
+    "table_block_index": 0,
+    "line_number": 18
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Armored",
+      "raw_text": "1,Armored",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Auxiliary",
+      "raw_text": "1,Auxiliary",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Assault",
+      "raw_text": "1,Assault",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Royal] Assault",
+      "raw_text": "1,[Royal] Assault",
+      "references": [
+        {
+          "raw": "[Royal]",
+          "token": "Royal",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeUnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "Royal",
+          "target_qualified_name": "Seige Force.Royal"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[LightHeavy] Assault",
+      "raw_text": "1,[LightHeavy] Assault",
+      "references": [
+        {
+          "raw": "[LightHeavy]",
+          "token": "LightHeavy",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeUnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "LightHeavy",
+          "target_qualified_name": "Seige Force.LightHeavy"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Battle",
+      "raw_text": "1,Battle",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Combat",
+      "raw_text": "1,Combat",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Heavy Combat",
+      "raw_text": "1,Heavy Combat",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Heavy Warfare",
+      "raw_text": "1,Heavy Warfare",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Mercenary",
+      "raw_text": "1,Mercenary",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Seige",
+      "raw_text": "1,Seige",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[LightHeavy] Seige",
+      "raw_text": "1,[LightHeavy] Seige",
+      "references": [
+        {
+          "raw": "[LightHeavy]",
+          "token": "LightHeavy",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeUnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "LightHeavy",
+          "target_qualified_name": "Seige Force.LightHeavy"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "[Royal] Seige",
+      "raw_text": "1,[Royal] Seige",
+      "references": [
+        {
+          "raw": "[Royal]",
+          "token": "Royal",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeUnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "Royal",
+          "target_qualified_name": "Seige Force.Royal"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Seige Warfare",
+      "raw_text": "1,Seige Warfare",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Shock",
+      "raw_text": "1,Shock",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "[LightHeavy] Shock",
+      "raw_text": "1,[LightHeavy] Shock",
+      "references": [
+        {
+          "raw": "[LightHeavy]",
+          "token": "LightHeavy",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeUnitName",
+          "target_page": "Seige Force",
+          "target_subtable": "LightHeavy",
+          "target_qualified_name": "Seige Force.LightHeavy"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Storm",
+      "raw_text": "1,Storm",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "LightHeavy",
+      "Royal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";SeigeUnitName\n1,Armored\n1,Auxiliary\n1,Assault\n1,[Royal] Assault\n1,[LightHeavy] Assault\n1,Battle\n1,Combat\n1,Heavy Combat\n1,Heavy Warfare\n1,Mercenary\n1,Seige\n1,[LightHeavy] Seige\n1,[Royal] Seige\n1,Seige Warfare\n1,Shock\n1,[LightHeavy] Shock\n1,Storm",
+  "warnings": []
+}

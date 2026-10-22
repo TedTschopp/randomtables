@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "54591f1ebf39260780119022588417a3136971a723a583fb705cf987d4e46979",
+      "revisionId": "23298",
+      "line": 233,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "dust",
+    "qualified_name": "Blazon.dust",
+    "table_block_index": 0,
+    "line_number": 233
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sand",
+      "raw_text": "1,sand",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dust",
+      "raw_text": "1,dust",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "liquid",
+      "raw_text": "1,liquid",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "liquor",
+      "raw_text": "1,liquor",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "root",
+      "raw_text": "1,root",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "leaves",
+      "raw_text": "1,leaves",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "earth",
+      "raw_text": "1,earth",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "slime",
+      "raw_text": "1,slime",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "gas",
+      "raw_text": "1,gas",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "ink",
+      "raw_text": "1,ink",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "oil",
+      "raw_text": "1,oil",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "chalk",
+      "raw_text": "1,chalk",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "wax",
+      "raw_text": "1,wax",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[source] [dust]",
+      "raw_text": "1,[source] [dust]",
+      "references": [
+        {
+          "raw": "[source]",
+          "token": "source",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "dust",
+          "target_page": "Blazon",
+          "target_subtable": "source",
+          "target_qualified_name": "Blazon.source"
+        },
+        {
+          "raw": "[dust]",
+          "token": "dust",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "dust",
+          "target_page": "Blazon",
+          "target_subtable": "dust",
+          "target_qualified_name": "Blazon.dust"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[source] {{lc:[sphere]}}",
+      "raw_text": "1,[source] {{lc:[sphere]}}",
+      "references": [
+        {
+          "raw": "[source]",
+          "token": "source",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "dust",
+          "target_page": "Blazon",
+          "target_subtable": "source",
+          "target_qualified_name": "Blazon.source"
+        },
+        {
+          "raw": "[sphere]",
+          "token": "sphere",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "dust",
+          "target_page": "Blazon",
+          "target_subtable": "sphere",
+          "target_qualified_name": "Blazon.sphere"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "dust",
+      "source",
+      "sphere"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";dust\n1,sand\n1,dust\n1,liquid\n1,liquor\n1,root\n1,leaves\n1,earth\n1,slime\n1,gas\n1,ink\n1,oil\n1,chalk\n1,wax\n1,[source] [dust]\n1,[source] {{lc:[sphere]}}",
+  "warnings": []
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "bbdb590f0c7f5e40a7eb09774f8223ab986d54030f8dfe695dddc8615aa93160",
+      "revisionId": "23298",
+      "line": 90,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybetext",
+    "qualified_name": "Blazon.maybetext",
+    "table_block_index": 0,
+    "line_number": 90
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "\"[words]\"",
+      "raw_text": "1,\"[words]\"",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "\"[words]\"[in common]",
+      "raw_text": "1,\"[words]\"[in common]",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        },
+        {
+          "raw": "[in common]",
+          "token": "in common",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "in common",
+          "target_qualified_name": "Blazon.in common"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": ",[reading]\"[words]\"",
+      "raw_text": "2,,[reading]\"[words]\"",
+      "references": [
+        {
+          "raw": "[reading]",
+          "token": "reading",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "reading",
+          "target_qualified_name": "Blazon.reading"
+        },
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": ",[reading]\"[words]\"[in common]",
+      "raw_text": "1,,[reading]\"[words]\"[in common] ",
+      "references": [
+        {
+          "raw": "[reading]",
+          "token": "reading",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "reading",
+          "target_qualified_name": "Blazon.reading"
+        },
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        },
+        {
+          "raw": "[in common]",
+          "token": "in common",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "in common",
+          "target_qualified_name": "Blazon.in common"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": ",[reading][in common]\"[words]\"",
+      "raw_text": "1,,[reading][in common]\"[words]\" ",
+      "references": [
+        {
+          "raw": "[reading]",
+          "token": "reading",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "reading",
+          "target_qualified_name": "Blazon.reading"
+        },
+        {
+          "raw": "[in common]",
+          "token": "in common",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "in common",
+          "target_qualified_name": "Blazon.in common"
+        },
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybetext",
+          "target_page": "Blazon",
+          "target_subtable": "words",
+          "target_qualified_name": "Blazon.words"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "in common",
+      "reading",
+      "words"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybetext\n1,\n1,\"[words]\"\n1,\"[words]\"[in common]\n2,,[reading]\"[words]\"\n1,,[reading]\"[words]\"[in common] \n1,,[reading][in common]\"[words]\" ",
+  "warnings": []
+}

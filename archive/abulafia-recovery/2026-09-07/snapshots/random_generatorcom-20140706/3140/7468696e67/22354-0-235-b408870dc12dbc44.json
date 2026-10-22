@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "b408870dc12dbc44756dfe32d74a7fd283239ab4d769bab1319290f0d171ee33",
+      "revisionId": "22354",
+      "line": 235,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "thing",
+    "qualified_name": "Guards.thing",
+    "table_block_index": 0,
+    "line_number": 235
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "{{ucfirst:[defensible location]}}",
+      "raw_text": "1,{{ucfirst:[defensible location]}}",
+      "references": [
+        {
+          "raw": "[defensible location]",
+          "token": "defensible location",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "thing",
+          "target_page": "Guards",
+          "target_subtable": "defensible location",
+          "target_qualified_name": "Guards.defensible location"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "{{ucfirst:[Jewelry.Item]}}",
+      "raw_text": "1,{{ucfirst:[Jewelry.Item]}}",
+      "references": [
+        {
+          "raw": "[Jewelry.Item]",
+          "token": "Jewelry.Item",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "thing",
+          "target_page": "Jewelry",
+          "target_subtable": "Item",
+          "target_qualified_name": "Jewelry.Item"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "defensible location"
+    ],
+    "external_subtables": [
+      "Jewelry.Item"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";thing\n1,{{ucfirst:[defensible location]}}\n1,{{ucfirst:[Jewelry.Item]}}",
+  "warnings": []
+}

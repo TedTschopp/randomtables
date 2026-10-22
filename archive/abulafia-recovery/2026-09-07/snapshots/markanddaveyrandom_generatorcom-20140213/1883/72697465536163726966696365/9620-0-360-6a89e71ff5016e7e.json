@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "6a89e71ff5016e7edc840fdb3ce634a7e775392c205dbfca1cd89bbe75cfc5bf",
+      "revisionId": "9620",
+      "line": 360,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteSacrifice",
+    "qualified_name": "Rituals.riteSacrifice",
+    "table_block_index": 0,
+    "line_number": 360
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "sacrifice [sacrificialLivestock]",
+      "raw_text": "3,sacrifice [sacrificialLivestock]",
+      "references": [
+        {
+          "raw": "[sacrificialLivestock]",
+          "token": "sacrificialLivestock",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialLivestock",
+          "target_qualified_name": "Rituals.sacrificialLivestock"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "sacrifice [sacrificialPerson]",
+      "raw_text": "1,sacrifice [sacrificialPerson]",
+      "references": [
+        {
+          "raw": "[sacrificialPerson]",
+          "token": "sacrificialPerson",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialPerson",
+          "target_qualified_name": "Rituals.sacrificialPerson"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "give a monetary offering to a temple of [List of gods.main]",
+      "raw_text": "1,give a monetary offering to a temple of [List of gods.main]",
+      "references": [
+        {
+          "raw": "[List of gods.main]",
+          "token": "List of gods.main",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "List of gods",
+          "target_subtable": "main",
+          "target_qualified_name": "List of gods.main"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "give a food offering of [specificFood] to [List of gods.main]",
+      "raw_text": "1,give a food offering of [specificFood] to [List of gods.main]",
+      "references": [
+        {
+          "raw": "[specificFood]",
+          "token": "specificFood",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "specificFood",
+          "target_qualified_name": "Rituals.specificFood"
+        },
+        {
+          "raw": "[List of gods.main]",
+          "token": "List of gods.main",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "List of gods",
+          "target_subtable": "main",
+          "target_qualified_name": "List of gods.main"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "give food to the poor",
+      "raw_text": "1,give food to the poor",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "mingle one's blood with that of an enemy in reconciliation",
+      "raw_text": "1,mingle one's blood with that of an enemy in reconciliation",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "give [sacrificialLivestock] to [officiator]",
+      "raw_text": "1,give [sacrificialLivestock] to [officiator]",
+      "references": [
+        {
+          "raw": "[sacrificialLivestock]",
+          "token": "sacrificialLivestock",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialLivestock",
+          "target_qualified_name": "Rituals.sacrificialLivestock"
+        },
+        {
+          "raw": "[officiator]",
+          "token": "officiator",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "officiator",
+          "target_qualified_name": "Rituals.officiator"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "drink the lifeblood of [sacrificialLivestock]",
+      "raw_text": "1,drink the lifeblood of [sacrificialLivestock]",
+      "references": [
+        {
+          "raw": "[sacrificialLivestock]",
+          "token": "sacrificialLivestock",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialLivestock",
+          "target_qualified_name": "Rituals.sacrificialLivestock"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "drink the lifeblood of [sacrificialPerson]",
+      "raw_text": "1,drink the lifeblood of [sacrificialPerson]",
+      "references": [
+        {
+          "raw": "[sacrificialPerson]",
+          "token": "sacrificialPerson",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialPerson",
+          "target_qualified_name": "Rituals.sacrificialPerson"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "officiator",
+      "sacrificialLivestock",
+      "sacrificialPerson",
+      "specificFood"
+    ],
+    "external_subtables": [
+      "List of gods.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";riteSacrifice\n3,sacrifice [sacrificialLivestock]\n1,sacrifice [sacrificialPerson]\n1,give a monetary offering to a temple of [List of gods.main]\n1,give a food offering of [specificFood] to [List of gods.main]\n1,give food to the poor\n1,mingle one's blood with that of an enemy in reconciliation\n1,give [sacrificialLivestock] to [officiator]\n1,drink the lifeblood of [sacrificialLivestock]\n1,drink the lifeblood of [sacrificialPerson]",
+  "warnings": []
+}

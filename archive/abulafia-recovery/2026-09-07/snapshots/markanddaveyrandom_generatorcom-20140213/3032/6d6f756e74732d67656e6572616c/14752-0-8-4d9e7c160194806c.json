@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14752,
+    "timestamp": "2012-06-20T11:00:35Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "626b05f8b188e9fed852bd85b120c8b3203374beab5f1260cb906bd0c657c6ac",
+      "rawSha256": "4d9e7c160194806ccf125d91b43e25cccf831eb4202a8e5d12ba128adc7a2455",
+      "revisionId": "14752",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mounts-general",
+    "qualified_name": "Ostler.mounts-general",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "desert [mounts]",
+      "raw_text": "1, desert [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "shadow [mounts]",
+      "raw_text": "1, shadow [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fey [mounts]",
+      "raw_text": "1, fey [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "arctic [mounts]",
+      "raw_text": "1, arctic [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "forest [mounts]",
+      "raw_text": "1, forest [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "swamp [mounts]",
+      "raw_text": "1, swamp [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "jungle [mounts]",
+      "raw_text": "1, jungle [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "amphibious [mounts]",
+      "raw_text": "1, amphibious [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "racing [mounts]",
+      "raw_text": "1, racing [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "pack [mounts]",
+      "raw_text": "1, pack [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "draft [mounts]",
+      "raw_text": "1, draft [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "plow [mounts]",
+      "raw_text": "1, plow [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "climbing [mounts]",
+      "raw_text": "1, climbing [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "jumping [mounts]",
+      "raw_text": "1, jumping [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "double [mounts]",
+      "raw_text": "1, double [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "mounts"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mounts-general\n1, desert [mounts]\n1, shadow [mounts]\n1, fey [mounts]\n1, arctic [mounts]\n1, forest [mounts]\n1, swamp [mounts]\n1, jungle [mounts]\n1, amphibious [mounts]\n1, racing [mounts]\n1, pack [mounts]\n1, draft [mounts]\n1, plow [mounts]\n1, climbing [mounts]\n1, jumping [mounts]\n1, double [mounts]",
+  "warnings": []
+}

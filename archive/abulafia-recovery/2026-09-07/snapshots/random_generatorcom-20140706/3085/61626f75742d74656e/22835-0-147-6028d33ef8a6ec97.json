@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "6028d33ef8a6ec97950fd3db31cec8e15e40023c901061dc7aa8517bfe2fdcc3",
+      "revisionId": "22835",
+      "line": 147,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "about-ten",
+    "qualified_name": "Curse.about-ten",
+    "table_block_index": 0,
+    "line_number": 147
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "7",
+      "raw_text": "1,7",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "8",
+      "raw_text": "2,8",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "9",
+      "raw_text": "3,9",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "10",
+      "raw_text": "4,10",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "11",
+      "raw_text": "3,11",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "12",
+      "raw_text": "2,12",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "13",
+      "raw_text": "1,13",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";about-ten\n1,7\n2,8\n3,9\n4,10\n3,11\n2,12\n1,13",
+  "warnings": []
+}

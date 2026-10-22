@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15528,
+    "timestamp": "2012-11-02T10:20:45Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d83672174779ced6cbd2d04e55b77d497b9709f35b91e7ed0baf0f58fff76afe",
+      "rawSha256": "ddf802185578d5b854e4870a9d3f65f368be57a459d5d7074a972ef486eacc79",
+      "revisionId": "15528",
+      "line": 107,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ongoing-positive-effect",
+    "qualified_name": "Curse.ongoing-positive-effect",
+    "table_block_index": 0,
+    "line_number": 107
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "gain 1 point of [stat] every [period]",
+      "raw_text": "1,gain 1 point of [stat] every [period]",
+      "references": [
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "gain [about-two] points of [stat] every [period]",
+      "raw_text": "1,gain [about-two] points of [stat] every [period]",
+      "references": [
+        {
+          "raw": "[about-two]",
+          "token": "about-two",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-two",
+          "target_qualified_name": "Curse.about-two"
+        },
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-two",
+      "period",
+      "stat"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ongoing-positive-effect\n1,gain 1 point of [stat] every [period]\n1,gain [about-two] points of [stat] every [period]",
+  "warnings": []
+}

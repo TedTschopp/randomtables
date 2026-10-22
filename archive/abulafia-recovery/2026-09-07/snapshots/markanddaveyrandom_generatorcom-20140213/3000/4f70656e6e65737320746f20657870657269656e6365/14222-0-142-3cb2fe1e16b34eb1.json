@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "3cb2fe1e16b34eb142fa8a3857a8d4f54887b7d3ca5589bbc3ac08150f6ab202",
+      "revisionId": "14222",
+      "line": 142,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Openness to experience",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.Openness to experience",
+    "table_block_index": 0,
+    "line_number": 142
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Fantasy",
+      "raw_text": "1, Fantasy",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Aesthetics",
+      "raw_text": "1, Aesthetics",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Feelings",
+      "raw_text": "1, Feelings",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Actions",
+      "raw_text": "1, Actions",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Ideas",
+      "raw_text": "1, Ideas",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Values",
+      "raw_text": "1, Values",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Openness to experience\n1, Fantasy\n1, Aesthetics\n1, Feelings\n1, Actions\n1, Ideas\n1, Values",
+  "warnings": []
+}

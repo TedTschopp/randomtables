@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17109,
+    "timestamp": "2013-02-14T08:31:35Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a23a6183958bc2c2f79e6b97c59a588103dfe544417924bdb42d8d33e16b9004",
+      "rawSha256": "f2603aa2a7276878da3008c870d6ea1af90c25f0d118f345a6ce9374dea812e3",
+      "revisionId": "17109",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item-indefinite",
+    "qualified_name": "Planar Codex Parish.item-indefinite",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 17,
+      "text": "an [item-descriptor-vowel] [item-name]",
+      "raw_text": "17,an [item-descriptor-vowel] [item-name]",
+      "references": [
+        {
+          "raw": "[item-descriptor-vowel]",
+          "token": "item-descriptor-vowel",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-indefinite",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-descriptor-vowel",
+          "target_qualified_name": "Planar Codex Parish.item-descriptor-vowel"
+        },
+        {
+          "raw": "[item-name]",
+          "token": "item-name",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-indefinite",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-name",
+          "target_qualified_name": "Planar Codex Parish.item-name"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 41,
+      "text": "a [item-description-consonent] [item-name]",
+      "raw_text": "41,a [item-description-consonent] [item-name]",
+      "references": [
+        {
+          "raw": "[item-description-consonent]",
+          "token": "item-description-consonent",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-indefinite",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-description-consonent",
+          "target_qualified_name": "Planar Codex Parish.item-description-consonent"
+        },
+        {
+          "raw": "[item-name]",
+          "token": "item-name",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-indefinite",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item-name",
+          "target_qualified_name": "Planar Codex Parish.item-name"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "item-description-consonent",
+      "item-descriptor-vowel",
+      "item-name"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";item-indefinite\n17,an [item-descriptor-vowel] [item-name]\n41,a [item-description-consonent] [item-name]",
+  "warnings": []
+}

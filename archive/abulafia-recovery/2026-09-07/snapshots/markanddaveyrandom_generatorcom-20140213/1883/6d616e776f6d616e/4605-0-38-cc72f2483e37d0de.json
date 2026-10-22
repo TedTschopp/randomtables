@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "cc72f2483e37d0de8003d5b9a89a372fbca2a6800ca78c0330b1c31373030e5e",
+      "revisionId": "4605",
+      "line": 38,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "manwoman",
+    "qualified_name": "Rituals.manwoman",
+    "table_block_index": 0,
+    "line_number": 38
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "man",
+      "raw_text": "1,man",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "woman",
+      "raw_text": "1,woman",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";manwoman\n1,man\n1,woman",
+  "warnings": []
+}

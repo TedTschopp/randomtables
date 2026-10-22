@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22975,
+    "timestamp": "2014-06-11T06:10:22Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "319f2c42dd6384bea4c1a8f0fb5d50519d4c3e108524776bf31ee3274169cc7c",
+      "rawSha256": "bf5ae739db45df8e4f5111c17281cec12e907e6127a5ff9ffdb014865e340094",
+      "revisionId": "22975",
+      "line": 250,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "missile",
+    "qualified_name": "OSR weapon.missile",
+    "table_block_index": 0,
+    "line_number": 250
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 8,
+      "text": "[Dice.2d6] arrows",
+      "raw_text": "8,[Dice.2d6] arrows",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "missile",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[Dice.1d10] stones",
+      "raw_text": "2,[Dice.1d10] stones",
+      "references": [
+        {
+          "raw": "[Dice.1d10]",
+          "token": "Dice.1d10",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "missile",
+          "target_page": "Dice",
+          "target_subtable": "1d10",
+          "target_qualified_name": "Dice.1d10"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "The Spear, [names]",
+      "raw_text": "1,The Spear, [names]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "missile",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "[Dice.2d4] darts",
+      "raw_text": "4,[Dice.2d4] darts",
+      "references": [
+        {
+          "raw": "[Dice.2d4]",
+          "token": "Dice.2d4",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "missile",
+          "target_page": "Dice",
+          "target_subtable": "2d4",
+          "target_qualified_name": "Dice.2d4"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 4,
+      "text": "[Dice.2d6] quarrels",
+      "raw_text": "4,[Dice.2d6] quarrels",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "missile",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names"
+    ],
+    "external_subtables": [
+      "Dice.1d10",
+      "Dice.2d4",
+      "Dice.2d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";missile\n8,[Dice.2d6] arrows\n2,[Dice.1d10] stones\n1,The Spear, [names]\n4,[Dice.2d4] darts\n4,[Dice.2d6] quarrels",
+  "warnings": []
+}

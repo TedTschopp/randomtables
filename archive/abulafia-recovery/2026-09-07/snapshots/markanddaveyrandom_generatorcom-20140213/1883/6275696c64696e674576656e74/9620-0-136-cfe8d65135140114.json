@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "cfe8d65135140114bbd135c97b9f655709face16cb86974d00c8249af989e5f4",
+      "revisionId": "9620",
+      "line": 136,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "buildingEvent",
+    "qualified_name": "Rituals.buildingEvent",
+    "table_block_index": 0,
+    "line_number": 136
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "when laying a cornerstone",
+      "raw_text": "1,when laying a cornerstone",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when dedicating a plot of land for building",
+      "raw_text": "1,when dedicating a plot of land for building",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when dedicating [works]",
+      "raw_text": "1,when dedicating [works]",
+      "references": [
+        {
+          "raw": "[works]",
+          "token": "works",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "buildingEvent",
+          "target_page": "Rituals",
+          "target_subtable": "works",
+          "target_qualified_name": "Rituals.works"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when commencing work on [works]",
+      "raw_text": "1,when commencing work on [works]",
+      "references": [
+        {
+          "raw": "[works]",
+          "token": "works",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "buildingEvent",
+          "target_page": "Rituals",
+          "target_subtable": "works",
+          "target_qualified_name": "Rituals.works"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when unveiling [works] for approval",
+      "raw_text": "1,when unveiling [works] for approval",
+      "references": [
+        {
+          "raw": "[works]",
+          "token": "works",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "buildingEvent",
+          "target_page": "Rituals",
+          "target_subtable": "works",
+          "target_qualified_name": "Rituals.works"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when clearing land for a building",
+      "raw_text": "1,when clearing land for a building",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "works"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";buildingEvent\n1,when laying a cornerstone\n1,when dedicating a plot of land for building\n1,when dedicating [works]\n1,when commencing work on [works]\n1,when unveiling [works] for approval\n1,when clearing land for a building",
+  "warnings": []
+}

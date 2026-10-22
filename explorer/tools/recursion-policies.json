@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/TedTschopp/random-generator-com-wiki-dump",
+  "commit": "6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0",
+  "basis": {
+    "report": "Docs/quarantine-report.json",
+    "reportSha256": "f94212a9ac92050127613e6c5cfacb9a70273f45a4a51ed7a30552f4b96974c8",
+    "manifestSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e",
+    "candidateTables": 2,
+    "policy": "Approve only one recursive pair row with distinct resolved items and one descriptive wrapper. Recursion depth is one; terminal paths must be finite and independently validated. Preserve all original rows, weights, identities, contributors, prior ready tables, and global limits."
+  },
+  "policies": [
+    {
+      "tableId": "wiki_abulafia_1537_56656767696573436f6f6b61626c65",
+      "sourceFile": "tables/fantasymenu/subtables/veggiescookable/table.json",
+      "sourceHash": "7457132dcb61c52cb142de60171bd4d6fd67ce01aa6b673bb403486a73046c71",
+      "rawSourceHash": "af1d8965f6cf417314271c7635d7674ccec18c0a1278af2aa377d3bd6508e214",
+      "row": 4,
+      "line": 5,
+      "raw": "2,[VeggiesCookable] and [VeggiesCookable]",
+      "entryHash": "3a938626f1b46d2f1cdf393c54e5d633dde442ac6840e35966c878507bb549b8",
+      "weight": 2,
+      "kind": "unique-pair",
+      "maxDepth": 1
+    },
+    {
+      "tableId": "wiki_abulafia_1611_5469746c6544657363726970746f72",
+      "sourceFile": "tables/secret-society-title/subtables/titledescriptor/table.json",
+      "sourceHash": "60778569a1a6e2574ca0b2aac5f48187cb57bc714f66c9cb59506d6b25af6b17",
+      "rawSourceHash": "cb29941e75f5962cdd3cdf5b200ccabae36129c515b898d6dd72a512f5d4dd75",
+      "row": 1,
+      "line": 2,
+      "raw": "10,Most [TitleDescriptor]]",
+      "entryHash": "8d61353869e3e8292685903d20089838247cdfe3536daedeb9fe10e57f447f8b",
+      "weight": 10,
+      "kind": "bounded-wrapper",
+      "maxDepth": 1
+    }
+  ]
+}

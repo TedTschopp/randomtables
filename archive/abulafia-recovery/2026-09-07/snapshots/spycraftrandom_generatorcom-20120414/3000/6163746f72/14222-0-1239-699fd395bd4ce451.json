@@ -1,0 +1,3397 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "699fd395bd4ce451eba3a4618d1ff23eaea09023b526897917e0af6663be2bb8",
+      "revisionId": "14222",
+      "line": 1239,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "actor",
+    "qualified_name": "User:Snake Eyes.actor",
+    "table_block_index": 0,
+    "line_number": 1239
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Beggar",
+      "raw_text": "1, Beggar",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Cripple",
+      "raw_text": "1, Cripple",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Cartographer",
+      "raw_text": "1, Cartographer",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Artist",
+      "raw_text": "1, Artist",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Cleric",
+      "raw_text": "1, Cleric",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Clergy",
+      "raw_text": "1, Clergy",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Crier",
+      "raw_text": "1, Crier",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Herald",
+      "raw_text": "1, Herald",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Servant",
+      "raw_text": "1, Servant",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Cook",
+      "raw_text": "1, Cook",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Seneschal",
+      "raw_text": "1, Seneschal",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Vassal",
+      "raw_text": "1, Vassal",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Slave",
+      "raw_text": "1, Slave",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Farmer",
+      "raw_text": "1, Farmer",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Fisherman",
+      "raw_text": "1, Fisherman",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Fishmonger",
+      "raw_text": "1, Fishmonger",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Foreigner",
+      "raw_text": "1, Foreigner",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Guilds-man",
+      "raw_text": "1, Guilds-man",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Hunter",
+      "raw_text": "1, Hunter",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Trapper",
+      "raw_text": "1, Trapper",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Ratter",
+      "raw_text": "1, Ratter",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Scavenger",
+      "raw_text": "1, Scavenger",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Labourer",
+      "raw_text": "1, Labourer",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Military",
+      "raw_text": "1, Military",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Noble",
+      "raw_text": "1, Noble",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Personage",
+      "raw_text": "1, Personage",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Local Official",
+      "raw_text": "1, Local Official",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "City Official",
+      "raw_text": "1, City Official",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Mercantile",
+      "raw_text": "1, Mercantile",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Pimp",
+      "raw_text": "1, Pimp",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Prostitute",
+      "raw_text": "1, Prostitute",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Street Ruffian",
+      "raw_text": "1, Street Ruffian",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Scribe",
+      "raw_text": "1, Scribe",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Scholar",
+      "raw_text": "1, Scholar",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Slaver",
+      "raw_text": "1, Slaver",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Street Cleaner",
+      "raw_text": "1, Street Cleaner",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Teamster",
+      "raw_text": "1, Teamster",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Toymaker",
+      "raw_text": "1, Toymaker",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Unguided Pedlar",
+      "raw_text": "1, Unguided Pedlar",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Unguided Criminal",
+      "raw_text": "1, Unguided Criminal",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Urchins",
+      "raw_text": "1, Urchins",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Children",
+      "raw_text": "1, Children",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Local Lord",
+      "raw_text": "1, Local Lord",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Escort",
+      "raw_text": "1, Escort",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Forester",
+      "raw_text": "1, Forester",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Poacher",
+      "raw_text": "1, Poacher",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Journeyman",
+      "raw_text": "1, Journeyman",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Caravan with Escort",
+      "raw_text": "1, Caravan with Escort",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Peddlers",
+      "raw_text": "1, Peddlers",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Monk",
+      "raw_text": "1, Monk",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Nun",
+      "raw_text": "1, Nun",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Forester",
+      "raw_text": "1, Forester",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Soldiers on Patrol",
+      "raw_text": "1, Soldiers on Patrol",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Brigands",
+      "raw_text": "1, Brigands",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Highwayman",
+      "raw_text": "1, Highwayman",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Militia",
+      "raw_text": "1, Militia",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Conscripts",
+      "raw_text": "1, Conscripts",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Adventurer",
+      "raw_text": "1, Adventurer",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Local Tribe",
+      "raw_text": "1, Local Tribe",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Native",
+      "raw_text": "1, Native",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Nomad",
+      "raw_text": "1, Nomad",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Local Patrol",
+      "raw_text": "1, Local Patrol",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Stagecoach",
+      "raw_text": "1, Stagecoach",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Ethereal",
+      "raw_text": "1, Ethereal",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Dryad",
+      "raw_text": "1, Dryad",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Human Adventurer",
+      "raw_text": "1, Human Adventurer",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Wild Orc",
+      "raw_text": "1, Wild Orc",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Wild Giant",
+      "raw_text": "1, Wild Giant",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Dwarf",
+      "raw_text": "1, Dwarf",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Elf",
+      "raw_text": "1, Elf",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Centaur",
+      "raw_text": "1, Centaur",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Harpy",
+      "raw_text": "1, Harpy",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Earth Giant",
+      "raw_text": "1, Earth Giant",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Troll",
+      "raw_text": "1, Troll",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Architect",
+      "raw_text": "1, Architect",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Engineer",
+      "raw_text": "1, Engineer",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Local Merchantman",
+      "raw_text": "1, Local Merchantman",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Foreign Merchantman",
+      "raw_text": "1, Foreign Merchantman",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Caveman",
+      "raw_text": "1, Caveman",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Ape Man",
+      "raw_text": "1, Ape Man",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Dragon",
+      "raw_text": "1, Dragon",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Patrician",
+      "raw_text": "1, Patrician",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Knight",
+      "raw_text": "1, Knight",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Knight Errant",
+      "raw_text": "1, Knight Errant",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Landless Knight Bachelor",
+      "raw_text": "1, Landless Knight Bachelor",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Page",
+      "raw_text": "1, Page",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Squire",
+      "raw_text": "1, Squire",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Grand Master",
+      "raw_text": "1, Grand Master",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Officer of Martial Arts",
+      "raw_text": "1, Officer of Martial Arts",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Tribal Chieftain",
+      "raw_text": "1, Tribal Chieftain",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Local Garrison",
+      "raw_text": "1, Local Garrison",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Local Guard",
+      "raw_text": "1, Local Guard",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Legionnaire",
+      "raw_text": "1, Legionnaire",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Militiaman",
+      "raw_text": "1, Militiaman",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Gladiator",
+      "raw_text": "1, Gladiator",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Water Nymph",
+      "raw_text": "1, Water Nymph",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Sprite",
+      "raw_text": "1, Sprite",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Ghost",
+      "raw_text": "1, Ghost",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Astral Entity",
+      "raw_text": "1, Astral Entity",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Liche",
+      "raw_text": "1, Liche",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Vampire",
+      "raw_text": "1, Vampire",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Golem Construct",
+      "raw_text": "1, Golem Construct",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "Zombie",
+      "raw_text": "1, Zombie",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1, Demon",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Demigod",
+      "raw_text": "1, Demigod",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Pirate",
+      "raw_text": "1, Pirate",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "Privateer",
+      "raw_text": "1, Privateer",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "Serf",
+      "raw_text": "1, Serf",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "Thrall",
+      "raw_text": "1, Thrall",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Villein",
+      "raw_text": "1, Villein",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Reeve",
+      "raw_text": "1, Reeve",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Chief",
+      "raw_text": "1, Chief",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Farm Worker",
+      "raw_text": "1, Farm Worker",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "Tenant",
+      "raw_text": "1, Tenant",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Free Farmer",
+      "raw_text": "1, Free Farmer",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Thatcher",
+      "raw_text": "1, Thatcher",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Woodcutter",
+      "raw_text": "1, Woodcutter",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Iceman",
+      "raw_text": "1, Iceman",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "Wood-crafter",
+      "raw_text": "1, Wood-crafter",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Weapon-crafter",
+      "raw_text": "1, Weapon-crafter",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Wheelwright",
+      "raw_text": "1, Wheelwright",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "Thespian",
+      "raw_text": "1, Thespian",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Tent-maker",
+      "raw_text": "1, Tent-maker",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "Shipwright",
+      "raw_text": "1, Shipwright",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Maji",
+      "raw_text": "1, Maji",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Seaman",
+      "raw_text": "1, Seaman",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Salter",
+      "raw_text": "1, Salter",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Potter",
+      "raw_text": "1, Potter",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Pilot",
+      "raw_text": "1, Pilot",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Physician",
+      "raw_text": "1, Physician",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Perfumer",
+      "raw_text": "1, Perfumer",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Ostler",
+      "raw_text": "1, Ostler",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Miner",
+      "raw_text": "1, Miner",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Miller",
+      "raw_text": "1, Miller",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Metalsmith",
+      "raw_text": "1, Metalsmith",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Mason",
+      "raw_text": "1, Mason",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Weaver",
+      "raw_text": "1, Weaver",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Locksmith",
+      "raw_text": "1, Locksmith",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Litigant",
+      "raw_text": "1, Litigant",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Jeweler",
+      "raw_text": "1, Jeweler",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Innkeeper",
+      "raw_text": "1, Innkeeper",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Hide-worker",
+      "raw_text": "1, Hide-worker",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Herald",
+      "raw_text": "1, Herald",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Harper",
+      "raw_text": "1, Harper",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Glass-worker",
+      "raw_text": "1, Glass-worker",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "Embalmer",
+      "raw_text": "1, Embalmer",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "Courtesan",
+      "raw_text": "1, Courtesan",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "Clothier",
+      "raw_text": "1, Clothier",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "Charcoal-er",
+      "raw_text": "1, Charcoal-er",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "Chandler",
+      "raw_text": "1, Chandler",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "Astrologer",
+      "raw_text": "1, Astrologer",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "Alchemist",
+      "raw_text": "1, Alchemist",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "Apothecary",
+      "raw_text": "1, Apothecary",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "Apprentice",
+      "raw_text": "1, Apprentice",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "Journeyman",
+      "raw_text": "1, Journeyman",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "Bonded Master",
+      "raw_text": "1, Bonded Master",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "Master",
+      "raw_text": "1, Master",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "Master-at-Arms",
+      "raw_text": "1, Master-at-Arms",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "Guild-master",
+      "raw_text": "1, Guild-master",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "Herder",
+      "raw_text": "1, Herder",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "Animal Trainer",
+      "raw_text": "1, Animal Trainer",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "Shaman",
+      "raw_text": "1, Shaman",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "Loansharkings",
+      "raw_text": "1, Loansharkings",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "Sage",
+      "raw_text": "1, Sage",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "Tutor",
+      "raw_text": "1, Tutor",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "Viking",
+      "raw_text": "1, Viking",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "Skald",
+      "raw_text": "1, Skald",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "Lexicographer",
+      "raw_text": "1, Lexicographer",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "Litigant",
+      "raw_text": "1, Litigant",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "Perfumer",
+      "raw_text": "1, Perfumer",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "Physician",
+      "raw_text": "1, Physician",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "Thespian",
+      "raw_text": "1, Thespian",
+      "references": []
+    },
+    {
+      "index": 172,
+      "weight": 1,
+      "text": "Thief",
+      "raw_text": "1, Thief",
+      "references": []
+    },
+    {
+      "index": 173,
+      "weight": 1,
+      "text": "Acrobat",
+      "raw_text": "1, Acrobat",
+      "references": []
+    },
+    {
+      "index": 174,
+      "weight": 1,
+      "text": "Jester",
+      "raw_text": "1, Jester",
+      "references": []
+    },
+    {
+      "index": 175,
+      "weight": 1,
+      "text": "Fool",
+      "raw_text": "1, Fool",
+      "references": []
+    },
+    {
+      "index": 176,
+      "weight": 1,
+      "text": "Musician",
+      "raw_text": "1, Musician",
+      "references": []
+    },
+    {
+      "index": 177,
+      "weight": 1,
+      "text": "Bard",
+      "raw_text": "1, Bard",
+      "references": []
+    },
+    {
+      "index": 178,
+      "weight": 1,
+      "text": "Singer",
+      "raw_text": "1, Singer",
+      "references": []
+    },
+    {
+      "index": 179,
+      "weight": 1,
+      "text": "Leather-worker",
+      "raw_text": "1, Leather-worker",
+      "references": []
+    },
+    {
+      "index": 180,
+      "weight": 1,
+      "text": "Gnome",
+      "raw_text": "1, Gnome",
+      "references": []
+    },
+    {
+      "index": 181,
+      "weight": 1,
+      "text": "Pixie",
+      "raw_text": "1, Pixie",
+      "references": []
+    },
+    {
+      "index": 182,
+      "weight": 1,
+      "text": "Saurian",
+      "raw_text": "1, Saurian",
+      "references": []
+    },
+    {
+      "index": 183,
+      "weight": 1,
+      "text": "Siren",
+      "raw_text": "1, Siren",
+      "references": []
+    },
+    {
+      "index": 184,
+      "weight": 1,
+      "text": "Angel",
+      "raw_text": "1, Angel",
+      "references": []
+    },
+    {
+      "index": 185,
+      "weight": 1,
+      "text": "Engineer",
+      "raw_text": "1, Engineer",
+      "references": []
+    },
+    {
+      "index": 186,
+      "weight": 1,
+      "text": "Digger",
+      "raw_text": "1, Digger",
+      "references": []
+    },
+    {
+      "index": 187,
+      "weight": 1,
+      "text": "Witch",
+      "raw_text": "1, Witch",
+      "references": []
+    },
+    {
+      "index": 188,
+      "weight": 1,
+      "text": "Juggler",
+      "raw_text": "1, Juggler",
+      "references": []
+    },
+    {
+      "index": 189,
+      "weight": 1,
+      "text": "Doppelganger",
+      "raw_text": "1, Doppelganger",
+      "references": []
+    },
+    {
+      "index": 190,
+      "weight": 1,
+      "text": "Giant",
+      "raw_text": "1, Giant",
+      "references": []
+    },
+    {
+      "index": 191,
+      "weight": 1,
+      "text": "Ogre Maji",
+      "raw_text": "1, Ogre Maji",
+      "references": []
+    },
+    {
+      "index": 192,
+      "weight": 1,
+      "text": "Fortune Teller",
+      "raw_text": "1, Fortune Teller",
+      "references": []
+    },
+    {
+      "index": 193,
+      "weight": 1,
+      "text": "Gypsy",
+      "raw_text": "1, Gypsy",
+      "references": []
+    },
+    {
+      "index": 194,
+      "weight": 1,
+      "text": "Hobbit",
+      "raw_text": "1, Hobbit",
+      "references": []
+    },
+    {
+      "index": 195,
+      "weight": 1,
+      "text": "Neanderthal",
+      "raw_text": "1, Neanderthal",
+      "references": []
+    },
+    {
+      "index": 196,
+      "weight": 1,
+      "text": "Supernatural",
+      "raw_text": "1, Supernatural",
+      "references": []
+    },
+    {
+      "index": 197,
+      "weight": 1,
+      "text": "Wheelwright",
+      "raw_text": "1, Wheelwright",
+      "references": []
+    },
+    {
+      "index": 198,
+      "weight": 1,
+      "text": "Timberwright",
+      "raw_text": "1, Timberwright",
+      "references": []
+    },
+    {
+      "index": 199,
+      "weight": 1,
+      "text": "Shipwright",
+      "raw_text": "1, Shipwright",
+      "references": []
+    },
+    {
+      "index": 200,
+      "weight": 1,
+      "text": "Lumberjack",
+      "raw_text": "1, Lumberjack",
+      "references": []
+    },
+    {
+      "index": 201,
+      "weight": 1,
+      "text": "Sewerage Worker",
+      "raw_text": "1, Sewerage Worker",
+      "references": []
+    },
+    {
+      "index": 202,
+      "weight": 1,
+      "text": "Mineworker",
+      "raw_text": "1, Mineworker",
+      "references": []
+    },
+    {
+      "index": 203,
+      "weight": 1,
+      "text": "Foreman",
+      "raw_text": "1, Foreman",
+      "references": []
+    },
+    {
+      "index": 204,
+      "weight": 1,
+      "text": "Supervisor",
+      "raw_text": "1, Supervisor",
+      "references": []
+    },
+    {
+      "index": 205,
+      "weight": 1,
+      "text": "General",
+      "raw_text": "1, General",
+      "references": []
+    },
+    {
+      "index": 206,
+      "weight": 1,
+      "text": "Manager",
+      "raw_text": "1, Manager",
+      "references": []
+    },
+    {
+      "index": 207,
+      "weight": 1,
+      "text": "Business Owner",
+      "raw_text": "1, Business Owner",
+      "references": []
+    },
+    {
+      "index": 208,
+      "weight": 1,
+      "text": "Replacement",
+      "raw_text": "1, Replacement",
+      "references": []
+    },
+    {
+      "index": 209,
+      "weight": 1,
+      "text": "Reprasentative",
+      "raw_text": "1, Reprasentative",
+      "references": []
+    },
+    {
+      "index": 210,
+      "weight": 1,
+      "text": "Leader",
+      "raw_text": "1, Leader",
+      "references": []
+    },
+    {
+      "index": 211,
+      "weight": 1,
+      "text": "Disguised",
+      "raw_text": "1, Disguised",
+      "references": []
+    },
+    {
+      "index": 212,
+      "weight": 1,
+      "text": "Double Agent",
+      "raw_text": "1, Double Agent",
+      "references": []
+    },
+    {
+      "index": 213,
+      "weight": 1,
+      "text": "Freelance",
+      "raw_text": "1, Freelance",
+      "references": []
+    },
+    {
+      "index": 214,
+      "weight": 1,
+      "text": "Cartwright",
+      "raw_text": "1, Cartwright",
+      "references": []
+    },
+    {
+      "index": 215,
+      "weight": 1,
+      "text": "Free",
+      "raw_text": "1, Free",
+      "references": []
+    },
+    {
+      "index": 216,
+      "weight": 1,
+      "text": "“Quest”",
+      "raw_text": "1, “Quest”",
+      "references": []
+    },
+    {
+      "index": 217,
+      "weight": 1,
+      "text": "Shoemaker",
+      "raw_text": "1, Shoemaker",
+      "references": []
+    },
+    {
+      "index": 218,
+      "weight": 1,
+      "text": "Carnival Performer",
+      "raw_text": "1, Carnival Performer",
+      "references": []
+    },
+    {
+      "index": 219,
+      "weight": 1,
+      "text": "Mason",
+      "raw_text": "1, Mason",
+      "references": []
+    },
+    {
+      "index": 220,
+      "weight": 1,
+      "text": "Weaver",
+      "raw_text": "1, Weaver",
+      "references": []
+    },
+    {
+      "index": 221,
+      "weight": 1,
+      "text": "Sewer",
+      "raw_text": "1, Sewer",
+      "references": []
+    },
+    {
+      "index": 222,
+      "weight": 1,
+      "text": "Yarn Maker",
+      "raw_text": "1, Yarn Maker",
+      "references": []
+    },
+    {
+      "index": 223,
+      "weight": 1,
+      "text": "Tailor",
+      "raw_text": "1, Tailor",
+      "references": []
+    },
+    {
+      "index": 224,
+      "weight": 1,
+      "text": "Ironsmith",
+      "raw_text": "1, Ironsmith",
+      "references": []
+    },
+    {
+      "index": 225,
+      "weight": 1,
+      "text": "Clockmaker",
+      "raw_text": "1, Clockmaker",
+      "references": []
+    },
+    {
+      "index": 226,
+      "weight": 1,
+      "text": "Lockmaker",
+      "raw_text": "1, Lockmaker",
+      "references": []
+    },
+    {
+      "index": 227,
+      "weight": 1,
+      "text": "Locksmith",
+      "raw_text": "1, Locksmith",
+      "references": []
+    },
+    {
+      "index": 228,
+      "weight": 1,
+      "text": "Burglar",
+      "raw_text": "1, Burglar",
+      "references": []
+    },
+    {
+      "index": 229,
+      "weight": 1,
+      "text": "Itinerant",
+      "raw_text": "1, Itinerant",
+      "references": []
+    },
+    {
+      "index": 230,
+      "weight": 1,
+      "text": "Escaped",
+      "raw_text": "1, Escaped",
+      "references": []
+    },
+    {
+      "index": 231,
+      "weight": 1,
+      "text": "Cook",
+      "raw_text": "1, Cook",
+      "references": []
+    },
+    {
+      "index": 232,
+      "weight": 1,
+      "text": "Cartwright",
+      "raw_text": "1, Cartwright",
+      "references": []
+    },
+    {
+      "index": 233,
+      "weight": 1,
+      "text": "Teamster",
+      "raw_text": "1, Teamster",
+      "references": []
+    },
+    {
+      "index": 234,
+      "weight": 1,
+      "text": "Jackaroo",
+      "raw_text": "1, Jackaroo",
+      "references": []
+    },
+    {
+      "index": 235,
+      "weight": 1,
+      "text": "Jillaroo",
+      "raw_text": "1, Jillaroo",
+      "references": []
+    },
+    {
+      "index": 236,
+      "weight": 1,
+      "text": "Tanner",
+      "raw_text": "1, Tanner",
+      "references": []
+    },
+    {
+      "index": 237,
+      "weight": 1,
+      "text": "Hideworker",
+      "raw_text": "1, Hideworker",
+      "references": []
+    },
+    {
+      "index": 238,
+      "weight": 1,
+      "text": "Copyist",
+      "raw_text": "1, Copyist",
+      "references": []
+    },
+    {
+      "index": 239,
+      "weight": 1,
+      "text": "Scribe",
+      "raw_text": "1, Scribe",
+      "references": []
+    },
+    {
+      "index": 240,
+      "weight": 1,
+      "text": "Mourner",
+      "raw_text": "1, Mourner",
+      "references": []
+    },
+    {
+      "index": 241,
+      "weight": 1,
+      "text": "Gavedigger",
+      "raw_text": "1, Gavedigger",
+      "references": []
+    },
+    {
+      "index": 242,
+      "weight": 1,
+      "text": "Orderly",
+      "raw_text": "1, Orderly",
+      "references": []
+    },
+    {
+      "index": 243,
+      "weight": 1,
+      "text": "Nurse",
+      "raw_text": "1, Nurse",
+      "references": []
+    },
+    {
+      "index": 244,
+      "weight": 1,
+      "text": "Midwife",
+      "raw_text": "1, Midwife",
+      "references": []
+    },
+    {
+      "index": 245,
+      "weight": 1,
+      "text": "Wetnurse",
+      "raw_text": "1, Wetnurse",
+      "references": []
+    },
+    {
+      "index": 246,
+      "weight": 1,
+      "text": "Metalurgist",
+      "raw_text": "1, Metalurgist",
+      "references": []
+    },
+    {
+      "index": 247,
+      "weight": 1,
+      "text": "urrier",
+      "raw_text": "1, urrier",
+      "references": []
+    },
+    {
+      "index": 248,
+      "weight": 1,
+      "text": "Magician",
+      "raw_text": "1, Magician",
+      "references": []
+    },
+    {
+      "index": 249,
+      "weight": 1,
+      "text": "Circus Performer",
+      "raw_text": "1, Circus Performer",
+      "references": []
+    },
+    {
+      "index": 250,
+      "weight": 1,
+      "text": "Harnessmaker",
+      "raw_text": "1, Harnessmaker",
+      "references": []
+    },
+    {
+      "index": 251,
+      "weight": 1,
+      "text": "Vetranairian",
+      "raw_text": "1, Vetranairian",
+      "references": []
+    },
+    {
+      "index": 252,
+      "weight": 1,
+      "text": "Farrier",
+      "raw_text": "1, Farrier",
+      "references": []
+    },
+    {
+      "index": 253,
+      "weight": 1,
+      "text": "Water Carrier",
+      "raw_text": "1, Water Carrier",
+      "references": []
+    },
+    {
+      "index": 254,
+      "weight": 1,
+      "text": "Wholesaler",
+      "raw_text": "1, Wholesaler",
+      "references": []
+    },
+    {
+      "index": 255,
+      "weight": 1,
+      "text": "Cooperative Seller",
+      "raw_text": "1, Cooperative Seller",
+      "references": []
+    },
+    {
+      "index": 256,
+      "weight": 1,
+      "text": "Cooperative Trader",
+      "raw_text": "1, Cooperative Trader",
+      "references": []
+    },
+    {
+      "index": 257,
+      "weight": 1,
+      "text": "Coppersmith",
+      "raw_text": "1, Coppersmith",
+      "references": []
+    },
+    {
+      "index": 258,
+      "weight": 1,
+      "text": "Leadworker",
+      "raw_text": "1, Leadworker",
+      "references": []
+    },
+    {
+      "index": 259,
+      "weight": 1,
+      "text": "Horse Trainer",
+      "raw_text": "1, Horse Trainer",
+      "references": []
+    },
+    {
+      "index": 260,
+      "weight": 1,
+      "text": "Trainer",
+      "raw_text": "1, Trainer",
+      "references": []
+    },
+    {
+      "index": 261,
+      "weight": 1,
+      "text": "Animal Breeder",
+      "raw_text": "1, Animal Breeder",
+      "references": []
+    },
+    {
+      "index": 262,
+      "weight": 1,
+      "text": "Hawker",
+      "raw_text": "1, Hawker",
+      "references": []
+    },
+    {
+      "index": 263,
+      "weight": 1,
+      "text": "Vendor",
+      "raw_text": "1, Vendor",
+      "references": []
+    },
+    {
+      "index": 264,
+      "weight": 1,
+      "text": "Papermaker",
+      "raw_text": "1, Papermaker",
+      "references": []
+    },
+    {
+      "index": 265,
+      "weight": 1,
+      "text": "Tatooist",
+      "raw_text": "1, Tatooist",
+      "references": []
+    },
+    {
+      "index": 266,
+      "weight": 1,
+      "text": "Swordsmith",
+      "raw_text": "1, Swordsmith",
+      "references": []
+    },
+    {
+      "index": 267,
+      "weight": 1,
+      "text": "Court Official",
+      "raw_text": "1, Court Official",
+      "references": []
+    },
+    {
+      "index": 268,
+      "weight": 1,
+      "text": "Flower Girl",
+      "raw_text": "1, Flower Girl",
+      "references": []
+    },
+    {
+      "index": 269,
+      "weight": 1,
+      "text": "Busker Musician",
+      "raw_text": "1, Busker Musician",
+      "references": []
+    },
+    {
+      "index": 270,
+      "weight": 1,
+      "text": "Scribe",
+      "raw_text": "1, Scribe",
+      "references": []
+    },
+    {
+      "index": 271,
+      "weight": 1,
+      "text": "Page",
+      "raw_text": "1, Page",
+      "references": []
+    },
+    {
+      "index": 272,
+      "weight": 1,
+      "text": "Librarian",
+      "raw_text": "1, Librarian ",
+      "references": []
+    },
+    {
+      "index": 273,
+      "weight": 1,
+      "text": "Courtesan",
+      "raw_text": "1, Courtesan",
+      "references": []
+    },
+    {
+      "index": 274,
+      "weight": 1,
+      "text": "Poet",
+      "raw_text": "1, Poet",
+      "references": []
+    },
+    {
+      "index": 275,
+      "weight": 1,
+      "text": "Philosopher",
+      "raw_text": "1, Philosopher ",
+      "references": []
+    },
+    {
+      "index": 276,
+      "weight": 1,
+      "text": "Mathematician",
+      "raw_text": "1, Mathematician",
+      "references": []
+    },
+    {
+      "index": 277,
+      "weight": 1,
+      "text": "Retired",
+      "raw_text": "1, Retired",
+      "references": []
+    },
+    {
+      "index": 278,
+      "weight": 1,
+      "text": "Seer",
+      "raw_text": "1, Seer",
+      "references": []
+    },
+    {
+      "index": 279,
+      "weight": 1,
+      "text": "Telepath",
+      "raw_text": "1, Telepath",
+      "references": []
+    },
+    {
+      "index": 280,
+      "weight": 1,
+      "text": "Spirit Guide",
+      "raw_text": "1, Spirit Guide",
+      "references": []
+    },
+    {
+      "index": 281,
+      "weight": 1,
+      "text": "Sub Continent",
+      "raw_text": "1, Sub Continent",
+      "references": []
+    },
+    {
+      "index": 282,
+      "weight": 1,
+      "text": "Principality",
+      "raw_text": "1, Principality",
+      "references": []
+    },
+    {
+      "index": 283,
+      "weight": 1,
+      "text": "Easterner",
+      "raw_text": "1, Easterner",
+      "references": []
+    },
+    {
+      "index": 284,
+      "weight": 1,
+      "text": "Oriental",
+      "raw_text": "1, Oriental",
+      "references": []
+    },
+    {
+      "index": 285,
+      "weight": 1,
+      "text": "Lost Continent",
+      "raw_text": "1, Lost Continent",
+      "references": []
+    },
+    {
+      "index": 286,
+      "weight": 1,
+      "text": "Dark Continent",
+      "raw_text": "1, Dark Continent",
+      "references": []
+    },
+    {
+      "index": 287,
+      "weight": 1,
+      "text": "Ivory Coast",
+      "raw_text": "1, Ivory Coast",
+      "references": []
+    },
+    {
+      "index": 288,
+      "weight": 1,
+      "text": "Northerner",
+      "raw_text": "1, Northerner",
+      "references": []
+    },
+    {
+      "index": 289,
+      "weight": 1,
+      "text": "Southerner",
+      "raw_text": "1, Southerner",
+      "references": []
+    },
+    {
+      "index": 290,
+      "weight": 1,
+      "text": "Archipelagos",
+      "raw_text": "1, Archipelagos",
+      "references": []
+    },
+    {
+      "index": 291,
+      "weight": 1,
+      "text": "Spice Trail",
+      "raw_text": "1, Spice Trail",
+      "references": []
+    },
+    {
+      "index": 292,
+      "weight": 1,
+      "text": "Cleric Chaos",
+      "raw_text": "1, Cleric Chaos",
+      "references": []
+    },
+    {
+      "index": 293,
+      "weight": 1,
+      "text": "Cleric Evil",
+      "raw_text": "1, Cleric Evil",
+      "references": []
+    },
+    {
+      "index": 294,
+      "weight": 1,
+      "text": "Cleric Wild",
+      "raw_text": "1, Cleric Wild ",
+      "references": []
+    },
+    {
+      "index": 295,
+      "weight": 1,
+      "text": "Cleric Selfish",
+      "raw_text": "1, Cleric Selfish ",
+      "references": []
+    },
+    {
+      "index": 296,
+      "weight": 1,
+      "text": "Cleric Unaligned",
+      "raw_text": "1, Cleric Unaligned",
+      "references": []
+    },
+    {
+      "index": 297,
+      "weight": 1,
+      "text": "Cleric Neutral",
+      "raw_text": "1, Cleric Neutral",
+      "references": []
+    },
+    {
+      "index": 298,
+      "weight": 1,
+      "text": "Cleric Natural",
+      "raw_text": "1, Cleric Natural",
+      "references": []
+    },
+    {
+      "index": 299,
+      "weight": 1,
+      "text": "Cleric Conservative",
+      "raw_text": "1, Cleric Conservative",
+      "references": []
+    },
+    {
+      "index": 300,
+      "weight": 1,
+      "text": "Cleric Good",
+      "raw_text": "1, Cleric Good",
+      "references": []
+    },
+    {
+      "index": 301,
+      "weight": 1,
+      "text": "Cleric Law",
+      "raw_text": "1, Cleric Law",
+      "references": []
+    },
+    {
+      "index": 302,
+      "weight": 1,
+      "text": "Cleric Pure",
+      "raw_text": "1, Cleric Pure",
+      "references": []
+    },
+    {
+      "index": 303,
+      "weight": 1,
+      "text": "Monk",
+      "raw_text": "1, Monk",
+      "references": []
+    },
+    {
+      "index": 304,
+      "weight": 1,
+      "text": "Barbarian",
+      "raw_text": "1, Barbarian",
+      "references": []
+    },
+    {
+      "index": 305,
+      "weight": 1,
+      "text": "Warlord",
+      "raw_text": "1, Warlord",
+      "references": []
+    },
+    {
+      "index": 306,
+      "weight": 1,
+      "text": "Enchanter",
+      "raw_text": "1, Enchanter",
+      "references": []
+    },
+    {
+      "index": 307,
+      "weight": 1,
+      "text": "Seer",
+      "raw_text": "1, Seer",
+      "references": []
+    },
+    {
+      "index": 308,
+      "weight": 1,
+      "text": "Mystic",
+      "raw_text": "1, Mystic",
+      "references": []
+    },
+    {
+      "index": 309,
+      "weight": 1,
+      "text": "Necromancer",
+      "raw_text": "1, Necromancer",
+      "references": []
+    },
+    {
+      "index": 310,
+      "weight": 1,
+      "text": "Druid",
+      "raw_text": "1, Druid",
+      "references": []
+    },
+    {
+      "index": 311,
+      "weight": 1,
+      "text": "Shepard",
+      "raw_text": "1, Shepard",
+      "references": []
+    },
+    {
+      "index": 312,
+      "weight": 1,
+      "text": "Diver",
+      "raw_text": "1, Diver",
+      "references": []
+    },
+    {
+      "index": 313,
+      "weight": 1,
+      "text": "Brewer",
+      "raw_text": "1, Brewer",
+      "references": []
+    },
+    {
+      "index": 314,
+      "weight": 1,
+      "text": "Vintner",
+      "raw_text": "1, Vintner",
+      "references": []
+    },
+    {
+      "index": 315,
+      "weight": 1,
+      "text": "Shoe Maker",
+      "raw_text": "1, Shoe Maker",
+      "references": []
+    },
+    {
+      "index": 316,
+      "weight": 1,
+      "text": "Cobbler",
+      "raw_text": "1, Cobbler",
+      "references": []
+    },
+    {
+      "index": 317,
+      "weight": 1,
+      "text": "Tinker",
+      "raw_text": "1, Tinker",
+      "references": []
+    },
+    {
+      "index": 318,
+      "weight": 1,
+      "text": "Soap Maker",
+      "raw_text": "1, Soap Maker",
+      "references": []
+    },
+    {
+      "index": 319,
+      "weight": 1,
+      "text": "Net Maker",
+      "raw_text": "1, Net Maker",
+      "references": []
+    },
+    {
+      "index": 320,
+      "weight": 1,
+      "text": "Wainwright",
+      "raw_text": "1, Wainwright",
+      "references": []
+    },
+    {
+      "index": 321,
+      "weight": 1,
+      "text": "Baker",
+      "raw_text": "1, Baker",
+      "references": []
+    },
+    {
+      "index": 322,
+      "weight": 1,
+      "text": "Mapmaker",
+      "raw_text": "1, Mapmaker",
+      "references": []
+    },
+    {
+      "index": 323,
+      "weight": 1,
+      "text": "Tailor",
+      "raw_text": "1, Tailor",
+      "references": []
+    },
+    {
+      "index": 324,
+      "weight": 1,
+      "text": "Sail-maker",
+      "raw_text": "1, Sail-maker",
+      "references": []
+    },
+    {
+      "index": 325,
+      "weight": 1,
+      "text": "Rope-maker",
+      "raw_text": "1, Rope-maker",
+      "references": []
+    },
+    {
+      "index": 326,
+      "weight": 1,
+      "text": "Milliner",
+      "raw_text": "1, Milliner",
+      "references": []
+    },
+    {
+      "index": 327,
+      "weight": 1,
+      "text": "Leather-worker",
+      "raw_text": "1, Leather-worker",
+      "references": []
+    },
+    {
+      "index": 328,
+      "weight": 1,
+      "text": "Furrier",
+      "raw_text": "1, Furrier",
+      "references": []
+    },
+    {
+      "index": 329,
+      "weight": 1,
+      "text": "Physician",
+      "raw_text": "1, Physician",
+      "references": []
+    },
+    {
+      "index": 330,
+      "weight": 1,
+      "text": "Barber Surgeon",
+      "raw_text": "1, Barber Surgeon",
+      "references": []
+    },
+    {
+      "index": 331,
+      "weight": 1,
+      "text": "Astrologer",
+      "raw_text": "1, Astrologer",
+      "references": []
+    },
+    {
+      "index": 332,
+      "weight": 1,
+      "text": "Fence",
+      "raw_text": "1, Fence ",
+      "references": []
+    },
+    {
+      "index": 333,
+      "weight": 1,
+      "text": "Pawnbroker",
+      "raw_text": "1, Pawnbroker",
+      "references": []
+    },
+    {
+      "index": 334,
+      "weight": 1,
+      "text": "Money Lender",
+      "raw_text": "1, Money Lender",
+      "references": []
+    },
+    {
+      "index": 335,
+      "weight": 1,
+      "text": "Money Changer",
+      "raw_text": "1, Money Changer",
+      "references": []
+    },
+    {
+      "index": 336,
+      "weight": 1,
+      "text": "Beautician",
+      "raw_text": "1, Beautician",
+      "references": []
+    },
+    {
+      "index": 337,
+      "weight": 1,
+      "text": "Potter",
+      "raw_text": "1, Potter",
+      "references": []
+    },
+    {
+      "index": 338,
+      "weight": 1,
+      "text": "Importer",
+      "raw_text": "1, Importer",
+      "references": []
+    },
+    {
+      "index": 339,
+      "weight": 1,
+      "text": "Exporter",
+      "raw_text": "1, Exporter",
+      "references": []
+    },
+    {
+      "index": 340,
+      "weight": 1,
+      "text": "Weapon Trainer",
+      "raw_text": "1, Weapon Trainer",
+      "references": []
+    },
+    {
+      "index": 341,
+      "weight": 1,
+      "text": "Academic",
+      "raw_text": "1, Academic",
+      "references": []
+    },
+    {
+      "index": 342,
+      "weight": 1,
+      "text": "Student",
+      "raw_text": "1, Student",
+      "references": []
+    },
+    {
+      "index": 343,
+      "weight": 1,
+      "text": "Mentor",
+      "raw_text": "1, Mentor",
+      "references": []
+    },
+    {
+      "index": 344,
+      "weight": 1,
+      "text": "Cartographer",
+      "raw_text": "1, Cartographer",
+      "references": []
+    },
+    {
+      "index": 345,
+      "weight": 1,
+      "text": "Explorer",
+      "raw_text": "1, Explorer",
+      "references": []
+    },
+    {
+      "index": 346,
+      "weight": 1,
+      "text": "Noble",
+      "raw_text": "1, Noble",
+      "references": []
+    },
+    {
+      "index": 347,
+      "weight": 1,
+      "text": "Foreign",
+      "raw_text": "1, Foreign",
+      "references": []
+    },
+    {
+      "index": 348,
+      "weight": 1,
+      "text": "Traveler",
+      "raw_text": "1, Traveler",
+      "references": []
+    },
+    {
+      "index": 349,
+      "weight": 1,
+      "text": "Mystic",
+      "raw_text": "1, Mystic",
+      "references": []
+    },
+    {
+      "index": 350,
+      "weight": 1,
+      "text": "Sage",
+      "raw_text": "1, Sage",
+      "references": []
+    },
+    {
+      "index": 351,
+      "weight": 1,
+      "text": "Unqualified",
+      "raw_text": "1, Unqualified",
+      "references": []
+    },
+    {
+      "index": 352,
+      "weight": 1,
+      "text": "Charlatan",
+      "raw_text": "1, Charlatan",
+      "references": []
+    },
+    {
+      "index": 353,
+      "weight": 1,
+      "text": "Bandit",
+      "raw_text": "1, Bandit",
+      "references": []
+    },
+    {
+      "index": 354,
+      "weight": 1,
+      "text": "Crusader",
+      "raw_text": "1, Crusader",
+      "references": []
+    },
+    {
+      "index": 355,
+      "weight": 1,
+      "text": "Hospitaler",
+      "raw_text": "1, Hospitaler",
+      "references": []
+    },
+    {
+      "index": 356,
+      "weight": 1,
+      "text": "Charcoal-maker",
+      "raw_text": "1, Charcoal-maker",
+      "references": []
+    },
+    {
+      "index": 357,
+      "weight": 1,
+      "text": "Salter",
+      "raw_text": "1, Salter",
+      "references": []
+    },
+    {
+      "index": 358,
+      "weight": 1,
+      "text": "Sportsman",
+      "raw_text": "1, Sportsman",
+      "references": []
+    },
+    {
+      "index": 359,
+      "weight": 1,
+      "text": "Artificer",
+      "raw_text": "1, Artificer",
+      "references": []
+    },
+    {
+      "index": 360,
+      "weight": 1,
+      "text": "Beggar",
+      "raw_text": "1, Beggar",
+      "references": []
+    },
+    {
+      "index": 361,
+      "weight": 1,
+      "text": "Brick-maker",
+      "raw_text": "1, Brick-maker",
+      "references": []
+    },
+    {
+      "index": 362,
+      "weight": 1,
+      "text": "Coachman",
+      "raw_text": "1, Coachman",
+      "references": []
+    },
+    {
+      "index": 363,
+      "weight": 1,
+      "text": "Wagoner",
+      "raw_text": "1, Wagoner",
+      "references": []
+    },
+    {
+      "index": 364,
+      "weight": 1,
+      "text": "Carter",
+      "raw_text": "1, Carter",
+      "references": []
+    },
+    {
+      "index": 365,
+      "weight": 1,
+      "text": "Chandler",
+      "raw_text": "1, Chandler",
+      "references": []
+    },
+    {
+      "index": 366,
+      "weight": 1,
+      "text": "Chirurgeon",
+      "raw_text": "1, Chirurgeon",
+      "references": []
+    },
+    {
+      "index": 367,
+      "weight": 1,
+      "text": "Clothiers",
+      "raw_text": "1, Clothiers",
+      "references": []
+    },
+    {
+      "index": 368,
+      "weight": 1,
+      "text": "Cloth-worker",
+      "raw_text": "1, Cloth-worker",
+      "references": []
+    },
+    {
+      "index": 369,
+      "weight": 1,
+      "text": "Cobbler",
+      "raw_text": "1, Cobbler",
+      "references": []
+    },
+    {
+      "index": 370,
+      "weight": 1,
+      "text": "Coliseum Entertainer",
+      "raw_text": "1, Coliseum Entertainer",
+      "references": []
+    },
+    {
+      "index": 371,
+      "weight": 1,
+      "text": "Cooper",
+      "raw_text": "1, Cooper",
+      "references": []
+    },
+    {
+      "index": 372,
+      "weight": 1,
+      "text": "Copper-smith",
+      "raw_text": "1, Copper-smith",
+      "references": []
+    },
+    {
+      "index": 373,
+      "weight": 1,
+      "text": "Courtesan",
+      "raw_text": "1, Courtesan",
+      "references": []
+    },
+    {
+      "index": 374,
+      "weight": 1,
+      "text": "Diviner",
+      "raw_text": "1, Diviner",
+      "references": []
+    },
+    {
+      "index": 375,
+      "weight": 1,
+      "text": "Dockworker",
+      "raw_text": "1, Dockworker",
+      "references": []
+    },
+    {
+      "index": 376,
+      "weight": 1,
+      "text": "Draper",
+      "raw_text": "1, Draper",
+      "references": []
+    },
+    {
+      "index": 377,
+      "weight": 1,
+      "text": "Dye-maker",
+      "raw_text": "1, Dye-maker",
+      "references": []
+    },
+    {
+      "index": 378,
+      "weight": 1,
+      "text": "Embalmer",
+      "raw_text": "1, Embalmer",
+      "references": []
+    },
+    {
+      "index": 379,
+      "weight": 1,
+      "text": "Enchanter",
+      "raw_text": "1, Enchanter",
+      "references": []
+    },
+    {
+      "index": 380,
+      "weight": 1,
+      "text": "Engineer",
+      "raw_text": "1, Engineer",
+      "references": []
+    },
+    {
+      "index": 381,
+      "weight": 1,
+      "text": "Ferrymen",
+      "raw_text": "1, Ferrymen",
+      "references": []
+    },
+    {
+      "index": 382,
+      "weight": 1,
+      "text": "Fishermen",
+      "raw_text": "1, Fishermen",
+      "references": []
+    },
+    {
+      "index": 383,
+      "weight": 1,
+      "text": "Fishmongers",
+      "raw_text": "1, Fishmongers",
+      "references": []
+    },
+    {
+      "index": 384,
+      "weight": 1,
+      "text": "Ranger",
+      "raw_text": "1, Ranger",
+      "references": []
+    },
+    {
+      "index": 385,
+      "weight": 1,
+      "text": "Fortuneteller",
+      "raw_text": "1, Fortuneteller",
+      "references": []
+    },
+    {
+      "index": 386,
+      "weight": 1,
+      "text": "Foundry-worker",
+      "raw_text": "1, Foundry-worker",
+      "references": []
+    },
+    {
+      "index": 387,
+      "weight": 1,
+      "text": "Free Gladiator",
+      "raw_text": "1, Free Gladiator",
+      "references": []
+    },
+    {
+      "index": 388,
+      "weight": 1,
+      "text": "Fuller",
+      "raw_text": "1, Fuller",
+      "references": []
+    },
+    {
+      "index": 389,
+      "weight": 1,
+      "text": "Furrier",
+      "raw_text": "1, Furrier",
+      "references": []
+    },
+    {
+      "index": 390,
+      "weight": 1,
+      "text": "Gem-cutter",
+      "raw_text": "1, Gem-cutter",
+      "references": []
+    },
+    {
+      "index": 391,
+      "weight": 1,
+      "text": "Glassblower",
+      "raw_text": "1, Glassblower",
+      "references": []
+    },
+    {
+      "index": 392,
+      "weight": 1,
+      "text": "Goldsmith",
+      "raw_text": "1, Goldsmith",
+      "references": []
+    },
+    {
+      "index": 393,
+      "weight": 1,
+      "text": "Gravedigger",
+      "raw_text": "1, Gravedigger",
+      "references": []
+    },
+    {
+      "index": 394,
+      "weight": 1,
+      "text": "Greengrocer",
+      "raw_text": "1, Greengrocer",
+      "references": []
+    },
+    {
+      "index": 395,
+      "weight": 1,
+      "text": "Guide",
+      "raw_text": "1, Guide",
+      "references": []
+    },
+    {
+      "index": 396,
+      "weight": 1,
+      "text": "Haberdasher",
+      "raw_text": "1, Haberdasher",
+      "references": []
+    },
+    {
+      "index": 397,
+      "weight": 1,
+      "text": "Hatter",
+      "raw_text": "1, Hatter",
+      "references": []
+    },
+    {
+      "index": 398,
+      "weight": 1,
+      "text": "Healer",
+      "raw_text": "1, Healer",
+      "references": []
+    },
+    {
+      "index": 399,
+      "weight": 1,
+      "text": "Herbalist",
+      "raw_text": "1, Herbalist",
+      "references": []
+    },
+    {
+      "index": 400,
+      "weight": 1,
+      "text": "Horse-breeder",
+      "raw_text": "1, Horse-breeder",
+      "references": []
+    },
+    {
+      "index": 401,
+      "weight": 1,
+      "text": "Hunters",
+      "raw_text": "1, Hunters",
+      "references": []
+    },
+    {
+      "index": 402,
+      "weight": 1,
+      "text": "Innkeepers",
+      "raw_text": "1, Innkeepers",
+      "references": []
+    },
+    {
+      "index": 403,
+      "weight": 1,
+      "text": "Ironmongers",
+      "raw_text": "1, Ironmongers",
+      "references": []
+    },
+    {
+      "index": 404,
+      "weight": 1,
+      "text": "Lamplighters",
+      "raw_text": "1, Lamplighters",
+      "references": []
+    },
+    {
+      "index": 405,
+      "weight": 1,
+      "text": "Leather-worker",
+      "raw_text": "1, Leather-worker",
+      "references": []
+    },
+    {
+      "index": 406,
+      "weight": 1,
+      "text": "Locksmith",
+      "raw_text": "1, Locksmith",
+      "references": []
+    },
+    {
+      "index": 407,
+      "weight": 1,
+      "text": "Longshoreman",
+      "raw_text": "1, Longshoreman",
+      "references": []
+    },
+    {
+      "index": 408,
+      "weight": 1,
+      "text": "Lumberjack",
+      "raw_text": "1, Lumberjack",
+      "references": []
+    },
+    {
+      "index": 409,
+      "weight": 1,
+      "text": "Magician",
+      "raw_text": "1, Magician",
+      "references": []
+    },
+    {
+      "index": 410,
+      "weight": 1,
+      "text": "Mariner",
+      "raw_text": "1, Mariner",
+      "references": []
+    },
+    {
+      "index": 411,
+      "weight": 1,
+      "text": "Sailor",
+      "raw_text": "1, Sailor",
+      "references": []
+    },
+    {
+      "index": 412,
+      "weight": 1,
+      "text": "Mason",
+      "raw_text": "1, Mason",
+      "references": []
+    },
+    {
+      "index": 413,
+      "weight": 1,
+      "text": "Mercenary",
+      "raw_text": "1, Mercenary",
+      "references": []
+    },
+    {
+      "index": 414,
+      "weight": 1,
+      "text": "Merchant Adventurer",
+      "raw_text": "1, Merchant Adventurer",
+      "references": []
+    },
+    {
+      "index": 415,
+      "weight": 1,
+      "text": "Merchant",
+      "raw_text": "1, Merchant",
+      "references": []
+    },
+    {
+      "index": 416,
+      "weight": 1,
+      "text": "Miller",
+      "raw_text": "1, Miller",
+      "references": []
+    },
+    {
+      "index": 417,
+      "weight": 1,
+      "text": "Minstrel",
+      "raw_text": "1, Minstrel",
+      "references": []
+    },
+    {
+      "index": 418,
+      "weight": 1,
+      "text": "Moneylender",
+      "raw_text": "1, Moneylender",
+      "references": []
+    },
+    {
+      "index": 419,
+      "weight": 1,
+      "text": "Mortician",
+      "raw_text": "1, Mortician",
+      "references": []
+    },
+    {
+      "index": 420,
+      "weight": 1,
+      "text": "Musician",
+      "raw_text": "1, Musician",
+      "references": []
+    },
+    {
+      "index": 421,
+      "weight": 1,
+      "text": "Nightwatchman",
+      "raw_text": "1, Nightwatchman",
+      "references": []
+    },
+    {
+      "index": 422,
+      "weight": 1,
+      "text": "Paper-maker",
+      "raw_text": "1, Paper-maker",
+      "references": []
+    },
+    {
+      "index": 423,
+      "weight": 1,
+      "text": "Pawnbroker",
+      "raw_text": "1, Pawnbroker",
+      "references": []
+    },
+    {
+      "index": 424,
+      "weight": 1,
+      "text": "Pest-killer",
+      "raw_text": "1, Pest-killer",
+      "references": []
+    },
+    {
+      "index": 425,
+      "weight": 1,
+      "text": "Roofer",
+      "raw_text": "1, Roofer",
+      "references": []
+    },
+    {
+      "index": 426,
+      "weight": 1,
+      "text": "Rope-maker",
+      "raw_text": "1, Rope-maker",
+      "references": []
+    },
+    {
+      "index": 427,
+      "weight": 1,
+      "text": "Salt-raker",
+      "raw_text": "1, Salt-raker",
+      "references": []
+    },
+    {
+      "index": 428,
+      "weight": 1,
+      "text": "Sewer-worker",
+      "raw_text": "1, Sewer-worker",
+      "references": []
+    },
+    {
+      "index": 429,
+      "weight": 1,
+      "text": "Shipbuilder",
+      "raw_text": "1, Shipbuilder",
+      "references": []
+    },
+    {
+      "index": 430,
+      "weight": 1,
+      "text": "Shipper",
+      "raw_text": "1, Shipper",
+      "references": []
+    },
+    {
+      "index": 431,
+      "weight": 1,
+      "text": "Shopkeeper",
+      "raw_text": "1, Shopkeeper",
+      "references": []
+    },
+    {
+      "index": 432,
+      "weight": 1,
+      "text": "Silver-smith",
+      "raw_text": "1, Silver-smith",
+      "references": []
+    },
+    {
+      "index": 433,
+      "weight": 1,
+      "text": "Stabler-hand",
+      "raw_text": "1, Stabler-hand",
+      "references": []
+    },
+    {
+      "index": 434,
+      "weight": 1,
+      "text": "Stone-cutter",
+      "raw_text": "1, Stone-cutter",
+      "references": []
+    },
+    {
+      "index": 435,
+      "weight": 1,
+      "text": "Street-sweeper",
+      "raw_text": "1, Street-sweeper",
+      "references": []
+    },
+    {
+      "index": 436,
+      "weight": 1,
+      "text": "Swineherd",
+      "raw_text": "1, Swineherd",
+      "references": []
+    },
+    {
+      "index": 437,
+      "weight": 1,
+      "text": "Tanner",
+      "raw_text": "1, Tanner",
+      "references": []
+    },
+    {
+      "index": 438,
+      "weight": 1,
+      "text": "Tavern-keeper",
+      "raw_text": "1, Tavern-keeper",
+      "references": []
+    },
+    {
+      "index": 439,
+      "weight": 1,
+      "text": "Teamster",
+      "raw_text": "1, Teamster",
+      "references": []
+    },
+    {
+      "index": 440,
+      "weight": 1,
+      "text": "Thatcher",
+      "raw_text": "1, Thatcher",
+      "references": []
+    },
+    {
+      "index": 441,
+      "weight": 1,
+      "text": "Thief!",
+      "raw_text": "1, Thief!",
+      "references": []
+    },
+    {
+      "index": 442,
+      "weight": 1,
+      "text": "Tracker",
+      "raw_text": "1, Tracker",
+      "references": []
+    },
+    {
+      "index": 443,
+      "weight": 1,
+      "text": "Trader",
+      "raw_text": "1, Trader",
+      "references": []
+    },
+    {
+      "index": 444,
+      "weight": 1,
+      "text": "Undertakers",
+      "raw_text": "1, Undertakers",
+      "references": []
+    },
+    {
+      "index": 445,
+      "weight": 1,
+      "text": "Washerwoman",
+      "raw_text": "1, Washerwoman",
+      "references": []
+    },
+    {
+      "index": 446,
+      "weight": 1,
+      "text": "Water-seller",
+      "raw_text": "1, Water-seller",
+      "references": []
+    },
+    {
+      "index": 447,
+      "weight": 1,
+      "text": "Weapon-smith",
+      "raw_text": "1, Weapon-smith",
+      "references": []
+    },
+    {
+      "index": 448,
+      "weight": 1,
+      "text": "Woodcarver",
+      "raw_text": "1, Woodcarver",
+      "references": []
+    },
+    {
+      "index": 449,
+      "weight": 1,
+      "text": "Carver",
+      "raw_text": "1, Carver",
+      "references": []
+    },
+    {
+      "index": 450,
+      "weight": 1,
+      "text": "Tool Using Primate",
+      "raw_text": "1, Tool Using Primate",
+      "references": []
+    },
+    {
+      "index": 451,
+      "weight": 1,
+      "text": "Prospector",
+      "raw_text": "1, Prospector",
+      "references": []
+    },
+    {
+      "index": 452,
+      "weight": 1,
+      "text": "Spouse",
+      "raw_text": "1, Spouse",
+      "references": []
+    },
+    {
+      "index": 453,
+      "weight": 1,
+      "text": "Child",
+      "raw_text": "1, Child",
+      "references": []
+    },
+    {
+      "index": 454,
+      "weight": 1,
+      "text": "Relative",
+      "raw_text": "1, Relative",
+      "references": []
+    },
+    {
+      "index": 455,
+      "weight": 1,
+      "text": "Distant Relative",
+      "raw_text": "1, Distant Relative",
+      "references": []
+    },
+    {
+      "index": 456,
+      "weight": 1,
+      "text": "Kith",
+      "raw_text": "1, Kith",
+      "references": []
+    },
+    {
+      "index": 457,
+      "weight": 1,
+      "text": "Kin",
+      "raw_text": "1, Kin",
+      "references": []
+    },
+    {
+      "index": 458,
+      "weight": 1,
+      "text": "Bailiff",
+      "raw_text": "1, Bailiff",
+      "references": []
+    },
+    {
+      "index": 459,
+      "weight": 1,
+      "text": "Steward",
+      "raw_text": "1, Steward",
+      "references": []
+    },
+    {
+      "index": 460,
+      "weight": 1,
+      "text": "Chaimberlain",
+      "raw_text": "1, Chaimberlain",
+      "references": []
+    },
+    {
+      "index": 461,
+      "weight": 1,
+      "text": "Cook",
+      "raw_text": "1, Cook",
+      "references": []
+    },
+    {
+      "index": 462,
+      "weight": 1,
+      "text": "Baker",
+      "raw_text": "1, Baker",
+      "references": []
+    },
+    {
+      "index": 463,
+      "weight": 1,
+      "text": "Alewife",
+      "raw_text": "1, Alewife",
+      "references": []
+    },
+    {
+      "index": 464,
+      "weight": 1,
+      "text": "Gardner",
+      "raw_text": "1, Gardner",
+      "references": []
+    },
+    {
+      "index": 465,
+      "weight": 1,
+      "text": "Nursemaid",
+      "raw_text": "1, Nursemaid",
+      "references": []
+    },
+    {
+      "index": 466,
+      "weight": 1,
+      "text": "Domestic",
+      "raw_text": "1, Domestic",
+      "references": []
+    },
+    {
+      "index": 467,
+      "weight": 1,
+      "text": "Domestic Servant",
+      "raw_text": "1, Domestic Servant",
+      "references": []
+    },
+    {
+      "index": 468,
+      "weight": 1,
+      "text": "Domestic Slave",
+      "raw_text": "1, Domestic Slave",
+      "references": []
+    },
+    {
+      "index": 469,
+      "weight": 1,
+      "text": "Salter",
+      "raw_text": "1, Salter",
+      "references": []
+    },
+    {
+      "index": 470,
+      "weight": 1,
+      "text": "Clothier",
+      "raw_text": "1, Clothier",
+      "references": []
+    },
+    {
+      "index": 471,
+      "weight": 1,
+      "text": "Alcolyte",
+      "raw_text": "1, Alcolyte",
+      "references": []
+    },
+    {
+      "index": 472,
+      "weight": 1,
+      "text": "Amputee",
+      "raw_text": "1, Amputee",
+      "references": []
+    },
+    {
+      "index": 473,
+      "weight": 1,
+      "text": "Blind",
+      "raw_text": "1, Blind",
+      "references": []
+    },
+    {
+      "index": 474,
+      "weight": 1,
+      "text": "Thrall",
+      "raw_text": "1, Thrall",
+      "references": []
+    },
+    {
+      "index": 475,
+      "weight": 1,
+      "text": "Craftsman",
+      "raw_text": "1, Craftsman",
+      "references": []
+    },
+    {
+      "index": 476,
+      "weight": 1,
+      "text": "Disabled",
+      "raw_text": "1, Disabled",
+      "references": []
+    },
+    {
+      "index": 477,
+      "weight": 1,
+      "text": "Dairy-hand",
+      "raw_text": "1, Dairy-hand",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";actor\n1, Beggar\n1, Cripple\n1, Cartographer\n1, Artist\n1, Cleric\n1, Clergy\n1, Crier\n1, Herald\n1, Servant\n1, Cook\n1, Seneschal\n1, Vassal\n1, Slave\n1, Farmer\n1, Fisherman\n1, Fishmonger\n1, Foreigner\n1, Guilds-man\n1, Hunter\n1, Trapper\n1, Ratter\n1, Scavenger\n1, Labourer\n1, Military\n1, Noble\n1, Personage\n1, Local Official\n1, City Official\n1, Mercantile\n1, Pimp\n1, Prostitute\n1, Street Ruffian\n1, Scribe\n1, Scholar\n1, Slaver\n1, Street Cleaner\n1, Teamster\n1, Toymaker\n1, Unguided Pedlar\n1, Unguided Criminal\n1, Urchins\n1, Children\n1, Local Lord\n1, Escort\n1, Forester\n1, Poacher\n1, Journeyman\n1, Caravan with Escort\n1, Peddlers\n1, Monk\n1, Nun\n1, Forester\n1, Soldiers on Patrol\n1, Brigands\n1, Highwayman\n1, Militia\n1, Conscripts\n1, Adventurer\n1, Local Tribe\n1, Native\n1, Nomad\n1, Local Patrol\n1, Stagecoach\n1, Ethereal\n1, Dryad\n1, Human Adventurer\n1, Wild Orc\n1, Wild Giant\n1, Dwarf\n1, Elf\n1, Centaur\n1, Harpy\n1, Earth Giant\n1, Troll\n1, Architect\n1, Engineer\n1, Local Merchantman\n1, Foreign Merchantman\n1, Caveman\n1, Ape Man\n1, Dragon\n1, Patrician\n1, Knight\n1, Knight Errant\n1, Landless Knight Bachelor\n1, Page\n1, Squire\n1, Grand Master\n1, Officer of Martial Arts\n1, Tribal Chieftain\n1, Local Garrison\n1, Local Guard\n1, Legionnaire\n1, Militiaman\n1, Gladiator\n1, Water Nymph\n1, Sprite\n1, Ghost\n1, Astral Entity\n1, Liche\n1, Vampire\n1, Golem Construct\n1, Zombie\n1, Demon\n1, Demigod\n1, Pirate\n1, Privateer\n1, Serf\n1, Thrall\n1, Villein\n1, Reeve\n1, Chief\n1, Farm Worker\n1, Tenant\n1, Free Farmer\n1, Thatcher\n1, Woodcutter\n1, Iceman\n1, Wood-crafter\n1, Weapon-crafter\n1, Wheelwright\n1, Thespian\n1, Tent-maker\n1, Shipwright\n1, Maji\n1, Seaman\n1, Salter\n1, Potter\n1, Pilot\n1, Physician\n1, Perfumer\n1, Ostler\n1, Miner\n1, Miller\n1, Metalsmith\n1, Mason\n1, Weaver\n1, Locksmith\n1, Litigant\n1, Jeweler\n1, Innkeeper\n1, Hide-worker\n1, Herald\n1, Harper\n1, Glass-worker\n1, Embalmer\n1, Courtesan\n1, Clothier\n1, Charcoal-er\n1, Chandler\n1, Astrologer\n1, Alchemist\n1, Apothecary\n1, Apprentice\n1, Journeyman\n1, Bonded Master\n1, Master\n1, Master-at-Arms\n1, Guild-master\n1, Herder\n1, Animal Trainer\n1, Shaman\n1, Loansharkings\n1, Sage\n1, Tutor\n1, Viking\n1, Skald\n1, Lexicographer\n1, Litigant\n1, Perfumer\n1, Physician\n1, Thespian\n1, Thief\n1, Acrobat\n1, Jester\n1, Fool\n1, Musician\n1, Bard\n1, Singer\n1, Leather-worker\n1, Gnome\n1, Pixie\n1, Saurian\n1, Siren\n1, Angel\n1, Engineer\n1, Digger\n1, Witch\n1, Juggler\n1, Doppelganger\n1, Giant\n1, Ogre Maji\n1, Fortune Teller\n1, Gypsy\n1, Hobbit\n1, Neanderthal\n1, Supernatural\n1, Wheelwright\n1, Timberwright\n1, Shipwright\n1, Lumberjack\n1, Sewerage Worker\n1, Mineworker\n1, Foreman\n1, Supervisor\n1, General\n1, Manager\n1, Business Owner\n1, Replacement\n1, Reprasentative\n1, Leader\n1, Disguised\n1, Double Agent\n1, Freelance\n1, Cartwright\n1, Free\n1, “Quest”\n1, Shoemaker\n1, Carnival Performer\n1, Mason\n1, Weaver\n1, Sewer\n1, Yarn Maker\n1, Tailor\n1, Ironsmith\n1, Clockmaker\n1, Lockmaker\n1, Locksmith\n1, Burglar\n1, Itinerant\n1, Escaped\n1, Cook\n1, Cartwright\n1, Teamster\n1, Jackaroo\n1, Jillaroo\n1, Tanner\n1, Hideworker\n1, Copyist\n1, Scribe\n1, Mourner\n1, Gavedigger\n1, Orderly\n1, Nurse\n1, Midwife\n1, Wetnurse\n1, Metalurgist\n1, urrier\n1, Magician\n1, Circus Performer\n1, Harnessmaker\n1, Vetranairian\n1, Farrier\n1, Water Carrier\n1, Wholesaler\n1, Cooperative Seller\n1, Cooperative Trader\n1, Coppersmith\n1, Leadworker\n1, Horse Trainer\n1, Trainer\n1, Animal Breeder\n1, Hawker\n1, Vendor\n1, Papermaker\n1, Tatooist\n1, Swordsmith\n1, Court Official\n1, Flower Girl\n1, Busker Musician\n1, Scribe\n1, Page\n1, Librarian \n1, Courtesan\n1, Poet\n1, Philosopher \n1, Mathematician\n1, Retired\n1, Seer\n1, Telepath\n1, Spirit Guide\n1, Sub Continent\n1, Principality\n1, Easterner\n1, Oriental\n1, Lost Continent\n1, Dark Continent\n1, Ivory Coast\n1, Northerner\n1, Southerner\n1, Archipelagos\n1, Spice Trail\n1, Cleric Chaos\n1, Cleric Evil\n1, Cleric Wild \n1, Cleric Selfish \n1, Cleric Unaligned\n1, Cleric Neutral\n1, Cleric Natural\n1, Cleric Conservative\n1, Cleric Good\n1, Cleric Law\n1, Cleric Pure\n1, Monk\n1, Barbarian\n1, Warlord\n1, Enchanter\n1, Seer\n1, Mystic\n1, Necromancer\n1, Druid\n1, Shepard\n1, Diver\n1, Brewer\n1, Vintner\n1, Shoe Maker\n1, Cobbler\n1, Tinker\n1, Soap Maker\n1, Net Maker\n1, Wainwright\n1, Baker\n1, Mapmaker\n1, Tailor\n1, Sail-maker\n1, Rope-maker\n1, Milliner\n1, Leather-worker\n1, Furrier\n1, Physician\n1, Barber Surgeon\n1, Astrologer\n1, Fence \n1, Pawnbroker\n1, Money Lender\n1, Money Changer\n1, Beautician\n1, Potter\n1, Importer\n1, Exporter\n1, Weapon Trainer\n1, Academic\n1, Student\n1, Mentor\n1, Cartographer\n1, Explorer\n1, Noble\n1, Foreign\n1, Traveler\n1, Mystic\n1, Sage\n1, Unqualified\n1, Charlatan\n1, Bandit\n1, Crusader\n1, Hospitaler\n1, Charcoal-maker\n1, Salter\n1, Sportsman\n1, Artificer\n1, Beggar\n1, Brick-maker\n1, Coachman\n1, Wagoner\n1, Carter\n1, Chandler\n1, Chirurgeon\n1, Clothiers\n1, Cloth-worker\n1, Cobbler\n1, Coliseum Entertainer\n1, Cooper\n1, Copper-smith\n1, Courtesan\n1, Diviner\n1, Dockworker\n1, Draper\n1, Dye-maker\n1, Embalmer\n1, Enchanter\n1, Engineer\n1, Ferrymen\n1, Fishermen\n1, Fishmongers\n1, Ranger\n1, Fortuneteller\n1, Foundry-worker\n1, Free Gladiator\n1, Fuller\n1, Furrier\n1, Gem-cutter\n1, Glassblower\n1, Goldsmith\n1, Gravedigger\n1, Greengrocer\n1, Guide\n1, Haberdasher\n1, Hatter\n1, Healer\n1, Herbalist\n1, Horse-breeder\n1, Hunters\n1, Innkeepers\n1, Ironmongers\n1, Lamplighters\n1, Leather-worker\n1, Locksmith\n1, Longshoreman\n1, Lumberjack\n1, Magician\n1, Mariner\n1, Sailor\n1, Mason\n1, Mercenary\n1, Merchant Adventurer\n1, Merchant\n1, Miller\n1, Minstrel\n1, Moneylender\n1, Mortician\n1, Musician\n1, Nightwatchman\n1, Paper-maker\n1, Pawnbroker\n1, Pest-killer\n1, Roofer\n1, Rope-maker\n1, Salt-raker\n1, Sewer-worker\n1, Shipbuilder\n1, Shipper\n1, Shopkeeper\n1, Silver-smith\n1, Stabler-hand\n1, Stone-cutter\n1, Street-sweeper\n1, Swineherd\n1, Tanner\n1, Tavern-keeper\n1, Teamster\n1, Thatcher\n1, Thief!\n1, Tracker\n1, Trader\n1, Undertakers\n1, Washerwoman\n1, Water-seller\n1, Weapon-smith\n1, Woodcarver\n1, Carver\n1, Tool Using Primate\n1, Prospector\n1, Spouse\n1, Child\n1, Relative\n1, Distant Relative\n1, Kith\n1, Kin\n1, Bailiff\n1, Steward\n1, Chaimberlain\n1, Cook\n1, Baker\n1, Alewife\n1, Gardner\n1, Nursemaid\n1, Domestic\n1, Domestic Servant\n1, Domestic Slave\n1, Salter\n1, Clothier\n1, Alcolyte\n1, Amputee\n1, Blind\n1, Thrall\n1, Craftsman\n1, Disabled\n1, Dairy-hand",
+  "warnings": []
+}

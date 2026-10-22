@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8554,
+    "timestamp": "2009-04-06T08:10:41Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "de8f760cfeac36dabee11d7601f58b0939d559dfc735c45e11b95bd8bd796b89",
+      "rawSha256": "37ce1358cda1cbab734adc13a5e47dffc956a02df7df0f90fff77ec9dbed1d9b",
+      "revisionId": "8554",
+      "line": 49,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "howmanypowers",
+    "qualified_name": "Quick and Dirty Supers Concepts.howmanypowers",
+    "table_block_index": 0,
+    "line_number": 49
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[power], [power], [power]",
+      "raw_text": "3, [power], [power], [power]",
+      "references": [
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[power], [power]",
+      "raw_text": "2, [power], [power]",
+      "references": [
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[power]",
+      "raw_text": "1,[power]",
+      "references": [
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "Quick and Dirty Supers Concepts",
+          "source_subtable": "howmanypowers",
+          "target_page": "Quick and Dirty Supers Concepts",
+          "target_subtable": "power",
+          "target_qualified_name": "Quick and Dirty Supers Concepts.power"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "power"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";howmanypowers\n3, [power], [power], [power]\n2, [power], [power]\n1,[power]",
+  "warnings": []
+}

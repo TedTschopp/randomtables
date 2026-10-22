@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 14248,
+    "timestamp": "2012-04-25T16:44:13Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "72a324852deee34aef36aaca1976947d0dca74eefd1ab8a35d25b0eedd8e1881",
+      "rawSha256": "983f3349789022e8450141857c13c46c27f39b19f692ef088da0c3a11dfe70a9",
+      "revisionId": "14248",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "theme",
+    "qualified_name": "Quick and Dirty Supers Concepts.theme",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Adventure",
+      "raw_text": "1, Adventure",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Destruction",
+      "raw_text": "1, Destruction",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Domination",
+      "raw_text": "1, Domination",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Exploration",
+      "raw_text": "1, Exploration",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Glory",
+      "raw_text": "1, Glory",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Greed",
+      "raw_text": "1, Greed",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Guardianship",
+      "raw_text": "1, Guardianship",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Idealism",
+      "raw_text": "1, Idealism",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Investigation",
+      "raw_text": "1, Investigation",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Mentorship",
+      "raw_text": "1, Mentorship",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Nihilism",
+      "raw_text": "1, Nihilism",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Exile",
+      "raw_text": "1, Exile",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Peace of Mind",
+      "raw_text": "1, Peace of Mind",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Psychopathy",
+      "raw_text": "1, Psychopathy",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Redemption",
+      "raw_text": "1, Redemption",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Responsibility of Power",
+      "raw_text": "1, Responsibility of Power",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Savage Nature",
+      "raw_text": "1, Savage Nature",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Thirst for Power",
+      "raw_text": "1, Thirst for Power",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Thrill-seeking",
+      "raw_text": "1, Thrill-seeking",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Uncontrolled Power",
+      "raw_text": "1, Uncontrolled Power",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Unwanted Power",
+      "raw_text": "1, Unwanted Power",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Vengeance",
+      "raw_text": "1, Vengeance",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Vestige of Humanity",
+      "raw_text": "1, Vestige of Humanity",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Youthful Exuberance",
+      "raw_text": "1, Youthful Exuberance",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";theme\n1, Adventure\n1, Destruction\n1, Domination\n1, Exploration\n1, Glory\n1, Greed\n1, Guardianship\n1, Idealism\n1, Investigation\n1, Mentorship\n1, Nihilism\n1, Exile\n1, Peace of Mind\n1, Psychopathy\n1, Redemption\n1, Responsibility of Power\n1, Savage Nature\n1, Thirst for Power\n1, Thrill-seeking\n1, Uncontrolled Power\n1, Unwanted Power\n1, Vengeance\n1, Vestige of Humanity\n1, Youthful Exuberance",
+  "warnings": []
+}

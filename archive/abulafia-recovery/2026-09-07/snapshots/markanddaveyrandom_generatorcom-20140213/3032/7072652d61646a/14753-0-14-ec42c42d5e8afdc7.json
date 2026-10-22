@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14753,
+    "timestamp": "2012-06-20T11:06:36Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "738ef16e4190141a1768f9bbbd2a17fc19ee7c45c704654e25a050bc08800ac8",
+      "rawSha256": "ec42c42d5e8afdc7a28705e75127b72adc63294c6652899ffb0af032cce296c4",
+      "revisionId": "14753",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "pre-adj",
+    "qualified_name": "Ostler.pre-adj",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "desert",
+      "raw_text": "1,desert",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "shadow",
+      "raw_text": "1,shadow",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fey",
+      "raw_text": "1,fey",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "arctic",
+      "raw_text": "1,arctic",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "forest",
+      "raw_text": "1,forest",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "swamp",
+      "raw_text": "1,swamp",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "jungle",
+      "raw_text": "1,jungle",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "amphibious",
+      "raw_text": "1,amphibious",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "riding",
+      "raw_text": "1,riding",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "racing",
+      "raw_text": "1,racing",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "pack",
+      "raw_text": "1,pack",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "draft",
+      "raw_text": "1,draft",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "plow",
+      "raw_text": "1,plow",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "tracking",
+      "raw_text": "1,tracking",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "climbing",
+      "raw_text": "1,climbing",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "jumping",
+      "raw_text": "1,jumping",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "double",
+      "raw_text": "1,double",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";pre-adj\n1,desert\n1,shadow\n1,fey\n1,arctic\n1,forest\n1,swamp\n1,jungle\n1,amphibious\n1,riding\n1,racing\n1,pack\n1,draft\n1,plow\n1,tracking\n1,climbing\n1,jumping\n1,double",
+  "warnings": []
+}

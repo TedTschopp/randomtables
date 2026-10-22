@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15405,
+    "timestamp": "2012-10-19T16:09:19Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5a94875350079f9842cdc4a71e2f403f73d29cd2d1d633486495c33895875969",
+      "rawSha256": "01f3f1b3fce153c778da49df64562db924a5613c7866de0de66047599481df06",
+      "revisionId": "15405",
+      "line": 182,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rationtype",
+    "qualified_name": "Starting Equipment.rationtype",
+    "table_block_index": 0,
+    "line_number": 182
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "greasy",
+      "raw_text": "1,greasy ",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "salty",
+      "raw_text": "1,salty ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "bland",
+      "raw_text": "1,bland ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "sweetened",
+      "raw_text": "1,sweetened ",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "sour",
+      "raw_text": "1,sour ",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";rationtype\n10,\n1,greasy \n1,salty \n1,bland \n1,sweetened \n1,sour ",
+  "warnings": []
+}

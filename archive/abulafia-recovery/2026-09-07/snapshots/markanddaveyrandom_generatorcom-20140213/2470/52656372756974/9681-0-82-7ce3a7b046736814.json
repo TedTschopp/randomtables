@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "7ce3a7b046736814603e9bfd20d1a9a8923c0d42c1a14772adc9493190ee1e9d",
+      "revisionId": "9681",
+      "line": 82,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Recruit",
+    "qualified_name": "Seige Force.Recruit",
+    "table_block_index": 0,
+    "line_number": 82
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "brazen",
+      "raw_text": "1,brazen",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "fresh",
+      "raw_text": "1,fresh",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "just-recruited",
+      "raw_text": "1,just-recruited",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "newly-trained",
+      "raw_text": "1,newly-trained",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "recently-trained",
+      "raw_text": "1,recently-trained",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "wet",
+      "raw_text": "1,wet",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "young",
+      "raw_text": "1,young",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Recruit\n1,brazen\n1,fresh\n1,just-recruited\n1,newly-trained\n1,recently-trained\n1,wet\n1,young",
+  "warnings": []
+}

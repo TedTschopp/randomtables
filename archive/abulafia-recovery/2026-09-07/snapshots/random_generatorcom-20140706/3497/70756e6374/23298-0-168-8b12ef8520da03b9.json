@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "8b12ef8520da03b9a9c8202db665351e66835a5b0bb251f8fbfd2bcdc3deb1ba",
+      "revisionId": "23298",
+      "line": 168,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "punct",
+    "qualified_name": "Blazon.punct",
+    "table_block_index": 0,
+    "line_number": 168
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4, ",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "",
+      "raw_text": "2,",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": ":",
+      "raw_text": "2,: ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": ",",
+      "raw_text": "3,, ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": ".",
+      "raw_text": "3,. ",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": ". .",
+      "raw_text": "2,. .",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "..",
+      "raw_text": "2,.. ",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "...",
+      "raw_text": "2,... ",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "-",
+      "raw_text": "1, - ",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "||",
+      "raw_text": "2,||",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "|",
+      "raw_text": "2,|",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "?",
+      "raw_text": "3,? ",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 3,
+      "text": "!",
+      "raw_text": "3,!  ",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "through",
+      "raw_text": "1, through ",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "without",
+      "raw_text": "1, without ",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "for",
+      "raw_text": "1, for ",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "is",
+      "raw_text": "1, is ",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "the",
+      "raw_text": "1, the ",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "not-",
+      "raw_text": "1, not-",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "not",
+      "raw_text": "1, not ",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "be'",
+      "raw_text": "1, be'",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "be",
+      "raw_text": "1, be ",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a-",
+      "raw_text": "1, a-",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "is the",
+      "raw_text": "1, is the ",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "of the",
+      "raw_text": "1, of the ",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[Quick Zone Populations.particle]",
+      "raw_text": "1, [Quick Zone Populations.particle]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.particle]",
+          "token": "Quick Zone Populations.particle",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "punct",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "particle",
+          "target_qualified_name": "Quick Zone Populations.particle"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 4,
+      "text": "[punct][punct][punct]",
+      "raw_text": "4,[punct][punct][punct]",
+      "references": [
+        {
+          "raw": "[punct]",
+          "token": "punct",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "punct",
+          "target_page": "Blazon",
+          "target_subtable": "punct",
+          "target_qualified_name": "Blazon.punct"
+        },
+        {
+          "raw": "[punct]",
+          "token": "punct",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "punct",
+          "target_page": "Blazon",
+          "target_subtable": "punct",
+          "target_qualified_name": "Blazon.punct"
+        },
+        {
+          "raw": "[punct]",
+          "token": "punct",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "punct",
+          "target_page": "Blazon",
+          "target_subtable": "punct",
+          "target_qualified_name": "Blazon.punct"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "punct"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.particle"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";punct\n4, \n2,\n2,: \n3,, \n3,. \n2,. .\n2,.. \n2,... \n1, - \n2,||\n2,|\n3,? \n3,!  \n1, through \n1, without \n1, for \n1, is \n1, the \n1, not-\n1, not \n1, be'\n1, be \n1, a-\n1, is the \n1, of the \n1, [Quick Zone Populations.particle]\n4,[punct][punct][punct]",
+  "warnings": []
+}

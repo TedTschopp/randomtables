@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "681ab461653af80b83bd3e0bf04b9ad7a72ac663c1a69ee48a0a97fbafe871c5",
+      "revisionId": "14222",
+      "line": 76,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "events",
+    "qualified_name": "User:Snake Eyes.events",
+    "table_block_index": 0,
+    "line_number": 76
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[compass][event]",
+      "raw_text": "3, [compass][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "event",
+          "target_qualified_name": "User:Snake Eyes.event"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[compass][environmental][event]",
+      "raw_text": "2, [compass][environmental][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        },
+        {
+          "raw": "[environmental]",
+          "token": "environmental",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "environmental",
+          "target_qualified_name": "User:Snake Eyes.environmental"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "event",
+          "target_qualified_name": "User:Snake Eyes.event"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[compass][event][event]",
+      "raw_text": "1, [compass][event][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "event",
+          "target_qualified_name": "User:Snake Eyes.event"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "events",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "event",
+          "target_qualified_name": "User:Snake Eyes.event"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "compass",
+      "environmental",
+      "event"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";events\n3, [compass][event]\n2, [compass][environmental][event]\n1, [compass][event][event]",
+  "warnings": []
+}

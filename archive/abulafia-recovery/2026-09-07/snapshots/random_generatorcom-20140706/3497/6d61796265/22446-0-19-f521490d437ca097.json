@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 22446,
+    "timestamp": "2014-05-30T12:54:59Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "87478300c1825c20fb28acc3d5d610b324a1a8860614873358d5ef0d3d4d3604",
+      "rawSha256": "f521490d437ca097cde7f805ac11206ca5f04c4bf54dd4551140505070a8cb71",
+      "revisionId": "22446",
+      "line": 19,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybe",
+    "qualified_name": "Blazon.maybe",
+    "table_block_index": 0,
+    "line_number": 19
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[ona]",
+      "raw_text": "1,[ona]",
+      "references": [
+        {
+          "raw": "[ona]",
+          "token": "ona",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybe",
+          "target_page": "Blazon",
+          "target_subtable": "ona",
+          "target_qualified_name": "Blazon.ona"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[and]",
+      "raw_text": "1,[and]",
+      "references": [
+        {
+          "raw": "[and]",
+          "token": "and",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybe",
+          "target_page": "Blazon",
+          "target_subtable": "and",
+          "target_qualified_name": "Blazon.and"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[with]",
+      "raw_text": "1,[with]",
+      "references": [
+        {
+          "raw": "[with]",
+          "token": "with",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybe",
+          "target_page": "Blazon",
+          "target_subtable": "with",
+          "target_qualified_name": "Blazon.with"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[maybe][maybe]",
+      "raw_text": "1,[maybe][maybe]",
+      "references": [
+        {
+          "raw": "[maybe]",
+          "token": "maybe",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybe",
+          "target_page": "Blazon",
+          "target_subtable": "maybe",
+          "target_qualified_name": "Blazon.maybe"
+        },
+        {
+          "raw": "[maybe]",
+          "token": "maybe",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybe",
+          "target_page": "Blazon",
+          "target_subtable": "maybe",
+          "target_qualified_name": "Blazon.maybe"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "and",
+      "maybe",
+      "ona",
+      "with"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybe\n1,[ona]\n1,[and]\n1,[with]\n1,[maybe][maybe]",
+  "warnings": []
+}

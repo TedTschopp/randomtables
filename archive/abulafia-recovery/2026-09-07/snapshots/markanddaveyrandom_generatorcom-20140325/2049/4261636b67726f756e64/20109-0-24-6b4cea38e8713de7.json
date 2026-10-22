@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "6b4cea38e8713de7b1381ebe20e1a442deb2b78d9a23bafe9a0102ccf7a89bce",
+      "revisionId": "20109",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Background",
+    "qualified_name": "Stars Without Number.Background",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Adventuring",
+      "raw_text": "1,Adventuring",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Armsman",
+      "raw_text": "1,Armsman",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Astrogator's Mate",
+      "raw_text": "1,Astrogator's Mate",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Bandit",
+      "raw_text": "1,Bandit",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Biotech Crewmember",
+      "raw_text": "1,Biotech Crewmember",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Comm Crewmember",
+      "raw_text": "1,Comm Crewmember",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Con Artist",
+      "raw_text": "1,Con Artist",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Deck Crewmember",
+      "raw_text": "1,Deck Crewmember",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Engine Crewmember",
+      "raw_text": "1,Engine Crewmember",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Gunnery Crewmember",
+      "raw_text": "1,Gunnery Crewmember",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Hermit",
+      "raw_text": "1,Hermit",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Noble",
+      "raw_text": "1,Noble",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Peasant",
+      "raw_text": "1,Peasant",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Politician",
+      "raw_text": "1,Politician",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Priest",
+      "raw_text": "1,Priest",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Researcher",
+      "raw_text": "1,Researcher",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Scholar",
+      "raw_text": "1,Scholar",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Security Crewmember",
+      "raw_text": "1,Security Crewmember",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Soldier",
+      "raw_text": "1,Soldier",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Technician",
+      "raw_text": "1,Technician",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Transport Specialist",
+      "raw_text": "1,Transport Specialist",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Tribesman",
+      "raw_text": "1,Tribesman",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Urchin",
+      "raw_text": "1,Urchin",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Worker",
+      "raw_text": "1,Worker",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Background\n1,Adventuring\n1,Armsman\n1,Astrogator's Mate\n1,Bandit\n1,Biotech Crewmember\n1,Comm Crewmember\n1,Con Artist\n1,Deck Crewmember\n1,Engine Crewmember\n1,Gunnery Crewmember\n1,Hermit\n1,Noble\n1,Peasant\n1,Politician\n1,Priest\n1,Researcher\n1,Scholar\n1,Security Crewmember\n1,Soldier\n1,Technician\n1,Transport Specialist\n1,Tribesman\n1,Urchin\n1,Worker",
+  "warnings": []
+}

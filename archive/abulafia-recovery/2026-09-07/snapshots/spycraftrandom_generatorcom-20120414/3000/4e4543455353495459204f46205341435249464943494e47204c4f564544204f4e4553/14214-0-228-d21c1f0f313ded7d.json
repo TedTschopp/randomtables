@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14214,
+    "timestamp": "2012-04-01T16:44:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "d6b4cf172d74491d61088a781fb3ca571f65b87be50791576ecfaadedc526b02",
+      "rawSha256": "d21c1f0f313ded7db973ed15094938d55e1eb1255aab1bca6c8c82b4d11082ab",
+      "revisionId": "14214",
+      "line": 228,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "NECESSITY OF SACRIFICING LOVED ONES",
+    "qualified_name": "User:Snake Eyes.NECESSITY OF SACRIFICING LOVED ONES",
+    "table_block_index": 0,
+    "line_number": 228
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";NECESSITY OF SACRIFICING LOVED ONES\nNECESSITY OF SACRIFICING LOVED ONES\n\na Hero\na Beloved Victim\nthe Necessity for the Sacrifice\n\nThe Hero wrongs the Beloved Victim because of the Necessity for their Sacrifice.",
+  "warnings": [
+    "Line 228: preserved nonstandard row before first entry: NECESSITY OF SACRIFICING LOVED ONES",
+    "Line 230: preserved nonstandard row before first entry: a Hero",
+    "Line 231: preserved nonstandard row before first entry: a Beloved Victim",
+    "Line 232: preserved nonstandard row before first entry: the Necessity for the Sacrifice",
+    "Line 234: preserved nonstandard row before first entry: The Hero wrongs the Beloved Victim because of the Necessity for their Sacrifice."
+  ]
+}

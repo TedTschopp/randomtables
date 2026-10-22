@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "da276b51d811ed85815405b7ee1b4cd829bb788742ec670ddadb1ebe91276a5a",
+      "revisionId": "1643",
+      "line": 21,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "StealVerb",
+    "qualified_name": "Pickpocket.StealVerb",
+    "table_block_index": 0,
+    "line_number": 21
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "acquire",
+      "raw_text": "1,acquire",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "appropriate",
+      "raw_text": "1,appropriate",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "filch",
+      "raw_text": "1,filch",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "liberate",
+      "raw_text": "1,liberate",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lift",
+      "raw_text": "1,lift",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "make off with",
+      "raw_text": "1,make off with",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "nab",
+      "raw_text": "1,nab",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "narrowly escape with",
+      "raw_text": "1,narrowly escape with",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "nick",
+      "raw_text": "1,nick",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "obtain",
+      "raw_text": "1,obtain",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "pinch",
+      "raw_text": "1,pinch",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "purloin",
+      "raw_text": "1,purloin",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "remove",
+      "raw_text": "1,remove",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "seize",
+      "raw_text": "1,seize",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "snag",
+      "raw_text": "1,snag",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "snatch",
+      "raw_text": "1,snatch",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "steal",
+      "raw_text": "1,steal",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "swindle",
+      "raw_text": "1,swindle",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "swipe",
+      "raw_text": "1,swipe",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "take",
+      "raw_text": "1,take",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";StealVerb\n1,acquire\n1,appropriate\n1,filch\n1,liberate\n1,lift\n1,make off with\n1,nab\n1,narrowly escape with\n1,nick\n1,obtain\n1,pinch\n1,purloin\n1,remove\n1,seize\n1,snag\n1,snatch\n1,steal\n1,swindle\n1,swipe\n1,take",
+  "warnings": []
+}

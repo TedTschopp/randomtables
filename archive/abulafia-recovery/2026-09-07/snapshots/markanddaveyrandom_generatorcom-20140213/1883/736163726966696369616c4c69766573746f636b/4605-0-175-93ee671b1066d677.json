@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "93ee671b1066d67738f0c5c979b0b3b637026da09dc0cb21fc3616e06d08879d",
+      "revisionId": "4605",
+      "line": 175,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "sacrificialLivestock",
+    "qualified_name": "Rituals.sacrificialLivestock",
+    "table_block_index": 0,
+    "line_number": 175
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a goat",
+      "raw_text": "1,a goat",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a sheep",
+      "raw_text": "1,a sheep",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "an ox",
+      "raw_text": "1,an ox",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a horse",
+      "raw_text": "1,a horse",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a camel",
+      "raw_text": "1,a camel",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a dove",
+      "raw_text": "1,a dove",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a pair of doves",
+      "raw_text": "1,a pair of doves",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a ram",
+      "raw_text": "1,a ram",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a duck",
+      "raw_text": "1,a duck",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a chicken",
+      "raw_text": "1,a chicken",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a rooster",
+      "raw_text": "1,a rooster",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a dog",
+      "raw_text": "1,a dog",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a cat",
+      "raw_text": "1,a cat",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a pig",
+      "raw_text": "1,a pig",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a goose",
+      "raw_text": "1,a goose",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";sacrificialLivestock\n1,a goat\n1,a sheep\n1,an ox\n1,a horse\n1,a camel\n1,a dove\n1,a pair of doves\n1,a ram\n1,a duck\n1,a chicken\n1,a rooster\n1,a dog\n1,a cat\n1,a pig\n1,a goose",
+  "warnings": []
+}

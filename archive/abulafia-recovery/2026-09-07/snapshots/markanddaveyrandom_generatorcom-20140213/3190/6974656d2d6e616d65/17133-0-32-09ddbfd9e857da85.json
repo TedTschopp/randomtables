@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "09ddbfd9e857da8536bbeb7e29c2fdcef0b7f139ae9f6630a0806ab317d981c4",
+      "revisionId": "17133",
+      "line": 32,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item-name",
+    "qualified_name": "Planar Codex Parish.item-name",
+    "table_block_index": 0,
+    "line_number": 32
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Jewelry.item]",
+      "raw_text": "1,[Jewelry.item]",
+      "references": [
+        {
+          "raw": "[Jewelry.item]",
+          "token": "Jewelry.item",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-name",
+          "target_page": "Jewelry",
+          "target_subtable": "item",
+          "target_qualified_name": "Jewelry.item"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[ClothingFemale.FemaleClothing]",
+      "raw_text": "1,[ClothingFemale.FemaleClothing]",
+      "references": [
+        {
+          "raw": "[ClothingFemale.FemaleClothing]",
+          "token": "ClothingFemale.FemaleClothing",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "item-name",
+          "target_page": "ClothingFemale",
+          "target_subtable": "FemaleClothing",
+          "target_qualified_name": "ClothingFemale.FemaleClothing"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "ClothingFemale.FemaleClothing",
+      "Jewelry.item"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";item-name\n1,[Jewelry.item]\n1,[ClothingFemale.FemaleClothing]",
+  "warnings": []
+}

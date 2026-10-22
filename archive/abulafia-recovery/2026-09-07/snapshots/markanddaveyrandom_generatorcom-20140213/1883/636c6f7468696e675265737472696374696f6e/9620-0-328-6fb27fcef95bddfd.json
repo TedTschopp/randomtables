@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "6fb27fcef95bddfda771e21aa2c7c718bac12b3048f58320b31c62b73e773a9e",
+      "revisionId": "9620",
+      "line": 328,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "clothingRestriction",
+    "qualified_name": "Rituals.clothingRestriction",
+    "table_block_index": 0,
+    "line_number": 328
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[ClothingFemale.MaterialsCommon]",
+      "raw_text": "2,[ClothingFemale.MaterialsCommon]",
+      "references": [
+        {
+          "raw": "[ClothingFemale.MaterialsCommon]",
+          "token": "ClothingFemale.MaterialsCommon",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "clothingRestriction",
+          "target_page": "ClothingFemale",
+          "target_subtable": "MaterialsCommon",
+          "target_qualified_name": "ClothingFemale.MaterialsCommon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[ClothingFemale.MaterialsFancy]",
+      "raw_text": "1,[ClothingFemale.MaterialsFancy]",
+      "references": [
+        {
+          "raw": "[ClothingFemale.MaterialsFancy]",
+          "token": "ClothingFemale.MaterialsFancy",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "clothingRestriction",
+          "target_page": "ClothingFemale",
+          "target_subtable": "MaterialsFancy",
+          "target_qualified_name": "ClothingFemale.MaterialsFancy"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "[ClothingFemale.ClothingColors]",
+      "raw_text": "5,[ClothingFemale.ClothingColors]",
+      "references": [
+        {
+          "raw": "[ClothingFemale.ClothingColors]",
+          "token": "ClothingFemale.ClothingColors",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "clothingRestriction",
+          "target_page": "ClothingFemale",
+          "target_subtable": "ClothingColors",
+          "target_qualified_name": "ClothingFemale.ClothingColors"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[Utility.Cloth]",
+      "raw_text": "2,[Utility.Cloth]",
+      "references": [
+        {
+          "raw": "[Utility.Cloth]",
+          "token": "Utility.Cloth",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "clothingRestriction",
+          "target_page": "Utility",
+          "target_subtable": "Cloth",
+          "target_qualified_name": "Utility.Cloth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "ClothingFemale.ClothingColors",
+      "ClothingFemale.MaterialsCommon",
+      "ClothingFemale.MaterialsFancy",
+      "Utility.Cloth"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";clothingRestriction\n2,[ClothingFemale.MaterialsCommon]\n1,[ClothingFemale.MaterialsFancy]\n5,[ClothingFemale.ClothingColors]\n2,[Utility.Cloth]",
+  "warnings": []
+}

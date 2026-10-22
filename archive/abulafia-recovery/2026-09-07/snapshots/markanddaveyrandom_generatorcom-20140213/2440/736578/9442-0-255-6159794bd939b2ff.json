@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "6159794bd939b2ff7e54d511a370031928cbe43b02259053a986c0c00b868768",
+      "revisionId": "9442",
+      "line": 255,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "sex",
+    "qualified_name": "New gen.sex",
+    "table_block_index": 0,
+    "line_number": 255
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "Man",
+      "raw_text": "3,Man",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "Woman",
+      "raw_text": "2,Woman",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Boy",
+      "raw_text": "1,Boy",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Girl",
+      "raw_text": "1,Girl",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Thing",
+      "raw_text": "1,Thing",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";sex\n3,Man\n2,Woman\n1,Boy\n1,Girl\n1,Thing",
+  "warnings": []
+}

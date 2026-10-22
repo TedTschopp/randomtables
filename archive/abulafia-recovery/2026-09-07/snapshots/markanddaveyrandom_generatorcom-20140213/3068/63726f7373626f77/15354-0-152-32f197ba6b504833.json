@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15354,
+    "timestamp": "2012-10-08T08:48:42Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "eb396f1d8e712a570d259d5ea1761b0a2b88dcc40a54aee1171bde93c3fdd8ab",
+      "rawSha256": "32f197ba6b50483322b8e1f16a86682b46de6ba1b23f71dc29fc1a4e62969531",
+      "revisionId": "15354",
+      "line": 152,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "crossbow",
+    "qualified_name": "Starting Equipment.crossbow",
+    "table_block_index": 0,
+    "line_number": 152
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "hand crossbow with [Dice.3d6] bolts (d4, range 20/40);",
+      "raw_text": "1,hand crossbow with [Dice.3d6] bolts (d4, range 20/40);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "crossbow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "light crossbow with [Dice.3d6] bolts (d4, range 60/120);",
+      "raw_text": "5,light crossbow with [Dice.3d6] bolts (d4, range 60/120);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "crossbow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "heavy crossbow with [Dice.3d6] bolts (d4, range 80/160);",
+      "raw_text": "2,heavy crossbow with [Dice.3d6] bolts (d4, range 80/160);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "crossbow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.3d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";crossbow\n1,hand crossbow with [Dice.3d6] bolts (d4, range 20/40);\n5,light crossbow with [Dice.3d6] bolts (d4, range 60/120);\n2,heavy crossbow with [Dice.3d6] bolts (d4, range 80/160);",
+  "warnings": []
+}

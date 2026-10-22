@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "a59827f1064e6c2adb265031751dc6ef6ccd46b498c5f49253f79767e4910bc7",
+      "revisionId": "20109",
+      "line": 104,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "motive",
+    "qualified_name": "Stars Without Number.motive",
+    "table_block_index": 0,
+    "line_number": 104
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Greed, because nothing else they can do pays better.",
+      "raw_text": "1,Greed, because nothing else they can do pays better.",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Idealistic about the job.",
+      "raw_text": "1,Idealistic about the job.",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Sense of social duty.",
+      "raw_text": "1,Sense of social duty.",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Force of habit takes them through the day.",
+      "raw_text": "1,Force of habit takes them through the day.",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Seeks to please another.",
+      "raw_text": "1,Seeks to please another.",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Feels inadequate as anything else.",
+      "raw_text": "1,Feels inadequate as anything else.",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Family tradition.",
+      "raw_text": "1,Family tradition.",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Religious obligation or vow.",
+      "raw_text": "1,Religious obligation or vow.",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Nothing better to do, and they need the money.",
+      "raw_text": "1,Nothing better to do, and they need the money.",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "They’re quitting at the first good opportunity.",
+      "raw_text": "1,They’re quitting at the first good opportunity.",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "It’s a stepping stone to better things.",
+      "raw_text": "1,It’s a stepping stone to better things.",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Spite against an enemy discomfited by the work.",
+      "raw_text": "1,Spite against an enemy discomfited by the work.",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";motive\n1,Greed, because nothing else they can do pays better.\n1,Idealistic about the job.\n1,Sense of social duty.\n1,Force of habit takes them through the day.\n1,Seeks to please another.\n1,Feels inadequate as anything else.\n1,Family tradition.\n1,Religious obligation or vow.\n1,Nothing better to do, and they need the money.\n1,They’re quitting at the first good opportunity.\n1,It’s a stepping stone to better things.\n1,Spite against an enemy discomfited by the work.",
+  "warnings": []
+}

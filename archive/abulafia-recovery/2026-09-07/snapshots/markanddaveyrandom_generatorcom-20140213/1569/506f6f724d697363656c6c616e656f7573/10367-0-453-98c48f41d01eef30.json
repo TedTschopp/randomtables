@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "98c48f41d01eef30b267d093985b3a991982bc476bc0f2da4ada271bb4eb2235",
+      "revisionId": "10367",
+      "line": 453,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorMiscellaneous",
+    "qualified_name": "Pickpocket.PoorMiscellaneous",
+    "table_block_index": 0,
+    "line_number": 453
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Dice.1d10] glass bead(s)",
+      "raw_text": "1,[Dice.1d10] glass bead(s)",
+      "references": [
+        {
+          "raw": "[Dice.1d10]",
+          "token": "Dice.1d10",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorMiscellaneous",
+          "target_page": "Dice",
+          "target_subtable": "1d10",
+          "target_qualified_name": "Dice.1d10"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "a statuette of [Image] carved out of [Utility.Wood]",
+      "raw_text": "3,a statuette of [Image] carved out of [Utility.Wood]",
+      "references": [
+        {
+          "raw": "[Image]",
+          "token": "Image",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorMiscellaneous",
+          "target_page": "Pickpocket",
+          "target_subtable": "Image",
+          "target_qualified_name": "Pickpocket.Image"
+        },
+        {
+          "raw": "[Utility.Wood]",
+          "token": "Utility.Wood",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorMiscellaneous",
+          "target_page": "Utility",
+          "target_subtable": "Wood",
+          "target_qualified_name": "Utility.Wood"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "a half-whittled figurine of [Image] and a small carving knife",
+      "raw_text": "3,a half-whittled figurine of [Image] and a small carving knife",
+      "references": [
+        {
+          "raw": "[Image]",
+          "token": "Image",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorMiscellaneous",
+          "target_page": "Pickpocket",
+          "target_subtable": "Image",
+          "target_qualified_name": "Pickpocket.Image"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a pair of weighted dice",
+      "raw_text": "1,a pair of weighted dice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "a pair of dice",
+      "raw_text": "3,a pair of dice",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 3,
+      "text": "playing cards",
+      "raw_text": "3,playing cards",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "a brightly painted toy boat",
+      "raw_text": "3,a brightly painted toy boat",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "a handmade doll",
+      "raw_text": "3,a handmade doll",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Image"
+    ],
+    "external_subtables": [
+      "Dice.1d10",
+      "Utility.Wood"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";PoorMiscellaneous\n1,[Dice.1d10] glass bead(s)\n3,a statuette of [Image] carved out of [Utility.Wood]\n3,a half-whittled figurine of [Image] and a small carving knife\n1,a pair of weighted dice\n3,a pair of dice\n3,playing cards\n3,a brightly painted toy boat\n3,a handmade doll",
+  "warnings": []
+}

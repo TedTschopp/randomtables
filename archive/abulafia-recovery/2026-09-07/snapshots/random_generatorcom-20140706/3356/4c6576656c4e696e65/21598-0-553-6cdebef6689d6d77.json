@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 21598,
+    "timestamp": "2014-05-16T08:28:24Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "75356adf37f0f9e693ba91ba6bcdb80ae46e2166757bd0e7288cefb0988cdd41",
+      "rawSha256": "6cdebef6689d6d77253d2a204b96b9a59bf2b08f204f6e9de6f9999dc6a2be30",
+      "revisionId": "21598",
+      "line": 553,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21598",
+        "timestamp": "2014-05-16T08:28:24Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelNine",
+    "qualified_name": "LotFP Spell Lists.LevelNine",
+    "table_block_index": 0,
+    "line_number": 553
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Imprisonment",
+      "raw_text": "1,Imprisonment",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Lost Dweomer",
+      "raw_text": "1,Lost Dweomer",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Power Word Kill",
+      "raw_text": "1,Power Word Kill",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Shape Change",
+      "raw_text": "1,Shape Change",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Temporal Stasis",
+      "raw_text": "1,Temporal Stasis",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Time Stop",
+      "raw_text": "1,Time Stop",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelNine\n1,Imprisonment\n1,Lost Dweomer\n1,Power Word Kill\n1,Shape Change\n1,Temporal Stasis\n1,Time Stop",
+  "warnings": []
+}

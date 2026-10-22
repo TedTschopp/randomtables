@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14214,
+    "timestamp": "2012-04-01T16:44:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "d6b4cf172d74491d61088a781fb3ca571f65b87be50791576ecfaadedc526b02",
+      "rawSha256": "b74edeb42801bbaed30ae43acedebcf71bafc4b54b30dc46c3e91332129d2159",
+      "revisionId": "14214",
+      "line": 341,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LOSS OF LOVED ONE",
+    "qualified_name": "User:Snake Eyes.LOSS OF LOVED ONE",
+    "table_block_index": 0,
+    "line_number": 341
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LOSS OF LOVED ONE\nLOSS OF LOVED ONE\n\na Kinsman Slain\na Kinsman Spectator\nan Executioner\n\nThe killing of the Kinsman Slain by the Executioner is witnessed by the Kinsman Spectator.",
+  "warnings": [
+    "Line 341: preserved nonstandard row before first entry: LOSS OF LOVED ONE",
+    "Line 343: preserved nonstandard row before first entry: a Kinsman Slain",
+    "Line 344: preserved nonstandard row before first entry: a Kinsman Spectator",
+    "Line 345: preserved nonstandard row before first entry: an Executioner",
+    "Line 347: preserved nonstandard row before first entry: The killing of the Kinsman Slain by the Executioner is witnessed by the Kinsman Spectator."
+  ]
+}

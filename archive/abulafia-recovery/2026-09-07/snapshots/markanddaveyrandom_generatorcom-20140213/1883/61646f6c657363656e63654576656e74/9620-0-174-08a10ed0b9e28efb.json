@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "08a10ed0b9e28efb80e3a3ff5fe2b1c30043d68fc7d615a2d9e362240d3ca4b2",
+      "revisionId": "9620",
+      "line": 174,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "adolescenceEvent",
+    "qualified_name": "Rituals.adolescenceEvent",
+    "table_block_index": 0,
+    "line_number": 174
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "at the onset of puberty of a young [manwoman]",
+      "raw_text": "1,at the onset of puberty of a young [manwoman]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "at the menarche of a young woman",
+      "raw_text": "1,at the menarche of a young woman",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "on a young [manwoman]'s 1[Dice.digit]th birthday",
+      "raw_text": "4,on a young [manwoman]'s 1[Dice.digit]th birthday",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[Dice.digit]",
+          "token": "Dice.digit",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Dice",
+          "target_subtable": "digit",
+          "target_qualified_name": "Dice.digit"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when a young [manwoman] is deemed ready to become an adult",
+      "raw_text": "1,when a young [manwoman] is deemed ready to become an adult",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when a young man wishes to prove himself",
+      "raw_text": "1,when a young man wishes to prove himself",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when a young [manwoman] chooses to follow the path of [List of gods.main]",
+      "raw_text": "1,when a young [manwoman] chooses to follow the path of [List of gods.main]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[List of gods.main]",
+          "token": "List of gods.main",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "List of gods",
+          "target_subtable": "main",
+          "target_qualified_name": "List of gods.main"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "during the period of apprenticeship",
+      "raw_text": "1,during the period of apprenticeship",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "while a young [manwoman] is learning to be a [Fantasy Profession.main]",
+      "raw_text": "1,while a young [manwoman] is learning to be a [Fantasy Profession.main]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[Fantasy Profession.main]",
+          "token": "Fantasy Profession.main",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "adolescenceEvent",
+          "target_page": "Fantasy Profession",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Profession.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "manwoman"
+    ],
+    "external_subtables": [
+      "Dice.digit",
+      "Fantasy Profession.main",
+      "List of gods.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";adolescenceEvent\n1,at the onset of puberty of a young [manwoman]\n1,at the menarche of a young woman\n4,on a young [manwoman]'s 1[Dice.digit]th birthday\n1,when a young [manwoman] is deemed ready to become an adult\n1,when a young man wishes to prove himself\n1,when a young [manwoman] chooses to follow the path of [List of gods.main]\n1,during the period of apprenticeship\n1,while a young [manwoman] is learning to be a [Fantasy Profession.main]",
+  "warnings": []
+}

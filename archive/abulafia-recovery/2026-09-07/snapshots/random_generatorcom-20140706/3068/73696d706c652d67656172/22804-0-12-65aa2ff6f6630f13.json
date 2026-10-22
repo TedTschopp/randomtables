@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "65aa2ff6f6630f136a7c2bfd53b37417f58f8a84622c0e28e733d878b3a4ef4e",
+      "revisionId": "22804",
+      "line": 12,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "simple-gear",
+    "qualified_name": "Starting Equipment.simple-gear",
+    "table_block_index": 0,
+    "line_number": 12
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]",
+      "raw_text": "1,[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]",
+      "references": [
+        {
+          "raw": "[clothes]",
+          "token": "clothes",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simple-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "clothes",
+          "target_qualified_name": "Starting Equipment.clothes"
+        },
+        {
+          "raw": "[armor]",
+          "token": "armor",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simple-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "armor",
+          "target_qualified_name": "Starting Equipment.armor"
+        },
+        {
+          "raw": "[meleeweapon]",
+          "token": "meleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simple-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "meleeweapon",
+          "target_qualified_name": "Starting Equipment.meleeweapon"
+        },
+        {
+          "raw": "[rangedweapon]",
+          "token": "rangedweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simple-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rangedweapon",
+          "target_qualified_name": "Starting Equipment.rangedweapon"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "armor",
+      "clothes",
+      "meleeweapon",
+      "rangedweapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";simple-gear\n1,[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]",
+  "warnings": []
+}

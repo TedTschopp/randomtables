@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15880,
+    "timestamp": "2012-11-23T12:20:53Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "88f4898edc67b59bab81f8b2caca7938223cd771a7633feea93193fafb7b3379",
+      "rawSha256": "3919a9c76202cc8595362b441bf50043a610cd41dbc6800cd90905b6e86a3a16",
+      "revisionId": "15880",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "just-adventure-gear",
+    "qualified_name": "Starting Equipment.just-adventure-gear",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[adventuregear1], [adventuregear2], [light], [rope]",
+      "raw_text": "1,[adventuregear1], [adventuregear2], [light], [rope]",
+      "references": [
+        {
+          "raw": "[adventuregear1]",
+          "token": "adventuregear1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "just-adventure-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventuregear1",
+          "target_qualified_name": "Starting Equipment.adventuregear1"
+        },
+        {
+          "raw": "[adventuregear2]",
+          "token": "adventuregear2",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "just-adventure-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventuregear2",
+          "target_qualified_name": "Starting Equipment.adventuregear2"
+        },
+        {
+          "raw": "[light]",
+          "token": "light",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "just-adventure-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "light",
+          "target_qualified_name": "Starting Equipment.light"
+        },
+        {
+          "raw": "[rope]",
+          "token": "rope",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "just-adventure-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rope",
+          "target_qualified_name": "Starting Equipment.rope"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "adventuregear1",
+      "adventuregear2",
+      "light",
+      "rope"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";just-adventure-gear\n1,[adventuregear1], [adventuregear2], [light], [rope]",
+  "warnings": []
+}

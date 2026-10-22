@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Door",
+    "page_id": 3091
+  },
+  "source": {
+    "revision_id": 15630,
+    "timestamp": "2012-11-08T12:57:14Z",
+    "contributor": {
+      "name": "Valis",
+      "id": 1726,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b20d7975c36e4e290db51f766b688a7e36659d4afbc0f8a1a3f8e53180032d7d",
+      "rawSha256": "748a5364d01f6f754b89fcad67edaf1f2542f6b81b05a2d779d22a6ff4083624",
+      "revisionId": "15630",
+      "line": 95,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15633",
+        "timestamp": "2012-11-08T13:02:11Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "wood",
+    "qualified_name": "Dungeon Door.wood",
+    "table_block_index": 0,
+    "line_number": 95
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "alder",
+      "raw_text": "1,alder",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "applewood",
+      "raw_text": "1,applewood",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "ash",
+      "raw_text": "1,ash",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "aspen",
+      "raw_text": "1,aspen",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "cherry",
+      "raw_text": "1,cherry",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "chestnut",
+      "raw_text": "1,chestnut",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "elm",
+      "raw_text": "1,elm",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "hickory",
+      "raw_text": "1,hickory",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "maple",
+      "raw_text": "1,maple",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "oak",
+      "raw_text": "1,oak",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "poplar",
+      "raw_text": "1,poplar",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "teak",
+      "raw_text": "1,teak",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "walnut",
+      "raw_text": "1,walnut",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";wood\n1,alder\n1,applewood\n1,ash\n1,aspen\n1,cherry\n1,chestnut\n1,elm\n1,hickory\n1,maple\n1,oak\n1,poplar\n1,teak\n1,walnut",
+  "warnings": []
+}

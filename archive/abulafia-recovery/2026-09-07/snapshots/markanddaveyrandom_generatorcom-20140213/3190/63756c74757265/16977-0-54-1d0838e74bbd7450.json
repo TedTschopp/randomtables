@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "1d0838e74bbd7450b22cdab824d9c072a8e59c896745cbe6e713e78b438bf0aa",
+      "revisionId": "16977",
+      "line": 54,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "culture",
+    "qualified_name": "Planar Codex Parish.culture",
+    "table_block_index": 0,
+    "line_number": 54
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "For the most part, the population is [cultural-descriptor] and [cultural-descriptor]",
+      "raw_text": "1,For the most part, the population is [cultural-descriptor] and [cultural-descriptor]",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Life here is a struggle between the [cultural-descriptor] and the [cultural-descriptor]",
+      "raw_text": "1,Life here is a struggle between the [cultural-descriptor] and the [cultural-descriptor]",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "The population is [cultural-descriptor], [cultural-descriptor], and [cultural-descriptor]",
+      "raw_text": "1,The population is [cultural-descriptor], [cultural-descriptor], and [cultural-descriptor]",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "There are two kinds of people here: the [cultural-descriptor] and the [cultural-descriptor]",
+      "raw_text": "1,There are two kinds of people here: the [cultural-descriptor] and the [cultural-descriptor]",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "culture",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cultural-descriptor"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";culture\n1,For the most part, the population is [cultural-descriptor] and [cultural-descriptor]\n1,Life here is a struggle between the [cultural-descriptor] and the [cultural-descriptor]\n1,The population is [cultural-descriptor], [cultural-descriptor], and [cultural-descriptor]\n1,There are two kinds of people here: the [cultural-descriptor] and the [cultural-descriptor]",
+  "warnings": []
+}

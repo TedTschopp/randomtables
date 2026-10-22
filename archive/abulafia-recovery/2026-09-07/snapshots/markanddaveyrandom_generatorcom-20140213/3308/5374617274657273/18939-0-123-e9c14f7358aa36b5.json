@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Brennall",
+    "page_id": 3308
+  },
+  "source": {
+    "revision_id": 18939,
+    "timestamp": "2013-10-02T21:04:20Z",
+    "contributor": {
+      "name": "Brennall",
+      "id": 1795,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "29e28e652500505a23ea2663610e94554acfb3cdee994d7bf5e9ee9fdef3fe91",
+      "rawSha256": "e9c14f7358aa36b501e2715f5b7793b2882743ad79ec829b634ea3aa9543e9c9",
+      "revisionId": "18939",
+      "line": 123,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "18939",
+        "timestamp": "2013-10-02T21:04:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Starters",
+    "qualified_name": "User:Brennall.Starters",
+    "table_block_index": 0,
+    "line_number": 123
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Naga",
+      "raw_text": "1,Naga",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Owlbear",
+      "raw_text": "1,Owlbear",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Pegasus",
+      "raw_text": "1,Pegasus",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Spider",
+      "raw_text": "1,Spider",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Triton",
+      "raw_text": "1,Triton",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Brain",
+      "raw_text": "1,Brain",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Brownie",
+      "raw_text": "1,Brownie",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Heart",
+      "raw_text": "1,Heart",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Eye",
+      "raw_text": "1,Eye",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Hell",
+      "raw_text": "1,Hell",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Hydra",
+      "raw_text": "1,Hydra",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Manticore",
+      "raw_text": "1,Manticore",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Medusa",
+      "raw_text": "1,Medusa",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Treant",
+      "raw_text": "1,Treant",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Troll",
+      "raw_text": "1,Troll",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Orc",
+      "raw_text": "1,Orc",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Dragon",
+      "raw_text": "1,Dragon",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Dwarf",
+      "raw_text": "1,Dwarf",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Eagle",
+      "raw_text": "1,Eagle",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Elf",
+      "raw_text": "1,Elf",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Drow",
+      "raw_text": "1,Drow",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Ghoul",
+      "raw_text": "1,Ghoul",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Gnoll",
+      "raw_text": "1,Gnoll",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Goblin",
+      "raw_text": "1,Goblin",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Harpy",
+      "raw_text": "1,Harpy",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Nymph",
+      "raw_text": "1,Nymph",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Pixie",
+      "raw_text": "1,Pixie",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Centaur",
+      "raw_text": "1,Centaur",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Lich",
+      "raw_text": "1,Lich",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Minotaur",
+      "raw_text": "1,Minotaur",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Unicorn",
+      "raw_text": "1,Unicorn",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Bugbear",
+      "raw_text": "1,Bugbear",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Gnome",
+      "raw_text": "1,Gnome",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Halfling",
+      "raw_text": "1,Halfling",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Hobgoblin",
+      "raw_text": "1,Hobgoblin",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Kobold",
+      "raw_text": "1,Kobold",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Lizard",
+      "raw_text": "1,Lizard",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Gargoyle",
+      "raw_text": "1,Gargoyle",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Witch",
+      "raw_text": "1,Witch",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Scorpion",
+      "raw_text": "1,Scorpion",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Ogre",
+      "raw_text": "1,Ogre",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Ettin",
+      "raw_text": "1,Ettin",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Giant",
+      "raw_text": "1,Giant",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Lamia",
+      "raw_text": "1,Lamia",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Werewolf",
+      "raw_text": "1,Werewolf",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Werebear",
+      "raw_text": "1,Werebear",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Crocodile",
+      "raw_text": "1,Crocodile",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Serpent",
+      "raw_text": "1,Serpent",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Snake",
+      "raw_text": "1,Snake",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Viper",
+      "raw_text": "1,Viper",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Toad",
+      "raw_text": "1,Toad",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Ape",
+      "raw_text": "1,Ape",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Baboon",
+      "raw_text": "1,Baboon",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Badger",
+      "raw_text": "1,Badger",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Bear",
+      "raw_text": "1,Bear",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Bison",
+      "raw_text": "1,Bison",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Boar",
+      "raw_text": "1,Boar",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Camel",
+      "raw_text": "1,Camel",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Cat",
+      "raw_text": "1,Cat",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Cheetah",
+      "raw_text": "1,Cheetah",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Dog",
+      "raw_text": "1,Dog",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Donkey",
+      "raw_text": "1,Donkey",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Elephant",
+      "raw_text": "1,Elephant",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Horse",
+      "raw_text": "1,Horse",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Sister",
+      "raw_text": "1,Sister",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Warhorse",
+      "raw_text": "1,Warhorse",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Hyena",
+      "raw_text": "1,Hyena",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Leopard",
+      "raw_text": "1,Leopard",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Lion",
+      "raw_text": "1,Lion",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Monkey",
+      "raw_text": "1,Monkey",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Mule",
+      "raw_text": "1,Mule",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Pony",
+      "raw_text": "1,Pony",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Rat",
+      "raw_text": "1,Rat",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Rhinoceros",
+      "raw_text": "1,Rhinoceros",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Tiger",
+      "raw_text": "1,Tiger",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Weasel",
+      "raw_text": "1,Weasel",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Wolf",
+      "raw_text": "1,Wolf",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Worg",
+      "raw_text": "1,Worg",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Wolverine",
+      "raw_text": "1,Wolverine",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Hawk",
+      "raw_text": "1,Hawk",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Raven",
+      "raw_text": "1,Raven",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Chicken",
+      "raw_text": "1,Chicken",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Shark",
+      "raw_text": "1,Shark",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Blood",
+      "raw_text": "1,Blood",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Centipede",
+      "raw_text": "1,Centipede",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Squid",
+      "raw_text": "1,Squid",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Kraken",
+      "raw_text": "1,Kraken",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Fire",
+      "raw_text": "1,Fire",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Flame",
+      "raw_text": "1,Flame",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Gut",
+      "raw_text": "1,Gut",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Head",
+      "raw_text": "1,Head",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Ailment",
+      "raw_text": "1,Ailment",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Druid",
+      "raw_text": "1,Druid",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Jungle",
+      "raw_text": "1,Jungle",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Forest",
+      "raw_text": "1,Forest",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Desert",
+      "raw_text": "1,Desert",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Sandy",
+      "raw_text": "1,Sandy",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Morning",
+      "raw_text": "1,Morning",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Evening",
+      "raw_text": "1,Evening",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Wasteland",
+      "raw_text": "1,Wasteland",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Starters\n1,Naga\n1,Owlbear\n1,Pegasus\n1,Spider\n1,Triton\n1,Brain\n1,Brownie\n1,Heart\n1,Eye\n1,Hell\n1,Hydra\n1,Manticore\n1,Medusa\n1,Treant\n1,Troll\n1,Orc\n1,Dragon\n1,Dwarf\n1,Eagle\n1,Elf\n1,Drow\n1,Ghoul\n1,Gnoll\n1,Goblin\n1,Harpy\n1,Nymph\n1,Pixie\n1,Centaur\n1,Lich\n1,Minotaur\n1,Unicorn\n1,Bugbear\n1,Gnome\n1,Halfling\n1,Hobgoblin\n1,Kobold\n1,Lizard\n1,Gargoyle\n1,Witch\n1,Scorpion\n1,Ogre\n1,Ettin\n1,Giant\n1,Lamia\n1,Werewolf\n1,Werebear\n1,Crocodile\n1,Serpent\n1,Snake\n1,Viper\n1,Toad\n1,Ape\n1,Baboon\n1,Badger\n1,Bear\n1,Bison\n1,Boar\n1,Camel\n1,Cat\n1,Cheetah\n1,Dog\n1,Donkey\n1,Elephant\n1,Horse\n1,Sister\n1,Warhorse\n1,Hyena\n1,Leopard\n1,Lion\n1,Monkey\n1,Mule\n1,Pony\n1,Rat\n1,Rhinoceros\n1,Tiger\n1,Weasel\n1,Wolf\n1,Worg\n1,Wolverine\n1,Hawk\n1,Raven\n1,Chicken\n1,Shark\n1,Blood\n1,Centipede\n1,Squid\n1,Kraken\n1,Fire\n1,Flame\n1,Gut\n1,Head\n1,Ailment\n1,Druid\n1,Jungle\n1,Forest\n1,Desert\n1,Sandy\n1,Morning\n1,Evening\n1,Wasteland",
+  "warnings": []
+}

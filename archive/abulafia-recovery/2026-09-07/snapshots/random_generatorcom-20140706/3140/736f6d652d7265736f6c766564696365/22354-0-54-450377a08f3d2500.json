@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "450377a08f3d25008cf5f4dbfee513f2d6b2e976a55b19e8e0776fba28099e6c",
+      "revisionId": "22354",
+      "line": 54,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "some-resolvedice",
+    "qualified_name": "Guards.some-resolvedice",
+    "table_block_index": 0,
+    "line_number": 54
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[digit]",
+      "raw_text": "1,[digit]",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "some-resolvedice",
+          "target_page": "Guards",
+          "target_subtable": "digit",
+          "target_qualified_name": "Guards.digit"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Dice.2d6]",
+      "raw_text": "1,[Dice.2d6]",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "some-resolvedice",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[digit][digit]",
+      "raw_text": "1,[digit][digit]",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "some-resolvedice",
+          "target_page": "Guards",
+          "target_subtable": "digit",
+          "target_qualified_name": "Guards.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Guards",
+          "source_subtable": "some-resolvedice",
+          "target_page": "Guards",
+          "target_subtable": "digit",
+          "target_qualified_name": "Guards.digit"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "digit"
+    ],
+    "external_subtables": [
+      "Dice.2d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";some-resolvedice\n1,[digit]\n1,[Dice.2d6]\n1,[digit][digit]",
+  "warnings": []
+}

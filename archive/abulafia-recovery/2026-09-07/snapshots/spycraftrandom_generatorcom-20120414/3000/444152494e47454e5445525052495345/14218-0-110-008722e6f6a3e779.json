@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14218,
+    "timestamp": "2012-04-02T09:09:07Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "2d1a969bbbaded4fd19fcf4e73fefe3cc2bff85a7a9696c0e3b15d4b76c0f91f",
+      "rawSha256": "008722e6f6a3e77991c8e776b933976c6f7d05e70a4ca8be065052ae361d818a",
+      "revisionId": "14218",
+      "line": 110,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "DARINGENTERPRISE",
+    "qualified_name": "User:Snake Eyes.DARINGENTERPRISE",
+    "table_block_index": 0,
+    "line_number": 110
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";DARINGENTERPRISE\nDARING ENTERPRISE\n\na Bold Leader\nan Object\nan Adversary\n\nThe Bold Leader takes the Object from the Adversary by overpowering the Adversary.",
+  "warnings": [
+    "Line 109: preserved nonstandard row before first entry: DARING ENTERPRISE",
+    "Line 111: preserved nonstandard row before first entry: a Bold Leader",
+    "Line 112: preserved nonstandard row before first entry: an Object",
+    "Line 113: preserved nonstandard row before first entry: an Adversary",
+    "Line 115: preserved nonstandard row before first entry: The Bold Leader takes the Object from the Adversary by overpowering the Adversary."
+  ]
+}

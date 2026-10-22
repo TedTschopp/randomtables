@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "078dc855c3e182b1c60bac75d38097774b463f8dc62979e46de0e49afdfdfb10",
+      "revisionId": "22835",
+      "line": 174,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "initial-effect",
+    "qualified_name": "Curse.initial-effect",
+    "table_block_index": 0,
+    "line_number": 174
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 9,
+      "text": "save or die, and [initial-effect-chaser]",
+      "raw_text": "9,save or die, and [initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "suffer [high-damage] [damage] and [initial-effect-chaser]",
+      "raw_text": "1,suffer [high-damage] [damage] and [initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[high-damage]",
+          "token": "high-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "high-damage",
+          "target_qualified_name": "Curse.high-damage"
+        },
+        {
+          "raw": "[damage]",
+          "token": "damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage",
+          "target_qualified_name": "Curse.damage"
+        },
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 7,
+      "text": "suffer [med-damage] [damage] and [initial-effect-chaser]",
+      "raw_text": "7,suffer [med-damage] [damage] and [initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[med-damage]",
+          "token": "med-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "med-damage",
+          "target_qualified_name": "Curse.med-damage"
+        },
+        {
+          "raw": "[damage]",
+          "token": "damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage",
+          "target_qualified_name": "Curse.damage"
+        },
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 12,
+      "text": "suffer [low-damage] [damage] and [initial-effect-chaser]",
+      "raw_text": "12,suffer [low-damage] [damage] and [initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[low-damage]",
+          "token": "low-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "low-damage",
+          "target_qualified_name": "Curse.low-damage"
+        },
+        {
+          "raw": "[damage]",
+          "token": "damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage",
+          "target_qualified_name": "Curse.damage"
+        },
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 9,
+      "text": "[initial-effect-chaser]",
+      "raw_text": "9,[initial-effect-chaser]",
+      "references": [
+        {
+          "raw": "[initial-effect-chaser]",
+          "token": "initial-effect-chaser",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect",
+          "target_page": "Curse",
+          "target_subtable": "initial-effect-chaser",
+          "target_qualified_name": "Curse.initial-effect-chaser"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "damage",
+      "high-damage",
+      "initial-effect-chaser",
+      "low-damage",
+      "med-damage"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";initial-effect\n9,save or die, and [initial-effect-chaser]\n1,suffer [high-damage] [damage] and [initial-effect-chaser]\n7,suffer [med-damage] [damage] and [initial-effect-chaser]\n12,suffer [low-damage] [damage] and [initial-effect-chaser]\n9,[initial-effect-chaser]",
+  "warnings": []
+}

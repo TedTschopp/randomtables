@@ -178,6 +178,35 @@ test('wiki metadata retains readable names, provenance, source entries, and bloc
   assert.equal(result.steps.length, 0);
 });
 
+test('blocked source repairs display only explicitly corrected rows and retain raw evidence and cycle guards', () => {
+  const runtime = createRuntime();
+  vm.runInContext(`WikiImport.register({
+    schemaVersion: 1,
+    tables: [{
+      id: 'wiki_abulafia_1_61', name: 'Imported.a', status: 'blocked', totalWeight: 11,
+      archiveFile: 'tables/abulafia/source/1.json', values: ['Unavailable'],
+      issues: [{ code: 'cycle', detail: 'Self reference' }],
+      sourceCorrections: [{ row: 1, kind: 'repair-extra-self-reference-bracket' }],
+      entries: [
+        { weight: 10, text: 'Most {wiki_abulafia_1_61}', rawText: 'Most [a]]', references: ['wiki_abulafia_1_61'] },
+        { weight: 1, text: '{{macro|{wiki_abulafia_missing_62}}}', rawText: '{{macro|[b]}}', references: ['wiki_abulafia_missing_62'] }
+      ]
+    }],
+    labels: { wiki_abulafia_1_61: 'Imported.a', wiki_abulafia_missing_62: 'Imported.b' }, aliases: {}
+  });`, runtime);
+  const before = JSON.stringify([...runtime.WikiImport.metadata]);
+  const model = runtime.TableAtlas.buildModel(runtime.gen_data);
+  const table = model.byId.get('wiki_abulafia_1_61');
+  assert.equal(table.entries[0].text, 'Most {wiki_abulafia_1_61}');
+  assert.equal(table.entries[0].probability, 10 / 11);
+  assert.equal(table.entries[1].text, '{{macro|[b]}}');
+  assert.equal(table.wiki.entries[0].rawText, 'Most [a]]');
+  assert.ok(model.edges.some(edge => edge.source === table.id && edge.target === table.id));
+  assert.equal(table.blocked, true);
+  assert.equal(runtime.TableAtlas.roll(table.id, runtime).warnings[0].type, 'blocked');
+  assert.equal(JSON.stringify([...runtime.WikiImport.metadata]), before);
+});
+
 test('wiki-only programs retain source weights and route rolls to the isolated expression evaluator', () => {
   const runtime = createRuntime();
   vm.runInContext(`WikiImport.register({

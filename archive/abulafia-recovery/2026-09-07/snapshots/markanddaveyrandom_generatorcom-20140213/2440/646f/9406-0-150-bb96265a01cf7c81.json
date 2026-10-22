@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9406,
+    "timestamp": "2009-07-31T10:54:26Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8cb92bdccbaacaf08c718ab8106613e4c16651ccfbe0cec69cea54ca631f1b22",
+      "rawSha256": "bb96265a01cf7c81fafe9e455e32aafb44214d25be841fc5eb5d7d4e1ab8dc00",
+      "revisionId": "9406",
+      "line": 150,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "do",
+    "qualified_name": "New gen.do",
+    "table_block_index": 0,
+    "line_number": 150
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Attack",
+      "raw_text": "1,Attack",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Feed",
+      "raw_text": "1,Feed",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Kill",
+      "raw_text": "1,Kill",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Maim",
+      "raw_text": "1,Maim",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Murder",
+      "raw_text": "1,Murder",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Sleep",
+      "raw_text": "1,Sleep",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Die",
+      "raw_text": "1,Die",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Massacre",
+      "raw_text": "1,Massacre",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Rise",
+      "raw_text": "1,Rise",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Hunt",
+      "raw_text": "1,Hunt",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Kill",
+      "raw_text": "1,Kill",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Return",
+      "raw_text": "1,Return",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Die",
+      "raw_text": "1,Die",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Bite",
+      "raw_text": "1,Bite",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Feast",
+      "raw_text": "1,Feast",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Destroy",
+      "raw_text": "1,Destroy",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Take your Soul",
+      "raw_text": "1,Take your Soul",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "slaughter",
+      "raw_text": "1,slaughter",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "devour",
+      "raw_text": "1,devour",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";do\n1,Attack\n1,Feed\n1,Kill\n1,Maim\n1,Murder\n1,Sleep\n1,Die\n1,Massacre\n1,Rise\n1,Hunt\n1,Kill\n1,Return\n1,Die\n1,Bite\n1,Feast\n1,Destroy\n1,Take your Soul\n1,slaughter\n1,devour",
+  "warnings": []
+}

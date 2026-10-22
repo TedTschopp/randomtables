@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14351,
+    "timestamp": "2012-05-14T16:42:36Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8fc1eab19ce868ee87e8b79956ba938bbc809eebeb0e10e39871f6eea5dab4bd",
+      "rawSha256": "2d163caef99682184c56fce6274e84fc9706df7897db4738a4c973126de2d987",
+      "revisionId": "14351",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Powers",
+    "qualified_name": "Character Personality and Traits.Powers",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Attack Power][Durability][Reflexes][Senses][Stamina][Strength][Movement Power][Unusual Powers]",
+      "raw_text": "1,[Attack Power][Durability][Reflexes][Senses][Stamina][Strength][Movement Power][Unusual Powers]",
+      "references": [
+        {
+          "raw": "[Attack Power]",
+          "token": "Attack Power",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Attack Power",
+          "target_qualified_name": "Character Personality and Traits.Attack Power"
+        },
+        {
+          "raw": "[Durability]",
+          "token": "Durability",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Durability",
+          "target_qualified_name": "Character Personality and Traits.Durability"
+        },
+        {
+          "raw": "[Reflexes]",
+          "token": "Reflexes",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Reflexes",
+          "target_qualified_name": "Character Personality and Traits.Reflexes"
+        },
+        {
+          "raw": "[Senses]",
+          "token": "Senses",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Senses",
+          "target_qualified_name": "Character Personality and Traits.Senses"
+        },
+        {
+          "raw": "[Stamina]",
+          "token": "Stamina",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Stamina",
+          "target_qualified_name": "Character Personality and Traits.Stamina"
+        },
+        {
+          "raw": "[Strength]",
+          "token": "Strength",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Strength",
+          "target_qualified_name": "Character Personality and Traits.Strength"
+        },
+        {
+          "raw": "[Movement Power]",
+          "token": "Movement Power",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Movement Power",
+          "target_qualified_name": "Character Personality and Traits.Movement Power"
+        },
+        {
+          "raw": "[Unusual Powers]",
+          "token": "Unusual Powers",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Powers",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Unusual Powers",
+          "target_qualified_name": "Character Personality and Traits.Unusual Powers"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Attack Power",
+      "Durability",
+      "Movement Power",
+      "Reflexes",
+      "Senses",
+      "Stamina",
+      "Strength",
+      "Unusual Powers"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Powers\n1,[Attack Power][Durability][Reflexes][Senses][Stamina][Strength][Movement Power][Unusual Powers]",
+  "warnings": []
+}

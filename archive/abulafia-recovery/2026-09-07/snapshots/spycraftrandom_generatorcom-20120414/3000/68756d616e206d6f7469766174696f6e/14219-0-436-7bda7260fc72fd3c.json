@@ -1,0 +1,1255 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "7bda7260fc72fd3c7527e2f68ba78c0ba8278d0844c1fccc5f2bad0b8d0c1593",
+      "revisionId": "14219",
+      "line": 436,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "human motivation",
+    "qualified_name": "User:Snake Eyes.human motivation",
+    "table_block_index": 0,
+    "line_number": 436
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Resting",
+      "raw_text": "1, Resting",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Eating",
+      "raw_text": "1, Eating",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Drinking",
+      "raw_text": "1, Drinking",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Gambling",
+      "raw_text": "1, Gambling",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Revelry",
+      "raw_text": "1, Revelry",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Going to Market",
+      "raw_text": "1, Going to Market",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Coming from Market",
+      "raw_text": "1, Coming from Market",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Going to Work",
+      "raw_text": "1, Going to Work",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Coming from Work",
+      "raw_text": "1, Coming from Work",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Going to Church",
+      "raw_text": "1, Going to Church",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Coming from Church",
+      "raw_text": "1, Coming from Church",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Going to visit Friends",
+      "raw_text": "1, Going to visit Friends",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Coming from visiting Friends",
+      "raw_text": "1, Coming from visiting Friends",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Seeking Directions",
+      "raw_text": "1, Seeking Directions",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Seeking Services",
+      "raw_text": "1, Seeking Services",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Looking for Services",
+      "raw_text": "1, Looking for Services",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Camping",
+      "raw_text": "1, Camping",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Seeking Lodgings",
+      "raw_text": "1, Seeking Lodgings",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Offering Employment",
+      "raw_text": "1, Offering Employment",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Seeking Employment",
+      "raw_text": "1, Seeking Employment",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Working",
+      "raw_text": "1, Working",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Escaping the Law",
+      "raw_text": "1, Escaping the Law",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Military Service",
+      "raw_text": "1, Military Service",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "On Errand",
+      "raw_text": "1, On Errand",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Bearing Message",
+      "raw_text": "1, Bearing Message",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Seeking Duel",
+      "raw_text": "1, Seeking Duel",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Dueling",
+      "raw_text": "1, Dueling",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Fight",
+      "raw_text": "1, Fight",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Singing",
+      "raw_text": "1, Singing",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Exploring",
+      "raw_text": "1, Exploring",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Seeking Adventurer",
+      "raw_text": "1, Seeking Adventurer",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Crusading",
+      "raw_text": "1, Crusading",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Geas",
+      "raw_text": "1, Geas",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Seeking Protection",
+      "raw_text": "1, Seeking Protection",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Escaping Prosecution",
+      "raw_text": "1, Escaping Prosecution",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Hunting Criminals",
+      "raw_text": "1, Hunting Criminals",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Hunting Bounty",
+      "raw_text": "1, Hunting Bounty",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Hunting Game",
+      "raw_text": "1, Hunting Game",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Seeking Runaway",
+      "raw_text": "1, Seeking Runaway",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Escorting Cargo",
+      "raw_text": "1, Escorting Cargo",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Escorting Treasure",
+      "raw_text": "1, Escorting Treasure",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "In Distress",
+      "raw_text": "1, In Distress",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Under Attack",
+      "raw_text": "1, Under Attack",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Caring for Wounded",
+      "raw_text": "1, Caring for Wounded",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Caring for Dead",
+      "raw_text": "1, Caring for Dead",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Preparing Ambush",
+      "raw_text": "1, Preparing Ambush",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Ambush!",
+      "raw_text": "1, Ambush!",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Divvying Loot",
+      "raw_text": "1, Divvying Loot",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Sleeping",
+      "raw_text": "1, Sleeping",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Hibernating",
+      "raw_text": "1, Hibernating",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Dormant",
+      "raw_text": "1, Dormant",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Seeking Mate",
+      "raw_text": "1, Seeking Mate",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Migrating",
+      "raw_text": "1, Migrating",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Argument",
+      "raw_text": "1, Argument",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Investigating Crime",
+      "raw_text": "1, Investigating Crime",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Off Duty",
+      "raw_text": "1, Off Duty",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Inspecting Business",
+      "raw_text": "1, Inspecting Business",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Inspecting Public Works",
+      "raw_text": "1, Inspecting Public Works",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Collecting Taxes",
+      "raw_text": "1, Collecting Taxes",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Assessing Taxes",
+      "raw_text": "1, Assessing Taxes",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "On Guard",
+      "raw_text": "1, On Guard",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Moving Cargo",
+      "raw_text": "1, Moving Cargo",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Training",
+      "raw_text": "1, Training",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "On Maneuvers",
+      "raw_text": "1, On Maneuvers",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Recruiting",
+      "raw_text": "1, Recruiting",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Absent Without Leave",
+      "raw_text": "1, Absent Without Leave",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Auction",
+      "raw_text": "1, Auction",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Impromptu Market",
+      "raw_text": "1, Impromptu Market",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Salesman’s Brawl",
+      "raw_text": "1, Salesman’s Brawl",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Looting",
+      "raw_text": "1, Looting",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Rioting",
+      "raw_text": "1, Rioting",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Boxing Match",
+      "raw_text": "1, Boxing Match",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Hue and Cry",
+      "raw_text": "1, Hue and Cry",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Mob Sport",
+      "raw_text": "1, Mob Sport",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Public Trial",
+      "raw_text": "1, Public Trial",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Edict",
+      "raw_text": "1, Edict",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Proclamation",
+      "raw_text": "1, Proclamation",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Spectacle",
+      "raw_text": "1, Spectacle",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Religious Parade",
+      "raw_text": "1, Religious Parade",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Historical Holiday",
+      "raw_text": "1, Historical Holiday",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Play",
+      "raw_text": "1, Play",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Puppet Show",
+      "raw_text": "1, Puppet Show",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Political Orator",
+      "raw_text": "1, Political Orator",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Debate",
+      "raw_text": "1, Debate",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Procession",
+      "raw_text": "1, Procession",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Funeral",
+      "raw_text": "1, Funeral",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Public Execution",
+      "raw_text": "1, Public Execution",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Public Punishment",
+      "raw_text": "1, Public Punishment",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Religious Sermon",
+      "raw_text": "1, Religious Sermon",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Religious Orator",
+      "raw_text": "1, Religious Orator",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Religious Debate",
+      "raw_text": "1, Religious Debate",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Ministering Flock",
+      "raw_text": "1, Ministering Flock",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Dispensing Coins",
+      "raw_text": "1, Dispensing Coins",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Inspecting Church Property",
+      "raw_text": "1, Inspecting Church Property",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Inspecting Lands",
+      "raw_text": "1, Inspecting Lands",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Preaching",
+      "raw_text": "1, Preaching",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Meditating",
+      "raw_text": "1, Meditating",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Praying",
+      "raw_text": "1, Praying",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Seeking Victims for Rituals",
+      "raw_text": "1, Seeking Victims for Rituals",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Inquisition after Heretics",
+      "raw_text": "1, Inquisition after Heretics",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Begging",
+      "raw_text": "1, Begging",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Soliciting Coins",
+      "raw_text": "1, Soliciting Coins",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "On Pilgrimage",
+      "raw_text": "1, On Pilgrimage",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Church Related",
+      "raw_text": "1, Church Related",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Collecting Extortion",
+      "raw_text": "1, Collecting Extortion",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Collecting Dues",
+      "raw_text": "1, Collecting Dues",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "Patrolling",
+      "raw_text": "1, Patrolling",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "Thieving",
+      "raw_text": "1, Thieving",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "Stalking",
+      "raw_text": "1, Stalking",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Con Job",
+      "raw_text": "1, Con Job",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Touting",
+      "raw_text": "1, Touting",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Burgling",
+      "raw_text": "1, Burgling",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Casing Crime",
+      "raw_text": "1, Casing Crime",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "Smuggling Goods",
+      "raw_text": "1, Smuggling Goods",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Smuggling Contraband",
+      "raw_text": "1, Smuggling Contraband",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Assassin",
+      "raw_text": "1, Assassin",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Criminal Activity",
+      "raw_text": "1, Criminal Activity",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Running Away",
+      "raw_text": "1, Running Away",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "Making Craft",
+      "raw_text": "1, Making Craft",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Selling Craft",
+      "raw_text": "1, Selling Craft",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Herding",
+      "raw_text": "1, Herding",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "At Leisure",
+      "raw_text": "1, At Leisure",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Delivering Goods",
+      "raw_text": "1, Delivering Goods",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "Seeking Materials",
+      "raw_text": "1, Seeking Materials",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Eating Kill",
+      "raw_text": "1, Eating Kill",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Hunting Prey",
+      "raw_text": "1, Hunting Prey",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Grazing",
+      "raw_text": "1, Grazing",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Foraging",
+      "raw_text": "1, Foraging",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Fleeing Predator",
+      "raw_text": "1, Fleeing Predator",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Dormant",
+      "raw_text": "1, Dormant",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Hibernating",
+      "raw_text": "1, Hibernating",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Someone gets lost",
+      "raw_text": "1, Someone gets lost",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Mob",
+      "raw_text": "1, Mob",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Crowd",
+      "raw_text": "1, Crowd",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Assembly",
+      "raw_text": "1, Assembly",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Mutiny",
+      "raw_text": "1, Mutiny",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Dissent",
+      "raw_text": "1, Dissent",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Argument",
+      "raw_text": "1, Argument",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Romantic Parnter",
+      "raw_text": "1, Romantic Parnter",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Reading",
+      "raw_text": "1, Reading",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Drawing in the Earth",
+      "raw_text": "1, Drawing in the Earth",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Hunting Mythical Beasts",
+      "raw_text": "1, Hunting Mythical Beasts",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Theater",
+      "raw_text": "1, Theater",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Rememberence",
+      "raw_text": "1, Rememberence",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Clear Name",
+      "raw_text": "1, Clear Name",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "Escape",
+      "raw_text": "1, Escape",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "Explore",
+      "raw_text": "1, Explore ",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "Encounter an",
+      "raw_text": "1, Encounter an ",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "Gain Money",
+      "raw_text": "1, Gain Money",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "Gain Power",
+      "raw_text": "1, Gain Power",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "Protect Endangered",
+      "raw_text": "1, Protect Endangered",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "Rescue",
+      "raw_text": "1, Rescue",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "Retrieve an item",
+      "raw_text": "1, Retrieve an item",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "Settle a debt",
+      "raw_text": "1, Settle a debt",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "Survive the environment",
+      "raw_text": "1, Survive the environment",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "Map",
+      "raw_text": "1, Map",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "Stake Claim",
+      "raw_text": "1, Stake Claim",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "Examine",
+      "raw_text": "1, Examine",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "Scout",
+      "raw_text": "1, Scout",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "Build",
+      "raw_text": "1, Build",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "Front",
+      "raw_text": "1, Front",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "Seeking Craft",
+      "raw_text": "1, Seeking Craft",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "Seeking Travel Companion",
+      "raw_text": "1, Seeking Travel Companion",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "Seeking Resources",
+      "raw_text": "1, Seeking Resources",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "Seeking Materials",
+      "raw_text": "1, Seeking Materials",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "Quest",
+      "raw_text": "1, Quest",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "Seeking Esoterica",
+      "raw_text": "1, Seeking Esoterica",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "Seeking Guild",
+      "raw_text": "1, Seeking Guild",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "Working",
+      "raw_text": "1, Working",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "Absent",
+      "raw_text": "1, Absent",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "Gaming",
+      "raw_text": "1, Gaming",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "Prospect",
+      "raw_text": "1, Prospect",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";human motivation\n1, Resting\n1, Eating\n1, Drinking\n1, Gambling\n1, Revelry\n1, Going to Market\n1, Coming from Market\n1, Going to Work\n1, Coming from Work\n1, Going to Church\n1, Coming from Church\n1, Going to visit Friends\n1, Coming from visiting Friends\n1, Seeking Directions\n1, Seeking Services\n1, Looking for Services\n1, Camping\n1, Seeking Lodgings\n1, Offering Employment\n1, Seeking Employment\n1, Working\n1, Escaping the Law\n1, Military Service\n1, On Errand\n1, Bearing Message\n1, Seeking Duel\n1, Dueling\n1, Fight\n1, Singing\n1, Exploring\n1, Seeking Adventurer\n1, Crusading\n1, Geas\n1, Seeking Protection\n1, Escaping Prosecution\n1, Hunting Criminals\n1, Hunting Bounty\n1, Hunting Game\n1, Seeking Runaway\n1, Escorting Cargo\n1, Escorting Treasure\n1, In Distress\n1, Under Attack\n1, Caring for Wounded\n1, Caring for Dead\n1, Preparing Ambush\n1, Ambush!\n1, Divvying Loot\n1, Sleeping\n1, Hibernating\n1, Dormant\n1, Seeking Mate\n1, Migrating\n1, Argument\n1, Investigating Crime\n1, Off Duty\n1, Inspecting Business\n1, Inspecting Public Works\n1, Collecting Taxes\n1, Assessing Taxes\n1, On Guard\n1, Moving Cargo\n1, Training\n1, On Maneuvers\n1, Recruiting\n1, Absent Without Leave\n1, Auction\n1, Impromptu Market\n1, Salesman’s Brawl\n1, Looting\n1, Rioting\n1, Boxing Match\n1, Hue and Cry\n1, Mob Sport\n1, Public Trial\n1, Edict\n1, Proclamation\n1, Spectacle\n1, Religious Parade\n1, Historical Holiday\n1, Play\n1, Puppet Show\n1, Political Orator\n1, Debate\n1, Procession\n1, Funeral\n1, Public Execution\n1, Public Punishment\n1, Religious Sermon\n1, Religious Orator\n1, Religious Debate\n1, Ministering Flock\n1, Dispensing Coins\n1, Inspecting Church Property\n1, Inspecting Lands\n1, Preaching\n1, Meditating\n1, Praying\n1, Seeking Victims for Rituals\n1, Inquisition after Heretics\n1, Begging\n1, Soliciting Coins\n1, On Pilgrimage\n1, Church Related\n1, Collecting Extortion\n1, Collecting Dues\n1, Patrolling\n1, Thieving\n1, Stalking\n1, Con Job\n1, Touting\n1, Burgling\n1, Casing Crime\n1, Smuggling Goods\n1, Smuggling Contraband\n1, Assassin\n1, Criminal Activity\n1, Running Away\n1, Making Craft\n1, Selling Craft\n1, Herding\n1, At Leisure\n1, Delivering Goods\n1, Seeking Materials\n1, Eating Kill\n1, Hunting Prey\n1, Grazing\n1, Foraging\n1, Fleeing Predator\n1, Dormant\n1, Hibernating\n1, Someone gets lost\n1, Mob\n1, Crowd\n1, Assembly\n1, Mutiny\n1, Dissent\n1, Argument\n1, Romantic Parnter\n1, Reading\n1, Drawing in the Earth\n1, Hunting Mythical Beasts\n1, Theater\n1, Rememberence\n1, Clear Name\n1, Escape\n1, Explore \n1, Encounter an \n1, Gain Money\n1, Gain Power\n1, Protect Endangered\n1, Rescue\n1, Retrieve an item\n1, Settle a debt\n1, Survive the environment\n1, Map\n1, Stake Claim\n1, Examine\n1, Scout\n1, Build\n1, Front\n1, Seeking Craft\n1, Seeking Travel Companion\n1, Seeking Resources\n1, Seeking Materials\n1, Quest\n1, Seeking Esoterica\n1, Seeking Guild\n1, Working\n1, Absent\n1, Gaming\n1, Prospect",
+  "warnings": []
+}

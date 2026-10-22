@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "8c5ccc9f9b97f5ba9f58eff8bb4bd041ceb11a79a6b0ab48f508b0f1d9c43f05",
+      "revisionId": "23320",
+      "line": 200,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "purpose",
+    "qualified_name": "OSR weapon.purpose",
+    "table_block_index": 0,
+    "line_number": 200
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "slay demons",
+      "raw_text": "1,slay demons",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "slay elementals",
+      "raw_text": "2,slay elementals",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "slay thieves or royalty",
+      "raw_text": "3,slay thieves or royalty",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "slay Clerics",
+      "raw_text": "4,slay Clerics",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "slay Magic-users",
+      "raw_text": "5,slay Magic-users",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 6,
+      "text": "defeat opposed alignment",
+      "raw_text": "6,defeat opposed alignment",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 5,
+      "text": "slay Fighters",
+      "raw_text": "5,slay Fighters",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "slay undead",
+      "raw_text": "4,slay undead",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "slay lycanthropes",
+      "raw_text": "3,slay lycanthropes",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "slay giants",
+      "raw_text": "2,slay giants",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "slay dragons",
+      "raw_text": "1,slay dragons",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "[hackslashpurpose]",
+      "raw_text": "3,[hackslashpurpose]",
+      "references": [
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "purpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "hackslashpurpose"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";purpose\n1,slay demons\n2,slay elementals\n3,slay thieves or royalty\n4,slay Clerics\n5,slay Magic-users\n6,defeat opposed alignment\n5,slay Fighters\n4,slay undead\n3,slay lycanthropes\n2,slay giants\n1,slay dragons\n3,[hackslashpurpose]",
+  "warnings": []
+}

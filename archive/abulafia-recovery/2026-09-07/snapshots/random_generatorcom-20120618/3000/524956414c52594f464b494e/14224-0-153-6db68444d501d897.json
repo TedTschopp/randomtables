@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14224,
+    "timestamp": "2012-04-02T10:53:27Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20120618",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20120618/random_generatorcom-20120618-history.xml.7z",
+      "sourceSha256": "3d62fe4b7329f9491b813ce2cd3777f252bdb36d650dc27dcd0b096b84cba6af",
+      "sourceMember": "random_generatorcom-20120618-history.xml",
+      "xmlSha256": "ac7965fa7c806c03abf8e7d28cd97f99ccb793a618ef7aa1c88c059e579fda78",
+      "xmlBytes": 5787764,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20120618-history.xml.7z",
+      "textSha256": "c2c53f3a955b43634a82f944a5c63e0526562a13e2d6b6749bf329ebdbfcd84d",
+      "rawSha256": "6db68444d501d8970e7aa28cdaf2969240ac283bac9b2c70f58391b99012e535",
+      "revisionId": "14224",
+      "line": 153,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RIVALRYOFKIN",
+    "qualified_name": "User:Snake Eyes.RIVALRYOFKIN",
+    "table_block_index": 0,
+    "line_number": 153
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";RIVALRYOFKIN\nRIVALRY OF KIN\n\nthe Preferred Kinsman\nthe Rejected Kinsman\nthe Object of Rivalry\n\nThe Object of Rivalry chooses the Preferred Kinsman over the Rejected Kinsman.",
+  "warnings": [
+    "Line 152: preserved nonstandard row before first entry: RIVALRY OF KIN",
+    "Line 154: preserved nonstandard row before first entry: the Preferred Kinsman",
+    "Line 155: preserved nonstandard row before first entry: the Rejected Kinsman",
+    "Line 156: preserved nonstandard row before first entry: the Object of Rivalry",
+    "Line 158: preserved nonstandard row before first entry: The Object of Rivalry chooses the Preferred Kinsman over the Rejected Kinsman."
+  ]
+}

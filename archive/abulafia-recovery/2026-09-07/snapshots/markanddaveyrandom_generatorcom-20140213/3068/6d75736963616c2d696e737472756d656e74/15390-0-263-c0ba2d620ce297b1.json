@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15390,
+    "timestamp": "2012-10-08T12:38:53Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "15b8dc16b3130aff20fa8c14a259180b431cdd9ed87eef9a69dbce921c0a0b8a",
+      "rawSha256": "c0ba2d620ce297b175938c6649778fb6d520a674f1c62fa0350221586a9dbdd9",
+      "revisionId": "15390",
+      "line": 263,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "musical-instrument",
+    "qualified_name": "Starting Equipment.musical-instrument",
+    "table_block_index": 0,
+    "line_number": 263
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "flute",
+      "raw_text": "1,flute",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "drum",
+      "raw_text": "1,drum",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "trumpet",
+      "raw_text": "1,trumpet",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "harp",
+      "raw_text": "1,harp",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lute",
+      "raw_text": "1,lute",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";musical-instrument\n1,flute\n1,drum\n1,trumpet\n1,harp\n1,lute",
+  "warnings": []
+}

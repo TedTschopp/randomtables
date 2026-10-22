@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22912,
+    "timestamp": "2014-06-10T22:41:28Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6cee8dae03544722b1c77a12fc4440bb754d371a74944a84ee3b20db2a3a5876",
+      "rawSha256": "24de0d396c769dfb0106641274612923ae5906475e1150440b8e3229290d4437",
+      "revisionId": "22912",
+      "line": 177,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "names",
+    "qualified_name": "OSR weapon.names",
+    "table_block_index": 0,
+    "line_number": 177
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "“[Weapon Names.main]”",
+      "raw_text": "2,“[Weapon Names.main]”",
+      "references": [
+        {
+          "raw": "[Weapon Names.main]",
+          "token": "Weapon Names.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "Weapon Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Weapon Names.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[names], [names]",
+      "raw_text": "1,[names], [names]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "of [places]",
+      "raw_text": "1,of [places]",
+      "references": [
+        {
+          "raw": "[places]",
+          "token": "places",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "OSR weapon",
+          "target_subtable": "places",
+          "target_qualified_name": "OSR weapon.places"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[title]",
+      "raw_text": "1,[title]",
+      "references": [
+        {
+          "raw": "[title]",
+          "token": "title",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "OSR weapon",
+          "target_subtable": "title",
+          "target_qualified_name": "OSR weapon.title"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[peoplenames]",
+      "raw_text": "1,[peoplenames]",
+      "references": [
+        {
+          "raw": "[peoplenames]",
+          "token": "peoplenames",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "names",
+          "target_page": "OSR weapon",
+          "target_subtable": "peoplenames",
+          "target_qualified_name": "OSR weapon.peoplenames"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names",
+      "peoplenames",
+      "places",
+      "title"
+    ],
+    "external_subtables": [
+      "Weapon Names.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";names\n2,“[Weapon Names.main]”\n1,[names], [names]\n1,of [places]\n1,[title]\n1,[peoplenames]",
+  "warnings": []
+}

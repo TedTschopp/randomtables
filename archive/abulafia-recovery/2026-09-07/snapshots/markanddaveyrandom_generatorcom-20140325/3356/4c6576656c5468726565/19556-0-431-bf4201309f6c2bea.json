@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 19556,
+    "timestamp": "2014-02-20T03:22:54Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "46b0af09101e486161f8704102903b184aa0ab9eaab978fc22c8b7668eafd88c",
+      "rawSha256": "bf4201309f6c2beaf560c5817aa6b57306440d13679e2628364985c909655c81",
+      "revisionId": "19556",
+      "line": 431,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "19556",
+        "timestamp": "2014-02-20T03:22:54Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelThree",
+    "qualified_name": "LotFP Spell Lists.LevelThree",
+    "table_block_index": 0,
+    "line_number": 431
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Army of One",
+      "raw_text": "1,Army of One",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Clairvoyance",
+      "raw_text": "1,Clairvoyance",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Detect Illusion",
+      "raw_text": "1,Detect Illusion",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Dispel Magic",
+      "raw_text": "1,Dispel Magic",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Explosive Runes",
+      "raw_text": "1,Explosive Runes",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "False Alignment",
+      "raw_text": "1,False Alignment",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Fly",
+      "raw_text": "1,Fly",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Gaseous Form",
+      "raw_text": "1,Gaseous Form",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Gust of Wind",
+      "raw_text": "1,Gust of Wind",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Haste",
+      "raw_text": "1,Haste",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Hold Person",
+      "raw_text": "1,Hold Person",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Howl of the Moon",
+      "raw_text": "1,Howl of the Moon",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Invisibility 10' Radius",
+      "raw_text": "1,Invisibility 10' Radius",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Phantasmal Psychedelia",
+      "raw_text": "1,Phantasmal Psychedelia",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Protection from Normal Missiles",
+      "raw_text": "1,Protection from Normal Missiles",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Secret Page",
+      "raw_text": "1,Secret Page",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Speak with Dead",
+      "raw_text": "1,Speak with Dead",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Strange Waters II",
+      "raw_text": "1,Strange Waters II",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Suggestion",
+      "raw_text": "1,Suggestion",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Water Breathing",
+      "raw_text": "1,Water Breathing",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelThree\n1,Army of One\n1,Clairvoyance\n1,Detect Illusion\n1,Dispel Magic\n1,Explosive Runes\n1,False Alignment\n1,Fly\n1,Gaseous Form\n1,Gust of Wind\n1,Haste\n1,Hold Person\n1,Howl of the Moon\n1,Invisibility 10' Radius\n1,Phantasmal Psychedelia\n1,Protection from Normal Missiles\n1,Secret Page\n1,Speak with Dead\n1,Strange Waters II\n1,Suggestion\n1,Water Breathing",
+  "warnings": []
+}

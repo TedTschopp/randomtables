@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "7ab992b1c4711ecd034d87f362f14cf4473d3b4212d20eaa91b9ee01921f0989",
+      "revisionId": "22804",
+      "line": 121,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cloak",
+    "qualified_name": "Starting Equipment.cloak",
+    "table_block_index": 0,
+    "line_number": 121
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[describecloth]cloak",
+      "raw_text": "1,[describecloth]cloak",
+      "references": [
+        {
+          "raw": "[describecloth]",
+          "token": "describecloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "cloak",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describecloth",
+          "target_qualified_name": "Starting Equipment.describecloth"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[describecloth]jacket",
+      "raw_text": "1,[describecloth]jacket",
+      "references": [
+        {
+          "raw": "[describecloth]",
+          "token": "describecloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "cloak",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describecloth",
+          "target_qualified_name": "Starting Equipment.describecloth"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[describecloth]coat",
+      "raw_text": "1,[describecloth]coat",
+      "references": [
+        {
+          "raw": "[describecloth]",
+          "token": "describecloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "cloak",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describecloth",
+          "target_qualified_name": "Starting Equipment.describecloth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "describecloth"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cloak\n1,[describecloth]cloak\n1,[describecloth]jacket\n1,[describecloth]coat",
+  "warnings": []
+}

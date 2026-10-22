@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17031,
+    "timestamp": "2013-02-12T09:02:01Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e328808698d819a90e54816181b8497869a6d308dddddc9da872a24b812ce242",
+      "rawSha256": "130705fbfcf1b7fab805f206c8d0398b9c8257e8df24c504814e426c8090e537",
+      "revisionId": "17031",
+      "line": 23,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish-feature-verb",
+    "qualified_name": "Planar Codex Parish.parish-feature-verb",
+    "table_block_index": 0,
+    "line_number": 23
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "known for its",
+      "raw_text": "1,known for its",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dominated by",
+      "raw_text": "1,dominated by",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lousy with",
+      "raw_text": "1,lousy with",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";parish-feature-verb\n1,known for its\n1,dominated by\n1,lousy with",
+  "warnings": []
+}

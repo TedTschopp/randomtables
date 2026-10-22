@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4628,
+    "timestamp": "2007-11-27T05:07:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "ed084110d02f113ff06b57e1f0ca07c33159dc23be902a2be3e50b304b2d6844",
+      "rawSha256": "c3d68b6e0b4b28713d1af01fa8f4b5d3ef6dfc0c1899ade5f7d2fbf5a7de2260",
+      "revisionId": "4628",
+      "line": 324,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "privelegeClause",
+    "qualified_name": "Rituals.privelegeClause",
+    "table_block_index": 0,
+    "line_number": 324
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Before a young man may [privelegeAny], he must",
+      "raw_text": "1,Before a young man may [privelegeAny], he must",
+      "references": [
+        {
+          "raw": "[privelegeAny]",
+          "token": "privelegeAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "privelegeClause",
+          "target_page": "Rituals",
+          "target_subtable": "privelegeAny",
+          "target_qualified_name": "Rituals.privelegeAny"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Before a young woman may [privelegeAny], she must",
+      "raw_text": "1,Before a young woman may [privelegeAny], she must",
+      "references": [
+        {
+          "raw": "[privelegeAny]",
+          "token": "privelegeAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "privelegeClause",
+          "target_page": "Rituals",
+          "target_subtable": "privelegeAny",
+          "target_qualified_name": "Rituals.privelegeAny"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "privelegeAny"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";privelegeClause\n1,Before a young man may [privelegeAny], he must\n1,Before a young woman may [privelegeAny], she must",
+  "warnings": []
+}

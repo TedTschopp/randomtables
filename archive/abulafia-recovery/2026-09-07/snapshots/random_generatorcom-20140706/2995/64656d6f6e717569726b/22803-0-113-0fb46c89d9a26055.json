@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "0fb46c89d9a2605504bb18995e8f3d48873fb23891e1465e3a0b7727b441f422",
+      "revisionId": "22803",
+      "line": 113,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "demonquirk",
+    "qualified_name": "Quick Horrors.demonquirk",
+    "table_block_index": 0,
+    "line_number": 113
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": ", avatar of {{uc:[Fantasy Pantheon.AbstractNegative]}},",
+      "raw_text": "3,, avatar of {{uc:[Fantasy Pantheon.AbstractNegative]}},",
+      "references": [
+        {
+          "raw": "[Fantasy Pantheon.AbstractNegative]",
+          "token": "Fantasy Pantheon.AbstractNegative",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "demonquirk",
+          "target_page": "Fantasy Pantheon",
+          "target_subtable": "AbstractNegative",
+          "target_qualified_name": "Fantasy Pantheon.AbstractNegative"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "that resembles your mother,",
+      "raw_text": "1, that resembles your mother,",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "that resembles your father,",
+      "raw_text": "1, that resembles your father,",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "that reads minds,",
+      "raw_text": "1, that reads minds,",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "that spews venom,",
+      "raw_text": "1, that spews venom,",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "that corrupts flesh,",
+      "raw_text": "1, that corrupts flesh,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Pantheon.AbstractNegative"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";demonquirk\n10,\n3,, avatar of {{uc:[Fantasy Pantheon.AbstractNegative]}},\n1, that resembles your mother,\n1, that resembles your father,\n1, that reads minds,\n1, that spews venom,\n1, that corrupts flesh,",
+  "warnings": []
+}

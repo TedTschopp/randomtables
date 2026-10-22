@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9672,
+    "timestamp": "2009-10-22T22:49:15Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "fd9a3e36903be2cdde33d2462b8eb6ae38eb237a5f837a836020e32d169e19b9",
+      "rawSha256": "952e5a8d1934a4537207d927dc4052991130c7695c5ce360b8e3e047191afaf4",
+      "revisionId": "9672",
+      "line": 138,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SeigeForce",
+    "qualified_name": "Seige Force.SeigeForce",
+    "table_block_index": 0,
+    "line_number": 138
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Dice.2d4]00 [EngineerType] with [Dice.3d6]0 [SeigeType].",
+      "raw_text": "1,[Dice.2d4]00 [EngineerType] with [Dice.3d6]0 [SeigeType].",
+      "references": [
+        {
+          "raw": "[Dice.2d4]",
+          "token": "Dice.2d4",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Dice",
+          "target_subtable": "2d4",
+          "target_qualified_name": "Dice.2d4"
+        },
+        {
+          "raw": "[EngineerType]",
+          "token": "EngineerType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Seige Force",
+          "target_subtable": "EngineerType",
+          "target_qualified_name": "Seige Force.EngineerType"
+        },
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[SeigeType]",
+          "token": "SeigeType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Seige Force",
+          "target_subtable": "SeigeType",
+          "target_qualified_name": "Seige Force.SeigeType"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Dice.1d4][Dice.1d8]0 [EngineerType] primarily manning [Dice.3d6]0 [SeigeType].",
+      "raw_text": "1,[Dice.1d4][Dice.1d8]0 [EngineerType] primarily manning [Dice.3d6]0 [SeigeType].",
+      "references": [
+        {
+          "raw": "[Dice.1d4]",
+          "token": "Dice.1d4",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Dice",
+          "target_subtable": "1d4",
+          "target_qualified_name": "Dice.1d4"
+        },
+        {
+          "raw": "[Dice.1d8]",
+          "token": "Dice.1d8",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Dice",
+          "target_subtable": "1d8",
+          "target_qualified_name": "Dice.1d8"
+        },
+        {
+          "raw": "[EngineerType]",
+          "token": "EngineerType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Seige Force",
+          "target_subtable": "EngineerType",
+          "target_qualified_name": "Seige Force.EngineerType"
+        },
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[SeigeType]",
+          "token": "SeigeType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeForce",
+          "target_page": "Seige Force",
+          "target_subtable": "SeigeType",
+          "target_qualified_name": "Seige Force.SeigeType"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "EngineerType",
+      "SeigeType"
+    ],
+    "external_subtables": [
+      "Dice.1d4",
+      "Dice.1d8",
+      "Dice.2d4",
+      "Dice.3d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";SeigeForce\n1,[Dice.2d4]00 [EngineerType] with [Dice.3d6]0 [SeigeType].\n1,[Dice.1d4][Dice.1d8]0 [EngineerType] primarily manning [Dice.3d6]0 [SeigeType].",
+  "warnings": []
+}

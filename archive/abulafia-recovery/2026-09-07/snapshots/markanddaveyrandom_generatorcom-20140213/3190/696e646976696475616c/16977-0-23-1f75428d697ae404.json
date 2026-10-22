@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "1f75428d697ae404ede101b2b65256d070f14b347e9da1125182b6e8c9d9e791",
+      "revisionId": "16977",
+      "line": 23,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "individual",
+    "qualified_name": "Planar Codex Parish.individual",
+    "table_block_index": 0,
+    "line_number": 23
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "[Fantasy Names.mainNoLabel], [species-descriptor] [individual-role], [individual-descriptor] and [individual-descriptor]",
+      "raw_text": "4,[Fantasy Names.mainNoLabel], [species-descriptor] [individual-role], [individual-descriptor] and [individual-descriptor]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.mainNoLabel]",
+          "token": "Fantasy Names.mainNoLabel",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Fantasy Names",
+          "target_subtable": "mainNoLabel",
+          "target_qualified_name": "Fantasy Names.mainNoLabel"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[individual-role]",
+          "token": "individual-role",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role",
+          "target_qualified_name": "Planar Codex Parish.individual-role"
+        },
+        {
+          "raw": "[individual-descriptor]",
+          "token": "individual-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-descriptor",
+          "target_qualified_name": "Planar Codex Parish.individual-descriptor"
+        },
+        {
+          "raw": "[individual-descriptor]",
+          "token": "individual-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-descriptor",
+          "target_qualified_name": "Planar Codex Parish.individual-descriptor"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Fantasy Names.mainNoLabel], [individual-descriptor] [individual-role]",
+      "raw_text": "1,[Fantasy Names.mainNoLabel], [individual-descriptor] [individual-role]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.mainNoLabel]",
+          "token": "Fantasy Names.mainNoLabel",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Fantasy Names",
+          "target_subtable": "mainNoLabel",
+          "target_qualified_name": "Fantasy Names.mainNoLabel"
+        },
+        {
+          "raw": "[individual-descriptor]",
+          "token": "individual-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-descriptor",
+          "target_qualified_name": "Planar Codex Parish.individual-descriptor"
+        },
+        {
+          "raw": "[individual-role]",
+          "token": "individual-role",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role",
+          "target_qualified_name": "Planar Codex Parish.individual-role"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Fantasy Names.mainNoLabel], a visiting [species-name-singular] [individual-role], [individual-descriptor] and [species-descriptor]",
+      "raw_text": "1,[Fantasy Names.mainNoLabel], a visiting [species-name-singular] [individual-role], [individual-descriptor] and [species-descriptor]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.mainNoLabel]",
+          "token": "Fantasy Names.mainNoLabel",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Fantasy Names",
+          "target_subtable": "mainNoLabel",
+          "target_qualified_name": "Fantasy Names.mainNoLabel"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        },
+        {
+          "raw": "[individual-role]",
+          "token": "individual-role",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role",
+          "target_qualified_name": "Planar Codex Parish.individual-role"
+        },
+        {
+          "raw": "[individual-descriptor]",
+          "token": "individual-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-descriptor",
+          "target_qualified_name": "Planar Codex Parish.individual-descriptor"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a gang of [species-descriptor] [species-name-singular] [individual-role-plural]",
+      "raw_text": "1,a gang of [species-descriptor] [species-name-singular] [individual-role-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        },
+        {
+          "raw": "[individual-role-plural]",
+          "token": "individual-role-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role-plural",
+          "target_qualified_name": "Planar Codex Parish.individual-role-plural"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a company of [species-descriptor] [individual-role-plural]",
+      "raw_text": "1,a company of [species-descriptor] [individual-role-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[individual-role-plural]",
+          "token": "individual-role-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role-plural",
+          "target_qualified_name": "Planar Codex Parish.individual-role-plural"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 3,
+      "text": "[Fantasy Names.mainNoLabel], [individual-descriptor] [species-name-singular] / [species-name-singular] [individual-role]",
+      "raw_text": "3,[Fantasy Names.mainNoLabel], [individual-descriptor] [species-name-singular] / [species-name-singular] [individual-role]",
+      "references": [
+        {
+          "raw": "[Fantasy Names.mainNoLabel]",
+          "token": "Fantasy Names.mainNoLabel",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Fantasy Names",
+          "target_subtable": "mainNoLabel",
+          "target_qualified_name": "Fantasy Names.mainNoLabel"
+        },
+        {
+          "raw": "[individual-descriptor]",
+          "token": "individual-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-descriptor",
+          "target_qualified_name": "Planar Codex Parish.individual-descriptor"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        },
+        {
+          "raw": "[species-name-singular]",
+          "token": "species-name-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-singular",
+          "target_qualified_name": "Planar Codex Parish.species-name-singular"
+        },
+        {
+          "raw": "[individual-role]",
+          "token": "individual-role",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "individual",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "individual-role",
+          "target_qualified_name": "Planar Codex Parish.individual-role"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "individual-descriptor",
+      "individual-role",
+      "individual-role-plural",
+      "species-descriptor",
+      "species-name-singular"
+    ],
+    "external_subtables": [
+      "Fantasy Names.mainNoLabel"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";individual\n4,[Fantasy Names.mainNoLabel], [species-descriptor] [individual-role], [individual-descriptor] and [individual-descriptor]\n1,[Fantasy Names.mainNoLabel], [individual-descriptor] [individual-role]\n1,[Fantasy Names.mainNoLabel], a visiting [species-name-singular] [individual-role], [individual-descriptor] and [species-descriptor]\n1,a gang of [species-descriptor] [species-name-singular] [individual-role-plural]\n1,a company of [species-descriptor] [individual-role-plural]\n3,[Fantasy Names.mainNoLabel], [individual-descriptor] [species-name-singular] / [species-name-singular] [individual-role]",
+  "warnings": []
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15341,
+    "timestamp": "2012-10-08T07:36:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7cbc14bde97cfbf43bbd6ab59837ccb6f5b666eaba1486aae3febf55913c3f12",
+      "rawSha256": "5f4e40fa7c8b24e29f22bcc0483012c451a45f1e110417b4adc9a3d78d8fbd9c",
+      "revisionId": "15341",
+      "line": 72,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "armor",
+    "qualified_name": "Starting Equipment.armor",
+    "table_block_index": 0,
+    "line_number": 72
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 30,
+      "text": "",
+      "raw_text": "30,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 15,
+      "text": "padded [describecloth]armor (+2)[maybeshield]",
+      "raw_text": "15,padded [describecloth]armor (+2)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describecloth]",
+          "token": "describecloth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describecloth",
+          "target_qualified_name": "Starting Equipment.describecloth"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 15,
+      "text": "[describefur]leather armor (+2)[maybeshield]",
+      "raw_text": "15,[describefur]leather armor (+2)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describefur]",
+          "token": "describefur",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describefur",
+          "target_qualified_name": "Starting Equipment.describefur"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 10,
+      "text": "[describemetal]ring mail armor (+3)[maybeshield]",
+      "raw_text": "10,[describemetal]ring mail armor (+3)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "[describemetal]studded [describefur]leather armor (+3)[maybeshield]",
+      "raw_text": "5,[describemetal]studded [describefur]leather armor (+3)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[describefur]",
+          "token": "describefur",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describefur",
+          "target_qualified_name": "Starting Equipment.describefur"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 5,
+      "text": "[describemetal] [clothorfur] brigadine (+3)[maybeshield]",
+      "raw_text": "5,[describemetal] [clothorfur] brigadine (+3)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[clothorfur]",
+          "token": "clothorfur",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "clothorfur",
+          "target_qualified_name": "Starting Equipment.clothorfur"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "armor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "clothorfur",
+      "describecloth",
+      "describefur",
+      "describemetal",
+      "maybeshield"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";armor\n30,\n15,padded [describecloth]armor (+2)[maybeshield]\n15,[describefur]leather armor (+2)[maybeshield]\n10,[describemetal]ring mail armor (+3)[maybeshield]\n5,[describemetal]studded [describefur]leather armor (+3)[maybeshield]\n5,[describemetal] [clothorfur] brigadine (+3)[maybeshield]",
+  "warnings": []
+}

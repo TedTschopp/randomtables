@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "9093626820a94d2664d09ca9024751bb1b00d1fa559ce51393211a27f1eb1407",
+      "revisionId": "9442",
+      "line": 421,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "event",
+    "qualified_name": "New gen.event",
+    "table_block_index": 0,
+    "line_number": 421
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Carnival",
+      "raw_text": "1,Carnival",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Cruise",
+      "raw_text": "1,Cruise",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Christmas Eve",
+      "raw_text": "1,Christmas Eve",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Easter",
+      "raw_text": "1,Easter",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Feast",
+      "raw_text": "1,Feast",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Prom Night",
+      "raw_text": "1,Prom Night",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Slumber Party",
+      "raw_text": "1,Slumber Party",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Halloween",
+      "raw_text": "1,Halloween",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Friday the 13th",
+      "raw_text": "1,Friday the 13th",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "[time]",
+      "raw_text": "1,[time]",
+      "references": [
+        {
+          "raw": "[time]",
+          "token": "time",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "event",
+          "target_page": "New gen",
+          "target_subtable": "time",
+          "target_qualified_name": "New gen.time"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Sleepover",
+      "raw_text": "1,Sleepover",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Mardi Gras",
+      "raw_text": "1,Mardi Gras",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "market day",
+      "raw_text": "1,market day",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "date night",
+      "raw_text": "1,date night",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "pass over",
+      "raw_text": "1,pass over",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "birthday",
+      "raw_text": "1,birthday",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "time"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";event\n1,Carnival\n1,Cruise\n1,Christmas Eve\n1,Easter\n1,Feast\n1,Prom Night\n1,Slumber Party\n1,Halloween\n1,Friday the 13th\n1,[time]\n1,Sleepover\n1,Mardi Gras\n1,market day\n1,date night\n1,pass over\n1,birthday",
+  "warnings": []
+}

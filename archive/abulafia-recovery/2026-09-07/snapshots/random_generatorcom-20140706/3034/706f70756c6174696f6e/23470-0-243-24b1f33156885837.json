@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "24b1f33156885837b54bf6b3a222eae53f1372d08c114e026a559b7ffa586ba8",
+      "revisionId": "23470",
+      "line": 243,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "population",
+    "qualified_name": "Village.population",
+    "table_block_index": 0,
+    "line_number": 243
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[smallpopulation]",
+      "raw_text": "5,[smallpopulation]",
+      "references": [
+        {
+          "raw": "[smallpopulation]",
+          "token": "smallpopulation",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "population",
+          "target_page": "Village",
+          "target_subtable": "smallpopulation",
+          "target_qualified_name": "Village.smallpopulation"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[medpopulation]",
+      "raw_text": "4,[medpopulation]",
+      "references": [
+        {
+          "raw": "[medpopulation]",
+          "token": "medpopulation",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "population",
+          "target_page": "Village",
+          "target_subtable": "medpopulation",
+          "target_qualified_name": "Village.medpopulation"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[bigpopulation]",
+      "raw_text": "1,[bigpopulation]",
+      "references": [
+        {
+          "raw": "[bigpopulation]",
+          "token": "bigpopulation",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "population",
+          "target_page": "Village",
+          "target_subtable": "bigpopulation",
+          "target_qualified_name": "Village.bigpopulation"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "bigpopulation",
+      "medpopulation",
+      "smallpopulation"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";population\n5,[smallpopulation]\n4,[medpopulation]\n1,[bigpopulation]",
+  "warnings": []
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 21598,
+    "timestamp": "2014-05-16T08:28:24Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "75356adf37f0f9e693ba91ba6bcdb80ae46e2166757bd0e7288cefb0988cdd41",
+      "rawSha256": "6e73631833f5eabf343bf3c3742e6bc2d04672b4e8952f31f25413b4207319dd",
+      "revisionId": "21598",
+      "line": 519,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21598",
+        "timestamp": "2014-05-16T08:28:24Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelSeven",
+    "qualified_name": "LotFP Spell Lists.LevelSeven",
+    "table_block_index": 0,
+    "line_number": 519
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Bestow Spell Ability",
+      "raw_text": "1,Bestow Spell Ability",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Duo-Dimension",
+      "raw_text": "1,Duo-Dimension",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Grasping Hand",
+      "raw_text": "1,Grasping Hand",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Instant Summons",
+      "raw_text": "1,Instant Summons",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Invisibility, Mass",
+      "raw_text": "1,Invisibility, Mass",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Magic Sword",
+      "raw_text": "1,Magic Sword",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Phase Door",
+      "raw_text": "1,Phase Door",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Power Word Stun",
+      "raw_text": "1,Power Word Stun",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Prismatic Sphere",
+      "raw_text": "1,Prismatic Sphere",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Prismatic Spray",
+      "raw_text": "1,Prismatic Spray",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Prismatic Wall",
+      "raw_text": "1,Prismatic Wall",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Remote Surveillance",
+      "raw_text": "1,Remote Surveillance",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Reverse Gravity",
+      "raw_text": "1,Reverse Gravity",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Simulacrum",
+      "raw_text": "1,Simulacrum",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Spell Turning",
+      "raw_text": "1,Spell Turning",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Statue",
+      "raw_text": "1,Statue",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Vanish",
+      "raw_text": "1,Vanish",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Vision",
+      "raw_text": "1,Vision",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Witchlamp Aura",
+      "raw_text": "1,Witchlamp Aura",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelSeven\n1.Animated Artwork\n1,Bestow Spell Ability\n1,Duo-Dimension\n1,Grasping Hand\n1,Instant Summons\n1,Invisibility, Mass\n1,Magic Sword\n1,Phase Door\n1,Power Word Stun\n1,Prismatic Sphere\n1,Prismatic Spray\n1,Prismatic Wall\n1,Remote Surveillance\n1,Reverse Gravity\n1,Simulacrum\n1,Spell Turning\n1,Statue\n1,Vanish\n1,Vision\n1,Witchlamp Aura",
+  "warnings": [
+    "Line 136: preserved nonstandard row before first entry: 1.Animated Artwork"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "926a06fe2ac7613981588607105580843e7fabc4548d3827165ff531f3de772a",
+      "revisionId": "22354",
+      "line": 44,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "some",
+    "qualified_name": "Guards.some",
+    "table_block_index": 0,
+    "line_number": 44
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "2d6",
+      "raw_text": "1,2d6",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "2d8",
+      "raw_text": "1,2d8",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "3d4",
+      "raw_text": "1,3d4",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "4d4",
+      "raw_text": "1,4d4",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "d10",
+      "raw_text": "1,d10",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "d12",
+      "raw_text": "1,d12",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "d20",
+      "raw_text": "1,d20",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "d100",
+      "raw_text": "1,d100",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";some\n1,2d6\n1,2d8\n1,3d4\n1,4d4\n1,d10\n1,d12\n1,d20\n1,d100",
+  "warnings": []
+}

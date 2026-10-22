@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15352,
+    "timestamp": "2012-10-08T08:43:31Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "dfa004d9f2be7ac94a4a22635b84f3f0ffaae2177441c2e77235dd0db10c2eb9",
+      "rawSha256": "a9dbec22ddf037ce825650af32401aa7932b1582076d8a705854da9f042da4a9",
+      "revisionId": "15352",
+      "line": 144,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bow",
+    "qualified_name": "Starting Equipment.bow",
+    "table_block_index": 0,
+    "line_number": 144
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "short bow with [Dice.3d6] arrows (d6, range 70/140);",
+      "raw_text": "1,short bow with [Dice.3d6] arrows (d6, range 70/140);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "bow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "longbow with [Dice.3d6] arrows (d6, range 50/100);",
+      "raw_text": "1,longbow with [Dice.3d6] arrows (d6, range 50/100);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "bow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "composite short bow with [Dice.3d6] arrows (d6, range 70/140);",
+      "raw_text": "1,composite short bow with [Dice.3d6] arrows (d6, range 70/140);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "bow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "composite longbow with [Dice.3d6] arrows (d6, range 50/100);",
+      "raw_text": "1,composite longbow with [Dice.3d6] arrows (d6, range 50/100);",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "bow",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.3d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";bow\n1,short bow with [Dice.3d6] arrows (d6, range 70/140);\n1,longbow with [Dice.3d6] arrows (d6, range 50/100);\n1,composite short bow with [Dice.3d6] arrows (d6, range 70/140);\n1,composite longbow with [Dice.3d6] arrows (d6, range 50/100);",
+  "warnings": []
+}

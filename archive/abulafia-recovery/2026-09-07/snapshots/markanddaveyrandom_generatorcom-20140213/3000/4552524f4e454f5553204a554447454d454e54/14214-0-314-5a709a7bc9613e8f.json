@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14214,
+    "timestamp": "2012-04-01T16:44:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d6b4cf172d74491d61088a781fb3ca571f65b87be50791576ecfaadedc526b02",
+      "rawSha256": "5a709a7bc9613e8fca0b4e55d652b45167b9adacf30e2855de0cfea00dd36149",
+      "revisionId": "14214",
+      "line": 314,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ERRONEOUS JUDGEMENT",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.ERRONEOUS JUDGEMENT",
+    "table_block_index": 0,
+    "line_number": 314
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ERRONEOUS JUDGEMENT\nERRONEOUS JUDGEMENT\n\na Mistaken One\na Victim of the Mistake\na Cause or Author of the Mistake\nthe Guilty One\n\nThe Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mistake when it should be passed against the Guilty One instead.",
+  "warnings": [
+    "Line 314: preserved nonstandard row before first entry: ERRONEOUS JUDGEMENT",
+    "Line 316: preserved nonstandard row before first entry: a Mistaken One",
+    "Line 317: preserved nonstandard row before first entry: a Victim of the Mistake",
+    "Line 318: preserved nonstandard row before first entry: a Cause or Author of the Mistake",
+    "Line 319: preserved nonstandard row before first entry: the Guilty One",
+    "Line 321: preserved nonstandard row before first entry: The Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mi"
+  ]
+}

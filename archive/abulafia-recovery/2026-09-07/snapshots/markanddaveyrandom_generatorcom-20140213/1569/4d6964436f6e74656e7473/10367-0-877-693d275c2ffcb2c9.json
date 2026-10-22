@@ -1,0 +1,3431 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "693d275c2ffcb2c9fc6a78716410acaacafca3cdb1ade393636c913850ffa85b",
+      "revisionId": "10367",
+      "line": 877,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidContents",
+    "qualified_name": "Pickpocket.MidContents",
+    "table_block_index": 0,
+    "line_number": 877
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[MidWealth]",
+      "raw_text": "1,[MidWealth]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[MidWealth], and [MidConsumable]",
+      "raw_text": "1,[MidWealth], and [MidConsumable]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[MidWealth], and [MidPractical]",
+      "raw_text": "1,[MidWealth], and [MidPractical]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[MidWealth], and [MidToilette]",
+      "raw_text": "1,[MidWealth], and [MidToilette]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[MidWealth], and [Key]",
+      "raw_text": "1,[MidWealth], and [Key]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[MidWealth], and [Entertain]",
+      "raw_text": "1,[MidWealth], and [Entertain]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[MidWealth], and [Music]",
+      "raw_text": "1,[MidWealth], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[MidWealth], and [Art]",
+      "raw_text": "1,[MidWealth], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[MidWealth], and [Medicinal]",
+      "raw_text": "1,[MidWealth], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "[MidWealth], and [Nature]",
+      "raw_text": "1,[MidWealth], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "[MidWealth], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[MidWealth], and [Writing]",
+      "raw_text": "1,[MidWealth], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "[MidWealth], and [Weapon]",
+      "raw_text": "1,[MidWealth], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[MidWealth], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [MidPractical]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [MidPractical]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [MidToilette]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [MidToilette]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Key]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Key]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Entertain]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Entertain]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Music]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Art]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Nature]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Writing]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [Weapon]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[MidWealth], [MidConsumable], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [MidConsumable], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidConsumable]",
+          "token": "MidConsumable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidConsumable",
+          "target_qualified_name": "Pickpocket.MidConsumable"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [MidToilette]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [MidToilette]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Key]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Key]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Entertain]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Entertain]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Music]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Art]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Nature]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Writing]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [Weapon]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "[MidWealth], [MidPractical], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [MidPractical], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidPractical]",
+          "token": "MidPractical",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidPractical",
+          "target_qualified_name": "Pickpocket.MidPractical"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Key]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Key]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Entertain]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Entertain]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Music]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Art]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Nature]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Writing]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [Weapon]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "[MidWealth], [MidToilette], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [MidToilette], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[MidToilette]",
+          "token": "MidToilette",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidToilette",
+          "target_qualified_name": "Pickpocket.MidToilette"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Entertain]",
+      "raw_text": "1,[MidWealth], [Key], and [Entertain]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Music]",
+      "raw_text": "1,[MidWealth], [Key], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Art]",
+      "raw_text": "1,[MidWealth], [Key], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [Key], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Nature]",
+      "raw_text": "1,[MidWealth], [Key], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Key], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Writing]",
+      "raw_text": "1,[MidWealth], [Key], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Key], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "[MidWealth], [Key], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Key], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Key]",
+          "token": "Key",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Key",
+          "target_qualified_name": "Pickpocket.Key"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Music]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Music]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Art]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Nature]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Entertain], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Writing]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Entertain], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "[MidWealth], [Entertain], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Entertain], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Entertain]",
+          "token": "Entertain",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Entertain",
+          "target_qualified_name": "Pickpocket.Entertain"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [Art]",
+      "raw_text": "1,[MidWealth], [Music], and [Art]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [Music], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [Nature]",
+      "raw_text": "1,[MidWealth], [Music], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Music], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [Writing]",
+      "raw_text": "1,[MidWealth], [Music], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Music], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "[MidWealth], [Music], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Music], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Music]",
+          "token": "Music",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Music",
+          "target_qualified_name": "Pickpocket.Music"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [Medicinal]",
+      "raw_text": "1,[MidWealth], [Art], and [Medicinal]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [Nature]",
+      "raw_text": "1,[MidWealth], [Art], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Art], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [Writing]",
+      "raw_text": "1,[MidWealth], [Art], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Art], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "[MidWealth], [Art], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Art], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Art]",
+          "token": "Art",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Art",
+          "target_qualified_name": "Pickpocket.Art"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "[MidWealth], [Medicinal], and [Nature]",
+      "raw_text": "1,[MidWealth], [Medicinal], and [Nature]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "[MidWealth], [Medicinal], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Medicinal], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "[MidWealth], [Medicinal], and [Writing]",
+      "raw_text": "1,[MidWealth], [Medicinal], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "[MidWealth], [Medicinal], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Medicinal], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "[MidWealth], [Medicinal], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Medicinal], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Medicinal]",
+          "token": "Medicinal",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Medicinal",
+          "target_qualified_name": "Pickpocket.Medicinal"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "[MidWealth], [Nature], and [CharmsReligion]",
+      "raw_text": "1,[MidWealth], [Nature], and [CharmsReligion]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "[MidWealth], [Nature], and [Writing]",
+      "raw_text": "1,[MidWealth], [Nature], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "[MidWealth], [Nature], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Nature], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "[MidWealth], [Nature], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Nature], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Nature]",
+          "token": "Nature",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Nature",
+          "target_qualified_name": "Pickpocket.Nature"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "[MidWealth], [CharmsReligion], and [Writing]",
+      "raw_text": "1,[MidWealth], [CharmsReligion], and [Writing]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "[MidWealth], [CharmsReligion], and [Weapon]",
+      "raw_text": "1,[MidWealth], [CharmsReligion], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "[MidWealth], [CharmsReligion], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [CharmsReligion], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[CharmsReligion]",
+          "token": "CharmsReligion",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "CharmsReligion",
+          "target_qualified_name": "Pickpocket.CharmsReligion"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "[MidWealth], [Writing], and [Weapon]",
+      "raw_text": "1,[MidWealth], [Writing], and [Weapon]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "[MidWealth], [Writing], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Writing], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Writing]",
+          "token": "Writing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Writing",
+          "target_qualified_name": "Pickpocket.Writing"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "[MidWealth], [Weapon], and [IntrigueCrime]",
+      "raw_text": "1,[MidWealth], [Weapon], and [IntrigueCrime]",
+      "references": [
+        {
+          "raw": "[MidWealth]",
+          "token": "MidWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "MidWealth",
+          "target_qualified_name": "Pickpocket.MidWealth"
+        },
+        {
+          "raw": "[Weapon]",
+          "token": "Weapon",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "Weapon",
+          "target_qualified_name": "Pickpocket.Weapon"
+        },
+        {
+          "raw": "[IntrigueCrime]",
+          "token": "IntrigueCrime",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "IntrigueCrime",
+          "target_qualified_name": "Pickpocket.IntrigueCrime"
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "weight": 5,
+      "text": "[JustOneThing]",
+      "raw_text": "5,[JustOneThing]",
+      "references": [
+        {
+          "raw": "[JustOneThing]",
+          "token": "JustOneThing",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidContents",
+          "target_page": "Pickpocket",
+          "target_subtable": "JustOneThing",
+          "target_qualified_name": "Pickpocket.JustOneThing"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Art",
+      "CharmsReligion",
+      "Entertain",
+      "IntrigueCrime",
+      "JustOneThing",
+      "Key",
+      "Medicinal",
+      "MidConsumable",
+      "MidPractical",
+      "MidToilette",
+      "MidWealth",
+      "Music",
+      "Nature",
+      "Weapon",
+      "Writing"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MidContents\n1,[MidWealth]\n1,[MidWealth], and [MidConsumable]\n1,[MidWealth], and [MidPractical]\n1,[MidWealth], and [MidToilette]\n1,[MidWealth], and [Key]\n1,[MidWealth], and [Entertain]\n1,[MidWealth], and [Music]\n1,[MidWealth], and [Art]\n1,[MidWealth], and [Medicinal]\n1,[MidWealth], and [Nature]\n1,[MidWealth], and [CharmsReligion]\n1,[MidWealth], and [Writing]\n1,[MidWealth], and [Weapon]\n1,[MidWealth], and [IntrigueCrime]\n1,[MidWealth], [MidConsumable], and [MidPractical]\n1,[MidWealth], [MidConsumable], and [MidToilette]\n1,[MidWealth], [MidConsumable], and [Key]\n1,[MidWealth], [MidConsumable], and [Entertain]\n1,[MidWealth], [MidConsumable], and [Music]\n1,[MidWealth], [MidConsumable], and [Art]\n1,[MidWealth], [MidConsumable], and [Medicinal]\n1,[MidWealth], [MidConsumable], and [Nature]\n1,[MidWealth], [MidConsumable], and [CharmsReligion]\n1,[MidWealth], [MidConsumable], and [Writing]\n1,[MidWealth], [MidConsumable], and [Weapon]\n1,[MidWealth], [MidConsumable], and [IntrigueCrime]\n1,[MidWealth], [MidPractical], and [MidToilette]\n1,[MidWealth], [MidPractical], and [Key]\n1,[MidWealth], [MidPractical], and [Entertain]\n1,[MidWealth], [MidPractical], and [Music]\n1,[MidWealth], [MidPractical], and [Art]\n1,[MidWealth], [MidPractical], and [Medicinal]\n1,[MidWealth], [MidPractical], and [Nature]\n1,[MidWealth], [MidPractical], and [CharmsReligion]\n1,[MidWealth], [MidPractical], and [Writing]\n1,[MidWealth], [MidPractical], and [Weapon]\n1,[MidWealth], [MidPractical], and [IntrigueCrime]\n1,[MidWealth], [MidToilette], and [Key]\n1,[MidWealth], [MidToilette], and [Entertain]\n1,[MidWealth], [MidToilette], and [Music]\n1,[MidWealth], [MidToilette], and [Art]\n1,[MidWealth], [MidToilette], and [Medicinal]\n1,[MidWealth], [MidToilette], and [Nature]\n1,[MidWealth], [MidToilette], and [CharmsReligion]\n1,[MidWealth], [MidToilette], and [Writing]\n1,[MidWealth], [MidToilette], and [Weapon]\n1,[MidWealth], [MidToilette], and [IntrigueCrime]\n1,[MidWealth], [Key], and [Entertain]\n1,[MidWealth], [Key], and [Music]\n1,[MidWealth], [Key], and [Art]\n1,[MidWealth], [Key], and [Medicinal]\n1,[MidWealth], [Key], and [Nature]\n1,[MidWealth], [Key], and [CharmsReligion]\n1,[MidWealth], [Key], and [Writing]\n1,[MidWealth], [Key], and [Weapon]\n1,[MidWealth], [Key], and [IntrigueCrime]\n1,[MidWealth], [Entertain], and [Music]\n1,[MidWealth], [Entertain], and [Art]\n1,[MidWealth], [Entertain], and [Medicinal]\n1,[MidWealth], [Entertain], and [Nature]\n1,[MidWealth], [Entertain], and [CharmsReligion]\n1,[MidWealth], [Entertain], and [Writing]\n1,[MidWealth], [Entertain], and [Weapon]\n1,[MidWealth], [Entertain], and [IntrigueCrime]\n1,[MidWealth], [Music], and [Art]\n1,[MidWealth], [Music], and [Medicinal]\n1,[MidWealth], [Music], and [Nature]\n1,[MidWealth], [Music], and [CharmsReligion]\n1,[MidWealth], [Music], and [Writing]\n1,[MidWealth], [Music], and [Weapon]\n1,[MidWealth], [Music], and [IntrigueCrime]\n1,[MidWealth], [Art], and [Medicinal]\n1,[MidWealth], [Art], and [Nature]\n1,[MidWealth], [Art], and [CharmsReligion]\n1,[MidWealth], [Art], and [Writing]\n1,[MidWealth], [Art], and [Weapon]\n1,[MidWealth], [Art], and [IntrigueCrime]\n1,[MidWealth], [Medicinal], and [Nature]\n1,[MidWealth], [Medicinal], and [CharmsReligion]\n1,[MidWealth], [Medicinal], and [Writing]\n1,[MidWealth], [Medicinal], and [Weapon]\n1,[MidWealth], [Medicinal], and [IntrigueCrime]\n1,[MidWealth], [Nature], and [CharmsReligion]\n1,[MidWealth], [Nature], and [Writing]\n1,[MidWealth], [Nature], and [Weapon]\n1,[MidWealth], [Nature], and [IntrigueCrime]\n1,[MidWealth], [CharmsReligion], and [Writing]\n1,[MidWealth], [CharmsReligion], and [Weapon]\n1,[MidWealth], [CharmsReligion], and [IntrigueCrime]\n1,[MidWealth], [Writing], and [Weapon]\n1,[MidWealth], [Writing], and [IntrigueCrime]\n1,[MidWealth], [Weapon], and [IntrigueCrime]\n5,[JustOneThing]",
+  "warnings": []
+}

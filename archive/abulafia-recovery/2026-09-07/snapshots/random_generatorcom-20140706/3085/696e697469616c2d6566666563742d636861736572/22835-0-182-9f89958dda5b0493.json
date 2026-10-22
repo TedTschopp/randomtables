@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "9f89958dda5b04939ec804a78cd370a5c7ef80987ae646f660ae52fd68b28293",
+      "revisionId": "22835",
+      "line": 182,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "initial-effect-chaser",
+    "qualified_name": "Curse.initial-effect-chaser",
+    "table_block_index": 0,
+    "line_number": 182
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "your [stat] is reduced to [about-five][maybe-duration]",
+      "raw_text": "3,your [stat] is reduced to [about-five][maybe-duration]",
+      "references": [
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        },
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        },
+        {
+          "raw": "[maybe-duration]",
+          "token": "maybe-duration",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "maybe-duration",
+          "target_qualified_name": "Curse.maybe-duration"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "take a penalty to all rolls (-[about-one-or-five])[maybe-duration]",
+      "raw_text": "3,take a penalty to all rolls (-[about-one-or-five])[maybe-duration]",
+      "references": [
+        {
+          "raw": "[about-one-or-five]",
+          "token": "about-one-or-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-one-or-five",
+          "target_qualified_name": "Curse.about-one-or-five"
+        },
+        {
+          "raw": "[maybe-duration]",
+          "token": "maybe-duration",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "maybe-duration",
+          "target_qualified_name": "Curse.maybe-duration"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "take a penalty to hit (-[about-one-or-five])[maybe-duration]",
+      "raw_text": "3,take a penalty to hit (-[about-one-or-five])[maybe-duration]",
+      "references": [
+        {
+          "raw": "[about-one-or-five]",
+          "token": "about-one-or-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-one-or-five",
+          "target_qualified_name": "Curse.about-one-or-five"
+        },
+        {
+          "raw": "[maybe-duration]",
+          "token": "maybe-duration",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "maybe-duration",
+          "target_qualified_name": "Curse.maybe-duration"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "[become-possessed-by] [malevolent-spirit]",
+      "raw_text": "3,[become-possessed-by] [malevolent-spirit]",
+      "references": [
+        {
+          "raw": "[become-possessed-by]",
+          "token": "become-possessed-by",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "become-possessed-by",
+          "target_qualified_name": "Curse.become-possessed-by"
+        },
+        {
+          "raw": "[malevolent-spirit]",
+          "token": "malevolent-spirit",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "malevolent-spirit",
+          "target_qualified_name": "Curse.malevolent-spirit"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "become unable to cast any spells over [about-first] level",
+      "raw_text": "1,become unable to cast any spells over [about-first] level",
+      "references": [
+        {
+          "raw": "[about-first]",
+          "token": "about-first",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-first",
+          "target_qualified_name": "Curse.about-first"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 8,
+      "text": "lose [a-level]",
+      "raw_text": "8,lose [a-level]",
+      "references": [
+        {
+          "raw": "[a-level]",
+          "token": "a-level",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "a-level",
+          "target_qualified_name": "Curse.a-level"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 8,
+      "text": "alignment changes to [alignment]",
+      "raw_text": "8,alignment changes to [alignment]",
+      "references": [
+        {
+          "raw": "[alignment]",
+          "token": "alignment",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "alignment",
+          "target_qualified_name": "Curse.alignment"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 6,
+      "text": "[insanity]",
+      "raw_text": "6,[insanity]",
+      "references": [
+        {
+          "raw": "[insanity]",
+          "token": "insanity",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "insanity",
+          "target_qualified_name": "Curse.insanity"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "gain [some-damage] years of age",
+      "raw_text": "1,gain [some-damage] years of age",
+      "references": [
+        {
+          "raw": "[some-damage]",
+          "token": "some-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "some-damage",
+          "target_qualified_name": "Curse.some-damage"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "lose [some-damage] years of age",
+      "raw_text": "1,lose [some-damage] years of age",
+      "references": [
+        {
+          "raw": "[some-damage]",
+          "token": "some-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "some-damage",
+          "target_qualified_name": "Curse.some-damage"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 4,
+      "text": "become [status-effect][maybe-duration]",
+      "raw_text": "4,become [status-effect][maybe-duration]",
+      "references": [
+        {
+          "raw": "[status-effect]",
+          "token": "status-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "status-effect",
+          "target_qualified_name": "Curse.status-effect"
+        },
+        {
+          "raw": "[maybe-duration]",
+          "token": "maybe-duration",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "maybe-duration",
+          "target_qualified_name": "Curse.maybe-duration"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "a-level",
+      "about-first",
+      "about-five",
+      "about-one-or-five",
+      "alignment",
+      "become-possessed-by",
+      "insanity",
+      "malevolent-spirit",
+      "maybe-duration",
+      "some-damage",
+      "stat",
+      "status-effect"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";initial-effect-chaser\n3,your [stat] is reduced to [about-five][maybe-duration]\n3,take a penalty to all rolls (-[about-one-or-five])[maybe-duration]\n3,take a penalty to hit (-[about-one-or-five])[maybe-duration]\n3,[become-possessed-by] [malevolent-spirit]\n1,become unable to cast any spells over [about-first] level\n8,lose [a-level]\n8,alignment changes to [alignment]\n6,[insanity]\n1,gain [some-damage] years of age\n1,lose [some-damage] years of age\n4,become [status-effect][maybe-duration]",
+  "warnings": []
+}

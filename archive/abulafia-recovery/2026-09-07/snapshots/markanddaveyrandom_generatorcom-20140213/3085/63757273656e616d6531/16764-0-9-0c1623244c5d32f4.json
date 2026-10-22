@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 16764,
+    "timestamp": "2013-02-02T15:01:36Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "4884fc03c853b3b5bd9ec0e481d5469d5b08cc3f97893a820735f4ec5344e6c3",
+      "rawSha256": "0c1623244c5d32f4c3a2c1b725184d6e54dcecc676463872c9d07927fb98d299",
+      "revisionId": "16764",
+      "line": 9,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursename1",
+    "qualified_name": "Curse.cursename1",
+    "table_block_index": 0,
+    "line_number": 9
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "DIRE",
+      "raw_text": "1,DIRE",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "RIGHTEOUS",
+      "raw_text": "1,RIGHTEOUS",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "UNFORGIVING",
+      "raw_text": "1,UNFORGIVING",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "CRAWLING",
+      "raw_text": "1,CRAWLING",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "ROLLING",
+      "raw_text": "1,ROLLING",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "WATCHING",
+      "raw_text": "1,WATCHING",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "FINAL",
+      "raw_text": "1,FINAL",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "WATCHMAN'S",
+      "raw_text": "1,WATCHMAN'S",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "FOOL'S",
+      "raw_text": "1,FOOL'S",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "BEGGAR'S",
+      "raw_text": "1,BEGGAR'S",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "VICAR'S",
+      "raw_text": "1,VICAR'S",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "PRISONER'S",
+      "raw_text": "1,PRISONER'S",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "GRAVEKEEPER'S",
+      "raw_text": "1,GRAVEKEEPER'S",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cursename1\n1,DIRE\n1,RIGHTEOUS\n1,UNFORGIVING\n1,CRAWLING\n1,ROLLING\n1,WATCHING\n1,FINAL\n1,\n1,WATCHMAN'S\n1,FOOL'S\n1,BEGGAR'S\n1,VICAR'S\n1,PRISONER'S\n1,GRAVEKEEPER'S",
+  "warnings": []
+}

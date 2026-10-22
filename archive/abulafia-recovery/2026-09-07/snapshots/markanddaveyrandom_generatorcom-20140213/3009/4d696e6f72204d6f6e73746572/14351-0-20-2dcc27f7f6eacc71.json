@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14351,
+    "timestamp": "2012-05-14T16:42:36Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8fc1eab19ce868ee87e8b79956ba938bbc809eebeb0e10e39871f6eea5dab4bd",
+      "rawSha256": "2dcc27f7f6eacc71768b58a27a50d9aa1010df53ea8d14e27b6d1c61aa88ee5d",
+      "revisionId": "14351",
+      "line": 20,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Minor Monster",
+    "qualified_name": "Character Personality and Traits.Minor Monster",
+    "table_block_index": 0,
+    "line_number": 20
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "<strong>Minor Monster</strong><br />Solo d8, Buddy d6, Team d4",
+      "raw_text": "3,<strong>Minor Monster</strong><br />Solo d8, Buddy d6, Team d4",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "<strong>Minor Monster</strong><br />Solo d8, Buddy d4, Team d6",
+      "raw_text": "3,<strong>Minor Monster</strong><br />Solo d8, Buddy d4, Team d6",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "<strong>Minor Monster</strong><br />Solo d6, Buddy d8, Team d4",
+      "raw_text": "2,<strong>Minor Monster</strong><br />Solo d6, Buddy d8, Team d4",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "<strong>Minor Monster</strong><br />Solo d6, Buddy d4, Team d8",
+      "raw_text": "2,<strong>Minor Monster</strong><br />Solo d6, Buddy d4, Team d8",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "<strong>Minor Monster</strong><br />Solo d4, Buddy d8, Team d6",
+      "raw_text": "1,<strong>Minor Monster</strong><br />Solo d4, Buddy d8, Team d6",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "<strong>Minor Monster</strong><br />Solo d4, Buddy d6, Team d8",
+      "raw_text": "1,<strong>Minor Monster</strong><br />Solo d4, Buddy d6, Team d8",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Minor Monster\n3,<strong>Minor Monster</strong><br />Solo d8, Buddy d6, Team d4\n3,<strong>Minor Monster</strong><br />Solo d8, Buddy d4, Team d6\n2,<strong>Minor Monster</strong><br />Solo d6, Buddy d8, Team d4\n2,<strong>Minor Monster</strong><br />Solo d6, Buddy d4, Team d8\n1,<strong>Minor Monster</strong><br />Solo d4, Buddy d8, Team d6\n1,<strong>Minor Monster</strong><br />Solo d4, Buddy d6, Team d8",
+  "warnings": []
+}

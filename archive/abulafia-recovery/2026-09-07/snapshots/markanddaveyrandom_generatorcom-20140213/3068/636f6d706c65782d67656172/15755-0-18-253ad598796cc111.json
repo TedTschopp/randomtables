@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15755,
+    "timestamp": "2012-11-13T09:33:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "bd976d0c236a9e6d42d66c10306cda43d57ef3fce7f5fdbfab8658c062e56602",
+      "rawSha256": "253ad598796cc11131695661354ce4f0d81a4c77f68eed07faa3777439cc21f2",
+      "revisionId": "15755",
+      "line": 18,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "complex-gear",
+    "qualified_name": "Starting Equipment.complex-gear",
+    "table_block_index": 0,
+    "line_number": 18
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]<br />[rations]<br />[adventuregear1]<br />[adventuregear2]<br />[quirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+      "raw_text": "1,[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]<br />[rations]<br />[adventuregear1]<br />[adventuregear2]<br />[quirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+      "references": [
+        {
+          "raw": "[clothes]",
+          "token": "clothes",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "clothes",
+          "target_qualified_name": "Starting Equipment.clothes"
+        },
+        {
+          "raw": "[armor]",
+          "token": "armor",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "armor",
+          "target_qualified_name": "Starting Equipment.armor"
+        },
+        {
+          "raw": "[meleeweapon]",
+          "token": "meleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "meleeweapon",
+          "target_qualified_name": "Starting Equipment.meleeweapon"
+        },
+        {
+          "raw": "[rangedweapon]",
+          "token": "rangedweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rangedweapon",
+          "target_qualified_name": "Starting Equipment.rangedweapon"
+        },
+        {
+          "raw": "[rations]",
+          "token": "rations",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rations",
+          "target_qualified_name": "Starting Equipment.rations"
+        },
+        {
+          "raw": "[adventuregear1]",
+          "token": "adventuregear1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventuregear1",
+          "target_qualified_name": "Starting Equipment.adventuregear1"
+        },
+        {
+          "raw": "[adventuregear2]",
+          "token": "adventuregear2",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventuregear2",
+          "target_qualified_name": "Starting Equipment.adventuregear2"
+        },
+        {
+          "raw": "[quirk]",
+          "token": "quirk",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "quirk",
+          "target_qualified_name": "Starting Equipment.quirk"
+        },
+        {
+          "raw": "[blank]",
+          "token": "blank",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "blank",
+          "target_qualified_name": "Starting Equipment.blank"
+        },
+        {
+          "raw": "[light]",
+          "token": "light",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "light",
+          "target_qualified_name": "Starting Equipment.light"
+        },
+        {
+          "raw": "[rope]",
+          "token": "rope",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rope",
+          "target_qualified_name": "Starting Equipment.rope"
+        },
+        {
+          "raw": "[wealth]",
+          "token": "wealth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "complex-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "wealth",
+          "target_qualified_name": "Starting Equipment.wealth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "adventuregear1",
+      "adventuregear2",
+      "armor",
+      "blank",
+      "clothes",
+      "light",
+      "meleeweapon",
+      "quirk",
+      "rangedweapon",
+      "rations",
+      "rope",
+      "wealth"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";complex-gear\n1,[clothes]<br />[armor]<br />[meleeweapon]<br />[rangedweapon]<br />[rations]<br />[adventuregear1]<br />[adventuregear2]<br />[quirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+  "warnings": []
+}

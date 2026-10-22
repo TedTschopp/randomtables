@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Door",
+    "page_id": 3091
+  },
+  "source": {
+    "revision_id": 15630,
+    "timestamp": "2012-11-08T12:57:14Z",
+    "contributor": {
+      "name": "Valis",
+      "id": 1726,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b20d7975c36e4e290db51f766b688a7e36659d4afbc0f8a1a3f8e53180032d7d",
+      "rawSha256": "32d4f1471dd39de6616f5ae32aa55a0c552f797497caf43b8545b846a3a1607a",
+      "revisionId": "15630",
+      "line": 90,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15633",
+        "timestamp": "2012-11-08T13:02:11Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "metalkind",
+    "qualified_name": "Dungeon Door.metalkind",
+    "table_block_index": 0,
+    "line_number": 90
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "solid [metal] (-4) door",
+      "raw_text": "1,solid [metal] (-4) door",
+      "references": [
+        {
+          "raw": "[metal]",
+          "token": "metal",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "metalkind",
+          "target_page": "Dungeon Door",
+          "target_subtable": "metal",
+          "target_qualified_name": "Dungeon Door.metal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "door that is a [metal] grate (-4)",
+      "raw_text": "1,door that is a [metal] grate (-4)",
+      "references": [
+        {
+          "raw": "[metal]",
+          "token": "metal",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "metalkind",
+          "target_page": "Dungeon Door",
+          "target_subtable": "metal",
+          "target_qualified_name": "Dungeon Door.metal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "door made from [metal] bars (-4)",
+      "raw_text": "1,door made from [metal] bars (-4)",
+      "references": [
+        {
+          "raw": "[metal]",
+          "token": "metal",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "metalkind",
+          "target_page": "Dungeon Door",
+          "target_subtable": "metal",
+          "target_qualified_name": "Dungeon Door.metal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "metal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";metalkind\n1,solid [metal] (-4) door\n1,door that is a [metal] grate (-4)\n1,door made from [metal] bars (-4)",
+  "warnings": []
+}

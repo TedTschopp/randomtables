@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15359,
+    "timestamp": "2012-10-08T09:13:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9526a04d4ae507efcfd39f1e5e5b8eba2f617c32bab6d09e0c3c877be7bf9c81",
+      "rawSha256": "726bc291ff1779bdd810bd08c00c7b6589d4e7a874d11c05276167addb1ebaa8",
+      "revisionId": "15359",
+      "line": 171,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybeheirloom",
+    "qualified_name": "Starting Equipment.maybeheirloom",
+    "table_block_index": 0,
+    "line_number": 171
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "",
+      "raw_text": "5,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": ", your [family]'s watch",
+      "raw_text": "1,, your [family]'s watch",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": ", your [family]'s brooch",
+      "raw_text": "1,, your [family]'s brooch",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": ", your [family]'s pendant",
+      "raw_text": "1,, your [family]'s pendant",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybeheirloom",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "family"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybeheirloom\n5,\n1,, your [family]'s watch\n1,, your [family]'s brooch\n1,, your [family]'s pendant",
+  "warnings": []
+}

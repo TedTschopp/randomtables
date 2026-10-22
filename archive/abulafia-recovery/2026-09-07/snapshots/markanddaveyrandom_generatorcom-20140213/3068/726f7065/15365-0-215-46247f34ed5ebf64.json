@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15365,
+    "timestamp": "2012-10-08T09:44:26Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f5b5ac7cfba55276ada10fd723357a728d4bb94fb753dfb07cbb69f0db208b63",
+      "rawSha256": "46247f34ed5ebf64d41c6613898eb080c934a0d144f0f06df97ecf9fb632be0f",
+      "revisionId": "15365",
+      "line": 215,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rope",
+    "qualified_name": "Starting Equipment.rope",
+    "table_block_index": 0,
+    "line_number": 215
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "hemp rope (50 feet)",
+      "raw_text": "5,hemp rope (50 feet)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "silk rope (50 feet)",
+      "raw_text": "1,silk rope (50 feet)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";rope\n1,\n5,hemp rope (50 feet)\n1,silk rope (50 feet)",
+  "warnings": []
+}

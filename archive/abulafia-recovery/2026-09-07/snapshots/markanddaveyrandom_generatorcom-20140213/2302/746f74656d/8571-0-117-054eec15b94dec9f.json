@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8571,
+    "timestamp": "2009-04-06T09:44:59Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5449a697fe6eb4fcf6aa75ec8ca3ab4aaf54e92a79b7715860fffbb497d2fbf4",
+      "rawSha256": "054eec15b94dec9f8880e95d7d85570fc7c3433e1c7c10acc489a750cff3f366",
+      "revisionId": "8571",
+      "line": 117,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "totem",
+    "qualified_name": "Quick and Dirty Supers Concepts.totem",
+    "table_block_index": 0,
+    "line_number": 117
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Totem - Bat",
+      "raw_text": "1, Totem - Bat",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Totem - Canine",
+      "raw_text": "1, Totem - Canine",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Totem - Cat",
+      "raw_text": "1, Totem - Cat",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Totem - Bird",
+      "raw_text": "1, Totem - Bird",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Totem - Insect",
+      "raw_text": "1, Totem - Insect",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Totem - Reptile",
+      "raw_text": "1, Totem - Reptile",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Totem - Spider",
+      "raw_text": "1, Totem - Spider",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Totem - Fish",
+      "raw_text": "1, Totem - Fish",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";totem\n\n1, Totem - Bat\n1, Totem - Canine\n1, Totem - Cat\n1, Totem - Bird\n1, Totem - Insect\n1, Totem - Reptile\n1, Totem - Spider\n1, Totem - Fish",
+  "warnings": []
+}

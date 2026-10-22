@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "a9da4380964c671dbb3989b7d19a4f980ee5b8e718137ad1fccf4596008aa331",
+      "revisionId": "14222",
+      "line": 56,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "environmental",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.environmental",
+    "table_block_index": 0,
+    "line_number": 56
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[environment]",
+      "raw_text": "3, [environment]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[environment][write][environment]",
+      "raw_text": "2, [environment][write][environment]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        },
+        {
+          "raw": "[write]",
+          "token": "write",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "write",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.write"
+        },
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[environment][event]",
+      "raw_text": "1, [environment][event]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environmental",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "event",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.event"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "environment",
+      "event",
+      "write"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";environmental\n3, [environment]\n2, [environment][write][environment]\n1, [environment][event]",
+  "warnings": []
+}

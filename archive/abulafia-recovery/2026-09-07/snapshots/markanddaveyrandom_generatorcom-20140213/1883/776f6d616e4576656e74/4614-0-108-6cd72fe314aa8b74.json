@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4614,
+    "timestamp": "2007-11-27T02:53:24Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "32e84a9640f621204c3dccdf1d3c17c4b7d7bfa16c0a3a61dbb7c89b2fa8f5f8",
+      "rawSha256": "6cd72fe314aa8b746fb323c1fb3300e743a4fbafa3b95a0f5fa1152b16b8c627",
+      "revisionId": "4614",
+      "line": 108,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "womanEvent",
+    "qualified_name": "Rituals.womanEvent",
+    "table_block_index": 0,
+    "line_number": 108
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "after a young woman's first menses",
+      "raw_text": "1,after a young woman's first menses",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when a woman is pregnant",
+      "raw_text": "1,when a woman is pregnant",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "after menopause",
+      "raw_text": "1,after menopause",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "after a woman gives birth to a [children]",
+      "raw_text": "1,after a woman gives birth to a [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "womanEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";womanEvent\n1,after a young woman's first menses\n1,when a woman is pregnant\n1,after menopause\n1,after a woman gives birth to a [children]",
+  "warnings": []
+}

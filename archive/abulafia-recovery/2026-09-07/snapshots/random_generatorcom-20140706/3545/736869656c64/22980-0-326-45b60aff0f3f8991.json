@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22980,
+    "timestamp": "2014-06-11T06:45:16Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "7f1159f57dd95339f73f70d47a08c593798c30ddb1fe4a3e6e5a943eeb09e6d1",
+      "rawSha256": "45b60aff0f3f8991b1d5d30a5f51398d1c5fe07b2d70ca77c90ba915a67c70b5",
+      "revisionId": "22980",
+      "line": 326,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "shield",
+    "qualified_name": "OSR weapon.shield",
+    "table_block_index": 0,
+    "line_number": 326
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Shield, [names]",
+      "raw_text": "1,Shield, [names]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "shield",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Shield",
+      "raw_text": "1,Shield",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Shield, marked with [Utility.Symbols]",
+      "raw_text": "1,Shield, marked with [Utility.Symbols]",
+      "references": [
+        {
+          "raw": "[Utility.Symbols]",
+          "token": "Utility.Symbols",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "shield",
+          "target_page": "Utility",
+          "target_subtable": "Symbols",
+          "target_qualified_name": "Utility.Symbols"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Shield, bearing [Utility.CoatOfArms]",
+      "raw_text": "1,Shield, bearing [Utility.CoatOfArms]",
+      "references": [
+        {
+          "raw": "[Utility.CoatOfArms]",
+          "token": "Utility.CoatOfArms",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "shield",
+          "target_page": "Utility",
+          "target_subtable": "CoatOfArms",
+          "target_qualified_name": "Utility.CoatOfArms"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Shield, [names], with [Utility.CoatOfArms]",
+      "raw_text": "1,Shield, [names], with [Utility.CoatOfArms]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "shield",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[Utility.CoatOfArms]",
+          "token": "Utility.CoatOfArms",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "shield",
+          "target_page": "Utility",
+          "target_subtable": "CoatOfArms",
+          "target_qualified_name": "Utility.CoatOfArms"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names"
+    ],
+    "external_subtables": [
+      "Utility.CoatOfArms",
+      "Utility.Symbols"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";shield\n1,Shield, [names]\n1,Shield\n1,Shield, marked with [Utility.Symbols]\n1,Shield, bearing [Utility.CoatOfArms]\n1,Shield, [names], with [Utility.CoatOfArms]",
+  "warnings": []
+}

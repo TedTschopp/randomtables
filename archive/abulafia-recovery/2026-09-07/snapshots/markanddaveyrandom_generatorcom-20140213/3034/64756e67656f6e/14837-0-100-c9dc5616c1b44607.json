@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14837,
+    "timestamp": "2012-06-24T17:05:15Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "1bc9fb3820656a938d2b20c7cbb08a3b08282ec5d277de09014d08ea1a3cb396",
+      "rawSha256": "c9dc5616c1b44607ba28cba51947ff3171b7a6b2b91f3e1e0e94b2a0a7d2dd14",
+      "revisionId": "14837",
+      "line": 100,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "dungeon",
+    "qualified_name": "Village.dungeon",
+    "table_block_index": 0,
+    "line_number": 100
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "cave complex",
+      "raw_text": "1,cave complex",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "ancient citadel",
+      "raw_text": "1,ancient citadel",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "ancient temple",
+      "raw_text": "1,ancient temple",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "crypt",
+      "raw_text": "1,crypt",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "labyrinth",
+      "raw_text": "1,labyrinth",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";dungeon\n1,cave complex\n1,ancient citadel\n1,ancient temple\n1,crypt\n1,labyrinth",
+  "warnings": []
+}

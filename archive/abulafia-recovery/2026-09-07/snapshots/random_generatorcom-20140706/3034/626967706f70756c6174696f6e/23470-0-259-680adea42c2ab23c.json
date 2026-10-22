@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "680adea42c2ab23c612f9d16d1caa7e5d18258fa63a20b442893af1556b4439d",
+      "revisionId": "23470",
+      "line": 259,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bigpopulation",
+    "qualified_name": "Village.bigpopulation",
+    "table_block_index": 0,
+    "line_number": 259
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "8[digit][digit] (has tailor, tavern, mason, carpenter, mill, baker)",
+      "raw_text": "3,8[digit][digit] (has tailor, tavern, mason, carpenter, mill, baker)",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "1[digit][digit]0 (has tailor, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)",
+      "raw_text": "2,1[digit][digit]0 (has tailor, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)",
+      "raw_text": "1,2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, fishmonger, produce market, brewer, smith, surgeon)",
+      "raw_text": "1,2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, fishmonger, produce market, brewer, smith, surgeon)",
+      "references": [
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        },
+        {
+          "raw": "[digit]",
+          "token": "digit",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "bigpopulation",
+          "target_page": "Village",
+          "target_subtable": "digit",
+          "target_qualified_name": "Village.digit"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "digit"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bigpopulation\n3,8[digit][digit] (has tailor, tavern, mason, carpenter, mill, baker)\n2,1[digit][digit]0 (has tailor, 2 taverns, mason, carpenter, mill, baker, butcher, brewer, smith)\n1,2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, brewer, smith, surgeon)\n1,2[digit][digit]0 (has tailor, inn, tavern, mason, carpenter, mill, baker, butcher, fishmonger, produce market, brewer, smith, surgeon)",
+  "warnings": []
+}

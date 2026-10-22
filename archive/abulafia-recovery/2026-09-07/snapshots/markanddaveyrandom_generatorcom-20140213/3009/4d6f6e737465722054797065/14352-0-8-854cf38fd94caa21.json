@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14352,
+    "timestamp": "2012-05-14T16:43:23Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "f84e1982101e879e5d7e5b94a669828d5060b4dbc77fe37900c01d2a3bcb6fe8",
+      "rawSha256": "854cf38fd94caa21f9fada5a1d705c6b16bfe469dacd4c8041f62d0988a58e01",
+      "revisionId": "14352",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Monster Type",
+    "qualified_name": "Character Personality and Traits.Monster Type",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "[Monster Mob]",
+      "raw_text": "4,[Monster Mob]",
+      "references": [
+        {
+          "raw": "[Monster Mob]",
+          "token": "Monster Mob",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Monster Type",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Monster Mob",
+          "target_qualified_name": "Character Personality and Traits.Monster Mob"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[Minor Monster]",
+      "raw_text": "5,[Minor Monster]",
+      "references": [
+        {
+          "raw": "[Minor Monster]",
+          "token": "Minor Monster",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Monster Type",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Minor Monster",
+          "target_qualified_name": "Character Personality and Traits.Minor Monster"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[Major Monster]",
+      "raw_text": "2,[Major Monster]",
+      "references": [
+        {
+          "raw": "[Major Monster]",
+          "token": "Major Monster",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Monster Type",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Major Monster",
+          "target_qualified_name": "Character Personality and Traits.Major Monster"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Large-Scale Monster]",
+      "raw_text": "1,[Large-Scale Monster]",
+      "references": [
+        {
+          "raw": "[Large-Scale Monster]",
+          "token": "Large-Scale Monster",
+          "kind": "local",
+          "source_page": "Character Personality and Traits",
+          "source_subtable": "Monster Type",
+          "target_page": "Character Personality and Traits",
+          "target_subtable": "Large-Scale Monster",
+          "target_qualified_name": "Character Personality and Traits.Large-Scale Monster"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Large-Scale Monster",
+      "Major Monster",
+      "Minor Monster",
+      "Monster Mob"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Monster Type\n4,[Monster Mob]\n5,[Minor Monster]\n2,[Major Monster]\n1,[Large-Scale Monster]",
+  "warnings": []
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "0f1865bb7a3d48800dec83d0ed8ee052a261a521ab19d8e13fc3b72257a354b5",
+      "revisionId": "14219",
+      "line": 51,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "human motivational",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.human motivational",
+    "table_block_index": 0,
+    "line_number": 51
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[human motivation]",
+      "raw_text": "3, [human motivation]",
+      "references": [
+        {
+          "raw": "[human motivation]",
+          "token": "human motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "human motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.human motivation"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[human motivation][write][human motivation]",
+      "raw_text": "2, [human motivation][write][human motivation]",
+      "references": [
+        {
+          "raw": "[human motivation]",
+          "token": "human motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "human motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.human motivation"
+        },
+        {
+          "raw": "[write]",
+          "token": "write",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "write",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.write"
+        },
+        {
+          "raw": "[human motivation]",
+          "token": "human motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "human motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.human motivation"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[human motivation][write][sentient motivation]",
+      "raw_text": "1, [human motivation][write][sentient motivation]",
+      "references": [
+        {
+          "raw": "[human motivation]",
+          "token": "human motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "human motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.human motivation"
+        },
+        {
+          "raw": "[write]",
+          "token": "write",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "write",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.write"
+        },
+        {
+          "raw": "[sentient motivation]",
+          "token": "sentient motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "sentient motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.sentient motivation"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "human motivation",
+      "sentient motivation",
+      "write"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";human motivational\n3, [human motivation]\n2, [human motivation][write][human motivation]\n1, [human motivation][write][sentient motivation]",
+  "warnings": []
+}

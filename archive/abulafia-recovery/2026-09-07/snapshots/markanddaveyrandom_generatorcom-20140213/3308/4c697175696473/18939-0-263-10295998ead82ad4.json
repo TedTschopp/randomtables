@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Brennall",
+    "page_id": 3308
+  },
+  "source": {
+    "revision_id": 18939,
+    "timestamp": "2013-10-02T21:04:20Z",
+    "contributor": {
+      "name": "Brennall",
+      "id": 1795,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "29e28e652500505a23ea2663610e94554acfb3cdee994d7bf5e9ee9fdef3fe91",
+      "rawSha256": "10295998ead82ad42b081373023d9e442dfb368c7df6eef32bb59578c89189f1",
+      "revisionId": "18939",
+      "line": 263,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "18939",
+        "timestamp": "2013-10-02T21:04:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Liquids",
+    "qualified_name": "User:Brennall.Liquids",
+    "table_block_index": 0,
+    "line_number": 263
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Ale",
+      "raw_text": "1,Ale",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Blood",
+      "raw_text": "1,Blood",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Brew",
+      "raw_text": "1,Brew",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Concoction",
+      "raw_text": "1,Concoction",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Cure-All",
+      "raw_text": "1,Cure-All",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Dew",
+      "raw_text": "1,Dew",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Distillate",
+      "raw_text": "1,Distillate",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Double Draught",
+      "raw_text": "1,Double Draught",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Drink",
+      "raw_text": "1,Drink",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Draught",
+      "raw_text": "1,Draught",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Elixir",
+      "raw_text": "1,Elixir",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Ferment",
+      "raw_text": "1,Ferment",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Fermentation",
+      "raw_text": "1,Fermentation",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Foam",
+      "raw_text": "1,Foam",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Fomentation",
+      "raw_text": "1,Fomentation",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Fluid",
+      "raw_text": "1,Fluid",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Grog",
+      "raw_text": "1,Grog",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Juice",
+      "raw_text": "1,Juice",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Lager",
+      "raw_text": "1,Lager",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Liquid",
+      "raw_text": "1,Liquid",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Magical Elixir",
+      "raw_text": "1,Magical Elixir",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Moonshine",
+      "raw_text": "1,Moonshine",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Percolation",
+      "raw_text": "1,Percolation",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Pilsner",
+      "raw_text": "1,Pilsner",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Porter",
+      "raw_text": "1,Porter",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Punch",
+      "raw_text": "1,Punch",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Sauce",
+      "raw_text": "1,Sauce",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Secret Sauce",
+      "raw_text": "1,Secret Sauce",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Secret Serum",
+      "raw_text": "1,Secret Serum",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Seltzer",
+      "raw_text": "1,Seltzer",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Serum",
+      "raw_text": "1,Serum",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Shine",
+      "raw_text": "1,Shine",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Slag",
+      "raw_text": "1,Slag",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Sludge",
+      "raw_text": "1,Sludge",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Slurry",
+      "raw_text": "1,Slurry",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Slush",
+      "raw_text": "1,Slush",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Special Sauce",
+      "raw_text": "1,Special Sauce",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Spritzer",
+      "raw_text": "1,Spritzer",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Stout",
+      "raw_text": "1,Stout",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Super Sludge",
+      "raw_text": "1,Super Sludge",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Tongue Teaser",
+      "raw_text": "1,Tongue Teaser",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Tongue Trapper",
+      "raw_text": "1,Tongue Trapper",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Tonic",
+      "raw_text": "1,Tonic",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Water",
+      "raw_text": "1,Water",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Wine",
+      "raw_text": "1,Wine",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Liquids\n1,Ale\n1,Blood\n1,Brew\n1,Concoction\n1,Cure-All\n1,Dew\n1,Distillate\n1,Double Draught\n1,Drink\n1,Draught\n1,Elixir\n1,Ferment\n1,Fermentation\n1,Foam\n1,Fomentation\n1,Fluid\n1,Grog\n1,Juice\n1,Lager\n1,Liquid\n1,Magical Elixir\n1,Moonshine\n1,Percolation\n1,Pilsner\n1,Porter\n1,Punch\n1,Sauce\n1,Secret Sauce\n1,Secret Serum\n1,Seltzer\n1,Serum\n1,Shine\n1,Slag\n1,Sludge\n1,Slurry\n1,Slush\n1,Special Sauce\n1,Spritzer\n1,Stout\n1,Super Sludge\n1,Tongue Teaser\n1,Tongue Trapper\n1,Tonic\n1,Water\n1,Wine",
+  "warnings": []
+}

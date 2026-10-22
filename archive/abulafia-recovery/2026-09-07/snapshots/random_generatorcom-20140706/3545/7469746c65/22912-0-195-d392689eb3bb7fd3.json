@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22912,
+    "timestamp": "2014-06-10T22:41:28Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6cee8dae03544722b1c77a12fc4440bb754d371a74944a84ee3b20db2a3a5876",
+      "rawSha256": "d392689eb3bb7fd332d6763a3629ab3dd1c4f20b77e97efcc98c1a31337749b9",
+      "revisionId": "22912",
+      "line": 195,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "title",
+    "qualified_name": "OSR weapon.title",
+    "table_block_index": 0,
+    "line_number": 195
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Demon Generator.Title Type]",
+      "raw_text": "1,[Demon Generator.Title Type]",
+      "references": [
+        {
+          "raw": "[Demon Generator.Title Type]",
+          "token": "Demon Generator.Title Type",
+          "kind": "unresolved_cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Demon Generator",
+          "target_subtable": "Title Type",
+          "target_qualified_name": "Demon Generator.Title Type"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[Angel Generator.Title Type]",
+      "raw_text": "2,[Angel Generator.Title Type]",
+      "references": [
+        {
+          "raw": "[Angel Generator.Title Type]",
+          "token": "Angel Generator.Title Type",
+          "kind": "unresolved_cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Angel Generator",
+          "target_subtable": "Title Type",
+          "target_qualified_name": "Angel Generator.Title Type"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "the [Demon Generator.FemTitle]",
+      "raw_text": "1,the [Demon Generator.FemTitle]",
+      "references": [
+        {
+          "raw": "[Demon Generator.FemTitle]",
+          "token": "Demon Generator.FemTitle",
+          "kind": "unresolved_cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Demon Generator",
+          "target_subtable": "FemTitle",
+          "target_qualified_name": "Demon Generator.FemTitle"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[Secret Society Title.main]",
+      "raw_text": "2,[Secret Society Title.main]",
+      "references": [
+        {
+          "raw": "[Secret Society Title.main]",
+          "token": "Secret Society Title.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Secret Society Title",
+          "target_subtable": "main",
+          "target_qualified_name": "Secret Society Title.main"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[Carcosan Titles.main]",
+      "raw_text": "2,[Carcosan Titles.main]",
+      "references": [
+        {
+          "raw": "[Carcosan Titles.main]",
+          "token": "Carcosan Titles.main",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Carcosan Titles",
+          "target_subtable": "main",
+          "target_qualified_name": "Carcosan Titles.main"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 4,
+      "text": "[Epithets.Warrior]",
+      "raw_text": "4,[Epithets.Warrior]",
+      "references": [
+        {
+          "raw": "[Epithets.Warrior]",
+          "token": "Epithets.Warrior",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Epithets",
+          "target_subtable": "Warrior",
+          "target_qualified_name": "Epithets.Warrior"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Epithets.Rogue]",
+      "raw_text": "1,[Epithets.Rogue]",
+      "references": [
+        {
+          "raw": "[Epithets.Rogue]",
+          "token": "Epithets.Rogue",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Epithets",
+          "target_subtable": "Rogue",
+          "target_qualified_name": "Epithets.Rogue"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[Epithets.Wizard]",
+      "raw_text": "1,[Epithets.Wizard]",
+      "references": [
+        {
+          "raw": "[Epithets.Wizard]",
+          "token": "Epithets.Wizard",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Epithets",
+          "target_subtable": "Wizard",
+          "target_qualified_name": "Epithets.Wizard"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[Epithets.Priest]",
+      "raw_text": "1,[Epithets.Priest]",
+      "references": [
+        {
+          "raw": "[Epithets.Priest]",
+          "token": "Epithets.Priest",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Epithets",
+          "target_subtable": "Priest",
+          "target_qualified_name": "Epithets.Priest"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "[Curse.cursename]",
+      "raw_text": "2,[Curse.cursename]",
+      "references": [
+        {
+          "raw": "[Curse.cursename]",
+          "token": "Curse.cursename",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "title",
+          "target_page": "Curse",
+          "target_subtable": "cursename",
+          "target_qualified_name": "Curse.cursename"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Carcosan Titles.main",
+      "Curse.cursename",
+      "Epithets.Priest",
+      "Epithets.Rogue",
+      "Epithets.Warrior",
+      "Epithets.Wizard",
+      "Secret Society Title.main"
+    ],
+    "unresolved": [
+      "Angel Generator.Title Type",
+      "Demon Generator.FemTitle",
+      "Demon Generator.Title Type"
+    ]
+  },
+  "raw_source": ";title\n1,[Demon Generator.Title Type]\n2,[Angel Generator.Title Type]\n1,the [Demon Generator.FemTitle]\n2,[Secret Society Title.main]\n2,[Carcosan Titles.main]\n4,[Epithets.Warrior]\n1,[Epithets.Rogue]\n1,[Epithets.Wizard]\n1,[Epithets.Priest]\n2,[Curse.cursename]",
+  "warnings": []
+}

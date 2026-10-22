@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "65dbbd0e52873a462b90d8b935f7e866336498638a4aa0d7b6ad3d6e58c2fd43",
+      "revisionId": "9620",
+      "line": 39,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "officiator",
+    "qualified_name": "Rituals.officiator",
+    "table_block_index": 0,
+    "line_number": 39
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "a priest",
+      "raw_text": "2,a priest",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a priestess",
+      "raw_text": "1,a priestess",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a village elder",
+      "raw_text": "1,a village elder",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "an old woman",
+      "raw_text": "1,an old woman",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a virgin priestess",
+      "raw_text": "1,a virgin priestess",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a blindfolded [manwoman]",
+      "raw_text": "1,a blindfolded [manwoman]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "officiator",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a crippled [manwoman]",
+      "raw_text": "1,a crippled [manwoman]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "officiator",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a [boygirl]",
+      "raw_text": "1,a [boygirl]",
+      "references": [
+        {
+          "raw": "[boygirl]",
+          "token": "boygirl",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "officiator",
+          "target_page": "Rituals",
+          "target_subtable": "boygirl",
+          "target_qualified_name": "Rituals.boygirl"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "boygirl",
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";officiator\n2,a priest\n1,a priestess\n1,a village elder\n1,an old woman\n1,a virgin priestess\n1,a blindfolded [manwoman]\n1,a crippled [manwoman]\n1,a [boygirl]",
+  "warnings": []
+}

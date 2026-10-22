@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4614,
+    "timestamp": "2007-11-27T02:53:24Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "32e84a9640f621204c3dccdf1d3c17c4b7d7bfa16c0a3a61dbb7c89b2fa8f5f8",
+      "rawSha256": "74a1f88843a3d83ad92bf4225e3b72d979309ebbd75806627c5eb80175d820fd",
+      "revisionId": "4614",
+      "line": 251,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteCompetitive",
+    "qualified_name": "Rituals.riteCompetitive",
+    "table_block_index": 0,
+    "line_number": 251
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "participate in single combat against a wild beast",
+      "raw_text": "1,participate in single combat against a wild beast",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "participate in combat against a slave",
+      "raw_text": "1,participate in combat against a slave",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "participate in combat against a prisoner",
+      "raw_text": "1,participate in combat against a prisoner",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "participate in a footrace",
+      "raw_text": "1,participate in a footrace",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "participate in a wrestling match",
+      "raw_text": "1,participate in a wrestling match",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "participate in athletic contests",
+      "raw_text": "1,participate in athletic contests",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteCompetitive\n1,participate in single combat against a wild beast\n1,participate in combat against a slave\n1,participate in combat against a prisoner\n1,participate in a footrace\n1,participate in a wrestling match\n1,participate in athletic contests",
+  "warnings": []
+}

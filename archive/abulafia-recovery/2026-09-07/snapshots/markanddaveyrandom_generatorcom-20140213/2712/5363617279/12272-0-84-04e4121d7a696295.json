@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 12272,
+    "timestamp": "2011-10-24T04:53:32Z",
+    "contributor": {
+      "name": "Zak S",
+      "id": 924,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0eb63d65284eb23b289b9ccb9d1985800bb6745ff29571e66dc5ecf71ef75ff7",
+      "rawSha256": "04e4121d7a6962959f816ef76a4d2f8f6ccb7e575663185425f800db5fd9bc1c",
+      "revisionId": "12272",
+      "line": 84,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17456",
+        "timestamp": "2013-03-21T19:09:43Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Scary",
+    "qualified_name": "Creepy Fantasy Villain.Scary",
+    "table_block_index": 0,
+    "line_number": 84
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Despair",
+      "raw_text": "1,Despair",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Nine Shadows",
+      "raw_text": "1,Nine Shadows",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Mutilations",
+      "raw_text": "1,Mutilations",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Thirst",
+      "raw_text": "1,Thirst",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Starvation",
+      "raw_text": "1,Starvation",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "30 Lies",
+      "raw_text": "1,30 Lies",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "The Red Eye",
+      "raw_text": "1,The Red Eye",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "The Bleak Eye",
+      "raw_text": "1,The Bleak Eye",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "The Unshriven Light",
+      "raw_text": "1,The Unshriven Light",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Dust",
+      "raw_text": "1,Dust",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "The Desert Waste",
+      "raw_text": "1,The Desert Waste",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "The Abandoned City",
+      "raw_text": "1,The Abandoned City",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "The Long Cold",
+      "raw_text": "1,The Long Cold",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Scary\n1,Despair\n1,Nine Shadows\n1,Mutilations\n1,Thirst\n1,Starvation\n1,30 Lies\n1,The Red Eye\n1,The Bleak Eye\n1,The Unshriven Light\n1,Dust\n1,The Desert Waste\n1,The Abandoned City\n1,The Long Cold",
+  "warnings": []
+}

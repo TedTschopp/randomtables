@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15496,
+    "timestamp": "2012-11-02T08:52:04Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "aca140428ad4c93782dd9eb1e492a5cec30c8e0e038134068498c36e15716cbb",
+      "rawSha256": "56b40c0b20874a9e5aef359de2c22ed3fdede35bd4ffc6310897cee1bc0eb86c",
+      "revisionId": "15496",
+      "line": 77,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "a-level",
+    "qualified_name": "Curse.a-level",
+    "table_block_index": 0,
+    "line_number": 77
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 15,
+      "text": "a level",
+      "raw_text": "15,a level",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "2 levels",
+      "raw_text": "1,2 levels",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "1d3 levels",
+      "raw_text": "1,1d3 levels",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "1d4 levels",
+      "raw_text": "1,1d4 levels",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";a-level\n15,a level\n1,2 levels\n1,1d3 levels\n1,1d4 levels",
+  "warnings": []
+}

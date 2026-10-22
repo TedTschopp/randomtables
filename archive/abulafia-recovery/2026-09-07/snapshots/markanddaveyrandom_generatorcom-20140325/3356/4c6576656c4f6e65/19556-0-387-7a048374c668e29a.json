@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 19556,
+    "timestamp": "2014-02-20T03:22:54Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "46b0af09101e486161f8704102903b184aa0ab9eaab978fc22c8b7668eafd88c",
+      "rawSha256": "7a048374c668e29a7aec6765eee359dc8dfeeb6b7e1f675a24548b7d1d9e72bf",
+      "revisionId": "19556",
+      "line": 387,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "19556",
+        "timestamp": "2014-02-20T03:22:54Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelOne",
+    "qualified_name": "LotFP Spell Lists.LevelOne",
+    "table_block_index": 0,
+    "line_number": 387
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Bookspeak",
+      "raw_text": "1,Bookspeak",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Charm Person",
+      "raw_text": "1,Charm Person",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Comprehend Languages",
+      "raw_text": "1,Comprehend Languages",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Detect Magic",
+      "raw_text": "1,Detect Magic",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Enlarge",
+      "raw_text": "1,Enlarge",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Faerie Fire",
+      "raw_text": "1,Faerie Fire",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Feather Fall",
+      "raw_text": "1,Feather Fall",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Floating Disc",
+      "raw_text": "1,Floating Disc",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Hold Portal",
+      "raw_text": "1,Hold Portal",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Identify",
+      "raw_text": "1,Identify",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Light",
+      "raw_text": "1,Light",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Magic Aura",
+      "raw_text": "1,Magic Aura",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Magic Missile",
+      "raw_text": "1,Magic Missile",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Mending",
+      "raw_text": "1,Mending",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Message",
+      "raw_text": "1,Message",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Shield",
+      "raw_text": "1,Shield",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Sleep",
+      "raw_text": "1,Sleep",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Spider Climb",
+      "raw_text": "1,Spider Climb",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Summon",
+      "raw_text": "1,Summon",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Unseen Servant",
+      "raw_text": "1,Unseen Servant",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelOne\n1,Bookspeak\n1,Charm Person\n1,Comprehend Languages\n1,Detect Magic\n1,Enlarge\n1,Faerie Fire\n1,Feather Fall\n1,Floating Disc\n1,Hold Portal\n1,Identify\n1,Light\n1,Magic Aura\n1,Magic Missile\n1,Mending\n1,Message\n1,Shield\n1,Sleep\n1,Spider Climb\n1,Summon\n1,Unseen Servant",
+  "warnings": []
+}

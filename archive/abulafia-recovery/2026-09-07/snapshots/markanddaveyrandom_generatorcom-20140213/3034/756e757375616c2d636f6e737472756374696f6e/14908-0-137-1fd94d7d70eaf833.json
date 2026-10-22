@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14908,
+    "timestamp": "2012-06-27T15:22:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "3da6ec0de5e54127a6eb431fbbb9b713ad7eaa8369e6d1a5c4266d858b1f31f5",
+      "rawSha256": "1fd94d7d70eaf8333feff8375ee96085fbfcae79dcfa28437a4fc3e3765d08e7",
+      "revisionId": "14908",
+      "line": 137,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "unusual-construction",
+    "qualified_name": "Village.unusual-construction",
+    "table_block_index": 0,
+    "line_number": 137
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "tower",
+      "raw_text": "1,tower",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "pyramid",
+      "raw_text": "1,pyramid",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "huge statue of [Quick Zone Populations.anygroup-terse]",
+      "raw_text": "1,huge statue of [Quick Zone Populations.anygroup-terse]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.anygroup-terse]",
+          "token": "Quick Zone Populations.anygroup-terse",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "unusual-construction",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "anygroup-terse",
+          "target_qualified_name": "Quick Zone Populations.anygroup-terse"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.anygroup-terse"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";unusual-construction\n1,tower\n1,pyramid\n1,huge statue of [Quick Zone Populations.anygroup-terse]",
+  "warnings": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "e97cda45507c68eb061695f64a4d18e9b328b60f5a2f130fefd0747928f17233",
+      "revisionId": "14222",
+      "line": 134,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Extraversion",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.Extraversion",
+    "table_block_index": 0,
+    "line_number": 134
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Warmth",
+      "raw_text": "1, Warmth",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Gregariousness",
+      "raw_text": "1, Gregariousness",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Assertiveness",
+      "raw_text": "1, Assertiveness",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Activity",
+      "raw_text": "1, Activity",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Excitement Seeking",
+      "raw_text": "1, Excitement Seeking",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Positive Emotion",
+      "raw_text": "1, Positive Emotion",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Extraversion\n1, Warmth\n1, Gregariousness\n1, Assertiveness\n1, Activity\n1, Excitement Seeking\n1, Positive Emotion",
+  "warnings": []
+}

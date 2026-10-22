@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "923d26cd0cf046caf9764d774094ea2d623f6fa4aee82c7d2eb32d1431dc6b02",
+      "revisionId": "1643",
+      "line": 477,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorPractical",
+    "qualified_name": "Pickpocket.PoorPractical",
+    "table_block_index": 0,
+    "line_number": 477
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a ball of twine",
+      "raw_text": "1,a ball of twine",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a clay jug",
+      "raw_text": "1,a clay jug",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a clay mug",
+      "raw_text": "1,a clay mug",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a firestarter kit",
+      "raw_text": "1,a firestarter kit",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a fishhook and line",
+      "raw_text": "1,a fishhook and line",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a pencil",
+      "raw_text": "1,a pencil",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a piece of chalk",
+      "raw_text": "1,a piece of chalk",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a pocketknife",
+      "raw_text": "1,a pocketknife",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a sewing needle and thread",
+      "raw_text": "1,a sewing needle and thread",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a small candle",
+      "raw_text": "1,a small candle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a whetstone",
+      "raw_text": "1,a whetstone",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a wooden spoon",
+      "raw_text": "1,a wooden spoon",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "knitting needles and a half-knit scarf",
+      "raw_text": "1,knitting needles and a half-knit scarf",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a signal whistle",
+      "raw_text": "1,a signal whistle",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorPractical\n1,a ball of twine\n1,a clay jug\n1,a clay mug\n1,a firestarter kit\n1,a fishhook and line\n1,a pencil\n1,a piece of chalk\n1,a pocketknife\n1,a sewing needle and thread\n1,a small candle\n1,a whetstone\n1,a wooden spoon\n1,knitting needles and a half-knit scarf\n1,a signal whistle",
+  "warnings": []
+}

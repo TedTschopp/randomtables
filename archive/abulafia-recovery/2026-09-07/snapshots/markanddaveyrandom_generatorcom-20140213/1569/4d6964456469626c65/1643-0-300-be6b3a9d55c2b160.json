@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "be6b3a9d55c2b160d2797e08dae103a9f83bc81fa2dce0f79d7d18cb87e2a59a",
+      "revisionId": "1643",
+      "line": 300,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidEdible",
+    "qualified_name": "Pickpocket.MidEdible",
+    "table_block_index": 0,
+    "line_number": 300
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a hunk of hard bread",
+      "raw_text": "1,a hunk of hard bread",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a small box of breath mints",
+      "raw_text": "1,a small box of breath mints",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a hunk of cheese wrapped in cloth",
+      "raw_text": "1,a hunk of cheese wrapped in cloth",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "goat jerky wrapped in a canvas bag",
+      "raw_text": "1,goat jerky wrapped in a canvas bag",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "smoked fish wrapped in oilcloth",
+      "raw_text": "1,smoked fish wrapped in oilcloth",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a bag of almonds",
+      "raw_text": "1,a bag of almonds",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a bag of hazelnuts",
+      "raw_text": "1,a bag of hazelnuts",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a bag of roasted chestnuts",
+      "raw_text": "1,a bag of roasted chestnuts",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a bag of mushrooms",
+      "raw_text": "1,a bag of mushrooms",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a bulb of garlic",
+      "raw_text": "1,a bulb of garlic",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a carrot",
+      "raw_text": "1,a carrot",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a piece of fruit",
+      "raw_text": "1,a piece of fruit",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a small jar of pickles",
+      "raw_text": "1,a small jar of pickles",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a small sack of peas",
+      "raw_text": "1,a small sack of peas",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a turnip",
+      "raw_text": "1,a turnip",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MidEdible\n1,a hunk of hard bread\n1,a small box of breath mints\n1,a hunk of cheese wrapped in cloth\n1,goat jerky wrapped in a canvas bag\n1,smoked fish wrapped in oilcloth\n1,a bag of almonds\n1,a bag of hazelnuts\n1,a bag of roasted chestnuts\n1,a bag of mushrooms\n1,a bulb of garlic\n1,a carrot\n1,a piece of fruit\n1,a small jar of pickles\n1,a small sack of peas\n1,a turnip",
+  "warnings": []
+}

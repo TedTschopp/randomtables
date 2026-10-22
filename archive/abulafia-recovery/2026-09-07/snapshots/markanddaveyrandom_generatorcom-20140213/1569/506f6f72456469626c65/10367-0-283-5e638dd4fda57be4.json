@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "5e638dd4fda57be4502e207a8a50589c66745defb3daf8188661f2f69735814b",
+      "revisionId": "10367",
+      "line": 283,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorEdible",
+    "qualified_name": "Pickpocket.PoorEdible",
+    "table_block_index": 0,
+    "line_number": 283
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a chunk of moldy bread",
+      "raw_text": "1,a chunk of moldy bread",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a hunk of hard bread",
+      "raw_text": "1,a hunk of hard bread",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a hunk of moldy cheese",
+      "raw_text": "1,a hunk of moldy cheese",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "an onion",
+      "raw_text": "1,an onion",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a severed monkey paw",
+      "raw_text": "1,a severed monkey paw",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a carrot",
+      "raw_text": "1,a carrot",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a piece of fruit",
+      "raw_text": "1,a piece of fruit",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a small jar of pickles",
+      "raw_text": "1,a small jar of pickles",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a small sack of dry peas",
+      "raw_text": "1,a small sack of dry peas",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a turnip",
+      "raw_text": "1,a turnip",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a half eaten turnip",
+      "raw_text": "1,a half eaten turnip",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorEdible\n1,a chunk of moldy bread\n1,a hunk of hard bread\n1,a hunk of moldy cheese\n1,an onion\n1,a severed monkey paw\n1,a carrot\n1,a piece of fruit\n1,a small jar of pickles\n1,a small sack of dry peas\n1,a turnip\n1,a half eaten turnip",
+  "warnings": []
+}

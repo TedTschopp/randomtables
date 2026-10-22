@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "e07dc3099520d8ae243b3b6369ffe6f3d4526806282b72633b637f7ff2a802d4",
+      "revisionId": "22835",
+      "line": 222,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ongoing-effect",
+    "qualified_name": "Curse.ongoing-effect",
+    "table_block_index": 0,
+    "line_number": 222
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "take [low-damage] [damage] every [period]",
+      "raw_text": "1,take [low-damage] [damage] every [period]",
+      "references": [
+        {
+          "raw": "[low-damage]",
+          "token": "low-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "low-damage",
+          "target_qualified_name": "Curse.low-damage"
+        },
+        {
+          "raw": "[damage]",
+          "token": "damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage",
+          "target_qualified_name": "Curse.damage"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "take [med-damage] [damage] every [period]",
+      "raw_text": "1,take [med-damage] [damage] every [period]",
+      "references": [
+        {
+          "raw": "[med-damage]",
+          "token": "med-damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "med-damage",
+          "target_qualified_name": "Curse.med-damage"
+        },
+        {
+          "raw": "[damage]",
+          "token": "damage",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage",
+          "target_qualified_name": "Curse.damage"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "lose 1 point of [stat] every [period]",
+      "raw_text": "1,lose 1 point of [stat] every [period]",
+      "references": [
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "take a penalty to all rolls (-[about-one], cumulative every [period])",
+      "raw_text": "1,take a penalty to all rolls (-[about-one], cumulative every [period])",
+      "references": [
+        {
+          "raw": "[about-one]",
+          "token": "about-one",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-one",
+          "target_qualified_name": "Curse.about-one"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "take a penalty to hit (-[about-one], cumulative every [period])",
+      "raw_text": "1,take a penalty to hit (-[about-one], cumulative every [period])",
+      "references": [
+        {
+          "raw": "[about-one]",
+          "token": "about-one",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-one",
+          "target_qualified_name": "Curse.about-one"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "lose [a-level] every [period]",
+      "raw_text": "1,lose [a-level] every [period]",
+      "references": [
+        {
+          "raw": "[a-level]",
+          "token": "a-level",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "a-level",
+          "target_qualified_name": "Curse.a-level"
+        },
+        {
+          "raw": "[period]",
+          "token": "period",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "period",
+          "target_qualified_name": "Curse.period"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[body horror]",
+      "raw_text": "1,[body horror]",
+      "references": [
+        {
+          "raw": "[body horror]",
+          "token": "body horror",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "body horror",
+          "target_qualified_name": "Curse.body horror"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[ongoing-age-effect]",
+      "raw_text": "1,[ongoing-age-effect]",
+      "references": [
+        {
+          "raw": "[ongoing-age-effect]",
+          "token": "ongoing-age-effect",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "ongoing-effect",
+          "target_page": "Curse",
+          "target_subtable": "ongoing-age-effect",
+          "target_qualified_name": "Curse.ongoing-age-effect"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "a-level",
+      "about-one",
+      "body horror",
+      "damage",
+      "low-damage",
+      "med-damage",
+      "ongoing-age-effect",
+      "period",
+      "stat"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ongoing-effect\n1,take [low-damage] [damage] every [period]\n1,take [med-damage] [damage] every [period]\n1,lose 1 point of [stat] every [period]\n1,take a penalty to all rolls (-[about-one], cumulative every [period])\n1,take a penalty to hit (-[about-one], cumulative every [period])\n1,lose [a-level] every [period]\n1,[body horror]\n1,[ongoing-age-effect]",
+  "warnings": []
+}

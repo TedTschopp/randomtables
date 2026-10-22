@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 21981,
+    "timestamp": "2014-05-22T18:37:39Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9cb3cccead54be27bc7b148a6cffa54a99fa3c5a0e3873b3fe6b1f810183571a",
+      "rawSha256": "f3a579408698dcc0b6c200770c848e85bab2531ec5bb185dcde4d1e1e66d368d",
+      "revisionId": "21981",
+      "line": 86,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "spikytail",
+    "qualified_name": "Quick Horrors.spikytail",
+    "table_block_index": 0,
+    "line_number": 86
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a prehensile tail",
+      "raw_text": "1,a prehensile tail",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a tail like a mace",
+      "raw_text": "1,a tail like a mace",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a piercing tail",
+      "raw_text": "1,a piercing tail",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a biting tail",
+      "raw_text": "1,a biting tail",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a stinging tail",
+      "raw_text": "1,a stinging tail",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "nine tails",
+      "raw_text": "1,nine tails",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";spikytail\n1,a prehensile tail\n1,a tail like a mace\n1,a piercing tail\n1,a biting tail\n1,a stinging tail\n1,nine tails",
+  "warnings": []
+}

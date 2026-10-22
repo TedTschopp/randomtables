@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "fa43758e18456142e363d80cf28f6e8f8275e85e8724bb62ff02c1b1b5a03014",
+      "revisionId": "9620",
+      "line": 229,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "punishmentEvent",
+    "qualified_name": "Rituals.punishmentEvent",
+    "table_block_index": 0,
+    "line_number": 229
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "after a murderer is executed",
+      "raw_text": "1,after a murderer is executed",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "when a person is exiled",
+      "raw_text": "1,when a person is exiled",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when reconciling feuding families for the patriarchs of each",
+      "raw_text": "1,when reconciling feuding families for the patriarchs of each",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when a person must be 'shunned'",
+      "raw_text": "1,when a person must be 'shunned'",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when disinheriting a [children]",
+      "raw_text": "1,when disinheriting a [children]",
+      "references": [
+        {
+          "raw": "[children]",
+          "token": "children",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "punishmentEvent",
+          "target_page": "Rituals",
+          "target_subtable": "children",
+          "target_qualified_name": "Rituals.children"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "after a [manwoman] proves the [olderRelative] a traitor",
+      "raw_text": "1,after a [manwoman] proves the [olderRelative] a traitor",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "punishmentEvent",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        },
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "punishmentEvent",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "children",
+      "manwoman",
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";punishmentEvent\n1,after a murderer is executed\n1,when a person is exiled\n1,when reconciling feuding families for the patriarchs of each\n1,when a person must be 'shunned'\n1,when disinheriting a [children]\n1,after a [manwoman] proves the [olderRelative] a traitor",
+  "warnings": []
+}

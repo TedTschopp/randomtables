@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13704,
+    "timestamp": "2012-02-29T04:58:03Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "d8f1b7effb31a5bef7d78c55cf483f984030397980e433f3a9a1e7baf3f2f499",
+      "rawSha256": "b95bb1a549388e328ca9ebfa23f1c0ee77dc360638a2dc8b5c3786a47a487d00",
+      "revisionId": "13704",
+      "line": 62,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hero",
+    "qualified_name": "Quick Populations.hero",
+    "table_block_index": 0,
+    "line_number": 62
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[race] [class]",
+      "raw_text": "1,[race] [class]",
+      "references": [
+        {
+          "raw": "[race]",
+          "token": "race",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Populations.race"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "hero",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "class",
+      "race"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";hero\n1,[race] [class]",
+  "warnings": []
+}

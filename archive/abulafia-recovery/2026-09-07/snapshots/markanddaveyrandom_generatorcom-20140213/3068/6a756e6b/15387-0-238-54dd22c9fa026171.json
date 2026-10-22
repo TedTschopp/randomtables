@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15387,
+    "timestamp": "2012-10-08T12:29:47Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7a5ceb11beec52302057b7811546d6a8ff9248df90c96905df7789986c23fd52",
+      "rawSha256": "54dd22c9fa026171980327c8506e5367a2c8c1ebb5729dde6fd880ddf147d9f1",
+      "revisionId": "15387",
+      "line": 238,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "junk",
+    "qualified_name": "Starting Equipment.junk",
+    "table_block_index": 0,
+    "line_number": 238
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.domestic-animal]",
+      "raw_text": "1,[Quick Zone Populations.domestic-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.domestic-animal]",
+          "token": "Quick Zone Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Zone Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "grappling hook",
+      "raw_text": "1,grappling hook",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fishing net",
+      "raw_text": "1,fishing net",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Quick Zone Populations.zaksjob] disguise",
+      "raw_text": "1,[Quick Zone Populations.zaksjob] disguise",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.zaksjob]",
+          "token": "Quick Zone Populations.zaksjob",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "zaksjob",
+          "target_qualified_name": "Quick Zone Populations.zaksjob"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "hammock",
+      "raw_text": "1,hammock",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "set of scales",
+      "raw_text": "1,set of scales",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pipe, pouch of pipeweed",
+      "raw_text": "1,pipe, pouch of pipeweed",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "10 foot pole",
+      "raw_text": "1,10 foot pole",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[wineskin]",
+      "raw_text": "1,[wineskin]",
+      "references": [
+        {
+          "raw": "[wineskin]",
+          "token": "wineskin",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "wineskin",
+          "target_qualified_name": "Starting Equipment.wineskin"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "writing-book, ink, pens",
+      "raw_text": "1,writing-book, ink, pens",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "cook pot",
+      "raw_text": "1,cook pot",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "holy symbol",
+      "raw_text": "1,holy symbol",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "spyglass",
+      "raw_text": "1,spyglass",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "crowbar",
+      "raw_text": "1,crowbar",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "book: [FantasyBooks.main]",
+      "raw_text": "1,book: [FantasyBooks.main]",
+      "references": [
+        {
+          "raw": "[FantasyBooks.main]",
+          "token": "FantasyBooks.main",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk",
+          "target_page": "FantasyBooks",
+          "target_subtable": "main",
+          "target_qualified_name": "FantasyBooks.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "wineskin"
+    ],
+    "external_subtables": [
+      "FantasyBooks.main",
+      "Quick Zone Populations.domestic-animal",
+      "Quick Zone Populations.zaksjob"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";junk\n1,[Quick Zone Populations.domestic-animal]\n1,grappling hook\n1,fishing net\n1,[Quick Zone Populations.zaksjob] disguise\n1,hammock\n1,set of scales\n1,pipe, pouch of pipeweed\n1,10 foot pole\n1,[wineskin]\n1,writing-book, ink, pens\n1,cook pot\n1,holy symbol\n1,spyglass\n1,crowbar\n1,book: [FantasyBooks.main]",
+  "warnings": []
+}

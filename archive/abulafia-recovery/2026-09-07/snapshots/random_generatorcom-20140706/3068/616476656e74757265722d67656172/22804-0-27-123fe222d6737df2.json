@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "123fe222d6737df23949973b6a79feb1c783ca0ead8a9138c16176dea8c611b2",
+      "revisionId": "22804",
+      "line": 27,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "adventurer-gear",
+    "qualified_name": "Starting Equipment.adventurer-gear",
+    "table_block_index": 0,
+    "line_number": 27
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[clothes]<br />[maybearmor]<br />[maybemeleeweapon]<br />[mayberangedweapon]<br />[rations]<br />[maybe-junk1]<br />[maybe-junk2]<br />[maybequirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+      "raw_text": "1,[clothes]<br />[maybearmor]<br />[maybemeleeweapon]<br />[mayberangedweapon]<br />[rations]<br />[maybe-junk1]<br />[maybe-junk2]<br />[maybequirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+      "references": [
+        {
+          "raw": "[clothes]",
+          "token": "clothes",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "clothes",
+          "target_qualified_name": "Starting Equipment.clothes"
+        },
+        {
+          "raw": "[maybearmor]",
+          "token": "maybearmor",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybearmor",
+          "target_qualified_name": "Starting Equipment.maybearmor"
+        },
+        {
+          "raw": "[maybemeleeweapon]",
+          "token": "maybemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybemeleeweapon",
+          "target_qualified_name": "Starting Equipment.maybemeleeweapon"
+        },
+        {
+          "raw": "[mayberangedweapon]",
+          "token": "mayberangedweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "mayberangedweapon",
+          "target_qualified_name": "Starting Equipment.mayberangedweapon"
+        },
+        {
+          "raw": "[rations]",
+          "token": "rations",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rations",
+          "target_qualified_name": "Starting Equipment.rations"
+        },
+        {
+          "raw": "[maybe-junk1]",
+          "token": "maybe-junk1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybe-junk1",
+          "target_qualified_name": "Starting Equipment.maybe-junk1"
+        },
+        {
+          "raw": "[maybe-junk2]",
+          "token": "maybe-junk2",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybe-junk2",
+          "target_qualified_name": "Starting Equipment.maybe-junk2"
+        },
+        {
+          "raw": "[maybequirk]",
+          "token": "maybequirk",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybequirk",
+          "target_qualified_name": "Starting Equipment.maybequirk"
+        },
+        {
+          "raw": "[blank]",
+          "token": "blank",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "blank",
+          "target_qualified_name": "Starting Equipment.blank"
+        },
+        {
+          "raw": "[light]",
+          "token": "light",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "light",
+          "target_qualified_name": "Starting Equipment.light"
+        },
+        {
+          "raw": "[rope]",
+          "token": "rope",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rope",
+          "target_qualified_name": "Starting Equipment.rope"
+        },
+        {
+          "raw": "[wealth]",
+          "token": "wealth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventurer-gear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "wealth",
+          "target_qualified_name": "Starting Equipment.wealth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "blank",
+      "clothes",
+      "light",
+      "maybe-junk1",
+      "maybe-junk2",
+      "maybearmor",
+      "maybemeleeweapon",
+      "maybequirk",
+      "mayberangedweapon",
+      "rations",
+      "rope",
+      "wealth"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";adventurer-gear\n1,[clothes]<br />[maybearmor]<br />[maybemeleeweapon]<br />[mayberangedweapon]<br />[rations]<br />[maybe-junk1]<br />[maybe-junk2]<br />[maybequirk]<br />[blank]<br />[light]<br />[rope]<br />[wealth]",
+  "warnings": []
+}

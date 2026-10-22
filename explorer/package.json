@@ -4,10 +4,10 @@
   "private": true,
   "description": "Optional development checks for the browser-only Table Atlas.",
   "scripts": {
-    "test": "node --test tests/model.test.cjs tests/table-data.test.cjs tests/wiki-import.test.cjs tests/wiki-runtime.test.cjs tests/wiki-expressions.test.cjs tests/imported-data.test.cjs tests/macro-inventory.test.cjs tests/quarantine-report.test.cjs tests/wayback.test.cjs tests/backup-comparison.test.cjs tests/backup-inventory.test.cjs",
+    "test": "node --test tests/model.test.cjs tests/table-data.test.cjs tests/wiki-import.test.cjs tests/wiki-runtime.test.cjs tests/wiki-expressions.test.cjs tests/imported-data.test.cjs tests/macro-inventory.test.cjs tests/quarantine-report.test.cjs tests/reference-problems.test.cjs tests/wayback.test.cjs tests/backup-comparison.test.cjs tests/backup-inventory.test.cjs",
     "test:macros": "node --test tests/wiki-expressions.test.cjs tests/wiki-import.test.cjs tests/wiki-runtime.test.cjs",
     "test:inventory": "node --test tests/macro-inventory.test.cjs",
-    "test:quarantine": "node --test tests/quarantine-report.test.cjs",
+    "test:quarantine": "node --test tests/quarantine-report.test.cjs tests/reference-problems.test.cjs",
     "test:wayback": "node --test tests/wayback.test.cjs",
     "check:wayback": "node tools/check-wayback.cjs",
     "test:backups": "node --test tests/backup-comparison.test.cjs tests/backup-inventory.test.cjs",

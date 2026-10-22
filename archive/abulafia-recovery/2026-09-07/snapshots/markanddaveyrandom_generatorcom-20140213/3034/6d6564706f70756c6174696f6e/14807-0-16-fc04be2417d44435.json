@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14807,
+    "timestamp": "2012-06-24T15:48:48Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "abeb00cd04689b70373a41bb49302e2a77ac21e9749934104b097aa3f958c630",
+      "rawSha256": "fc04be2417d4443589e1066c35966fbc65aad6174a38d01fb53666b74bb2ddeb",
+      "revisionId": "14807",
+      "line": 16,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "medpopulation",
+    "qualified_name": "Village.medpopulation",
+    "table_block_index": 0,
+    "line_number": 16
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "250 (noble house, tailor)",
+      "raw_text": "3,250 (noble house, tailor)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "350 (noble house, tailor, tavern)",
+      "raw_text": "2,350 (noble house, tailor, tavern)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "650 (2 noble houses, 2 tailors, tavern, mason, carpenter)",
+      "raw_text": "1,650 (2 noble houses, 2 tailors, tavern, mason, carpenter)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";medpopulation\n3,250 (noble house, tailor)\n2,350 (noble house, tailor, tavern)\n1,650 (2 noble houses, 2 tailors, tavern, mason, carpenter)",
+  "warnings": []
+}

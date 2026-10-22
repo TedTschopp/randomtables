@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 14076,
+    "timestamp": "2012-03-17T16:23:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "eec4abcedea7cb566c19f45f3620482021bea5141b749f44accaa35431dc8279",
+      "rawSha256": "94cfbf3240a09673a2c775bcb25eecc2c02f939df4a6364664d539c4cd474175",
+      "revisionId": "14076",
+      "line": 138,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "prequirk",
+    "qualified_name": "Quick Populations.prequirk",
+    "table_block_index": 0,
+    "line_number": 138
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 30,
+      "text": "",
+      "raw_text": "30,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[element]",
+      "raw_text": "1,[element] ",
+      "references": [
+        {
+          "raw": "[element]",
+          "token": "element",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "prequirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "element",
+          "target_qualified_name": "Quick Populations.element"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "spiteful",
+      "raw_text": "1,spiteful ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "disease-carrying",
+      "raw_text": "1,disease-carrying ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "skeletal",
+      "raw_text": "1,skeletal ",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "false-",
+      "raw_text": "1,false-",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "ghostly",
+      "raw_text": "1,ghostly ",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient ",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "demented",
+      "raw_text": "1,demented ",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "deranged",
+      "raw_text": "1,deranged ",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "twisted",
+      "raw_text": "1,twisted ",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "hungry",
+      "raw_text": "1,hungry ",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "angry",
+      "raw_text": "1,angry ",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "mechanical",
+      "raw_text": "1,mechanical ",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "friendly",
+      "raw_text": "1,friendly ",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "nocturnal",
+      "raw_text": "1,nocturnal ",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "vile",
+      "raw_text": "1,vile ",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 10,
+      "text": "[prequirk][prequirk]",
+      "raw_text": "10,[prequirk][prequirk]",
+      "references": [
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "prequirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        },
+        {
+          "raw": "[prequirk]",
+          "token": "prequirk",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "prequirk",
+          "target_page": "Quick Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Populations.prequirk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "element",
+      "prequirk"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";prequirk\n30,\n1,[element] \n1,spiteful \n1,disease-carrying \n1,skeletal \n1,false-\n1,ghostly \n1,ancient \n1,demented \n1,deranged \n1,twisted \n1,hungry \n1,angry \n1,mechanical \n1,friendly \n1,nocturnal \n1,vile \n10,[prequirk][prequirk]",
+  "warnings": []
+}

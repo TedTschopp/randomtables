@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15487,
+    "timestamp": "2012-11-02T08:28:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "43901c4d9ceef37ef893b60a9fbf960f6012d4097945297f9f8d7438ed5843cc",
+      "rawSha256": "634e89ee1ede702044d4ca3f72b41a8fd6bce5cbc188718bb007ab78830b8906",
+      "revisionId": "15487",
+      "line": 81,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "low-damage",
+    "qualified_name": "Curse.low-damage",
+    "table_block_index": 0,
+    "line_number": 81
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "1d4 damage",
+      "raw_text": "4,1d4 damage",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "1d6 damage",
+      "raw_text": "4,1d6 damage",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "1d8 damage",
+      "raw_text": "4,1d8 damage",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "1d6+[about-five] damage",
+      "raw_text": "3,1d6+[about-five] damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "low-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "1d8+[about-five] damage",
+      "raw_text": "2,1d8+[about-five] damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "low-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "1d10+[about-five] damage",
+      "raw_text": "2,1d10+[about-five] damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "low-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "2d6+[about-five] damage",
+      "raw_text": "1,2d6+[about-five] damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "low-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "2d8+[about-five] damage",
+      "raw_text": "1,2d8+[about-five] damage",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "low-damage",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";low-damage\n4,1d4 damage\n4,1d6 damage\n4,1d8 damage\n3,1d6+[about-five] damage\n2,1d8+[about-five] damage\n2,1d10+[about-five] damage\n1,2d6+[about-five] damage\n1,2d8+[about-five] damage",
+  "warnings": []
+}

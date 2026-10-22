@@ -7,6 +7,7 @@ const vm = require('node:vm');
 const { gzipSync } = require('node:zlib');
 const { parseFragment } = require('parse5');
 const { createExpressionCompiler } = require('./compile-wiki-expressions.cjs');
+const { prepare: prepareRecursion } = require('../../JS/wiki-recursion.js');
 
 function contributorKey(contributor) {
   if (!contributor) return null;
@@ -196,25 +197,27 @@ function corpusFingerprint(records) {
   return crypto.createHash('sha256').update(JSON.stringify(identities)).digest('hex');
 }
 
-function loadRecoveryCorpus(repoRoot, configuration, records, provenance) {
+function readRecoverySnapshot(repoRoot, relative, expectedHash) {
   const root = fs.realpathSync(repoRoot);
-  const hash = /^[a-f0-9]{64}$/;
-  function snapshot(relative, expectedHash) {
-    if (typeof relative !== 'string' || !relative.startsWith('archive/abulafia-recovery/') || relative.includes('\\') ||
-        relative.split('/').some(part => !part || part === '.' || part === '..') || !relative.endsWith('.json')) {
-      throw new Error('Invalid XML recovery source path');
-    }
-    const file = path.join(root, relative);
-    for (let current = file; current !== root; current = path.dirname(current)) {
-      if (fs.lstatSync(current).isSymbolicLink()) throw new Error('XML recovery symbolic links are not permitted');
-    }
-    if (!fs.statSync(file).isFile() || fs.statSync(file).size > 90 * 1024 * 1024) throw new Error('Invalid XML recovery source size');
-    const content = fs.readFileSync(file);
-    if (!hash.test(expectedHash) || crypto.createHash('sha256').update(content).digest('hex') !== expectedHash) {
-      throw new Error(`XML recovery source hash mismatch: ${relative}`);
-    }
-    return { sourceFile: relative, sourceHash: expectedHash, table: JSON.parse(content) };
+  if (typeof relative !== 'string' || !relative.startsWith('archive/abulafia-recovery/') || relative.includes('\\') ||
+      relative.split('/').some(part => !part || part === '.' || part === '..') || !relative.endsWith('.json')) {
+    throw new Error('Invalid XML recovery source path');
   }
+  const file = path.join(root, relative);
+  for (let current = file; current !== root; current = path.dirname(current)) {
+    if (fs.lstatSync(current).isSymbolicLink()) throw new Error('XML recovery symbolic links are not permitted');
+  }
+  if (!fs.statSync(file).isFile() || fs.statSync(file).size > 90 * 1024 * 1024) throw new Error('Invalid XML recovery source size');
+  const content = fs.readFileSync(file);
+  if (!/^[a-f0-9]{64}$/.test(expectedHash) || crypto.createHash('sha256').update(content).digest('hex') !== expectedHash) {
+    throw new Error(`XML recovery source hash mismatch: ${relative}`);
+  }
+  return { sourceFile: relative, sourceHash: expectedHash, table: JSON.parse(content) };
+}
+
+function loadRecoveryCorpus(repoRoot, configuration, records, provenance) {
+  const hash = /^[a-f0-9]{64}$/;
+  const snapshot = (relative, expectedHash) => readRecoverySnapshot(repoRoot, relative, expectedHash);
   const input = snapshot(configuration?.file, configuration?.sha256).table;
   const baselineSha256 = corpusFingerprint(records);
   if (input.schemaVersion !== 1 || input.repository !== provenance.repository || input.commit !== provenance.commit ||
@@ -226,7 +229,7 @@ function loadRecoveryCorpus(repoRoot, configuration, records, provenance) {
   const restored = [];
   for (const descriptor of input.records) {
     const current = snapshot(descriptor.sourceFile, descriptor.sourceHash);
-    const original = descriptor.originalSourceFile === descriptor.sourceFile ? current :
+    const original = descriptor.originalSourceFile === descriptor.sourceFile && descriptor.originalSourceHash === descriptor.sourceHash ? current :
       snapshot(descriptor.originalSourceFile, descriptor.originalSourceHash);
     const identifier = tableId(current.table);
     const name = current.table.subtable.qualified_name;
@@ -249,6 +252,12 @@ function loadRecoveryCorpus(repoRoot, configuration, records, provenance) {
       historical: structuredClone(historical) });
   }
   return [...records, ...restored];
+}
+
+function loadReferenceRenames(repoRoot, configuration) {
+  if (!Array.isArray(configuration) || configuration.length > 65536) throw new Error('Invalid reference rename configuration');
+  return configuration.map(correction => ({ ...correction,
+    definition: readRecoverySnapshot(repoRoot, correction.definition?.sourceFile, correction.definition?.sourceHash) }));
 }
 
 function planHistoricalImport(records, seeds, configuration, provenance) {
@@ -615,10 +624,12 @@ function materializedValues(entries, alternatives, issue) {
   return values;
 }
 
-function reviewedCorrections(configuration, provenance) {
+function reviewedCorrections(configuration, provenance, { selection } = {}) {
   const invalid = () => new Error('Reference correction batch does not match the pinned source or reviewed scope');
   if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository ||
-      configuration.commit !== provenance.commit || (configuration.followUpBatches !== undefined && !Array.isArray(configuration.followUpBatches))) {
+  configuration.commit !== provenance.commit || configuration.selection !== selection ||
+  selection !== undefined && selection !== 'all-current-with-history' ||
+  (configuration.followUpBatches !== undefined && !Array.isArray(configuration.followUpBatches))) {
     throw invalid();
   }
   const followUps = configuration.followUpBatches || [];
@@ -644,10 +655,11 @@ function reviewedCorrections(configuration, provenance) {
   return corrections;
 }
 
-function correctedRecords(plan, corrections) {
+function correctedRecords(plan, corrections, { renames = false, allRows = false, originals } = {}) {
   if (!Array.isArray(corrections) || corrections.length > 65536) throw new Error('Invalid reference correction list');
   if (!corrections.length) return plan.records;
-  const fields = ['tableId', 'sourceFile', 'sourceHash', 'row', 'entryHash', 'weight', 'raw', 'from', 'to', 'targetId', 'targetSourceHash', 'referenceCount'];
+  const fields = ['tableId', 'sourceFile', 'sourceHash', 'row', 'entryHash', 'weight', 'raw', 'from', 'to', 'targetId', 'targetSourceHash', 'referenceCount',
+    ...(renames ? ['definition'] : [])];
   const byId = new Map(plan.records.map(record => [tableId(record.table), record]));
   const byName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
   const foldedNames = new Map();
@@ -655,29 +667,64 @@ function correctedRecords(plan, corrections) {
     const folded = name.toLowerCase();
     foldedNames.set(folded, (foldedNames.get(folded) || 0) + 1);
   }
+  const compactPageName = name => name.normalize('NFKD').replace(/[^\x00-\x7F]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const compactPages = new Map();
+  const foldedPages = new Map();
+  if (allRows) for (const record of plan.records) {
+    const key = compactPageName(record.table.page.title);
+    if (!compactPages.has(key)) compactPages.set(key, new Set());
+    compactPages.get(key).add(record.table.page.page_id);
+    const folded = record.table.page.title.toLowerCase();
+    if (!foldedPages.has(folded)) foldedPages.set(folded, new Set());
+    foldedPages.get(folded).add(record.table.page.page_id);
+  }
   const grouped = new Map();
   const digest = text => crypto.createHash('sha256').update(text).digest('hex');
   for (const correction of corrections) {
-    if (!correction || Object.keys(correction).length !== fields.length || fields.some(field => !Object.hasOwn(correction, field))) {
+    const hasPageAlias = allRows && Object.hasOwn(correction || {}, 'pageAlias');
+    const expectedFields = hasPageAlias ? [...fields, 'pageAlias'] : fields;
+    if (!correction || Object.keys(correction).length !== expectedFields.length || expectedFields.some(field => !Object.hasOwn(correction, field))) {
       throw new Error('Invalid reference correction fields');
     }
     const source = byId.get(correction.tableId);
     const target = byId.get(correction.targetId);
     if (!source || !target) throw new Error('Reference correction tables must already be in the selected import');
+    if (allRows && [...(source.referenceCorrections || []), ...(source.referenceRenames || [])]
+      .some(previous => previous.row === correction.row && previous.raw === correction.raw)) {
+      throw new Error('Duplicate reference correction: source token is already corrected');
+    }
     if (!/^[a-f0-9]{64}$/.test(correction.sourceHash) || source.sourceHash !== correction.sourceHash || source.sourceFile !== correction.sourceFile) {
       throw new Error(`Stale reference correction source: ${correction.tableId}`);
     }
     if (!/^[a-f0-9]{64}$/.test(correction.targetSourceHash) || target.sourceHash !== correction.targetSourceHash) {
       throw new Error(`Stale reference correction target: ${correction.targetId}`);
     }
-    if (typeof correction.from !== 'string' || typeof correction.to !== 'string' || correction.from === correction.to ||
-        correction.to !== target.table.subtable.qualified_name || correction.from.toLowerCase() !== correction.to.toLowerCase() ||
-        byName.has(correction.from) || foldedNames.get(correction.to.toLowerCase()) !== 1) {
+    const tokenCaseOnly = allRows && correction.from === correction.to;
+    if (typeof correction.from !== 'string' || typeof correction.to !== 'string' ||
+      !tokenCaseOnly && (correction.from === correction.to || byName.has(correction.from)) ||
+      correction.to !== target.table.subtable.qualified_name ||
+        !renames && (correction.from.toLowerCase() !== correction.to.toLowerCase() || !tokenCaseOnly && foldedNames.get(correction.to.toLowerCase()) !== 1)) {
       throw new Error('Reference corrections require a missing name and one unique case-only target');
     }
-    const entry = Number.isSafeInteger(correction.row) && correction.row > 0 ? source.table.entries[correction.row - 1] : null;
+    if (renames) {
+      const definition = correction.definition;
+      const historical = definition?.table;
+      const leaf = table => !table.warnings?.length && table.entries.some(entry => entry.weight > 0) &&
+        table.entries.filter(entry => entry.weight > 0).every(entry => Number.isSafeInteger(entry.weight) &&
+          !entry.references.length && !/[{}\[\]<>]/.test(entry.text));
+      const rows = table => JSON.stringify(table.entries.map(entry => [entry.weight, entry.text]));
+      if (!historical || typeof definition.sourceFile !== 'string' || !definition.sourceFile.startsWith('archive/abulafia-recovery/') ||
+          !/^[a-f0-9]{64}$/.test(definition.sourceHash) || tableId(historical) !== tableId(target.table) ||
+          historical.subtable.qualified_name !== correction.from || historical.page.title === target.table.page.title ||
+          historical.subtable.name !== target.table.subtable.name || typeof historical.raw_source !== 'string' ||
+          historical.raw_source !== target.table.raw_source || rows(historical) !== rows(target.table) || !leaf(historical) || !leaf(target.table)) {
+        throw new Error('Reference rename requires the identical source-backed leaf definition and table identity');
+      }
+    }
+    const evidence = originals?.get(correction.tableId) || source;
+    const entry = Number.isSafeInteger(correction.row) && correction.row > 0 ? evidence.table.entries[correction.row - 1] : null;
     if (!entry || typeof entry.text !== 'string' || digest(entry.text) !== correction.entryHash ||
-        !Number.isSafeInteger(correction.weight) || correction.weight <= 0 || correction.weight !== entry.weight) {
+      !Number.isSafeInteger(correction.weight) || correction.weight < 0 || !allRows && correction.weight === 0 || correction.weight !== entry.weight) {
       throw new Error(`Stale or nonselectable reference correction row: ${correction.tableId}:${correction.row}`);
     }
     if (typeof correction.raw !== 'string' || !/^\[[^\[\]\r\n]+\]$/.test(correction.raw) || !entry.text.includes(correction.raw)) {
@@ -686,13 +733,35 @@ function correctedRecords(plan, corrections) {
     const references = entry.references.filter(reference => reference.raw === correction.raw);
     if (!Number.isSafeInteger(correction.referenceCount) || correction.referenceCount <= 0 || references.length !== correction.referenceCount ||
         references.some(reference => reference.target_qualified_name !== correction.from || reference.raw !== `[${reference.token}]` ||
-          !['local', 'cross_page'].includes(reference.kind))) {
+          !(renames || allRows ? ['local', 'cross_page', 'unresolved_cross_page'] : ['local', 'cross_page']).includes(reference.kind))) {
       throw new Error('Reference correction does not match exact supported source references');
     }
-    const spellings = [target.table.subtable.name, target.table.subtable.qualified_name, target.table.page.title];
-    if (references.some(reference => typeof reference.token !== 'string' ||
-        !spellings.some(name => reference.token.toLowerCase() === name.toLowerCase()))) {
+    const spellingTable = renames ? correction.definition.table : target.table;
+    const spellings = [spellingTable.subtable.name, spellingTable.subtable.qualified_name, spellingTable.page.title];
+    const exactSubtableSuffix = `.${target.table.subtable.name}`;
+    if (!renames && foldedNames.get(correction.to.toLowerCase()) !== 1 &&
+        (!tokenCaseOnly || foldedPages.get(target.table.page.title.toLowerCase())?.size !== 1 ||
+          references.some(reference => reference.kind !== 'cross_page' || reference.target_page !== target.table.page.title ||
+            reference.target_subtable !== target.table.subtable.name || typeof reference.token !== 'string' ||
+            !reference.token.endsWith(exactSubtableSuffix) ||
+            reference.token.slice(0, -exactSubtableSuffix.length).toLowerCase() !== target.table.page.title.toLowerCase()))) {
+      throw new Error('Reference corrections require one unique case-only target or an exact subtable with an unambiguous page name');
+    }
+    if (hasPageAlias && (tokenCaseOnly || typeof correction.pageAlias !== 'string' || !/^[a-zA-Z0-9]+$/.test(correction.pageAlias) ||
+      compactPageName(correction.pageAlias) !== compactPageName(target.table.page.title) ||
+      compactPages.get(compactPageName(correction.pageAlias))?.size !== 1 ||
+      references.some(reference => reference.kind !== 'cross_page' || reference.target_page !== target.table.page.title ||
+        typeof reference.target_subtable !== 'string' || reference.target_subtable.toLowerCase() !== target.table.subtable.name.toLowerCase() ||
+        reference.target_qualified_name !== `${reference.target_page}.${reference.target_subtable}` ||
+        reference.token !== `${correction.pageAlias}.${reference.target_subtable}`))) {
+      throw new Error('Reference correction page alias requires exact source metadata and one unique compact page identity');
+    }
+    if (references.some(reference => typeof reference.token !== 'string' || tokenCaseOnly && spellings.includes(reference.token) ||
+      !hasPageAlias && !spellings.some(name => renames ? reference.token === name : reference.token.toLowerCase() === name.toLowerCase()))) {
       throw new Error('Reference correction requires a case-only source token');
+    }
+    if (allRows && source.table.entries[correction.row - 1]?.references.filter(reference => reference.raw === correction.raw).length !== correction.referenceCount) {
+      throw new Error('Reference correction token changed during an earlier projection');
     }
     if (!grouped.has(correction.tableId)) grouped.set(correction.tableId, new Map());
     const rows = grouped.get(correction.tableId);
@@ -715,6 +784,7 @@ function correctedRecords(plan, corrections) {
           if (!correction) return reference;
           const target = byId.get(correction.targetId).table;
           return { ...reference, raw: `[${correction.to}]`, token: correction.to,
+            ...(renames || allRows ? { kind: 'cross_page' } : {}),
             target_page: target.page.title, target_subtable: target.subtable.name, target_qualified_name: correction.to };
         })
       };
@@ -723,20 +793,33 @@ function correctedRecords(plan, corrections) {
     const dependencies = record.table.dependencies ? { ...record.table.dependencies,
       unresolved: (record.table.dependencies.unresolved || []).filter(name => !correctedNames.has(name) ||
         entries.some(entry => entry.weight !== 0 && entry.references.some(reference => reference.target_qualified_name === name))) } : undefined;
-    return { ...record, table: { ...record.table, entries, ...(dependencies ? { dependencies } : {}) }, referenceCorrections: applied };
+    const metadata = renames ? { referenceRenames: applied.map(({ definition, ...correction }) => ({ ...correction,
+      definition: { sourceFile: definition.sourceFile, sourceHash: definition.sourceHash, revision: definition.table.source.revision_id } })) } :
+      { referenceCorrections: [...(record.referenceCorrections || []), ...applied] };
+    return { ...record, table: { ...record.table, entries, ...(dependencies ? { dependencies } : {}) }, ...metadata };
   });
 }
 
 function reviewedSourceCorrections(configuration, provenance) {
-  const corrections = configuration?.corrections;
-  const basis = configuration?.basis;
+  const invalid = () => new Error('Source correction batch does not match the pinned source or reviewed scope');
   if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository || configuration.commit !== provenance.commit ||
-      !Array.isArray(corrections) || !corrections.length || corrections.length > 65536 ||
-      corrections.some(correction => !correction || typeof correction.tableId !== 'string') ||
-      new Set(corrections.map(correction => correction.tableId)).size !== corrections.length || corrections.length !== basis?.candidateComponents ||
-      !/^[a-f0-9]{64}$/.test(basis?.reportSha256) || !/^[a-f0-9]{64}$/.test(basis?.manifestSha256) ||
-      !Number.isSafeInteger(basis?.conditionalEstimate) || basis.conditionalEstimate < 0) {
-    throw new Error('Source correction batch does not match the pinned source or reviewed scope');
+      (configuration.followUpBatches !== undefined && !Array.isArray(configuration.followUpBatches))) throw invalid();
+  const followUps = configuration.followUpBatches || [];
+  if (followUps.length > 65536 || followUps.some(batch => !batch || Object.keys(batch).length !== 2 || !batch.basis || !batch.corrections)) throw invalid();
+  const corrections = [];
+  const seen = new Set();
+  for (const batch of [configuration, ...followUps]) {
+    const records = batch.corrections;
+    const basis = batch.basis;
+    if (!Array.isArray(records) || !records.length || corrections.length + records.length > 65536 ||
+        records.some(correction => !correction || typeof correction.tableId !== 'string') || records.length !== basis?.candidateComponents ||
+        !/^[a-f0-9]{64}$/.test(basis?.reportSha256) || !/^[a-f0-9]{64}$/.test(basis?.manifestSha256) ||
+        !Number.isSafeInteger(basis?.conditionalEstimate) || basis.conditionalEstimate < 0) throw invalid();
+    for (const correction of records) {
+      if (seen.has(correction.tableId)) throw invalid();
+      seen.add(correction.tableId);
+      corrections.push(correction);
+    }
   }
   return corrections;
 }
@@ -751,7 +834,8 @@ function recoveredRecords(plan, corrections) {
   for (const correction of corrections) {
     const common = ['tableId', 'sourceFile', 'sourceHash', 'rawSourceHash', 'kind'];
     const fields = correction?.kind === 'recover-empty-semicolon-table' ? [...common, 'rows'] : correction?.kind === 'restore-trailing-space' ?
-      [...common, 'row', 'line', 'raw', 'weight', 'entryHash', 'noteLine', 'note', 'warning'] : [];
+      [...common, 'row', 'line', 'raw', 'weight', 'entryHash', 'noteLine', 'note', 'warning'] : correction?.kind === 'repair-extra-self-reference-bracket' ?
+      [...common, 'row', 'line', 'raw', 'weight', 'entryHash'] : [];
     if (!fields.length || !exactFields(correction, fields)) throw new Error('Invalid source correction fields');
     const record = byId.get(correction.tableId);
     if (!record || recovered.has(correction.tableId)) throw new Error('Source correction must identify one selected table exactly once');
@@ -788,6 +872,20 @@ function recoveredRecords(plan, corrections) {
         recoveredEntrySources.push({ line: row.line, raw: row.raw });
         return { index, weight: row.weight, text: row.text, raw_text: row.raw, references: [] };
       });
+    } else if (correction.kind === 'repair-extra-self-reference-bracket') {
+      verifyLine(correction.line, correction.raw);
+      const entry = Number.isSafeInteger(correction.row) && correction.row > 0 ? source.entries[correction.row - 1] : null;
+      const name = source.subtable.name;
+      if (!entry || !Number.isSafeInteger(correction.weight) || correction.weight <= 0 || entry.weight !== correction.weight ||
+          digest(entry.text) !== correction.entryHash || entry.raw_text !== correction.raw || correction.raw !== `${entry.weight},${entry.text}` ||
+          !/^[^\[\]\r\n]+$/.test(name) || entry.references.length) throw new Error('Stale source correction entry, weight, or self-reference');
+      const parts = entry.text.split(`[${name}]]`);
+      if (parts.length !== 2 || /[{}\[\]<>]/.test(parts.join(''))) throw new Error('Source correction requires one isolated extra self-reference bracket');
+      const raw = `[${name}]`;
+      const reference = { raw, token: name, kind: 'local', target_page: source.page.title,
+        target_subtable: name, target_qualified_name: source.subtable.qualified_name };
+      entries = source.entries.map((original, index) => index === correction.row - 1 ?
+        { ...original, text: parts.join(raw), references: [reference] } : original);
     } else {
       verifyLine(correction.line, correction.raw);
       verifyLine(correction.noteLine, correction.note);
@@ -808,21 +906,65 @@ function recoveredRecords(plan, corrections) {
   return plan.records.map(record => recovered.get(tableId(record.table)) || record);
 }
 
-function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [], sourceCorrections = [] } = {}) {
+function reviewedRecursionPolicies(configuration, provenance) {
+  if (!configuration || configuration.schemaVersion !== 1 || configuration.repository !== provenance.repository ||
+      configuration.commit !== provenance.commit || !Array.isArray(configuration.policies) || !configuration.policies.length ||
+      configuration.policies.length > 65536 || configuration.policies.some(policy => !policy || typeof policy.tableId !== 'string') ||
+      new Set(configuration.policies.map(policy => policy.tableId)).size !== configuration.policies.length ||
+      configuration.policies.length !== configuration.basis?.candidateTables ||
+      !/^[a-f0-9]{64}$/.test(configuration.basis?.reportSha256) || !/^[a-f0-9]{64}$/.test(configuration.basis?.manifestSha256)) {
+    throw new Error('Recursion policy approval does not match the pinned source or reviewed scope');
+  }
+  return configuration.policies;
+}
+
+function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpressions = false, referenceCorrections = [], sourceCorrections = [], referenceRenames = [], recoveryReferenceCorrections = [], allCaseReferenceCorrections = [], recursionPolicies = [] } = {}) {
+  if (!Array.isArray(recursionPolicies) || recursionPolicies.length && !runtimeExpressions) throw new Error('Recursion policies require the wiki results engine');
+  if (!Array.isArray(recoveryReferenceCorrections) || recoveryReferenceCorrections.length && !plan.recovery) {
+    throw new Error('Recovery reference corrections require the explicit historical recovery scope');
+  }
+  if (!Array.isArray(allCaseReferenceCorrections) || allCaseReferenceCorrections.length &&
+      (!plan.recovery || plan.selection !== 'all-current-with-history')) {
+    throw new Error('All-row case corrections require the full current-and-historical scope');
+  }
   const occupied = new Set(existingIds);
   const originalByName = new Map(plan.records.map(record => [record.table.subtable.qualified_name, record]));
+  const originalsById = new Map(plan.records.map(record => [tableId(record.table), record]));
+  const policiesById = new Map();
+  for (const policy of recursionPolicies) {
+    const source = originalsById.get(policy?.tableId);
+    const fields = ['tableId', 'sourceFile', 'sourceHash', 'rawSourceHash', 'row', 'line', 'raw', 'entryHash', 'weight', 'kind', 'maxDepth'];
+    const entry = source?.table.entries[policy.row - 1];
+    const digest = text => crypto.createHash('sha256').update(text).digest('hex');
+    if (!source || Object.keys(policy).sort().join(',') !== fields.sort().join(',') || policiesById.has(policy.tableId) ||
+        !['unique-pair', 'bounded-wrapper'].includes(policy.kind) || policy.maxDepth !== 1 ||
+        source.sourceFile !== policy.sourceFile || source.sourceHash !== policy.sourceHash ||
+        typeof source.table.raw_source !== 'string' || digest(source.table.raw_source) !== policy.rawSourceHash ||
+        !Number.isSafeInteger(policy.row) || policy.row < 1 || !entry ||
+        !Number.isSafeInteger(policy.line) || policy.line < 2 || source.table.raw_source.split('\n')[policy.line - 1] !== policy.raw ||
+        policy.raw !== entry.raw_text || policy.raw !== `${entry.weight},${entry.text}` ||
+        !Number.isSafeInteger(entry.weight) || entry.weight <= 0 || entry.weight !== policy.weight || digest(entry.text) !== policy.entryHash) {
+      throw new Error(`Stale or invalid recursion policy source binding: ${policy?.tableId}`);
+    }
+    policiesById.set(policy.tableId, structuredClone(policy));
+  }
   const recovered = recoveredRecords(plan, sourceCorrections);
   const correctionScope = plan.recovery ? recovered.filter(record => !record.historical) : recovered;
   const corrected = new Map(correctedRecords({ ...plan, records: correctionScope }, referenceCorrections)
     .map(record => [tableId(record.table), record]));
-  const records = recovered.map(record => corrected.get(tableId(record.table)) || record);
+  const recoveryCorrected = correctedRecords({ ...plan, records: recovered.map(record => corrected.get(tableId(record.table)) || record) },
+    recoveryReferenceCorrections);
+  const renamed = correctedRecords({ ...plan, records: recoveryCorrected }, referenceRenames, { renames: true });
+  const records = correctedRecords({ ...plan, records: renamed }, allCaseReferenceCorrections, { allRows: true, originals: originalsById });
+  const approvedInactiveTargets = new Set(allCaseReferenceCorrections.filter(correction => correction.weight === 0)
+    .map(correction => JSON.stringify([correction.tableId, correction.row, correction.targetId])));
   const byName = new Map(records.map(record => [record.table.subtable.qualified_name, record]));
   const identifiers = new Map();
   const labels = Object.create(null);
   const materialized = new Map();
   const possessiveChoices = possessiveCompiler(byName);
   const compactExpression = compactCompiler(byName);
-  const extendedExpression = createExpressionCompiler(byName, { tableId, inertText, escapeText });
+  const extendedExpression = createExpressionCompiler(byName, { tableId, inertText, escapeText, recursionPolicies: policiesById });
   const compactEntries = new WeakMap();
   const extendedEntries = new WeakMap();
   const runtimeTables = new Set();
@@ -888,7 +1030,8 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       for (const reference of entry.references) {
         const name = reference.target_qualified_name;
         const targetRecord = byName.get(name);
-        const preserveInactive = plan.recovery && !record.historical && entry.weight === 0 && targetRecord?.historical;
+        const preserveInactive = plan.recovery && !record.historical && entry.weight === 0 && targetRecord?.historical &&
+          !approvedInactiveTargets.has(JSON.stringify([tableId(source), index + 1, tableId(targetRecord.table)]));
         const target = preserveInactive ? undefined : targetRecord?.table;
         let identifier = preserveInactive ? undefined : identifiers.get(name);
         if (!identifier) {
@@ -956,7 +1099,9 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       } } : {}),
       status: issues.length ? 'blocked' : 'ready', issues, entries, totalWeight,
       ...(record.referenceCorrections ? { referenceCorrections: record.referenceCorrections } : {}),
+      ...(record.referenceRenames ? { referenceRenames: record.referenceRenames } : {}),
       ...(record.sourceCorrections ? { sourceCorrections: record.sourceCorrections } : {}),
+      ...(policiesById.has(tableId(source)) ? { recursionApproval: policiesById.get(tableId(source)) } : {}),
       dependencies: [...new Set(entries.filter(entry => entry.weight > 0).flatMap(entry => entry.references))]
     };
   });
@@ -964,6 +1109,21 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
   const byId = new Map(tables.map(table => [table.id, table]));
   const visited = new Map();
   const costs = new Map();
+  function recursionView(table) {
+    if (!table) return undefined;
+    let cursor = 0;
+    const values = materialized.get(table.id);
+    const rows = table.program || !values ? table.entries.flatMap((entry, index) => {
+      const start = cursor + 1;
+      cursor += entry.weight;
+      return entry.weight > 0 ? [{ start, end: cursor, row: index + 1,
+        value: table.program ? entry.text : escapeText(entry.text), ...(table.program ? { parts: table.program[index] } : {}) }] : [];
+    }) : Object.entries(values).map(([key, value], index) => {
+      const [start, end] = Array.isArray(values) ? [index + 1, index + 1] : key.split('-').map(Number);
+      return { start, end: end || start, row: index + 1, value };
+    });
+    return { id: table.id, status: table.status, rows, ...(table.recursion ? { recursion: table.recursion } : {}) };
+  }
   function buildProgram(table) {
     const source = byName.get(table.name).table;
     function reject(code, detail) { throw new Error(detail); }
@@ -1003,6 +1163,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
     if (depth > 32) table.issues.push({ code: 'expansion_limit', detail: 'Dependency depth exceeds the browser safety limit' });
     if (depth <= 32) {
       for (const dependency of table.dependencies) {
+        if (dependency === table.id && policiesById.has(table.id)) continue;
         const target = byId.get(dependency);
         if (!target) continue;
         assess(target, depth + 1);
@@ -1010,6 +1171,8 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
         if (target.execution === 'wiki') runtimeTables.add(table.id);
       }
     }
+    const policy = policiesById.get(table.id);
+    if (policy) runtimeTables.add(table.id);
     if (runtimeTables.has(table.id) && !table.issues.length) {
       try {
         table.program = buildProgram(table);
@@ -1037,6 +1200,18 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
       maxLength = Math.max(maxLength, length);
       maxDepth = Math.max(maxDepth, entryDepth);
     }
+    if (policy && !table.issues.length) {
+      try {
+        const recursion = { kind: policy.kind, row: policy.row, maxDepth: policy.maxDepth };
+        const bounded = prepareRecursion({ ...recursionView(table), recursion }, identifier => recursionView(byId.get(identifier)));
+        table.recursion = recursion;
+        maxCalls = Math.max(maxCalls, bounded.cost.calls);
+        maxLength = Math.max(maxLength, bounded.cost.length);
+        maxDepth = Math.max(maxDepth, bounded.cost.depth);
+      } catch (error) {
+        table.issues.push({ code: 'recursion_policy', detail: error.message });
+      }
+    }
     if (maxCalls > 512 || maxLength > 32768 || maxDepth > 32) {
       table.issues.push({ code: 'expansion_limit', detail: 'Worst-case expansion exceeds the browser safety limit' });
     }
@@ -1044,6 +1219,7 @@ function compileImport(plan, { existingIds = [], aliases = {}, runtimeExpression
     if (table.status === 'blocked') {
       delete table.program;
       delete table.execution;
+      delete table.recursion;
     }
     costs.set(table.id, { calls: Math.min(maxCalls, 513), length: Math.min(maxLength, 32769), depth: Math.min(maxDepth, 33) });
     visited.set(table.id, 2);
@@ -1180,8 +1356,9 @@ function writeArtifacts(outputRoot, artifacts) {
 
 function main() {
   const { values } = parseArgs({ options: { source: { type: 'string' }, write: { type: 'boolean', default: false },
-    'all-current': { type: 'boolean', default: false } } });
+    'all-current': { type: 'boolean', default: false }, 'recover-history': { type: 'boolean', default: false } } });
   if (!values.source) throw new Error('Supply --source with the path to a clean wiki-dump checkout');
+  if (values['recover-history'] && !values['all-current']) throw new Error('Historical recovery requires --all-current');
   const sourceRoot = fs.realpathSync(values.source);
   const repository = 'https://github.com/TedTschopp/random-generator-com-wiki-dump';
   const commit = execFileSync('git', ['-C', sourceRoot, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
@@ -1206,19 +1383,38 @@ function main() {
   const referenceCorrections = reviewedCorrections(correctionBatch, { repository, commit });
   const sourceBatch = JSON.parse(fs.readFileSync(path.join(repo, 'explorer/tools/source-extraction-corrections.json'), 'utf8'));
   const sourceCorrections = reviewedSourceCorrections(sourceBatch, { repository, commit });
-  const plan = planImport(loadCorpus(sourceRoot), seeds, { allCurrent: values['all-current'] });
+  let records = loadCorpus(sourceRoot, { includeHistorical: values['recover-history'] });
+  const recovery = values['recover-history'] ? JSON.parse(fs.readFileSync(path.join(__dirname, 'historical-recovery.json'), 'utf8')) : null;
+  if (recovery?.xml) records = loadRecoveryCorpus(repo, recovery.xml, records, { repository, commit });
+  const plan = recovery ? planHistoricalImport(records, seeds, recovery, { repository, commit }) :
+    planImport(records, seeds, { allCurrent: values['all-current'] });
+  const referenceRenames = recovery ? loadReferenceRenames(repo, recovery.referenceRenames || []) : [];
+  const recoveryReferenceCorrections = recovery ? reviewedCorrections(
+    JSON.parse(fs.readFileSync(path.join(__dirname, 'recovery-case-corrections.json'), 'utf8')),
+    { repository, commit }, { selection: plan.selection }) : [];
+  const allCaseReferenceCorrections = recovery ? reviewedCorrections(
+    JSON.parse(fs.readFileSync(path.join(__dirname, 'all-case-reference-corrections.json'), 'utf8')),
+    { repository, commit }, { selection: plan.selection }) : [];
+  const selectedIds = new Set(plan.records.map(record => tableId(record.table)));
+  const recursionPolicies = reviewedRecursionPolicies(
+    JSON.parse(fs.readFileSync(path.join(__dirname, 'recursion-policies.json'), 'utf8')), { repository, commit })
+    .filter(policy => selectedIds.has(policy.tableId));
   const bundle = compileImport(plan, { existingIds: Object.keys(runtime.gen_data), aliases, runtimeExpressions: true,
-    referenceCorrections, sourceCorrections });
+    referenceCorrections, sourceCorrections, referenceRenames, recoveryReferenceCorrections, allCaseReferenceCorrections, recursionPolicies });
   const artifacts = buildArtifacts(plan, bundle, { repository, commit }, seeds);
   const manifest = JSON.parse(artifacts.get('tables/abulafia/manifest.json'));
   const written = values.write ? writeArtifacts(repo, artifacts) : 0;
   console.log(JSON.stringify({ mode: values.write ? 'write' : 'dry-run', commit, ...manifest.summary,
     aliases, referenceCorrections: referenceCorrections.length, correctedTables: new Set(referenceCorrections.map(correction => correction.tableId)).size,
-    sourceCorrections: sourceCorrections.length,
+    sourceCorrections: sourceCorrections.length, recursionPolicies: recursionPolicies.length, ...(recovery ? { referenceRenames: referenceRenames.length,
+      recoveryReferenceCorrections: recoveryReferenceCorrections.length,
+      recoveryCorrectedTables: new Set(recoveryReferenceCorrections.map(correction => correction.tableId)).size,
+      allCaseReferenceCorrections: allCaseReferenceCorrections.length,
+      allCaseCorrectedTables: new Set(allCaseReferenceCorrections.map(correction => correction.tableId)).size } : {}),
     files: artifacts.size, bytes: [...artifacts.values()].reduce((total, content) => total + Buffer.byteLength(content), 0), written }, null, 2));
 }
 
-module.exports = { buildArtifacts, compileImport, contributorKey, corpusFingerprint, loadCorpus, loadRecoveryCorpus, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts };
+module.exports = { buildArtifacts, compileImport, contributorKey, corpusFingerprint, loadCorpus, loadRecoveryCorpus, loadReferenceRenames, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, reviewedRecursionPolicies, tableId, writeArtifacts };
 
 if (require.main === module) {
   try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
-const { scanExpressions, summarizeTables, unparsedExpressions, loadLocalTables, requirementsFor, runtimeSupport, renderMarkdown } = require('../tools/inventory-macros.cjs');
+const { scanExpressions, summarizeTables, unparsedExpressions, loadLocalTables, inventoryTableSets, requirementsFor, runtimeSupport, renderMarkdown } = require('../tools/inventory-macros.cjs');
 
 test('macro inventory finds outer and nested calls without counting ordinary references or parameters', () => {
   const result = scanExpressions('{legacy_table} {{lcfirst:{{ia|[adjective]}}}} {{#if:{{{value|}}}|{{po|Fred}}|none}}');
@@ -91,6 +91,37 @@ test('local collection preserves shadowed and unloaded definitions without scann
   assert.equal(result.jsonFiles, 1);
   assert.equal(result.wordlists.length, 1);
   assert.ok(!result.files.includes('Docs/macro-inventory.json'));
+});
+
+test('inventory separates current membership from imported history without omitting catalog blockers', () => {
+  const { tableId } = require('../tools/import-abulafia.cjs');
+  function record(name, historical = false) {
+    return { sourceFile: `tables/${name}/table.json`, sourceHash: name,
+      ...(historical ? { historical: { basis: 'latest-retained-definition' } } : {}),
+      table: { page: { page_id: 1, title: 'Page' }, subtable: { name, qualified_name: `Page.${name}` },
+        entries: [{ weight: 1, text: `{{po|${name}}}` }] } };
+  }
+  const current = record('current');
+  const outside = record('outside');
+  const historical = record('old', true);
+  const unused = record('unused', true);
+  const metadata = (record, status) => ({ id: tableId(record.table), name: record.table.subtable.qualified_name,
+    sourceFile: record.sourceFile, sourceHash: record.sourceHash, status,
+    ...(record.historical ? { historical: record.historical } : {}) });
+  const manifest = { summary: { tables: 2 }, tables: [metadata(current, 'ready'), metadata(historical, 'blocked')] };
+  const records = [current, historical, outside, unused];
+  const before = JSON.stringify({ manifest, records });
+  const sets = inventoryTableSets(records, manifest);
+  assert.deepEqual(sets.current.map(table => table.name), ['Page.current', 'Page.outside']);
+  assert.deepEqual(sets.historical.map(table => table.name), ['Page.old']);
+  assert.equal(sets.catalog.length, 3);
+  assert.deepEqual(summarizeTables(sets.catalog).summary.byState, { 'ready-static': 1, 'not-imported': 1, blocked: 1 });
+  assert.equal(sets.historical[0].historical, true);
+  assert.throws(() => inventoryTableSets(records.filter(record => record !== historical), manifest), /scope|missing/i);
+  const stale = structuredClone(manifest);
+  stale.tables[1].sourceHash = 'stale';
+  assert.throws(() => inventoryTableSets(records, stale), /source|hash/i);
+  assert.equal(JSON.stringify({ manifest, records }), before);
 });
 
 test('requirements group verified aliases without adding table counts or hiding unknown names', () => {

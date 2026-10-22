@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "7b47e9c053fa4dc6e2680eca0d19dc647e362ac11e89b5d1d8e3726715eda694",
+      "revisionId": "17133",
+      "line": 212,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "population",
+    "qualified_name": "Planar Codex Parish.population",
+    "table_block_index": 0,
+    "line_number": 212
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "Most of the inhabitants are [cultural-descriptor] [species-plural][species-minority]",
+      "raw_text": "3,Most of the inhabitants are [cultural-descriptor] [species-plural][species-minority]",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[species-minority]",
+          "token": "species-minority",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-minority",
+          "target_qualified_name": "Planar Codex Parish.species-minority"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "For many years, [cultural-descriptor] [species-plural] and [cultural-descriptor] [species-plural] have shared this parish",
+      "raw_text": "3,For many years, [cultural-descriptor] [species-plural] and [cultural-descriptor] [species-plural] have shared this parish",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "It is [ownership-verb] by [species-plural][species-minority]",
+      "raw_text": "3,It is [ownership-verb] by [species-plural][species-minority]",
+      "references": [
+        {
+          "raw": "[ownership-verb]",
+          "token": "ownership-verb",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "ownership-verb",
+          "target_qualified_name": "Planar Codex Parish.ownership-verb"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[species-minority]",
+          "token": "species-minority",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-minority",
+          "target_qualified_name": "Planar Codex Parish.species-minority"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [cultural-descriptor] [species-name-plural]",
+      "raw_text": "3,The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [cultural-descriptor] [species-name-plural]",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "A restive mix of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [cultural-descriptor] [species-name-plural] [ownership-verb-present-tense] this parish",
+      "raw_text": "3,A restive mix of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [cultural-descriptor] [species-name-plural] [ownership-verb-present-tense] this parish",
+      "references": [
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[ownership-verb-present-tense]",
+          "token": "ownership-verb-present-tense",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "ownership-verb-present-tense",
+          "target_qualified_name": "Planar Codex Parish.ownership-verb-present-tense"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Before the pogroms, [cultural-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain",
+      "raw_text": "1,Before the pogroms, [cultural-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain",
+      "references": [
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        },
+        {
+          "raw": "[species-descriptor]",
+          "token": "species-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-descriptor",
+          "target_qualified_name": "Planar Codex Parish.species-descriptor"
+        },
+        {
+          "raw": "[species-name-plural]",
+          "token": "species-name-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-name-plural",
+          "target_qualified_name": "Planar Codex Parish.species-name-plural"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "A[organization] of [cultural-descriptor] [species-plural] and [species-plural] [ownership-verb-present-tense] this parish",
+      "raw_text": "3,A[organization] of [cultural-descriptor] [species-plural] and [species-plural] [ownership-verb-present-tense] this parish",
+      "references": [
+        {
+          "raw": "[organization]",
+          "token": "organization",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "organization",
+          "target_qualified_name": "Planar Codex Parish.organization"
+        },
+        {
+          "raw": "[cultural-descriptor]",
+          "token": "cultural-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "cultural-descriptor",
+          "target_qualified_name": "Planar Codex Parish.cultural-descriptor"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[species-plural]",
+          "token": "species-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "species-plural",
+          "target_qualified_name": "Planar Codex Parish.species-plural"
+        },
+        {
+          "raw": "[ownership-verb-present-tense]",
+          "token": "ownership-verb-present-tense",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "population",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "ownership-verb-present-tense",
+          "target_qualified_name": "Planar Codex Parish.ownership-verb-present-tense"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cultural-descriptor",
+      "organization",
+      "ownership-verb",
+      "ownership-verb-present-tense",
+      "species-descriptor",
+      "species-minority",
+      "species-name-plural",
+      "species-plural"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";population\n3,Most of the inhabitants are [cultural-descriptor] [species-plural][species-minority]\n3,For many years, [cultural-descriptor] [species-plural] and [cultural-descriptor] [species-plural] have shared this parish\n3,It is [ownership-verb] by [species-plural][species-minority]\n3,The [species-descriptor] [species-name-plural] here have tense relations with their neighbours, the [cultural-descriptor] [species-name-plural]\n3,A restive mix of [species-descriptor] [species-name-plural], [species-descriptor] [species-name-plural], and [cultural-descriptor] [species-name-plural] [ownership-verb-present-tense] this parish\n1,Before the pogroms, [cultural-descriptor] [species-name-plural] were common here.  Today only the [species-descriptor] [species-name-plural] remain\n3,A[organization] of [cultural-descriptor] [species-plural] and [species-plural] [ownership-verb-present-tense] this parish",
+  "warnings": []
+}

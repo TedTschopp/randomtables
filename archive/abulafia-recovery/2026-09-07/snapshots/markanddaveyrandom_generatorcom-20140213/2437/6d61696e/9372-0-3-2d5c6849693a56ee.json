@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Adamrain3",
+    "page_id": 2437
+  },
+  "source": {
+    "revision_id": 9372,
+    "timestamp": "2009-07-30T11:59:29Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "da1888e1e429749c42025a6afda6dc8783d3e036cbd4aac1302127b455a48fd6",
+      "rawSha256": "2d5c6849693a56ee0ccd41e48846c847ba6bf8c05f791ffe18ddfbec428af2b6",
+      "revisionId": "9372",
+      "line": 3,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9425",
+        "timestamp": "2009-07-31T15:53:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "User:Adamrain3.main",
+    "table_block_index": 0,
+    "line_number": 3
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[bla]",
+      "raw_text": "1,[bla]",
+      "references": [
+        {
+          "raw": "[bla]",
+          "token": "bla",
+          "kind": "local",
+          "source_page": "User:Adamrain3",
+          "source_subtable": "main",
+          "target_page": "User:Adamrain3",
+          "target_subtable": "bla",
+          "target_qualified_name": "User:Adamrain3.bla"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "bla"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,[bla]",
+  "warnings": []
+}

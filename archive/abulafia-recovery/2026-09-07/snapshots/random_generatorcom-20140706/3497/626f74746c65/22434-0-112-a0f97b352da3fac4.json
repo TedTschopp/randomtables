@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 22434,
+    "timestamp": "2014-05-30T12:35:26Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "dce3afc0398fa1dcb0c294420a929813a802e84046ea3d3476d95d71844c717a",
+      "rawSha256": "a0f97b352da3fac4575781bcfc005f0c54e91b9d8ac177336ed4a784d1e854dd",
+      "revisionId": "22434",
+      "line": 112,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bottle",
+    "qualified_name": "Blazon.bottle",
+    "table_block_index": 0,
+    "line_number": 112
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bottle",
+      "raw_text": "1,bottle",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "bottle of [color] dust",
+      "raw_text": "1,bottle of [color] dust",
+      "references": [
+        {
+          "raw": "[color]",
+          "token": "color",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "bottle",
+          "target_page": "Blazon",
+          "target_subtable": "color",
+          "target_qualified_name": "Blazon.color"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "bottle of [color] liquid",
+      "raw_text": "1,bottle of [color] liquid",
+      "references": [
+        {
+          "raw": "[color]",
+          "token": "color",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "bottle",
+          "target_page": "Blazon",
+          "target_subtable": "color",
+          "target_qualified_name": "Blazon.color"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "empty bottle",
+      "raw_text": "1,empty bottle",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "color"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bottle\n1,bottle\n1,bottle of [color] dust\n1,bottle of [color] liquid\n1,empty bottle",
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "f3d5ade7c7c572dbf33f5ffc2cce1d4bd5e3b083cb5ffb26c3ed0d9919900e0d",
+      "revisionId": "20109",
+      "line": 15,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "class",
+    "qualified_name": "Stars Without Number.class",
+    "table_block_index": 0,
+    "line_number": 15
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Expert",
+      "raw_text": "1,Expert",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Warrior",
+      "raw_text": "1,Warrior",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Psychic",
+      "raw_text": "1,Psychic",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";class\n1,Expert\n1,Warrior\n1,Psychic",
+  "warnings": []
+}

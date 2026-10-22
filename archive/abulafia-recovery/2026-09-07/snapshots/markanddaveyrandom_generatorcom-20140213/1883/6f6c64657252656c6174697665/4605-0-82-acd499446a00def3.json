@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "acd499446a00def34232f75b08758734d9f14d0e8b401c5a34f91dc7f488d4cf",
+      "revisionId": "4605",
+      "line": 82,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "olderRelative",
+    "qualified_name": "Rituals.olderRelative",
+    "table_block_index": 0,
+    "line_number": 82
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "father",
+      "raw_text": "2,father",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "mother",
+      "raw_text": "2,mother",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "aunt",
+      "raw_text": "1,aunt",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "uncle",
+      "raw_text": "1,uncle",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "grandfather",
+      "raw_text": "1,grandfather",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "grandmother",
+      "raw_text": "1,grandmother",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "older brother",
+      "raw_text": "1,older brother",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "older sister",
+      "raw_text": "1,older sister",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "older sibling",
+      "raw_text": "1,older sibling",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "relative",
+      "raw_text": "1,relative",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";olderRelative\n2,father\n2,mother\n1,aunt\n1,uncle\n1,grandfather\n1,grandmother\n1,older brother\n1,older sister\n1,older sibling\n1,relative",
+  "warnings": []
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "7e19eb7d802b9fe5b4c08fa4e48b4fce58686ab9001fbdd2cd95e1bffaa36a0c",
+      "revisionId": "17133",
+      "line": 171,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish-feature-verb-plural",
+    "qualified_name": "Planar Codex Parish.parish-feature-verb-plural",
+    "table_block_index": 0,
+    "line_number": 171
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "crosscrossed with",
+      "raw_text": "1,crosscrossed with",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "riddled with",
+      "raw_text": "1,riddled with",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "famous for",
+      "raw_text": "1,famous for",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "surrounded by",
+      "raw_text": "1,surrounded by",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";parish-feature-verb-plural\n1,crosscrossed with\n1,riddled with\n1,famous for\n1,surrounded by",
+  "warnings": []
+}

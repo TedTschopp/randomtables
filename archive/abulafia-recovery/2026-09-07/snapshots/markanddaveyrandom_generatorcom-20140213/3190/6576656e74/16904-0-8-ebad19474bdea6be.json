@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16904,
+    "timestamp": "2013-02-12T01:42:50Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8dfdac3639d74d9044b271d55bd70c994e0fdbdeed936988e25307cc075b2821",
+      "rawSha256": "ebad19474bdea6be561332b5aa7e542403c3665d546a86048f299a36fe1f6045",
+      "revisionId": "16904",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "event",
+    "qualified_name": "Planar Codex Parish.event",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "Today, it's just another day",
+      "raw_text": "10,Today, it's just another day",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Today, there is an [event-name]",
+      "raw_text": "1,Today, there is an [event-name]",
+      "references": [
+        {
+          "raw": "[event-name]",
+          "token": "event-name",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "event",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "event-name",
+          "target_qualified_name": "Planar Codex Parish.event-name"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "event-name"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";event\n10,Today, it's just another day\n1,Today, there is an [event-name]",
+  "warnings": []
+}

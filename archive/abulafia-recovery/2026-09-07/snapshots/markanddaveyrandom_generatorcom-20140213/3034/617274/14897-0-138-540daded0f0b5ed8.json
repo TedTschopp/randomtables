@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14897,
+    "timestamp": "2012-06-27T14:46:51Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "242375d6cfe8458b1528d731ea5a598389652dd597bc3ed3bab99db4a0b2f6c1",
+      "rawSha256": "540daded0f0b5ed87de5db832c33dd35255a55e5368d759b4e1f7f0678926610",
+      "revisionId": "14897",
+      "line": 138,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "art",
+    "qualified_name": "Village.art",
+    "table_block_index": 0,
+    "line_number": 138
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "tile mosaic",
+      "raw_text": "1,tile mosaic",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "mural",
+      "raw_text": "1,mural",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "chalk drawing",
+      "raw_text": "1,chalk drawing",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "hall window",
+      "raw_text": "1,hall window",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "statue",
+      "raw_text": "1,statue",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";art\n1,tile mosaic\n1,mural\n1,chalk drawing\n1,hall window\n1,statue",
+  "warnings": []
+}

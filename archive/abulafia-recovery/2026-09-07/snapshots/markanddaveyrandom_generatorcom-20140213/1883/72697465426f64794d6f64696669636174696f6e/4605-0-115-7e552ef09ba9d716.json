@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "7e552ef09ba9d7168d369432e957aa20f099f84972c07519d298f6c91ec1fa99",
+      "revisionId": "4605",
+      "line": 115,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteBodyModification",
+    "qualified_name": "Rituals.riteBodyModification",
+    "table_block_index": 0,
+    "line_number": 115
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "cut off a finger",
+      "raw_text": "1,cut off a finger",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "cut off a toe",
+      "raw_text": "1,cut off a toe",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "pierce one's nose",
+      "raw_text": "1,pierce one's nose",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "pierce one's ears",
+      "raw_text": "1,pierce one's ears",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "get a particular tattoo",
+      "raw_text": "1,get a particular tattoo",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "get ritual scarring",
+      "raw_text": "1,get ritual scarring",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "completely shave all of one's hair off",
+      "raw_text": "1,completely shave all of one's hair off",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteBodyModification\n1,cut off a finger\n1,cut off a toe\n1,pierce one's nose\n1,pierce one's ears\n1,get a particular tattoo\n1,get ritual scarring\n1,completely shave all of one's hair off",
+  "warnings": []
+}

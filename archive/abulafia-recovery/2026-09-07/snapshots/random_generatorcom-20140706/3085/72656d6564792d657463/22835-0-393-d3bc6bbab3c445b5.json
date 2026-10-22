@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "d3bc6bbab3c445b5fe8467d58c98c6c7b9674c9d67ec75aea5e1beaa723ad4bb",
+      "revisionId": "22835",
+      "line": 393,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "remedy-etc",
+    "qualified_name": "Curse.remedy-etc",
+    "table_block_index": 0,
+    "line_number": 393
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "be removed with a REMOVE CURSE spell",
+      "raw_text": "4,be removed with a REMOVE CURSE spell",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "be neutralized with a NEUTRALIZE POISON spell",
+      "raw_text": "4,be neutralized with a NEUTRALIZE POISON spell",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "be cured with a CURE DISEASE spell",
+      "raw_text": "4,be cured with a CURE DISEASE spell",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "be healed with a specific herb",
+      "raw_text": "1,be healed with a specific herb",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "be healed with a specific antidote",
+      "raw_text": "1,be healed with a specific antidote",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "be removed by the one who cast it",
+      "raw_text": "1,be removed by the one who cast it",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractNegative]}}",
+      "raw_text": "1,be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractNegative]}}",
+      "references": [
+        {
+          "raw": "[Fantasy Pantheon.AbstractNegative]",
+          "token": "Fantasy Pantheon.AbstractNegative",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "remedy-etc",
+          "target_page": "Fantasy Pantheon",
+          "target_subtable": "AbstractNegative",
+          "target_qualified_name": "Fantasy Pantheon.AbstractNegative"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractPositive]}}",
+      "raw_text": "1,be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractPositive]}}",
+      "references": [
+        {
+          "raw": "[Fantasy Pantheon.AbstractPositive]",
+          "token": "Fantasy Pantheon.AbstractPositive",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "remedy-etc",
+          "target_page": "Fantasy Pantheon",
+          "target_subtable": "AbstractPositive",
+          "target_qualified_name": "Fantasy Pantheon.AbstractPositive"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Pantheon.AbstractNegative",
+      "Fantasy Pantheon.AbstractPositive"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";remedy-etc\n4,be removed with a REMOVE CURSE spell\n4,be neutralized with a NEUTRALIZE POISON spell\n4,be cured with a CURE DISEASE spell\n1,be healed with a specific herb\n1,be healed with a specific antidote\n1,be removed by the one who cast it\n1,be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractNegative]}}\n1,be removed when the target learns an important lesson about {{uc:[Fantasy Pantheon.AbstractPositive]}}",
+  "warnings": []
+}

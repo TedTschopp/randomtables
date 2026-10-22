@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "edc5412a7de8c73c42acb7c463f8ab0bed4d929104b235e2acddee3c59cfd328",
+      "revisionId": "22835",
+      "line": 267,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "alignment",
+    "qualified_name": "Curse.alignment",
+    "table_block_index": 0,
+    "line_number": 267
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "lawful",
+      "raw_text": "1,lawful",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "chaotic",
+      "raw_text": "1,chaotic",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "neutral",
+      "raw_text": "1,neutral",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "good",
+      "raw_text": "1,good",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "evil",
+      "raw_text": "1,evil",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";alignment\n1,lawful\n1,chaotic\n1,neutral\n1,good\n1,evil",
+  "warnings": []
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "d3c6dea8fcac0121b54e1d1c85e6bc229cd719b803fcc49f7e2308dc7e2fc3ee",
+      "revisionId": "23470",
+      "line": 92,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "patron",
+    "qualified_name": "Village.patron",
+    "table_block_index": 0,
+    "line_number": 92
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "baron",
+      "raw_text": "10,baron",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[maybeweird]vampire",
+      "raw_text": "1,[maybeweird]vampire",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[maybeweird]succubus",
+      "raw_text": "1,[maybeweird]succubus",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Quick Zone Populations.power-animal] creature",
+      "raw_text": "1,[Quick Zone Populations.power-animal] creature",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[maybeweird]wizard",
+      "raw_text": "1,[maybeweird]wizard",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[maybeweird]necromancer",
+      "raw_text": "1,[maybeweird]necromancer",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[maybeweird]witch",
+      "raw_text": "1,[maybeweird]witch",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "patron",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "maybeweird"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";patron\n10,baron\n1,[maybeweird]vampire\n1,[maybeweird]succubus\n1,[Quick Zone Populations.power-animal] creature\n1,[maybeweird]wizard\n1,[maybeweird]necromancer\n1,[maybeweird]witch",
+  "warnings": []
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14218,
+    "timestamp": "2012-04-02T09:09:07Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "2d1a969bbbaded4fd19fcf4e73fefe3cc2bff85a7a9696c0e3b15d4b76c0f91f",
+      "rawSha256": "10cbf33f0be09c5cf77adc0b16fe364a02e6d215806873ba81e087ce1739d775",
+      "revisionId": "14218",
+      "line": 315,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ERRONEOUSJUDGEMENT",
+    "qualified_name": "User:Snake Eyes.ERRONEOUSJUDGEMENT",
+    "table_block_index": 0,
+    "line_number": 315
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ERRONEOUSJUDGEMENT\nERRONEOUS JUDGEMENT\n\na Mistaken One\na Victim of the Mistake\na Cause or Author of the Mistake\nthe Guilty One\n\nThe Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mistake when it should be passed against the Guilty One instead.",
+  "warnings": [
+    "Line 314: preserved nonstandard row before first entry: ERRONEOUS JUDGEMENT",
+    "Line 316: preserved nonstandard row before first entry: a Mistaken One",
+    "Line 317: preserved nonstandard row before first entry: a Victim of the Mistake",
+    "Line 318: preserved nonstandard row before first entry: a Cause or Author of the Mistake",
+    "Line 319: preserved nonstandard row before first entry: the Guilty One",
+    "Line 321: preserved nonstandard row before first entry: The Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mi"
+  ]
+}

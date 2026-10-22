@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "897ac617f6bcfd2ab5e9a22d2cfe08bcc1fae4ffaaa78d9d403515f7d07ece76",
+      "revisionId": "9620",
+      "line": 108,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "children",
+    "qualified_name": "Rituals.children",
+    "table_block_index": 0,
+    "line_number": 108
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "child",
+      "raw_text": "2,child",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "son",
+      "raw_text": "2,son",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "daughter",
+      "raw_text": "2,daughter",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "malformed monster",
+      "raw_text": "1,malformed monster",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "changeling",
+      "raw_text": "1,changeling",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";children\n2,child\n2,son\n2,daughter\n1,malformed monster\n1,changeling",
+  "warnings": []
+}

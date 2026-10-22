@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "4aa992700b78cb6384322b917498ede1c9ee5a51964be71b30e8577419a29e77",
+      "revisionId": "1643",
+      "line": 627,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidCoins",
+    "qualified_name": "Pickpocket.MidCoins",
+    "table_block_index": 0,
+    "line_number": 627
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[Dice.4d6] copper coins",
+      "raw_text": "5,[Dice.4d6] copper coins",
+      "references": [
+        {
+          "raw": "[Dice.4d6]",
+          "token": "Dice.4d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Dice",
+          "target_subtable": "4d6",
+          "target_qualified_name": "Dice.4d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[Dice.3d6] silver coins",
+      "raw_text": "5,[Dice.3d6] silver coins",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[Dice.1d6] gold coin(s)",
+      "raw_text": "2,[Dice.1d6] gold coin(s)",
+      "references": [
+        {
+          "raw": "[Dice.1d6]",
+          "token": "Dice.1d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Dice",
+          "target_subtable": "1d6",
+          "target_qualified_name": "Dice.1d6"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Dice.2d6] coins of a foreign denomination",
+      "raw_text": "1,[Dice.2d6] coins of a foreign denomination",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[Dice.1d6] very old coin(s) stamped with [Decoration]",
+      "raw_text": "1,[Dice.1d6] very old coin(s) stamped with [Decoration]",
+      "references": [
+        {
+          "raw": "[Dice.1d6]",
+          "token": "Dice.1d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Dice",
+          "target_subtable": "1d6",
+          "target_qualified_name": "Dice.1d6"
+        },
+        {
+          "raw": "[Decoration]",
+          "token": "Decoration",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidCoins",
+          "target_page": "Pickpocket",
+          "target_subtable": "Decoration",
+          "target_qualified_name": "Pickpocket.Decoration"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Decoration"
+    ],
+    "external_subtables": [
+      "Dice.1d6",
+      "Dice.2d6",
+      "Dice.3d6",
+      "Dice.4d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";MidCoins\n5,[Dice.4d6] copper coins\n5,[Dice.3d6] silver coins\n2,[Dice.1d6] gold coin(s)\n1,[Dice.2d6] coins of a foreign denomination\n1,[Dice.1d6] very old coin(s) stamped with [Decoration]",
+  "warnings": []
+}

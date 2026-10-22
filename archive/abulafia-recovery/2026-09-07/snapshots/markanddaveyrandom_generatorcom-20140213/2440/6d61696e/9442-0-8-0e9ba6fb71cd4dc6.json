@@ -1,0 +1,1202 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "0e9ba6fb71cd4dc69c5d9455154a8370ab0699cac222b856a5d8e97a2d59ec10",
+      "revisionId": "9442",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "New gen.main",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Guy] [Main]",
+      "raw_text": "1,[Guy] [Main]",
+      "references": [
+        {
+          "raw": "[Guy]",
+          "token": "Guy",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Guy",
+          "target_qualified_name": "New gen.Guy"
+        },
+        {
+          "raw": "[Main]",
+          "token": "Main",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Main",
+          "target_qualified_name": "New gen.Main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[Action] of the [Type] [Monster] From [Place]",
+      "raw_text": "2,[Action] of the [Type] [Monster] From [Place] ",
+      "references": [
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Place]",
+          "token": "Place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Place",
+          "target_qualified_name": "New gen.Place"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[Action] of the [Type] [Monster]",
+      "raw_text": "2,[Action] of the [Type] [Monster] ",
+      "references": [
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[Monster] [Action]",
+      "raw_text": "2,[Monster] [Action]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[Type] [Monster] vs [Type] [Monster]",
+      "raw_text": "2,[Type] [Monster] vs [Type] [Monster]",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[Type] [Monster] meets  [Type] [Monster]",
+      "raw_text": "1,[Type] [Monster] meets  [Type] [Monster]",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "[Setting] of the [Type] [two monster]",
+      "raw_text": "2,[Setting] of the [Type] [two monster]",
+      "references": [
+        {
+          "raw": "[Setting]",
+          "token": "Setting",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Setting",
+          "target_qualified_name": "New gen.Setting"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[two monster]",
+          "token": "two monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "two monster",
+          "target_qualified_name": "New gen.two monster"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "[Setting] of the [Adj] [Profession]",
+      "raw_text": "2,[Setting] of the [Adj] [Profession] ",
+      "references": [
+        {
+          "raw": "[Setting]",
+          "token": "Setting",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Setting",
+          "target_qualified_name": "New gen.Setting"
+        },
+        {
+          "raw": "[Adj]",
+          "token": "Adj",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Adj",
+          "target_qualified_name": "New gen.Adj"
+        },
+        {
+          "raw": "[Profession]",
+          "token": "Profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Profession",
+          "target_qualified_name": "New gen.Profession"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "[Monster] vs [Monster]: [Type] [Action]",
+      "raw_text": "2,[Monster] vs [Monster]: [Type] [Action]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "[Main] [number]",
+      "raw_text": "2,[Main] [number]",
+      "references": [
+        {
+          "raw": "[Main]",
+          "token": "Main",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Main",
+          "target_qualified_name": "New gen.Main"
+        },
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "number",
+          "target_qualified_name": "New gen.number"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "[Monster] of the [Place]",
+      "raw_text": "2,[Monster] of the [Place]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Place]",
+          "token": "Place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Place",
+          "target_qualified_name": "New gen.Place"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "[Monster]'s [Action]",
+      "raw_text": "2,[Monster]'s [Action]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "[Type] [Monster]",
+      "raw_text": "2,[Type] [Monster]",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[At [Time] They [Do]",
+      "raw_text": "1,[At [Time] They [Do]",
+      "references": [
+        {
+          "raw": "[Time]",
+          "token": "Time",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Time",
+          "target_qualified_name": "New gen.Time"
+        },
+        {
+          "raw": "[Do]",
+          "token": "Do",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Do",
+          "target_qualified_name": "New gen.Do"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "[Time] of the [Type] [two monster]",
+      "raw_text": "2,[Time] of the [Type] [two monster]",
+      "references": [
+        {
+          "raw": "[Time]",
+          "token": "Time",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Time",
+          "target_qualified_name": "New gen.Time"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[two monster]",
+          "token": "two monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "two monster",
+          "target_qualified_name": "New gen.two monster"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "[Adj] [Profession]",
+      "raw_text": "1,[Adj] [Profession]",
+      "references": [
+        {
+          "raw": "[Adj]",
+          "token": "Adj",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Adj",
+          "target_qualified_name": "New gen.Adj"
+        },
+        {
+          "raw": "[Profession]",
+          "token": "Profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Profession",
+          "target_qualified_name": "New gen.Profession"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "[Profession] and the [two monster]",
+      "raw_text": "1,[Profession] and the [two monster]",
+      "references": [
+        {
+          "raw": "[Profession]",
+          "token": "Profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Profession",
+          "target_qualified_name": "New gen.Profession"
+        },
+        {
+          "raw": "[two monster]",
+          "token": "two monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "two monster",
+          "target_qualified_name": "New gen.two monster"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "[profession] and [named]",
+      "raw_text": "1,[profession] and [named]",
+      "references": [
+        {
+          "raw": "[profession]",
+          "token": "profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "profession",
+          "target_qualified_name": "New gen.profession"
+        },
+        {
+          "raw": "[named]",
+          "token": "named",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "named",
+          "target_qualified_name": "New gen.named"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "The [Type] [two monster] Must [Do]]",
+      "raw_text": "2,The [Type] [two monster] Must [Do]]",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[two monster]",
+          "token": "two monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "two monster",
+          "target_qualified_name": "New gen.two monster"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "[Monster] [Profession]",
+      "raw_text": "1,[Monster] [Profession]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        },
+        {
+          "raw": "[Profession]",
+          "token": "Profession",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Profession",
+          "target_qualified_name": "New gen.Profession"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[Event] of the [Type] [group]",
+      "raw_text": "1,[Event] of the [Type] [group]",
+      "references": [
+        {
+          "raw": "[Event]",
+          "token": "Event",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Event",
+          "target_qualified_name": "New gen.Event"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[group]",
+          "token": "group",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "group",
+          "target_qualified_name": "New gen.group"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "[Event] of the [Type] [single]",
+      "raw_text": "1,[Event] of the [Type] [single]",
+      "references": [
+        {
+          "raw": "[Event]",
+          "token": "Event",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Event",
+          "target_qualified_name": "New gen.Event"
+        },
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[single]",
+          "token": "single",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "single",
+          "target_qualified_name": "New gen.single"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "[Adj] [Event] [Action]",
+      "raw_text": "1,[Adj] [Event] [Action]",
+      "references": [
+        {
+          "raw": "[Adj]",
+          "token": "Adj",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Adj",
+          "target_qualified_name": "New gen.Adj"
+        },
+        {
+          "raw": "[Event]",
+          "token": "Event",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Event",
+          "target_qualified_name": "New gen.Event"
+        },
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "[Place] [Action]",
+      "raw_text": "1,[Place] [Action]",
+      "references": [
+        {
+          "raw": "[Place]",
+          "token": "Place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Place",
+          "target_qualified_name": "New gen.Place"
+        },
+        {
+          "raw": "[Action]",
+          "token": "Action",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Action",
+          "target_qualified_name": "New gen.Action"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Don't [inthe] in the [Room]",
+      "raw_text": "1,Don't [inthe] in the [Room]",
+      "references": [
+        {
+          "raw": "[inthe]",
+          "token": "inthe",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "inthe",
+          "target_qualified_name": "New gen.inthe"
+        },
+        {
+          "raw": "[Room]",
+          "token": "Room",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Room",
+          "target_qualified_name": "New gen.Room"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[Rand1] in the [Room]",
+      "raw_text": "1,[Rand1] in the [Room]",
+      "references": [
+        {
+          "raw": "[Rand1]",
+          "token": "Rand1",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Rand1",
+          "target_qualified_name": "New gen.Rand1"
+        },
+        {
+          "raw": "[Room]",
+          "token": "Room",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Room",
+          "target_qualified_name": "New gen.Room"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "[monster] in the [room]",
+      "raw_text": "1,[monster] in the [room]",
+      "references": [
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        },
+        {
+          "raw": "[room]",
+          "token": "room",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "room",
+          "target_qualified_name": "New gen.room"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "[adj] [event]",
+      "raw_text": "1,[adj] [event]",
+      "references": [
+        {
+          "raw": "[adj]",
+          "token": "adj",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "adj",
+          "target_qualified_name": "New gen.adj"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "event",
+          "target_qualified_name": "New gen.event"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "[[main] In Space",
+      "raw_text": "1,[[main] In Space",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Abbot and Costello meet [named]]",
+      "raw_text": "1,Abbot and Costello meet [named]]",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "[adj] [monster]",
+      "raw_text": "1,[adj] [monster]",
+      "references": [
+        {
+          "raw": "[adj]",
+          "token": "adj",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "adj",
+          "target_qualified_name": "New gen.adj"
+        },
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Strange Lights on Campus!",
+      "raw_text": "1,Strange Lights on Campus!",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Strange [Type]  on Campus!",
+      "raw_text": "1,Strange [Type]  on Campus!",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "[place] contains unspeakable secret guarded by [monster] . And the worst part is [kicker]",
+      "raw_text": "1,[place] contains unspeakable secret guarded by [monster] . And the worst part is [kicker]",
+      "references": [
+        {
+          "raw": "[place]",
+          "token": "place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "place",
+          "target_qualified_name": "New gen.place"
+        },
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        },
+        {
+          "raw": "[kicker]",
+          "token": "kicker",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "kicker",
+          "target_qualified_name": "New gen.kicker"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "[at [place][Action",
+      "raw_text": "1,[at [place][Action",
+      "references": [
+        {
+          "raw": "[place]",
+          "token": "place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "place",
+          "target_qualified_name": "New gen.place"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "rise of the[monster] from[place]",
+      "raw_text": "1, rise of the[monster] from[place]",
+      "references": [
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        },
+        {
+          "raw": "[place]",
+          "token": "place",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "place",
+          "target_qualified_name": "New gen.place"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "vengeance of the [monster]",
+      "raw_text": "1,vengeance of the [monster]",
+      "references": [
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "long live the [monster]",
+      "raw_text": "1,long live the [monster]",
+      "references": [
+        {
+          "raw": "[monster]",
+          "token": "monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "main",
+          "target_page": "New gen",
+          "target_subtable": "monster",
+          "target_qualified_name": "New gen.monster"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Action",
+      "Adj",
+      "Do",
+      "Event",
+      "Guy",
+      "Main",
+      "Monster",
+      "Place",
+      "Profession",
+      "Rand1",
+      "Room",
+      "Setting",
+      "Time",
+      "Type",
+      "adj",
+      "event",
+      "group",
+      "inthe",
+      "kicker",
+      "monster",
+      "named",
+      "number",
+      "place",
+      "profession",
+      "room",
+      "single",
+      "two monster"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1 [Monster]\n1,[Guy] [Main]\n2,[Action] of the [Type] [Monster] From [Place] \n2,[Action] of the [Type] [Monster] \n2,[Monster] [Action]\n2,[Type] [Monster] vs [Type] [Monster]\n1,[Type] [Monster] meets  [Type] [Monster]\n2,[Setting] of the [Type] [two monster]\n2,[Setting] of the [Adj] [Profession] \n2,[Monster] vs [Monster]: [Type] [Action]\n2,[Main] [number]\n2,[Monster] of the [Place]\n2,[Monster]'s [Action]\n2,[Type] [Monster]\n1,[At [Time] They [Do]\n2,[Time] of the [Type] [two monster]\n1,[Adj] [Profession]\n1,[Profession] and the [two monster]\n1,[profession] and [named]\n2,The [Type] [two monster] Must [Do]]\n1,[Monster] [Profession]\n1,[Event] of the [Type] [group]\n1,[Event] of the [Type] [single]\n1,[Adj] [Event] [Action]\n1,[Place] [Action]\n1,Don't [inthe] in the [Room]\n1,[Rand1] in the [Room]\n1,[monster] in the [room]\n1,[adj] [event]\n1,[[main] In Space\n1,Abbot and Costello meet [named]]\n1,[adj] [monster]\n1,Strange Lights on Campus!\n1,Strange [Type]  on Campus!\n1,[place] contains unspeakable secret guarded by [monster] . And the worst part is [kicker]\n1,[at [place][Action\n1, rise of the[monster] from[place]\n1,vengeance of the [monster]\n1,long live the [monster]",
+  "warnings": [
+    "Line 4: preserved nonstandard row before first entry: 1 [Monster]"
+  ]
+}

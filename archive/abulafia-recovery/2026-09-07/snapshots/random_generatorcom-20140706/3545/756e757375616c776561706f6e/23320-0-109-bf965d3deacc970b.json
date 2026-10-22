@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "bf965d3deacc970b663f466d848062a57b10f615c6147f501ebe5cf4ed845553",
+      "revisionId": "23320",
+      "line": 109,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "unusualweapon",
+    "qualified_name": "OSR weapon.unusualweapon",
+    "table_block_index": 0,
+    "line_number": 109
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[holy]",
+      "raw_text": "3,[holy]",
+      "references": [
+        {
+          "raw": "[holy]",
+          "token": "holy",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "holy",
+          "target_qualified_name": "OSR weapon.holy"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "[thrownweapon] +1 that returns to the hand",
+      "raw_text": "3,[thrownweapon] +1 that returns to the hand",
+      "references": [
+        {
+          "raw": "[thrownweapon]",
+          "token": "thrownweapon",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "thrownweapon",
+          "target_qualified_name": "OSR weapon.thrownweapon"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "[weapontype], +1, grants an additional attack 1/day",
+      "raw_text": "3,[weapontype], +1, grants an additional attack 1/day",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[weapontype], +1, +2 vs. Men",
+      "raw_text": "1,[weapontype], +1, +2 vs. Men",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[weapontype], +1, +2 vs. Shapechangers",
+      "raw_text": "1,[weapontype], +1, +2 vs. Shapechangers",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[weapontype], +1, +2 vs. Enchanted",
+      "raw_text": "1,[weapontype], +1, +2 vs. Enchanted",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "[weapontype], +1, +4 vs. Dragons",
+      "raw_text": "3,[weapontype], +1, +4 vs. Dragons",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[weapontype], +2, +3 vs. Giants",
+      "raw_text": "1,[weapontype], +2, +3 vs. Giants",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[weapontype], +2, +3 vs. Golems",
+      "raw_text": "1,[weapontype], +2, +3 vs. Golems",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "[weapontype], +2, +3 vs. Regenerating",
+      "raw_text": "1,[weapontype], +2, +3 vs. Regenerating",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 3,
+      "text": "Flaming [weapontype], [plus], deals 1–6 fire damage",
+      "raw_text": "3,Flaming [weapontype], [plus], deals 1–6 fire damage",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        },
+        {
+          "raw": "[plus]",
+          "token": "plus",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "plus",
+          "target_qualified_name": "OSR weapon.plus"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "Freezing [weapontype], [plus], deals 1–6 cold damage",
+      "raw_text": "3,Freezing [weapontype], [plus], deals 1–6 cold damage",
+      "references": [
+        {
+          "raw": "[weapontype]",
+          "token": "weapontype",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapontype",
+          "target_qualified_name": "OSR weapon.weapontype"
+        },
+        {
+          "raw": "[plus]",
+          "token": "plus",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "plus",
+          "target_qualified_name": "OSR weapon.plus"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 3,
+      "text": "Dancing [sword] +3",
+      "raw_text": "3,Dancing [sword] +3",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 3,
+      "text": "Vorpal [sword] [plus]",
+      "raw_text": "3,Vorpal [sword] [plus]",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        },
+        {
+          "raw": "[plus]",
+          "token": "plus",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "plus",
+          "target_qualified_name": "OSR weapon.plus"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 10,
+      "text": "[llaec]",
+      "raw_text": "10,[llaec]",
+      "references": [
+        {
+          "raw": "[llaec]",
+          "token": "llaec",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "unusualweapon",
+          "target_page": "OSR weapon",
+          "target_subtable": "llaec",
+          "target_qualified_name": "OSR weapon.llaec"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "holy",
+      "llaec",
+      "plus",
+      "sword",
+      "thrownweapon",
+      "weapontype"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";unusualweapon\n3,[holy]\n3,[thrownweapon] +1 that returns to the hand\n3,[weapontype], +1, grants an additional attack 1/day\n1,[weapontype], +1, +2 vs. Men\n1,[weapontype], +1, +2 vs. Shapechangers\n1,[weapontype], +1, +2 vs. Enchanted\n3,[weapontype], +1, +4 vs. Dragons\n1,[weapontype], +2, +3 vs. Giants\n1,[weapontype], +2, +3 vs. Golems\n1,[weapontype], +2, +3 vs. Regenerating\n3,Flaming [weapontype], [plus], deals 1–6 fire damage\n3,Freezing [weapontype], [plus], deals 1–6 cold damage\n3,Dancing [sword] +3\n3,Vorpal [sword] [plus]\n10,[llaec]",
+  "warnings": []
+}

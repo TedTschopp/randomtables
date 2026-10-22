@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Schools of Magic",
+    "page_id": 2985
+  },
+  "source": {
+    "revision_id": 14010,
+    "timestamp": "2012-03-07T05:55:44Z",
+    "contributor": {
+      "name": "Kerry",
+      "id": 1721,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "50578e69eb1e7feaf796b1d495aefcc918ff06c9462ffd6fdf05db6b72253481",
+      "rawSha256": "db84e2eec5a93c26d093caf294d4e429314bc9f4d8710c4068752400a75ba5d0",
+      "revisionId": "14010",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14010",
+        "timestamp": "2012-03-07T05:55:44Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "school",
+    "qualified_name": "Schools of Magic.school",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "air",
+      "raw_text": "1, air",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "animal",
+      "raw_text": "1, animal",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "body control",
+      "raw_text": "1, body control",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "communication and empathy",
+      "raw_text": "1, communication and empathy",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "earth",
+      "raw_text": "1, earth",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "enchantment",
+      "raw_text": "1, enchantment",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "fire",
+      "raw_text": "1, fire",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "food",
+      "raw_text": "1, food",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "gate",
+      "raw_text": "1, gate",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "healing",
+      "raw_text": "1, healing",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "illusion and creation",
+      "raw_text": "1, illusion and creation",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "knowledge",
+      "raw_text": "1, knowledge",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "light and darkness",
+      "raw_text": "1, light and darkness",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "making and breaking",
+      "raw_text": "1, making and breaking",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "meta",
+      "raw_text": "1, meta",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "mind control",
+      "raw_text": "1, mind control",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "movement",
+      "raw_text": "1, movement",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "necromantic",
+      "raw_text": "1, necromantic",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "plant",
+      "raw_text": "1, plant",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "protection and warding",
+      "raw_text": "1, protection and warding",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "sound",
+      "raw_text": "1, sound",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "technological",
+      "raw_text": "1, technological",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "water",
+      "raw_text": "1, water",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "weather",
+      "raw_text": "1, weather",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";school\n1, air\n1, animal\n1, body control\n1, communication and empathy\n1, earth\n1, enchantment\n1, fire\n1, food\n1, gate\n1, healing\n1, illusion and creation\n1, knowledge\n1, light and darkness\n1, making and breaking\n1, meta\n1, mind control\n1, movement\n1, necromantic\n1, plant\n1, protection and warding\n1, sound\n1, technological\n1, water\n1, weather",
+  "warnings": []
+}

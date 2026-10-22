@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "9c5c24f6b5505299e85da8235a843483f8a5fd3ea6a941f781b9839d8c4badd2",
+      "revisionId": "9620",
+      "line": 422,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ritePunishment",
+    "qualified_name": "Rituals.ritePunishment",
+    "table_block_index": 0,
+    "line_number": 422
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "be tied to a post for [timePeriodShort]",
+      "raw_text": "1,be tied to a post for [timePeriodShort]",
+      "references": [
+        {
+          "raw": "[timePeriodShort]",
+          "token": "timePeriodShort",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodShort",
+          "target_qualified_name": "Rituals.timePeriodShort"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "be flogged with [Dice.2d6] lashes",
+      "raw_text": "1,be flogged with [Dice.2d6] lashes",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "be burned alive",
+      "raw_text": "1,be burned alive",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "be stoned to death",
+      "raw_text": "1,be stoned to death",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "be pelted with rotten [Utility.Fruit]s",
+      "raw_text": "1,be pelted with rotten [Utility.Fruit]s",
+      "references": [
+        {
+          "raw": "[Utility.Fruit]",
+          "token": "Utility.Fruit",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Utility",
+          "target_subtable": "Fruit",
+          "target_qualified_name": "Utility.Fruit"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "cut off a finger",
+      "raw_text": "1,cut off a finger",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "cut off a toe",
+      "raw_text": "1,cut off a toe",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "be blinded",
+      "raw_text": "1,be blinded",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "be bled",
+      "raw_text": "1,be bled",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "have the [Utility.LeftRight] eye put out with a burning stick",
+      "raw_text": "1,have the [Utility.LeftRight] eye put out with a burning stick",
+      "references": [
+        {
+          "raw": "[Utility.LeftRight]",
+          "token": "Utility.LeftRight",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Utility",
+          "target_subtable": "LeftRight",
+          "target_qualified_name": "Utility.LeftRight"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "timePeriodShort"
+    ],
+    "external_subtables": [
+      "Dice.2d6",
+      "Utility.Fruit",
+      "Utility.LeftRight"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";ritePunishment\n1,be tied to a post for [timePeriodShort]\n1,be flogged with [Dice.2d6] lashes\n1,be burned alive\n1,be stoned to death\n1,be pelted with rotten [Utility.Fruit]s\n1,cut off a finger\n1,cut off a toe\n1,be blinded\n1,be bled\n1,have the [Utility.LeftRight] eye put out with a burning stick",
+  "warnings": []
+}

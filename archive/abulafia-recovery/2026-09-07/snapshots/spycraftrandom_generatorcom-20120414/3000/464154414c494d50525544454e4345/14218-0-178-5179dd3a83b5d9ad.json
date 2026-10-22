@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14218,
+    "timestamp": "2012-04-02T09:09:07Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "2d1a969bbbaded4fd19fcf4e73fefe3cc2bff85a7a9696c0e3b15d4b76c0f91f",
+      "rawSha256": "5179dd3a83b5d9adcb812597e960593057242758390cae5028c7b6d78af6a836",
+      "revisionId": "14218",
+      "line": 178,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "FATALIMPRUDENCE",
+    "qualified_name": "User:Snake Eyes.FATALIMPRUDENCE",
+    "table_block_index": 0,
+    "line_number": 178
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";FATALIMPRUDENCE\nFATAL IMPRUDENCE\n\nthe Imprudent\na Victim or an Object Lost\n\nThe Imprudent, by neglect or ignorance, loses the Object Lost or wrongs the Victim.",
+  "warnings": [
+    "Line 177: preserved nonstandard row before first entry: FATAL IMPRUDENCE",
+    "Line 179: preserved nonstandard row before first entry: the Imprudent",
+    "Line 180: preserved nonstandard row before first entry: a Victim or an Object Lost",
+    "Line 182: preserved nonstandard row before first entry: The Imprudent, by neglect or ignorance, loses the Object Lost or wrongs the Victim."
+  ]
+}

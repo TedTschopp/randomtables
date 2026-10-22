@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "9dd711ed66601dd5519c35e2acc5e85e3779f2189760d496010e5e5a6b15f828",
+      "revisionId": "22835",
+      "line": 370,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "period",
+    "qualified_name": "Curse.period",
+    "table_block_index": 0,
+    "line_number": 370
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[about-five-or-ten] turns",
+      "raw_text": "1,[about-five-or-ten] turns",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[about-five-or-ten] minutes",
+      "raw_text": "1,[about-five-or-ten] minutes",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[about-one-or-five]0 minutes",
+      "raw_text": "1,[about-one-or-five]0 minutes",
+      "references": [
+        {
+          "raw": "[about-one-or-five]",
+          "token": "about-one-or-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-one-or-five",
+          "target_qualified_name": "Curse.about-one-or-five"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[about-five-or-ten] hours",
+      "raw_text": "1,[about-five-or-ten] hours",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "1 day",
+      "raw_text": "5,1 day",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[about-two] days",
+      "raw_text": "1,[about-two] days",
+      "references": [
+        {
+          "raw": "[about-two]",
+          "token": "about-two",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-two",
+          "target_qualified_name": "Curse.about-two"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five-or-ten",
+      "about-one-or-five",
+      "about-two"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";period\n1,[about-five-or-ten] turns\n1,[about-five-or-ten] minutes\n1,[about-one-or-five]0 minutes\n1,[about-five-or-ten] hours\n5,1 day\n1,[about-two] days",
+  "warnings": []
+}

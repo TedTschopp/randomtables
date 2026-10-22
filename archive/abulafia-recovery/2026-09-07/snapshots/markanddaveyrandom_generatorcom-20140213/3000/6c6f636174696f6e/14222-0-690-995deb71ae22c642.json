@@ -1,0 +1,3880 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "995deb71ae22c6427f8bb02dc6cd4db7e54b0130909286993f0f5e7e2f114a78",
+      "revisionId": "14222",
+      "line": 690,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "location",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.location",
+    "table_block_index": 0,
+    "line_number": 690
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Stockyard",
+      "raw_text": "1, Stockyard",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Flop-house",
+      "raw_text": "1, Flop-house",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Shelter",
+      "raw_text": "1, Shelter",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "School",
+      "raw_text": "1, School",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Foundry",
+      "raw_text": "1, Foundry",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Shot-tower",
+      "raw_text": "1, Shot-tower",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Academy",
+      "raw_text": "1, Academy",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Aquarium",
+      "raw_text": "1, Aquarium",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Guild",
+      "raw_text": "1, Guild",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Fortification",
+      "raw_text": "1, Fortification",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Clan-house",
+      "raw_text": "1, Clan-house",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "College",
+      "raw_text": "1, College",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Barren",
+      "raw_text": "1, Barren",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Bell-tower",
+      "raw_text": "1, Bell-tower",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Boardinghouse",
+      "raw_text": "1, Boardinghouse",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Generator",
+      "raw_text": "1, Generator",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Conservatory",
+      "raw_text": "1, Conservatory",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Brewery",
+      "raw_text": "1, Brewery",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Marquee",
+      "raw_text": "1, Marquee",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Observatory",
+      "raw_text": "1, Observatory ",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Calendar",
+      "raw_text": "1, Calendar",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Cemetery",
+      "raw_text": "1, Cemetery",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Quadrant",
+      "raw_text": "1, Quadrant",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Prison",
+      "raw_text": "1, Prison",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Bathhouse",
+      "raw_text": "1, Bathhouse",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Stronghold",
+      "raw_text": "1, Stronghold",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Clearing",
+      "raw_text": "1, Clearing",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Tower",
+      "raw_text": "1, Tower",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Orphanage",
+      "raw_text": "1, Orphanage",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "House",
+      "raw_text": "1, House",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Den",
+      "raw_text": "1, Den",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Tenancy",
+      "raw_text": "1, Tenancy",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Headquarters",
+      "raw_text": "1, Headquarters",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Quarry",
+      "raw_text": "1, Quarry",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Manor",
+      "raw_text": "1, Manor",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Bridge",
+      "raw_text": "1, Bridge",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Playground",
+      "raw_text": "1, Playground",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Embassy",
+      "raw_text": "1, Embassy",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Fountain",
+      "raw_text": "1, Fountain",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Gallows",
+      "raw_text": "1, Gallows",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Colosseum",
+      "raw_text": "1, Colosseum",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Kiln",
+      "raw_text": "1, Kiln",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Groundskeepers",
+      "raw_text": "1, Groundskeepers",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Abandonment",
+      "raw_text": "1, Abandonment",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Museum",
+      "raw_text": "1, Museum",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Hospital",
+      "raw_text": "1, Hospital",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Dungeon",
+      "raw_text": "1, Dungeon",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Order",
+      "raw_text": "1, Order",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Guardhouse",
+      "raw_text": "1, Guardhouse",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Cells",
+      "raw_text": "1, Cells",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Bureaucracy",
+      "raw_text": "1, Bureaucracy",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Yard",
+      "raw_text": "1, Yard",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Hunt",
+      "raw_text": "1, Hunt",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Spire",
+      "raw_text": "1, Spire",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Lighthouse",
+      "raw_text": "1, Lighthouse",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Square",
+      "raw_text": "1, Square",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Group",
+      "raw_text": "1, Group",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "House",
+      "raw_text": "1, House",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Barracks",
+      "raw_text": "1, Barracks",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Keep",
+      "raw_text": "1, Keep",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Mill",
+      "raw_text": "1, Mill",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Reservation",
+      "raw_text": "1, Reservation",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Lodge",
+      "raw_text": "1, Lodge",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Amphitheater",
+      "raw_text": "1, Amphitheater",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Quarter",
+      "raw_text": "1, Quarter",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Hideout",
+      "raw_text": "1, Hideout",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Pier",
+      "raw_text": "1, Pier",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Charity",
+      "raw_text": "1, Charity",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Library",
+      "raw_text": "1, Library",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Dance-hall",
+      "raw_text": "1, Dance-hall",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Hotel",
+      "raw_text": "1, Hotel",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Tent",
+      "raw_text": "1, Tent",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Assembly",
+      "raw_text": "1, Assembly",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Stronghold",
+      "raw_text": "1, Stronghold",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Monastery",
+      "raw_text": "1, Monastery",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Organisation",
+      "raw_text": "1, Organisation",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Nexus",
+      "raw_text": "1, Nexus",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Playhouse",
+      "raw_text": "1, Playhouse",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Quadrant",
+      "raw_text": "1, Quadrant",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Laboratory",
+      "raw_text": "1, Laboratory",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Society",
+      "raw_text": "1, Society",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Labyrinth",
+      "raw_text": "1, Labyrinth",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Croft",
+      "raw_text": "1, Croft",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Town",
+      "raw_text": "1, Town",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Tent",
+      "raw_text": "1, Tent",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Ring",
+      "raw_text": "1, Ring",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Safe-house",
+      "raw_text": "1, Safe-house",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Furnace",
+      "raw_text": "1, Furnace",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Bridge",
+      "raw_text": "1, Bridge",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Marketplace",
+      "raw_text": "1, Marketplace",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Syndicate",
+      "raw_text": "1, Syndicate",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Refuge",
+      "raw_text": "1, Refuge",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "University",
+      "raw_text": "1, University",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Hall",
+      "raw_text": "1, Hall",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Garden",
+      "raw_text": "1, Garden",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Shop",
+      "raw_text": "1, Shop",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Waterwheel",
+      "raw_text": "1, Waterwheel",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Sanctuary",
+      "raw_text": "1, Sanctuary",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Asylum",
+      "raw_text": "1, Asylum",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Zoological Park",
+      "raw_text": "1, Zoological Park",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Abattoir",
+      "raw_text": "1, Abattoir",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Anarchist",
+      "raw_text": "1, Anarchist",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "Animal",
+      "raw_text": "1, Animal",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Arcane",
+      "raw_text": "1, Arcane",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Armament",
+      "raw_text": "1, Armament",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Arsenal",
+      "raw_text": "1, Arsenal",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "Art",
+      "raw_text": "1, Art",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "Aquarium",
+      "raw_text": "1, Aquarium",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "Assassins",
+      "raw_text": "1, Assassins",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Bank",
+      "raw_text": "1, Bank",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Barbarian",
+      "raw_text": "1, Barbarian",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Barbers",
+      "raw_text": "1, Barbers",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Overgrown",
+      "raw_text": "1, Overgrown",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "Bell",
+      "raw_text": "1, Bell",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Boardinghouse",
+      "raw_text": "1, Boardinghouse",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Boiler",
+      "raw_text": "1, Boiler",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Botanical Conservatory",
+      "raw_text": "1, Botanical Conservatory",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Monks",
+      "raw_text": "1, Monks",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "Caravan",
+      "raw_text": "1, Caravan",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Celestial",
+      "raw_text": "1, Celestial",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Center",
+      "raw_text": "1, Center",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "Commercial",
+      "raw_text": "1, Commercial",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Curfew",
+      "raw_text": "1, Curfew",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "City",
+      "raw_text": "1, City",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Civic",
+      "raw_text": "1, Civic",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Clandestine",
+      "raw_text": "1, Clandestine",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Clearing",
+      "raw_text": "1, Clearing",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Clock",
+      "raw_text": "1, Clock",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Community",
+      "raw_text": "1, Community",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Council",
+      "raw_text": "1, Council",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Criminal",
+      "raw_text": "1, Criminal",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Crowded",
+      "raw_text": "1, Crowded",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Cult",
+      "raw_text": "1, Cult",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Dwarf",
+      "raw_text": "1, Dwarf",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Elf",
+      "raw_text": "1, Elf",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Extra-Planar",
+      "raw_text": "1, Extra-Planar",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Fallow",
+      "raw_text": "1, Fallow",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Foreign",
+      "raw_text": "1, Foreign",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Fountain",
+      "raw_text": "1, Fountain",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Gaol",
+      "raw_text": "1, Gaol",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Gladiator",
+      "raw_text": "1, Gladiator",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Gnome",
+      "raw_text": "1, Gnome",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Groundskeepers",
+      "raw_text": "1, Groundskeepers",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Haunted",
+      "raw_text": "1, Haunted",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Historical",
+      "raw_text": "1, Historical",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "Hospital",
+      "raw_text": "1, Hospital",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "Inquisitors",
+      "raw_text": "1, Inquisitors",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "Knight",
+      "raw_text": "1, Knight",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "Law Enforcement",
+      "raw_text": "1, Law Enforcement",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "Law Court",
+      "raw_text": "1, Law Court",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "Local",
+      "raw_text": "1, Local",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "Lumber",
+      "raw_text": "1, Lumber",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "Kings",
+      "raw_text": "1, Kings",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "Mage",
+      "raw_text": "1, Mage",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "Marina",
+      "raw_text": "1, Marina",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "Market",
+      "raw_text": "1, Market",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "Mercenary",
+      "raw_text": "1, Mercenary",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "Merchant",
+      "raw_text": "1, Merchant",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "Military",
+      "raw_text": "1, Military",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "Militia",
+      "raw_text": "1, Militia",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "Mill",
+      "raw_text": "1, Mill",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "Native",
+      "raw_text": "1, Native",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "Occult",
+      "raw_text": "1, Occult",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "Open Air",
+      "raw_text": "1, Open Air",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "Orc",
+      "raw_text": "1, Orc",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "Partisan",
+      "raw_text": "1, Partisan",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "Pier",
+      "raw_text": "1, Pier",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "Philanthropic",
+      "raw_text": "1, Philanthropic",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "Private",
+      "raw_text": "1, Private",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "Prohibition",
+      "raw_text": "1, Prohibition",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "Prostitutes",
+      "raw_text": "1, Prostitutes",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "Prospector",
+      "raw_text": "1, Prospector",
+      "references": []
+    },
+    {
+      "index": 172,
+      "weight": 1,
+      "text": "Public",
+      "raw_text": "1, Public",
+      "references": []
+    },
+    {
+      "index": 173,
+      "weight": 1,
+      "text": "Rebellion",
+      "raw_text": "1, Rebellion",
+      "references": []
+    },
+    {
+      "index": 174,
+      "weight": 1,
+      "text": "Recluse",
+      "raw_text": "1, Recluse",
+      "references": []
+    },
+    {
+      "index": 175,
+      "weight": 1,
+      "text": "Religious",
+      "raw_text": "1, Religious",
+      "references": []
+    },
+    {
+      "index": 176,
+      "weight": 1,
+      "text": "Reincarnate",
+      "raw_text": "1, Reincarnate",
+      "references": []
+    },
+    {
+      "index": 177,
+      "weight": 1,
+      "text": "Royal",
+      "raw_text": "1, Royal",
+      "references": []
+    },
+    {
+      "index": 178,
+      "weight": 1,
+      "text": "Ruined",
+      "raw_text": "1, Ruined",
+      "references": []
+    },
+    {
+      "index": 179,
+      "weight": 1,
+      "text": "Science",
+      "raw_text": "1, Science",
+      "references": []
+    },
+    {
+      "index": 180,
+      "weight": 1,
+      "text": "Secret",
+      "raw_text": "1, Secret",
+      "references": []
+    },
+    {
+      "index": 181,
+      "weight": 1,
+      "text": "Sewer",
+      "raw_text": "1, Sewer",
+      "references": []
+    },
+    {
+      "index": 182,
+      "weight": 1,
+      "text": "Servants",
+      "raw_text": "1, Servants",
+      "references": []
+    },
+    {
+      "index": 183,
+      "weight": 1,
+      "text": "Shanty",
+      "raw_text": "1, Shanty",
+      "references": []
+    },
+    {
+      "index": 184,
+      "weight": 1,
+      "text": "Shop",
+      "raw_text": "1, Shop",
+      "references": []
+    },
+    {
+      "index": 185,
+      "weight": 1,
+      "text": "Slavers",
+      "raw_text": "1, Slavers",
+      "references": []
+    },
+    {
+      "index": 186,
+      "weight": 1,
+      "text": "Spy",
+      "raw_text": "1, Spy",
+      "references": []
+    },
+    {
+      "index": 187,
+      "weight": 1,
+      "text": "Steam",
+      "raw_text": "1, Steam",
+      "references": []
+    },
+    {
+      "index": 188,
+      "weight": 1,
+      "text": "Toll",
+      "raw_text": "1, Toll",
+      "references": []
+    },
+    {
+      "index": 189,
+      "weight": 1,
+      "text": "Traders",
+      "raw_text": "1, Traders",
+      "references": []
+    },
+    {
+      "index": 190,
+      "weight": 1,
+      "text": "Underworld",
+      "raw_text": "1, Underworld",
+      "references": []
+    },
+    {
+      "index": 191,
+      "weight": 1,
+      "text": "Underground",
+      "raw_text": "1, Underground",
+      "references": []
+    },
+    {
+      "index": 192,
+      "weight": 1,
+      "text": "Walled",
+      "raw_text": "1, Walled",
+      "references": []
+    },
+    {
+      "index": 193,
+      "weight": 1,
+      "text": "Machine Shop",
+      "raw_text": "1, Machine Shop",
+      "references": []
+    },
+    {
+      "index": 194,
+      "weight": 1,
+      "text": "Water",
+      "raw_text": "1, Water",
+      "references": []
+    },
+    {
+      "index": 195,
+      "weight": 1,
+      "text": "Wild",
+      "raw_text": "1, Wild",
+      "references": []
+    },
+    {
+      "index": 196,
+      "weight": 1,
+      "text": "Park",
+      "raw_text": "1, Park",
+      "references": []
+    },
+    {
+      "index": 197,
+      "weight": 1,
+      "text": "Shrine",
+      "raw_text": "1, Shrine",
+      "references": []
+    },
+    {
+      "index": 198,
+      "weight": 1,
+      "text": "Paved Road",
+      "raw_text": "1, Paved Road",
+      "references": []
+    },
+    {
+      "index": 199,
+      "weight": 1,
+      "text": "Inn",
+      "raw_text": "1, Inn",
+      "references": []
+    },
+    {
+      "index": 200,
+      "weight": 1,
+      "text": "Castle",
+      "raw_text": "1, Castle",
+      "references": []
+    },
+    {
+      "index": 201,
+      "weight": 1,
+      "text": "Sage Terrarium",
+      "raw_text": "1, Sage Terrarium",
+      "references": []
+    },
+    {
+      "index": 202,
+      "weight": 1,
+      "text": "Spice-Merchants",
+      "raw_text": "1, Spice-Merchants",
+      "references": []
+    },
+    {
+      "index": 203,
+      "weight": 1,
+      "text": "Shipyard",
+      "raw_text": "1, Shipyard",
+      "references": []
+    },
+    {
+      "index": 204,
+      "weight": 1,
+      "text": "Conservatory",
+      "raw_text": "1, Conservatory",
+      "references": []
+    },
+    {
+      "index": 205,
+      "weight": 1,
+      "text": "Protected Supply house",
+      "raw_text": "1, Protected Supply house",
+      "references": []
+    },
+    {
+      "index": 206,
+      "weight": 1,
+      "text": "Common House-hold",
+      "raw_text": "1, Common House-hold",
+      "references": []
+    },
+    {
+      "index": 207,
+      "weight": 1,
+      "text": "Lost Gallery",
+      "raw_text": "1, Lost Gallery",
+      "references": []
+    },
+    {
+      "index": 208,
+      "weight": 1,
+      "text": "Heritage Building",
+      "raw_text": "1, Heritage Building",
+      "references": []
+    },
+    {
+      "index": 209,
+      "weight": 1,
+      "text": "Original",
+      "raw_text": "1, Original",
+      "references": []
+    },
+    {
+      "index": 210,
+      "weight": 1,
+      "text": "Facades",
+      "raw_text": "1, Facades",
+      "references": []
+    },
+    {
+      "index": 211,
+      "weight": 1,
+      "text": "Renovated",
+      "raw_text": "1, Renovated",
+      "references": []
+    },
+    {
+      "index": 212,
+      "weight": 1,
+      "text": "Camp",
+      "raw_text": "1, Camp",
+      "references": []
+    },
+    {
+      "index": 213,
+      "weight": 1,
+      "text": "Encampment",
+      "raw_text": "1, Encampment",
+      "references": []
+    },
+    {
+      "index": 214,
+      "weight": 1,
+      "text": "Siege",
+      "raw_text": "1, Siege",
+      "references": []
+    },
+    {
+      "index": 215,
+      "weight": 1,
+      "text": "Barricade",
+      "raw_text": "1, Barricade",
+      "references": []
+    },
+    {
+      "index": 216,
+      "weight": 1,
+      "text": "Alleyway Maze",
+      "raw_text": "1, Alleyway Maze",
+      "references": []
+    },
+    {
+      "index": 217,
+      "weight": 1,
+      "text": "Lakeside Wharf",
+      "raw_text": "1, Lakeside Wharf",
+      "references": []
+    },
+    {
+      "index": 218,
+      "weight": 1,
+      "text": "Palace",
+      "raw_text": "1, Palace",
+      "references": []
+    },
+    {
+      "index": 219,
+      "weight": 1,
+      "text": "Slum",
+      "raw_text": "1, Slum",
+      "references": []
+    },
+    {
+      "index": 220,
+      "weight": 1,
+      "text": "Decoy",
+      "raw_text": "1, Decoy",
+      "references": []
+    },
+    {
+      "index": 221,
+      "weight": 1,
+      "text": "Mistaken Identity",
+      "raw_text": "1, Mistaken Identity",
+      "references": []
+    },
+    {
+      "index": 222,
+      "weight": 1,
+      "text": "Ditch",
+      "raw_text": "1, Ditch",
+      "references": []
+    },
+    {
+      "index": 223,
+      "weight": 1,
+      "text": "Hill",
+      "raw_text": "1, Hill",
+      "references": []
+    },
+    {
+      "index": 224,
+      "weight": 1,
+      "text": "Burned Building",
+      "raw_text": "1, Burned Building",
+      "references": []
+    },
+    {
+      "index": 225,
+      "weight": 1,
+      "text": "Century Old Tree",
+      "raw_text": "1, Century Old Tree",
+      "references": []
+    },
+    {
+      "index": 226,
+      "weight": 1,
+      "text": "Dead Tree",
+      "raw_text": "1, Dead Tree",
+      "references": []
+    },
+    {
+      "index": 227,
+      "weight": 1,
+      "text": "Signpost",
+      "raw_text": "1, Signpost",
+      "references": []
+    },
+    {
+      "index": 228,
+      "weight": 1,
+      "text": "Stonewall",
+      "raw_text": "1, Stonewall",
+      "references": []
+    },
+    {
+      "index": 229,
+      "weight": 1,
+      "text": "Paved Road",
+      "raw_text": "1, Paved Road",
+      "references": []
+    },
+    {
+      "index": 230,
+      "weight": 1,
+      "text": "Commercial Docks",
+      "raw_text": "1, Commercial Docks",
+      "references": []
+    },
+    {
+      "index": 231,
+      "weight": 1,
+      "text": "Statue",
+      "raw_text": "1, Statue",
+      "references": []
+    },
+    {
+      "index": 232,
+      "weight": 1,
+      "text": "Pillar",
+      "raw_text": "1, Pillar",
+      "references": []
+    },
+    {
+      "index": 233,
+      "weight": 1,
+      "text": "Wayside Shrine",
+      "raw_text": "1, Wayside Shrine",
+      "references": []
+    },
+    {
+      "index": 234,
+      "weight": 1,
+      "text": "Sculpture",
+      "raw_text": "1, Sculpture",
+      "references": []
+    },
+    {
+      "index": 235,
+      "weight": 1,
+      "text": "Wellspring",
+      "raw_text": "1, Wellspring",
+      "references": []
+    },
+    {
+      "index": 236,
+      "weight": 1,
+      "text": "Hand-drawn Well",
+      "raw_text": "1, Hand-drawn Well",
+      "references": []
+    },
+    {
+      "index": 237,
+      "weight": 1,
+      "text": "Public Fountain",
+      "raw_text": "1, Public Fountain",
+      "references": []
+    },
+    {
+      "index": 238,
+      "weight": 1,
+      "text": "Calender",
+      "raw_text": "1, Calender",
+      "references": []
+    },
+    {
+      "index": 239,
+      "weight": 1,
+      "text": "Mosaic Map",
+      "raw_text": "1, Mosaic Map",
+      "references": []
+    },
+    {
+      "index": 240,
+      "weight": 1,
+      "text": "Civic Map",
+      "raw_text": "1, Civic Map",
+      "references": []
+    },
+    {
+      "index": 241,
+      "weight": 1,
+      "text": "Historical Landmark",
+      "raw_text": "1, Historical Landmark",
+      "references": []
+    },
+    {
+      "index": 242,
+      "weight": 1,
+      "text": "Cultural Landmark",
+      "raw_text": "1, Cultural Landmark",
+      "references": []
+    },
+    {
+      "index": 243,
+      "weight": 1,
+      "text": "Refuse Pit",
+      "raw_text": "1, Refuse Pit",
+      "references": []
+    },
+    {
+      "index": 244,
+      "weight": 1,
+      "text": "Native",
+      "raw_text": "1, Native",
+      "references": []
+    },
+    {
+      "index": 245,
+      "weight": 1,
+      "text": "Native Landmark",
+      "raw_text": "1, Native Landmark",
+      "references": []
+    },
+    {
+      "index": 246,
+      "weight": 1,
+      "text": "Public Sign",
+      "raw_text": "1, Public Sign",
+      "references": []
+    },
+    {
+      "index": 247,
+      "weight": 1,
+      "text": "Public Square",
+      "raw_text": "1, Public Square",
+      "references": []
+    },
+    {
+      "index": 248,
+      "weight": 1,
+      "text": "Warehouse",
+      "raw_text": "1, Warehouse",
+      "references": []
+    },
+    {
+      "index": 249,
+      "weight": 1,
+      "text": "Storage",
+      "raw_text": "1, Storage",
+      "references": []
+    },
+    {
+      "index": 250,
+      "weight": 1,
+      "text": "Burned Out",
+      "raw_text": "1, Burned Out",
+      "references": []
+    },
+    {
+      "index": 251,
+      "weight": 1,
+      "text": "Ruined",
+      "raw_text": "1, Ruined",
+      "references": []
+    },
+    {
+      "index": 252,
+      "weight": 1,
+      "text": "Gate",
+      "raw_text": "1, Gate",
+      "references": []
+    },
+    {
+      "index": 253,
+      "weight": 1,
+      "text": "Aqueduct",
+      "raw_text": "1, Aqueduct",
+      "references": []
+    },
+    {
+      "index": 254,
+      "weight": 1,
+      "text": "Gateway",
+      "raw_text": "1, Gateway",
+      "references": []
+    },
+    {
+      "index": 255,
+      "weight": 1,
+      "text": "Spring",
+      "raw_text": "1, Spring",
+      "references": []
+    },
+    {
+      "index": 256,
+      "weight": 1,
+      "text": "Residence",
+      "raw_text": "1, Residence",
+      "references": []
+    },
+    {
+      "index": 257,
+      "weight": 1,
+      "text": "Road",
+      "raw_text": "1, Road",
+      "references": []
+    },
+    {
+      "index": 258,
+      "weight": 1,
+      "text": "Highway",
+      "raw_text": "1, Highway",
+      "references": []
+    },
+    {
+      "index": 259,
+      "weight": 1,
+      "text": "Wall",
+      "raw_text": "1, Wall",
+      "references": []
+    },
+    {
+      "index": 260,
+      "weight": 1,
+      "text": "Natural Feature",
+      "raw_text": "1, Natural Feature",
+      "references": []
+    },
+    {
+      "index": 261,
+      "weight": 1,
+      "text": "Weir",
+      "raw_text": "1, Weir",
+      "references": []
+    },
+    {
+      "index": 262,
+      "weight": 1,
+      "text": "Windmill",
+      "raw_text": "1, Windmill",
+      "references": []
+    },
+    {
+      "index": 263,
+      "weight": 1,
+      "text": "Wheel",
+      "raw_text": "1, Wheel",
+      "references": []
+    },
+    {
+      "index": 264,
+      "weight": 1,
+      "text": "Burial",
+      "raw_text": "1, Burial",
+      "references": []
+    },
+    {
+      "index": 265,
+      "weight": 1,
+      "text": "Affiliate",
+      "raw_text": "1, Affiliate",
+      "references": []
+    },
+    {
+      "index": 266,
+      "weight": 1,
+      "text": "Affinity",
+      "raw_text": "1, Affinity",
+      "references": []
+    },
+    {
+      "index": 267,
+      "weight": 1,
+      "text": "Alliance",
+      "raw_text": "1, Alliance",
+      "references": []
+    },
+    {
+      "index": 268,
+      "weight": 1,
+      "text": "Assemblage",
+      "raw_text": "1, Assemblage",
+      "references": []
+    },
+    {
+      "index": 269,
+      "weight": 1,
+      "text": "Association",
+      "raw_text": "1, Association",
+      "references": []
+    },
+    {
+      "index": 270,
+      "weight": 1,
+      "text": "Band",
+      "raw_text": "1, Band",
+      "references": []
+    },
+    {
+      "index": 271,
+      "weight": 1,
+      "text": "Brotherhood",
+      "raw_text": "1, Brotherhood",
+      "references": []
+    },
+    {
+      "index": 272,
+      "weight": 1,
+      "text": "Fraternal Brotherhood",
+      "raw_text": "1, Fraternal Brotherhood",
+      "references": []
+    },
+    {
+      "index": 273,
+      "weight": 1,
+      "text": "Cartel",
+      "raw_text": "1, Cartel",
+      "references": []
+    },
+    {
+      "index": 274,
+      "weight": 1,
+      "text": "Club",
+      "raw_text": "1, Club",
+      "references": []
+    },
+    {
+      "index": 275,
+      "weight": 1,
+      "text": "Coalition",
+      "raw_text": "1, Coalition",
+      "references": []
+    },
+    {
+      "index": 276,
+      "weight": 1,
+      "text": "Collective",
+      "raw_text": "1, Collective",
+      "references": []
+    },
+    {
+      "index": 277,
+      "weight": 1,
+      "text": "Combination",
+      "raw_text": "1, Combination",
+      "references": []
+    },
+    {
+      "index": 278,
+      "weight": 1,
+      "text": "Community",
+      "raw_text": "1, Community",
+      "references": []
+    },
+    {
+      "index": 279,
+      "weight": 1,
+      "text": "Company",
+      "raw_text": "1, Company",
+      "references": []
+    },
+    {
+      "index": 280,
+      "weight": 1,
+      "text": "Concatenation",
+      "raw_text": "1, Concatenation",
+      "references": []
+    },
+    {
+      "index": 281,
+      "weight": 1,
+      "text": "Confederacy",
+      "raw_text": "1, Confederacy",
+      "references": []
+    },
+    {
+      "index": 282,
+      "weight": 1,
+      "text": "Confraternity",
+      "raw_text": "1, Confraternity",
+      "references": []
+    },
+    {
+      "index": 283,
+      "weight": 1,
+      "text": "Consortium",
+      "raw_text": "1, Consortium",
+      "references": []
+    },
+    {
+      "index": 284,
+      "weight": 1,
+      "text": "Fellowship",
+      "raw_text": "1, Fellowship",
+      "references": []
+    },
+    {
+      "index": 285,
+      "weight": 1,
+      "text": "Fraternity",
+      "raw_text": "1, Fraternity",
+      "references": []
+    },
+    {
+      "index": 286,
+      "weight": 1,
+      "text": "League",
+      "raw_text": "1, League",
+      "references": []
+    },
+    {
+      "index": 287,
+      "weight": 1,
+      "text": "Order",
+      "raw_text": "1, Order",
+      "references": []
+    },
+    {
+      "index": 288,
+      "weight": 1,
+      "text": "Sisterhood",
+      "raw_text": "1, Sisterhood",
+      "references": []
+    },
+    {
+      "index": 289,
+      "weight": 1,
+      "text": "Society",
+      "raw_text": "1, Society",
+      "references": []
+    },
+    {
+      "index": 290,
+      "weight": 1,
+      "text": "Sodality",
+      "raw_text": "1, Sodality",
+      "references": []
+    },
+    {
+      "index": 291,
+      "weight": 1,
+      "text": "Syndicate",
+      "raw_text": "1, Syndicate",
+      "references": []
+    },
+    {
+      "index": 292,
+      "weight": 1,
+      "text": "Union",
+      "raw_text": "1, Union",
+      "references": []
+    },
+    {
+      "index": 293,
+      "weight": 1,
+      "text": "Independent",
+      "raw_text": "1, Independent",
+      "references": []
+    },
+    {
+      "index": 294,
+      "weight": 1,
+      "text": "Government",
+      "raw_text": "1, Government",
+      "references": []
+    },
+    {
+      "index": 295,
+      "weight": 1,
+      "text": "Chiefdom",
+      "raw_text": "1, Chiefdom",
+      "references": []
+    },
+    {
+      "index": 296,
+      "weight": 1,
+      "text": "Constitutional",
+      "raw_text": "1, Constitutional",
+      "references": []
+    },
+    {
+      "index": 297,
+      "weight": 1,
+      "text": "Republic",
+      "raw_text": "1, Republic",
+      "references": []
+    },
+    {
+      "index": 298,
+      "weight": 1,
+      "text": "Democracy",
+      "raw_text": "1, Democracy",
+      "references": []
+    },
+    {
+      "index": 299,
+      "weight": 1,
+      "text": "Emirate",
+      "raw_text": "1, Emirate",
+      "references": []
+    },
+    {
+      "index": 300,
+      "weight": 1,
+      "text": "Geniocracy",
+      "raw_text": "1, Geniocracy",
+      "references": []
+    },
+    {
+      "index": 301,
+      "weight": 1,
+      "text": "Kratocracy",
+      "raw_text": "1, Kratocracy",
+      "references": []
+    },
+    {
+      "index": 302,
+      "weight": 1,
+      "text": "Kalidterreism",
+      "raw_text": "1, Kalidterreism",
+      "references": []
+    },
+    {
+      "index": 303,
+      "weight": 1,
+      "text": "Matriarchy",
+      "raw_text": "1, Matriarchy",
+      "references": []
+    },
+    {
+      "index": 304,
+      "weight": 1,
+      "text": "Meritocracy",
+      "raw_text": "1, Meritocracy",
+      "references": []
+    },
+    {
+      "index": 305,
+      "weight": 1,
+      "text": "Monarchy",
+      "raw_text": "1, Monarchy",
+      "references": []
+    },
+    {
+      "index": 306,
+      "weight": 1,
+      "text": "Nomocracy",
+      "raw_text": "1, Nomocracy",
+      "references": []
+    },
+    {
+      "index": 307,
+      "weight": 1,
+      "text": "Oligarchy",
+      "raw_text": "1, Oligarchy",
+      "references": []
+    },
+    {
+      "index": 308,
+      "weight": 1,
+      "text": "Plutocracy",
+      "raw_text": "1, Plutocracy",
+      "references": []
+    },
+    {
+      "index": 309,
+      "weight": 1,
+      "text": "Republic",
+      "raw_text": "1, Republic",
+      "references": []
+    },
+    {
+      "index": 310,
+      "weight": 1,
+      "text": "Stratocracy",
+      "raw_text": "1, Stratocracy",
+      "references": []
+    },
+    {
+      "index": 311,
+      "weight": 1,
+      "text": "Technocracy",
+      "raw_text": "1, Technocracy",
+      "references": []
+    },
+    {
+      "index": 312,
+      "weight": 1,
+      "text": "Theocracy",
+      "raw_text": "1, Theocracy",
+      "references": []
+    },
+    {
+      "index": 313,
+      "weight": 1,
+      "text": "Timocracy",
+      "raw_text": "1, Timocracy",
+      "references": []
+    },
+    {
+      "index": 314,
+      "weight": 1,
+      "text": "Totalitarian",
+      "raw_text": "1, Totalitarian",
+      "references": []
+    },
+    {
+      "index": 315,
+      "weight": 1,
+      "text": "Federation",
+      "raw_text": "1, Federation",
+      "references": []
+    },
+    {
+      "index": 316,
+      "weight": 1,
+      "text": "Empire",
+      "raw_text": "1, Empire",
+      "references": []
+    },
+    {
+      "index": 317,
+      "weight": 1,
+      "text": "Confederation",
+      "raw_text": "1, Confederation",
+      "references": []
+    },
+    {
+      "index": 318,
+      "weight": 1,
+      "text": "Associated State",
+      "raw_text": "1, Associated State",
+      "references": []
+    },
+    {
+      "index": 319,
+      "weight": 1,
+      "text": "Dissociated State",
+      "raw_text": "1, Dissociated State",
+      "references": []
+    },
+    {
+      "index": 320,
+      "weight": 1,
+      "text": "Patriarchy",
+      "raw_text": "1, Patriarchy",
+      "references": []
+    },
+    {
+      "index": 321,
+      "weight": 1,
+      "text": "Monolith",
+      "raw_text": "1, Monolith",
+      "references": []
+    },
+    {
+      "index": 322,
+      "weight": 1,
+      "text": "Monument",
+      "raw_text": "1, Monument",
+      "references": []
+    },
+    {
+      "index": 323,
+      "weight": 1,
+      "text": "Steps",
+      "raw_text": "1, Steps",
+      "references": []
+    },
+    {
+      "index": 324,
+      "weight": 1,
+      "text": "Tunnel",
+      "raw_text": "1, Tunnel",
+      "references": []
+    },
+    {
+      "index": 325,
+      "weight": 1,
+      "text": "Pillar",
+      "raw_text": "1, Pillar",
+      "references": []
+    },
+    {
+      "index": 326,
+      "weight": 1,
+      "text": "Arch",
+      "raw_text": "1, Arch",
+      "references": []
+    },
+    {
+      "index": 327,
+      "weight": 1,
+      "text": "Post",
+      "raw_text": "1, Post",
+      "references": []
+    },
+    {
+      "index": 328,
+      "weight": 1,
+      "text": "Door",
+      "raw_text": "1, Door",
+      "references": []
+    },
+    {
+      "index": 329,
+      "weight": 1,
+      "text": "Watchtower",
+      "raw_text": "1, Watchtower",
+      "references": []
+    },
+    {
+      "index": 330,
+      "weight": 1,
+      "text": "Armory",
+      "raw_text": "1, Armory",
+      "references": []
+    },
+    {
+      "index": 331,
+      "weight": 1,
+      "text": "Bailey",
+      "raw_text": "1, Bailey",
+      "references": []
+    },
+    {
+      "index": 332,
+      "weight": 1,
+      "text": "Barbican",
+      "raw_text": "1, Barbican",
+      "references": []
+    },
+    {
+      "index": 333,
+      "weight": 1,
+      "text": "Barracks",
+      "raw_text": "1, Barracks",
+      "references": []
+    },
+    {
+      "index": 334,
+      "weight": 1,
+      "text": "Bastion",
+      "raw_text": "1, Bastion",
+      "references": []
+    },
+    {
+      "index": 335,
+      "weight": 1,
+      "text": "Battlement",
+      "raw_text": "1, Battlement",
+      "references": []
+    },
+    {
+      "index": 336,
+      "weight": 1,
+      "text": "Bridge Wooden",
+      "raw_text": "1, Bridge Wooden",
+      "references": []
+    },
+    {
+      "index": 337,
+      "weight": 1,
+      "text": "Doorway",
+      "raw_text": "1, Doorway",
+      "references": []
+    },
+    {
+      "index": 338,
+      "weight": 1,
+      "text": "Drawbridge",
+      "raw_text": "1, Drawbridge",
+      "references": []
+    },
+    {
+      "index": 339,
+      "weight": 1,
+      "text": "Earthworks",
+      "raw_text": "1, Earthworks",
+      "references": []
+    },
+    {
+      "index": 340,
+      "weight": 1,
+      "text": "Fence",
+      "raw_text": "1, Fence",
+      "references": []
+    },
+    {
+      "index": 341,
+      "weight": 1,
+      "text": "Fortress",
+      "raw_text": "1, Fortress",
+      "references": []
+    },
+    {
+      "index": 342,
+      "weight": 1,
+      "text": "Garrison",
+      "raw_text": "1, Garrison",
+      "references": []
+    },
+    {
+      "index": 343,
+      "weight": 1,
+      "text": "Gateway",
+      "raw_text": "1, Gateway",
+      "references": []
+    },
+    {
+      "index": 344,
+      "weight": 1,
+      "text": "Gatehouse",
+      "raw_text": "1, Gatehouse",
+      "references": []
+    },
+    {
+      "index": 345,
+      "weight": 1,
+      "text": "Hold",
+      "raw_text": "1, Hold",
+      "references": []
+    },
+    {
+      "index": 346,
+      "weight": 1,
+      "text": "Keep",
+      "raw_text": "1, Keep",
+      "references": []
+    },
+    {
+      "index": 347,
+      "weight": 1,
+      "text": "Moat",
+      "raw_text": "1, Moat",
+      "references": []
+    },
+    {
+      "index": 348,
+      "weight": 1,
+      "text": "Mott",
+      "raw_text": "1, Mott",
+      "references": []
+    },
+    {
+      "index": 349,
+      "weight": 1,
+      "text": "Palisade",
+      "raw_text": "1, Palisade",
+      "references": []
+    },
+    {
+      "index": 350,
+      "weight": 1,
+      "text": "Postern",
+      "raw_text": "1, Postern",
+      "references": []
+    },
+    {
+      "index": 351,
+      "weight": 1,
+      "text": "Ramparts",
+      "raw_text": "1, Ramparts",
+      "references": []
+    },
+    {
+      "index": 352,
+      "weight": 1,
+      "text": "Stronghold",
+      "raw_text": "1, Stronghold",
+      "references": []
+    },
+    {
+      "index": 353,
+      "weight": 1,
+      "text": "Temporary Wall",
+      "raw_text": "1, Temporary Wall",
+      "references": []
+    },
+    {
+      "index": 354,
+      "weight": 1,
+      "text": "Watch",
+      "raw_text": "1, Watch",
+      "references": []
+    },
+    {
+      "index": 355,
+      "weight": 1,
+      "text": "Watchtower",
+      "raw_text": "1, Watchtower",
+      "references": []
+    },
+    {
+      "index": 356,
+      "weight": 1,
+      "text": "Wooden Wall",
+      "raw_text": "1, Wooden Wall",
+      "references": []
+    },
+    {
+      "index": 357,
+      "weight": 1,
+      "text": "Brick Wall",
+      "raw_text": "1, Brick Wall",
+      "references": []
+    },
+    {
+      "index": 358,
+      "weight": 1,
+      "text": "Earth Wall",
+      "raw_text": "1, Earth Wall",
+      "references": []
+    },
+    {
+      "index": 359,
+      "weight": 1,
+      "text": "Concrete Wall",
+      "raw_text": "1, Concrete Wall",
+      "references": []
+    },
+    {
+      "index": 360,
+      "weight": 1,
+      "text": "Natural Wall",
+      "raw_text": "1, Natural Wall",
+      "references": []
+    },
+    {
+      "index": 361,
+      "weight": 1,
+      "text": "Pit",
+      "raw_text": "1, Pit",
+      "references": []
+    },
+    {
+      "index": 362,
+      "weight": 1,
+      "text": "Anchorage",
+      "raw_text": "1, Anchorage",
+      "references": []
+    },
+    {
+      "index": 363,
+      "weight": 1,
+      "text": "Crane",
+      "raw_text": "1, Crane",
+      "references": []
+    },
+    {
+      "index": 364,
+      "weight": 1,
+      "text": "Docks",
+      "raw_text": "1, Docks",
+      "references": []
+    },
+    {
+      "index": 365,
+      "weight": 1,
+      "text": "Harbor",
+      "raw_text": "1, Harbor",
+      "references": []
+    },
+    {
+      "index": 366,
+      "weight": 1,
+      "text": "Marina",
+      "raw_text": "1, Marina",
+      "references": []
+    },
+    {
+      "index": 367,
+      "weight": 1,
+      "text": "Pier",
+      "raw_text": "1, Pier",
+      "references": []
+    },
+    {
+      "index": 368,
+      "weight": 1,
+      "text": "Quay",
+      "raw_text": "1, Quay",
+      "references": []
+    },
+    {
+      "index": 369,
+      "weight": 1,
+      "text": "Wharf",
+      "raw_text": "1, Wharf",
+      "references": []
+    },
+    {
+      "index": 370,
+      "weight": 1,
+      "text": "Aqueduct",
+      "raw_text": "1, Aqueduct",
+      "references": []
+    },
+    {
+      "index": 371,
+      "weight": 1,
+      "text": "Stone Bridge",
+      "raw_text": "1, Stone Bridge",
+      "references": []
+    },
+    {
+      "index": 372,
+      "weight": 1,
+      "text": "Canal",
+      "raw_text": "1, Canal",
+      "references": []
+    },
+    {
+      "index": 373,
+      "weight": 1,
+      "text": "Cistern",
+      "raw_text": "1, Cistern",
+      "references": []
+    },
+    {
+      "index": 374,
+      "weight": 1,
+      "text": "Footbridge",
+      "raw_text": "1, Footbridge",
+      "references": []
+    },
+    {
+      "index": 375,
+      "weight": 1,
+      "text": "Pond",
+      "raw_text": "1, Pond",
+      "references": []
+    },
+    {
+      "index": 376,
+      "weight": 1,
+      "text": "Pool",
+      "raw_text": "1, Pool",
+      "references": []
+    },
+    {
+      "index": 377,
+      "weight": 1,
+      "text": "Reservoir",
+      "raw_text": "1, Reservoir",
+      "references": []
+    },
+    {
+      "index": 378,
+      "weight": 1,
+      "text": "Shore",
+      "raw_text": "1, Shore",
+      "references": []
+    },
+    {
+      "index": 379,
+      "weight": 1,
+      "text": "Span",
+      "raw_text": "1, Span",
+      "references": []
+    },
+    {
+      "index": 380,
+      "weight": 1,
+      "text": "Agora",
+      "raw_text": "1, Agora",
+      "references": []
+    },
+    {
+      "index": 381,
+      "weight": 1,
+      "text": "Commons",
+      "raw_text": "1, Commons",
+      "references": []
+    },
+    {
+      "index": 382,
+      "weight": 1,
+      "text": "Field",
+      "raw_text": "1, Field",
+      "references": []
+    },
+    {
+      "index": 383,
+      "weight": 1,
+      "text": "Forum",
+      "raw_text": "1, Forum",
+      "references": []
+    },
+    {
+      "index": 384,
+      "weight": 1,
+      "text": "Garden",
+      "raw_text": "1, Garden",
+      "references": []
+    },
+    {
+      "index": 385,
+      "weight": 1,
+      "text": "Market Garden",
+      "raw_text": "1, Market Garden",
+      "references": []
+    },
+    {
+      "index": 386,
+      "weight": 1,
+      "text": "Herb Garden",
+      "raw_text": "1, Herb Garden",
+      "references": []
+    },
+    {
+      "index": 387,
+      "weight": 1,
+      "text": "Fruit Orchard",
+      "raw_text": "1, Fruit Orchard",
+      "references": []
+    },
+    {
+      "index": 388,
+      "weight": 1,
+      "text": "Green",
+      "raw_text": "1, Green",
+      "references": []
+    },
+    {
+      "index": 389,
+      "weight": 1,
+      "text": "Park",
+      "raw_text": "1, Park",
+      "references": []
+    },
+    {
+      "index": 390,
+      "weight": 1,
+      "text": "Piazza",
+      "raw_text": "1, Piazza",
+      "references": []
+    },
+    {
+      "index": 391,
+      "weight": 1,
+      "text": "Plaza",
+      "raw_text": "1, Plaza",
+      "references": []
+    },
+    {
+      "index": 392,
+      "weight": 1,
+      "text": "Square",
+      "raw_text": "1, Square",
+      "references": []
+    },
+    {
+      "index": 393,
+      "weight": 1,
+      "text": "Stray",
+      "raw_text": "1, Stray",
+      "references": []
+    },
+    {
+      "index": 394,
+      "weight": 1,
+      "text": "Terrace",
+      "raw_text": "1, Terrace",
+      "references": []
+    },
+    {
+      "index": 395,
+      "weight": 1,
+      "text": "Courtyard",
+      "raw_text": "1, Courtyard",
+      "references": []
+    },
+    {
+      "index": 396,
+      "weight": 1,
+      "text": "Marketplace",
+      "raw_text": "1, Marketplace",
+      "references": []
+    },
+    {
+      "index": 397,
+      "weight": 1,
+      "text": "Market",
+      "raw_text": "1, Market",
+      "references": []
+    },
+    {
+      "index": 398,
+      "weight": 1,
+      "text": "Mews",
+      "raw_text": "1, Mews",
+      "references": []
+    },
+    {
+      "index": 399,
+      "weight": 1,
+      "text": "Mound",
+      "raw_text": "1, Mound",
+      "references": []
+    },
+    {
+      "index": 400,
+      "weight": 1,
+      "text": "Quarry",
+      "raw_text": "1, Quarry",
+      "references": []
+    },
+    {
+      "index": 401,
+      "weight": 1,
+      "text": "Plantation",
+      "raw_text": "1, Plantation",
+      "references": []
+    },
+    {
+      "index": 402,
+      "weight": 1,
+      "text": "Luthier",
+      "raw_text": "1, Luthier",
+      "references": []
+    },
+    {
+      "index": 403,
+      "weight": 1,
+      "text": "Forge",
+      "raw_text": "1, Forge",
+      "references": []
+    },
+    {
+      "index": 404,
+      "weight": 1,
+      "text": "Palace",
+      "raw_text": "1, Palace",
+      "references": []
+    },
+    {
+      "index": 405,
+      "weight": 1,
+      "text": "Manor",
+      "raw_text": "1, Manor",
+      "references": []
+    },
+    {
+      "index": 406,
+      "weight": 1,
+      "text": "Mansion",
+      "raw_text": "1, Mansion",
+      "references": []
+    },
+    {
+      "index": 407,
+      "weight": 1,
+      "text": "Mill",
+      "raw_text": "1, Mill",
+      "references": []
+    },
+    {
+      "index": 408,
+      "weight": 1,
+      "text": "Stocks",
+      "raw_text": "1, Stocks",
+      "references": []
+    },
+    {
+      "index": 409,
+      "weight": 1,
+      "text": "Stage",
+      "raw_text": "1, Stage",
+      "references": []
+    },
+    {
+      "index": 410,
+      "weight": 1,
+      "text": "Stables",
+      "raw_text": "1, Stables",
+      "references": []
+    },
+    {
+      "index": 411,
+      "weight": 1,
+      "text": "Smithy",
+      "raw_text": "1, Smithy",
+      "references": []
+    },
+    {
+      "index": 412,
+      "weight": 1,
+      "text": "Caravanserai",
+      "raw_text": "1, Caravanserai",
+      "references": []
+    },
+    {
+      "index": 413,
+      "weight": 1,
+      "text": "Chateau",
+      "raw_text": "1, Chateau",
+      "references": []
+    },
+    {
+      "index": 414,
+      "weight": 1,
+      "text": "Bazaar",
+      "raw_text": "1, Bazaar",
+      "references": []
+    },
+    {
+      "index": 415,
+      "weight": 1,
+      "text": "Tannery",
+      "raw_text": "1, Tannery",
+      "references": []
+    },
+    {
+      "index": 416,
+      "weight": 1,
+      "text": "Steps Leading Down",
+      "raw_text": "1, Steps Leading Down",
+      "references": []
+    },
+    {
+      "index": 417,
+      "weight": 1,
+      "text": "Steps Leading Up",
+      "raw_text": "1, Steps Leading Up",
+      "references": []
+    },
+    {
+      "index": 418,
+      "weight": 1,
+      "text": "Steps",
+      "raw_text": "1, Steps",
+      "references": []
+    },
+    {
+      "index": 419,
+      "weight": 1,
+      "text": "Abbey",
+      "raw_text": "1, Abbey",
+      "references": []
+    },
+    {
+      "index": 420,
+      "weight": 1,
+      "text": "Altar",
+      "raw_text": "1, Altar",
+      "references": []
+    },
+    {
+      "index": 421,
+      "weight": 1,
+      "text": "Apse",
+      "raw_text": "1, Apse",
+      "references": []
+    },
+    {
+      "index": 422,
+      "weight": 1,
+      "text": "Basilica",
+      "raw_text": "1, Basilica",
+      "references": []
+    },
+    {
+      "index": 423,
+      "weight": 1,
+      "text": "Belfry",
+      "raw_text": "1, Belfry",
+      "references": []
+    },
+    {
+      "index": 424,
+      "weight": 1,
+      "text": "Cathedral",
+      "raw_text": "1, Cathedral",
+      "references": []
+    },
+    {
+      "index": 425,
+      "weight": 1,
+      "text": "Chapel",
+      "raw_text": "1, Chapel",
+      "references": []
+    },
+    {
+      "index": 426,
+      "weight": 1,
+      "text": "Chancel",
+      "raw_text": "1, Chancel",
+      "references": []
+    },
+    {
+      "index": 427,
+      "weight": 1,
+      "text": "Chantry",
+      "raw_text": "1, Chantry",
+      "references": []
+    },
+    {
+      "index": 428,
+      "weight": 1,
+      "text": "Church",
+      "raw_text": "1, Church",
+      "references": []
+    },
+    {
+      "index": 429,
+      "weight": 1,
+      "text": "Cloister",
+      "raw_text": "1, Cloister",
+      "references": []
+    },
+    {
+      "index": 430,
+      "weight": 1,
+      "text": "Convent",
+      "raw_text": "1, Convent",
+      "references": []
+    },
+    {
+      "index": 431,
+      "weight": 1,
+      "text": "Deanery",
+      "raw_text": "1, Deanery",
+      "references": []
+    },
+    {
+      "index": 432,
+      "weight": 1,
+      "text": "Font",
+      "raw_text": "1, Font",
+      "references": []
+    },
+    {
+      "index": 433,
+      "weight": 1,
+      "text": "Friary",
+      "raw_text": "1, Friary",
+      "references": []
+    },
+    {
+      "index": 434,
+      "weight": 1,
+      "text": "Manse",
+      "raw_text": "1, Manse",
+      "references": []
+    },
+    {
+      "index": 435,
+      "weight": 1,
+      "text": "Monastery",
+      "raw_text": "1, Monastery",
+      "references": []
+    },
+    {
+      "index": 436,
+      "weight": 1,
+      "text": "Nunnery",
+      "raw_text": "1, Nunnery",
+      "references": []
+    },
+    {
+      "index": 437,
+      "weight": 1,
+      "text": "Parish",
+      "raw_text": "1, Parish",
+      "references": []
+    },
+    {
+      "index": 438,
+      "weight": 1,
+      "text": "Priory",
+      "raw_text": "1, Priory",
+      "references": []
+    },
+    {
+      "index": 439,
+      "weight": 1,
+      "text": "Rectory",
+      "raw_text": "1, Rectory",
+      "references": []
+    },
+    {
+      "index": 440,
+      "weight": 1,
+      "text": "Sanctuary",
+      "raw_text": "1, Sanctuary",
+      "references": []
+    },
+    {
+      "index": 441,
+      "weight": 1,
+      "text": "Sanctum",
+      "raw_text": "1, Sanctum",
+      "references": []
+    },
+    {
+      "index": 442,
+      "weight": 1,
+      "text": "Shrine",
+      "raw_text": "1, Shrine",
+      "references": []
+    },
+    {
+      "index": 443,
+      "weight": 1,
+      "text": "Tabernacle",
+      "raw_text": "1, Tabernacle",
+      "references": []
+    },
+    {
+      "index": 444,
+      "weight": 1,
+      "text": "Temple",
+      "raw_text": "1, Temple",
+      "references": []
+    },
+    {
+      "index": 445,
+      "weight": 1,
+      "text": "Vicarage",
+      "raw_text": "1, Vicarage",
+      "references": []
+    },
+    {
+      "index": 446,
+      "weight": 1,
+      "text": "Boneyard",
+      "raw_text": "1, Boneyard",
+      "references": []
+    },
+    {
+      "index": 447,
+      "weight": 1,
+      "text": "Catacomb",
+      "raw_text": "1, Catacomb",
+      "references": []
+    },
+    {
+      "index": 448,
+      "weight": 1,
+      "text": "Cemetery",
+      "raw_text": "1, Cemetery",
+      "references": []
+    },
+    {
+      "index": 449,
+      "weight": 1,
+      "text": "Charnel",
+      "raw_text": "1, Charnel",
+      "references": []
+    },
+    {
+      "index": 450,
+      "weight": 1,
+      "text": "Crypt",
+      "raw_text": "1, Crypt",
+      "references": []
+    },
+    {
+      "index": 451,
+      "weight": 1,
+      "text": "Graves",
+      "raw_text": "1, Graves",
+      "references": []
+    },
+    {
+      "index": 452,
+      "weight": 1,
+      "text": "Graveyard",
+      "raw_text": "1, Graveyard",
+      "references": []
+    },
+    {
+      "index": 453,
+      "weight": 1,
+      "text": "Mausoleum",
+      "raw_text": "1, Mausoleum",
+      "references": []
+    },
+    {
+      "index": 454,
+      "weight": 1,
+      "text": "Mortuary",
+      "raw_text": "1, Mortuary",
+      "references": []
+    },
+    {
+      "index": 455,
+      "weight": 1,
+      "text": "Necropolis",
+      "raw_text": "1, Necropolis",
+      "references": []
+    },
+    {
+      "index": 456,
+      "weight": 1,
+      "text": "Ossuary",
+      "raw_text": "1, Ossuary",
+      "references": []
+    },
+    {
+      "index": 457,
+      "weight": 1,
+      "text": "Rest",
+      "raw_text": "1, Rest",
+      "references": []
+    },
+    {
+      "index": 458,
+      "weight": 1,
+      "text": "Sepulcher",
+      "raw_text": "1, Sepulcher",
+      "references": []
+    },
+    {
+      "index": 459,
+      "weight": 1,
+      "text": "Tombs",
+      "raw_text": "1, Tombs",
+      "references": []
+    },
+    {
+      "index": 460,
+      "weight": 1,
+      "text": "Vault",
+      "raw_text": "1, Vault",
+      "references": []
+    },
+    {
+      "index": 461,
+      "weight": 1,
+      "text": "Coffer",
+      "raw_text": "1, Coffer",
+      "references": []
+    },
+    {
+      "index": 462,
+      "weight": 1,
+      "text": "Gathering Place",
+      "raw_text": "1, Gathering Place",
+      "references": []
+    },
+    {
+      "index": 463,
+      "weight": 1,
+      "text": "Meeting Place",
+      "raw_text": "1, Meeting Place",
+      "references": []
+    },
+    {
+      "index": 464,
+      "weight": 1,
+      "text": "Colonnades",
+      "raw_text": "1, Colonnades",
+      "references": []
+    },
+    {
+      "index": 465,
+      "weight": 1,
+      "text": "Antechamber",
+      "raw_text": "1, Antechamber",
+      "references": []
+    },
+    {
+      "index": 466,
+      "weight": 1,
+      "text": "Amphitheater",
+      "raw_text": "1, Amphitheater",
+      "references": []
+    },
+    {
+      "index": 467,
+      "weight": 1,
+      "text": "Audience Hall",
+      "raw_text": "1, Audience Hall ",
+      "references": []
+    },
+    {
+      "index": 468,
+      "weight": 1,
+      "text": "Courtroom",
+      "raw_text": "1, Courtroom ",
+      "references": []
+    },
+    {
+      "index": 469,
+      "weight": 1,
+      "text": "Great Hall",
+      "raw_text": "1, Great Hall ",
+      "references": []
+    },
+    {
+      "index": 470,
+      "weight": 1,
+      "text": "Throne Room",
+      "raw_text": "1, Throne Room",
+      "references": []
+    },
+    {
+      "index": 471,
+      "weight": 1,
+      "text": "Aviary",
+      "raw_text": "1, Aviary",
+      "references": []
+    },
+    {
+      "index": 472,
+      "weight": 1,
+      "text": "Bestiary",
+      "raw_text": "1, Bestiary",
+      "references": []
+    },
+    {
+      "index": 473,
+      "weight": 1,
+      "text": "Cage or Cell",
+      "raw_text": "1, Cage or Cell",
+      "references": []
+    },
+    {
+      "index": 474,
+      "weight": 1,
+      "text": "Kennel",
+      "raw_text": "1, Kennel",
+      "references": []
+    },
+    {
+      "index": 475,
+      "weight": 1,
+      "text": "Oubliette",
+      "raw_text": "1, Oubliette",
+      "references": []
+    },
+    {
+      "index": 476,
+      "weight": 1,
+      "text": "Padded Room",
+      "raw_text": "1, Padded Room ",
+      "references": []
+    },
+    {
+      "index": 477,
+      "weight": 1,
+      "text": "Banquet hall",
+      "raw_text": "1, Banquet hall",
+      "references": []
+    },
+    {
+      "index": 478,
+      "weight": 1,
+      "text": "Den",
+      "raw_text": "1, Den",
+      "references": []
+    },
+    {
+      "index": 479,
+      "weight": 1,
+      "text": "Game Room",
+      "raw_text": "1, Game Room",
+      "references": []
+    },
+    {
+      "index": 480,
+      "weight": 1,
+      "text": "Gallery",
+      "raw_text": "1, Gallery",
+      "references": []
+    },
+    {
+      "index": 481,
+      "weight": 1,
+      "text": "Harem",
+      "raw_text": "1, Harem",
+      "references": []
+    },
+    {
+      "index": 482,
+      "weight": 1,
+      "text": "Museum",
+      "raw_text": "1, Museum",
+      "references": []
+    },
+    {
+      "index": 483,
+      "weight": 1,
+      "text": "Music Room",
+      "raw_text": "1, Music Room",
+      "references": []
+    },
+    {
+      "index": 484,
+      "weight": 1,
+      "text": "Pool",
+      "raw_text": "1, Pool",
+      "references": []
+    },
+    {
+      "index": 485,
+      "weight": 1,
+      "text": "Sauna",
+      "raw_text": "1, Sauna",
+      "references": []
+    },
+    {
+      "index": 486,
+      "weight": 1,
+      "text": "Bathroom",
+      "raw_text": "1, Bathroom",
+      "references": []
+    },
+    {
+      "index": 487,
+      "weight": 1,
+      "text": "Bedroom",
+      "raw_text": "1, Bedroom",
+      "references": []
+    },
+    {
+      "index": 488,
+      "weight": 1,
+      "text": "Cistern Room",
+      "raw_text": "1, Cistern Room",
+      "references": []
+    },
+    {
+      "index": 489,
+      "weight": 1,
+      "text": "Closet",
+      "raw_text": "1, Closet",
+      "references": []
+    },
+    {
+      "index": 490,
+      "weight": 1,
+      "text": "Dining Room",
+      "raw_text": "1, Dining Room",
+      "references": []
+    },
+    {
+      "index": 491,
+      "weight": 1,
+      "text": "Dressing Room",
+      "raw_text": "1, Dressing Room",
+      "references": []
+    },
+    {
+      "index": 492,
+      "weight": 1,
+      "text": "Hall",
+      "raw_text": "1, Hall ",
+      "references": []
+    },
+    {
+      "index": 493,
+      "weight": 1,
+      "text": "Lair",
+      "raw_text": "1, Lair ",
+      "references": []
+    },
+    {
+      "index": 494,
+      "weight": 1,
+      "text": "Larder",
+      "raw_text": "1, Larder",
+      "references": []
+    },
+    {
+      "index": 495,
+      "weight": 1,
+      "text": "Pantry",
+      "raw_text": "1, Pantry ",
+      "references": []
+    },
+    {
+      "index": 496,
+      "weight": 1,
+      "text": "Lounge",
+      "raw_text": "1, Lounge ",
+      "references": []
+    },
+    {
+      "index": 497,
+      "weight": 1,
+      "text": "Map Room",
+      "raw_text": "1, Map Room",
+      "references": []
+    },
+    {
+      "index": 498,
+      "weight": 1,
+      "text": "Planning Room",
+      "raw_text": "1, Planning Room",
+      "references": []
+    },
+    {
+      "index": 499,
+      "weight": 1,
+      "text": "Reception Chamber",
+      "raw_text": "1, Reception Chamber",
+      "references": []
+    },
+    {
+      "index": 500,
+      "weight": 1,
+      "text": "Salon",
+      "raw_text": "1, Salon",
+      "references": []
+    },
+    {
+      "index": 501,
+      "weight": 1,
+      "text": "Servants Dorm",
+      "raw_text": "1, Servants Dorm",
+      "references": []
+    },
+    {
+      "index": 502,
+      "weight": 1,
+      "text": "Storage",
+      "raw_text": "1, Storage ",
+      "references": []
+    },
+    {
+      "index": 503,
+      "weight": 1,
+      "text": "Waiting Room",
+      "raw_text": "1, Waiting Room",
+      "references": []
+    },
+    {
+      "index": 504,
+      "weight": 1,
+      "text": "Wardrobe",
+      "raw_text": "1, Wardrobe",
+      "references": []
+    },
+    {
+      "index": 505,
+      "weight": 1,
+      "text": "Well Room",
+      "raw_text": "1, Well Room",
+      "references": []
+    },
+    {
+      "index": 506,
+      "weight": 1,
+      "text": "Guardroom",
+      "raw_text": "1, Guardroom",
+      "references": []
+    },
+    {
+      "index": 507,
+      "weight": 1,
+      "text": "Gymnasium",
+      "raw_text": "1, Gymnasium",
+      "references": []
+    },
+    {
+      "index": 508,
+      "weight": 1,
+      "text": "Interrogation Room",
+      "raw_text": "1, Interrogation Room",
+      "references": []
+    },
+    {
+      "index": 509,
+      "weight": 1,
+      "text": "Mess Hall",
+      "raw_text": "1, Mess Hall",
+      "references": []
+    },
+    {
+      "index": 510,
+      "weight": 1,
+      "text": "Training Room",
+      "raw_text": "1, Training Room",
+      "references": []
+    },
+    {
+      "index": 511,
+      "weight": 1,
+      "text": "Crypt",
+      "raw_text": "1, Crypt",
+      "references": []
+    },
+    {
+      "index": 512,
+      "weight": 1,
+      "text": "Animal Crypt",
+      "raw_text": "1, Animal Crypt",
+      "references": []
+    },
+    {
+      "index": 513,
+      "weight": 1,
+      "text": "Confessional",
+      "raw_text": "1, Confessional",
+      "references": []
+    },
+    {
+      "index": 514,
+      "weight": 1,
+      "text": "Crematorium",
+      "raw_text": "1, Crematorium",
+      "references": []
+    },
+    {
+      "index": 515,
+      "weight": 1,
+      "text": "Embalming Chamber",
+      "raw_text": "1, Embalming Chamber",
+      "references": []
+    },
+    {
+      "index": 516,
+      "weight": 1,
+      "text": "Meditation Chamber",
+      "raw_text": "1, Meditation Chamber",
+      "references": []
+    },
+    {
+      "index": 517,
+      "weight": 1,
+      "text": "Monk Cell",
+      "raw_text": "1, Monk Cell",
+      "references": []
+    },
+    {
+      "index": 518,
+      "weight": 1,
+      "text": "Mass Grave",
+      "raw_text": "1, Mass Grave",
+      "references": []
+    },
+    {
+      "index": 519,
+      "weight": 1,
+      "text": "Robing Room",
+      "raw_text": "1, Robing Room",
+      "references": []
+    },
+    {
+      "index": 520,
+      "weight": 1,
+      "text": "Writing Study",
+      "raw_text": "1, Writing Study",
+      "references": []
+    },
+    {
+      "index": 521,
+      "weight": 1,
+      "text": "Vestiary",
+      "raw_text": "1, Vestiary",
+      "references": []
+    },
+    {
+      "index": 522,
+      "weight": 1,
+      "text": "Classroom",
+      "raw_text": "1, Classroom",
+      "references": []
+    },
+    {
+      "index": 523,
+      "weight": 1,
+      "text": "Conjuring Room",
+      "raw_text": "1, Conjuring Room",
+      "references": []
+    },
+    {
+      "index": 524,
+      "weight": 1,
+      "text": "Divination Chamber",
+      "raw_text": "1, Divination Chamber",
+      "references": []
+    },
+    {
+      "index": 525,
+      "weight": 1,
+      "text": "Inscription Chamber",
+      "raw_text": "1, Inscription Chamber",
+      "references": []
+    },
+    {
+      "index": 526,
+      "weight": 1,
+      "text": "Study",
+      "raw_text": "1, Study",
+      "references": []
+    },
+    {
+      "index": 527,
+      "weight": 1,
+      "text": "Solar",
+      "raw_text": "1, Solar",
+      "references": []
+    },
+    {
+      "index": 528,
+      "weight": 1,
+      "text": "Summoning Room",
+      "raw_text": "1, Summoning Room",
+      "references": []
+    },
+    {
+      "index": 529,
+      "weight": 1,
+      "text": "Barn",
+      "raw_text": "1, Barn",
+      "references": []
+    },
+    {
+      "index": 530,
+      "weight": 1,
+      "text": "Kitchen",
+      "raw_text": "1, Kitchen",
+      "references": []
+    },
+    {
+      "index": 531,
+      "weight": 1,
+      "text": "Meeting Chamber",
+      "raw_text": "1, Meeting Chamber",
+      "references": []
+    },
+    {
+      "index": 532,
+      "weight": 1,
+      "text": "Office",
+      "raw_text": "1, Office",
+      "references": []
+    },
+    {
+      "index": 533,
+      "weight": 1,
+      "text": "Treasury",
+      "raw_text": "1, Treasury",
+      "references": []
+    },
+    {
+      "index": 534,
+      "weight": 1,
+      "text": "Smokehouse",
+      "raw_text": "1, Smokehouse",
+      "references": []
+    },
+    {
+      "index": 535,
+      "weight": 1,
+      "text": "Workshop",
+      "raw_text": "1, Workshop",
+      "references": []
+    },
+    {
+      "index": 536,
+      "weight": 1,
+      "text": "Statue hall",
+      "raw_text": "1, Statue hall",
+      "references": []
+    },
+    {
+      "index": 537,
+      "weight": 1,
+      "text": "Trophy Room",
+      "raw_text": "1, Trophy Room",
+      "references": []
+    },
+    {
+      "index": 538,
+      "weight": 1,
+      "text": "Testing Room",
+      "raw_text": "1, Testing Room",
+      "references": []
+    },
+    {
+      "index": 539,
+      "weight": 1,
+      "text": "Granary",
+      "raw_text": "1, Granary",
+      "references": []
+    },
+    {
+      "index": 540,
+      "weight": 1,
+      "text": "Croft",
+      "raw_text": "1, Croft",
+      "references": []
+    },
+    {
+      "index": 541,
+      "weight": 1,
+      "text": "Ziggurat",
+      "raw_text": "1, Ziggurat",
+      "references": []
+    },
+    {
+      "index": 542,
+      "weight": 1,
+      "text": "Terrace Garden",
+      "raw_text": "1, Terrace Garden",
+      "references": []
+    },
+    {
+      "index": 543,
+      "weight": 1,
+      "text": "Quarry",
+      "raw_text": "1, Quarry",
+      "references": []
+    },
+    {
+      "index": 544,
+      "weight": 1,
+      "text": "Diary",
+      "raw_text": "1, Diary",
+      "references": []
+    },
+    {
+      "index": 545,
+      "weight": 1,
+      "text": "Orchard",
+      "raw_text": "1, Orchard",
+      "references": []
+    },
+    {
+      "index": 546,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";location\n1, Stockyard\n1, Flop-house\n1, Shelter\n1, School\n1, Foundry\n1, Shot-tower\n1, Academy\n1, Aquarium\n1, Guild\n1, Fortification\n1, Clan-house\n1, College\n1, Barren\n1, Bell-tower\n1, Boardinghouse\n1, Generator\n1, Conservatory\n1, Brewery\n1, Marquee\n1, Observatory \n1, Calendar\n1, Cemetery\n1, Quadrant\n1, Prison\n1, Bathhouse\n1, Stronghold\n1, Clearing\n1, Tower\n1, Orphanage\n1, House\n1, Den\n1, Tenancy\n1, Headquarters\n1, Quarry\n1, Manor\n1, Bridge\n1, Playground\n1, Embassy\n1, Fountain\n1, Gallows\n1, Colosseum\n1, Kiln\n1, Groundskeepers\n1, Abandonment\n1, Museum\n1, Hospital\n1, Dungeon\n1, Order\n1, Guardhouse\n1, Cells\n1, Bureaucracy\n1, Yard\n1, Hunt\n1, Spire\n1, Lighthouse\n1, Square\n1, Group\n1, House\n1, Barracks\n1, Keep\n1, Mill\n1, Reservation\n1, Lodge\n1, Amphitheater\n1, Quarter\n1, Hideout\n1, Pier\n1, Charity\n1, Library\n1, Dance-hall\n1, Hotel\n1, Tent\n1, Assembly\n1, Stronghold\n1, Monastery\n1, Organisation\n1, Nexus\n1, Playhouse\n1, Quadrant\n1, Laboratory\n1, Society\n1, Labyrinth\n1, Croft\n1, Town\n1, Tent\n1, Ring\n1, Safe-house\n1, Furnace\n1, Bridge\n1, Marketplace\n1, Syndicate\n1, Refuge\n1, University\n1, Hall\n1, Garden\n1, Shop\n1, Waterwheel\n1, Sanctuary\n1, Asylum\n1, Zoological Park\n1, Abattoir\n1, Anarchist\n1, Animal\n1, Arcane\n1, Armament\n1, Arsenal\n1, Art\n1, Aquarium\n1, Assassins\n1, Bank\n1, Barbarian\n1, Barbers\n1, Overgrown\n1, Bell\n1, Boardinghouse\n1, Boiler\n1, Botanical Conservatory\n1, Monks\n1, Caravan\n1, Celestial\n1, Center\n1, Commercial\n1, Curfew\n1, City\n1, Civic\n1, Clandestine\n1, Clearing\n1, Clock\n1, Community\n1, Council\n1, Criminal\n1, Crowded\n1, Cult\n1, Dwarf\n1, Elf\n1, Extra-Planar\n1, Fallow\n1, Foreign\n1, Fountain\n1, Gaol\n1, Gladiator\n1, Gnome\n1, Groundskeepers\n1, Haunted\n1, Historical\n1, Hospital\n1, Inquisitors\n1, Knight\n1, Law Enforcement\n1, Law Court\n1, Local\n1, Lumber\n1, Kings\n1, Mage\n1, Marina\n1, Market\n1, Mercenary\n1, Merchant\n1, Military\n1, Militia\n1, Mill\n1, Native\n1, Occult\n1, Open Air\n1, Orc\n1, Partisan\n1, Pier\n1, Philanthropic\n1, Private\n1, Prohibition\n1, Prostitutes\n1, Prospector\n1, Public\n1, Rebellion\n1, Recluse\n1, Religious\n1, Reincarnate\n1, Royal\n1, Ruined\n1, Science\n1, Secret\n1, Sewer\n1, Servants\n1, Shanty\n1, Shop\n1, Slavers\n1, Spy\n1, Steam\n1, Toll\n1, Traders\n1, Underworld\n1, Underground\n1, Walled\n1, Machine Shop\n1, Water\n1, Wild\n1, Park\n1, Shrine\n1, Paved Road\n1, Inn\n1, Castle\n1, Sage Terrarium\n1, Spice-Merchants\n1, Shipyard\n1, Conservatory\n1, Protected Supply house\n1, Common House-hold\n1, Lost Gallery\n1, Heritage Building\n1, Original\n1, Facades\n1, Renovated\n1, Camp\n1, Encampment\n1, Siege\n1, Barricade\n1, Alleyway Maze\n1, Lakeside Wharf\n1, Palace\n1, Slum\n1, Decoy\n1, Mistaken Identity\n1, Ditch\n1, Hill\n1, Burned Building\n1, Century Old Tree\n1, Dead Tree\n1, Signpost\n1, Stonewall\n1, Paved Road\n1, Commercial Docks\n1, Statue\n1, Pillar\n1, Wayside Shrine\n1, Sculpture\n1, Wellspring\n1, Hand-drawn Well\n1, Public Fountain\n1, Calender\n1, Mosaic Map\n1, Civic Map\n1, Historical Landmark\n1, Cultural Landmark\n1, Refuse Pit\n1, Native\n1, Native Landmark\n1, Public Sign\n1, Public Square\n1, Warehouse\n1, Storage\n1, Burned Out\n1, Ruined\n1, Gate\n1, Aqueduct\n1, Gateway\n1, Spring\n1, Residence\n1, Road\n1, Highway\n1, Wall\n1, Natural Feature\n1, Weir\n1, Windmill\n1, Wheel\n1, Burial\n1, Affiliate\n1, Affinity\n1, Alliance\n1, Assemblage\n1, Association\n1, Band\n1, Brotherhood\n1, Fraternal Brotherhood\n1, Cartel\n1, Club\n1, Coalition\n1, Collective\n1, Combination\n1, Community\n1, Company\n1, Concatenation\n1, Confederacy\n1, Confraternity\n1, Consortium\n1, Fellowship\n1, Fraternity\n1, League\n1, Order\n1, Sisterhood\n1, Society\n1, Sodality\n1, Syndicate\n1, Union\n1, Independent\n1, Government\n1, Chiefdom\n1, Constitutional\n1, Republic\n1, Democracy\n1, Emirate\n1, Geniocracy\n1, Kratocracy\n1, Kalidterreism\n1, Matriarchy\n1, Meritocracy\n1, Monarchy\n1, Nomocracy\n1, Oligarchy\n1, Plutocracy\n1, Republic\n1, Stratocracy\n1, Technocracy\n1, Theocracy\n1, Timocracy\n1, Totalitarian\n1, Federation\n1, Empire\n1, Confederation\n1, Associated State\n1, Dissociated State\n1, Patriarchy\n1, Monolith\n1, Monument\n1, Steps\n1, Tunnel\n1, Pillar\n1, Arch\n1, Post\n1, Door\n1, Watchtower\n1, Armory\n1, Bailey\n1, Barbican\n1, Barracks\n1, Bastion\n1, Battlement\n1, Bridge Wooden\n1, Doorway\n1, Drawbridge\n1, Earthworks\n1, Fence\n1, Fortress\n1, Garrison\n1, Gateway\n1, Gatehouse\n1, Hold\n1, Keep\n1, Moat\n1, Mott\n1, Palisade\n1, Postern\n1, Ramparts\n1, Stronghold\n1, Temporary Wall\n1, Watch\n1, Watchtower\n1, Wooden Wall\n1, Brick Wall\n1, Earth Wall\n1, Concrete Wall\n1, Natural Wall\n1, Pit\n1, Anchorage\n1, Crane\n1, Docks\n1, Harbor\n1, Marina\n1, Pier\n1, Quay\n1, Wharf\n1, Aqueduct\n1, Stone Bridge\n1, Canal\n1, Cistern\n1, Footbridge\n1, Pond\n1, Pool\n1, Reservoir\n1, Shore\n1, Span\n1, Agora\n1, Commons\n1, Field\n1, Forum\n1, Garden\n1, Market Garden\n1, Herb Garden\n1, Fruit Orchard\n1, Green\n1, Park\n1, Piazza\n1, Plaza\n1, Square\n1, Stray\n1, Terrace\n1, Courtyard\n1, Marketplace\n1, Market\n1, Mews\n1, Mound\n1, Quarry\n1, Plantation\n1, Luthier\n1, Forge\n1, Palace\n1, Manor\n1, Mansion\n1, Mill\n1, Stocks\n1, Stage\n1, Stables\n1, Smithy\n1, Caravanserai\n1, Chateau\n1, Bazaar\n1, Tannery\n1, Steps Leading Down\n1, Steps Leading Up\n1, Steps\n1, Abbey\n1, Altar\n1, Apse\n1, Basilica\n1, Belfry\n1, Cathedral\n1, Chapel\n1, Chancel\n1, Chantry\n1, Church\n1, Cloister\n1, Convent\n1, Deanery\n1, Font\n1, Friary\n1, Manse\n1, Monastery\n1, Nunnery\n1, Parish\n1, Priory\n1, Rectory\n1, Sanctuary\n1, Sanctum\n1, Shrine\n1, Tabernacle\n1, Temple\n1, Vicarage\n1, Boneyard\n1, Catacomb\n1, Cemetery\n1, Charnel\n1, Crypt\n1, Graves\n1, Graveyard\n1, Mausoleum\n1, Mortuary\n1, Necropolis\n1, Ossuary\n1, Rest\n1, Sepulcher\n1, Tombs\n1, Vault\n1, Coffer\n1, Gathering Place\n1, Meeting Place\n1, Colonnades\n1, Antechamber\n1, Amphitheater\n1, Audience Hall \n1, Courtroom \n1, Great Hall \n1, Throne Room\n1, Aviary\n1, Bestiary\n1, Cage or Cell\n1, Kennel\n1, Oubliette\n1, Padded Room \n1, Banquet hall\n1, Den\n1, Game Room\n1, Gallery\n1, Harem\n1, Museum\n1, Music Room\n1, Pool\n1, Sauna\n1, Bathroom\n1, Bedroom\n1, Cistern Room\n1, Closet\n1, Dining Room\n1, Dressing Room\n1, Hall \n1, Lair \n1, Larder\n1, Pantry \n1, Lounge \n1, Map Room\n1, Planning Room\n1, Reception Chamber\n1, Salon\n1, Servants Dorm\n1, Storage \n1, Waiting Room\n1, Wardrobe\n1, Well Room\n1, Guardroom\n1, Gymnasium\n1, Interrogation Room\n1, Mess Hall\n1, Training Room\n1, Crypt\n1, Animal Crypt\n1, Confessional\n1, Crematorium\n1, Embalming Chamber\n1, Meditation Chamber\n1, Monk Cell\n1, Mass Grave\n1, Robing Room\n1, Writing Study\n1, Vestiary\n1, Classroom\n1, Conjuring Room\n1, Divination Chamber\n1, Inscription Chamber\n1, Study\n1, Solar\n1, Summoning Room\n1, Barn\n1, Kitchen\n1, Meeting Chamber\n1, Office\n1, Treasury\n1, Smokehouse\n1, Workshop\n1, Statue hall\n1, Trophy Room\n1, Testing Room\n1, Granary\n1, Croft\n1, Ziggurat\n1, Terrace Garden\n1, Quarry\n1, Diary\n1, Orchard\n1,",
+  "warnings": []
+}

@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Brennall",
+    "page_id": 3308
+  },
+  "source": {
+    "revision_id": 18939,
+    "timestamp": "2013-10-02T21:04:20Z",
+    "contributor": {
+      "name": "Brennall",
+      "id": 1795,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "29e28e652500505a23ea2663610e94554acfb3cdee994d7bf5e9ee9fdef3fe91",
+      "rawSha256": "e4f9d9b784a6584fc5ce051eb72a0f2bbde559cf961c3ecb214ff6b2003cab6e",
+      "revisionId": "18939",
+      "line": 95,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "18939",
+        "timestamp": "2013-10-02T21:04:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Tongue Finisher",
+    "qualified_name": "User:Brennall.Tongue Finisher",
+    "table_block_index": 0,
+    "line_number": 95
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Bashing",
+      "raw_text": "1,Bashing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Blasting",
+      "raw_text": "1,Blasting",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Blanching",
+      "raw_text": "1,Blanching",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Blistering",
+      "raw_text": "1,Blistering",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Bursting",
+      "raw_text": "1,Bursting",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Busting",
+      "raw_text": "1,Busting",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Chopping",
+      "raw_text": "1,Chopping",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Crunching",
+      "raw_text": "1,Crunching",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Crushing",
+      "raw_text": "1,Crushing",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Demolishing",
+      "raw_text": "1,Demolishing",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Dunking",
+      "raw_text": "1,Dunking",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Grabbing",
+      "raw_text": "1,Grabbing",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Gouging",
+      "raw_text": "1,Gouging",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Kicking",
+      "raw_text": "1,Kicking",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Melting",
+      "raw_text": "1,Melting",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Poking",
+      "raw_text": "1,Poking",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Punching",
+      "raw_text": "1,Punching",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Ripping",
+      "raw_text": "1,Ripping",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Roasting",
+      "raw_text": "1,Roasting",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Slashing",
+      "raw_text": "1,Slashing",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Smashing",
+      "raw_text": "1,Smashing",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Smelting",
+      "raw_text": "1,Smelting",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Smoking",
+      "raw_text": "1,Smoking",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Stabbing",
+      "raw_text": "1,Stabbing",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Wasting",
+      "raw_text": "1,Wasting",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Whipping",
+      "raw_text": "1,Whipping",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Tongue Finisher\n1,Bashing\n1,Blasting\n1,Blanching\n1,Blistering\n1,Bursting\n1,Busting\n1,Chopping\n1,Crunching\n1,Crushing\n1,Demolishing\n1,Dunking\n1,Grabbing\n1,Gouging\n1,Kicking\n1,Melting\n1,Poking\n1,Punching\n1,Ripping\n1,Roasting\n1,Slashing\n1,Smashing\n1,Smelting\n1,Smoking\n1,Stabbing\n1,Wasting\n1,Whipping",
+  "warnings": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "79958a4e47f708b36b87523ddf29bb196af6153e27c2641f036dba11d19388f5",
+      "revisionId": "22803",
+      "line": 27,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "name",
+    "qualified_name": "Quick Horrors.name",
+    "table_block_index": 0,
+    "line_number": 27
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.name]",
+      "raw_text": "1,[Quick Zone Populations.name]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.name]",
+          "token": "Quick Zone Populations.name",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "name",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "name",
+          "target_qualified_name": "Quick Zone Populations.name"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Creepy Fantasy Villain.main]",
+      "raw_text": "1,[Creepy Fantasy Villain.main]",
+      "references": [
+        {
+          "raw": "[Creepy Fantasy Villain.main]",
+          "token": "Creepy Fantasy Villain.main",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "name",
+          "target_page": "Creepy Fantasy Villain",
+          "target_subtable": "main",
+          "target_qualified_name": "Creepy Fantasy Villain.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Creepy Fantasy Villain.main",
+      "Quick Zone Populations.name"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";name\n1,[Quick Zone Populations.name]\n1,[Creepy Fantasy Villain.main]",
+  "warnings": []
+}

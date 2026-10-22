@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15341,
+    "timestamp": "2012-10-08T07:36:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7cbc14bde97cfbf43bbd6ab59837ccb6f5b666eaba1486aae3febf55913c3f12",
+      "rawSha256": "d26080837bcc573bd77c860801ef5232b1083af978a43c339d87fcfe0573d3d3",
+      "revisionId": "15341",
+      "line": 41,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "describemetal",
+    "qualified_name": "Starting Equipment.describemetal",
+    "table_block_index": 0,
+    "line_number": 41
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Utility.MetalArmor]",
+      "raw_text": "1,[Utility.MetalArmor] ",
+      "references": [
+        {
+          "raw": "[Utility.MetalArmor]",
+          "token": "Utility.MetalArmor",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describemetal",
+          "target_page": "Utility",
+          "target_subtable": "MetalArmor",
+          "target_qualified_name": "Utility.MetalArmor"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.MetalArmor"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";describemetal\n10,\n1,[Utility.MetalArmor] ",
+  "warnings": []
+}

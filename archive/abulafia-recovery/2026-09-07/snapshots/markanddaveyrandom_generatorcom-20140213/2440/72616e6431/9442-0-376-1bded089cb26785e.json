@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "1bded089cb26785e0feca8de460682fed26439fcdb2d0bf501ff8ad16cb8835c",
+      "revisionId": "9442",
+      "line": 376,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rand1",
+    "qualified_name": "New gen.rand1",
+    "table_block_index": 0,
+    "line_number": 376
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Monster]",
+      "raw_text": "1,[Monster]",
+      "references": [
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Killer]",
+      "raw_text": "1,[Killer]",
+      "references": [
+        {
+          "raw": "[Killer]",
+          "token": "Killer",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Killer",
+          "target_qualified_name": "New gen.Killer"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Killer] [Monster]",
+      "raw_text": "1,[Killer] [Monster]",
+      "references": [
+        {
+          "raw": "[Killer]",
+          "token": "Killer",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Killer",
+          "target_qualified_name": "New gen.Killer"
+        },
+        {
+          "raw": "[Monster]",
+          "token": "Monster",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Monster",
+          "target_qualified_name": "New gen.Monster"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Type] [Sex]",
+      "raw_text": "1,[Type] [Sex]",
+      "references": [
+        {
+          "raw": "[Type]",
+          "token": "Type",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Type",
+          "target_qualified_name": "New gen.Type"
+        },
+        {
+          "raw": "[Sex]",
+          "token": "Sex",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "rand1",
+          "target_page": "New gen",
+          "target_subtable": "Sex",
+          "target_qualified_name": "New gen.Sex"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Killer",
+      "Monster",
+      "Sex",
+      "Type"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";rand1\n1,[Monster]\n1,[Killer]\n1,[Killer] [Monster]\n1,[Type] [Sex]",
+  "warnings": []
+}

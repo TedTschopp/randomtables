@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "a3482b54d4e33ef53387608216988769160994c512e4952010b73281b8411b38",
+      "revisionId": "23320",
+      "line": 455,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "strongmagiccursed",
+    "qualified_name": "OSR weapon.strongmagiccursed",
+    "table_block_index": 0,
+    "line_number": 455
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "-3 to a random saving throw.",
+      "raw_text": "1,-3 to a random saving throw.",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "-1 to all saving throws.",
+      "raw_text": "1,-1 to all saving throws.",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Accentuates your worst personality traits (-2 Charisma)",
+      "raw_text": "1,Accentuates your worst personality traits (-2 Charisma)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Constant whispering sound makes it hard to concentrate (-2 Intelligence)",
+      "raw_text": "1,Constant whispering sound makes it hard to concentrate (-2 Intelligence)",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Estranges you from God and nature. (-2 Wisdom)",
+      "raw_text": "1,Estranges you from God and nature. (-2 Wisdom)",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Exhausting to wield (-1 Strength if an armor, -1 Constitution if a weapon)",
+      "raw_text": "1,Exhausting to wield (-1 Strength if an armor, -1 Constitution if a weapon)",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Makes unexpected, clumsy, confining moves (-1 Dexterity)",
+      "raw_text": "1,Makes unexpected, clumsy, confining moves (-1 Dexterity)",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Take 1 hp damage when you equip it",
+      "raw_text": "1,Take 1 hp damage when you equip it",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Take 1 hp damage when you un-equip it",
+      "raw_text": "1,Take 1 hp damage when you un-equip it",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "If you die while wielding/wearing it, you rise immediately as an undead creature of hit dice appropriate to your level, and attack the party immediately",
+      "raw_text": "1,If you die while wielding/wearing it, you rise immediately as an undead creature of hit dice appropriate to your level, and attack the party immediately",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Has minuses instead of pluses when fighting one creature type (reptiles, undead, humans, etc)",
+      "raw_text": "1,Has minuses instead of pluses when fighting one creature type (reptiles, undead, humans, etc)",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Animals are unfriendly to you while carrying it",
+      "raw_text": "1,Animals are unfriendly to you while carrying it",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "+1 of its enchantment vanishes for the day when you hit (weapon) or are hit (armor) on a natural 13",
+      "raw_text": "1,+1 of its enchantment vanishes for the day when you hit (weapon) or are hit (armor) on a natural 13",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "You need to eat five times as much on any day you use it in combat",
+      "raw_text": "1,You need to eat five times as much on any day you use it in combat",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "While wielding or wearing it, unintelligent enemies attack you by choice",
+      "raw_text": "1,While wielding or wearing it, unintelligent enemies attack you by choice",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "When you are aware of an enemy, you have +3 move to go towards them, and -3 to go away",
+      "raw_text": "1,When you are aware of an enemy, you have +3 move to go towards them, and -3 to go away",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "To enjoy its magical benefit, requires you to forswear your religion and follow an obscure, nearly-dead god, wearing its symbol and following its strange customs",
+      "raw_text": "1,To enjoy its magical benefit, requires you to forswear your religion and follow an obscure, nearly-dead god, wearing its symbol and following its strange customs",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Can't heal HP while you're carrying/wearing it",
+      "raw_text": "1,Can't heal HP while you're carrying/wearing it",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Glows visibly when enemies are near, within 60' but only if you already know they're near",
+      "raw_text": "1,Glows visibly when enemies are near, within 60' but only if you already know they're near",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Jealous, drops from your grasp if you're carrying another weapon (weapon), falls off your body if you're carrying any other magic item (armor)",
+      "raw_text": "1,Jealous, drops from your grasp if you're carrying another weapon (weapon), falls off your body if you're carrying any other magic item (armor)",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Each time you do (weapon) or take (armor) 6 or more HP of damage in one blow, you lose 1 HP",
+      "raw_text": "1,Each time you do (weapon) or take (armor) 6 or more HP of damage in one blow, you lose 1 HP",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Fogs your vision, you can only see 30' in dim light",
+      "raw_text": "1,Fogs your vision, you can only see 30' in dim light",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Makes an audible screaming sound when it hits (weapon) or when you are hit (armor)",
+      "raw_text": "1,Makes an audible screaming sound when it hits (weapon) or when you are hit (armor)",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Only has its magical powers each day if exposed to the rays of the dawn",
+      "raw_text": "1,Only has its magical powers each day if exposed to the rays of the dawn",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "You must rest and not attack one round out of five while wielding or wearing the item",
+      "raw_text": "1,You must rest and not attack one round out of five while wielding or wearing the item",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "You lose the ability to speak while wielding/wearing it",
+      "raw_text": "1,You lose the ability to speak while wielding/wearing it",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Gives -1 to hit (if armor) or 1 worse armor class (if weapon)",
+      "raw_text": "1,Gives -1 to hit (if armor) or 1 worse armor class (if weapon)",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "You hit your nearby friends (weapon) or your nearby friends hit you (armor) on a natural to hit roll of 3",
+      "raw_text": "1,You hit your nearby friends (weapon) or your nearby friends hit you (armor) on a natural to hit roll of 3",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Any NPC's who see it and are able to wield/wear it must save or become covetous and scheme to take it from you",
+      "raw_text": "1,Any NPC's who see it and are able to wield/wear it must save or become covetous and scheme to take it from you",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Powerful wizard/demon/undead creature thinks the item is theirs and begins pursuing you d4 weeks after you acquire the item",
+      "raw_text": "1,Powerful wizard/demon/undead creature thinks the item is theirs and begins pursuing you d4 weeks after you acquire the item",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";strongmagiccursed\n1,-3 to a random saving throw.\n1,-1 to all saving throws.\n1,Accentuates your worst personality traits (-2 Charisma)\n1,Constant whispering sound makes it hard to concentrate (-2 Intelligence)\n1,Estranges you from God and nature. (-2 Wisdom)\n1,Exhausting to wield (-1 Strength if an armor, -1 Constitution if a weapon)\n1,Makes unexpected, clumsy, confining moves (-1 Dexterity)\n1,Take 1 hp damage when you equip it\n1,Take 1 hp damage when you un-equip it\n1,If you die while wielding/wearing it, you rise immediately as an undead creature of hit dice appropriate to your level, and attack the party immediately\n1,Has minuses instead of pluses when fighting one creature type (reptiles, undead, humans, etc)\n1,Animals are unfriendly to you while carrying it\n1,+1 of its enchantment vanishes for the day when you hit (weapon) or are hit (armor) on a natural 13\n1,You need to eat five times as much on any day you use it in combat\n1,While wielding or wearing it, unintelligent enemies attack you by choice\n1,When you are aware of an enemy, you have +3 move to go towards them, and -3 to go away\n1,To enjoy its magical benefit, requires you to forswear your religion and follow an obscure, nearly-dead god, wearing its symbol and following its strange customs\n1,Can't heal HP while you're carrying/wearing it\n1,Glows visibly when enemies are near, within 60' but only if you already know they're near\n1,Jealous, drops from your grasp if you're carrying another weapon (weapon), falls off your body if you're carrying any other magic item (armor)\n1,Each time you do (weapon) or take (armor) 6 or more HP of damage in one blow, you lose 1 HP\n1,Fogs your vision, you can only see 30' in dim light\n1,Makes an audible screaming sound when it hits (weapon) or when you are hit (armor)\n1,Only has its magical powers each day if exposed to the rays of the dawn\n1,You must rest and not attack one round out of five while wielding or wearing the item\n1,You lose the ability to speak while wielding/wearing it\n1,Gives -1 to hit (if armor) or 1 worse armor class (if weapon)\n1,You hit your nearby friends (weapon) or your nearby friends hit you (armor) on a natural to hit roll of 3\n1,Any NPC's who see it and are able to wield/wear it must save or become covetous and scheme to take it from you\n1,Powerful wizard/demon/undead creature thinks the item is theirs and begins pursuing you d4 weeks after you acquire the item",
+  "warnings": []
+}

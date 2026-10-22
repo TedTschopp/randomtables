@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "2ba80a103572b112183841063e76032d53f50538c99ee3ba031e35de7368ab4f",
+      "revisionId": "22835",
+      "line": 96,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursenamename",
+    "qualified_name": "Curse.cursenamename",
+    "table_block_index": 0,
+    "line_number": 96
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "WATCHMAN",
+      "raw_text": "1,WATCHMAN",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "FOOL",
+      "raw_text": "4,FOOL",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "BEGGAR",
+      "raw_text": "1,BEGGAR",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "PRISONER",
+      "raw_text": "1,PRISONER",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "GRAVEKEEPER",
+      "raw_text": "1,GRAVEKEEPER",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "ALCHEMIST",
+      "raw_text": "1,ALCHEMIST",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "WITCH",
+      "raw_text": "2,WITCH",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "NECROMANCER",
+      "raw_text": "1,NECROMANCER",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "{{uc:[Creepy Fantasy Villain.main]}}",
+      "raw_text": "1,{{uc:[Creepy Fantasy Villain.main]}}",
+      "references": [
+        {
+          "raw": "[Creepy Fantasy Villain.main]",
+          "token": "Creepy Fantasy Villain.main",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Creepy Fantasy Villain",
+          "target_subtable": "main",
+          "target_qualified_name": "Creepy Fantasy Villain.main"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "{{uc:[Quick Zone Populations.getnamea]}}",
+      "raw_text": "3,{{uc:[Quick Zone Populations.getnamea]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.getnamea]",
+          "token": "Quick Zone Populations.getnamea",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "getnamea",
+          "target_qualified_name": "Quick Zone Populations.getnamea"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 3,
+      "text": "{{uc:[Quick Zone Populations.class]}}",
+      "raw_text": "3,{{uc:[Quick Zone Populations.class]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.class]",
+          "token": "Quick Zone Populations.class",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Zone Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "{{uc:[Quick Zone Populations.race]}}",
+      "raw_text": "3,{{uc:[Quick Zone Populations.race]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.race]",
+          "token": "Quick Zone Populations.race",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenamename",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Zone Populations.race"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Creepy Fantasy Villain.main",
+      "Quick Zone Populations.class",
+      "Quick Zone Populations.getnamea",
+      "Quick Zone Populations.race"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";cursenamename\n1,WATCHMAN\n4,FOOL\n1,BEGGAR\n1,PRISONER\n1,GRAVEKEEPER\n1,ALCHEMIST\n2,WITCH\n1,NECROMANCER\n1,{{uc:[Creepy Fantasy Villain.main]}}\n3,{{uc:[Quick Zone Populations.getnamea]}}\n3,{{uc:[Quick Zone Populations.class]}}\n3,{{uc:[Quick Zone Populations.race]}}",
+  "warnings": []
+}

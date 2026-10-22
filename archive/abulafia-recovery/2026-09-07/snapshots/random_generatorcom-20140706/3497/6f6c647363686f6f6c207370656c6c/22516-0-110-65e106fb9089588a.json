@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 22516,
+    "timestamp": "2014-06-01T11:01:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d078c2c3242c6a94500d3e06f2c8470dea2be6fc6c512d19a4388f28ab1dcdb9",
+      "rawSha256": "65e106fb9089588a8407308470da68ae490cff9e809efa825c3852ed21438b41",
+      "revisionId": "22516",
+      "line": 110,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "oldschool spell",
+    "qualified_name": "Blazon.oldschool spell",
+    "table_block_index": 0,
+    "line_number": 110
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 6,
+      "text": "[ADnD Spell Lists.LevelOne]",
+      "raw_text": "6,[ADnD Spell Lists.LevelOne]",
+      "references": [
+        {
+          "raw": "[ADnD Spell Lists.LevelOne]",
+          "token": "ADnD Spell Lists.LevelOne",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "oldschool spell",
+          "target_page": "ADnD Spell Lists",
+          "target_subtable": "LevelOne",
+          "target_qualified_name": "ADnD Spell Lists.LevelOne"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[ADnD Spell Lists.LevelTwo]",
+      "raw_text": "5,[ADnD Spell Lists.LevelTwo]",
+      "references": [
+        {
+          "raw": "[ADnD Spell Lists.LevelTwo]",
+          "token": "ADnD Spell Lists.LevelTwo",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "oldschool spell",
+          "target_page": "ADnD Spell Lists",
+          "target_subtable": "LevelTwo",
+          "target_qualified_name": "ADnD Spell Lists.LevelTwo"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "[ADnD Spell Lists.LevelThree]",
+      "raw_text": "4,[ADnD Spell Lists.LevelThree]",
+      "references": [
+        {
+          "raw": "[ADnD Spell Lists.LevelThree]",
+          "token": "ADnD Spell Lists.LevelThree",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "oldschool spell",
+          "target_page": "ADnD Spell Lists",
+          "target_subtable": "LevelThree",
+          "target_qualified_name": "ADnD Spell Lists.LevelThree"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "ADnD Spell Lists.LevelOne",
+      "ADnD Spell Lists.LevelThree",
+      "ADnD Spell Lists.LevelTwo"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";oldschool spell\n6,[ADnD Spell Lists.LevelOne]\n5,[ADnD Spell Lists.LevelTwo]\n4,[ADnD Spell Lists.LevelThree]",
+  "warnings": []
+}

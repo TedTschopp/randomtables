@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21979,
+    "timestamp": "2014-05-22T18:16:13Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "944c516ab78da2fd18af6c6ff41cf06141348a3acc523fb77ae6abcba9ff68b4",
+      "rawSha256": "9a363aa2712996b64944cfc3fbccd16bcd2f276f96fcd40546ea0240769100be",
+      "revisionId": "21979",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item",
+    "qualified_name": "Blazon.item",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "ring",
+      "raw_text": "1,ring",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "device",
+      "raw_text": "1,device",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "wand",
+      "raw_text": "1,wand",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "tunic",
+      "raw_text": "1,tunic",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "staff",
+      "raw_text": "1,staff",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "sword",
+      "raw_text": "1,sword",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "shield",
+      "raw_text": "1,shield",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "tabard",
+      "raw_text": "1,tabard",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "cloak",
+      "raw_text": "1,cloak",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "idol",
+      "raw_text": "1,idol",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 4,
+      "text": "[Starting Equipment.anything]",
+      "raw_text": "4,[Starting Equipment.anything]",
+      "references": [
+        {
+          "raw": "[Starting Equipment.anything]",
+          "token": "Starting Equipment.anything",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "item",
+          "target_page": "Starting Equipment",
+          "target_subtable": "anything",
+          "target_qualified_name": "Starting Equipment.anything"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 4,
+      "text": "[Jewelry.Item]",
+      "raw_text": "4,[Jewelry.Item]",
+      "references": [
+        {
+          "raw": "[Jewelry.Item]",
+          "token": "Jewelry.Item",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "item",
+          "target_page": "Jewelry",
+          "target_subtable": "Item",
+          "target_qualified_name": "Jewelry.Item"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Jewelry.Item",
+      "Starting Equipment.anything"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";item\n1,ring\n1,device\n1,wand\n1,tunic\n1,staff\n1,sword\n1,shield\n1,tabard\n1,cloak\n1,idol\n4,[Starting Equipment.anything]\n4,[Jewelry.Item]",
+  "warnings": []
+}

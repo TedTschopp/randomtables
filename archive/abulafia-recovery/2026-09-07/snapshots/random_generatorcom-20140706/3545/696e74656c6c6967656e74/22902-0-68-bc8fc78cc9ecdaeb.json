@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22902,
+    "timestamp": "2014-06-10T21:51:58Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a1fcdbb7ff4fea2592c635eabbfe210069682cf9fb60ee0b1d098f0b3662528d",
+      "rawSha256": "bc8fc78cc9ecdaeb382b71e2a59c64f68357614882d6a45e45efe4a370a4953a",
+      "revisionId": "22902",
+      "line": 68,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "intelligent",
+    "qualified_name": "OSR weapon.intelligent",
+    "table_block_index": 0,
+    "line_number": 68
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 11,
+      "text": "[swordint]",
+      "raw_text": "11,[swordint]",
+      "references": [
+        {
+          "raw": "[swordint]",
+          "token": "swordint",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "swordint",
+          "target_qualified_name": "OSR weapon.swordint"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "int 12, telepathic, [multilingual], reads magic, ego [Dice.2d6+2], [power], [power], [power], and [exceptional], seeks to [specpurpose]",
+      "raw_text": "1,int 12, telepathic, [multilingual], reads magic, ego [Dice.2d6+2], [power], [power], [power], and [exceptional], seeks to [specpurpose]",
+      "references": [
+        {
+          "raw": "[multilingual]",
+          "token": "multilingual",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "multilingual",
+          "target_qualified_name": "OSR weapon.multilingual"
+        },
+        {
+          "raw": "[Dice.2d6+2]",
+          "token": "Dice.2d6+2",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "Dice",
+          "target_subtable": "2d6+2",
+          "target_qualified_name": "Dice.2d6+2"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        },
+        {
+          "raw": "[specpurpose]",
+          "token": "specpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "intelligent",
+          "target_page": "OSR weapon",
+          "target_subtable": "specpurpose",
+          "target_qualified_name": "OSR weapon.specpurpose"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "exceptional",
+      "multilingual",
+      "power",
+      "specpurpose",
+      "swordint"
+    ],
+    "external_subtables": [
+      "Dice.2d6+2"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";intelligent\n11,[swordint]\n1,int 12, telepathic, [multilingual], reads magic, ego [Dice.2d6+2], [power], [power], [power], and [exceptional], seeks to [specpurpose]",
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "d7afffa3234272199222b75326d0bc4b4f63921a78259c4feec37841cdfc6c43",
+      "revisionId": "16977",
+      "line": 11,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish-name",
+    "qualified_name": "Planar Codex Parish.parish-name",
+    "table_block_index": 0,
+    "line_number": 11
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Fantasy Town Names.main]",
+      "raw_text": "1,[Fantasy Town Names.main]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Names.main]",
+          "token": "Fantasy Town Names.main",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish-name",
+          "target_page": "Fantasy Town Names",
+          "target_subtable": "main",
+          "target_qualified_name": "Fantasy Town Names.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Town Names.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";parish-name\n1,[Fantasy Town Names.main]",
+  "warnings": []
+}

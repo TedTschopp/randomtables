@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15349,
+    "timestamp": "2012-10-08T08:27:52Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "17ef44b8dc360ebb2581a8fa27b65d63e5204429d2be8436855cc8121c2600af",
+      "rawSha256": "ba7d391a3d300314cb1e91791f89107e42e77eec619717be50346dc901e335e2",
+      "revisionId": "15349",
+      "line": 117,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "normalmelee",
+    "qualified_name": "Starting Equipment.normalmelee",
+    "table_block_index": 0,
+    "line_number": 117
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]flail (d6)",
+      "raw_text": "1,[describemeleeweapon][describemetal]flail (d6)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]mace (d6)",
+      "raw_text": "1,[describemeleeweapon][describemetal]mace (d6)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]pick (d6)",
+      "raw_text": "1,[describemeleeweapon][describemetal]pick (d6)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[describemeleeweapon][describemetal]sword (d8)",
+      "raw_text": "2,[describemeleeweapon][describemetal]sword (d8)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[describemeleeweapon][describemetal]battleaxe (d8)",
+      "raw_text": "2,[describemeleeweapon][describemetal]battleaxe (d8)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "normalmelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "describemeleeweapon",
+      "describemetal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";normalmelee\n1,[describemeleeweapon][describemetal]flail (d6)\n1,[describemeleeweapon][describemetal]mace (d6)\n1,[describemeleeweapon][describemetal]pick (d6)\n2,[describemeleeweapon][describemetal]sword (d8)\n2,[describemeleeweapon][describemetal]battleaxe (d8)",
+  "warnings": []
+}

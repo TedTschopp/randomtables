@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15508,
+    "timestamp": "2012-11-02T09:20:54Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a8801ffc383fd7b2f3aa8a6842a75096eb080bccb48202610a9aa7000e424639",
+      "rawSha256": "dc0dc8e82d4149f542f324d85a0976199ec14ba593fa8f04e8842d8ebbfb7b0c",
+      "revisionId": "15508",
+      "line": 95,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "some-damage",
+    "qualified_name": "Curse.some-damage",
+    "table_block_index": 0,
+    "line_number": 95
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 15,
+      "text": "low-damage",
+      "raw_text": "15,low-damage",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "medium-damage",
+      "raw_text": "5,medium-damage",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "high-damage",
+      "raw_text": "1,high-damage",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";some-damage\n15,low-damage\n5,medium-damage\n1,high-damage",
+  "warnings": []
+}

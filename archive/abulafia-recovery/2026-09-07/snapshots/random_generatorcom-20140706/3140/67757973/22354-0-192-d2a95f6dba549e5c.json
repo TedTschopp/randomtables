@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "d2a95f6dba549e5c503600fb990398ce0e01eec956f826fa635a6b5660e59ae0",
+      "revisionId": "22354",
+      "line": 192,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "guys",
+    "qualified_name": "Guards.guys",
+    "table_block_index": 0,
+    "line_number": 192
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "goblins",
+      "raw_text": "1,goblins",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "zombies",
+      "raw_text": "1,zombies",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "demons",
+      "raw_text": "1,demons",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "trolls",
+      "raw_text": "1,trolls",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "witches",
+      "raw_text": "1,witches",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "assassins",
+      "raw_text": "1,assassins",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[Quick Zone Populations.beasts-terse-nonum]",
+      "raw_text": "1,[Quick Zone Populations.beasts-terse-nonum]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.beasts-terse-nonum]",
+          "token": "Quick Zone Populations.beasts-terse-nonum",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "guys",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "beasts-terse-nonum",
+          "target_qualified_name": "Quick Zone Populations.beasts-terse-nonum"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[Quick Zone Populations.guys]",
+      "raw_text": "1,[Quick Zone Populations.guys]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.guys]",
+          "token": "Quick Zone Populations.guys",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "guys",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "guys",
+          "target_qualified_name": "Quick Zone Populations.guys"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "dudes",
+      "raw_text": "1,dudes",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "ladies",
+      "raw_text": "1,ladies",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.beasts-terse-nonum",
+      "Quick Zone Populations.guys"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";guys\n1,goblins\n1,zombies\n1,demons\n1,trolls\n1,witches\n1,assassins\n1,[Quick Zone Populations.beasts-terse-nonum]\n1,[Quick Zone Populations.guys]\n1,dudes\n1,ladies",
+  "warnings": []
+}

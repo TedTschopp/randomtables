@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4704,
+    "timestamp": "2007-11-29T05:59:24Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "49c2d9ad4d6849690c0124baf3c07e96e2ed87ab6bd6dc02c6228f4c0dd8f72e",
+      "rawSha256": "9fee13c602b17489ed5d5949a21724c9a52873611532b573b379f97983bcd609",
+      "revisionId": "4704",
+      "line": 396,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ritePunishment",
+    "qualified_name": "Rituals.ritePunishment",
+    "table_block_index": 0,
+    "line_number": 396
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "be tied to a post for [timePeriodShort]",
+      "raw_text": "1,be tied to a post for [timePeriodShort]",
+      "references": [
+        {
+          "raw": "[timePeriodShort]",
+          "token": "timePeriodShort",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Rituals",
+          "target_subtable": "timePeriodShort",
+          "target_qualified_name": "Rituals.timePeriodShort"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "be flogged with [Dice.2d6] lashes",
+      "raw_text": "1,be flogged with [Dice.2d6] lashes",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "ritePunishment",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "be burned alive",
+      "raw_text": "1,be burned alive",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "timePeriodShort"
+    ],
+    "external_subtables": [
+      "Dice.2d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";ritePunishment\n1,be tied to a post for [timePeriodShort]\n1,be flogged with [Dice.2d6] lashes\n1,be burned alive",
+  "warnings": []
+}

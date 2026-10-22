@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "aaf32051e641e4f21a131bcca5918e0df0e9955ed8967e142ac3c8f4f12a69c2",
+      "revisionId": "4605",
+      "line": 139,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteFoodDrink",
+    "qualified_name": "Rituals.riteFoodDrink",
+    "table_block_index": 0,
+    "line_number": 139
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "drink a lot of alcohol",
+      "raw_text": "1,drink a lot of alcohol",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "host a great feast",
+      "raw_text": "1,host a great feast",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "drink sacred wine",
+      "raw_text": "1,drink sacred wine",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "partake of a particular narcotic drug",
+      "raw_text": "1,partake of a particular narcotic drug",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "partake of a particular hallucinogenic drug",
+      "raw_text": "1,partake of a particular hallucinogenic drug",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteFoodDrink\n1,drink a lot of alcohol\n1,host a great feast\n1,drink sacred wine\n1,partake of a particular narcotic drug\n1,partake of a particular hallucinogenic drug",
+  "warnings": []
+}

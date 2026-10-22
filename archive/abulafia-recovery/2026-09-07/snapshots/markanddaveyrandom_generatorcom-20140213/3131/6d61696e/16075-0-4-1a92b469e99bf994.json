@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 16075,
+    "timestamp": "2012-12-06T02:27:28Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e9287fda79cf8a6149cd786737949074133d05460ff9e74b5189047311c69174",
+      "rawSha256": "1a92b469e99bf994d5f877d347c266cd8c4733130a60c8a733f8cee00f889b8d",
+      "revisionId": "16075",
+      "line": 4,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17754",
+        "timestamp": "2013-06-18T18:25:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Hireling.main",
+    "table_block_index": 0,
+    "line_number": 4
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[3d6 In Order NPC.main]<br/>With: [Starting Equipment.adventurer-gear]",
+      "raw_text": "1,[3d6 In Order NPC.main]<br/>With: [Starting Equipment.adventurer-gear]",
+      "references": [
+        {
+          "raw": "[3d6 In Order NPC.main]",
+          "token": "3d6 In Order NPC.main",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "main",
+          "target_page": "3d6 In Order NPC",
+          "target_subtable": "main",
+          "target_qualified_name": "3d6 In Order NPC.main"
+        },
+        {
+          "raw": "[Starting Equipment.adventurer-gear]",
+          "token": "Starting Equipment.adventurer-gear",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "main",
+          "target_page": "Starting Equipment",
+          "target_subtable": "adventurer-gear",
+          "target_qualified_name": "Starting Equipment.adventurer-gear"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "3d6 In Order NPC.main",
+      "Starting Equipment.adventurer-gear"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,[3d6 In Order NPC.main]<br/>With: [Starting Equipment.adventurer-gear]",
+  "warnings": []
+}

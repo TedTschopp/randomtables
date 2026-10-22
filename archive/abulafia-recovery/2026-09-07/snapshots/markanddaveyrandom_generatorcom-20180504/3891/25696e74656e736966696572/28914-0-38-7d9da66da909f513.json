@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28914,
+    "timestamp": "2015-09-13T21:02:27Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "540fb53bb0666b90b45a01964299892fabfdc387c11d757500455c7b0078d44c",
+      "rawSha256": "7d9da66da909f513ce58e4948106858f62184d494da4b9c4e292fb4c7be0431a",
+      "revisionId": "28914",
+      "line": 38,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "%intensifier",
+    "qualified_name": "QuickAdjective.%intensifier",
+    "table_block_index": 0,
+    "line_number": 38
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a little bit",
+      "raw_text": "1, a little bit",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "extremely",
+      "raw_text": "1, extremely",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "hardly",
+      "raw_text": "1, hardly",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "more or less",
+      "raw_text": "1, more or less",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "not the slightest bit",
+      "raw_text": "1, not the slightest bit",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "really",
+      "raw_text": "1, really",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "so",
+      "raw_text": "1, so",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "somewhat",
+      "raw_text": "1, somewhat",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "totally",
+      "raw_text": "1, totally",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "very",
+      "raw_text": "1, very",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";%intensifier\n4,\n1, a little bit\n1, extremely\n1, hardly\n1, more or less\n1, not the slightest bit\n1, really\n1, so\n1, somewhat\n1, totally\n1, very\n\n<!-- pre- and suffixes -->\n\n\n<!-- sex-neuter (works for anyone) -->",
+  "warnings": [
+    "Inactive markup was masked for definition detection; raw source remains unchanged."
+  ]
+}

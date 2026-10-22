@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "3600e24ae5c4195dc4b0072495eca0d5b58e3a4eb14de28bd2ef6c7dbd10d181",
+      "revisionId": "14219",
+      "line": 211,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "government",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.government",
+    "table_block_index": 0,
+    "line_number": 211
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Affiliate",
+      "raw_text": "1, Affiliate",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Affinity",
+      "raw_text": "1, Affinity",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Alliance",
+      "raw_text": "1, Alliance",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Assemblage",
+      "raw_text": "1, Assemblage",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Association",
+      "raw_text": "1, Association",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Band",
+      "raw_text": "1, Band",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Brotherhood",
+      "raw_text": "1, Brotherhood",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Fraternal Brotherhood",
+      "raw_text": "1, Fraternal Brotherhood",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Cartel",
+      "raw_text": "1, Cartel",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Clandestine",
+      "raw_text": "1, Clandestine",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Club",
+      "raw_text": "1, Club",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Coalition",
+      "raw_text": "1, Coalition",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Collective",
+      "raw_text": "1, Collective",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Combination",
+      "raw_text": "1, Combination",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Community",
+      "raw_text": "1, Community",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Company",
+      "raw_text": "1, Company",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Concatenation",
+      "raw_text": "1, Concatenation",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Confederacy",
+      "raw_text": "1, Confederacy",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Confraternity",
+      "raw_text": "1, Confraternity",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Consortium",
+      "raw_text": "1, Consortium",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Cultural Society",
+      "raw_text": "1, Cultural Society",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Fellowship",
+      "raw_text": "1, Fellowship",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Guild",
+      "raw_text": "1, Guild",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Fraternity",
+      "raw_text": "1, Fraternity",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Kith",
+      "raw_text": "1, Kith",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Kin",
+      "raw_text": "1, Kin",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "League",
+      "raw_text": "1, League",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Order",
+      "raw_text": "1, Order",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Secret Society",
+      "raw_text": "1, Secret Society",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Sisterhood",
+      "raw_text": "1, Sisterhood",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Society",
+      "raw_text": "1, Society",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Sodality",
+      "raw_text": "1, Sodality",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Syndicate",
+      "raw_text": "1, Syndicate",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Union",
+      "raw_text": "1, Union",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Independent",
+      "raw_text": "1, Independent",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Government",
+      "raw_text": "1, Government",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Chiefdom",
+      "raw_text": "1, Chiefdom",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Constitutional",
+      "raw_text": "1, Constitutional",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Republic",
+      "raw_text": "1, Republic",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Democracy",
+      "raw_text": "1, Democracy",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Emirate",
+      "raw_text": "1, Emirate",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Geniocracy",
+      "raw_text": "1, Geniocracy",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Kratocracy",
+      "raw_text": "1, Kratocracy",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Kalidterreism",
+      "raw_text": "1, Kalidterreism",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Matriarchy",
+      "raw_text": "1, Matriarchy",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Meritocracy",
+      "raw_text": "1, Meritocracy",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Monarchy",
+      "raw_text": "1, Monarchy",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Nomocracy",
+      "raw_text": "1, Nomocracy",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Oligarchy",
+      "raw_text": "1, Oligarchy",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Plutocracy",
+      "raw_text": "1, Plutocracy",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Republic",
+      "raw_text": "1, Republic",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Stratocracy",
+      "raw_text": "1, Stratocracy",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Technocracy",
+      "raw_text": "1, Technocracy",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Theocracy",
+      "raw_text": "1, Theocracy",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Timocracy",
+      "raw_text": "1, Timocracy",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Totalitarian",
+      "raw_text": "1, Totalitarian",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Federation",
+      "raw_text": "1, Federation",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Empire",
+      "raw_text": "1, Empire",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Confederation",
+      "raw_text": "1, Confederation",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Associated State",
+      "raw_text": "1, Associated State",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Dissociated State",
+      "raw_text": "1, Dissociated State",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Patriarchy",
+      "raw_text": "1, Patriarchy",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Autocracy",
+      "raw_text": "1, Autocracy",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Bureaucracy",
+      "raw_text": "1, Bureaucracy",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Satrapy",
+      "raw_text": "1, Satrapy",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Hierachy",
+      "raw_text": "1, Hierachy",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Fuedalism",
+      "raw_text": "1, Fuedalism",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Matriarchy",
+      "raw_text": "1, Matriarchy",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Magocracy",
+      "raw_text": "1, Magocracy",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";government\n1, Affiliate\n1, Affinity\n1, Alliance\n1, Assemblage\n1, Association\n1, Band\n1, Brotherhood\n1, Fraternal Brotherhood\n1, Cartel\n1, Clandestine\n1, Club\n1, Coalition\n1, Collective\n1, Combination\n1, Community\n1, Company\n1, Concatenation\n1, Confederacy\n1, Confraternity\n1, Consortium\n1, Cultural Society\n1, Fellowship\n1, Guild\n1, Fraternity\n1, Kith\n1, Kin\n1, League\n1, Order\n1, Secret Society\n1, Sisterhood\n1, Society\n1, Sodality\n1, Syndicate\n1, Union\n1, Independent\n1, Government\n1, Chiefdom\n1, Constitutional\n1, Republic\n1, Democracy\n1, Emirate\n1, Geniocracy\n1, Kratocracy\n1, Kalidterreism\n1, Matriarchy\n1, Meritocracy\n1, Monarchy\n1, Nomocracy\n1, Oligarchy\n1, Plutocracy\n1, Republic\n1, Stratocracy\n1, Technocracy\n1, Theocracy\n1, Timocracy\n1, Totalitarian\n1, Federation\n1, Empire\n1, Confederation\n1, Associated State\n1, Dissociated State\n1, Patriarchy\n1, Autocracy\n1, Bureaucracy\n1, Satrapy\n1, Hierachy\n1, Fuedalism\n1, Matriarchy\n1, Magocracy",
+  "warnings": []
+}

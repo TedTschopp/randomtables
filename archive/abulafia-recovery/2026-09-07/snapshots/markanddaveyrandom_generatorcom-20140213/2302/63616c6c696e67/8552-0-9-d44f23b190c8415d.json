@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8552,
+    "timestamp": "2009-04-06T07:49:33Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "193315e7610dec4ac4d3dae2cedac91a720c42981561e548e731bfda86e26826",
+      "rawSha256": "d44f23b190c8415d38790aea0a02b2a883b322f4a73842aebdba6b19ed8d881c",
+      "revisionId": "8552",
+      "line": 9,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "calling",
+    "qualified_name": "Quick and Dirty Supers Concepts.calling",
+    "table_block_index": 0,
+    "line_number": 9
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Adventurer",
+      "raw_text": "1, Adventurer",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Destroyer",
+      "raw_text": "1, Destroyer",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Domination",
+      "raw_text": "1, Domination",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Exemplar",
+      "raw_text": "1, Exemplar",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Explorer",
+      "raw_text": "1, Explorer",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Gloryhound",
+      "raw_text": "1, Gloryhound",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Greed",
+      "raw_text": "1, Greed",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Guardian",
+      "raw_text": "1, Guardian",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Idealist",
+      "raw_text": "1, Idealist",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Investigator",
+      "raw_text": "1, Investigator",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Majesty",
+      "raw_text": "1, Majesty",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Mentor",
+      "raw_text": "1, Mentor",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Nihilist",
+      "raw_text": "1, Nihilist",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Outcast",
+      "raw_text": "1, Outcast",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Peace of Mind",
+      "raw_text": "1, Peace of Mind",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Protector",
+      "raw_text": "1, Protector",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Psychopath",
+      "raw_text": "1, Psychopath",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Repentant",
+      "raw_text": "1, Repentant",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Responsibility of Power",
+      "raw_text": "1, Responsibility of Power",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Savage Nature",
+      "raw_text": "1, Savage Nature",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Seeking Justice",
+      "raw_text": "1, Seeking Justice",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Soldier",
+      "raw_text": "1, Soldier",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Thirst for Power",
+      "raw_text": "1, Thirst for Power",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Thrill-seeker",
+      "raw_text": "1, Thrill-seeker",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Uncontrolled Power",
+      "raw_text": "1, Uncontrolled Power",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Unwanted Power",
+      "raw_text": "1, Unwanted Power",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Vengence",
+      "raw_text": "1, Vengence",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Vestige of Humanity",
+      "raw_text": "1, Vestige of Humanity",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Youthful Exuberance",
+      "raw_text": "1, Youthful Exuberance",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";calling\n1, Adventurer\n1, Destroyer\n1, Domination\n1, Exemplar\n1, Explorer\n1, Gloryhound\n1, Greed\n1, Guardian\n1, Idealist\n1, Investigator\n1, Majesty\n1, Mentor\n1, Nihilist\n1, Outcast\n1, Peace of Mind\n1, Protector\n1, Psychopath\n1, Repentant\n1, Responsibility of Power\n1, Savage Nature\n1, Seeking Justice\n1, Soldier\n1, Thirst for Power\n1, Thrill-seeker\n1, Uncontrolled Power\n1, Unwanted Power\n1, Vengence\n1, Vestige of Humanity\n1, Youthful Exuberance",
+  "warnings": []
+}

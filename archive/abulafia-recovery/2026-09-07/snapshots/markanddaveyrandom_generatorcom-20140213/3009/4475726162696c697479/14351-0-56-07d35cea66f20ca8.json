@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Character Personality and Traits",
+    "page_id": 3009
+  },
+  "source": {
+    "revision_id": 14351,
+    "timestamp": "2012-05-14T16:42:36Z",
+    "contributor": {
+      "name": "Matt Sheridan",
+      "id": 274,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8fc1eab19ce868ee87e8b79956ba938bbc809eebeb0e10e39871f6eea5dab4bd",
+      "rawSha256": "07d35cea66f20ca8cc2edbeb3c2fb7ee271e40736fdf5e870717a01a558e0ee8",
+      "revisionId": "14351",
+      "line": 56,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14353",
+        "timestamp": "2012-05-14T16:58:16Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Durability",
+    "qualified_name": "Character Personality and Traits.Durability",
+    "table_block_index": 0,
+    "line_number": 56
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "Enhanced Durability d8<br />",
+      "raw_text": "4,Enhanced Durability d8<br />",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "Superhuman Durability d10<br />",
+      "raw_text": "3,Superhuman Durability d10<br />",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Godlike Durability d12<br />",
+      "raw_text": "1,Godlike Durability d12<br />",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Durability\n4,\n4,Enhanced Durability d8<br />\n3,Superhuman Durability d10<br />\n1,Godlike Durability d12<br />",
+  "warnings": []
+}

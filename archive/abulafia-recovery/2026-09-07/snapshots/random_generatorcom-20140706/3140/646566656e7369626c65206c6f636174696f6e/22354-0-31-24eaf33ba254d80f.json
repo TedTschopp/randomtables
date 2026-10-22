@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "24eaf33ba254d80fd365cdf64e1534f28771b89b2cdb9ac91435c0cec344c6bf",
+      "revisionId": "22354",
+      "line": 31,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "defensible location",
+    "qualified_name": "Guards.defensible location",
+    "table_block_index": 0,
+    "line_number": 31
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "town",
+      "raw_text": "1,town",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "city",
+      "raw_text": "1,city",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "palace",
+      "raw_text": "1,palace",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "labyrinth",
+      "raw_text": "1,labyrinth",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "castle",
+      "raw_text": "1,castle",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "fortress",
+      "raw_text": "1,fortress",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "keep",
+      "raw_text": "1,keep",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "tomb",
+      "raw_text": "1,tomb",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "safe",
+      "raw_text": "1,safe",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "vault",
+      "raw_text": "1,vault",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 9,
+      "text": "[Indiana Jones Titles.subtitle]",
+      "raw_text": "9,[Indiana Jones Titles.subtitle]",
+      "references": [
+        {
+          "raw": "[Indiana Jones Titles.subtitle]",
+          "token": "Indiana Jones Titles.subtitle",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "defensible location",
+          "target_page": "Indiana Jones Titles",
+          "target_subtable": "subtitle",
+          "target_qualified_name": "Indiana Jones Titles.subtitle"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Indiana Jones Titles.subtitle"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";defensible location\n1,town\n1,city\n1,palace\n1,labyrinth\n1,castle\n1,fortress\n1,keep\n1,tomb\n1,safe\n1,vault\n9,[Indiana Jones Titles.subtitle]",
+  "warnings": []
+}

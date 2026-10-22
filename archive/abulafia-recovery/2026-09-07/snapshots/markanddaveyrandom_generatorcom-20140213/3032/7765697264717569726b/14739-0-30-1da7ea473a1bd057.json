@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14739,
+    "timestamp": "2012-06-20T09:54:58Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d0cc23533dfb53848d1f354ebb07b7ef7ea4b4dd215d288f172ce0104456cea2",
+      "rawSha256": "1da7ea473a1bd05745664af2e75985b943828b56c55e370937c1753c8d46b3e0",
+      "revisionId": "14739",
+      "line": 30,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weirdquirk",
+    "qualified_name": "Ostler.weirdquirk",
+    "table_block_index": 0,
+    "line_number": 30
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "who talks",
+      "raw_text": "1, who talks",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "who is blind",
+      "raw_text": "1, who is blind",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weirdquirk\n1, who talks\n1, who is blind",
+  "warnings": []
+}

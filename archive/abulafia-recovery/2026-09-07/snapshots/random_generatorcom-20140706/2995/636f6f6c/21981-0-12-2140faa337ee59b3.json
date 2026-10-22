@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 21981,
+    "timestamp": "2014-05-22T18:37:39Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9cb3cccead54be27bc7b148a6cffa54a99fa3c5a0e3873b3fe6b1f810183571a",
+      "rawSha256": "2140faa337ee59b3129ad0e4bba60b8c3d66c94f31b52bfbf43320d0318d0baf",
+      "revisionId": "21981",
+      "line": 12,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cool",
+    "qualified_name": "Quick Horrors.cool",
+    "table_block_index": 0,
+    "line_number": 12
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "shaggy",
+      "raw_text": "1,shaggy",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "shambling",
+      "raw_text": "1,shambling",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "amphibious",
+      "raw_text": "1,amphibious",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "nocturnal",
+      "raw_text": "1,nocturnal",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "massive",
+      "raw_text": "1,massive",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "shadowy",
+      "raw_text": "1,shadowy",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "slight",
+      "raw_text": "1,slight",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cool\n10,\n1,shaggy\n1,shambling\n1,ancient\n1,amphibious\n1,nocturnal\n1,massive\n1,shadowy\n1,slight",
+  "warnings": []
+}

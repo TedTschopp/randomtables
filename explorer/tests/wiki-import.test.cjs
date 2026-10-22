@@ -5,7 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { buildArtifacts, compileImport, corpusFingerprint, loadCorpus, loadRecoveryCorpus, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
+const { buildArtifacts, compileImport, corpusFingerprint, loadCorpus, loadRecoveryCorpus, originalAttribution, planHistoricalImport, planImport, reviewedCorrections, reviewedSourceCorrections, reviewedRecursionPolicies, tableId, writeArtifacts } = require('../tools/import-abulafia.cjs');
 
 function record(pageId, pageTitle, name, contributor, originalContributor, targets = []) {
   return {
@@ -70,6 +70,156 @@ function caseCorrection(source, target, row = 1) {
     referenceCount: entry.references.filter(item => item.raw === reference.raw).length
   };
 }
+
+function recursionFixtures(kind = 'unique-pair') {
+  const digest = text => crypto.createHash('sha256').update(text).digest('hex');
+  const source = record(98, 'Bounded', 'main', 'Editor', 'Creator', ['Bounded.main']);
+  const first = source.table.entries[0];
+  if (kind === 'unique-pair') {
+    first.text += ' and ' + first.text;
+    first.references.push(structuredClone(first.references[0]));
+  } else first.text = 'Most ' + first.text;
+  const leaf = record(98, 'Bounded', 'leaf', 'Editor', 'Creator');
+  leaf.table.entries[0].text = 'Carrots';
+  source.table.entries.push(record(98, 'Bounded', 'child', 'Editor', 'Creator', ['Bounded.leaf']).table.entries[0],
+    { weight: 2, text: 'Beets', references: [] });
+  source.table.entries.forEach(entry => { entry.raw_text = `${entry.weight},${entry.text}`; });
+  source.table.raw_source = ';main\n' + source.table.entries.map(entry => entry.raw_text).join('\n');
+  source.sourceHash = digest(JSON.stringify(source.table));
+  const policy = { tableId: tableId(source.table), sourceFile: source.sourceFile, sourceHash: source.sourceHash,
+    rawSourceHash: digest(source.table.raw_source), row: 1, line: 2, raw: first.raw_text,
+    entryHash: digest(first.text), weight: first.weight, kind, maxDepth: 1 };
+  return { source, leaf, policy, plan: planImport([source, leaf], ['Bounded.main']) };
+}
+
+test('source-bound recursion policies enable only validated pairs and wrappers without rewriting source rows', () => {
+  for (const kind of ['unique-pair', 'bounded-wrapper']) {
+    const { plan, source, policy } = recursionFixtures(kind);
+    const before = JSON.stringify(plan);
+    const baseline = compileImport(plan, { runtimeExpressions: true });
+    assert.equal(baseline.tables.find(table => table.id === tableId(source.table)).status, 'blocked');
+    const bundle = compileImport(plan, { runtimeExpressions: true, recursionPolicies: [policy] });
+    const table = bundle.tables.find(table => table.id === tableId(source.table));
+    assert.equal(table.status, 'ready');
+    assert.equal(table.execution, 'wiki');
+    assert.deepEqual(table.recursion, { kind, row: 1, maxDepth: 1 });
+    assert.deepEqual(table.recursionApproval, policy);
+    assert.deepEqual(table.entries, baseline.tables.find(candidate => candidate.id === table.id).entries);
+    assert.ok(table.dependencies.includes(table.id));
+    for (const ready of baseline.tables.filter(table => table.status === 'ready')) {
+      assert.deepEqual(bundle.tables.find(table => table.id === ready.id), ready);
+    }
+    const provenance = { repository: 'fixture', commit: 'fixed' };
+    assert.equal(buildArtifacts(plan, baseline, provenance).get('tables/abulafia/source/98.json'),
+      buildArtifacts(plan, bundle, provenance).get('tables/abulafia/source/98.json'));
+    assert.equal(JSON.stringify(plan), before);
+  }
+});
+
+test('macro preflight uses approved finite recursion costs and argument domains without changing source evidence', () => {
+  for (const kind of ['unique-pair', 'bounded-wrapper']) {
+    const { source, leaf, policy } = recursionFixtures(kind);
+    const parent = record(99, 'MacroBounded', 'main', 'Editor', 'Creator', ['Bounded.main', 'Bounded.main']);
+    parent.table.entries[0].text = '{{Po|[Bounded.main]}} / {{ucfirst:[Bounded.main]}}';
+    const plan = planImport([parent, source, leaf], ['MacroBounded.main']);
+    const before = JSON.stringify(plan);
+    const baseline = compileImport(plan, { runtimeExpressions: true });
+    const bundle = compileImport(plan, { runtimeExpressions: true, recursionPolicies: [policy] });
+    const compiled = bundle.tables.find(table => table.id === tableId(parent.table));
+    assert.equal(baseline.tables.find(table => table.id === compiled.id).status, 'blocked');
+    assert.equal(compiled.status, 'ready', JSON.stringify(compiled.issues));
+    assert.equal(compiled.execution, 'wiki');
+    assert.equal(compiled.entries[0].rawText, parent.table.entries[0].text);
+    assert.equal(compiled.totalWeight, 1);
+    const runtime = vm.createContext({ WikiExpressions: require('../../JS/wiki-expressions.js'), WikiRecursion: require('../../JS/wiki-recursion.js') });
+    for (const file of ['JS/generator.js', 'JS/wiki-import.js']) vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), runtime);
+    runtime.WikiImport.register(bundle);
+    for (const sample of [0, 0.5, 1 - Number.EPSILON]) {
+      vm.runInContext(`Math.random = () => ${sample};`, runtime);
+      const result = runtime.WikiImport.roll(compiled.id);
+      assert.deepEqual(Array.from(result.warnings), [], kind);
+      assert.ok(result.text.includes(' / '));
+      assert.ok(result.steps.some(step => step.id === policy.tableId));
+      if (sample === 0) assert.ok(result.steps.some(step => step.policy === kind));
+      if (sample > 0.9) assert.equal(result.text, 'Beets\u2019 / Beets');
+    }
+    for (const table of baseline.tables.filter(table => table.status === 'ready')) {
+      assert.deepEqual(bundle.tables.find(candidate => candidate.id === table.id), table);
+    }
+    const provenance = { repository: 'fixture', commit: 'fixed' };
+    const baselineArtifacts = buildArtifacts(plan, baseline, provenance);
+    const artifacts = buildArtifacts(plan, bundle, provenance);
+    for (const pageId of [98, 99]) assert.equal(artifacts.get(`tables/abulafia/source/${pageId}.json`), baselineArtifacts.get(`tables/abulafia/source/${pageId}.json`));
+    assert.equal(JSON.stringify(plan), before);
+  }
+});
+
+test('approved recursive macro dependencies retain invalid argument and terminal dependency guards', () => {
+  const { source, leaf, policy } = recursionFixtures('bounded-wrapper');
+  const invalid = record(99, 'MacroGuarded', 'main', 'Editor', 'Creator', ['Bounded.main']);
+  invalid.table.entries[0].text = '{{#expr:[Bounded.main]}}';
+  const plan = planImport([invalid, source, leaf], ['MacroGuarded.main']);
+  const bundle = compileImport(plan, { runtimeExpressions: true, recursionPolicies: [policy] });
+  const compiled = bundle.tables.find(table => table.id === tableId(invalid.table));
+  assert.equal(compiled.status, 'blocked');
+  assert.ok(compiled.issues.some(issue => issue.code === 'unsupported_macro_expression' && !/cyclic/i.test(issue.detail)), JSON.stringify(compiled.issues));
+  leaf.table.warnings.push('Unreviewed terminal source warning');
+  invalid.table.entries[0].text = '{{Po|[Bounded.main]}} / {{ucfirst:[Bounded.main]}}';
+  const blocked = compileImport(plan, { runtimeExpressions: true, recursionPolicies: [policy] });
+  assert.equal(blocked.tables.find(table => table.id === policy.tableId).status, 'blocked');
+  assert.equal(blocked.tables.find(table => table.id === compiled.id).status, 'blocked');
+});
+
+test('recursive macro preflight retains finite-domain and worst-case call limits', () => {
+  for (const leafChoices of [63, 64]) {
+    const { source, leaf, policy } = recursionFixtures();
+    leaf.table.entries = Array.from({ length: leafChoices }, (_, index) => ({ weight: 1, text: `Item ${index + 1}`, references: [] }));
+    const parent = record(99, 'MacroLimits', 'main', 'Editor', 'Creator', ['Bounded.main', 'Bounded.main']);
+    parent.table.entries[0].text = '{{ucfirst:[Bounded.main]}} / {{#len:[Bounded.main]}}';
+    const bundle = compileImport(planImport([parent, source, leaf], ['MacroLimits.main']), { runtimeExpressions: true, recursionPolicies: [policy] });
+    assert.equal(bundle.tables.find(table => table.id === policy.tableId).status, 'ready');
+    const compiled = bundle.tables.find(table => table.id === tableId(parent.table));
+    assert.equal(compiled.status, leafChoices === 63 ? 'ready' : 'blocked', JSON.stringify(compiled.issues));
+    if (leafChoices === 64) assert.ok(compiled.issues.some(issue => /argument domain exceeds/i.test(issue.detail)));
+  }
+  const { source, leaf, policy } = recursionFixtures();
+  const manyCalls = record(99, 'MacroCalls', 'main', 'Editor', 'Creator', Array.from({ length: 103 }, () => 'Bounded.main'));
+  manyCalls.table.entries[0].text = Array.from({ length: 103 }, () => '{{#len:[Bounded.main]}}').join(' ');
+  const bundle = compileImport(planImport([manyCalls, source, leaf], ['MacroCalls.main']), { runtimeExpressions: true, recursionPolicies: [policy] });
+  const compiled = bundle.tables.find(table => table.id === tableId(manyCalls.table));
+  assert.equal(compiled.status, 'blocked');
+  assert.ok(compiled.issues.some(issue => /worst-case expansion exceeds/i.test(issue.detail)), JSON.stringify(compiled.issues));
+});
+
+test('recursion approvals bind exact source evidence and cannot enable unrelated cycles or invalid outcomes', () => {
+  const fixture = recursionFixtures();
+  const { policy, plan } = fixture;
+  for (const change of [{ sourceHash: '0'.repeat(64) }, { rawSourceHash: '0'.repeat(64) }, { entryHash: '0'.repeat(64) },
+    { row: 2 }, { line: 3 }, { raw: '1,Invented' }, { weight: 2 }, { maxDepth: 2 }, { kind: 'general' }, { extra: true }]) {
+    assert.throws(() => compileImport(plan, { runtimeExpressions: true, recursionPolicies: [{ ...policy, ...change }] }), /recursion/i);
+  }
+  assert.throws(() => compileImport(plan, { recursionPolicies: [policy] }), /recursion/i);
+  assert.throws(() => compileImport(plan, { runtimeExpressions: true, recursionPolicies: [policy, policy] }), /recursion/i);
+  for (const defect of ['mutual', 'blocked', 'same-value']) {
+    const { source, leaf, policy } = recursionFixtures();
+    if (defect === 'mutual') leaf.table.entries = record(98, 'Bounded', 'leaf', 'Editor', 'Creator', ['Bounded.main']).table.entries;
+    if (defect === 'blocked') leaf.table.warnings.push('Unreviewed parse warning');
+    if (defect === 'same-value') leaf.table.entries[0].text = 'BEETS';
+    const bundle = compileImport(planImport([source, leaf], ['Bounded.main']), { runtimeExpressions: true, recursionPolicies: [policy] });
+    const table = bundle.tables.find(table => table.id === policy.tableId);
+    assert.equal(table.status, 'blocked', defect);
+    assert.equal(table.recursion, undefined, defect);
+    assert.ok(table.issues.length > 0, defect);
+  }
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const configuration = { schemaVersion: 1, ...provenance, basis: { candidateTables: 1,
+    reportSha256: 'b'.repeat(64), manifestSha256: 'c'.repeat(64) }, policies: [policy] };
+  assert.deepEqual(reviewedRecursionPolicies(configuration, provenance), [policy]);
+  for (const change of [{ commit: 'stale' }, { basis: { ...configuration.basis, candidateTables: 2 } },
+    { basis: { ...configuration.basis, manifestSha256: 'stale' } }]) {
+    assert.throws(() => reviewedRecursionPolicies({ ...configuration, ...change }, provenance), /recursion/i);
+  }
+});
 
 function sourceRecoveryFixtures() {
   const digest = value => crypto.createHash('sha256').update(value).digest('hex');
@@ -200,6 +350,47 @@ test('source recovery keeps unrelated extraction warnings, missing references, a
   }
 });
 
+test('a reviewed extra self-reference bracket is repaired without hiding its cycle or rewriting source evidence', () => {
+  const digest = text => crypto.createHash('sha256').update(text).digest('hex');
+  const source = record(98, 'Title', 'TitleDescriptor', 'Editor', 'Creator');
+  source.table.subtable.line_number = 100;
+  source.table.entries = [
+    { weight: 10, text: 'Most [TitleDescriptor]]', raw_text: '10,Most [TitleDescriptor]]', references: [] },
+    { weight: 1, text: 'Able', raw_text: '1,Able', references: [] }
+  ];
+  source.table.raw_source = ';TitleDescriptor\n10,Most [TitleDescriptor]]\n1,Able';
+  source.sourceHash = digest(JSON.stringify(source.table));
+  const correction = { tableId: tableId(source.table), sourceFile: source.sourceFile, sourceHash: source.sourceHash,
+    rawSourceHash: digest(source.table.raw_source), kind: 'repair-extra-self-reference-bracket',
+    row: 1, line: 2, raw: source.table.entries[0].raw_text, weight: 10, entryHash: digest(source.table.entries[0].text) };
+  const plan = planImport([source], ['Title.TitleDescriptor']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan, { runtimeExpressions: true });
+  assert.ok(baseline.tables[0].issues.some(issue => issue.code === 'unsupported_syntax'));
+  const bundle = compileImport(plan, { sourceCorrections: [correction], runtimeExpressions: true });
+  const table = bundle.tables[0];
+  assert.equal(table.status, 'blocked');
+  assert.ok(table.issues.some(issue => issue.code === 'cycle'));
+  assert.ok(!table.issues.some(issue => issue.code === 'unsupported_syntax'));
+  assert.equal(table.entries[0].rawText, 'Most [TitleDescriptor]]');
+  assert.equal(table.entries[0].text, `Most {${table.id}}`);
+  assert.deepEqual(table.entries.map(entry => entry.weight), [10, 1]);
+  assert.deepEqual(table.dependencies, [table.id]);
+  assert.deepEqual(table.sourceCorrections, [correction]);
+  const provenance = { repository: 'fixture', commit: 'fixed' };
+  assert.equal(buildArtifacts(plan, bundle, provenance).get('tables/abulafia/source/98.json'),
+    buildArtifacts(plan, baseline, provenance).get('tables/abulafia/source/98.json'));
+  for (const change of [{ sourceHash: '0'.repeat(64) }, { rawSourceHash: '0'.repeat(64) },
+    { entryHash: '0'.repeat(64) }, { row: 2 }, { line: 3 }, { raw: '10,Most [Other]]' }, { weight: 11 }, { weight: 0 }, { extra: true }]) {
+    assert.throws(() => compileImport(plan, { sourceCorrections: [{ ...correction, ...change }] }), /source correction/i);
+  }
+  assert.equal(JSON.stringify(plan), before);
+  source.table.warnings.push('Unrelated source warning');
+  assert.ok(compileImport(plan, { sourceCorrections: [correction] }).tables[0].issues.some(issue => issue.code === 'source_warning'));
+  source.table.entries[0].references.push({ raw: '[Other]', token: 'Other', kind: 'local', target_qualified_name: 'Title.Other' });
+  assert.throws(() => compileImport(plan, { sourceCorrections: [correction] }), /source correction/i);
+});
+
 test('source correction approval binds the source revision, report hashes, and exact selected scope', () => {
   const { lairCorrection, spacingCorrection } = sourceRecoveryFixtures();
   const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
@@ -214,6 +405,37 @@ test('source correction approval binds the source revision, report hashes, and e
     { basis: { ...basis, candidateComponents: 1 } }, { basis: { ...basis, reportSha256: 'stale' } },
     { basis: { ...basis, manifestSha256: 'stale' } }, { basis: { ...basis, conditionalEstimate: -1 } }
   ]) assert.throws(() => reviewedSourceCorrections({ ...configuration, ...change }, provenance), /source correction batch/i);
+});
+
+test('source correction follow-ups retain their own approval basis and reject duplicate or stale scope', () => {
+  const { lairCorrection, spacingCorrection } = sourceRecoveryFixtures();
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const basis = { candidateComponents: 1, reportSha256: 'b'.repeat(64), manifestSha256: 'c'.repeat(64), conditionalEstimate: 1 };
+  const configuration = { schemaVersion: 1, ...provenance, basis, corrections: [lairCorrection],
+    followUpBatches: [{ basis: { ...basis, manifestSha256: 'd'.repeat(64) }, corrections: [spacingCorrection] }] };
+  const before = JSON.stringify(configuration);
+  assert.deepEqual(reviewedSourceCorrections(configuration, provenance), [lairCorrection, spacingCorrection]);
+  assert.equal(JSON.stringify(configuration), before);
+  for (const followUpBatches of [{}, [null], [{ basis, corrections: [lairCorrection] }],
+    [{ basis: { ...basis, candidateComponents: 2 }, corrections: [spacingCorrection] }],
+    [{ basis: { ...basis, reportSha256: 'stale' }, corrections: [spacingCorrection] }],
+    [{ basis, corrections: [] }], [{ basis, corrections: [spacingCorrection], extra: true }]]) {
+    assert.throws(() => reviewedSourceCorrections({ ...configuration, followUpBatches }, provenance), /source correction batch/i);
+  }
+});
+
+test('recovery case approvals require an explicit matching catalog selection', () => {
+  const source = record(1, 'Page', 'main', 'Editor', 'Creator', ['Page.OLD']);
+  const target = record(1, 'Page', 'old', 'Editor', 'Creator');
+  const provenance = { repository: 'fixture', commit: 'a'.repeat(40) };
+  const configuration = { schemaVersion: 1, ...provenance, selection: 'all-current-with-history',
+    basis: { candidateComponents: 1, missingTargetNames: 1, reportSha256: 'b'.repeat(64), manifestSha256: 'c'.repeat(64), conditionalEstimate: 1 },
+    corrections: [caseCorrection(source, target)] };
+  const options = { selection: 'all-current-with-history' };
+  assert.deepEqual(reviewedCorrections(configuration, provenance, options), configuration.corrections);
+  assert.throws(() => reviewedCorrections(configuration, provenance), /reviewed scope/i);
+  assert.throws(() => reviewedCorrections({ ...configuration, selection: undefined }, provenance, options), /reviewed scope/i);
+  assert.throws(() => reviewedCorrections({ ...configuration, selection: 'all-current' }, provenance, { selection: 'all-current' }), /reviewed scope/i);
 });
 
 test('reviewed follow-up batches retain independent scope and source revision guards', () => {
@@ -276,6 +498,139 @@ test('explicit case corrections change only approved selectable references and p
   assert.deepEqual(bundle.tables.find(table => table.name === 'Case.Choices'), baseline.tables.find(table => table.name === 'Case.Choices'));
   assert.deepEqual(bundle.aliases, {});
   assert.equal(JSON.stringify(plan), before);
+});
+
+test('all-row case approvals resolve blocked targets and inactive historical references without enabling invalid paths', () => {
+  const source = record(601, 'CompleteCase', 'main', 'Editor', 'Creator', ['CompleteCase.broken']);
+  const inactive = record(601, 'CompleteCase', 'Inactive', 'Editor', 'Creator', ['CompleteCase.old']);
+  inactive.table.entries[0].weight = 0;
+  inactive.table.entries.push({ weight: 3, text: 'Unchanged result', references: [] });
+  const broken = record(601, 'CompleteCase', 'Broken', 'Editor', 'Creator');
+  broken.table.entries = [];
+  const historical = record(601, 'CompleteCase', 'Old', 'Editor', 'Creator');
+  historical.historical = { basis: 'latest-retained-definition' };
+  const rules = [caseCorrection(source, broken), caseCorrection(inactive, historical)];
+  const plan = { ...planImport([source, inactive, broken, historical], ['CompleteCase.main'], { allCurrent: true }),
+    selection: 'all-current-with-history', recovery: {} };
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan, { runtimeExpressions: true });
+  const bundle = compileImport(plan, { runtimeExpressions: true, allCaseReferenceCorrections: rules });
+  const caller = bundle.tables.find(table => table.name === 'CompleteCase.main');
+  const idle = bundle.tables.find(table => table.name === 'CompleteCase.Inactive');
+  assert.equal(caller.status, 'blocked');
+  assert.ok(caller.issues.some(issue => issue.code === 'blocked_dependency'));
+  assert.ok(!caller.issues.some(issue => ['missing_reference', 'unsupported_reference'].includes(issue.code)));
+  assert.deepEqual(caller.dependencies, [tableId(broken.table)]);
+  assert.equal(idle.status, 'ready');
+  assert.deepEqual(idle.values, baseline.tables.find(table => table.id === idle.id).values);
+  assert.deepEqual(idle.entries[0], { weight: 0, text: '[CompleteCase.old]', rawText: '[CompleteCase.old]', references: [tableId(historical.table)] });
+  assert.deepEqual(idle.dependencies, []);
+  assert.deepEqual(idle.referenceCorrections, [rules[1]]);
+  assert.equal(JSON.stringify(plan), before);
+  const provenance = { repository: 'fixture', commit: 'fixed' };
+  assert.equal(buildArtifacts(plan, bundle, provenance).get('tables/abulafia/source/601.json'),
+    buildArtifacts(plan, baseline, provenance).get('tables/abulafia/source/601.json'));
+  assert.throws(() => compileImport(plan, { recoveryReferenceCorrections: [rules[1]] }), /nonselectable/i);
+  assert.throws(() => compileImport({ ...plan, recovery: undefined, selection: 'all-current' }, { allCaseReferenceCorrections: rules }), /scope/i);
+});
+
+test('all-row case approvals bind original evidence when an earlier batch corrected another token in the row', () => {
+  const source = record(602, 'LayeredCase', 'main', 'Editor', 'Creator', ['LayeredCase.first', 'LayeredCase.last']);
+  const first = record(602, 'LayeredCase', 'First', 'Editor', 'Creator');
+  const last = record(602, 'LayeredCase', 'Last', 'Editor', 'Creator');
+  const older = caseCorrection(source, first);
+  const reference = source.table.entries[0].references[1];
+  const newer = { ...older, raw: reference.raw, from: reference.target_qualified_name, to: last.table.subtable.qualified_name,
+    targetId: tableId(last.table), targetSourceHash: crypto.createHash('sha256').update(JSON.stringify(last.table)).digest('hex') };
+  last.sourceHash = newer.targetSourceHash;
+  const plan = { ...planImport([source, first, last], ['LayeredCase.main'], { allCurrent: true }), selection: 'all-current-with-history', recovery: {} };
+  const bundle = compileImport(plan, { referenceCorrections: [older], allCaseReferenceCorrections: [newer] });
+  const caller = bundle.tables.find(table => table.name === 'LayeredCase.main');
+  assert.equal(caller.status, 'ready');
+  assert.deepEqual(caller.referenceCorrections, [older, newer]);
+  assert.equal(caller.entries[0].rawText, '[LayeredCase.first] [LayeredCase.last]');
+  assert.equal(caller.entries[0].text, `{${tableId(first.table)}} {${tableId(last.table)}}`);
+  assert.throws(() => compileImport(plan, { referenceCorrections: [older], allCaseReferenceCorrections: [older] }), /already corrected|Duplicate/i);
+  assert.throws(() => compileImport(plan, { allCaseReferenceCorrections: [{ ...newer, entryHash: '0'.repeat(64) }] }), /Stale/i);
+});
+
+test('all-row case approvals repair an exact case-only unresolved page token but still reject ambiguous identities', () => {
+  const source = record(603, 'Caller', 'main', 'Editor', 'Creator', ['TARGET.Leaf']);
+  source.table.entries[0].references[0].kind = 'unresolved_cross_page';
+  const target = record(604, 'Target', 'Leaf', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  const plan = { ...planImport([source, target], ['Caller.main'], { allCurrent: true }), selection: 'all-current-with-history', recovery: {} };
+  const bundle = compileImport(plan, { allCaseReferenceCorrections: [correction] });
+  assert.equal(bundle.tables.find(table => table.name === 'Caller.main').status, 'ready');
+  const other = record(605, 'target', 'LEAF', 'Editor', 'Creator');
+  assert.throws(() => compileImport({ ...plan, records: [...plan.records, other] }, { allCaseReferenceCorrections: [correction] }), /case-only target/i);
+});
+
+test('all-row case approvals fix visible token casing even when parsed target metadata is already canonical', () => {
+  const source = record(606, 'TokenCase', 'main', 'Editor', 'Creator', ['target.LEAF']);
+  source.table.entries[0].references[0].target_qualified_name = 'Target.Leaf';
+  const target = record(607, 'Target', 'Leaf', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  assert.equal(correction.from, correction.to);
+  const plan = { ...planImport([source, target], ['TokenCase.main'], { allCurrent: true }), selection: 'all-current-with-history', recovery: {} };
+  assert.equal(compileImport(plan).tables.find(table => table.name === 'TokenCase.main').status, 'blocked');
+  const caller = compileImport(plan, { allCaseReferenceCorrections: [correction] }).tables.find(table => table.name === 'TokenCase.main');
+  assert.equal(caller.status, 'ready');
+  assert.equal(caller.entries[0].rawText, '[target.LEAF]');
+  assert.equal(caller.entries[0].text, `{${tableId(target.table)}}`);
+  assert.deepEqual(caller.referenceCorrections, [correction]);
+  const exact = record(608, 'ExactToken', 'main', 'Editor', 'Creator', ['Target.Leaf']);
+  const redundant = caseCorrection(exact, target);
+  const exactPlan = { ...plan, records: [exact, target] };
+  assert.throws(() => compileImport(exactPlan, { allCaseReferenceCorrections: [redundant] }), /case-only source token/i);
+  assert.throws(() => compileImport(plan, { recoveryReferenceCorrections: [correction] }), /case-only target/i);
+});
+
+test('all-row case approvals require explicit source-backed compact page aliases and reject page collisions', () => {
+  const source = record(609, 'AliasCase', 'main', 'Editor', 'Creator', ['simplecolors.leaf']);
+  Object.assign(source.table.entries[0].references[0], {
+    target_page: 'Simple Colors', target_subtable: 'leaf', target_qualified_name: 'Simple Colors.leaf'
+  });
+  const target = record(610, 'Simple Colors', 'Leaf', 'Editor', 'Creator');
+  const correction = { ...caseCorrection(source, target), pageAlias: 'simplecolors' };
+  const plan = { ...planImport([source, target], ['AliasCase.main'], { allCurrent: true }), selection: 'all-current-with-history', recovery: {} };
+  const before = JSON.stringify(plan);
+  const caller = compileImport(plan, { allCaseReferenceCorrections: [correction] }).tables.find(table => table.name === 'AliasCase.main');
+  assert.equal(caller.status, 'ready');
+  assert.equal(caller.entries[0].rawText, '[simplecolors.leaf]');
+  assert.equal(caller.entries[0].text, `{${tableId(target.table)}}`);
+  assert.deepEqual(caller.referenceCorrections, [correction]);
+  assert.equal(JSON.stringify(plan), before);
+  const { pageAlias, ...ordinary } = correction;
+  assert.throws(() => compileImport(plan, { allCaseReferenceCorrections: [ordinary] }), /case-only source token/i);
+  assert.throws(() => compileImport(plan, { allCaseReferenceCorrections: [{ ...correction, pageAlias: 'other' }] }), /page alias/i);
+  assert.throws(() => compileImport(plan, { recoveryReferenceCorrections: [correction] }), /correction fields/i);
+  const collision = record(611, 'Simple-Colors', 'Other', 'Editor', 'Creator');
+  assert.throws(() => compileImport({ ...plan, records: [...plan.records, collision] }, { allCaseReferenceCorrections: [correction] }), /page alias/i);
+});
+
+test('page-only casing corrections preserve exact subtable identity when case-distinct subtables coexist', () => {
+  const source = record(612, 'PageCase', 'main', 'Editor', 'Creator', ['colors.leaf']);
+  Object.assign(source.table.entries[0].references[0], { target_page: 'Colors', target_subtable: 'leaf', target_qualified_name: 'Colors.leaf' });
+  const target = record(613, 'Colors', 'leaf', 'Editor', 'Creator');
+  const distinct = record(613, 'Colors', 'Leaf', 'Editor', 'Creator');
+  const correction = caseCorrection(source, target);
+  const plan = { ...planImport([source, target, distinct], ['PageCase.main'], { allCurrent: true }), selection: 'all-current-with-history', recovery: {} };
+  const bundle = compileImport(plan, { allCaseReferenceCorrections: [correction] });
+  const caller = bundle.tables.find(table => table.name === 'PageCase.main');
+  assert.equal(caller.status, 'ready');
+  assert.deepEqual(caller.dependencies, [tableId(target.table)]);
+  assert.equal(caller.entries[0].rawText, '[colors.leaf]');
+  assert.equal(bundle.tables.find(table => table.id === tableId(distinct.table)).status, 'ready');
+  const ambiguous = record(614, 'AmbiguousPageCase', 'main', 'Editor', 'Creator', ['colors.LEAF']);
+  Object.assign(ambiguous.table.entries[0].references[0], { target_page: 'Colors', target_subtable: 'leaf', target_qualified_name: 'Colors.leaf' });
+  assert.throws(() => compileImport({ ...plan, records: [ambiguous, target, distinct] }, {
+    allCaseReferenceCorrections: [caseCorrection(ambiguous, target)]
+  }), /case-only target/i);
+  const pageCollision = record(615, 'COLORS', 'Other', 'Editor', 'Creator');
+  assert.throws(() => compileImport({ ...plan, records: [...plan.records, pageCollision] }, {
+    allCaseReferenceCorrections: [correction]
+  }), /case-only target/i);
 });
 
 test('case correction guards reject stale, nonselectable, ambiguous, or unrelated source bindings', () => {
@@ -1253,6 +1608,38 @@ test('historical additions cannot retarget reviewed current-corpus case correcti
   assert.throws(() => compileImport(stale, { referenceCorrections: [correction] }), /stale reference correction target/i);
 });
 
+test('reviewed recovery case corrections use the full catalog without retargeting earlier current approvals', () => {
+  const source = record(1, 'Page', 'main', 'Editor', 'Creator', ['Page.OLD']);
+  const oldTarget = record(1, 'Page', 'old', 'Editor', 'Creator');
+  const oldCorrection = caseCorrection(source, oldTarget);
+  const restored = record(1, 'Page', 'OLD', 'Editor', 'Creator');
+  const historicalCaller = record(2, 'Archive', 'Caller', 'Editor', 'Creator', ['Archive.option']);
+  const historicalTarget = record(2, 'Archive', 'Option', 'Editor', 'Creator');
+  const currentCaller = record(3, 'Current', 'main', 'Editor', 'Creator', ['Archive.option']);
+  for (const record of [restored, historicalCaller, historicalTarget]) {
+    record.historical = { basis: 'latest-retained-definition', absentFromCurrent: structuredClone(record) };
+  }
+  const corrections = [caseCorrection(historicalCaller, historicalTarget), caseCorrection(currentCaller, historicalTarget)];
+  const plan = { ...planImport([source, oldTarget, restored, historicalCaller, historicalTarget, currentCaller], ['Page.main']), recovery: {} };
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan, { referenceCorrections: [oldCorrection] });
+  const bundle = compileImport(plan, { referenceCorrections: [oldCorrection], recoveryReferenceCorrections: corrections });
+  assert.ok(bundle.tables.every(table => table.status === 'ready'));
+  for (const table of baseline.tables.filter(table => table.status === 'ready')) {
+    assert.deepEqual(bundle.tables.find(candidate => candidate.id === table.id), table);
+  }
+  for (const correction of corrections) {
+    const table = bundle.tables.find(table => table.id === correction.tableId);
+    assert.equal(table.entries[0].rawText, '[Archive.option]');
+    assert.deepEqual(table.dependencies, [tableId(historicalTarget.table)]);
+    assert.deepEqual(table.referenceCorrections, [correction]);
+  }
+  assert.throws(() => compileImport({ ...plan, recovery: undefined }, { recoveryReferenceCorrections: corrections }), /recovery.*scope/i);
+  assert.throws(() => compileImport(plan, { recoveryReferenceCorrections: [oldCorrection] }), /unique case-only target/);
+  assert.throws(() => compileImport(plan, { recoveryReferenceCorrections: [{ ...corrections[0], sourceHash: '0'.repeat(64) }] }), /stale reference correction source/i);
+  assert.equal(JSON.stringify(plan), before);
+});
+
 test('historical recovery leaves current zero-weight reference evidence unchanged', () => {
   const current = record(1, 'Page', 'main', 'Editor', 'Creator');
   const inactive = record(1, 'Page', 'inactive', 'Editor', 'Creator', ['Page.old']).table.entries[0];
@@ -1320,6 +1707,53 @@ test('XML recovery loading verifies materialized source snapshots, attribution, 
   fs.unlinkSync(path.join(root, latestFile.file));
   fs.symlinkSync(path.join(root, originalFile.file), path.join(root, latestFile.file));
   assert.throws(() => loadRecoveryCorpus(root, configuration, baseline, provenance), /recovery.*symbolic/i);
+});
+
+test('reviewed renamed leaves require identical XML definitions and exact source-row bindings', () => {
+  const digest = value => crypto.createHash('sha256').update(value).digest('hex');
+  const source = record(10, 'Caller', 'main', 'Editor', 'Creator', ['Old Page.words']);
+  const target = record(11, 'Current Page', 'words', 'Editor', 'Creator');
+  target.table.entries = [{ weight: 3, text: 'One', references: [] }, { weight: 7, text: 'Two', references: [] }];
+  target.table.raw_source = ';words\n3,One\n7,Two';
+  const definition = structuredClone(target);
+  definition.table.page.title = 'Old Page';
+  definition.table.subtable.qualified_name = 'Old Page.words';
+  definition.table.source.revision_id = 123;
+  definition.sourceFile = 'archive/abulafia-recovery/fixture/old.json';
+  definition.sourceHash = digest(JSON.stringify(definition.table));
+  const correction = { ...caseCorrection(source, target), definition };
+  const plan = planImport([source, target], ['Caller.main']);
+  const before = JSON.stringify(plan);
+  const baseline = compileImport(plan);
+  assert.equal(baseline.tables.find(table => table.name === 'Caller.main').status, 'blocked');
+  const recovered = compileImport(plan, { referenceRenames: [correction] });
+  const repaired = recovered.tables.find(table => table.name === 'Caller.main');
+  assert.equal(repaired.status, 'ready');
+  assert.deepEqual(repaired.dependencies, [tableId(target.table)]);
+  assert.equal(repaired.entries[0].rawText, '[Old Page.words]');
+  assert.equal(repaired.referenceRenames[0].definition.sourceHash, definition.sourceHash);
+  assert.equal(repaired.referenceRenames[0].definition.table, undefined);
+  assert.deepEqual(recovered.tables.find(table => table.name === 'Current Page.words'), baseline.tables.find(table => table.name === 'Current Page.words'));
+  for (const change of [{ sourceHash: '0'.repeat(64) }, { weight: 2 }, { raw: '[Other.words]' }, { targetSourceHash: '0'.repeat(64) }]) {
+    assert.throws(() => compileImport(plan, { referenceRenames: [{ ...correction, ...change }] }), /reference|rename/i);
+  }
+  for (const mutate of [
+    table => { table.page.page_id = 12; },
+    table => { table.raw_source += '\n1,Extra'; },
+    table => { table.entries[0].weight = 4; },
+    table => { table.entries[0].text = 'Changed'; },
+    table => { table.entries[0].references = [{ raw: '[Nested]' }]; }
+  ]) {
+    const changed = structuredClone(correction);
+    mutate(changed.definition.table);
+    assert.throws(() => compileImport(plan, { referenceRenames: [changed] }), /rename/i);
+  }
+  const cyclic = record(10, 'Caller', 'cycle', 'Editor', 'Creator', ['Caller.cycle']);
+  const guarded = compileImport(planImport([source, target, cyclic], ['Caller.main']), { referenceRenames: [correction] });
+  assert.equal(guarded.tables.find(table => table.name === 'Caller.cycle').status, 'blocked');
+  const colliding = structuredClone(definition);
+  assert.throws(() => compileImport(planImport([source, target, colliding], ['Caller.main']), { referenceRenames: [correction] }), /reference|rename|collision/i);
+  assert.equal(JSON.stringify(plan), before);
 });
 
 test('legacy name-only attribution joins an unambiguous registered contributor', () => {

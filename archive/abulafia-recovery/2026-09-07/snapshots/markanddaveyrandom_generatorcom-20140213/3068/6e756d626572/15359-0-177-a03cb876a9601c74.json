@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15359,
+    "timestamp": "2012-10-08T09:13:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9526a04d4ae507efcfd39f1e5e5b8eba2f617c32bab6d09e0c3c877be7bf9c81",
+      "rawSha256": "a03cb876a9601c7413429437b6d6f1ca8ce9828ec80eb35c06db2efbeb1afa7c",
+      "revisionId": "15359",
+      "line": 177,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "number",
+    "qualified_name": "Starting Equipment.number",
+    "table_block_index": 0,
+    "line_number": 177
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "two",
+      "raw_text": "1,two",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "three",
+      "raw_text": "1,three",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "four",
+      "raw_text": "1,four",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "five",
+      "raw_text": "1,five",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "six",
+      "raw_text": "1,six",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "seven",
+      "raw_text": "1,seven",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "eight",
+      "raw_text": "1,eight",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "nine",
+      "raw_text": "1,nine",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";number\n1,two\n1,three\n1,four\n1,five\n1,six\n1,seven\n1,eight\n1,nine",
+  "warnings": []
+}

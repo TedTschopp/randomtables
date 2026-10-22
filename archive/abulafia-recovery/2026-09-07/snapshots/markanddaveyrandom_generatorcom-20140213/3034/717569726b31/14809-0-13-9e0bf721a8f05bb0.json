@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14809,
+    "timestamp": "2012-06-24T15:53:20Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cb91c5be73bafca4eb602e10058ad9d26e0c6439bbd030157b562b2071be57b7",
+      "rawSha256": "9e0bf721a8f05bb01cc29d1f3a3c0c30c0ac6a84ccb02a3d32883b29cdfd2d6f",
+      "revisionId": "14809",
+      "line": 13,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk1",
+    "qualified_name": "Village.quirk1",
+    "table_block_index": 0,
+    "line_number": 13
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "houses vampire",
+      "raw_text": "1,houses vampire",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "serves wizard",
+      "raw_text": "1,serves wizard",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "serves necromancer",
+      "raw_text": "1,serves necromancer",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "serves witch",
+      "raw_text": "1,serves witch",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "over dungeon",
+      "raw_text": "1,over dungeon",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "day of sacrifice",
+      "raw_text": "1,day of sacrifice",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "market day",
+      "raw_text": "1,market day",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "wedding ceremony",
+      "raw_text": "1,wedding ceremony",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "only women",
+      "raw_text": "1,only women",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "only men",
+      "raw_text": "1,only men",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "only children",
+      "raw_text": "1,only children",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "only one survivor",
+      "raw_text": "1,only one survivor",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";quirk1\n1,houses vampire\n1,serves wizard\n1,serves necromancer\n1,serves witch\n1,over dungeon\n1,day of sacrifice\n1,market day\n1,wedding ceremony\n1,only women\n1,only men\n1,only children\n1,only one survivor",
+  "warnings": []
+}

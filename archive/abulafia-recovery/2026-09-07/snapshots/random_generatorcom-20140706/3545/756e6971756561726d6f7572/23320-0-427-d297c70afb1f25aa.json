@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "d297c70afb1f25aa9124ce1abfcec379e503545e1c9098f20e330928ba47c601",
+      "revisionId": "23320",
+      "line": 427,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "uniquearmour",
+    "qualified_name": "OSR weapon.uniquearmour",
+    "table_block_index": 0,
+    "line_number": 427
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[armour] of Arrow Deflection, +2 vs. Missiles[armourdetail]",
+      "raw_text": "2,[armour] of Arrow Deflection, +2 vs. Missiles[armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "Demonic [armour][armourdetail]",
+      "raw_text": "2,Demonic [armour][armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "Etheral [armour] +3[armourdetail]",
+      "raw_text": "2,Etheral [armour] +3[armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "Fiery [armour] +1, deals 1–6 damage to attackers[armourdetail]",
+      "raw_text": "2,Fiery [armour] +1, deals 1–6 damage to attackers[armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[armour] +4[armourdetail]",
+      "raw_text": "1,[armour] +4[armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[shield] +4",
+      "raw_text": "1,[shield] +4",
+      "references": [
+        {
+          "raw": "[shield]",
+          "token": "shield",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "shield",
+          "target_qualified_name": "OSR weapon.shield"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[armour] +5[armourdetail]",
+      "raw_text": "1,[armour] +5[armourdetail]",
+      "references": [
+        {
+          "raw": "[armour]",
+          "token": "armour",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armour",
+          "target_qualified_name": "OSR weapon.armour"
+        },
+        {
+          "raw": "[armourdetail]",
+          "token": "armourdetail",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "armourdetail",
+          "target_qualified_name": "OSR weapon.armourdetail"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "[shield] +5",
+      "raw_text": "1,[shield] +5",
+      "references": [
+        {
+          "raw": "[shield]",
+          "token": "shield",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "shield",
+          "target_qualified_name": "OSR weapon.shield"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "[shield] +1, +4 vs Missiles",
+      "raw_text": "1,[shield] +1, +4 vs Missiles",
+      "references": [
+        {
+          "raw": "[shield]",
+          "token": "shield",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "uniquearmour",
+          "target_page": "OSR weapon",
+          "target_subtable": "shield",
+          "target_qualified_name": "OSR weapon.shield"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "armour",
+      "armourdetail",
+      "shield"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";uniquearmour\n2,[armour] of Arrow Deflection, +2 vs. Missiles[armourdetail]\n2,Demonic [armour][armourdetail]\n2,Etheral [armour] +3[armourdetail]\n2,Fiery [armour] +1, deals 1–6 damage to attackers[armourdetail]\n1,[armour] +4[armourdetail]\n1,[shield] +4\n1,[armour] +5[armourdetail]\n1,[shield] +5\n1,[shield] +1, +4 vs Missiles",
+  "warnings": []
+}

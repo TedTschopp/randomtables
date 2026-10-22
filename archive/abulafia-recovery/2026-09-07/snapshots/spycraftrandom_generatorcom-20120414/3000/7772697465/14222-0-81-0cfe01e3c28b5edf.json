@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "0cfe01e3c28b5edfdfe89054357f2b466061ef7ffff0954546e93346f01f97a7",
+      "revisionId": "14222",
+      "line": 81,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "write",
+    "qualified_name": "User:Snake Eyes.write",
+    "table_block_index": 0,
+    "line_number": 81
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[words]",
+      "raw_text": "1, [words]",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "write",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "words",
+          "target_qualified_name": "User:Snake Eyes.words"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "and",
+      "raw_text": "1, and",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "words"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";write\n1, [words]\n1, and",
+  "warnings": []
+}

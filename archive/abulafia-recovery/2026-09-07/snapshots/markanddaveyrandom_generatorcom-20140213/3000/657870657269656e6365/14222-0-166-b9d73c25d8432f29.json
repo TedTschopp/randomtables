@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "b9d73c25d8432f295efdf6c5714445bb1d69a16be9921cab69a359b78e54511a",
+      "revisionId": "14222",
+      "line": 166,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "experience",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.experience",
+    "table_block_index": 0,
+    "line_number": 166
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 11,
+      "text": "Servant",
+      "raw_text": "11, Servant",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 10,
+      "text": "Unskilled",
+      "raw_text": "10, Unskilled",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 9,
+      "text": "Apprentice",
+      "raw_text": "9, Apprentice",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 8,
+      "text": "Master Apprentice",
+      "raw_text": "8, Master Apprentice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 7,
+      "text": "Journeyman",
+      "raw_text": "7, Journeyman",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 6,
+      "text": "Free",
+      "raw_text": "6, Free",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 5,
+      "text": "Guilds-man",
+      "raw_text": "5, Guilds-man",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "Guild-master",
+      "raw_text": "4, Guild-master",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "Paragon",
+      "raw_text": "3, Paragon",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "Master",
+      "raw_text": "2, Master",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Grandmaster",
+      "raw_text": "1, Grandmaster",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";experience\n11, Servant\n10, Unskilled\n9, Apprentice\n8, Master Apprentice\n7, Journeyman\n6, Free\n5, Guilds-man\n4, Guild-master\n3, Paragon\n2, Master\n1, Grandmaster",
+  "warnings": []
+}

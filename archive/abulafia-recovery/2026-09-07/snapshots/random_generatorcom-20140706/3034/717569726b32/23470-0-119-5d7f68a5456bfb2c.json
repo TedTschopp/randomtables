@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "5d7f68a5456bfb2c6c02d5fd04cfe9bbd0b0ff82307ee188fae5e6b84c303718",
+      "revisionId": "23470",
+      "line": 119,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk2",
+    "qualified_name": "Village.quirk2",
+    "table_block_index": 0,
+    "line_number": 119
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bad blood between two [maybeweird]factions",
+      "raw_text": "1,bad blood between two [maybeweird]factions",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "giant lucky [Quick Zone Populations.power-animal]",
+      "raw_text": "1,giant lucky [Quick Zone Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "everyone has a [maybeweird][animal]",
+      "raw_text": "1,everyone has a [maybeweird][animal]",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "animal",
+          "target_qualified_name": "Village.animal"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[weird] mine",
+      "raw_text": "1,[weird] mine",
+      "references": [
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "iron mine",
+      "raw_text": "1,iron mine",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "opium ring",
+      "raw_text": "1,opium ring",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "locals are all [maybeweird]cannibals",
+      "raw_text": "1,locals are all [maybeweird]cannibals",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "bandit lair",
+      "raw_text": "1,bandit lair",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "locals are all [maybeweird]dwarves",
+      "raw_text": "1,locals are all [maybeweird]dwarves",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "fighting ring",
+      "raw_text": "1,fighting ring",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "shrine to [Quick Zone Populations.revered] [weird] [Quick Zone Populations.power-animal] god",
+      "raw_text": "1,shrine to [Quick Zone Populations.revered] [weird] [Quick Zone Populations.power-animal] god",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.revered]",
+          "token": "Quick Zone Populations.revered",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "revered",
+          "target_qualified_name": "Quick Zone Populations.revered"
+        },
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        },
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "shrine depicts battle between [Quick Zone Populations.anygroup-terse] and [Quick Zone Populations.anygroup-terse]",
+      "raw_text": "1,shrine depicts battle between [Quick Zone Populations.anygroup-terse] and [Quick Zone Populations.anygroup-terse]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.anygroup-terse]",
+          "token": "Quick Zone Populations.anygroup-terse",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "anygroup-terse",
+          "target_qualified_name": "Quick Zone Populations.anygroup-terse"
+        },
+        {
+          "raw": "[Quick Zone Populations.anygroup-terse]",
+          "token": "Quick Zone Populations.anygroup-terse",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "anygroup-terse",
+          "target_qualified_name": "Quick Zone Populations.anygroup-terse"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "cultists worship [weird] demons",
+      "raw_text": "1,cultists worship [weird] demons",
+      "references": [
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "locals are impostors",
+      "raw_text": "1,locals are impostors",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "locals are prisoners",
+      "raw_text": "1,locals are prisoners",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "locals are [maybeweird]slaves",
+      "raw_text": "1,locals are [maybeweird]slaves",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "locals are [weird] mutants",
+      "raw_text": "1,locals are [weird] mutants",
+      "references": [
+        {
+          "raw": "[weird]",
+          "token": "weird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "weird",
+          "target_qualified_name": "Village.weird"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "locals are body snatchers",
+      "raw_text": "1,locals are body snatchers",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "locals are people smugglers",
+      "raw_text": "1,locals are people smugglers",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "locals are all mad",
+      "raw_text": "1,locals are all mad",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "[someone] in stocks, accused of [crime]",
+      "raw_text": "1,[someone] in stocks, accused of [crime]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        },
+        {
+          "raw": "[crime]",
+          "token": "crime",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "crime",
+          "target_qualified_name": "Village.crime"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "[someone] in cage, accused of [crime]",
+      "raw_text": "1,[someone] in cage, accused of [crime]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        },
+        {
+          "raw": "[crime]",
+          "token": "crime",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "crime",
+          "target_qualified_name": "Village.crime"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "hanged [someone], accused of [crime]",
+      "raw_text": "1,hanged [someone], accused of [crime]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        },
+        {
+          "raw": "[crime]",
+          "token": "crime",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "crime",
+          "target_qualified_name": "Village.crime"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "drowned [someone][Quick Zone Populations.maybename]",
+      "raw_text": "1,drowned [someone][Quick Zone Populations.maybename]",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        },
+        {
+          "raw": "[Quick Zone Populations.maybename]",
+          "token": "Quick Zone Populations.maybename",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "maybename",
+          "target_qualified_name": "Quick Zone Populations.maybename"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "[someone] in well",
+      "raw_text": "1,[someone] in well",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[someone] in burning building",
+      "raw_text": "1,[someone] in burning building",
+      "references": [
+        {
+          "raw": "[someone]",
+          "token": "someone",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "someone",
+          "target_qualified_name": "Village.someone"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "raided by [raiders]",
+      "raw_text": "1,raided by [raiders]",
+      "references": [
+        {
+          "raw": "[raiders]",
+          "token": "raiders",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "raiders",
+          "target_qualified_name": "Village.raiders"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "overrun with [maybeweird][animal]s",
+      "raw_text": "1,overrun with [maybeweird][animal]s",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "animal",
+          "target_qualified_name": "Village.animal"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "crawling with undead",
+      "raw_text": "1,crawling with undead",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "food shortage",
+      "raw_text": "1,food shortage",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "locals have horrible [maybeweird]nightmares",
+      "raw_text": "1,locals have horrible [maybeweird]nightmares",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "haunted",
+      "raw_text": "1,haunted",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 5,
+      "text": "[cursable-thing]cursed by [maybeweird][curser][Quick Zone Populations.maybename]",
+      "raw_text": "5,[cursable-thing]cursed by [maybeweird][curser][Quick Zone Populations.maybename]",
+      "references": [
+        {
+          "raw": "[cursable-thing]",
+          "token": "cursable-thing",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "cursable-thing",
+          "target_qualified_name": "Village.cursable-thing"
+        },
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[curser]",
+          "token": "curser",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "curser",
+          "target_qualified_name": "Village.curser"
+        },
+        {
+          "raw": "[Quick Zone Populations.maybename]",
+          "token": "Quick Zone Populations.maybename",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "maybename",
+          "target_qualified_name": "Quick Zone Populations.maybename"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "[maybeweird][art] [Not CCA approved.reason]",
+      "raw_text": "1,[maybeweird][art] [Not CCA approved.reason]",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[art]",
+          "token": "art",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "art",
+          "target_qualified_name": "Village.art"
+        },
+        {
+          "raw": "[Not CCA approved.reason]",
+          "token": "Not CCA approved.reason",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Not CCA approved",
+          "target_subtable": "reason",
+          "target_qualified_name": "Not CCA approved.reason"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "[maybeweird][unusual-construction] in center of village",
+      "raw_text": "1,[maybeweird][unusual-construction] in center of village",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[unusual-construction]",
+          "token": "unusual-construction",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk2",
+          "target_page": "Village",
+          "target_subtable": "unusual-construction",
+          "target_qualified_name": "Village.unusual-construction"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "animal",
+      "art",
+      "crime",
+      "cursable-thing",
+      "curser",
+      "maybeweird",
+      "raiders",
+      "someone",
+      "unusual-construction",
+      "weird"
+    ],
+    "external_subtables": [
+      "Not CCA approved.reason",
+      "Quick Zone Populations.anygroup-terse",
+      "Quick Zone Populations.maybename",
+      "Quick Zone Populations.power-animal",
+      "Quick Zone Populations.revered"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";quirk2\n1,bad blood between two [maybeweird]factions\n1,giant lucky [Quick Zone Populations.power-animal]\n1,everyone has a [maybeweird][animal]\n1,[weird] mine\n1,iron mine\n1,opium ring\n1,locals are all [maybeweird]cannibals\n1,bandit lair\n1,locals are all [maybeweird]dwarves\n1,fighting ring\n1,shrine to [Quick Zone Populations.revered] [weird] [Quick Zone Populations.power-animal] god\n1,shrine depicts battle between [Quick Zone Populations.anygroup-terse] and [Quick Zone Populations.anygroup-terse]\n1,cultists worship [weird] demons\n1,locals are impostors\n1,locals are prisoners\n1,locals are [maybeweird]slaves\n1,locals are [weird] mutants\n1,locals are body snatchers\n1,locals are people smugglers\n1,locals are all mad\n1,[someone] in stocks, accused of [crime]\n1,[someone] in cage, accused of [crime]\n1,hanged [someone], accused of [crime]\n1,drowned [someone][Quick Zone Populations.maybename]\n1,[someone] in well\n1,[someone] in burning building\n1,raided by [raiders]\n1,overrun with [maybeweird][animal]s\n1,crawling with undead\n1,food shortage\n1,locals have horrible [maybeweird]nightmares\n1,haunted\n5,[cursable-thing]cursed by [maybeweird][curser][Quick Zone Populations.maybename]\n1,[maybeweird][art] [Not CCA approved.reason]\n1,[maybeweird][unusual-construction] in center of village",
+  "warnings": []
+}

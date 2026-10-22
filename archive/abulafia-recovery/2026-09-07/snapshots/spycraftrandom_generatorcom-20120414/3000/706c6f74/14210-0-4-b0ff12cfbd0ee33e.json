@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14210,
+    "timestamp": "2012-04-01T16:24:11Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "349396c26dc8abbf2b76d875c3071230be74896a6dd083b3809d77ef98708610",
+      "rawSha256": "b0ff12cfbd0ee33ed7efb96db0a80b9e930ea68d0f6874a74ec08b2fde4f875a",
+      "revisionId": "14210",
+      "line": 4,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "plot",
+    "qualified_name": "User:Snake Eyes.plot",
+    "table_block_index": 0,
+    "line_number": 4
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "SUPPLICATION\na Persecutor\na Suppliant\na Power in authority, whose decision is doubtful.\nThe Persecutor accuses the Suppliant of wrongdoing, and the Power makes a judgment against the Suppliant.",
+      "raw_text": "1, SUPPLICATION\na Persecutor\na Suppliant\na Power in authority, whose decision is doubtful.\nThe Persecutor accuses the Suppliant of wrongdoing, and the Power makes a judgment against the Suppliant.",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "DELIVERANCE\nan Unfortunate\na Threatener\na Rescuer\nThe Unfortunate has caused a conflict, and the Threatener is to carry out justice, but the Rescuer saves the Unfortunate.",
+      "raw_text": "1, DELIVERANCE\nan Unfortunate\na Threatener\na Rescuer\nThe Unfortunate has caused a conflict, and the Threatener is to carry out justice, but the Rescuer saves the Unfortunate.",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "CRIME PERSUED BY VENGEANCE\na Criminal\nan Avenger\nThe Criminal commits a crime that will not see justice, so the Avenger seeks justice by punishing the Criminal.",
+      "raw_text": "1, CRIME PERSUED BY VENGEANCE\na Criminal\nan Avenger\nThe Criminal commits a crime that will not see justice, so the Avenger seeks justice by punishing the Criminal.",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "VENGEANCE TAKEN FOR KIN UPON KIN\nGuilty Kinsman\nan Avenging Kinsman\nremembrance of the Victim, a relative of both\nTwo entities, the Guilty and the Avenging Kinsmen, are put into conflict over wrongdoing to the Victim, who is allied to both.",
+      "raw_text": "1, VENGEANCE TAKEN FOR KIN UPON KIN\nGuilty Kinsman\nan Avenging Kinsman\nremembrance of the Victim, a relative of both\nTwo entities, the Guilty and the Avenging Kinsmen, are put into conflict over wrongdoing to the Victim, who is allied to both.",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "PURSUIT\nPunishment\na Fugitive\nThe Fugitive flees Punishment for a misunderstood conflict.",
+      "raw_text": "1, PURSUIT\nPunishment\na Fugitive\nThe Fugitive flees Punishment for a misunderstood conflict.",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "DISASTER\na Vanquished Power\na Victorious Enemy or a Messenger\nThe Power falls from their place after being defeated by the Victorious Enemy or being informed of such a defeat by the Messenger.",
+      "raw_text": "1, DISASTER\na Vanquished Power\na Victorious Enemy or a Messenger\nThe Power falls from their place after being defeated by the Victorious Enemy or being informed of such a defeat by the Messenger.",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "FALLING PREY TO CRUELTY OR MISFORTUNE\nan Unfortunate\na Master or a Misfortune\nThe Unfortunate suffers from Misfortune and/or at the hands of the Master.",
+      "raw_text": "1, FALLING PREY TO CRUELTY OR MISFORTUNE\nan Unfortunate\na Master or a Misfortune\nThe Unfortunate suffers from Misfortune and/or at the hands of the Master.",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "REVOLT\na Tyrant\na Conspirator\nThe Tyrant, a cruel power, is plotted against by the Conspirator.",
+      "raw_text": "1, REVOLT\na Tyrant\na Conspirator\nThe Tyrant, a cruel power, is plotted against by the Conspirator.",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "DARING ENTERPRISE\na Bold Leader\nan Object\nan Adversary\nThe Bold Leader takes the Object from the Adversary by overpowering the Adversary.",
+      "raw_text": "1, DARING ENTERPRISE\na Bold Leader\nan Object\nan Adversary\nThe Bold Leader takes the Object from the Adversary by overpowering the Adversary.",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "ABDUCTION\nan Abductor\nthe Abducted\na Guardian\nThe Abductor takes the Abducted from the Guardian.",
+      "raw_text": "1, ABDUCTION\nan Abductor\nthe Abducted\na Guardian\nThe Abductor takes the Abducted from the Guardian.",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "THE ENIGMA\na Problem\nan Interrogator\na Seeker\nThe Interrogator poses a Problem to the Seeker and gives a Seeker better ability to reach the Seeker's goals.",
+      "raw_text": "1, THE ENIGMA\na Problem\nan Interrogator\na Seeker\nThe Interrogator poses a Problem to the Seeker and gives a Seeker better ability to reach the Seeker's goals.",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "OBTAINING\n(a Solicitor & an Adversary who is refusing) or\n(an Arbitrator & Opposing Parties)\nThe Solicitor is at odds with the Adversary who refuses to give the Solicitor what they Object in the possession of the Adversary, or an Arbitrator decides who gets the Object desired by Opposing Parties (the Solicitor and the Adversary).",
+      "raw_text": "1, OBTAINING\n(a Solicitor & an Adversary who is refusing) or \n(an Arbitrator & Opposing Parties)\nThe Solicitor is at odds with the Adversary who refuses to give the Solicitor what they Object in the possession of the Adversary, or an Arbitrator decides who gets the Object desired by Opposing Parties (the Solicitor and the Adversary).",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "ENMITY OF KIN\na Malevolent Kinsman\na Hated or a reciprocally-hating Kinsman\nThe Malevolent Kinsman and the Hated or a second Malevolent Kinsman conspire together.",
+      "raw_text": "1, ENMITY OF KIN\na Malevolent Kinsman\na Hated or a reciprocally-hating Kinsman\nThe Malevolent Kinsman and the Hated or a second Malevolent Kinsman conspire together.",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "RIVALY OF KIN\nthe Preferred Kinsman\nthe Rejected Kinsman\nthe Object of Rivalry\nThe Object of Rivalry chooses the Preferred Kinsman over the Rejected Kinsman.",
+      "raw_text": "1, RIVALY OF KIN\nthe Preferred Kinsman\nthe Rejected Kinsman\nthe Object of Rivalry\nThe Object of Rivalry chooses the Preferred Kinsman over the Rejected Kinsman.",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "MURDEROUS ADULTERY\ntwo Adulterers\na Betrayed Spouse\nTwo Adulterers conspire to kill the Betrayed Spouse.",
+      "raw_text": "1, MURDEROUS ADULTERY\ntwo Adulterers\na Betrayed Spouse\nTwo Adulterers conspire to kill the Betrayed Spouse.",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "MADNESS\na Madman\na Victim\nThe Madman goes insane and wrongs the Victim.",
+      "raw_text": "1, MADNESS\na Madman\na Victim\nThe Madman goes insane and wrongs the Victim.",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "FATAL IMPRUDENCE\nthe Imprudent\na Victim or an Object Lost\nThe Imprudent, by neglect or ignorance, loses the Object Lost or wrongs the Victim.",
+      "raw_text": "1, FATAL IMPRUDENCE\nthe Imprudent\na Victim or an Object Lost\nThe Imprudent, by neglect or ignorance, loses the Object Lost or wrongs the Victim.",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "INVOLUNTARY CRIMES OF LOVE\na Lover\na Beloved\na Revealer\nThe Revealer betrays the trust of either the Lover or the Beloved.",
+      "raw_text": "1, INVOLUNTARY CRIMES OF LOVE\na Lover\na Beloved\na Revealer\nThe Revealer betrays the trust of either the Lover or the Beloved.",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "SLAYING OF KIN UNRECOGNIZED\nthe Slayer\nan Unrecognized Victim\nThe Slayer kills the Unrecognized Victim.",
+      "raw_text": "1, SLAYING OF KIN UNRECOGNIZED\nthe Slayer\nan Unrecognized Victim\nThe Slayer kills the Unrecognized Victim.",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "SELF-SACRIFICE FOR AN IDEAL\na Hero\nan Ideal\na Creditor or a Person/Thing sacrificed\nThe Hero sacrifices the Person or Thing for their Ideal, which is then taken by the Creditor.",
+      "raw_text": "1, SELF-SACRIFICE FOR AN IDEAL\na Hero\nan Ideal\na Creditor or a Person/Thing sacrificed\nThe Hero sacrifices the Person or Thing for their Ideal, which is then taken by the Creditor.",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "SELF-SACRIFICE FOR A KIN\na Hero a Kinsman\na Creditor or a Person/Thing sacrificed\nThe Hero sacrifices a Person or Thing for their Kinsman, which is then taken by the Creditor.",
+      "raw_text": "1, SELF-SACRIFICE FOR A KIN\na Hero a Kinsman\na Creditor or a Person/Thing sacrificed\nThe Hero sacrifices a Person or Thing for their Kinsman, which is then taken by the Creditor.",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "ALL SACRIFICE FOR PASSION\na Lover\nan Object of fatal Passion\nthe Person/Thing sacrificed\nA Lover sacrifices a Person or Thing for the Object of their Passion, which is then lost forever.",
+      "raw_text": "1, ALL SACRIFICE FOR PASSION\na Lover\nan Object of fatal Passion\nthe Person/Thing sacrificed\nA Lover sacrifices a Person or Thing for the Object of their Passion, which is then lost forever.",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "NECESSITY OF SACRIFICING LOVED ONES\na Hero\na Beloved Victim\nthe Necessity for the Sacrifice\nThe Hero wrongs the Beloved Victim because of the Necessity for their Sacrifice.",
+      "raw_text": "1, NECESSITY OF SACRIFICING LOVED ONES\na Hero\na Beloved Victim\nthe Necessity for the Sacrifice\nThe Hero wrongs the Beloved Victim because of the Necessity for their Sacrifice.",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "RIVALRY OF SUPERIOR VERSUS INFERIOR\na Superior Rival\nan Inferior Rival\nthe Object of Rivalry\nA Superior Rival bests an Inferior Rival and wins the Object of Rivalry.",
+      "raw_text": "1, RIVALRY OF SUPERIOR VERSUS INFERIOR\na Superior Rival\nan Inferior Rival\nthe Object of Rivalry\nA Superior Rival bests an Inferior Rival and wins the Object of Rivalry.",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "ADULTERY\ntwo Adulterers\na Deceived Spouse\nTwo Adulterers conspire against the Deceived Spouse.",
+      "raw_text": "1, ADULTERY\ntwo Adulterers\na Deceived Spouse\nTwo Adulterers conspire against the Deceived Spouse.",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "CRIMES OF LOVE\na Lover\nthe Beloved\nA Lover and the Beloved enter a conflict.",
+      "raw_text": "1, CRIMES OF LOVE\na Lover\nthe Beloved\nA Lover and the Beloved enter a conflict.",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "DISCOVERY OF THE DISHONOUR OF A LOVED ONE\na Discoverer\nthe Guilty One\nThe Discoverer discovers the wrongdoing committed by the Guilty One.",
+      "raw_text": "1, DISCOVERY OF THE DISHONOUR OF A LOVED ONE\na Discoverer\nthe Guilty One\nThe Discoverer discovers the wrongdoing committed by the Guilty One.",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "OBSTACLES TO LOVE\ntwo Lovers\nan Obstacle\nTwo Lovers face an Obstacle together.\nAN ENEMY LOVED\na Lover\nthe Beloved Enemy\nthe Hater\nThe allied Lover and Hater have diametrically opposed attitudes towards the Beloved Enemy.",
+      "raw_text": "1, OBSTACLES TO LOVE\ntwo Lovers\nan Obstacle\nTwo Lovers face an Obstacle together.\nAN ENEMY LOVED\na Lover\nthe Beloved Enemy\nthe Hater\nThe allied Lover and Hater have diametrically opposed attitudes towards the Beloved Enemy.",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "AMBITION\nan Ambitious Person\na Thing Coveted\nan Adversary\nThe Ambitious Person seeks the Thing Coveted and is opposed by the Adversary.",
+      "raw_text": "1, AMBITION\nan Ambitious Person\na Thing Coveted\nan Adversary\nThe Ambitious Person seeks the Thing Coveted and is opposed by the Adversary.",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "CONFLICT WITH AN IMMORTAL\na Mortal\nan Immortal\nThe Mortal and the Immortal enter a conflict.",
+      "raw_text": "1, CONFLICT WITH AN IMMORTAL\na Mortal\nan Immortal\nThe Mortal and the Immortal enter a conflict.",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "MISTAKEN JEALOUSY\na Jealous One\nan Object of whose Possession He is Jealous\na Supposed Accomplice\na Cause or an Author of the Mistake\nThe Jealous One falls victim to the Cause or the Author of the Mistake and becomes jealous of the Object and becomes conflicted with the Supposed Accomplice.",
+      "raw_text": "1, MISTAKEN JEALOUSY\na Jealous One\nan Object of whose Possession He is Jealous\na Supposed Accomplice\na Cause or an Author of the Mistake\nThe Jealous One falls victim to the Cause or the Author of the Mistake and becomes jealous of the Object and becomes conflicted with the Supposed Accomplice.",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "ERRONEOUS JUDGEMENT\na Mistaken One\na Victim of the Mistake\na Cause or Author of the Mistake\nthe Guilty One\nThe Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mistake when it should be passed against the Guilty One instead.",
+      "raw_text": "1, ERRONEOUS JUDGEMENT\na Mistaken One\na Victim of the Mistake\na Cause or Author of the Mistake\nthe Guilty One\nThe Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mistake when it should be passed against the Guilty One instead.",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "REMORSE\na Culprit\na Victim or the Sin\nan Interrogator\nThe Culprit wrongs the Victim or commits the Sin, and is at odds with the Interrogator who seeks to understand the situation.",
+      "raw_text": "1, REMORSE\na Culprit\na Victim or the Sin\nan Interrogator\nThe Culprit wrongs the Victim or commits the Sin, and is at odds with the Interrogator who seeks to understand the situation.",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "RECOVERY OF A LOST ONE\na Seeker\nthe One Found\nThe Seeker finds the One Found.",
+      "raw_text": "1, RECOVERY OF A LOST ONE\na Seeker\nthe One Found\nThe Seeker finds the One Found.",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "LOSS OF LOVED ONE\na Kinsman Slain\na Kinsman Spectator\nan Executioner\nThe killing of the Kinsman Slain by the Executioner is witnessed by the Kinsman Spectator.",
+      "raw_text": "1, LOSS OF LOVED ONE\na Kinsman Slain\na Kinsman Spectator\nan Executioner\nThe killing of the Kinsman Slain by the Executioner is witnessed by the Kinsman Spectator.",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";plot\n1, SUPPLICATION\n\na Persecutor\na Suppliant\na Power in authority, whose decision is doubtful.\n\n\nThe Persecutor accuses the Suppliant of wrongdoing, and the Power makes a judgment against the Suppliant.\n\n1, DELIVERANCE\n\nan Unfortunate\na Threatener\na Rescuer\n\nThe Unfortunate has caused a conflict, and the Threatener is to carry out justice, but the Rescuer saves the Unfortunate.\n\n1, CRIME PERSUED BY VENGEANCE\n\na Criminal\nan Avenger\n\nThe Criminal commits a crime that will not see justice, so the Avenger seeks justice by punishing the Criminal.\n\n1, VENGEANCE TAKEN FOR KIN UPON KIN\n\nGuilty Kinsman\nan Avenging Kinsman\nremembrance of the Victim, a relative of both\n\nTwo entities, the Guilty and the Avenging Kinsmen, are put into conflict over wrongdoing to the Victim, who is allied to both.\n\n1, PURSUIT\n\nPunishment\na Fugitive\n\nThe Fugitive flees Punishment for a misunderstood conflict.\n\n1, DISASTER\n\na Vanquished Power\na Victorious Enemy or a Messenger\n\nThe Power falls from their place after being defeated by the Victorious Enemy or being informed of such a defeat by the Messenger.\n\n1, FALLING PREY TO CRUELTY OR MISFORTUNE\n\nan Unfortunate\na Master or a Misfortune\n\nThe Unfortunate suffers from Misfortune and/or at the hands of the Master.\n\n\n1, REVOLT\n\na Tyrant\na Conspirator\n\nThe Tyrant, a cruel power, is plotted against by the Conspirator.\n\n1, DARING ENTERPRISE\n\na Bold Leader\nan Object\nan Adversary\n\nThe Bold Leader takes the Object from the Adversary by overpowering the Adversary.\n\n1, ABDUCTION\n\nan Abductor\nthe Abducted\na Guardian\n\nThe Abductor takes the Abducted from the Guardian.\n\n1, THE ENIGMA\n\na Problem\nan Interrogator\na Seeker\n\nThe Interrogator poses a Problem to the Seeker and gives a Seeker better ability to reach the Seeker's goals.\n\n1, OBTAINING\n\n(a Solicitor & an Adversary who is refusing) or \n(an Arbitrator & Opposing Parties)\n\nThe Solicitor is at odds with the Adversary who refuses to give the Solicitor what they Object in the possession of the Adversary, or an Arbitrator decides who gets the Object desired by Opposing Parties (the Solicitor and the Adversary).\n\n1, ENMITY OF KIN\n\na Malevolent Kinsman\na Hated or a reciprocally-hating Kinsman\n\nThe Malevolent Kinsman and the Hated or a second Malevolent Kinsman conspire together.\n\n1, RIVALY OF KIN\n\nthe Preferred Kinsman\nthe Rejected Kinsman\nthe Object of Rivalry\n\nThe Object of Rivalry chooses the Preferred Kinsman over the Rejected Kinsman.\n\n1, MURDEROUS ADULTERY\n\ntwo Adulterers\na Betrayed Spouse\n\nTwo Adulterers conspire to kill the Betrayed Spouse.\n\n1, MADNESS\n\na Madman\na Victim\n\nThe Madman goes insane and wrongs the Victim.\n\n1, FATAL IMPRUDENCE\n\nthe Imprudent\na Victim or an Object Lost\n\nThe Imprudent, by neglect or ignorance, loses the Object Lost or wrongs the Victim.\n\n1, INVOLUNTARY CRIMES OF LOVE\n\na Lover\na Beloved\na Revealer\n\nThe Revealer betrays the trust of either the Lover or the Beloved.\n\n1, SLAYING OF KIN UNRECOGNIZED\n\nthe Slayer\nan Unrecognized Victim\n\nThe Slayer kills the Unrecognized Victim.\n\n1, SELF-SACRIFICE FOR AN IDEAL\n\na Hero\nan Ideal\na Creditor or a Person/Thing sacrificed\n\nThe Hero sacrifices the Person or Thing for their Ideal, which is then taken by the Creditor.\n\n1, SELF-SACRIFICE FOR A KIN\n\na Hero a Kinsman\na Creditor or a Person/Thing sacrificed\n\nThe Hero sacrifices a Person or Thing for their Kinsman, which is then taken by the Creditor.\n\n1, ALL SACRIFICE FOR PASSION\n\na Lover\nan Object of fatal Passion\nthe Person/Thing sacrificed\n\nA Lover sacrifices a Person or Thing for the Object of their Passion, which is then lost forever.\n\n1, NECESSITY OF SACRIFICING LOVED ONES\n\na Hero\na Beloved Victim\nthe Necessity for the Sacrifice\n\nThe Hero wrongs the Beloved Victim because of the Necessity for their Sacrifice.\n\n1, RIVALRY OF SUPERIOR VERSUS INFERIOR\n\na Superior Rival\nan Inferior Rival\nthe Object of Rivalry\n\nA Superior Rival bests an Inferior Rival and wins the Object of Rivalry.\n\n1, ADULTERY\n\ntwo Adulterers\na Deceived Spouse\n\nTwo Adulterers conspire against the Deceived Spouse.\n\n1, CRIMES OF LOVE\n\na Lover\nthe Beloved\n\nA Lover and the Beloved enter a conflict.\n\n1, DISCOVERY OF THE DISHONOUR OF A LOVED ONE\n\na Discoverer\nthe Guilty One\n\nThe Discoverer discovers the wrongdoing committed by the Guilty One.\n\n1, OBSTACLES TO LOVE\n\ntwo Lovers\nan Obstacle\n\nTwo Lovers face an Obstacle together.\n\nAN ENEMY LOVED\n\na Lover\nthe Beloved Enemy\nthe Hater\n\nThe allied Lover and Hater have diametrically opposed attitudes towards the Beloved Enemy.\n\n1, AMBITION\n\nan Ambitious Person\na Thing Coveted\nan Adversary\n\nThe Ambitious Person seeks the Thing Coveted and is opposed by the Adversary.\n\n1, CONFLICT WITH AN IMMORTAL\n\na Mortal\nan Immortal\n\nThe Mortal and the Immortal enter a conflict.\n\n1, MISTAKEN JEALOUSY\n\na Jealous One\nan Object of whose Possession He is Jealous\na Supposed Accomplice\na Cause or an Author of the Mistake\n\nThe Jealous One falls victim to the Cause or the Author of the Mistake and becomes jealous of the Object and becomes conflicted with the Supposed Accomplice.\n\n1, ERRONEOUS JUDGEMENT\n\na Mistaken One\na Victim of the Mistake\na Cause or Author of the Mistake\nthe Guilty One\n\nThe Mistaken One falls victim to the Cause of the Author of the Mistake and passes judgment against the Victim of the Mistake when it should be passed against the Guilty One instead.\n\n1, REMORSE\n\na Culprit\na Victim or the Sin\nan Interrogator\n\nThe Culprit wrongs the Victim or commits the Sin, and is at odds with the Interrogator who seeks to understand the situation.\n\n1, RECOVERY OF A LOST ONE\n\na Seeker\nthe One Found\n\nThe Seeker finds the One Found.\n\n1, LOSS OF LOVED ONE\n\na Kinsman Slain\na Kinsman Spectator\nan Executioner\n\nThe killing of the Kinsman Slain by the Executioner is witnessed by the Kinsman Spectator.",
+  "warnings": []
+}

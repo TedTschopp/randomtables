@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 21598,
+    "timestamp": "2014-05-16T08:28:24Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "75356adf37f0f9e693ba91ba6bcdb80ae46e2166757bd0e7288cefb0988cdd41",
+      "rawSha256": "e6f490c089d613ab4d5216e2e7390f01c1e1227998fb3f37ef2af2adc625e32d",
+      "revisionId": "21598",
+      "line": 497,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21598",
+        "timestamp": "2014-05-16T08:28:24Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelSix",
+    "qualified_name": "LotFP Spell Lists.LevelSix",
+    "table_block_index": 0,
+    "line_number": 497
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Animate Dead Monsters",
+      "raw_text": "1,Animate Dead Monsters",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Barrier",
+      "raw_text": "1,Barrier",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Contingency",
+      "raw_text": "1,Contingency",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Death Spell",
+      "raw_text": "1,Death Spell",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Disintegrate",
+      "raw_text": "1,Disintegrate",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Geas",
+      "raw_text": "1,Geas",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Glass Eye",
+      "raw_text": "1,Glass Eye",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Globe of Invulnerability, Major",
+      "raw_text": "1,Globe of Invulnerability, Major",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Legend Lore",
+      "raw_text": "1,Legend Lore",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Lucubration",
+      "raw_text": "1,Lucubration",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Mind Switch",
+      "raw_text": "1,Mind Switch",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Move Earth",
+      "raw_text": "1,Move Earth",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Phantasmal Supergoria",
+      "raw_text": "1,Phantasmal Supergoria",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Projected Image",
+      "raw_text": "1,Projected Image",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Shades",
+      "raw_text": "1,Shades",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Speak with Monsters",
+      "raw_text": "1,Speak with Monsters",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Stone to Flesh",
+      "raw_text": "1,Stone to Flesh",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Suggestion, Mass",
+      "raw_text": "1,Suggestion, Mass",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Veil",
+      "raw_text": "1,Veil",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Weird Vortex",
+      "raw_text": "1,Weird Vortex",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelSix\n1,Animate Dead Monsters\n1,Barrier\n1,Contingency\n1,Death Spell\n1,Disintegrate\n1,Geas\n1,Glass Eye\n1,Globe of Invulnerability, Major\n1,Legend Lore\n1,Lucubration\n1,Mind Switch\n1,Move Earth\n1,Phantasmal Supergoria\n1,Projected Image\n1,Shades\n1,Speak with Monsters\n1,Stone to Flesh\n1,Suggestion, Mass\n1,Veil\n1,Weird Vortex",
+  "warnings": []
+}

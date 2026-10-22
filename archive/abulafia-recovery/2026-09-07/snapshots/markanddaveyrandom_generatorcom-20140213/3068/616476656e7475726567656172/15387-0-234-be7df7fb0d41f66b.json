@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15387,
+    "timestamp": "2012-10-08T12:29:47Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7a5ceb11beec52302057b7811546d6a8ff9248df90c96905df7789986c23fd52",
+      "rawSha256": "be7df7fb0d41f66b8346e8d2064e7175280f6250c6ef24b37e6d4138ea3adb0f",
+      "revisionId": "15387",
+      "line": 234,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "adventuregear",
+    "qualified_name": "Starting Equipment.adventuregear",
+    "table_block_index": 0,
+    "line_number": 234
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[junk]",
+      "raw_text": "4,[junk]",
+      "references": [
+        {
+          "raw": "[junk]",
+          "token": "junk",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventuregear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk",
+          "target_qualified_name": "Starting Equipment.junk"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[family]'s [junk]",
+      "raw_text": "1,[family]'s [junk]",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventuregear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        },
+        {
+          "raw": "[junk]",
+          "token": "junk",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "adventuregear",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk",
+          "target_qualified_name": "Starting Equipment.junk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "family",
+      "junk"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";adventuregear\n1,\n4,[junk]\n1,[family]'s [junk]",
+  "warnings": []
+}

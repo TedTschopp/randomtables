@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22973,
+    "timestamp": "2014-06-11T05:58:40Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "fd6b3b962c2d941912f2de53b640078869150e31227242d06e34bc950d5e23ec",
+      "rawSha256": "61dc82ef1ac9f360d8e2b8b04426c174bc05392df73f184c530ecbfdec530765",
+      "revisionId": "22973",
+      "line": 241,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "armour",
+    "qualified_name": "OSR weapon.armour",
+    "table_block_index": 0,
+    "line_number": 241
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Leather",
+      "raw_text": "1,Leather",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "Chain",
+      "raw_text": "2,Chain",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "Plate",
+      "raw_text": "3,Plate",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";armour\n1,Leather\n2,Chain\n3,Plate",
+  "warnings": []
+}

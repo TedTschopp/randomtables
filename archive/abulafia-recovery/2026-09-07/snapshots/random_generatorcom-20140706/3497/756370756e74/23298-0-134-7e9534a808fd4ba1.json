@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "7e9534a808fd4ba10312dd0ff31ad94e30db5e27a69cf6ce721a01b8c4d4271b",
+      "revisionId": "23298",
+      "line": 134,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ucpunt",
+    "qualified_name": "Blazon.ucpunt",
+    "table_block_index": 0,
+    "line_number": 134
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 8,
+      "text": "{{UC:[punct]}}",
+      "raw_text": "8,{{UC:[punct]}}",
+      "references": [
+        {
+          "raw": "[punct]",
+          "token": "punct",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "ucpunt",
+          "target_page": "Blazon",
+          "target_subtable": "punct",
+          "target_qualified_name": "Blazon.punct"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[punct]",
+      "raw_text": "4,[punct]",
+      "references": [
+        {
+          "raw": "[punct]",
+          "token": "punct",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "ucpunt",
+          "target_page": "Blazon",
+          "target_subtable": "punct",
+          "target_qualified_name": "Blazon.punct"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[ucpunt][ucpunt]",
+      "raw_text": "1,[ucpunt][ucpunt]",
+      "references": [
+        {
+          "raw": "[ucpunt]",
+          "token": "ucpunt",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "ucpunt",
+          "target_page": "Blazon",
+          "target_subtable": "ucpunt",
+          "target_qualified_name": "Blazon.ucpunt"
+        },
+        {
+          "raw": "[ucpunt]",
+          "token": "ucpunt",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "ucpunt",
+          "target_page": "Blazon",
+          "target_subtable": "ucpunt",
+          "target_qualified_name": "Blazon.ucpunt"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "punct",
+      "ucpunt"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ucpunt\n8,{{UC:[punct]}}\n4,[punct]\n1,[ucpunt][ucpunt]",
+  "warnings": []
+}

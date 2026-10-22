@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "3897a3f8879db63f37347670bf5ea6fdad0953fbb6950a77430e90df5f750216",
+      "revisionId": "9681",
+      "line": 53,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Swift",
+    "qualified_name": "Seige Force.Swift",
+    "table_block_index": 0,
+    "line_number": 53
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "expert",
+      "raw_text": "1,expert",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "hawkeyed",
+      "raw_text": "1,hawkeyed",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "light-footed",
+      "raw_text": "1,light-footed",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "skilled",
+      "raw_text": "1,skilled",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "swift",
+      "raw_text": "1,swift",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Swift\n1,expert\n1,hawkeyed\n1,light-footed\n1,skilled\n1,swift",
+  "warnings": []
+}

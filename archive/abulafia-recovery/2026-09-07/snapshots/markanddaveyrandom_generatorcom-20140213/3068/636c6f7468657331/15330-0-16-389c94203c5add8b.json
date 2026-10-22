@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15330,
+    "timestamp": "2012-10-08T07:09:59Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cafc53e979de1e1b0c0bf5d551342cec2e169878255b61e93570f03f59929134",
+      "rawSha256": "389c94203c5add8b0957fec02a2b28f35db13bf095b162762294db019656d424",
+      "revisionId": "15330",
+      "line": 16,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "clothes1",
+    "qualified_name": "Starting Equipment.clothes1",
+    "table_block_index": 0,
+    "line_number": 16
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[cloak],",
+      "raw_text": "2,[cloak], ",
+      "references": [
+        {
+          "raw": "[cloak]",
+          "token": "cloak",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cloak",
+          "target_qualified_name": "Starting Equipment.cloak"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[cap],",
+      "raw_text": "2,[cap], ",
+      "references": [
+        {
+          "raw": "[cap]",
+          "token": "cap",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cap",
+          "target_qualified_name": "Starting Equipment.cap"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[cloak], [cap],",
+      "raw_text": "1,[cloak], [cap], ",
+      "references": [
+        {
+          "raw": "[cloak]",
+          "token": "cloak",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cloak",
+          "target_qualified_name": "Starting Equipment.cloak"
+        },
+        {
+          "raw": "[cap]",
+          "token": "cap",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "clothes1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "cap",
+          "target_qualified_name": "Starting Equipment.cap"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cap",
+      "cloak"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";clothes1\n10,\n2,[cloak], \n2,[cap], \n1,[cloak], [cap], ",
+  "warnings": []
+}

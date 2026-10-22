@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "e83b54c92636ff4ead2ace8429c9850168bfc2aa3b6fb3b1837aa6b819771e27",
+      "revisionId": "10367",
+      "line": 433,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Key",
+    "qualified_name": "Pickpocket.Key",
+    "table_block_index": 0,
+    "line_number": 433
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "a ring with [Dice.1d6] brass key(s)",
+      "raw_text": "5,a ring with [Dice.1d6] brass key(s)",
+      "references": [
+        {
+          "raw": "[Dice.1d6]",
+          "token": "Dice.1d6",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Key",
+          "target_page": "Dice",
+          "target_subtable": "1d6",
+          "target_qualified_name": "Dice.1d6"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "a ring with [Dice.1d8] large iron key(s)",
+      "raw_text": "5,a ring with [Dice.1d8] large iron key(s)",
+      "references": [
+        {
+          "raw": "[Dice.1d8]",
+          "token": "Dice.1d8",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Key",
+          "target_page": "Dice",
+          "target_subtable": "1d8",
+          "target_qualified_name": "Dice.1d8"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "a silver key",
+      "raw_text": "3,a silver key",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a small gold key",
+      "raw_text": "1,a small gold key",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.1d6",
+      "Dice.1d8"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";Key\n5,a ring with [Dice.1d6] brass key(s)\n5,a ring with [Dice.1d8] large iron key(s)\n3,a silver key\n1,a small gold key",
+  "warnings": []
+}

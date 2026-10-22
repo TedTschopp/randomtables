@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22908,
+    "timestamp": "2014-06-10T22:19:35Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "93ad01740f8821350bd1f5427af07417712698de93bb0559686b729c395092db",
+      "rawSha256": "f6df0ae6bbaa0d26590aaf4137424e8535bedcd163600daaa96b6f0ae427929c",
+      "revisionId": "22908",
+      "line": 149,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "llaec",
+    "qualified_name": "OSR weapon.llaec",
+    "table_block_index": 0,
+    "line_number": 149
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 14,
+      "text": "[sword] +1",
+      "raw_text": "14,[sword] +1",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 6,
+      "text": "[sword] +1, +2 vs. lycanthropes",
+      "raw_text": "6,[sword] +1, +2 vs. lycanthropes",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 6,
+      "text": "[sword] +1, +2 vs. spell-casters",
+      "raw_text": "6,[sword] +1, +2 vs. spell-casters",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 6,
+      "text": "[sword] +1, +3 vs. undead",
+      "raw_text": "6,[sword] +1, +3 vs. undead",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 6,
+      "text": "[sword] +1, +3 vs. dragons",
+      "raw_text": "6,[sword] +1, +3 vs. dragons",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 6,
+      "text": "[sword] +1, +3 vs. regenerating",
+      "raw_text": "6,[sword] +1, +3 vs. regenerating",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 6,
+      "text": "[sword] +1, +3 vs. magical monsters",
+      "raw_text": "6,[sword] +1, +3 vs. magical monsters",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "Dancing [sword]",
+      "raw_text": "2,Dancing [sword]",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "[sword] +1, of Wounding",
+      "raw_text": "2,[sword] +1, of Wounding",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "[sword] +1, light 30 foot radius",
+      "raw_text": "3,[sword] +1, light 30 foot radius",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "[sword] +1, Flame Tongue",
+      "raw_text": "1,[sword] +1, Flame Tongue",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "[sword] +1, Life Drinker",
+      "raw_text": "1,[sword] +1, Life Drinker",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "[sword] +1, locates objects",
+      "raw_text": "2,[sword] +1, locates objects",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[sword] +1, Luck Blade",
+      "raw_text": "1,[sword] +1, Luck Blade",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "[sword] +1, Wish Blade",
+      "raw_text": "1,[sword] +1, Wish Blade",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 10,
+      "text": "[sword] +2",
+      "raw_text": "10,[sword] +2",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 6,
+      "text": "[sword] +2, +3 vs. giants",
+      "raw_text": "6,[sword] +2, +3 vs. giants",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "[sword] +2, Berserking",
+      "raw_text": "1,[sword] +2, Berserking",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "[sword] +2, Holy Avenger",
+      "raw_text": "1,[sword] +2, Holy Avenger",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "[sword] +2, Nine Lives Stealer",
+      "raw_text": "1,[sword] +2, Nine Lives Stealer",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 2,
+      "text": "[sword] +2, Charm Person",
+      "raw_text": "2,[sword] +2, Charm Person",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 2,
+      "text": "[sword] +3",
+      "raw_text": "2,[sword] +3",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 2,
+      "text": "[sword] +3, Frost Brand",
+      "raw_text": "2,[sword] +3, Frost Brand",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "[sword] +4, Defending",
+      "raw_text": "1,[sword] +4, Defending",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "[sword] -1, cursed",
+      "raw_text": "1,[sword] -1, cursed",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "[sword] -2, cursed",
+      "raw_text": "1,[sword] -2, cursed",
+      "references": [
+        {
+          "raw": "[sword]",
+          "token": "sword",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "llaec",
+          "target_page": "OSR weapon",
+          "target_subtable": "sword",
+          "target_qualified_name": "OSR weapon.sword"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "sword"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";llaec\n14,[sword] +1\n6,[sword] +1, +2 vs. lycanthropes\n6,[sword] +1, +2 vs. spell-casters\n6,[sword] +1, +3 vs. undead\n6,[sword] +1, +3 vs. dragons\n6,[sword] +1, +3 vs. regenerating\n6,[sword] +1, +3 vs. magical monsters\n2,Dancing [sword]\n2,[sword] +1, of Wounding\n3,[sword] +1, light 30 foot radius\n1,[sword] +1, Flame Tongue\n1,[sword] +1, Life Drinker\n2,[sword] +1, locates objects\n1,[sword] +1, Luck Blade\n1,[sword] +1, Wish Blade\n10,[sword] +2\n6,[sword] +2, +3 vs. giants\n1,[sword] +2, Berserking\n1,[sword] +2, Holy Avenger\n1,[sword] +2, Nine Lives Stealer\n2,[sword] +2, Charm Person\n2,[sword] +3\n2,[sword] +3, Frost Brand\n1,[sword] +4, Defending\n1,[sword] -1, cursed\n1,[sword] -2, cursed",
+  "warnings": []
+}

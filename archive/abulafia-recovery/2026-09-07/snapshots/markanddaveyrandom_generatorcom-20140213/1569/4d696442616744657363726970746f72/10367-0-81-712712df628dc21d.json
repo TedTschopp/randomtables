@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "712712df628dc21db81624d4e7d196e44e87185c910db6777fb6544c8c8bda58",
+      "revisionId": "10367",
+      "line": 81,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidBagDescriptor",
+    "qualified_name": "Pickpocket.MidBagDescriptor",
+    "table_block_index": 0,
+    "line_number": 81
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a black",
+      "raw_text": "1,a black",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a blue",
+      "raw_text": "1,a blue",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a brightly colored",
+      "raw_text": "1,a brightly colored",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a brown",
+      "raw_text": "1,a brown",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a calico",
+      "raw_text": "1,a calico",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a canvas",
+      "raw_text": "1,a canvas",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a careworn",
+      "raw_text": "1,a careworn",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a charming",
+      "raw_text": "1,a charming",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a colorful",
+      "raw_text": "1,a colorful",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a common",
+      "raw_text": "1,a common",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a faded",
+      "raw_text": "1,a faded",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a flower-patterened",
+      "raw_text": "1,a flower-patterened",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a foreign-looking",
+      "raw_text": "1,a foreign-looking",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a fringed",
+      "raw_text": "1,a fringed",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a gray",
+      "raw_text": "1,a gray",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a geen",
+      "raw_text": "1,a geen",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a leather",
+      "raw_text": "1,a leather",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "a modest",
+      "raw_text": "1,a modest",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "a patched",
+      "raw_text": "1,a patched",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "a pink",
+      "raw_text": "1,a pink",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "a plain",
+      "raw_text": "1,a plain",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a red",
+      "raw_text": "1,a red",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a rugged",
+      "raw_text": "1,a rugged",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "a serviceable",
+      "raw_text": "1,a serviceable",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "a simple",
+      "raw_text": "1,a simple",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a striped",
+      "raw_text": "1,a striped",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a sturdy",
+      "raw_text": "1,a sturdy",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a tasselled",
+      "raw_text": "1,a tasselled",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "a tawdry",
+      "raw_text": "1,a tawdry",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "a travel-stained",
+      "raw_text": "1,a travel-stained",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "a well-worn",
+      "raw_text": "1,a well-worn",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "a woven",
+      "raw_text": "1,a woven",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "a yellow",
+      "raw_text": "1,a yellow",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "an animal-skin",
+      "raw_text": "1,an animal-skin",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "an embroidered",
+      "raw_text": "1,an embroidered",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "an ordinary",
+      "raw_text": "1,an ordinary",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "an unremarkable",
+      "raw_text": "1,an unremarkable",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "a [Utility.Cloth]",
+      "raw_text": "1,a [Utility.Cloth]",
+      "references": [
+        {
+          "raw": "[Utility.Cloth]",
+          "token": "Utility.Cloth",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidBagDescriptor",
+          "target_page": "Utility",
+          "target_subtable": "Cloth",
+          "target_qualified_name": "Utility.Cloth"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "a [Utility.RelativeSize]",
+      "raw_text": "1,a [Utility.RelativeSize]",
+      "references": [
+        {
+          "raw": "[Utility.RelativeSize]",
+          "token": "Utility.RelativeSize",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidBagDescriptor",
+          "target_page": "Utility",
+          "target_subtable": "RelativeSize",
+          "target_qualified_name": "Utility.RelativeSize"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "a [Color.dull]",
+      "raw_text": "1,a [Color.dull]",
+      "references": [
+        {
+          "raw": "[Color.dull]",
+          "token": "Color.dull",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "MidBagDescriptor",
+          "target_page": "Color",
+          "target_subtable": "dull",
+          "target_qualified_name": "Color.dull"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "weight": 10,
+      "text": "a",
+      "raw_text": "10,a",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Color.dull",
+      "Utility.Cloth",
+      "Utility.RelativeSize"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";MidBagDescriptor\n1,a black\n1,a blue\n1,a brightly colored\n1,a brown\n1,a calico\n1,a canvas\n1,a careworn\n1,a charming\n1,a colorful\n1,a common\n1,a faded\n1,a flower-patterened\n1,a foreign-looking\n1,a fringed\n1,a gray\n1,a geen\n1,a leather\n1,a modest\n1,a patched\n1,a pink\n1,a plain\n1,a red\n1,a rugged\n1,a serviceable\n1,a simple\n1,a striped\n1,a sturdy\n1,a tasselled\n1,a tawdry\n1,a travel-stained\n1,a well-worn\n1,a woven\n1,a yellow\n1,an animal-skin\n1,an embroidered\n1,an ordinary\n1,an unremarkable\n1,a [Utility.Cloth]\n1,a [Utility.RelativeSize]\n1,a [Color.dull]\n10,a",
+  "warnings": []
+}

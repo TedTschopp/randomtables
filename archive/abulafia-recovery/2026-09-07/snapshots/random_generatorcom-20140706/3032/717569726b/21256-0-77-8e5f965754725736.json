@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "8e5f96575472573606a4c480f4aaef0d232ae10829ee58e3c6eeeaa3757afa95",
+      "revisionId": "21256",
+      "line": 77,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk",
+    "qualified_name": "Ostler.quirk",
+    "table_block_index": 0,
+    "line_number": 77
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "is brave and loves crushing things",
+      "raw_text": "1,is brave and loves crushing things",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "is sweet and loves sugar",
+      "raw_text": "1,is sweet and loves sugar",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "is very hairy",
+      "raw_text": "1,is very hairy",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "is scaly",
+      "raw_text": "1,is scaly",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "is completely fearless",
+      "raw_text": "1,is completely fearless",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "is easily spooked",
+      "raw_text": "1,is easily spooked",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "can only be ridden by maidens",
+      "raw_text": "1,can only be ridden by maidens",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "is skinny and emaciated",
+      "raw_text": "1,is skinny and emaciated",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "is beautiful and inspiring",
+      "raw_text": "1,is beautiful and inspiring",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "is very ugly",
+      "raw_text": "1,is very ugly",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "is ferocious, no-one has ever ridden it",
+      "raw_text": "1,is ferocious, no-one has ever ridden it",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "tends to wander",
+      "raw_text": "1,tends to wander",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "can lead you to treasure",
+      "raw_text": "1,can lead you to treasure",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "has strange horny growths",
+      "raw_text": "1,has strange horny growths",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "is very old",
+      "raw_text": "1,is very old",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "is mean and loves biting people",
+      "raw_text": "1,is mean and loves biting people",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "is missing a leg",
+      "raw_text": "1,is missing a leg",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "is missing an eye",
+      "raw_text": "1,is missing an eye",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "is massive and strong",
+      "raw_text": "1,is massive and strong",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "is trained for battle",
+      "raw_text": "1,is trained for battle",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "goes into a frenzy if attacked",
+      "raw_text": "1,goes into a frenzy if attacked",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "wears a muzzle and will attack wildly if it is removed",
+      "raw_text": "1,wears a muzzle and will attack wildly if it is removed",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "sleeps all the time",
+      "raw_text": "1,sleeps all the time",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "is highly intelligent, can do maths",
+      "raw_text": "1,is highly intelligent, can do maths",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "is very fast but charges everywhere and cannot be controlled",
+      "raw_text": "1,is very fast but charges everywhere and cannot be controlled",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "is extremely friendly, to anyone",
+      "raw_text": "1,is extremely friendly, to anyone",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "is insatiable, eats everything",
+      "raw_text": "1,is insatiable, eats everything",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "is rife with disease",
+      "raw_text": "1,is rife with disease",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "is really {{Article|[Quick Zone Populations.animal]}}",
+      "raw_text": "1,is really {{Article|[Quick Zone Populations.animal]}}",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.animal]",
+          "token": "Quick Zone Populations.animal",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "quirk",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "animal",
+          "target_qualified_name": "Quick Zone Populations.animal"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "[quirk-weird]",
+      "raw_text": "1,[quirk-weird]",
+      "references": [
+        {
+          "raw": "[quirk-weird]",
+          "token": "quirk-weird",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "quirk",
+          "target_page": "Ostler",
+          "target_subtable": "quirk-weird",
+          "target_qualified_name": "Ostler.quirk-weird"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "quirk-weird"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";quirk\n1,is brave and loves crushing things\n1,is sweet and loves sugar\n1,is very hairy\n1,is scaly\n1,is completely fearless\n1,is easily spooked\n1,can only be ridden by maidens\n1,is skinny and emaciated\n1,is beautiful and inspiring\n1,is very ugly\n1,is ferocious, no-one has ever ridden it\n1,tends to wander\n1,can lead you to treasure\n1,has strange horny growths\n1,is very old\n1,is mean and loves biting people\n1,is missing a leg\n1,is missing an eye\n1,is massive and strong\n1,is trained for battle\n1,goes into a frenzy if attacked\n1,wears a muzzle and will attack wildly if it is removed\n1,sleeps all the time\n1,is highly intelligent, can do maths\n1,is very fast but charges everywhere and cannot be controlled\n1,is extremely friendly, to anyone\n1,is insatiable, eats everything\n1,is rife with disease\n1,is really {{Article|[Quick Zone Populations.animal]}}\n1,[quirk-weird]",
+  "warnings": []
+}

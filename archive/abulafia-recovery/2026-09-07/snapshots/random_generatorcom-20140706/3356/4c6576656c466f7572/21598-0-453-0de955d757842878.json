@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 21598,
+    "timestamp": "2014-05-16T08:28:24Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "75356adf37f0f9e693ba91ba6bcdb80ae46e2166757bd0e7288cefb0988cdd41",
+      "rawSha256": "0de955d75784287880a982f4c0e1e21576799540ad8d6561bf14d26ba6fbf45d",
+      "revisionId": "21598",
+      "line": 453,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21598",
+        "timestamp": "2014-05-16T08:28:24Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelFour",
+    "qualified_name": "LotFP Spell Lists.LevelFour",
+    "table_block_index": 0,
+    "line_number": 453
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Charm Monster",
+      "raw_text": "1,Charm Monster",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Confusion",
+      "raw_text": "1,Confusion",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Creation, Minor",
+      "raw_text": "1,Creation, Minor",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Dig",
+      "raw_text": "1,Dig",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Dimension Door",
+      "raw_text": "1,Dimension Door",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Extension",
+      "raw_text": "1,Extension",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Globe of Invulnerability, Minor",
+      "raw_text": "1,Globe of Invulnerability, Minor",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Hallucinatory Terrain",
+      "raw_text": "1,Hallucinatory Terrain",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Invisibility, Improved",
+      "raw_text": "1,Invisibility, Improved",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Mnemonic Enhancer",
+      "raw_text": "1,Mnemonic Enhancer",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Plant Growth",
+      "raw_text": "1,Plant Growth",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Polymorph Others",
+      "raw_text": "1,Polymorph Others",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Polymorph Self",
+      "raw_text": "1,Polymorph Self",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Protection from Normal Weapons",
+      "raw_text": "1,Protection from Normal Weapons",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Seven Gates",
+      "raw_text": "1,Seven Gates",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Shadow Monsters",
+      "raw_text": "1,Shadow Monsters",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Speak with Plants",
+      "raw_text": "1,Speak with Plants",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Wall of Fire",
+      "raw_text": "1,Wall of Fire",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Wall of Ice",
+      "raw_text": "1,Wall of Ice",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Wizard Eye",
+      "raw_text": "1,Wizard Eye",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelFour\n1,Charm Monster\n1,Confusion\n1,Creation, Minor\n1,Dig\n1,Dimension Door\n1,Extension\n1,Globe of Invulnerability, Minor\n1,Hallucinatory Terrain\n1,Invisibility, Improved\n1,Mnemonic Enhancer\n1,Plant Growth\n1,Polymorph Others\n1,Polymorph Self\n1,Protection from Normal Weapons\n1,Seven Gates\n1,Shadow Monsters\n1,Speak with Plants\n1,Wall of Fire\n1,Wall of Ice\n1,Wizard Eye",
+  "warnings": []
+}

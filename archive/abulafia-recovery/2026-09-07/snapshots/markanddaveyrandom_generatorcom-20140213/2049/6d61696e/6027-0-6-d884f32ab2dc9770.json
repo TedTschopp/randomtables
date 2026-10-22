@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 6027,
+    "timestamp": "2008-01-26T19:48:32Z",
+    "contributor": {
+      "name": "Malthusian",
+      "id": 119,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c953783cad65293f98ac49fa8208752b63635c27470631d074d1109072bf9c56",
+      "rawSha256": "d884f32ab2dc9770c6363156d3e3a9acf11799abfa66827df940ae23b643684d",
+      "revisionId": "6027",
+      "line": 6,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14046",
+        "timestamp": "2012-03-12T01:00:00Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Stars Without Number.main",
+    "table_block_index": 0,
+    "line_number": 6
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "A pirate, roaming the far reaches of the Rim in search of adventure\nand profit.",
+      "raw_text": "1,A pirate, roaming the far reaches of the Rim in search of adventure \nand profit. ",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "A rebel from the planet Mistworld, looking to become a legend in the\ncoming rebellion.",
+      "raw_text": "1,A rebel from the planet Mistworld, looking to become a legend in the \ncoming rebellion. ",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "A bounty hunter, gunning for outlaws and the rewards they bring.",
+      "raw_text": "1,A bounty hunter, gunning for outlaws and the rewards they bring. ",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "An augmented man from Lost Haden, quietly living among humans and\ngradually regaining a bit of its humanity.",
+      "raw_text": "1,An augmented man from Lost Haden, quietly living among humans and \ngradually regaining a bit of its humanity. ",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "An esper, born with extraordinary mental abilities, automatically\ncondemned to slavery.",
+      "raw_text": "1,An esper, born with extraordinary mental abilities, automatically \ncondemned to slavery. ",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "An aristocrat, well trained in weaponry and martial arts, as befits\nhis station.",
+      "raw_text": "1,An aristocrat, well trained in weaponry and martial arts, as befits \nhis station. ",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "A gladiator, living in relative luxury, fighting skills honed and\ndreaming of fame and glory in the bloody games of the Arena.",
+      "raw_text": "1,A gladiator, living in relative luxury, fighting skills honed and \ndreaming of fame and glory in the bloody games of the Arena. ",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "An Investigator, trained from childhood to be efficient and deadly,\nthe Empire’s first line of defense against aliens.",
+      "raw_text": "1,An Investigator, trained from childhood to be efficient and deadly, \nthe Empire’s first line of defense against aliens. ",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,A pirate, roaming the far reaches of the Rim in search of adventure \nand profit. \n1,A rebel from the planet Mistworld, looking to become a legend in the \ncoming rebellion. \n1,A bounty hunter, gunning for outlaws and the rewards they bring. \n1,An augmented man from Lost Haden, quietly living among humans and \ngradually regaining a bit of its humanity. \n1,An esper, born with extraordinary mental abilities, automatically \ncondemned to slavery. \n1,An aristocrat, well trained in weaponry and martial arts, as befits \nhis station. \n1,A gladiator, living in relative luxury, fighting skills honed and \ndreaming of fame and glory in the bloody games of the Arena. \n1,An Investigator, trained from childhood to be efficient and deadly, \nthe Empire’s first line of defense against aliens. ",
+  "warnings": []
+}

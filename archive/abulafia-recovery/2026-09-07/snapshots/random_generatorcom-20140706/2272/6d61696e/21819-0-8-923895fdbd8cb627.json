@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 21819,
+    "timestamp": "2014-05-20T12:00:20Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a8e561a801bd11802c37decc02f426851891bba97ad4d2e32672534668ec8b02",
+      "rawSha256": "923895fdbd8cb62731275305839218acc36d14d6de0f32e87746eb8d60522671",
+      "revisionId": "21819",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21819",
+        "timestamp": "2014-05-20T12:00:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Found in a crate.main",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "a pair of [Color.dull] [shoe style]",
+      "raw_text": "2,a pair of [Color.dull] [shoe style]",
+      "references": [
+        {
+          "raw": "[Color.dull]",
+          "token": "Color.dull",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "dull",
+          "target_qualified_name": "Color.dull"
+        },
+        {
+          "raw": "[shoe style]",
+          "token": "shoe style",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "shoe style",
+          "target_qualified_name": "Found in a crate.shoe style"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "{{plural|[number] paintbrush}}",
+      "raw_text": "1,{{plural|[number] paintbrush}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a bee's nest",
+      "raw_text": "1,a bee's nest",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a ball of [Color.bright] yarn",
+      "raw_text": "1,a ball of [Color.bright] yarn",
+      "references": [
+        {
+          "raw": "[Color.bright]",
+          "token": "Color.bright",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "bright",
+          "target_qualified_name": "Color.bright"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "{{article|[Color.hues] vest}}",
+      "raw_text": "1,{{article|[Color.hues] vest}}",
+      "references": [
+        {
+          "raw": "[Color.hues]",
+          "token": "Color.hues",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "hues",
+          "target_qualified_name": "Color.hues"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a spoon",
+      "raw_text": "1,a spoon",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a pitchfork",
+      "raw_text": "1,a pitchfork",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a jar of pickles",
+      "raw_text": "1,a jar of pickles",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a jar of pickled eggs",
+      "raw_text": "1,a jar of pickled eggs",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a fork",
+      "raw_text": "1,a fork",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "a butter knife",
+      "raw_text": "2,a butter knife",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "a set of sewing needles",
+      "raw_text": "2,a set of sewing needles",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "a set of fish-hooks",
+      "raw_text": "2,a set of fish-hooks",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a fishing rod",
+      "raw_text": "1,a fishing rod",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a cheese knife",
+      "raw_text": "1,a cheese knife",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 3,
+      "text": "a large [cheese_type] cheese, sealed in a [Color.dull] wax rind",
+      "raw_text": "3,a large [cheese_type] cheese, sealed in a [Color.dull] wax rind",
+      "references": [
+        {
+          "raw": "[cheese_type]",
+          "token": "cheese_type",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "cheese_type",
+          "target_qualified_name": "Found in a crate.cheese_type"
+        },
+        {
+          "raw": "[Color.dull]",
+          "token": "Color.dull",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "dull",
+          "target_qualified_name": "Color.dull"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a dagger",
+      "raw_text": "1,a dagger",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "parchment",
+      "raw_text": "2,parchment",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "thread",
+      "raw_text": "1,thread",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 2,
+      "text": "{{plural|[number] Empty burlap sacks}}",
+      "raw_text": "2,{{plural|[number] Empty burlap sacks}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "weight": 2,
+      "text": "{{plural|[number] potato}}",
+      "raw_text": "2,{{plural|[number] potato}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 2,
+      "text": "{{plural|[number] apple}}",
+      "raw_text": "2,{{plural|[number] apple}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 2,
+      "text": "{{plural|[number] orange}}",
+      "raw_text": "2,{{plural|[number] orange}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 2,
+      "text": "{{plural|[number] edible mushroom}}",
+      "raw_text": "2,{{plural|[number] edible mushroom}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 2,
+      "text": "{{plural|[number] wooden dowel}}",
+      "raw_text": "2,{{plural|[number] wooden dowel}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 2,
+      "text": "{{plural|[number] empty glass bottle}}",
+      "raw_text": "2,{{plural|[number] empty glass bottle}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a quill",
+      "raw_text": "1,a quill",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a bottle of [Color.dark] ink",
+      "raw_text": "1,a bottle of [Color.dark] ink",
+      "references": [
+        {
+          "raw": "[Color.dark]",
+          "token": "Color.dark",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "dark",
+          "target_qualified_name": "Color.dark"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "a shovel",
+      "raw_text": "1,a shovel",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "{{plural|[number] silver coin}}",
+      "raw_text": "1,{{plural|[number] silver coin}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 2,
+      "text": "{{plural|[number] copper coin}}",
+      "raw_text": "2,{{plural|[number] copper coin}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "a winter cap",
+      "raw_text": "1,a winter cap",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 2,
+      "text": "{{plural|[number] [Color.hues] candle}}",
+      "raw_text": "2,{{plural|[number] [Color.hues] candle}}",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        },
+        {
+          "raw": "[Color.hues]",
+          "token": "Color.hues",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "hues",
+          "target_qualified_name": "Color.hues"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "{{article|[Color.bright]}} scarf",
+      "raw_text": "1,{{article|[Color.bright]}} scarf",
+      "references": [
+        {
+          "raw": "[Color.bright]",
+          "token": "Color.bright",
+          "kind": "cross_page",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Color",
+          "target_subtable": "bright",
+          "target_qualified_name": "Color.bright"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "a pair of shears",
+      "raw_text": "1,a pair of shears",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "a hammer",
+      "raw_text": "1,a hammer",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "a tin cup",
+      "raw_text": "1,a tin cup",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "a ceramic jug",
+      "raw_text": "1,a ceramic jug",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "{{plural|[number] sack}} of flour",
+      "raw_text": "1,{{plural|[number] sack}} of flour",
+      "references": [
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Found in a crate",
+          "source_subtable": "main",
+          "target_page": "Found in a crate",
+          "target_subtable": "number",
+          "target_qualified_name": "Found in a crate.number"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "a whetstone",
+      "raw_text": "1,a whetstone",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "a rake",
+      "raw_text": "1,a rake",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "a hoe",
+      "raw_text": "1,a hoe",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cheese_type",
+      "number",
+      "shoe style"
+    ],
+    "external_subtables": [
+      "Color.bright",
+      "Color.dark",
+      "Color.dull",
+      "Color.hues"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";main\n2,a pair of [Color.dull] [shoe style]\n1,{{plural|[number] paintbrush}}\n1,a bee's nest\n1,a ball of [Color.bright] yarn\n1,{{article|[Color.hues] vest}}\n1,a spoon\n1,a pitchfork\n1,a jar of pickles\n1,a jar of pickled eggs\n1,a fork\n2,a butter knife\n2,a set of sewing needles\n2,a set of fish-hooks\n1,a fishing rod\n1,a cheese knife\n3,a large [cheese_type] cheese, sealed in a [Color.dull] wax rind\n1,a dagger\n2,parchment\n1,thread\n2,{{plural|[number] Empty burlap sacks}}\n2,{{plural|[number] potato}}\n2,{{plural|[number] apple}}\n2,{{plural|[number] orange}}\n2,{{plural|[number] edible mushroom}}\n2,{{plural|[number] wooden dowel}}\n2,{{plural|[number] empty glass bottle}}\n1,a quill\n1,a bottle of [Color.dark] ink\n1,a shovel\n1,{{plural|[number] silver coin}}\n2,{{plural|[number] copper coin}}\n1,a winter cap\n2,{{plural|[number] [Color.hues] candle}}\n1,{{article|[Color.bright]}} scarf\n1,a pair of shears\n1,a hammer\n1,a tin cup\n1,a ceramic jug\n1,{{plural|[number] sack}} of flour\n1,a whetstone\n1,a rake\n1,a hoe",
+  "warnings": []
+}

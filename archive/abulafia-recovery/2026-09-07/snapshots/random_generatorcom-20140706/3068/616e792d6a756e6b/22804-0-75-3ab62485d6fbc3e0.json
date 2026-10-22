@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "3ab62485d6fbc3e0531e2b8117819904d711175374f5dd7564db2c2fc3df09c2",
+      "revisionId": "22804",
+      "line": 75,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "any-junk",
+    "qualified_name": "Starting Equipment.any-junk",
+    "table_block_index": 0,
+    "line_number": 75
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[junk1]",
+      "raw_text": "1,[junk1]",
+      "references": [
+        {
+          "raw": "[junk1]",
+          "token": "junk1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk1",
+          "target_qualified_name": "Starting Equipment.junk1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[junk2]",
+      "raw_text": "1,[junk2]",
+      "references": [
+        {
+          "raw": "[junk2]",
+          "token": "junk2",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk2",
+          "target_qualified_name": "Starting Equipment.junk2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[quirk]",
+      "raw_text": "1,[quirk]",
+      "references": [
+        {
+          "raw": "[quirk]",
+          "token": "quirk",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "quirk",
+          "target_qualified_name": "Starting Equipment.quirk"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[rope]",
+      "raw_text": "1,[rope]",
+      "references": [
+        {
+          "raw": "[rope]",
+          "token": "rope",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rope",
+          "target_qualified_name": "Starting Equipment.rope"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[wealth]",
+      "raw_text": "1,[wealth]",
+      "references": [
+        {
+          "raw": "[wealth]",
+          "token": "wealth",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Starting Equipment",
+          "target_subtable": "wealth",
+          "target_qualified_name": "Starting Equipment.wealth"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[Blazon.main]",
+      "raw_text": "1,[Blazon.main]",
+      "references": [
+        {
+          "raw": "[Blazon.main]",
+          "token": "Blazon.main",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "any-junk",
+          "target_page": "Blazon",
+          "target_subtable": "main",
+          "target_qualified_name": "Blazon.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "junk1",
+      "junk2",
+      "quirk",
+      "rope",
+      "wealth"
+    ],
+    "external_subtables": [
+      "Blazon.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";any-junk\n1,[junk1]\n1,[junk2]\n1,[quirk]\n1,[rope]\n1,[wealth]\n1,[Blazon.main]",
+  "warnings": []
+}

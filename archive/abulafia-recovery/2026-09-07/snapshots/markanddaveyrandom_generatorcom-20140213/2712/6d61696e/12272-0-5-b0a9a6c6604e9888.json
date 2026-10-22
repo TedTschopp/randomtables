@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 12272,
+    "timestamp": "2011-10-24T04:53:32Z",
+    "contributor": {
+      "name": "Zak S",
+      "id": 924,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0eb63d65284eb23b289b9ccb9d1985800bb6745ff29571e66dc5ecf71ef75ff7",
+      "rawSha256": "b0a9a6c6604e9888b67c767a17fee3f4a47b12eaed13e2f1d00386b85118c36e",
+      "revisionId": "12272",
+      "line": 5,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17456",
+        "timestamp": "2013-03-21T19:09:43Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Creepy Fantasy Villain.main",
+    "table_block_index": 0,
+    "line_number": 5
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "The [adventurer] of {Scary]",
+      "raw_text": "1,The [adventurer] of {Scary]",
+      "references": [
+        {
+          "raw": "[adventurer]",
+          "token": "adventurer",
+          "kind": "local",
+          "source_page": "Creepy Fantasy Villain",
+          "source_subtable": "main",
+          "target_page": "Creepy Fantasy Villain",
+          "target_subtable": "adventurer",
+          "target_qualified_name": "Creepy Fantasy Villain.adventurer"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "adventurer"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,The [adventurer] of {Scary]",
+  "warnings": []
+}

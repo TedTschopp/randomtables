@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "5d323b8b2fa1979d0b834cc7aa70584e3629b87ba07cdbdd3e2f28a46026a778",
+      "revisionId": "10367",
+      "line": 353,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MidSeasoning",
+    "qualified_name": "Pickpocket.MidSeasoning",
+    "table_block_index": 0,
+    "line_number": 353
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a palm-sized piece of ginger root",
+      "raw_text": "1,a palm-sized piece of ginger root",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "a piece of honeycomb in a jar",
+      "raw_text": "3,a piece of honeycomb in a jar",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "a small bottle of hot pepper sauce",
+      "raw_text": "2,a small bottle of hot pepper sauce",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "a vial of vinegar",
+      "raw_text": "3,a vial of vinegar",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MidSeasoning\n1,a palm-sized piece of ginger root\n3,a piece of honeycomb in a jar\n2,a small bottle of hot pepper sauce\n3,a vial of vinegar",
+  "warnings": []
+}

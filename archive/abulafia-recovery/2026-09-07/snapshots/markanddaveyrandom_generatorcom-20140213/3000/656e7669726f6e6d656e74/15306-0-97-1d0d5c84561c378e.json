@@ -1,0 +1,1225 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15306,
+    "timestamp": "2012-10-04T13:28:01Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0a28973cb290a8d9b014eda3cc407cb2495336eea9df1637546dc4eb63dee897",
+      "rawSha256": "1d0d5c84561c378e02573a871ef7b9c0176c77910094d85be44fee2aae8f333b",
+      "revisionId": "15306",
+      "line": 97,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "environment",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.environment",
+    "table_block_index": 0,
+    "line_number": 97
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Clear",
+      "raw_text": "1, Clear",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Tracks of [beast]",
+      "raw_text": "1, Tracks of [beast]",
+      "references": [
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Product of [manorbeast]",
+      "raw_text": "1, Product of [manorbeast]",
+      "references": [
+        {
+          "raw": "[manorbeast]",
+          "token": "manorbeast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "manorbeast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.manorbeast"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Scent Trail of [beast]",
+      "raw_text": "1, Scent Trail of [beast]",
+      "references": [
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Sounds of [manorbeast]",
+      "raw_text": "1, Sounds of [manorbeast]",
+      "references": [
+        {
+          "raw": "[manorbeast]",
+          "token": "manorbeast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "manorbeast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.manorbeast"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Remains of [manorbeast]",
+      "raw_text": "1, Remains of [manorbeast]",
+      "references": [
+        {
+          "raw": "[manorbeast]",
+          "token": "manorbeast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "manorbeast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.manorbeast"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Litter from",
+      "raw_text": "1, Litter from ",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Landslide",
+      "raw_text": "1, Landslide",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Bog",
+      "raw_text": "1, Bog",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Spoilage",
+      "raw_text": "1, Spoilage",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Loss of Food",
+      "raw_text": "1, Loss of Food",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Lame Mount",
+      "raw_text": "1, Lame Mount",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Loss of Equipment",
+      "raw_text": "1, Loss of Equipment",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Sickness",
+      "raw_text": "1, Sickness",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Food Poisoning",
+      "raw_text": "1, Food Poisoning",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Plant Hazard",
+      "raw_text": "1, Plant Hazard",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Poison Ivy",
+      "raw_text": "1, Poison Ivy",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Slime",
+      "raw_text": "1, Slime",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Mould",
+      "raw_text": "1, Mould",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Fungus",
+      "raw_text": "1, Fungus",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Freak Storm",
+      "raw_text": "1, Freak Storm",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Hail",
+      "raw_text": "1, Hail",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Water Spoilage",
+      "raw_text": "1, Water Spoilage",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Fire",
+      "raw_text": "1, Fire",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Cave In",
+      "raw_text": "1, Cave In",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Bad Floor",
+      "raw_text": "1, Bad Floor",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Resting",
+      "raw_text": "1, Resting",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Items in the Window",
+      "raw_text": "1, Items in the Window",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Meteorite",
+      "raw_text": "1, Meteorite",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Insects",
+      "raw_text": "1, Insects",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Swarm",
+      "raw_text": "1, Swarm",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Earthquake",
+      "raw_text": "1, Earthquake",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Rain",
+      "raw_text": "1, Rain",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Snow",
+      "raw_text": "1, Snow",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Sleet",
+      "raw_text": "1, Sleet",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Gale",
+      "raw_text": "1, Gale",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Thunderstorm",
+      "raw_text": "1, Thunderstorm",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Desertion",
+      "raw_text": "1, Desertion",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Calm",
+      "raw_text": "1, Calm",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Wind",
+      "raw_text": "1, Wind",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Heatwave",
+      "raw_text": "1, Heatwave",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Cold",
+      "raw_text": "1, Cold",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Dropped Item",
+      "raw_text": "1, Dropped Item",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Lost Item",
+      "raw_text": "1, Lost Item",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Rainbow",
+      "raw_text": "1, Rainbow",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Change of Weather [environmental]",
+      "raw_text": "1, Change of Weather [environmental]",
+      "references": [
+        {
+          "raw": "[environmental]",
+          "token": "environmental",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environmental",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environmental"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Meteor",
+      "raw_text": "1, Meteor",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Poison",
+      "raw_text": "1, Poison",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Fog",
+      "raw_text": "1, Fog",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Mist",
+      "raw_text": "1, Mist",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Pond",
+      "raw_text": "1, Pond",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Stream",
+      "raw_text": "1, Stream",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Natural Food",
+      "raw_text": "1, Natural Food",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Unique Tree",
+      "raw_text": "1, Unique Tree",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Sentient Tree",
+      "raw_text": "1, Sentient Tree",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Piece of Craft",
+      "raw_text": "1, Piece of Craft",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Shower",
+      "raw_text": "1, Shower",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Sun-shower",
+      "raw_text": "1, Sun-shower",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Spores",
+      "raw_text": "1, Spores",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Leaf",
+      "raw_text": "1, Leaf",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Bright and Clear",
+      "raw_text": "1, Bright and Clear",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Cloudy",
+      "raw_text": "1, Cloudy",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Overcast",
+      "raw_text": "1, Overcast",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Light",
+      "raw_text": "1, Light",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Metal",
+      "raw_text": "1, Metal",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Lose Coin",
+      "raw_text": "1, Lose Coin",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Lost Hair",
+      "raw_text": "1, Lost Hair",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Desert Wind",
+      "raw_text": "1, Desert Wind",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Humid",
+      "raw_text": "1, Humid",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Looks like changing but does not.",
+      "raw_text": "1, Looks like changing but does not.",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Un-seasonal",
+      "raw_text": "1, Un-seasonal",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Natural Spring",
+      "raw_text": "1, Natural Spring",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Natural Fissure",
+      "raw_text": "1, Natural Fissure",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Sink hole",
+      "raw_text": "1, Sink hole",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Wellspring",
+      "raw_text": "1, Wellspring",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Steam Vent",
+      "raw_text": "1, Steam Vent",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Mud Spring",
+      "raw_text": "1, Mud Spring",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Hot Spring",
+      "raw_text": "1, Hot Spring",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Mineral Spring",
+      "raw_text": "1, Mineral Spring",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Anti Magic Zone",
+      "raw_text": "1, Anti Magic Zone",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Wild Magic Zone",
+      "raw_text": "1, Wild Magic Zone",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Astral Gateway",
+      "raw_text": "1, Astral Gateway",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Ethereal Terrain",
+      "raw_text": "1, Ethereal Terrain",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Astral Markings",
+      "raw_text": "1, Astral Markings",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Extradimensional Nexus",
+      "raw_text": "1, Extradimensional Nexus",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Enchanted",
+      "raw_text": "1, Enchanted",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Haunted",
+      "raw_text": "1, Haunted",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Radiation",
+      "raw_text": "1, Radiation",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Seasonal",
+      "raw_text": "1, Seasonal",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Overgrown",
+      "raw_text": "1, Overgrown",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Deserted",
+      "raw_text": "1, Deserted",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Looted",
+      "raw_text": "1, Looted",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Broken Item",
+      "raw_text": "1, Broken Item",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Hurricane",
+      "raw_text": "1, Hurricane",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Dust Storm",
+      "raw_text": "1, Dust Storm",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Breakage",
+      "raw_text": "1, Breakage",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Sudden Change",
+      "raw_text": "1, Sudden Change",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Unique Vegetation",
+      "raw_text": "1, Unique Vegetation",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Rare Metal",
+      "raw_text": "1, Rare Metal",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Rare Element",
+      "raw_text": "1, Rare Element",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Goblin Gold",
+      "raw_text": "1, Goblin Gold",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Bio-luminescence",
+      "raw_text": "1, Bio-luminescence",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "Unique Fungus",
+      "raw_text": "1, Unique Fungus",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Bog Iron",
+      "raw_text": "1, Bog Iron",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Rare Metals",
+      "raw_text": "1, Rare Metals",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Gemstone",
+      "raw_text": "1, Gemstone",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "Building Quality Stone",
+      "raw_text": "1, Building Quality Stone",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "High Quality Building Stone",
+      "raw_text": "1, High Quality Building Stone",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "Potters Clay",
+      "raw_text": "1, Potters Clay",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Medicinal Clay",
+      "raw_text": "1, Medicinal Clay",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Cosmetic Clay",
+      "raw_text": "1, Cosmetic Clay",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Ceremonial Body Clay",
+      "raw_text": "1, Ceremonial Body Clay",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Quality Potters Clay",
+      "raw_text": "1, Quality Potters Clay",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "High Quality Potters Clay",
+      "raw_text": "1, High Quality Potters Clay",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Rare Herbs",
+      "raw_text": "1, Rare Herbs",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Very Rare Herbs",
+      "raw_text": "1, Very Rare Herbs",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Medicinal Herbs",
+      "raw_text": "1, Medicinal Herbs",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Cosmetic Herbs",
+      "raw_text": "1, Cosmetic Herbs",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "High Quality Herbs",
+      "raw_text": "1, High Quality Herbs",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Quality Herbs",
+      "raw_text": "1, Quality Herbs",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Light Mist",
+      "raw_text": "1, Light Mist",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "Heavy Mist",
+      "raw_text": "1, Heavy Mist",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Light Rain",
+      "raw_text": "1, Light Rain",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "Heavy Rain",
+      "raw_text": "1, Heavy Rain",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Dry Rain",
+      "raw_text": "1, Dry Rain",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Medicinal Plant",
+      "raw_text": "1, Medicinal Plant",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Cosmetic Plant",
+      "raw_text": "1, Cosmetic Plant",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Craft Quality Herb",
+      "raw_text": "1, Craft Quality Herb",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Craft Quality Plant",
+      "raw_text": "1, Craft Quality Plant",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Quality Gemstone",
+      "raw_text": "1, Quality Gemstone",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Fossil Remains of [beast]",
+      "raw_text": "1, Fossil Remains of [beast]",
+      "references": [
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Magical Spring",
+      "raw_text": "1, Magical Spring",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Peat",
+      "raw_text": "1, Peat",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Valuable Timber",
+      "raw_text": "1, Valuable Timber",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Very Valuable Timber",
+      "raw_text": "1, Very Valuable Timber",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Cave Entrance",
+      "raw_text": "1, Cave Entrance",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Mine Entrance",
+      "raw_text": "1, Mine Entrance",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Precious Metal",
+      "raw_text": "1, Precious Metal",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Common Metal",
+      "raw_text": "1, Common Metal",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Ruins Recent",
+      "raw_text": "1, Ruins Recent",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Ruins Old",
+      "raw_text": "1, Ruins Old",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Ruins Ancient",
+      "raw_text": "1, Ruins Ancient",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Ruins",
+      "raw_text": "1, Ruins",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Wild Rye",
+      "raw_text": "1, Wild Rye",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Wild Barley",
+      "raw_text": "1, Wild Barley",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "Wild Oats",
+      "raw_text": "1, Wild Oats",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "Wild Hay",
+      "raw_text": "1, Wild Hay",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "Wild Vegetable",
+      "raw_text": "1, Wild Vegetable",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "Wild Fruit",
+      "raw_text": "1, Wild Fruit",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "Wild Flax",
+      "raw_text": "1, Wild Flax",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "Wild Nut",
+      "raw_text": "1, Wild Nut",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "Wild Wheat",
+      "raw_text": "1, Wild Wheat",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "[environment][environment]",
+      "raw_text": "1, [environment][environment]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        },
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "environment",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "beast",
+      "environment",
+      "environmental",
+      "manorbeast"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";environment\n1, Clear\n1, Tracks of [beast]\n1, Product of [manorbeast]\n1, Scent Trail of [beast]\n1, Sounds of [manorbeast]\n1, Remains of [manorbeast]\n1, Litter from \n1, Landslide\n1, Bog\n1, Spoilage\n1, Loss of Food\n1, Lame Mount\n1, Loss of Equipment\n1, Sickness\n1, Food Poisoning\n1, Plant Hazard\n1, Poison Ivy\n1, Slime\n1, Mould\n1, Fungus\n1, Freak Storm\n1, Hail\n1, Water Spoilage\n1, Fire\n1, Cave In\n1, Bad Floor\n1, Resting\n1, Items in the Window\n1, Meteorite\n1, Insects\n1, Swarm\n1, Earthquake\n1, Rain\n1, Snow\n1, Sleet\n1, Gale\n1, Thunderstorm\n1, Desertion\n1, Calm\n1, Wind\n1, Heatwave\n1, Cold\n1, Dropped Item\n1, Lost Item\n1, Rainbow\n1, Change of Weather [environmental]\n1, Meteor\n1, Poison\n1, Fog\n1, Mist\n1, Pond\n1, Stream\n1, Natural Food\n1, Unique Tree\n1, Sentient Tree\n1, Piece of Craft\n1, Shower\n1, Sun-shower\n1, Spores\n1, Leaf\n1, Bright and Clear\n1, Cloudy\n1, Overcast\n1, Light\n1, Metal\n1, Lose Coin\n1, Lost Hair\n1, Desert Wind\n1, Humid\n1, Looks like changing but does not.\n1, Un-seasonal\n1, Natural Spring\n1, Natural Fissure\n1, Sink hole\n1, Wellspring\n1, Steam Vent\n1, Mud Spring\n1, Hot Spring\n1, Mineral Spring\n1, Anti Magic Zone\n1, Wild Magic Zone\n1, Astral Gateway\n1, Ethereal Terrain\n1, Astral Markings\n1, Extradimensional Nexus\n1, Enchanted\n1, Haunted\n1, Radiation\n1, Seasonal\n1, Overgrown\n1, Deserted\n1, Looted\n1, Broken Item\n1, Hurricane\n1, Dust Storm\n1, Breakage\n1, Sudden Change\n1, Unique Vegetation\n1, Rare Metal\n1, Rare Element\n1, Goblin Gold\n1, Bio-luminescence\n1, Unique Fungus\n1, Bog Iron\n1, Rare Metals\n1, Gemstone\n1, Building Quality Stone\n1, High Quality Building Stone\n1, Potters Clay\n1, Medicinal Clay\n1, Cosmetic Clay\n1, Ceremonial Body Clay\n1, Quality Potters Clay\n1, High Quality Potters Clay\n1, Rare Herbs\n1, Very Rare Herbs\n1, Medicinal Herbs\n1, Cosmetic Herbs\n1, High Quality Herbs\n1, Quality Herbs\n1, Light Mist\n1, Heavy Mist\n1, Light Rain\n1, Heavy Rain\n1, Dry Rain\n1, Medicinal Plant\n1, Cosmetic Plant\n1, Craft Quality Herb\n1, Craft Quality Plant\n1, Quality Gemstone\n1, Fossil Remains of [beast]\n1, Magical Spring\n1, Peat\n1, Valuable Timber\n1, Very Valuable Timber\n1, Cave Entrance\n1, Mine Entrance\n1, Precious Metal\n1, Common Metal\n1, Ruins Recent\n1, Ruins Old\n1, Ruins Ancient\n1, Ruins\n1, Wild Rye\n1, Wild Barley\n1, Wild Oats\n1, Wild Hay\n1, Wild Vegetable\n1, Wild Fruit\n1, Wild Flax\n1, Wild Nut\n1, Wild Wheat\n1, [environment][environment]",
+  "warnings": []
+}

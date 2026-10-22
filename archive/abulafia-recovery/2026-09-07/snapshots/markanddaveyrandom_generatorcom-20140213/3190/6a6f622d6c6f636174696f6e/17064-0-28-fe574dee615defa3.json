@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17064,
+    "timestamp": "2013-02-12T10:04:21Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "719f8e44a90fe19f614a2f5f8cab78d2c67a78730d4fccd09e1265eb17947fba",
+      "rawSha256": "fe574dee615defa386547e5685183fc80aac4f8be68333bba4f73f1242451e09",
+      "revisionId": "17064",
+      "line": 28,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "job-location",
+    "qualified_name": "Planar Codex Parish.job-location",
+    "table_block_index": 0,
+    "line_number": 28
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "nearby parish",
+      "raw_text": "1,nearby parish",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "distant parish",
+      "raw_text": "1,distant parish",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "nearby plane",
+      "raw_text": "1,nearby plane",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "distant plane",
+      "raw_text": "1,distant plane",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "doesn't know",
+      "raw_text": "1,doesn't know",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "no one knows",
+      "raw_text": "1,no one knows",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";job-location\n1,nearby parish\n1,distant parish\n1,nearby plane\n1,distant plane\n1,doesn't know\n1,no one knows",
+  "warnings": []
+}

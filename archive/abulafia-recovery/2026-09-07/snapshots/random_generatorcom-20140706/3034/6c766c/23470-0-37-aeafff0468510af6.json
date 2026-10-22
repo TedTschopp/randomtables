@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "aeafff0468510af6c2cd4c64148adc52ab61e5d3b713f1699b618cedf0c7b6c4",
+      "revisionId": "23470",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "lvl",
+    "qualified_name": "Village.lvl",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 97500,
+      "text": "(lv1)",
+      "raw_text": "97500,(lv1)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 37500,
+      "text": "(lv2)",
+      "raw_text": "37500,(lv2)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 13500,
+      "text": "(lv3)",
+      "raw_text": "13500,(lv3)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1350,
+      "text": "(lv4)",
+      "raw_text": "1350,(lv4)",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 135,
+      "text": "(lv5)",
+      "raw_text": "135,(lv5)",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 13,
+      "text": "(lv6)",
+      "raw_text": "13,(lv6)",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[highlvls]",
+      "raw_text": "1,[highlvls]",
+      "references": [
+        {
+          "raw": "[highlvls]",
+          "token": "highlvls",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "lvl",
+          "target_page": "Village",
+          "target_subtable": "highlvls",
+          "target_qualified_name": "Village.highlvls"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "highlvls"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";lvl\n97500,(lv1)\n37500,(lv2)\n13500,(lv3)\n1350,(lv4)\n135,(lv5)\n13,(lv6)\n1,[highlvls]",
+  "warnings": []
+}

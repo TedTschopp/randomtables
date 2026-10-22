@@ -1,23 +1,26 @@
 # Macro Inventory
 
-Snapshot: 2026-09-07. Source revision: `6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0`.
+Snapshot: 2026-09-08. Source revision: `6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0`.
 
 ## Bottom Line
 
 The current wiki tables use **29 macro names in selectable rows**. **28 names** have implemented support through bounded evaluation or explicit plain-text projections. **1 name** remains unsupported. An implemented name does not guarantee that its arguments or dependencies pass validation.
 
-The scan covers **26,156 current wiki tables**: 25,748 imported and 408 not imported. It also covers every local table script, both alternate JSON collections, and the local wordlists. Source data and runtime behavior were not changed by this inventory.
+The scan covers **26,156 current wiki tables**: 26,156 imported and 0 not imported. It separately includes **6,099 imported historical definitions**. It also covers every local table script, both alternate JSON collections, and the local wordlists. Source data and runtime behavior were not changed by this inventory.
 
 ## Coverage
 
 | Scope | Tables or Definitions | Entries |
 | --- | ---: | ---: |
 | Current wiki corpus | 26,156 | 488,128 |
+| Imported historical definitions | 6,099 | 102,811 |
 | Local JavaScript and JSON definitions | 2,273 | 62,985 |
 
 Local sources: 38 JavaScript files (36 loaded by the classic home page), 2 JSON files, and 15 text wordlists. Local definitions include shadowed and unloaded data and are not added to the active browser table count.
 
-Wiki state counts: `ready-static`: 19,674; `ready-runtime`: 658; `blocked`: 5,416; `not-imported`: 408.
+Wiki state counts: `ready-static`: 20,261; `ready-runtime`: 962; `blocked`: 4,933.
+
+Historical state counts: `ready-static`: 4,301; `blocked`: 1,606; `ready-runtime`: 192. Historical macro usage and diagnostics are retained separately in the JSON; the selectable-macro table below describes the current corpus only.
 
 Local state counts: `legacy-active`: 1,118; `legacy-shadowed`: 64; `legacy-unloaded`: 16; `legacy-json`: 1,071; `legacy-json-prototype`: 4.
 
@@ -27,14 +30,14 @@ Counts below are distinct source tables containing well-closed, unprotected macr
 
 | Macro | Source Tables | Calls | Ready Static | Ready Runtime | Blocked | Not Imported | Support |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| `ia` | 267 | 486 | 0 | 118 | 149 | 0 | Bounded |
-| `ucfirst` | 222 | 564 | 26 | 62 | 133 | 1 | Bounded |
-| `article` | 102 | 232 | 0 | 23 | 79 | 0 | Bounded |
-| `plural` | 78 | 329 | 0 | 22 | 46 | 10 | Bounded |
-| `lcfirst` | 40 | 75 | 0 | 10 | 30 | 0 | Bounded |
-| `po` | 40 | 123 | 3 | 7 | 30 | 0 | Bounded |
+| `ia` | 267 | 486 | 0 | 137 | 130 | 0 | Bounded |
+| `ucfirst` | 222 | 564 | 27 | 72 | 123 | 0 | Bounded |
+| `article` | 102 | 232 | 0 | 28 | 74 | 0 | Bounded |
+| `plural` | 78 | 329 | 0 | 39 | 39 | 0 | Bounded |
+| `lcfirst` | 40 | 75 | 0 | 12 | 28 | 0 | Bounded |
+| `po` | 40 | 123 | 3 | 17 | 20 | 0 | Bounded |
 | `#expr` | 24 | 109 | 0 | 14 | 10 | 0 | Bounded |
-| `lc` | 24 | 41 | 0 | 9 | 15 | 0 | Bounded |
+| `lc` | 24 | 41 | 0 | 14 | 10 | 0 | Bounded |
 | `link` | 22 | 1,029 | 0 | 22 | 0 | 0 | Plain text |
 | `hover` | 19 | 536 | 0 | 19 | 0 | 0 | Plain text |
 | `uc` | 16 | 31 | 0 | 5 | 11 | 0 | Bounded |
@@ -43,8 +46,8 @@ Counts below are distinct source tables containing well-closed, unprotected macr
 | `#pos` | 8 | 27 | 0 | 7 | 1 | 0 | Bounded |
 | `#rpos` | 8 | 14 | 0 | 7 | 1 | 0 | Bounded |
 | `#sub` | 8 | 15 | 0 | 6 | 2 | 0 | Bounded |
-| `comma` | 5 | 11 | 0 | 3 | 2 | 0 | Bounded |
-| `concat` | 2 | 9 | 0 | 1 | 1 | 0 | Bounded |
+| `comma` | 5 | 11 | 0 | 5 | 0 | 0 | Bounded |
+| `concat` | 2 | 9 | 0 | 2 | 0 | 0 | Bounded |
 | `linkme` | 2 | 6 | 0 | 0 | 2 | 0 | Plain text |
 | `numtostring` | 2 | 6 | 0 | 1 | 1 | 0 | Bounded |
 | `#ifeq` | 1 | 1 | 0 | 0 | 1 | 0 | Bounded |
@@ -103,7 +106,7 @@ These source-derived contracts remain acceptance criteria for implemented operat
 
 ## Source Examples
 
-Examples link to the exact current table JSON at the pinned source commit. Entry numbers refer to the parsed source entry array, starting at 1. The machine-readable report retains every occurrence, exact spellings, weights, states, offsets, and available local archive paths.
+Examples link to exact table JSON at the pinned source commit or to hash-verified local XML snapshots. Entry numbers refer to the parsed source entry array, starting at 1. The machine-readable report retains every occurrence, exact spellings, weights, states, offsets, and available local archive paths.
 
 | Macro | Exact Spellings | Source Table | Entry | Expression |
 | --- | --- | --- | ---: | --- |
@@ -170,7 +173,7 @@ Evidence comes from the latest retained revisions in the source checkout's `arch
 
 ## Additional Source Syntax
 
-There are 11 brace-structure diagnostics in parsed wiki entries and 8 additional macro occurrences found in raw table source but not matched to parsed entries. Their line numbers and examples are in the JSON report. Raw-only expressions have unknown execution weight and are not added to the selectable-row counts.
+There are 11 brace-structure diagnostics in parsed wiki entries and 13 additional macro occurrences found in raw table source but not matched to parsed entries. Their line numbers and examples are in the JSON report. Raw-only expressions have unknown execution weight and are not added to the selectable-row counts.
 
 Macro names observed only outside selectable, well-formed rows:
 
@@ -187,9 +190,14 @@ Raw-source exceptions are listed separately below. The `subst:Generator start` c
 | Source Table | Raw-Source Line | Macro | Outer Call Closed | Example |
 | --- | ---: | --- | --- | --- |
 | [Magical Pilgrimage Generator.requests](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/magical-pilgrimage-generator/subtables/requests/table.json) | 12 | `article` | No | `{{Article\|[GTFTJ] 2,studying your spellbook for hidden writings 2,befriending an enemy 1,racing them to {{Article\|[MPGplacenameA]}} of [MPGplacenameB] 2,adopting pacifism in your next adventure, tell no one why 2,building a statue in tribut` (truncated) |
+| [Marriedto.mod{{#expr:{{#time: U  /  now }} mod 10}}](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/marriedto/subtables/mod-expr-time-u-now-mod-10/history/2017-11-18T18-57-41Z/table.json) | 1 | `#expr` | Yes | `{{#expr:{{#time: U \| now }} mod 10}}` |
+| [Marriedto.mod{{#expr:{{#time: U  /  now }} mod 10}}](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/marriedto/subtables/mod-expr-time-u-now-mod-10/history/2017-11-18T18-57-41Z/table.json) | 1 | `#time` | Yes | `{{#time: U \| now }}` |
+| [Marriedto.reldesc{{#expr:{{#time: U  /  now }} mod 10}}](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/marriedto/subtables/reldesc-expr-time-u-now-mod-10/history/2017-11-18T18-57-41Z/table.json) | 1 | `#expr` | Yes | `{{#expr:{{#time: U \| now }} mod 10}}` |
+| [Marriedto.reldesc{{#expr:{{#time: U  /  now }} mod 10}}](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/marriedto/subtables/reldesc-expr-time-u-now-mod-10/history/2017-11-18T18-57-41Z/table.json) | 1 | `#time` | Yes | `{{#time: U \| now }}` |
 | [Mothership adventure seed generator.main](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/mothership-adventure-seed-generator/subtables/main/table.json) | 2 | `subst` | Yes | `{{subst:Generator start  }}` |
 | [Murder Ballad Adventure seed generator.main](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/murder-ballad-adventure-seed-generator/subtables/main/table.json) | 2 | `subst` | Yes | `{{subst:Generator start  }}` |
 | [Planarch Codex Parish.job](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/planarch-codex-parish/subtables/job/table.json) | 2 | `ucfirst` | Yes | `{{ucfirst:[Elements.tablename]}}` |
+| [Police Reports.BurglaryPet](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/police-reports/subtables/burglarypet/history/2015-07-03T05-52-38Z/table.json) | 7 | `lc` | No | `{{lc:[Dog Description.ShortBreed])} 1,fish [Animal.animalother] 1,goat 1,horse 1,insects, [Animal.animalinsect]s 1,reptile, [Animal.animalreptile] 1,rodent 1,snake     <!-- PREAMBLE -->` |
 | [Police Reports.LarcenyPet](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/police-reports/subtables/larcenypet/table.json) | 7 | `lc` | No | `{{lc:[Dog Description.ShortBreed])} 1,fish [Animal.animalother] 1,goat 1,horse 1,insects, [Animal.animalinsect]s 1,reptile, [Animal.animalreptile] 1,rodent 1,snake     <!-- PREAMBLE -->` |
 | [Shadowrun Border Crossing Generator.WaterCrossing](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/shadowrun-border-crossing-generator/subtables/watercrossing/table.json) | 5 | `article` | No | `{{Article\|[Shadowrun Utility.AAA] Corp cargo vessel is on a nearby waterway. 27, 27, 25, 36,Speed boats patrol the area nearby. 16,[Patrol] Patrol notices the group. 4,Naval (green or brown water) ship is nearby on a major waterway.` |
 | [The World's Unknown.s](https://github.com/TedTschopp/random-generator-com-wiki-dump/blob/6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0/tables/the-world-s-unknown/subtables/s/table.json) | 3 | `uc` | No | `{{uc: 1,<ul>` |
@@ -199,11 +207,11 @@ Separate syntax candidates, not automatically additional macros:
 
 | Syntax | Source Tables or Definitions | Occurrences |
 | --- | ---: | ---: |
-| percent-delimited candidate | 56 | 199 |
-| non-simple single-brace expression | 61 | 191 |
+| percent-delimited candidate | 87 | 242 |
+| non-simple single-brace expression | 63 | 202 |
 | single-brace table reference | 770 | 3,830 |
-| double-bracket wiki link | 17 | 20 |
-| generator extension tag | 13 | 78 |
+| double-bracket wiki link | 21 | 24 |
+| generator extension tag | 17 | 88 |
 
 Ordinary table references and dice tables are data references, not new macros. Candidate syntax requires source review; a percent sign or wiki link is not proof that a new operation is needed. The JSON report includes examples and source states.
 
@@ -215,21 +223,21 @@ The bounded parser supports multiple and nested operations. These source pattern
 
 | Pattern | Tables | Rows |
 | --- | ---: | ---: |
-| `ucfirst(ia)` | 28 | 33 |
-| `ucfirst + ucfirst` | 14 | 39 |
-| `ia + ia` | 12 | 12 |
-| `ucfirst + ucfirst + ucfirst` | 11 | 30 |
+| `ucfirst(ia)` | 29 | 34 |
+| `ia + ia` | 16 | 19 |
+| `ucfirst + ucfirst` | 15 | 40 |
+| `ucfirst + ucfirst + ucfirst` | 13 | 34 |
 | `ucfirst(pronoun)` | 10 | 10 |
+| `plural + plural` | 9 | 14 |
 | `#replace(#replace)` | 5 | 8 |
 | `article + article` | 5 | 8 |
+| `lc(ia)` | 5 | 6 |
 | `lcfirst(ia)` | 5 | 5 |
-| `plural + plural` | 5 | 6 |
-| `lc(ia)` | 3 | 4 |
+| `uc + uc` | 4 | 4 |
 | `ucfirst + ucfirst + ucfirst + ucfirst` | 3 | 3 |
 | `#sub(#expr(#pos), #expr(#rpos, #pos))` | 2 | 2 |
+| `array norepeat(array norepeat)` | 2 | 2 |
 | `hover + hover` | 2 | 3 |
-| `ia(lcfirst)` | 2 | 2 |
-| `plural + plural + plural` | 2 | 2 |
 
 ## Other Blocking Causes
 
@@ -237,21 +245,21 @@ Macro support alone will not clear quarantine. Current manifest diagnostics coun
 
 | Validation Issue | Imported Tables |
 | --- | ---: |
-| `blocked_dependency` | 4,223 |
-| `unsupported_reference` | 970 |
-| `missing_reference` | 795 |
-| `invalid_weight` | 579 |
-| `empty_table` | 548 |
-| `cycle` | 495 |
-| `unsupported_syntax` | 483 |
-| `unsupported_macro_expression` | 353 |
-| `expansion_limit` | 317 |
-| `unsupported_runtime_expression` | 76 |
-| `unsupported_ucfirst` | 64 |
-| `source_warning` | 44 |
-| `unsafe_html` | 23 |
-| `unsupported_po` | 12 |
-| `source_unresolved` | 5 |
+| `blocked_dependency` | 5,084 |
+| `invalid_weight` | 815 |
+| `unsupported_reference` | 788 |
+| `empty_table` | 782 |
+| `missing_reference` | 726 |
+| `cycle` | 669 |
+| `unsupported_syntax` | 551 |
+| `expansion_limit` | 439 |
+| `unsupported_macro_expression` | 372 |
+| `source_warning` | 168 |
+| `unsupported_runtime_expression` | 70 |
+| `unsupported_ucfirst` | 60 |
+| `unsafe_html` | 26 |
+| `source_unresolved` | 10 |
+| `unsupported_po` | 10 |
 
 ## Reproduce
 
@@ -262,7 +270,7 @@ node --test explorer/tests/macro-inventory.test.cjs
 node explorer/tools/inventory-macros.cjs --source ../random-generator-com-wiki-dump --output Docs
 ```
 
-The scan follows page-manifest membership and does not treat retained obsolete files as current tables. Historical revisions are not part of the implementation backlog or the totals. Imported archives are not counted again as separate tables; raw source is compared with parsed entries for coverage gaps. Template implementations and transitive template dependencies are not added to direct table-usage counts.
+Current membership follows page manifests. Only explicitly imported historical definitions enter the separate historical and combined catalog totals; unused retained revisions remain outside the backlog. Source archives are not counted again as separate tables. Raw source is compared with parsed entries for coverage gaps; template implementations and transitive template dependencies are not added to direct table-usage counts.
 
 The scanner reads wiki content as JSON and text, never as executable code. Local JavaScript data definitions are evaluated only in an isolated, time-limited development VM to preserve their actual registration and range semantics. No browser runtime or server dependency is introduced. Existing output files are never overwritten unless their contents are identical.
 

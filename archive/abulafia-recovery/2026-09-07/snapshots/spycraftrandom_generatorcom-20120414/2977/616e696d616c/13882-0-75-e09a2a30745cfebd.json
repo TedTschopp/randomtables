@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13882,
+    "timestamp": "2012-03-02T07:16:54Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "68044907681a8c4eadd2c9fcd8e58da139208044288f50d967fafa795e78d0c6",
+      "rawSha256": "e09a2a30745cfebd1449dd83423652d406cd0ce03a68a394e08efbab91704437",
+      "revisionId": "13882",
+      "line": 75,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "animal",
+    "qualified_name": "Quick Populations.animal",
+    "table_block_index": 0,
+    "line_number": 75
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "[domestic-animal]",
+      "raw_text": "2,[domestic-animal]",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[power-animal]",
+      "raw_text": "1,[power-animal]",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "animal",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "domestic-animal",
+      "power-animal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";animal\n2,[domestic-animal]\n1,[power-animal]",
+  "warnings": []
+}

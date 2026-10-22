@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 19556,
+    "timestamp": "2014-02-20T03:22:54Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "46b0af09101e486161f8704102903b184aa0ab9eaab978fc22c8b7668eafd88c",
+      "rawSha256": "4ed2c1fac195b41a57603feab1ae37364b319bc516d926b551c4a0efe5355bc5",
+      "revisionId": "19556",
+      "line": 409,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "19556",
+        "timestamp": "2014-02-20T03:22:54Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelTwo",
+    "qualified_name": "LotFP Spell Lists.LevelTwo",
+    "table_block_index": 0,
+    "line_number": 409
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Audible Glamour",
+      "raw_text": "1,Audible Glamour",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Change Self",
+      "raw_text": "1,Change Self",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Detect Invisible",
+      "raw_text": "1,Detect Invisible",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "ESP",
+      "raw_text": "1,ESP",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Force of Forbidment",
+      "raw_text": "1,Force of Forbidment",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Forget",
+      "raw_text": "1,Forget",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Invisibility",
+      "raw_text": "1,Invisibility",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Knock",
+      "raw_text": "1,Knock",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Levitate",
+      "raw_text": "1,Levitate",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Light, Continual",
+      "raw_text": "1,Light, Continual",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Locate Object",
+      "raw_text": "1,Locate Object",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Magic Mouth",
+      "raw_text": "1,Magic Mouth",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Mirror Image",
+      "raw_text": "1,Mirror Image",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Phantasmal Force",
+      "raw_text": "1,Phantasmal Force",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Ray of Enfeeblement",
+      "raw_text": "1,Ray of Enfeeblement",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Speak with Animals",
+      "raw_text": "1,Speak with Animals",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Stinking Cloud",
+      "raw_text": "1,Stinking Cloud",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Wall of Fog",
+      "raw_text": "1,Wall of Fog",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Web",
+      "raw_text": "1,Web",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Wizard Lock",
+      "raw_text": "1,Wizard Lock",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelTwo\n1,Audible Glamour\n1,Change Self\n1,Detect Invisible\n1,ESP\n1,Force of Forbidment\n1,Forget\n1,Invisibility\n1,Knock\n1,Levitate\n1,Light, Continual\n1,Locate Object\n1,Magic Mouth\n1,Mirror Image\n1,Phantasmal Force\n1,Ray of Enfeeblement\n1,Speak with Animals\n1,Stinking Cloud\n1,Wall of Fog\n1,Web\n1,Wizard Lock",
+  "warnings": []
+}

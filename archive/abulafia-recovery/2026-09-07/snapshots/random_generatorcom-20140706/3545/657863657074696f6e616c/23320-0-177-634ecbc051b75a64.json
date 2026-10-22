@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "634ecbc051b75a647219323ff1fb3de41753e36d07513120bbc229fc419700bf",
+      "revisionId": "23320",
+      "line": 177,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "exceptional",
+    "qualified_name": "OSR weapon.exceptional",
+    "table_block_index": 0,
+    "line_number": 177
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[exceptional], [exceptional], [exceptional]",
+      "raw_text": "1,[exceptional], [exceptional], [exceptional]",
+      "references": [
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "exceptional",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        },
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "exceptional",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        },
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "exceptional",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "[exceptional, [exceptional]",
+      "raw_text": "3,[exceptional, [exceptional]",
+      "references": [
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "exceptional",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 6,
+      "text": "can Teleport thrice daily",
+      "raw_text": "6,can Teleport thrice daily",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 10,
+      "text": "can use Telekinises thrice daily",
+      "raw_text": "10,can use Telekinises thrice daily",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 15,
+      "text": "causes its weilder to regenerate 1 hp per turn, up to 6 per day",
+      "raw_text": "15,causes its weilder to regenerate 1 hp per turn, up to 6 per day",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 21,
+      "text": "can Charm Person thrice daily",
+      "raw_text": "21,can Charm Person thrice daily",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 25,
+      "text": "can Knock thrice daily",
+      "raw_text": "25,can Knock thrice daily",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 27,
+      "text": "can use E.S.P. thrice daily",
+      "raw_text": "27,can use E.S.P. thrice daily",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 27,
+      "text": "Levitates thrice daily",
+      "raw_text": "27,Levitates thrice daily",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 25,
+      "text": "can create a Phantasm thrice daily",
+      "raw_text": "25,can create a Phantasm thrice daily",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 21,
+      "text": "bestows X-Ray vision",
+      "raw_text": "21,bestows X-Ray vision",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 15,
+      "text": "bestows flight thrice daily",
+      "raw_text": "15,bestows flight thrice daily",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 10,
+      "text": "can call Giant's Strength thrice daily",
+      "raw_text": "10,can call Giant's Strength thrice daily",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 6,
+      "text": "Life-stealer (and is Chaotic)",
+      "raw_text": "6,Life-stealer (and is Chaotic)",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "grants three wishes",
+      "raw_text": "2,grants three wishes",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "grants [Dice.1d6] wishes",
+      "raw_text": "2,grants [Dice.1d6] wishes",
+      "references": [
+        {
+          "raw": "[Dice.1d6]",
+          "token": "Dice.1d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "exceptional",
+          "target_page": "Dice",
+          "target_subtable": "1d6",
+          "target_qualified_name": "Dice.1d6"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "exceptional"
+    ],
+    "external_subtables": [
+      "Dice.1d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";exceptional\n1,[exceptional], [exceptional], [exceptional]\n3,[exceptional, [exceptional]\n6,can Teleport thrice daily\n10,can use Telekinises thrice daily\n15,causes its weilder to regenerate 1 hp per turn, up to 6 per day\n21,can Charm Person thrice daily\n25,can Knock thrice daily\n27,can use E.S.P. thrice daily\n27,Levitates thrice daily\n25,can create a Phantasm thrice daily\n21,bestows X-Ray vision\n15,bestows flight thrice daily\n10,can call Giant's Strength thrice daily\n6,Life-stealer (and is Chaotic)\n2,grants three wishes\n2,grants [Dice.1d6] wishes",
+  "warnings": []
+}

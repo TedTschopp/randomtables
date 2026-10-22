@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17034,
+    "timestamp": "2013-02-12T09:11:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0a51e335103f54991cde3e15e0e5eba502d5d01239dff37f473849dfb1f3e88b",
+      "rawSha256": "230f7f2bd01d0acd1654934b588bd021eb0d45c854d89ee6d8c01bc8e79664b0",
+      "revisionId": "17034",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish-feature-verb-singular",
+    "qualified_name": "Planar Codex Parish.parish-feature-verb-singular",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "best known for its",
+      "raw_text": "1,best known for its",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dominated by a",
+      "raw_text": "1,dominated by a",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "treasured for its",
+      "raw_text": "1,treasured for its",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "notorious for its",
+      "raw_text": "1,notorious for its",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";parish-feature-verb-singular\n1,best known for its\n1,dominated by a\n1,treasured for its\n1,notorious for its",
+  "warnings": []
+}

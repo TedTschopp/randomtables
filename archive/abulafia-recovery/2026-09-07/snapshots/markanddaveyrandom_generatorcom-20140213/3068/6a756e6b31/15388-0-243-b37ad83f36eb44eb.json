@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15388,
+    "timestamp": "2012-10-08T12:30:45Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "79b593a73093b15574ffe45ce9e057a96fe7fa90b9de5958716bd17db57740f2",
+      "rawSha256": "b37ad83f36eb44ebf6ded3eaa35894668859fd3ba862b6a01d42adaf9c0a4241",
+      "revisionId": "15388",
+      "line": 243,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "junk1",
+    "qualified_name": "Starting Equipment.junk1",
+    "table_block_index": 0,
+    "line_number": 243
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.domestic-animal]",
+      "raw_text": "1,[Quick Zone Populations.domestic-animal]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.domestic-animal]",
+          "token": "Quick Zone Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk1",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Zone Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "grappling hook",
+      "raw_text": "1,grappling hook",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fishing net",
+      "raw_text": "1,fishing net",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Quick Zone Populations.zaksjob] disguise",
+      "raw_text": "1,[Quick Zone Populations.zaksjob] disguise",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.zaksjob]",
+          "token": "Quick Zone Populations.zaksjob",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "junk1",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "zaksjob",
+          "target_qualified_name": "Quick Zone Populations.zaksjob"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "hammock",
+      "raw_text": "1,hammock",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "set of scales",
+      "raw_text": "1,set of scales",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pipe, pouch of pipeweed",
+      "raw_text": "1,pipe, pouch of pipeweed",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.domestic-animal",
+      "Quick Zone Populations.zaksjob"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";junk1\n1,[Quick Zone Populations.domestic-animal]\n1,grappling hook\n1,fishing net\n1,[Quick Zone Populations.zaksjob] disguise\n1,hammock\n1,set of scales\n1,pipe, pouch of pipeweed",
+  "warnings": []
+}

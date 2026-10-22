@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15488,
+    "timestamp": "2012-11-02T08:36:53Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "fe271fd3c75d043ff92414b29b7040f9f5e7ff4613497623c69f3fa5d941240e",
+      "rawSha256": "c661809b13f17cf8ce83606e78d3020cc61b2e6168f1773ccedf77468d666f61",
+      "revisionId": "15488",
+      "line": 129,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "damage-type",
+    "qualified_name": "Curse.damage-type",
+    "table_block_index": 0,
+    "line_number": 129
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "acid",
+      "raw_text": "1,acid",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "sonic",
+      "raw_text": "1,sonic",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fire",
+      "raw_text": "1,fire",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "lightning",
+      "raw_text": "1,lightning",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "frost",
+      "raw_text": "1,frost",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "poison",
+      "raw_text": "1,poison",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "flying",
+      "raw_text": "1,flying",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "psychic",
+      "raw_text": "1,psychic",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "ghost",
+      "raw_text": "1,ghost",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "shadow",
+      "raw_text": "1,shadow",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";damage-type\n1,acid\n1,sonic\n1,fire\n1,lightning\n1,frost\n1,poison\n1,flying\n1,psychic\n1,ghost\n1,shadow",
+  "warnings": []
+}

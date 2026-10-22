@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 16077,
+    "timestamp": "2012-12-06T02:38:48Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "031766fc683e7b68dbf05685eb7de9d0c2d8d5fbf1580c74c8d7fb77d82c452c",
+      "rawSha256": "0278a78172897863ab983ca2e308e5d4f9740bc795d12435cad673de18b0a83e",
+      "revisionId": "16077",
+      "line": 7,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17754",
+        "timestamp": "2013-06-18T18:25:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hireling profession",
+    "qualified_name": "Hireling.hireling profession",
+    "table_block_index": 0,
+    "line_number": 7
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "Mercenary ([mercenary])",
+      "raw_text": "10,Mercenary ([mercenary])",
+      "references": [
+        {
+          "raw": "[mercenary]",
+          "token": "mercenary",
+          "kind": "local",
+          "source_page": "Hireling",
+          "source_subtable": "hireling profession",
+          "target_page": "Hireling",
+          "target_subtable": "mercenary",
+          "target_qualified_name": "Hireling.mercenary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "Porter",
+      "raw_text": "5,Porter",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "Torchbearer",
+      "raw_text": "5,Torchbearer",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "Scout",
+      "raw_text": "2,Scout",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[hireling profession] or [hireling profession]",
+      "raw_text": "1,[hireling profession] or [hireling profession]",
+      "references": [
+        {
+          "raw": "[hireling profession]",
+          "token": "hireling profession",
+          "kind": "local",
+          "source_page": "Hireling",
+          "source_subtable": "hireling profession",
+          "target_page": "Hireling",
+          "target_subtable": "hireling profession",
+          "target_qualified_name": "Hireling.hireling profession"
+        },
+        {
+          "raw": "[hireling profession]",
+          "token": "hireling profession",
+          "kind": "local",
+          "source_page": "Hireling",
+          "source_subtable": "hireling profession",
+          "target_page": "Hireling",
+          "target_subtable": "hireling profession",
+          "target_qualified_name": "Hireling.hireling profession"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[3d6 In Order NPC.Job]",
+      "raw_text": "1,[3d6 In Order NPC.Job]",
+      "references": [
+        {
+          "raw": "[3d6 In Order NPC.Job]",
+          "token": "3d6 In Order NPC.Job",
+          "kind": "cross_page",
+          "source_page": "Hireling",
+          "source_subtable": "hireling profession",
+          "target_page": "3d6 In Order NPC",
+          "target_subtable": "Job",
+          "target_qualified_name": "3d6 In Order NPC.Job"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "hireling profession",
+      "mercenary"
+    ],
+    "external_subtables": [
+      "3d6 In Order NPC.Job"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";hireling profession\n10,Mercenary ([mercenary])\n5,Porter\n5,Torchbearer\n2,Scout\n1,[hireling profession] or [hireling profession]\n1,[3d6 In Order NPC.Job]",
+  "warnings": []
+}

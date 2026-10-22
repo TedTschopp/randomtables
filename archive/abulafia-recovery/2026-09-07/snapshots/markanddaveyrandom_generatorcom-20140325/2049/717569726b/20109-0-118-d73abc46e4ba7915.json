@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Stars Without Number",
+    "page_id": 2049
+  },
+  "source": {
+    "revision_id": 20109,
+    "timestamp": "2014-03-12T09:16:59Z",
+    "contributor": {
+      "name": "Nerdwerds",
+      "id": 1791,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "09f58ef498943e2e0c38d5e9a258f68a9040c6617ee3107b675131af8132df88",
+      "rawSha256": "d73abc46e4ba791514649ee8efab4585beeb8f5310146a266e01edf3437c1fe0",
+      "revisionId": "20109",
+      "line": 118,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "20109",
+        "timestamp": "2014-03-12T09:16:59Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk",
+    "qualified_name": "Stars Without Number.quirk",
+    "table_block_index": 0,
+    "line_number": 118
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bald",
+      "raw_text": "1,bald",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "terrible taste in clothing",
+      "raw_text": "1,terrible taste in clothing",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "very thin",
+      "raw_text": "1,very thin",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "powerful build",
+      "raw_text": "1,powerful build",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "bad eyesight, wears spectacles",
+      "raw_text": "1,bad eyesight, wears spectacles",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "carries work tools constantly",
+      "raw_text": "1,carries work tools constantly",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "long hair",
+      "raw_text": "1,long hair",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "bearded (if male) ankle-length hair (if female)",
+      "raw_text": "1,bearded (if male) ankle-length hair (if female)",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "scars all over hands",
+      "raw_text": "1,scars all over hands",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "missing digits or an ear",
+      "raw_text": "1,missing digits or an ear",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "smells like their work",
+      "raw_text": "1,smells like their work",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "repeats himself constantly",
+      "raw_text": "1,repeats himself constantly",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "talks about tabloid articles",
+      "raw_text": "1,talks about tabloid articles",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "booming voice",
+      "raw_text": "1,booming voice",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "vocal dislike of off worlders",
+      "raw_text": "1,vocal dislike of off worlders",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "always snuffling",
+      "raw_text": "1,always snuffling",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "missing teeth",
+      "raw_text": "1,missing teeth",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "fastidiously neat",
+      "raw_text": "1,fastidiously neat",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "wears religious emblems",
+      "raw_text": "1,wears religious emblems",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "speaks as little as possible",
+      "raw_text": "1,speaks as little as possible",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";quirk\n1,bald\n1,terrible taste in clothing\n1,very thin\n1,powerful build\n1,bad eyesight, wears spectacles\n1,carries work tools constantly\n1,long hair\n1,bearded (if male) ankle-length hair (if female)\n1,scars all over hands\n1,missing digits or an ear\n1,smells like their work\n1,repeats himself constantly\n1,talks about tabloid articles\n1,booming voice\n1,vocal dislike of off worlders\n1,always snuffling\n1,missing teeth\n1,fastidiously neat\n1,wears religious emblems\n1,speaks as little as possible",
+  "warnings": []
+}

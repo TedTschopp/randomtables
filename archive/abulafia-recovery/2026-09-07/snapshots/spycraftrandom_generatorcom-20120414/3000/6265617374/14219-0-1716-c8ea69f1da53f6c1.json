@@ -1,0 +1,1311 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "c8ea69f1da53f6c1c4b5da6ac767cd51630ccb735d206f4e798234e6d82727e9",
+      "revisionId": "14219",
+      "line": 1716,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "beast",
+    "qualified_name": "User:Snake Eyes.beast",
+    "table_block_index": 0,
+    "line_number": 1716
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Wild Dog",
+      "raw_text": "1, Wild Dog",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Wolf",
+      "raw_text": "1, Wolf",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Wild Cat",
+      "raw_text": "1, Wild Cat",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Great Cat",
+      "raw_text": "1, Great Cat",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Ursine",
+      "raw_text": "1, Ursine",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Bear",
+      "raw_text": "1, Bear",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Stag",
+      "raw_text": "1, Stag",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Deer",
+      "raw_text": "1, Deer",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Hind",
+      "raw_text": "1, Hind",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Wild Cattle",
+      "raw_text": "1, Wild Cattle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Stray Cattle",
+      "raw_text": "1, Stray Cattle",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Wild Pony",
+      "raw_text": "1, Wild Pony",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Stray Pony",
+      "raw_text": "1, Stray Pony",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Wild Goats",
+      "raw_text": "1, Wild Goats",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Stray Goats",
+      "raw_text": "1, Stray Goats",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Wild Boar",
+      "raw_text": "1, Wild Boar",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Stray Pig",
+      "raw_text": "1, Stray Pig",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Domestic Horse",
+      "raw_text": "1, Domestic Horse",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Brumby",
+      "raw_text": "1, Brumby",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Falcon",
+      "raw_text": "1, Falcon",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Raptor",
+      "raw_text": "1, Raptor",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Hawk",
+      "raw_text": "1, Hawk",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Reptile",
+      "raw_text": "1, Reptile",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Unicorn",
+      "raw_text": "1, Unicorn",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Poison Snake",
+      "raw_text": "1, Poison Snake",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Constrictor Snake",
+      "raw_text": "1, Constrictor Snake",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Wyvren",
+      "raw_text": "1, Wyvren",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Tiny Dinosaur",
+      "raw_text": "1, Tiny Dinosaur",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Small Dinosaur",
+      "raw_text": "1, Small Dinosaur",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Dinosaur",
+      "raw_text": "1, Dinosaur",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Large Dinosaur",
+      "raw_text": "1, Large Dinosaur",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Mythic Dinosaur",
+      "raw_text": "1, Mythic Dinosaur",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Rats",
+      "raw_text": "1, Rats",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Dog",
+      "raw_text": "1, Dog",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Giant Bee",
+      "raw_text": "1, Giant Bee",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Giant Ant",
+      "raw_text": "1, Giant Ant",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Giant Frog",
+      "raw_text": "1, Giant Frog",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Giant Beetle",
+      "raw_text": "1, Giant Beetle",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Fire Beetle",
+      "raw_text": "1, Fire Beetle",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Werewolf",
+      "raw_text": "1, Werewolf",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Giant Rat",
+      "raw_text": "1, Giant Rat",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Smillodon",
+      "raw_text": "1, Smillodon",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Unique Creature",
+      "raw_text": "1, Unique Creature",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Reincarnate",
+      "raw_text": "1, Reincarnate",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Angel",
+      "raw_text": "1, Angel",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Displacer Beast",
+      "raw_text": "1, Displacer Beast",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Rust Monster",
+      "raw_text": "1, Rust Monster",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Xaren Xorn",
+      "raw_text": "1, Xaren Xorn",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Illiterate",
+      "raw_text": "1, Illiterate",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Caryatid",
+      "raw_text": "1, Caryatid",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Ghost",
+      "raw_text": "1, Ghost",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Zebra",
+      "raw_text": "1, Zebra",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Penguin",
+      "raw_text": "1, Penguin",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Lungfish",
+      "raw_text": "1, Lungfish",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Giant Crab",
+      "raw_text": "1, Giant Crab",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Camel",
+      "raw_text": "1, Camel",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Oxen",
+      "raw_text": "1, Oxen",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Giant Frog",
+      "raw_text": "1, Giant Frog",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Gargoyle",
+      "raw_text": "1, Gargoyle",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Myconoid",
+      "raw_text": "1, Myconoid",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Shrieker",
+      "raw_text": "1, Shrieker",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Treant",
+      "raw_text": "1, Treant",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Cerebral Parasite",
+      "raw_text": "1, Cerebral Parasite",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Lamia Centaur",
+      "raw_text": "1, Lamia Centaur",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Sylph",
+      "raw_text": "1, Sylph",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Chaos Warrior Mutant",
+      "raw_text": "1, Chaos Warrior Mutant",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Death Knight",
+      "raw_text": "1, Death Knight",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Anemone",
+      "raw_text": "1, Anemone",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Chamomile",
+      "raw_text": "1, Chamomile",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Mimic",
+      "raw_text": "1, Mimic",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Shape-changer",
+      "raw_text": "1, Shape-changer",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Invisible Stalker",
+      "raw_text": "1, Invisible Stalker",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Genie",
+      "raw_text": "1, Genie",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Gas Spore",
+      "raw_text": "1, Gas Spore",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Shrieker Spore",
+      "raw_text": "1, Shrieker Spore",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Crystal Mist",
+      "raw_text": "1, Crystal Mist",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Vampire Mist",
+      "raw_text": "1, Vampire Mist",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Vampire Vine",
+      "raw_text": "1, Vampire Vine",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Flumph",
+      "raw_text": "1, Flumph",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Giant Spider",
+      "raw_text": "1, Giant Spider",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Telepath Manta Ray",
+      "raw_text": "1, Telepath Manta Ray",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Beholder Aboleth",
+      "raw_text": "1, Beholder Aboleth",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Sensory",
+      "raw_text": "1, Sensory",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Aaroka",
+      "raw_text": "1, Aaroka",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Pterodactyl",
+      "raw_text": "1, Pterodactyl",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Feathered Dinosaur",
+      "raw_text": "1, Feathered Dinosaur",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Imp Winged Cat",
+      "raw_text": "1, Imp Winged Cat",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Phase Spider",
+      "raw_text": "1, Phase Spider",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Blink Dog",
+      "raw_text": "1, Blink Dog",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Dark Elf",
+      "raw_text": "1, Dark Elf",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Troglodyte Mammal",
+      "raw_text": "1, Troglodyte Mammal",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Lizard Man",
+      "raw_text": "1, Lizard Man",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Fish Man",
+      "raw_text": "1, Fish Man",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Manticore",
+      "raw_text": "1, Manticore",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Ghoul",
+      "raw_text": "1, Ghoul",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Beast-man",
+      "raw_text": "1, Beast-man",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Minotaur",
+      "raw_text": "1, Minotaur",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "Umbrella",
+      "raw_text": "1, Umbrella",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "Will-o'-the-Wisp",
+      "raw_text": "1, Will-o'-the-Wisp",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "Giant Amoeba",
+      "raw_text": "1, Giant Amoeba",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "Yeti",
+      "raw_text": "1, Yeti",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "Duckbill",
+      "raw_text": "1, Duckbill",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "Yuan Tao",
+      "raw_text": "1, Yuan Tao",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "Vegetarian",
+      "raw_text": "1, Vegetarian",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "Kao Tao",
+      "raw_text": "1, Kao Tao",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "Oblivion",
+      "raw_text": "1, Oblivion",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "Song Yoong",
+      "raw_text": "1, Song Yoong",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "Taupe Yap",
+      "raw_text": "1, Taupe Yap",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "Zombie Dinosaur",
+      "raw_text": "1, Zombie Dinosaur",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "Zombie Horse",
+      "raw_text": "1, Zombie Horse",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "Archaeopteryx",
+      "raw_text": "1, Archaeopteryx",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "Insect Colony",
+      "raw_text": "1, Insect Colony",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "Psychic Mushroom",
+      "raw_text": "1, Psychic Mushroom",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "Sponge",
+      "raw_text": "1, Sponge",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "Confuciusornis Feathered Dinosaur",
+      "raw_text": "1, Confuciusornis Feathered Dinosaur",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "Insect Swarm",
+      "raw_text": "1, Insect Swarm",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "Giant Insect",
+      "raw_text": "1, Giant Insect",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "Land Fish",
+      "raw_text": "1, Land Fish",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "Skeleton",
+      "raw_text": "1, Skeleton",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "Ghost",
+      "raw_text": "1, Ghost",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "Feathered Dinosaur",
+      "raw_text": "1, Feathered Dinosaur",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "Intelligent Primate",
+      "raw_text": "1, Intelligent Primate",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "Primate",
+      "raw_text": "1, Primate",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "Tool Using Primate",
+      "raw_text": "1, Tool Using Primate",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "Riding Wolf",
+      "raw_text": "1, Riding Wolf",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "Riding Dog",
+      "raw_text": "1, Riding Dog",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "Riding Pony",
+      "raw_text": "1, Riding Pony",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "Riding Bipedal Dinosaur",
+      "raw_text": "1, Riding Bipedal Dinosaur",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "Riding Quadrupedal Dinosaur",
+      "raw_text": "1, Riding Quadrupedal Dinosaur",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "Riding Insect",
+      "raw_text": "1, Riding Insect",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "Riding Beast",
+      "raw_text": "1, Riding Beast",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "Riding Flightless Bird",
+      "raw_text": "1, Riding Flightless Bird",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "Riding Bird",
+      "raw_text": "1, Riding Bird",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "Salamander",
+      "raw_text": "1, Salamander",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "Owl",
+      "raw_text": "1, Owl",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "Venomous Snake",
+      "raw_text": "1, Venomous Snake",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "Constrictor Snake",
+      "raw_text": "1, Constrictor Snake",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "Crocodile",
+      "raw_text": "1, Crocodile",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "Pig",
+      "raw_text": "1, Pig",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "Bull",
+      "raw_text": "1, Bull",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "Rabbit",
+      "raw_text": "1, Rabbit",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "Serpent",
+      "raw_text": "1, Serpent",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "Boar",
+      "raw_text": "1, Boar",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "Tortoise",
+      "raw_text": "1, Tortoise",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "Turtle",
+      "raw_text": "1, Turtle",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "War Pony",
+      "raw_text": "1, War Pony",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "War Horse",
+      "raw_text": "1, War Horse",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "War Dog",
+      "raw_text": "1, War Dog",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "War Lizard",
+      "raw_text": "1, War Lizard",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "War Beast",
+      "raw_text": "1, War Beast",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "War Mount",
+      "raw_text": "1, War Mount",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "War Bird",
+      "raw_text": "1, War Bird",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "Fox",
+      "raw_text": "1, Fox",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "Amphibian",
+      "raw_text": "1, Amphibian",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "Marsupial",
+      "raw_text": "1, Marsupial",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "Rodent",
+      "raw_text": "1, Rodent",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "Ferret",
+      "raw_text": "1, Ferret",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "Platypus",
+      "raw_text": "1, Platypus",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "Echidna",
+      "raw_text": "1, Echidna",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "Anteater",
+      "raw_text": "1, Anteater",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "Hedgehog",
+      "raw_text": "1, Hedgehog",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "Pangolin",
+      "raw_text": "1, Pangolin",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "Flightless Bird",
+      "raw_text": "1, Flightless Bird",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "Wild Horse",
+      "raw_text": "1, Wild Horse",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "Wild Pony",
+      "raw_text": "1, Wild Pony",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "Wild Dog",
+      "raw_text": "1, Wild Dog",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "Pet",
+      "raw_text": "1, Pet",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "Alpaca",
+      "raw_text": "1, Alpaca",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "Stray",
+      "raw_text": "1, Stray",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "Butterfly",
+      "raw_text": "1, Butterfly",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "Parrot",
+      "raw_text": "1, Parrot",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "Crow",
+      "raw_text": "1, Crow",
+      "references": []
+    },
+    {
+      "index": 172,
+      "weight": 1,
+      "text": "Magpie",
+      "raw_text": "1, Magpie",
+      "references": []
+    },
+    {
+      "index": 173,
+      "weight": 1,
+      "text": "Budgerigar",
+      "raw_text": "1, Budgerigar ",
+      "references": []
+    },
+    {
+      "index": 174,
+      "weight": 1,
+      "text": "Carrion Bird",
+      "raw_text": "1, Carrion Bird",
+      "references": []
+    },
+    {
+      "index": 175,
+      "weight": 1,
+      "text": "Giant Axolotyl",
+      "raw_text": "1, Giant Axolotyl",
+      "references": []
+    },
+    {
+      "index": 176,
+      "weight": 1,
+      "text": "Crane",
+      "raw_text": "1, Crane",
+      "references": []
+    },
+    {
+      "index": 177,
+      "weight": 1,
+      "text": "Mule",
+      "raw_text": "1, Mule",
+      "references": []
+    },
+    {
+      "index": 178,
+      "weight": 1,
+      "text": "Donkey",
+      "raw_text": "1, Donkey",
+      "references": []
+    },
+    {
+      "index": 179,
+      "weight": 1,
+      "text": "Worm",
+      "raw_text": "1, Worm",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";beast\n1, Wild Dog\n1, Wolf\n1, Wild Cat\n1, Great Cat\n1, Ursine\n1, Bear\n1, Stag\n1, Deer\n1, Hind\n1, Wild Cattle\n1, Stray Cattle\n1, Wild Pony\n1, Stray Pony\n1, Wild Goats\n1, Stray Goats\n1, Wild Boar\n1, Stray Pig\n1, Domestic Horse\n1, Brumby\n1, Falcon\n1, Raptor\n1, Hawk\n1, Reptile\n1, Unicorn\n1, Poison Snake\n1, Constrictor Snake\n1, Wyvren\n1, Tiny Dinosaur\n1, Small Dinosaur\n1, Dinosaur\n1, Large Dinosaur\n1, Mythic Dinosaur\n1, Rats\n1, Dog\n1, Giant Bee\n1, Giant Ant\n1, Giant Frog\n1, Giant Beetle\n1, Fire Beetle\n1, Werewolf\n1, Giant Rat\n1, Smillodon\n1, Unique Creature\n1, Reincarnate\n1, Angel\n1, Displacer Beast\n1, Rust Monster\n1, Xaren Xorn\n1, Illiterate\n1, Caryatid\n1, Ghost\n1, Zebra\n1, Penguin\n1, Lungfish\n1, Giant Crab\n1, Camel\n1, Oxen\n1, Giant Frog\n1, Gargoyle\n1, Myconoid\n1, Shrieker\n1, Treant\n1, Cerebral Parasite\n1, Lamia Centaur\n1, Sylph\n1, Chaos Warrior Mutant\n1, Death Knight\n1, Anemone\n1, Chamomile\n1, Mimic\n1, Shape-changer\n1, Invisible Stalker\n1, Genie\n1, Gas Spore\n1, Shrieker Spore\n1, Crystal Mist\n1, Vampire Mist\n1, Vampire Vine\n1, Flumph\n1, Giant Spider\n1, Telepath Manta Ray\n1, Beholder Aboleth\n1, Sensory\n1, Aaroka\n1, Pterodactyl\n1, Feathered Dinosaur\n1, Imp Winged Cat\n1, Phase Spider\n1, Blink Dog\n1, Dark Elf\n1, Troglodyte Mammal\n1, Lizard Man\n1, Fish Man\n1, Manticore\n1, Ghoul\n1, Beast-man\n1, Minotaur\n1, Umbrella\n1, Will-o'-the-Wisp\n1, Giant Amoeba\n1, Yeti\n1, Duckbill\n1, Yuan Tao\n1, Vegetarian\n1, Kao Tao\n1, Oblivion\n1, Song Yoong\n1, Taupe Yap\n1, Zombie Dinosaur\n1, Zombie Horse\n1, Archaeopteryx\n1, Insect Colony\n1, Psychic Mushroom\n1, Sponge\n1, Confuciusornis Feathered Dinosaur\n1, Insect Swarm\n1, Giant Insect\n1, Land Fish\n1, Skeleton\n1, Ghost\n1, Feathered Dinosaur\n1, Intelligent Primate\n1, Primate\n1, Tool Using Primate\n1, Riding Wolf\n1, Riding Dog\n1, Riding Pony\n1, Riding Bipedal Dinosaur\n1, Riding Quadrupedal Dinosaur\n1, Riding Insect\n1, Riding Beast\n1, Riding Flightless Bird\n1, Riding Bird\n1, Salamander\n1, Owl\n1, Venomous Snake\n1, Constrictor Snake\n1, Crocodile\n1, Pig\n1, Bull\n1, Rabbit\n1, Serpent\n1, Boar\n1, Tortoise\n1, Turtle\n1, War Pony\n1, War Horse\n1, War Dog\n1, War Lizard\n1, War Beast\n1, War Mount\n1, War Bird\n1, Fox\n1, Amphibian\n1, Marsupial\n1, Rodent\n1, Ferret\n1, Platypus\n1, Echidna\n1, Anteater\n1, Hedgehog\n1, Pangolin\n1, Flightless Bird\n1, Wild Horse\n1, Wild Pony\n1, Wild Dog\n1, Pet\n1, Alpaca\n1, Stray\n1, Butterfly\n1, Parrot\n1, Crow\n1, Magpie\n1, Budgerigar \n1, Carrion Bird\n1, Giant Axolotyl\n1, Crane\n1, Mule\n1, Donkey\n1, Worm",
+  "warnings": []
+}

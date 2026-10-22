@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14224,
+    "timestamp": "2012-04-02T10:53:27Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20120618",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20120618/random_generatorcom-20120618-history.xml.7z",
+      "sourceSha256": "3d62fe4b7329f9491b813ce2cd3777f252bdb36d650dc27dcd0b096b84cba6af",
+      "sourceMember": "random_generatorcom-20120618-history.xml",
+      "xmlSha256": "ac7965fa7c806c03abf8e7d28cd97f99ccb793a618ef7aa1c88c059e579fda78",
+      "xmlBytes": 5787764,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20120618-history.xml.7z",
+      "textSha256": "c2c53f3a955b43634a82f944a5c63e0526562a13e2d6b6749bf329ebdbfcd84d",
+      "rawSha256": "14487369df7750a4f32b023753eaa806dafcbbb2b6f998d1b8438ff5a984179d",
+      "revisionId": "14224",
+      "line": 212,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SELF-SACRIFICEFORAKIN",
+    "qualified_name": "User:Snake Eyes.SELF-SACRIFICEFORAKIN",
+    "table_block_index": 0,
+    "line_number": 212
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";SELF-SACRIFICEFORAKIN\nSELF-SACRIFICE FOR A KIN\n\na Hero a Kinsman\na Creditor or a Person/Thing sacrificed\n\nThe Hero sacrifices a Person or Thing for their Kinsman, which is then taken by the Creditor.",
+  "warnings": [
+    "Line 211: preserved nonstandard row before first entry: SELF-SACRIFICE FOR A KIN",
+    "Line 213: preserved nonstandard row before first entry: a Hero a Kinsman",
+    "Line 214: preserved nonstandard row before first entry: a Creditor or a Person/Thing sacrificed",
+    "Line 216: preserved nonstandard row before first entry: The Hero sacrifices a Person or Thing for their Kinsman, which is then taken by the Creditor."
+  ]
+}

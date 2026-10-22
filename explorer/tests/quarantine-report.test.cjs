@@ -191,6 +191,41 @@ test('report marks the case pass complete when no eligible candidates remain', c
   assert.match(markdown, /new imports or relaxed execution limits/);
 });
 
+test('report verifies historical archives and combined blockers without inflating current scope', context => {
+  const fixture = reportFixture(context);
+  const hash = content => crypto.createHash('sha256').update(content).digest('hex');
+  const historicalFile = 'tables/abulafia/source/historical/1.json';
+  const snapshotFile = 'archive/abulafia-recovery/fixture/1.json';
+  const archive = JSON.parse(fixture.archive);
+  archive.tables[0].current.sourceFile = snapshotFile;
+  const content = JSON.stringify(archive);
+  fixture.write(historicalFile, content);
+  const manifest = structuredClone(fixture.manifest);
+  manifest.tables[0].historical = { basis: 'verified-xml-definition' };
+  manifest.tables[0].archiveFile = historicalFile;
+  manifest.tables[0].sourceFile = snapshotFile;
+  manifest.generatedFiles = { [historicalFile]: { sha256: hash(content), bytes: Buffer.byteLength(content) } };
+  const manifestBytes = JSON.stringify(manifest);
+  const inventory = structuredClone(fixture.inventory);
+  inventory.provenance.manifestSha256 = hash(manifestBytes);
+  inventory.scope = { ...inventory.scope, currentWikiTables: 2, importedHistoricalTables: 1, currentImportedTables: 1, catalogWikiTables: 3 };
+  inventory.catalog = structuredClone(inventory.current);
+  inventory.current.summary.byState = { 'ready-static': 1, 'not-imported': 1 };
+  inventory.historical = { summary: { byState: { blocked: 1 } } };
+  fixture.write('tables/abulafia/manifest.json', manifestBytes);
+  fixture.write('Docs/macro-inventory.json', JSON.stringify(inventory));
+  const report = buildReport(fixture.root);
+  assert.equal(report.scope.currentWikiTables, 2);
+  assert.equal(report.scope.importedHistoricalTables, 1);
+  assert.equal(report.scope.stateCounts.blocked, 1);
+  assert.equal(report.scope.historicalStateCounts.blocked, 1);
+  assert.match(renderMarkdown(report), /imported historical/i);
+  assert.match(renderMarkdown(report), /\.\.\/archive\/abulafia-recovery\/fixture\/1\.json/);
+  assert.doesNotMatch(renderMarkdown(report), /blob\/abc123\/archive\/abulafia-recovery/);
+  fixture.write('Docs/macro-inventory.json', JSON.stringify({ ...inventory, scope: { ...inventory.scope, importedHistoricalTables: 2 } }));
+  assert.throws(() => buildReport(fixture.root), /scope|historical/i);
+});
+
 test('report rejects stale inventory, changed evidence, and source symlinks before writing', context => {
   const fixture = reportFixture(context);
   const report = buildReport(fixture.root);

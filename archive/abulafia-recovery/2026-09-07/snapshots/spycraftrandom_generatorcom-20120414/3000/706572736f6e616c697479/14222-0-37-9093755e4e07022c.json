@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "9093755e4e07022cf199e1eca663668c9141f75153668cc1f1f12cb91b57fd55",
+      "revisionId": "14222",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "personality",
+    "qualified_name": "User:Snake Eyes.personality",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "(Neuroticism)([Neuroticism])",
+      "raw_text": "1, (Neuroticism)([Neuroticism])",
+      "references": [
+        {
+          "raw": "[Neuroticism]",
+          "token": "Neuroticism",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "personality",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "Neuroticism",
+          "target_qualified_name": "User:Snake Eyes.Neuroticism"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "(Extraversion)([Extraversion])",
+      "raw_text": "1, (Extraversion)([Extraversion])",
+      "references": [
+        {
+          "raw": "[Extraversion]",
+          "token": "Extraversion",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "personality",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "Extraversion",
+          "target_qualified_name": "User:Snake Eyes.Extraversion"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "(Openness to experience)([Openness to experience])",
+      "raw_text": "1, (Openness to experience)([Openness to experience])",
+      "references": [
+        {
+          "raw": "[Openness to experience]",
+          "token": "Openness to experience",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "personality",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "Openness to experience",
+          "target_qualified_name": "User:Snake Eyes.Openness to experience"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "(Agreeableness)([Agreeableness])",
+      "raw_text": "1, (Agreeableness)([Agreeableness])",
+      "references": [
+        {
+          "raw": "[Agreeableness]",
+          "token": "Agreeableness",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "personality",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "Agreeableness",
+          "target_qualified_name": "User:Snake Eyes.Agreeableness"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "(Conscientiousness)([Conscientiousness])",
+      "raw_text": "1, (Conscientiousness)([Conscientiousness])",
+      "references": [
+        {
+          "raw": "[Conscientiousness]",
+          "token": "Conscientiousness",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "personality",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "Conscientiousness",
+          "target_qualified_name": "User:Snake Eyes.Conscientiousness"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Agreeableness",
+      "Conscientiousness",
+      "Extraversion",
+      "Neuroticism",
+      "Openness to experience"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";personality\n1, (Neuroticism)([Neuroticism])\n1, (Extraversion)([Extraversion])\n1, (Openness to experience)([Openness to experience])\n1, (Agreeableness)([Agreeableness])\n1, (Conscientiousness)([Conscientiousness])\n1,",
+  "warnings": []
+}

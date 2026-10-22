@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "681ab461653af80b83bd3e0bf04b9ad7a72ac663c1a69ee48a0a97fbafe871c5",
+      "revisionId": "14222",
+      "line": 76,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "events",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.events",
+    "table_block_index": 0,
+    "line_number": 76
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[compass][event]",
+      "raw_text": "3, [compass][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "compass",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.compass"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "event",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.event"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[compass][environmental][event]",
+      "raw_text": "2, [compass][environmental][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "compass",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.compass"
+        },
+        {
+          "raw": "[environmental]",
+          "token": "environmental",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environmental",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environmental"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "event",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.event"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[compass][event][event]",
+      "raw_text": "1, [compass][event][event]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "compass",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.compass"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "event",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.event"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "events",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "event",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.event"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "compass",
+      "environmental",
+      "event"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";events\n3, [compass][event]\n2, [compass][environmental][event]\n1, [compass][event][event]",
+  "warnings": []
+}

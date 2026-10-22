@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "eda76d9d4c1198b530a0ad975638c90cd9f7ea2d2a44be2778b050d3bddbcece",
+      "revisionId": "1643",
+      "line": 445,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Nature",
+    "qualified_name": "Pickpocket.Nature",
+    "table_block_index": 0,
+    "line_number": 445
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "a pretty shell",
+      "raw_text": "10,a pretty shell",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "a pouch of seeds",
+      "raw_text": "5,a pouch of seeds",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "a pouch of rich black earth",
+      "raw_text": "5,a pouch of rich black earth",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "an acorn",
+      "raw_text": "3,an acorn",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "a small wooden box containing dried flower petals",
+      "raw_text": "3,a small wooden box containing dried flower petals",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 3,
+      "text": "a small bunch of sweet-smelling flowers",
+      "raw_text": "3,a small bunch of sweet-smelling flowers",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "a small bunch of aromatic leaves",
+      "raw_text": "3,a small bunch of aromatic leaves",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "a sharktooth",
+      "raw_text": "3,a sharktooth",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "a bird's nest",
+      "raw_text": "3,a bird's nest",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "a smooth translucent white pebble",
+      "raw_text": "2,a smooth translucent white pebble",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "a smooth sand-colored pebble",
+      "raw_text": "2,a smooth sand-colored pebble",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "a smooth gray pebble",
+      "raw_text": "2,a smooth gray pebble",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "a smooth black pebble",
+      "raw_text": "2,a smooth black pebble",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 2,
+      "text": "a smooth amber-colored pebble",
+      "raw_text": "2,a smooth amber-colored pebble",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "a small yellow flower",
+      "raw_text": "2,a small yellow flower",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "a small white flower",
+      "raw_text": "2,a small white flower",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 2,
+      "text": "a small red flower",
+      "raw_text": "2,a small red flower",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "a small purple flower",
+      "raw_text": "2,a small purple flower",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "a small blue flower",
+      "raw_text": "2,a small blue flower",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "a yellow feather",
+      "raw_text": "1,a yellow feather",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "a white feather",
+      "raw_text": "1,a white feather",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a silver feather",
+      "raw_text": "1,a silver feather",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a red feather",
+      "raw_text": "1,a red feather",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "a purple feather",
+      "raw_text": "1,a purple feather",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "a green feather",
+      "raw_text": "1,a green feather",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a gray feather",
+      "raw_text": "1,a gray feather",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a golden feather",
+      "raw_text": "1,a golden feather",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a brown feather",
+      "raw_text": "1,a brown feather",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "a blue feather",
+      "raw_text": "1,a blue feather",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "a black feather",
+      "raw_text": "1,a black feather",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Nature\n10,a pretty shell\n5,a pouch of seeds\n5,a pouch of rich black earth\n3,an acorn\n3,a small wooden box containing dried flower petals\n3,a small bunch of sweet-smelling flowers\n3,a small bunch of aromatic leaves\n3,a sharktooth\n3,a bird's nest\n2,a smooth translucent white pebble\n2,a smooth sand-colored pebble\n2,a smooth gray pebble\n2,a smooth black pebble\n2,a smooth amber-colored pebble\n2,a small yellow flower\n2,a small white flower\n2,a small red flower\n2,a small purple flower\n2,a small blue flower\n1,a yellow feather\n1,a white feather\n1,a silver feather\n1,a red feather\n1,a purple feather\n1,a green feather\n1,a gray feather\n1,a golden feather\n1,a brown feather\n1,a blue feather\n1,a black feather",
+  "warnings": []
+}

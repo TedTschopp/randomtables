@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 16080,
+    "timestamp": "2012-12-06T14:56:03Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0b96ed0e6a468956639c34da77e9bef94b0d3d47a00fe12abfce0cc920fe12ca",
+      "rawSha256": "7afc0c1f20efa5e09789a70c1a65389087450140d15455188d24eb568fe87bea",
+      "revisionId": "16080",
+      "line": 194,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17456",
+        "timestamp": "2013-03-21T19:09:43Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Intangible",
+    "qualified_name": "Creepy Fantasy Villain.Intangible",
+    "table_block_index": 0,
+    "line_number": 194
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "Worm",
+      "raw_text": "3,Worm",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Beast",
+      "raw_text": "1,Beast",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Wolf",
+      "raw_text": "1,Wolf",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Terror",
+      "raw_text": "1,Terror",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Horror",
+      "raw_text": "1,Horror",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Dread",
+      "raw_text": "1,Dread",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Corpse",
+      "raw_text": "1,Corpse",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Silence",
+      "raw_text": "1,Silence",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Darkness",
+      "raw_text": "1,Darkness",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Plague",
+      "raw_text": "1,Plague",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Stench",
+      "raw_text": "1,Stench",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Foulness",
+      "raw_text": "1,Foulness",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Thing",
+      "raw_text": "1,Thing",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Devil",
+      "raw_text": "1,Devil",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1,Demon",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Fiend",
+      "raw_text": "1,Fiend",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Fear",
+      "raw_text": "1,Fear",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Nightmare",
+      "raw_text": "1,Nightmare",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Disease",
+      "raw_text": "1,Disease",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Pain",
+      "raw_text": "1,Pain",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Shadow",
+      "raw_text": "1,Shadow",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Torment",
+      "raw_text": "1,Torment",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Despair",
+      "raw_text": "1,Despair",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Hatred",
+      "raw_text": "1,Hatred",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Desolation",
+      "raw_text": "1,Desolation",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Intangible\n3,Worm\n1,Beast\n1,Wolf\n1,Terror\n1,Horror\n1,Dread\n1,Corpse\n1,Silence\n1,Darkness\n1,Plague\n1,Stench\n1,Foulness\n1,Thing\n1,Devil\n1,Demon\n1,Fiend\n1,Fear\n1,Nightmare\n1,Disease\n1,Pain\n1,Shadow\n1,Torment\n1,Despair\n1,Hatred\n1,Desolation",
+  "warnings": []
+}

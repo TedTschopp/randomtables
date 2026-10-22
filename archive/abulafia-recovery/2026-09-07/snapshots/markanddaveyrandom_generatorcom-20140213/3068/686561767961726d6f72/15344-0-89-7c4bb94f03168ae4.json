@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15344,
+    "timestamp": "2012-10-08T07:50:02Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "00ca9cb6f3c73be085717bd36fff72fc4bcffd0d2e86ac7890458cb5a68b34d4",
+      "rawSha256": "7c4bb94f03168ae47ecc94439a1b9c525942c73abbe44279ad38be3007db9ab9",
+      "revisionId": "15344",
+      "line": 89,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "heavyarmor",
+    "qualified_name": "Starting Equipment.heavyarmor",
+    "table_block_index": 0,
+    "line_number": 89
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[describemetal]plate mail(+7)[maybeshield]",
+      "raw_text": "3,[describemetal]plate mail(+7)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[describemetal]field plate(+8)[maybeshield]",
+      "raw_text": "2,[describemetal]field plate(+8)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[describemetal]full plate(+9)[maybeshield]",
+      "raw_text": "1,[describemetal]full plate(+9)[maybeshield]",
+      "references": [
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        },
+        {
+          "raw": "[maybeshield]",
+          "token": "maybeshield",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "heavyarmor",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeshield",
+          "target_qualified_name": "Starting Equipment.maybeshield"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "describemetal",
+      "maybeshield"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";heavyarmor\n3,[describemetal]plate mail(+7)[maybeshield]\n2,[describemetal]field plate(+8)[maybeshield]\n1,[describemetal]full plate(+9)[maybeshield]",
+  "warnings": []
+}

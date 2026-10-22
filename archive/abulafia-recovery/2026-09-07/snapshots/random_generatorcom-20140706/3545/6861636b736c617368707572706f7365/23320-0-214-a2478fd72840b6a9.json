@@ -1,0 +1,872 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "a2478fd72840b6a9d190ebc93cdd85aea902b49aef49cc689f3b7fab76e2ad0b",
+      "revisionId": "23320",
+      "line": 214,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hackslashpurpose",
+    "qualified_name": "OSR weapon.hackslashpurpose",
+    "table_block_index": 0,
+    "line_number": 214
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Defeat opposed alignment",
+      "raw_text": "1,Defeat opposed alignment",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Defeat Good",
+      "raw_text": "1,Defeat Good",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Defeat Evil",
+      "raw_text": "1,Defeat Evil",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Defeat Law",
+      "raw_text": "1,Defeat Law",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Defeat Chaos",
+      "raw_text": "1,Defeat Chaos",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Defeat Neutrality",
+      "raw_text": "1,Defeat Neutrality",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Slay Clerics",
+      "raw_text": "1,Slay Clerics",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Slay Druids",
+      "raw_text": "1,Slay Druids",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Slay Shamans",
+      "raw_text": "1,Slay Shamans",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Slay Paladins",
+      "raw_text": "1,Slay Paladins",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Slay Monks",
+      "raw_text": "1,Slay Monks",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Slay Fighters",
+      "raw_text": "1,Slay Fighters",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Slay Rangers",
+      "raw_text": "1,Slay Rangers",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Slay Barbarians",
+      "raw_text": "1,Slay Barbarians",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Slay all warriors",
+      "raw_text": "1,Slay all warriors",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Slay Wizards",
+      "raw_text": "1,Slay Wizards",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Slay Magic Wielders",
+      "raw_text": "1,Slay Magic Wielders",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Slay Thieves",
+      "raw_text": "1,Slay Thieves",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Slay Bards",
+      "raw_text": "1,Slay Bards",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Slay all Rogues",
+      "raw_text": "1,Slay all Rogues",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Slay Devas (movanic, monadic and astral)",
+      "raw_text": "1,Slay Devas (movanic, monadic and astral)",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Slay Planetars",
+      "raw_text": "1,Slay Planetars",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Slay Solars",
+      "raw_text": "1,Slay Solars",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Slay Devils",
+      "raw_text": "1,Slay Devils",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Slay Demons",
+      "raw_text": "1,Slay Demons",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Slay Daemons",
+      "raw_text": "1,Slay Daemons",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Slay all Celestial Beings",
+      "raw_text": "1,Slay all Celestial Beings",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Slay all Demonic Beings",
+      "raw_text": "1,Slay all Demonic Beings",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Slay Neutral Outsiders",
+      "raw_text": "1,Slay Neutral Outsiders",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Slay all Ousiders",
+      "raw_text": "1,Slay all Ousiders",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Slay Dragons",
+      "raw_text": "1,Slay Dragons",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Slay Avians",
+      "raw_text": "1,Slay Avians",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Slay Reptiles",
+      "raw_text": "1,Slay Reptiles",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Slay Amphibians",
+      "raw_text": "1,Slay Amphibians",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Slay Fae",
+      "raw_text": "1,Slay Fae",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Slay Giants",
+      "raw_text": "1,Slay Giants",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Slay Non-humanoid Monsters",
+      "raw_text": "1,Slay Non-humanoid Monsters",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Slay Humans",
+      "raw_text": "1,Slay Humans",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Slay Elves",
+      "raw_text": "1,Slay Elves",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Slay Dwarves",
+      "raw_text": "1,Slay Dwarves",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Slay Gnomes",
+      "raw_text": "1,Slay Gnomes",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Slay Goblins",
+      "raw_text": "1,Slay Goblins",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Slay Orcs",
+      "raw_text": "1,Slay Orcs",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Slay Gnolls",
+      "raw_text": "1,Slay Gnolls",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Slay Hobgoblins",
+      "raw_text": "1,Slay Hobgoblins",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Slay Vermin",
+      "raw_text": "1,Slay Vermin",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Slay Undead",
+      "raw_text": "1,Slay Undead",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Slay Golems",
+      "raw_text": "1,Slay Golems",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Slay a Famous Monster",
+      "raw_text": "1,Slay a Famous Monster",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Slay Demi-humans",
+      "raw_text": "1,Slay Demi-humans",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Slay Humanoids",
+      "raw_text": "1,Slay Humanoids",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Slay Insectoid Monsters",
+      "raw_text": "1,Slay Insectoid Monsters",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Slay all Aquatic Creatures",
+      "raw_text": "1,Slay all Aquatic Creatures",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Slay all Flying Creatures",
+      "raw_text": "1,Slay all Flying Creatures",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Slay Magic using Monsters",
+      "raw_text": "1,Slay Magic using Monsters",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Slay Monstrous Plants",
+      "raw_text": "1,Slay Monstrous Plants",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Slay Psionic Creatures",
+      "raw_text": "1,Slay Psionic Creatures",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Slay Intelligent Undead",
+      "raw_text": "1,Slay Intelligent Undead",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Slay Bizarre Monsters (Aberrations)",
+      "raw_text": "1,Slay Bizarre Monsters (Aberrations)",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Slay Constructs",
+      "raw_text": "1,Slay Constructs",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Slay Subterranean Monsters",
+      "raw_text": "1,Slay Subterranean Monsters",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Slay Subterranean Humanoids",
+      "raw_text": "1,Slay Subterranean Humanoids",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Slay Shapchangers",
+      "raw_text": "1,Slay Shapchangers",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Slay Swarms",
+      "raw_text": "1,Slay Swarms",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Slay Elementals",
+      "raw_text": "1,Slay Elementals",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Acquire Gold",
+      "raw_text": "1,Acquire Gold",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Win Duels",
+      "raw_text": "1,Win Duels",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Slay for Profit",
+      "raw_text": "1,Slay for Profit",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Destroy Spellbooks",
+      "raw_text": "1,Destroy Spellbooks",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Conquer Kingdoms",
+      "raw_text": "1,Conquer Kingdoms",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Enforce Justice",
+      "raw_text": "1,Enforce Justice",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Seek Knowledge (of a certain type)",
+      "raw_text": "1,Seek Knowledge (of a certain type)",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Defend Group (of a certain type)",
+      "raw_text": "1,Defend Group (of a certain type)",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Slay Friends",
+      "raw_text": "1,Slay Friends",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Control/Influence Men to [hackslashpurpose]",
+      "raw_text": "1,Control/Influence Men to [hackslashpurpose]",
+      "references": [
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Oppress/Imprison Humanoids/Demi-Humans (specific type)",
+      "raw_text": "1,Oppress/Imprison Humanoids/Demi-Humans (specific type)",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Garner Fame",
+      "raw_text": "1,Garner Fame",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Cause/Seek War",
+      "raw_text": "1,Cause/Seek War",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Destroy Specific Culture/People",
+      "raw_text": "1,Destroy Specific Culture/People",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Seek Honor by [hackslashmundane]",
+      "raw_text": "1,Seek Honor by [hackslashmundane]",
+      "references": [
+        {
+          "raw": "[hackslashmundane]",
+          "token": "hackslashmundane",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashmundane",
+          "target_qualified_name": "OSR weapon.hackslashmundane"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Seek Truth (Cannot Lie), and [hackslashmundane]",
+      "raw_text": "1,Seek Truth (Cannot Lie), and [hackslashmundane]",
+      "references": [
+        {
+          "raw": "[hackslashmundane]",
+          "token": "hackslashmundane",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashmundane",
+          "target_qualified_name": "OSR weapon.hackslashmundane"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Avoid Honesty (Cannot Tell the Truth), and [hackslashmundane]",
+      "raw_text": "1,Avoid Honesty (Cannot Tell the Truth), and [hackslashmundane]",
+      "references": [
+        {
+          "raw": "[hackslashmundane]",
+          "token": "hackslashmundane",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashmundane",
+          "target_qualified_name": "OSR weapon.hackslashmundane"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Destroy Religion",
+      "raw_text": "1,Destroy Religion",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Seek Travel",
+      "raw_text": "1,Seek Travel ",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Defend Location (DM Selects)",
+      "raw_text": "1,Defend Location (DM Selects)",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Become King (or at the side of the King)",
+      "raw_text": "1,Become King (or at the side of the King)",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Spread/Enforce Religion",
+      "raw_text": "1,Spread/Enforce Religion",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Destroy Wealth",
+      "raw_text": "1,Destroy Wealth",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Destroy Objects (Caravans, Castles, etc.)",
+      "raw_text": "1,Destroy Objects (Caravans, Castles, etc.)",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Avoid Violence",
+      "raw_text": "1,Avoid Violence ",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Gain Friends (Power of Heart!)",
+      "raw_text": "1,Gain Friends (Power of Heart!)",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Destroy Technology",
+      "raw_text": "1,Destroy Technology",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Experience/Gain Pleasure (vicariously)",
+      "raw_text": "1,Experience/Gain Pleasure (vicariously)",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Prevent or Cause Event (End of World, Docking of Ships, whatever)",
+      "raw_text": "1,Prevent or Cause Event (End of World, Docking of Ships, whatever)",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Slay Any (DM Selects)",
+      "raw_text": "1,Slay Any (DM Selects)",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "Slay Sentient (Souldrinker)",
+      "raw_text": "1,Slay Sentient (Souldrinker)",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "Slay All (Lifedrinker)",
+      "raw_text": "1,Slay All (Lifedrinker)",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "[hackslashpurpose] and [hackslashpurpose]",
+      "raw_text": "1,[hackslashpurpose] and [hackslashpurpose]",
+      "references": [
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        },
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "[hackslashpurpose] and [hackslashpurpose]",
+      "raw_text": "1,[hackslashpurpose] and [hackslashpurpose]",
+      "references": [
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        },
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "[hackslashpurpose] and [hackslashpurpose], [excpetional]",
+      "raw_text": "1,[hackslashpurpose] and [hackslashpurpose], [excpetional]",
+      "references": [
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        },
+        {
+          "raw": "[hackslashpurpose]",
+          "token": "hackslashpurpose",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "hackslashpurpose",
+          "target_qualified_name": "OSR weapon.hackslashpurpose"
+        },
+        {
+          "raw": "[excpetional]",
+          "token": "excpetional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "hackslashpurpose",
+          "target_page": "OSR weapon",
+          "target_subtable": "excpetional",
+          "target_qualified_name": "OSR weapon.excpetional"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "excpetional",
+      "hackslashmundane",
+      "hackslashpurpose"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";hackslashpurpose\n1,Defeat opposed alignment\n1,Defeat Good\n1,Defeat Evil\n1,Defeat Law\n1,Defeat Chaos\n1,Defeat Neutrality\n1,Slay Clerics\n1,Slay Druids\n1,Slay Shamans\n1,Slay Paladins\n1,Slay Monks\n1,Slay Fighters\n1,Slay Rangers\n1,Slay Barbarians\n1,Slay all warriors\n1,Slay Wizards\n1,Slay Magic Wielders\n1,Slay Thieves\n1,Slay Bards\n1,Slay all Rogues\n1,Slay Devas (movanic, monadic and astral)\n1,Slay Planetars\n1,Slay Solars\n1,Slay Devils\n1,Slay Demons\n1,Slay Daemons\n1,Slay all Celestial Beings\n1,Slay all Demonic Beings\n1,Slay Neutral Outsiders\n1,Slay all Ousiders\n1,Slay Dragons\n1,Slay Avians\n1,Slay Reptiles\n1,Slay Amphibians\n1,Slay Fae\n1,Slay Giants\n1,Slay Non-humanoid Monsters\n1,Slay Humans\n1,Slay Elves\n1,Slay Dwarves\n1,Slay Gnomes\n1,Slay Goblins\n1,Slay Orcs\n1,Slay Gnolls\n1,Slay Hobgoblins\n1,Slay Vermin\n1,Slay Undead\n1,Slay Golems\n1,Slay a Famous Monster\n1,Slay Demi-humans\n1,Slay Humanoids\n1,Slay Insectoid Monsters\n1,Slay all Aquatic Creatures\n1,Slay all Flying Creatures\n1,Slay Magic using Monsters\n1,Slay Monstrous Plants\n1,Slay Psionic Creatures\n1,Slay Intelligent Undead\n1,Slay Bizarre Monsters (Aberrations)\n1,Slay Constructs\n1,Slay Subterranean Monsters\n1,Slay Subterranean Humanoids\n1,Slay Shapchangers\n1,Slay Swarms\n1,Slay Elementals\n1,Acquire Gold\n1,Win Duels\n1,Slay for Profit\n1,Destroy Spellbooks\n1,Conquer Kingdoms\n1,Enforce Justice\n1,Seek Knowledge (of a certain type)\n1,Defend Group (of a certain type)\n1,Slay Friends\n1,Control/Influence Men to [hackslashpurpose]\n1,Oppress/Imprison Humanoids/Demi-Humans (specific type)\n1,Garner Fame\n1,Cause/Seek War\n1,Destroy Specific Culture/People\n1,Seek Honor by [hackslashmundane]\n1,Seek Truth (Cannot Lie), and [hackslashmundane]\n1,Avoid Honesty (Cannot Tell the Truth), and [hackslashmundane]\n1,Destroy Religion\n1,Seek Travel \n1,Defend Location (DM Selects)\n1,Become King (or at the side of the King)\n1,Spread/Enforce Religion\n1,Destroy Wealth\n1,Destroy Objects (Caravans, Castles, etc.)\n1,Avoid Violence \n1,Gain Friends (Power of Heart!)\n1,Destroy Technology\n1,Experience/Gain Pleasure (vicariously)\n1,Prevent or Cause Event (End of World, Docking of Ships, whatever)\n1,Slay Any (DM Selects)\n1,Slay Sentient (Souldrinker)\n1,Slay All (Lifedrinker)\n1,[hackslashpurpose] and [hackslashpurpose]\n1,[hackslashpurpose] and [hackslashpurpose]\n1,[hackslashpurpose] and [hackslashpurpose], [excpetional]",
+  "warnings": []
+}

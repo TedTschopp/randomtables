@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "previousManifestSha256": "93b7485e00cf3588bb73fe8835ddc226755928fb49872d40d9877d14d76fbc81",
+  "nextManifestSha256": "f02311f936f57ceebcb99f6705e6fe2f0c7d90d48f31736051a939db3b09684f",
+  "previous": {
+    "tables": 32255,
+    "ready": 25647,
+    "blocked": 6608,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "current": {
+    "tables": 32255,
+    "ready": 25716,
+    "blocked": 6539,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "promoted": [
+    {
+      "id": "wiki_abulafia_2793_63697479206775617264",
+      "name": "1E DMG City Encounter.city guard",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2793_63697479206775617264206d616769632d75736572",
+      "name": "1E DMG City Encounter.city guard magic-user",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2793_6e69676874",
+      "name": "1E DMG City Encounter.night",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1503_417263616e65417574686f72",
+      "name": "ArcaneBooks.ArcaneAuthor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1503_417574686f724368616e6365",
+      "name": "ArcaneBooks.AuthorChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1742_636f7272757074746172676574",
+      "name": "Champion of darkness.corrupttarget",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2272_70726f64756365",
+      "name": "Crate.produce",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2272_70726f647563656f72636c6f7468696e676f72636f6f6b746f6f6c73",
+      "name": "Crate.produceorclothingorcooktools",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_637531",
+      "name": "Delver Fate.cu1",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_637532",
+      "name": "Delver Fate.cu2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_63756c74707269736f6e6572",
+      "name": "Delver Fate.cultprisoner",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_666f7274756e6520656e64696e67",
+      "name": "Delver Fate.fortune ending",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_e29980676f6f645f656e64",
+      "name": "Delver Fate.♀good_end",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_e299807375727669766564",
+      "name": "Delver Fate.♀survived",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_e29982676f6f645f656e64",
+      "name": "Delver Fate.♂good_end",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3242_e299827375727669766564",
+      "name": "Delver Fate.♂survived",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3366_6d61676963576f7264",
+      "name": "Elf-folk.magicWord",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3255_4d616765",
+      "name": "Enchanted Sword.Mage",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1536_476f6473",
+      "name": "Fantasy Farmstead.Gods",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2053_496e646976696475616c456e656d79",
+      "name": "Fantasy Male Military Hero.IndividualEnemy",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2068_44656974794d616c65",
+      "name": "Fantasy Pantheon.DeityMale",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2068_4465697479526f6c654d616c65",
+      "name": "Fantasy Pantheon.DeityRoleMale",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2068_6d61696e",
+      "name": "Fantasy Pantheon.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2068_756e6e616d6564",
+      "name": "Fantasy Pantheon.unnamed",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3257_4576656e7453657474696e6773",
+      "name": "Fantasy Sport.EventSettings",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3257_4d61696e",
+      "name": "Fantasy Sport.Main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3257_4d6179626556656e7565",
+      "name": "Fantasy Sport.MaybeVenue",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3257_56656e7565",
+      "name": "Fantasy Sport.Venue",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3257_56656e756554797065",
+      "name": "Fantasy Sport.VenueType",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_5769746853696465",
+      "name": "FantasyMenu.WithSide",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_436976696c69616e",
+      "name": "Generic Sci Fi Character.Civilian",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_436976696c69616e4c6f776572436c617373",
+      "name": "Generic Sci Fi Character.CivilianLowerClass",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_4f746865724f636375706174696f6e",
+      "name": "Generic Sci Fi Character.OtherOccupation",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_4f7468657250726f66657373696f6e",
+      "name": "Generic Sci Fi Character.OtherProfession",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_50726f66657373696f6e",
+      "name": "Generic Sci Fi Character.Profession",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_52656c6967696f7573",
+      "name": "Generic Sci Fi Character.Religious",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2478_7373",
+      "name": "Generic Sci Fi Character.ss",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2637_50726f66657373696f6e",
+      "name": "Generic Space Plot.Profession",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3358_417574686f72",
+      "name": "Holy Books.Author",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3358_636c657269635469746c654368616e6365",
+      "name": "Holy Books.clericTitleChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_4d61726974696d65536f6369616c436c6173736573",
+      "name": "Jgbaxter MedievalSocialClass.MaritimeSocialClasses",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2775_57697a617264204e616d65",
+      "name": "Obsessive Wizard.Wizard Name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2055_4d7974686f6c6f676963616c",
+      "name": "Painting.Mythological",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2055_52656c6967696f7573",
+      "name": "Painting.Religious",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4419_6e616d657072656669786d616c65",
+      "name": "Patent Medicine.nameprefixmale",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4578_476f64",
+      "name": "Premade Pathfinder Character.God",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4578_4d6179626520476f64",
+      "name": "Premade Pathfinder Character.Maybe God",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4578_52656c6967696f757320476f64",
+      "name": "Premade Pathfinder Character.Religious God",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2712_56696c6c61696e",
+      "name": "Quick Creepy Villains.Villain",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2712_6d61696e",
+      "name": "Quick Creepy Villains.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1600_6d61696e",
+      "name": "SGNP magicians.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1611_6d61696e",
+      "name": "Secret Society Title.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2135_426f6d62657253686970",
+      "name": "Ship Description.BomberShip",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2135_4669676874657253686970",
+      "name": "Ship Description.FighterShip",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2135_4e616d65",
+      "name": "Ship Description.Name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3355_6d61676963576f7264",
+      "name": "Spellbooks.magicWord",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3959_4465697479",
+      "name": "Trade Goods.Deity",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_61707072656e746963656e616d65",
+      "name": "User:Adamwb.apprenticename",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_6d616769632d75736572",
+      "name": "User:Adamwb.magic-user",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3636_6d616769632d75736572",
+      "name": "User:Adamwb/sandbox.magic-user",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3129_6d6f7469766174696f6e",
+      "name": "Villain.motivation",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3129_6d6f7469766174696f6e2066756c6c",
+      "name": "Villain.motivation full",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3044_57697a617264204e616d65",
+      "name": "Wizard Tower.Wizard Name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3044_6e616d65",
+      "name": "Wizard Tower.name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4629_52656c6967696f6e2054797065",
+      "name": "World/Setting.Religion Type",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4629_52656c6967696f75732056696577",
+      "name": "World/Setting.Religious View",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4016_6d61696e",
+      "name": "Zenume Names and Titles.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4000_6d61696e",
+      "name": "Zenume Region Names.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4000_726567696f6e6e616d65",
+      "name": "Zenume Region Names.regionname",
+      "historical": false,
+      "execution": "wiki"
+    }
+  ],
+  "preservedReadyBehavior": 25647,
+  "preservedArchives": 2170,
+  "protectedFileHashes": {
+    "explorer/tools/case-reference-corrections.json": "cdd8f0774e724e4ade8b93db15b2df8169442f6003057ae0ffdc28b065c1d780",
+    "explorer/tools/recovery-case-corrections.json": "8aff266db11a5b2877231ed7dc466a4995c7313147231c4972f70676f6dc20be",
+    "explorer/tools/all-case-reference-corrections.json": "7c8646a45f8747817fd74f763fd5be4985244a69d7dd7fdd06be257c6ce63902",
+    "explorer/tools/source-extraction-corrections.json": "93fc7ac6b63c3e170b52dd100b459681e37a58d27aa837db2b50a0960bfb4a78",
+    "explorer/tools/recursion-policies.json": "39e063697710e25c07685eead422947d590ad10296f5cc39581db1f1fa930f1e",
+    "explorer/tools/historical-recovery.json": "cf29081a98d0087fcfe1008d7f049a61294bf63f6002037aa2edb8138954b144"
+  },
+  "codeHashes": {
+    "explorer/tools/import-abulafia.cjs": "5f5806b033401ce665ca60c6ada177a23564108f398d575e3cbfd76cdeda14d0",
+    "explorer/tools/compile-wiki-expressions.cjs": "28fa2dbf91f13ddaf3cb4d54eb3173f5d07a877de457d19698342191306fb3d7",
+    "JS/wiki-expressions.js": "de0e0514b2207b59d80f5b29186c2579303ccbd0748da581e301e5a9dcc5a560",
+    "JS/wiki-recursion.js": "187dabbeada9e1f48ef83593c2e4360617aee2759b083e71c960722825929ff6",
+    "JS/wiki-import.js": "f8c465765d69ac7e5d54b972a34a0f2f79bd9d5f3f9c329d3b00a3f6d43443a6",
+    "JS/wiki-template-data.js": "602638b8d67276ed3e1f420619ad42dc826cff312d0793eb1ac7c1e323c92567"
+  },
+  "changed": [
+    {
+      "file": "explorer/abulafia-catalog.js",
+      "beforeSha256": "fed1951679e93d6396a0906915b0610126fd435259cab648af5aa9b5b6c8f6b3",
+      "afterSha256": "75b653bdb5fae1460b206d81712d50ab5b63d5fb3d7df5c9c8bce1ed54b358b2"
+    },
+    {
+      "file": "tables/abulafia/manifest.json",
+      "beforeSha256": "93b7485e00cf3588bb73fe8835ddc226755928fb49872d40d9877d14d76fbc81",
+      "afterSha256": "f02311f936f57ceebcb99f6705e6fe2f0c7d90d48f31736051a939db3b09684f"
+    }
+  ],
+  "currentReady": 21223,
+  "historicalReady": 4493,
+  "staticReady": 24562,
+  "runtimeReady": 1154,
+  "publication": {
+    "generatedOn": "2026-09-08",
+    "manifestSha256": "f02311f936f57ceebcb99f6705e6fe2f0c7d90d48f31736051a939db3b09684f",
+    "changes": [
+      {
+        "file": "Docs/macro-inventory.json",
+        "beforeSha256": "02b441aba85f96d0a6b24c333f0d25f173931e2ce4e53c389321b838acdf394d",
+        "afterSha256": "41388dbd29637d2755a639870c6ff613ee15b69203e67eee7c9474e3abe4b883"
+      },
+      {
+        "file": "Docs/macro-inventory.md",
+        "beforeSha256": "a40eed045f86da1da02690c2841ad8c6daa5e3521cb766ba2ef7fe900d88bfc1",
+        "afterSha256": "64425f816fe8209310344d4d36c9f253ea193860b183967eef41cda892b3840e"
+      },
+      {
+        "file": "Docs/quarantine-report.json",
+        "beforeSha256": "ef0d8749a63e83568fcedf20cf257b76c932aa8296ca7186f74f3d8a62e75209",
+        "afterSha256": "7c6751ae6d5183a94c133d80280d278a518156a823853a402caaca5aa7aa8366"
+      },
+      {
+        "file": "Docs/quarantine-report.md",
+        "beforeSha256": "e54499449807b6897a2cbbba90c394f78bd58cf3f1687a029f113a5ca20849c5",
+        "afterSha256": "4360a201ce2fe81174f1bacf9b6cc9e14ee374c76c920a276d3909771ca230d2"
+      },
+      {
+        "file": "Docs/missing-unresolved-references.json",
+        "beforeSha256": "f110555f8ad9ec24be0e7dae3160392ca1a2d58527954ef4e77632a37f050aba",
+        "afterSha256": "a00eb266ecb90d0b88924d1d9f1878a2a8339ab12dd2cc034266ed797fd438cb"
+      },
+      {
+        "file": "Docs/missing-unresolved-references.md",
+        "beforeSha256": "003217c4cee34f7a18aaee0c50adad733e96a4c7718a6b8bdf420dbbedc5c445",
+        "afterSha256": "590cf78ad8ac32d99cae517c3abc6871394b6231740debb56c77aa4066437b62"
+      }
+    ],
+    "quarantine": {
+      "importedTables": 32255,
+      "readyTables": 25716,
+      "blockedTables": 6539,
+      "dependencyOnlyTables": 3458,
+      "multipleRootTables": 3392,
+      "rootComponents": 2948,
+      "cyclicComponents": 607,
+      "unexplainedTables": 0
+    },
+    "references": {
+      "readyTables": 25716,
+      "blockedTables": 6539,
+      "targets": 842,
+      "graphTargets": 842,
+      "namedDiagnosticTargets": 773,
+      "graphOnlyTargets": 69,
+      "diagnosticOnlyTargets": 0,
+      "referringTables": 748,
+      "targetRowUses": 2102,
+      "tablesWithReferenceDiagnostics": 788,
+      "classificationCounts": {
+        "absent-from-import": 834,
+        "exact-imported": 8
+      }
+    },
+    "caseCorrectionBatch": {
+      "components": 0,
+      "targets": 0,
+      "conditionalRecovery": 0
+    }
+  }
+}

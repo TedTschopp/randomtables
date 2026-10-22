@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "da1b855f00f294f6b61d33117aaca13384445aac3747f30f94d23f6b0f7e1d95",
+      "revisionId": "21256",
+      "line": 63,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mount",
+    "qualified_name": "Ostler.mount",
+    "table_block_index": 0,
+    "line_number": 63
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "horse",
+      "raw_text": "3,horse",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "mule",
+      "raw_text": "1,mule",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "camel",
+      "raw_text": "1,camel",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "elephant",
+      "raw_text": "1,elephant",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "cat",
+      "raw_text": "1,cat",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "hound",
+      "raw_text": "1,hound",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mount\n3,horse\n1,mule\n1,camel\n1,elephant\n1,cat\n1,hound",
+  "warnings": []
+}

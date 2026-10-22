@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "dba28867a7db86bc4db1bd5de5a35df58dce6812470f55b70d48948fcf48e2af",
+      "revisionId": "10367",
+      "line": 789,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Decoration",
+    "qualified_name": "Pickpocket.Decoration",
+    "table_block_index": 0,
+    "line_number": 789
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a family crest",
+      "raw_text": "1,a family crest",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "the image of [Utility.AnimalSymbol]",
+      "raw_text": "1,the image of [Utility.AnimalSymbol]",
+      "references": [
+        {
+          "raw": "[Utility.AnimalSymbol]",
+          "token": "Utility.AnimalSymbol",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Decoration",
+          "target_page": "Utility",
+          "target_subtable": "AnimalSymbol",
+          "target_qualified_name": "Utility.AnimalSymbol"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "the image of [Utility.CreatureSymbol]",
+      "raw_text": "1,the image of [Utility.CreatureSymbol]",
+      "references": [
+        {
+          "raw": "[Utility.CreatureSymbol]",
+          "token": "Utility.CreatureSymbol",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Decoration",
+          "target_page": "Utility",
+          "target_subtable": "CreatureSymbol",
+          "target_qualified_name": "Utility.CreatureSymbol"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "the image of [Utility.PlantSymbol]",
+      "raw_text": "1,the image of [Utility.PlantSymbol]",
+      "references": [
+        {
+          "raw": "[Utility.PlantSymbol]",
+          "token": "Utility.PlantSymbol",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Decoration",
+          "target_page": "Utility",
+          "target_subtable": "PlantSymbol",
+          "target_qualified_name": "Utility.PlantSymbol"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "the image of [SpiritForm.DisplaySpirits]",
+      "raw_text": "1,the image of [SpiritForm.DisplaySpirits]",
+      "references": [
+        {
+          "raw": "[SpiritForm.DisplaySpirits]",
+          "token": "SpiritForm.DisplaySpirits",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Decoration",
+          "target_page": "SpiritForm",
+          "target_subtable": "DisplaySpirits",
+          "target_qualified_name": "SpiritForm.DisplaySpirits"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a simple [Utility.GeometricSymbol]",
+      "raw_text": "1,a simple [Utility.GeometricSymbol]",
+      "references": [
+        {
+          "raw": "[Utility.GeometricSymbol]",
+          "token": "Utility.GeometricSymbol",
+          "kind": "cross_page",
+          "source_page": "Pickpocket",
+          "source_subtable": "Decoration",
+          "target_page": "Utility",
+          "target_subtable": "GeometricSymbol",
+          "target_qualified_name": "Utility.GeometricSymbol"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "the insignia of a military unit",
+      "raw_text": "1,the insignia of a military unit",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "the coat of arms of a city, nation, or other location",
+      "raw_text": "1,the coat of arms of a city, nation, or other location",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "SpiritForm.DisplaySpirits",
+      "Utility.AnimalSymbol",
+      "Utility.CreatureSymbol",
+      "Utility.GeometricSymbol",
+      "Utility.PlantSymbol"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";Decoration\n1,a family crest\n1,the image of [Utility.AnimalSymbol]\n1,the image of [Utility.CreatureSymbol]\n1,the image of [Utility.PlantSymbol]\n1,the image of [SpiritForm.DisplaySpirits]\n1,a simple [Utility.GeometricSymbol]\n1,the insignia of a military unit\n1,the coat of arms of a city, nation, or other location",
+  "warnings": []
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28915,
+    "timestamp": "2015-09-13T21:15:39Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "f73e1bf83f39a21e78f13b6385edb1459ecc6c15fc766d2d5cfce62f6e05b0a4",
+      "rawSha256": "c130f1314f00a8a598da8a47897fc310a2c3200a40b661021f274b800991a016",
+      "revisionId": "28915",
+      "line": 87,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hair",
+    "qualified_name": "QuickAdjective.hair",
+    "table_block_index": 0,
+    "line_number": 87
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "black",
+      "raw_text": "1,black",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "brown",
+      "raw_text": "1,brown",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "dark",
+      "raw_text": "1,dark",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "golden",
+      "raw_text": "1,golden",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "raven",
+      "raw_text": "1,raven",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "red",
+      "raw_text": "1,red",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "white",
+      "raw_text": "1,white",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";hair\n1,black\n1,brown\n1,dark\n1,golden\n1,raven\n1,red\n1,white",
+  "warnings": []
+}

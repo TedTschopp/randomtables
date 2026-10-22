@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 17746,
+    "timestamp": "2013-06-18T18:04:58Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "6063a8034f435a69af92afe77d1f124ddc57566060dc548122384bf2a5d05477",
+      "rawSha256": "178ef475f51566ea735f2af1106d059edc3a54dc5314724ea9a53a7cf149264d",
+      "revisionId": "17746",
+      "line": 39,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17754",
+        "timestamp": "2013-06-18T18:25:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "looking for somebody",
+    "qualified_name": "Hireling.looking for somebody",
+    "table_block_index": 0,
+    "line_number": 39
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "their friend",
+      "raw_text": "1,their friend",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "their brother or sister",
+      "raw_text": "1,their brother or sister",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "their father",
+      "raw_text": "1,their father",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "their lover",
+      "raw_text": "1,their lover",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "their spouse",
+      "raw_text": "1,their spouse",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";looking for somebody\n1,their friend\n1,their brother or sister\n1,their father\n1,their lover\n1,their spouse",
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15355,
+    "timestamp": "2012-10-08T08:57:24Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "83deaefa35ae3841407b1717ca4b5208a3317a546096d5216315c08acf5d6ab5",
+      "rawSha256": "efe44902944321d2dc5da06bf876f2d0a051247e76f8739d403d43aba0615ed8",
+      "revisionId": "15355",
+      "line": 157,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rations",
+    "qualified_name": "Starting Equipment.rations",
+    "table_block_index": 0,
+    "line_number": 157
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Dice.d8] days [Village.food] rations",
+      "raw_text": "1,[Dice.d8] days [Village.food] rations",
+      "references": [
+        {
+          "raw": "[Dice.d8]",
+          "token": "Dice.d8",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rations",
+          "target_page": "Dice",
+          "target_subtable": "d8",
+          "target_qualified_name": "Dice.d8"
+        },
+        {
+          "raw": "[Village.food]",
+          "token": "Village.food",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rations",
+          "target_page": "Village",
+          "target_subtable": "food",
+          "target_qualified_name": "Village.food"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.d8",
+      "Village.food"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";rations\n1,[Dice.d8] days [Village.food] rations",
+  "warnings": []
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "b03672def20326fcb11276d16a7c78bf4bed33e0bf733b1dd809a45612bcbb05",
+      "revisionId": "22354",
+      "line": 94,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "stone",
+    "qualified_name": "Guards.stone",
+    "table_block_index": 0,
+    "line_number": 94
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "sandstone",
+      "raw_text": "1,sandstone",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "limestone",
+      "raw_text": "1,limestone",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "soapstone",
+      "raw_text": "1,soapstone",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "black basalt",
+      "raw_text": "1,black basalt",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "black volcanic",
+      "raw_text": "1,black volcanic",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "granite",
+      "raw_text": "1,granite",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "pink granite",
+      "raw_text": "1,pink granite",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "green marble",
+      "raw_text": "1,green marble",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "blue marble",
+      "raw_text": "1,blue marble",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "black marble",
+      "raw_text": "1,black marble",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "white marble",
+      "raw_text": "1,white marble",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "glistening white marble",
+      "raw_text": "1,glistening white marble",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";stone\n10,\n1,sandstone\n1,limestone\n1,soapstone\n1,black basalt\n1,black volcanic\n1,granite\n1,pink granite\n1,green marble\n1,blue marble\n1,black marble\n1,white marble\n1,glistening white marble",
+  "warnings": []
+}

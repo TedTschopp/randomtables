@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 14732,
+    "timestamp": "2012-06-20T09:05:46Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "2817d557310e11581f6736d0b370356e433a2bb679fabf8788d19bed80c8763b",
+      "rawSha256": "de538e9e3d0ff2ffec750feb689bf2fc83033eb31bbfb7c057c6fcbf999832aa",
+      "revisionId": "14732",
+      "line": 7,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "16333",
+        "timestamp": "2012-12-21T06:19:45Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mounts-general",
+    "qualified_name": "Ostler.mounts-general",
+    "table_block_index": 0,
+    "line_number": 7
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "racing [mounts]",
+      "raw_text": "1, racing [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "pack [mounts]",
+      "raw_text": "1, pack [mounts]",
+      "references": [
+        {
+          "raw": "[mounts]",
+          "token": "mounts",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "mounts-general",
+          "target_page": "Ostler",
+          "target_subtable": "mounts",
+          "target_qualified_name": "Ostler.mounts"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "mounts"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mounts-general\n1, racing [mounts]\n1, pack [mounts]",
+  "warnings": []
+}

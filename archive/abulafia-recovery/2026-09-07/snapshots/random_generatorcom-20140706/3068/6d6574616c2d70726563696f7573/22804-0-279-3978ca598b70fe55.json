@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "3978ca598b70fe556e0525e11aceb6e9ae76d7b1ec7d0dcd160d370f6dd68f67",
+      "revisionId": "22804",
+      "line": 279,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "metal-precious",
+    "qualified_name": "Starting Equipment.metal-precious",
+    "table_block_index": 0,
+    "line_number": 279
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "copper",
+      "raw_text": "10,copper",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 8,
+      "text": "silver",
+      "raw_text": "8,silver",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "brass",
+      "raw_text": "4,brass",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "bronze",
+      "raw_text": "4,bronze",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "gold",
+      "raw_text": "2,gold",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";metal-precious\n10,copper\n8,silver\n4,brass\n4,bronze\n2,gold",
+  "warnings": []
+}

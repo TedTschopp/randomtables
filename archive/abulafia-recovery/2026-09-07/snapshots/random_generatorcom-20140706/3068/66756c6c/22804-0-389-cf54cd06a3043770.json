@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "cf54cd06a3043770f2c137ceff1b363e4eab2bafc6c528e2bc87007b15bf3221",
+      "revisionId": "22804",
+      "line": 389,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "full",
+    "qualified_name": "Starting Equipment.full",
+    "table_block_index": 0,
+    "line_number": 389
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "full",
+      "raw_text": "3,full",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "half-empty",
+      "raw_text": "1,half-empty",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "empty",
+      "raw_text": "1,empty",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";full\n3,full\n1,half-empty\n1,empty",
+  "warnings": []
+}

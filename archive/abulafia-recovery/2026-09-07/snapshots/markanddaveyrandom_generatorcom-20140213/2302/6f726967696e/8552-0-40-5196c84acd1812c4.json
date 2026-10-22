@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 8552,
+    "timestamp": "2009-04-06T07:49:33Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "193315e7610dec4ac4d3dae2cedac91a720c42981561e548e731bfda86e26826",
+      "rawSha256": "5196c84acd1812c4a30cb775c0afd2cfa4fdebd91005892ddd772acf773a464d",
+      "revisionId": "8552",
+      "line": 40,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "origin",
+    "qualified_name": "Quick and Dirty Supers Concepts.origin",
+    "table_block_index": 0,
+    "line_number": 40
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Alien",
+      "raw_text": "1, Alien",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Mystical",
+      "raw_text": "1, Mystical",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Mutation",
+      "raw_text": "1, Mutation",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Super-Science",
+      "raw_text": "1, Super-Science",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Training",
+      "raw_text": "1, Training",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";origin\n1, Alien\n1, Mystical\n1, Mutation\n1, Super-Science\n1, Training",
+  "warnings": []
+}

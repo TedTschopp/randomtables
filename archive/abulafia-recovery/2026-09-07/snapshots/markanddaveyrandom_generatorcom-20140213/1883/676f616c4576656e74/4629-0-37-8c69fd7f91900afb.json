@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4629,
+    "timestamp": "2007-11-27T05:13:31Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "3354572f13f6577b49a2ff964a463a1ee99c83ab7707e7b4b92e9eac8c368731",
+      "rawSha256": "8c69fd7f91900afb56f0044d70ca8791e02e7c2b917ec24c844e2a99db73e678",
+      "revisionId": "4629",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "goalEvent",
+    "qualified_name": "Rituals.goalEvent",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "that to be cleansed from sin, one should",
+      "raw_text": "1,that to be cleansed from sin, one should",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "that before one may [privelegeAny], one should",
+      "raw_text": "1,that before one may [privelegeAny], one should",
+      "references": [
+        {
+          "raw": "[privelegeAny]",
+          "token": "privelegeAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "goalEvent",
+          "target_page": "Rituals",
+          "target_subtable": "privelegeAny",
+          "target_qualified_name": "Rituals.privelegeAny"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "that when a community is in turmoil, its elders should",
+      "raw_text": "1,that when a community is in turmoil, its elders should",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "that in order to be considered ready to die,",
+      "raw_text": "1,that in order to be considered ready to die,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "privelegeAny"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";goalEvent\n1,that to be cleansed from sin, one should\n1,that before one may [privelegeAny], one should\n1,that when a community is in turmoil, its elders should\n1,that in order to be considered ready to die,",
+  "warnings": []
+}

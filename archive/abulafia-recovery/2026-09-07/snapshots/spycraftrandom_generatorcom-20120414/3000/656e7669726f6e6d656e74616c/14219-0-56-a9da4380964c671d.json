@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "a9da4380964c671dbb3989b7d19a4f980ee5b8e718137ad1fccf4596008aa331",
+      "revisionId": "14219",
+      "line": 56,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "environmental",
+    "qualified_name": "User:Snake Eyes.environmental",
+    "table_block_index": 0,
+    "line_number": 56
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[environment]",
+      "raw_text": "3, [environment]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "environment",
+          "target_qualified_name": "User:Snake Eyes.environment"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[environment][write][environment]",
+      "raw_text": "2, [environment][write][environment]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "environment",
+          "target_qualified_name": "User:Snake Eyes.environment"
+        },
+        {
+          "raw": "[write]",
+          "token": "write",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "write",
+          "target_qualified_name": "User:Snake Eyes.write"
+        },
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "environment",
+          "target_qualified_name": "User:Snake Eyes.environment"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[environment][event]",
+      "raw_text": "1, [environment][event]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "environment",
+          "target_qualified_name": "User:Snake Eyes.environment"
+        },
+        {
+          "raw": "[event]",
+          "token": "event",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "environmental",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "event",
+          "target_qualified_name": "User:Snake Eyes.event"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "environment",
+      "event",
+      "write"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";environmental\n3, [environment]\n2, [environment][write][environment]\n1, [environment][event]",
+  "warnings": []
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16918,
+    "timestamp": "2013-02-12T02:09:00Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "36a06ceadb596ae83c9ce5b168946520c4230494ad1ceb8ff5c7134bb42dc06c",
+      "rawSha256": "3c0b610475919294f3373e27535e8e3e05498cae44d91445c4a20236f01d3690",
+      "revisionId": "16918",
+      "line": 37,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "atmosphere",
+    "qualified_name": "Planar Codex Parish.atmosphere",
+    "table_block_index": 0,
+    "line_number": 37
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "music\n:event-name",
+      "raw_text": "1,music\n:event-name",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a wedding",
+      "raw_text": "1,a wedding",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a funeral",
+      "raw_text": "1,a funeral",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a festival",
+      "raw_text": "1,a festival",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a riot",
+      "raw_text": "1,a riot",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a fire",
+      "raw_text": "1,a fire",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "an earthquake",
+      "raw_text": "1,an earthquake",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a temple day",
+      "raw_text": "1,a temple day",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "an auspicious birth",
+      "raw_text": "1,an auspicious birth",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a battle",
+      "raw_text": "1,a battle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "grim portents",
+      "raw_text": "1,grim portents",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a plague",
+      "raw_text": "1,a plague",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "a pilgrimage",
+      "raw_text": "1,a pilgrimage",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a kidnapping",
+      "raw_text": "1,a kidnapping",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a heist",
+      "raw_text": "1,a heist",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a change of government",
+      "raw_text": "1,a change of government",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "a fugitive escapes",
+      "raw_text": "1,a fugitive escapes",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "a raid",
+      "raw_text": "1,a raid",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";atmosphere\n1,music\n\n:event-name\n1,a wedding\n1,a funeral\n1,a festival\n1,a riot\n1,a fire\n1,an earthquake\n1,a temple day\n1,an auspicious birth\n1,a battle\n1,grim portents\n1,a plague\n1,a pilgrimage\n1,a kidnapping\n1,a heist\n1,a change of government\n1,a fugitive escapes\n1,a raid",
+  "warnings": []
+}

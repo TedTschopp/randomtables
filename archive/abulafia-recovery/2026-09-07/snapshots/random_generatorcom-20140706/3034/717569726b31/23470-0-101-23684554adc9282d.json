@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "23684554adc9282dcb00c310db0cf09152d2511cc6f5d7dd2c45e5f19dd4deda",
+      "revisionId": "23470",
+      "line": 101,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk1",
+    "qualified_name": "Village.quirk1",
+    "table_block_index": 0,
+    "line_number": 101
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "serves [patrontype][patron][Quick Zone Populations.maybename]",
+      "raw_text": "1,serves [patrontype][patron][Quick Zone Populations.maybename]",
+      "references": [
+        {
+          "raw": "[patrontype]",
+          "token": "patrontype",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "patrontype",
+          "target_qualified_name": "Village.patrontype"
+        },
+        {
+          "raw": "[patron]",
+          "token": "patron",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "patron",
+          "target_qualified_name": "Village.patron"
+        },
+        {
+          "raw": "[Quick Zone Populations.maybename]",
+          "token": "Quick Zone Populations.maybename",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "maybename",
+          "target_qualified_name": "Quick Zone Populations.maybename"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "built over [maybeweird][dungeon]",
+      "raw_text": "1,built over [maybeweird][dungeon]",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[dungeon]",
+          "token": "dungeon",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "dungeon",
+          "target_qualified_name": "Village.dungeon"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "well leads to [maybeweird][dungeon]",
+      "raw_text": "1,well leads to [maybeweird][dungeon]",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[dungeon]",
+          "token": "dungeon",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "dungeon",
+          "target_qualified_name": "Village.dungeon"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "arrive on day of sacrifice",
+      "raw_text": "1,arrive on day of sacrifice",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "arrive on market day",
+      "raw_text": "1,arrive on market day",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "arrive on day of [maybeweird][food] festival",
+      "raw_text": "1,arrive on day of [maybeweird][food] festival",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[food]",
+          "token": "food",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "food",
+          "target_qualified_name": "Village.food"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "arrive on day of [maybeweird][animal] festival",
+      "raw_text": "1,arrive on day of [maybeweird][animal] festival",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[animal]",
+          "token": "animal",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "animal",
+          "target_qualified_name": "Village.animal"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "arrive on day of [maybeweird][food] eating contest",
+      "raw_text": "1,arrive on day of [maybeweird][food] eating contest",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        },
+        {
+          "raw": "[food]",
+          "token": "food",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "food",
+          "target_qualified_name": "Village.food"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "arrive on day of [maybeweird]wedding ceremony",
+      "raw_text": "1,arrive on day of [maybeweird]wedding ceremony",
+      "references": [
+        {
+          "raw": "[maybeweird]",
+          "token": "maybeweird",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Village",
+          "target_subtable": "maybeweird",
+          "target_qualified_name": "Village.maybeweird"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "annual [Quick Zone Populations.power-animal] race",
+      "raw_text": "1,annual [Quick Zone Populations.power-animal] race",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "quirk1",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "locals are all women",
+      "raw_text": "1,locals are all women",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "locals are all men",
+      "raw_text": "1,locals are all men",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "locals are all children",
+      "raw_text": "1,locals are all children",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "many are dead",
+      "raw_text": "1,many are dead",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "many are missing",
+      "raw_text": "1,many are missing",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "ghost town",
+      "raw_text": "1,ghost town",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "animal",
+      "dungeon",
+      "food",
+      "maybeweird",
+      "patron",
+      "patrontype"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.maybename",
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";quirk1\n1,serves [patrontype][patron][Quick Zone Populations.maybename]\n1,built over [maybeweird][dungeon]\n1,well leads to [maybeweird][dungeon]\n1,arrive on day of sacrifice\n1,arrive on market day\n1,arrive on day of [maybeweird][food] festival\n1,arrive on day of [maybeweird][animal] festival\n1,arrive on day of [maybeweird][food] eating contest\n1,arrive on day of [maybeweird]wedding ceremony\n1,annual [Quick Zone Populations.power-animal] race\n1,locals are all women\n1,locals are all men\n1,locals are all children\n1,many are dead\n1,many are missing\n1,ghost town",
+  "warnings": []
+}

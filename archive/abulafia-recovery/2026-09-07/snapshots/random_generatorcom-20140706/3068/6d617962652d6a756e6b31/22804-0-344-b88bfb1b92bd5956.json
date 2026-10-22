@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "b88bfb1b92bd595684dab97c85766adc7ebc084faf4c75a78869d56a27262d84",
+      "revisionId": "22804",
+      "line": 344,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybe-junk1",
+    "qualified_name": "Starting Equipment.maybe-junk1",
+    "table_block_index": 0,
+    "line_number": 344
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[junk1]",
+      "raw_text": "4,[junk1]",
+      "references": [
+        {
+          "raw": "[junk1]",
+          "token": "junk1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybe-junk1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk1",
+          "target_qualified_name": "Starting Equipment.junk1"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[family]'s [junk1]",
+      "raw_text": "1,[family]'s [junk1]",
+      "references": [
+        {
+          "raw": "[family]",
+          "token": "family",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybe-junk1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "family",
+          "target_qualified_name": "Starting Equipment.family"
+        },
+        {
+          "raw": "[junk1]",
+          "token": "junk1",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "maybe-junk1",
+          "target_page": "Starting Equipment",
+          "target_subtable": "junk1",
+          "target_qualified_name": "Starting Equipment.junk1"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "family",
+      "junk1"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybe-junk1\n1,\n4,[junk1]\n1,[family]'s [junk1]",
+  "warnings": []
+}

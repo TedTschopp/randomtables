@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 9299,
+    "timestamp": "2009-07-20T16:03:16Z",
+    "contributor": {
+      "name": "MidnightLightning",
+      "id": 249,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5f75b6073f2c829b6c72fb86f40f0f88e0ac9aeeda9899300499bd4fe5562222",
+      "rawSha256": "91e6ffd138e79f3bdac4e0f679e76f8deb9e0b04c8fd84e5148fd8babab67dc9",
+      "revisionId": "9299",
+      "line": 78,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9312",
+        "timestamp": "2009-07-22T02:03:51Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cheese_type",
+    "qualified_name": "Found in a crate.cheese_type",
+    "table_block_index": 0,
+    "line_number": 78
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sharp",
+      "raw_text": "1,sharp",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "pungent-smelling",
+      "raw_text": "1,pungent-smelling",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fragrant",
+      "raw_text": "1,fragrant",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cheese_type\n1,sharp\n1,pungent-smelling\n1,fragrant",
+  "warnings": []
+}

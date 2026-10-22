@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ghetto Names",
+    "page_id": 2540
+  },
+  "source": {
+    "revision_id": 10431,
+    "timestamp": "2010-04-27T12:15:03Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8a207e528b897d63aa4f312558f77b8d3258f06001e5aeab3c55e69513c1fbeb",
+      "rawSha256": "05e1eb79afc785ccbba4093f99acf0f2ce7e77eeb9ebc845e908f48d14d272fe",
+      "revisionId": "10431",
+      "line": 6,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10436",
+        "timestamp": "2010-04-27T20:16:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "main",
+    "qualified_name": "Ghetto Names.main",
+    "table_block_index": 0,
+    "line_number": 6
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[ghettofirst] [ghettosurname]",
+      "raw_text": "1,[ghettofirst] [ghettosurname]",
+      "references": [
+        {
+          "raw": "[ghettofirst]",
+          "token": "ghettofirst",
+          "kind": "local",
+          "source_page": "Ghetto Names",
+          "source_subtable": "main",
+          "target_page": "Ghetto Names",
+          "target_subtable": "ghettofirst",
+          "target_qualified_name": "Ghetto Names.ghettofirst"
+        },
+        {
+          "raw": "[ghettosurname]",
+          "token": "ghettosurname",
+          "kind": "local",
+          "source_page": "Ghetto Names",
+          "source_subtable": "main",
+          "target_page": "Ghetto Names",
+          "target_subtable": "ghettosurname",
+          "target_qualified_name": "Ghetto Names.ghettosurname"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "ghettofirst",
+      "ghettosurname"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";main\n1,[ghettofirst] [ghettosurname]",
+  "warnings": []
+}

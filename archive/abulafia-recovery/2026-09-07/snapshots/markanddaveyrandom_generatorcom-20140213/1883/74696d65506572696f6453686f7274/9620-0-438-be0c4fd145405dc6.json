@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "be0c4fd145405dc66cff92b56becf1a51380cad93e5d69d953babb4633874fa0",
+      "revisionId": "9620",
+      "line": 438,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "timePeriodShort",
+    "qualified_name": "Rituals.timePeriodShort",
+    "table_block_index": 0,
+    "line_number": 438
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a day",
+      "raw_text": "1,a day",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Dice.2d4] days",
+      "raw_text": "1,[Dice.2d4] days",
+      "references": [
+        {
+          "raw": "[Dice.2d4]",
+          "token": "Dice.2d4",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "timePeriodShort",
+          "target_page": "Dice",
+          "target_subtable": "2d4",
+          "target_qualified_name": "Dice.2d4"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a week",
+      "raw_text": "1,a week",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a fortnight",
+      "raw_text": "1,a fortnight",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Dice.2d4"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";timePeriodShort\n1,a day\n1,[Dice.2d4] days\n1,a week\n1,a fortnight",
+  "warnings": []
+}

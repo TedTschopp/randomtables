@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9406,
+    "timestamp": "2009-07-31T10:54:26Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8cb92bdccbaacaf08c718ab8106613e4c16651ccfbe0cec69cea54ca631f1b22",
+      "rawSha256": "1d5d64e73cebddb654c9f3ac7e1a4a19fbf816de868b9a2784c74eb731dad919",
+      "revisionId": "9406",
+      "line": 380,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "room",
+    "qualified_name": "New gen.room",
+    "table_block_index": 0,
+    "line_number": 380
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Attic",
+      "raw_text": "1,Attic",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Cellar",
+      "raw_text": "1,Cellar",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Basement",
+      "raw_text": "1,Basement",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Closet",
+      "raw_text": "1,Closet",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Kitchen",
+      "raw_text": "1,Kitchen",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Library",
+      "raw_text": "1,Library",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";room\n1,Attic\n1,Cellar\n1,Basement\n1,Closet\n1,Kitchen\n1,Library",
+  "warnings": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "3065719d3374efc6dc8f76ed8d0aa409554a0b8065638f147d6418dfb63cb8f7",
+      "revisionId": "14222",
+      "line": 205,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "distance",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.distance",
+    "table_block_index": 0,
+    "line_number": 205
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "near",
+      "raw_text": "1, near",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "line of sight",
+      "raw_text": "1, line of sight",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "far",
+      "raw_text": "1, far",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "very far",
+      "raw_text": "1, very far",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "between [compass] and [compass]",
+      "raw_text": "1, between [compass] and [compass]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "distance",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "compass",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.compass"
+        },
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "distance",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "compass",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.compass"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "compass"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";distance\n1, near\n1, line of sight\n1, far\n1, very far\n1, between [compass] and [compass]",
+  "warnings": []
+}

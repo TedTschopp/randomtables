@@ -1,0 +1,4743 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 37699,
+    "timestamp": "2018-01-21T18:03:56Z",
+    "contributor": {
+      "name": "Jerimee",
+      "id": 1865,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "0ef5089897eaa1800a19c7ed2003621e4135e246d7069157e4ebf690878902e8",
+      "rawSha256": "929b8ab71600427dcfa2b38c69291b533231888ede185f7ffaa7fd7a8dfd2cd1",
+      "revisionId": "37699",
+      "line": 133,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "⚥",
+    "qualified_name": "QuickAdjective.⚥",
+    "table_block_index": 0,
+    "line_number": 133
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "[eye]-eyed",
+      "raw_text": "10,[eye]-eyed",
+      "references": [
+        {
+          "raw": "[eye]",
+          "token": "eye",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "eye",
+          "target_qualified_name": "QuickAdjective.eye"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 7,
+      "text": "[hair]-haired",
+      "raw_text": "7,[hair]-haired",
+      "references": [
+        {
+          "raw": "[hair]",
+          "token": "hair",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "hair",
+          "target_qualified_name": "QuickAdjective.hair"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "[face]-faced",
+      "raw_text": "4,[face]-faced",
+      "references": [
+        {
+          "raw": "[face]",
+          "token": "face",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "face",
+          "target_qualified_name": "QuickAdjective.face"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "[heart]hearted",
+      "raw_text": "4,[heart]hearted",
+      "references": [
+        {
+          "raw": "[heart]",
+          "token": "heart",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "heart",
+          "target_qualified_name": "QuickAdjective.heart"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 4,
+      "text": "[look]-looking",
+      "raw_text": "4,[look]-looking",
+      "references": [
+        {
+          "raw": "[look]",
+          "token": "look",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "look",
+          "target_qualified_name": "QuickAdjective.look"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 4,
+      "text": "[skin]-skinned",
+      "raw_text": "4,[skin]-skinned",
+      "references": [
+        {
+          "raw": "[skin]",
+          "token": "skin",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "skin",
+          "target_qualified_name": "QuickAdjective.skin"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 4,
+      "text": "[voice]-voiced",
+      "raw_text": "4,[voice]-voiced",
+      "references": [
+        {
+          "raw": "[voice]",
+          "token": "voice",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "voice",
+          "target_qualified_name": "QuickAdjective.voice"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "[spirit]-spirited",
+      "raw_text": "3,[spirit]-spirited",
+      "references": [
+        {
+          "raw": "[spirit]",
+          "token": "spirit",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "spirit",
+          "target_qualified_name": "QuickAdjective.spirit"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "[struck]-stricken",
+      "raw_text": "3,[struck]-stricken",
+      "references": [
+        {
+          "raw": "[struck]",
+          "token": "struck",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "struck",
+          "target_qualified_name": "QuickAdjective.struck"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "[temper]-tempered",
+      "raw_text": "3,[temper]-tempered",
+      "references": [
+        {
+          "raw": "[temper]",
+          "token": "temper",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "temper",
+          "target_qualified_name": "QuickAdjective.temper"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "[dis]agreeable",
+      "raw_text": "2,[dis]agreeable",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "[dis]courteous",
+      "raw_text": "2,[dis]courteous",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 2,
+      "text": "[dis]honorable",
+      "raw_text": "2,[dis]honorable",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "[dis]loyal",
+      "raw_text": "2,[dis]loyal",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "[dis]organized",
+      "raw_text": "2,[dis]organized",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "weight": 2,
+      "text": "[dis]passionate",
+      "raw_text": "2,[dis]passionate",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "[dis]respectful",
+      "raw_text": "2,[dis]respectful",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "[dis]trusting",
+      "raw_text": "2,[dis]trusting",
+      "references": [
+        {
+          "raw": "[dis]",
+          "token": "dis",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "dis",
+          "target_qualified_name": "QuickAdjective.dis"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 2,
+      "text": "[im]mature",
+      "raw_text": "2,[im]mature",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "weight": 2,
+      "text": "[im]modest",
+      "raw_text": "2,[im]modest",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "weight": 2,
+      "text": "[im]moral",
+      "raw_text": "2,[im]moral",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "weight": 2,
+      "text": "[im]patient",
+      "raw_text": "2,[im]patient",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "weight": 2,
+      "text": "[im]penitent",
+      "raw_text": "2,[im]penitent",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "weight": 2,
+      "text": "[im]pious",
+      "raw_text": "2,[im]pious",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "weight": 2,
+      "text": "[im]polite",
+      "raw_text": "2,[im]polite",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "weight": 2,
+      "text": "[im]practical",
+      "raw_text": "2,[im]practical",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "weight": 2,
+      "text": "[im]precise",
+      "raw_text": "2,[im]precise",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "weight": 2,
+      "text": "[im]prudent",
+      "raw_text": "2,[im]prudent",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "weight": 2,
+      "text": "[im]pure",
+      "raw_text": "2,[im]pure",
+      "references": [
+        {
+          "raw": "[im]",
+          "token": "im",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "im",
+          "target_qualified_name": "QuickAdjective.im"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 2,
+      "text": "[in]attentive",
+      "raw_text": "2,[in]attentive",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "weight": 2,
+      "text": "[in]cautious",
+      "raw_text": "2,[in]cautious",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "weight": 2,
+      "text": "[in]competent",
+      "raw_text": "2,[in]competent",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "weight": 2,
+      "text": "[in]curious",
+      "raw_text": "2,[in]curious",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "weight": 2,
+      "text": "[in]decisive",
+      "raw_text": "2,[in]decisive",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "weight": 2,
+      "text": "[in]delicate",
+      "raw_text": "2,[in]delicate",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "weight": 2,
+      "text": "[in]dependent",
+      "raw_text": "2,[in]dependent",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "weight": 2,
+      "text": "[in]efficient",
+      "raw_text": "2,[in]efficient",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "weight": 2,
+      "text": "[in]eloquent",
+      "raw_text": "2,[in]eloquent",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "weight": 2,
+      "text": "[in]experienced",
+      "raw_text": "2,[in]experienced",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "weight": 2,
+      "text": "[in]famous",
+      "raw_text": "2,[in]famous",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "weight": 2,
+      "text": "[in]hospitable",
+      "raw_text": "2,[in]hospitable",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 2,
+      "text": "[in]sensitive",
+      "raw_text": "2,[in]sensitive",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "weight": 2,
+      "text": "[in]sincere",
+      "raw_text": "2,[in]sincere",
+      "references": [
+        {
+          "raw": "[in]",
+          "token": "in",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "in",
+          "target_qualified_name": "QuickAdjective.in"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 2,
+      "text": "[un]accomplished",
+      "raw_text": "2,[un]accomplished",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "weight": 2,
+      "text": "[un]affectionate",
+      "raw_text": "2,[un]affectionate",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "weight": 2,
+      "text": "[un]ambitious",
+      "raw_text": "2,[un]ambitious",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "weight": 2,
+      "text": "[un]amused",
+      "raw_text": "2,[un]amused",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "weight": 2,
+      "text": "[un]apologetic",
+      "raw_text": "2,[un]apologetic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "weight": 2,
+      "text": "[un]appreciative",
+      "raw_text": "2,[un]appreciative",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "weight": 2,
+      "text": "[un]blushing",
+      "raw_text": "2,[un]blushing",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "weight": 2,
+      "text": "[un]businesslike",
+      "raw_text": "2,[un]businesslike",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "weight": 2,
+      "text": "[un]charismatic",
+      "raw_text": "2,[un]charismatic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "weight": 2,
+      "text": "[un]complaining",
+      "raw_text": "2,[un]complaining",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "weight": 2,
+      "text": "[un]confident",
+      "raw_text": "2,[un]confident",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "weight": 2,
+      "text": "[un]courageous",
+      "raw_text": "2,[un]courageous",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "weight": 2,
+      "text": "[un]diplomatic",
+      "raw_text": "2,[un]diplomatic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "weight": 2,
+      "text": "[un]dogmatic",
+      "raw_text": "2,[un]dogmatic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "weight": 2,
+      "text": "[un]embarrassed",
+      "raw_text": "2,[un]embarrassed",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "weight": 2,
+      "text": "[un]enterprising",
+      "raw_text": "2,[un]enterprising",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "weight": 2,
+      "text": "[un]envious",
+      "raw_text": "2,[un]envious",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "weight": 2,
+      "text": "[un]fashionable",
+      "raw_text": "2,[un]fashionable",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "weight": 2,
+      "text": "[un]forgiving",
+      "raw_text": "2,[un]forgiving",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "weight": 2,
+      "text": "[un]friendly",
+      "raw_text": "2,[un]friendly",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "weight": 2,
+      "text": "[un]generous",
+      "raw_text": "2,[un]generous",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "weight": 2,
+      "text": "[un]gentle",
+      "raw_text": "2,[un]gentle",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "weight": 2,
+      "text": "[un]grateful",
+      "raw_text": "2,[un]grateful",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "weight": 2,
+      "text": "[un]guarded",
+      "raw_text": "2,[un]guarded",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "weight": 2,
+      "text": "[un]happy",
+      "raw_text": "2,[un]happy",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "weight": 2,
+      "text": "[un]imaginative",
+      "raw_text": "2,[un]imaginative",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "weight": 2,
+      "text": "[un]injured",
+      "raw_text": "2,[un]injured",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "weight": 2,
+      "text": "[un]inquisitive",
+      "raw_text": "2,[un]inquisitive",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "weight": 2,
+      "text": "[un]jaundiced",
+      "raw_text": "2,[un]jaundiced",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "weight": 2,
+      "text": "[un]kind",
+      "raw_text": "2,[un]kind",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "weight": 2,
+      "text": "[un]learned",
+      "raw_text": "2,[un]learned",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "weight": 2,
+      "text": "[un]lovable",
+      "raw_text": "2,[un]lovable",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "weight": 2,
+      "text": "[un]orthodox",
+      "raw_text": "2,[un]orthodox",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "weight": 2,
+      "text": "[un]patriotic",
+      "raw_text": "2,[un]patriotic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "weight": 2,
+      "text": "[un]patronizing",
+      "raw_text": "2,[un]patronizing",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "weight": 2,
+      "text": "[un]perceptive",
+      "raw_text": "2,[un]perceptive",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "weight": 2,
+      "text": "[un]philosophical",
+      "raw_text": "2,[un]philosophical",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "weight": 2,
+      "text": "[un]popular",
+      "raw_text": "2,[un]popular",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "weight": 2,
+      "text": "[un]quiet",
+      "raw_text": "2,[un]quiet",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "weight": 2,
+      "text": "[un]reasonable",
+      "raw_text": "2,[un]reasonable",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "weight": 2,
+      "text": "[un]refined",
+      "raw_text": "2,[un]refined",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "weight": 2,
+      "text": "[un]relaxed",
+      "raw_text": "2,[un]relaxed",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "weight": 2,
+      "text": "[un]repentant",
+      "raw_text": "2,[un]repentant",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "weight": 2,
+      "text": "[un]scholarly",
+      "raw_text": "2,[un]scholarly",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "weight": 2,
+      "text": "[un]scrupulous",
+      "raw_text": "2,[un]scrupulous",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "weight": 2,
+      "text": "[un]seasoned",
+      "raw_text": "2,[un]seasoned",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "weight": 2,
+      "text": "[un]selfish",
+      "raw_text": "2,[un]selfish",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "weight": 2,
+      "text": "[un]skillful",
+      "raw_text": "2,[un]skillful",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "weight": 2,
+      "text": "[un]smiling",
+      "raw_text": "2,[un]smiling",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "weight": 2,
+      "text": "[un]sociable",
+      "raw_text": "2,[un]sociable",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "weight": 2,
+      "text": "[un]stylish",
+      "raw_text": "2,[un]stylish",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "weight": 2,
+      "text": "[un]surprised",
+      "raw_text": "2,[un]surprised",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "weight": 2,
+      "text": "[un]suspicious",
+      "raw_text": "2,[un]suspicious",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "weight": 2,
+      "text": "[un]sympathetic",
+      "raw_text": "2,[un]sympathetic",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "weight": 2,
+      "text": "[un]tidy",
+      "raw_text": "2,[un]tidy",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "weight": 2,
+      "text": "[un]trustworthy",
+      "raw_text": "2,[un]trustworthy",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "weight": 2,
+      "text": "[un]truthful",
+      "raw_text": "2,[un]truthful",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "weight": 2,
+      "text": "[un]wary",
+      "raw_text": "2,[un]wary",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "weight": 2,
+      "text": "[un]wise",
+      "raw_text": "2,[un]wise",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "weight": 2,
+      "text": "[un]worried",
+      "raw_text": "2,[un]worried",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "weight": 2,
+      "text": "[un]wrinkled",
+      "raw_text": "2,[un]wrinkled",
+      "references": [
+        {
+          "raw": "[un]",
+          "token": "un",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "un",
+          "target_qualified_name": "QuickAdjective.un"
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 2,
+      "text": "care[fl]",
+      "raw_text": "2,care[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "weight": 2,
+      "text": "cheer[fl]",
+      "raw_text": "2,cheer[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "weight": 2,
+      "text": "fear[fl]",
+      "raw_text": "2,fear[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "weight": 2,
+      "text": "grace[fl]",
+      "raw_text": "2,grace[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "weight": 2,
+      "text": "harm[fl]",
+      "raw_text": "2,harm[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "weight": 2,
+      "text": "help[fl]",
+      "raw_text": "2,help[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "weight": 2,
+      "text": "hope[fl]",
+      "raw_text": "2,hope[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "weight": 2,
+      "text": "remorse[fl]",
+      "raw_text": "2,remorse[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "weight": 2,
+      "text": "shame[fl]",
+      "raw_text": "2,shame[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "weight": 2,
+      "text": "tact[fl]",
+      "raw_text": "2,tact[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "weight": 2,
+      "text": "thought[fl]",
+      "raw_text": "2,thought[fl]",
+      "references": [
+        {
+          "raw": "[fl]",
+          "token": "fl",
+          "kind": "local",
+          "source_page": "QuickAdjective",
+          "source_subtable": "⚥",
+          "target_page": "QuickAdjective",
+          "target_subtable": "fl",
+          "target_qualified_name": "QuickAdjective.fl"
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "xenophobic",
+      "raw_text": "1,xenophobic",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "cherubic",
+      "raw_text": "1,cherubic",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "nostalgic",
+      "raw_text": "1,nostalgic",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "bucolic",
+      "raw_text": "1,bucolic",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "laconic",
+      "raw_text": "1,laconic",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "euphoric",
+      "raw_text": "1,euphoric",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "eccentric",
+      "raw_text": "1,eccentric",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "energetic",
+      "raw_text": "1,energetic",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "apathetic",
+      "raw_text": "1,apathetic",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "neurotic",
+      "raw_text": "1,neurotic",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "idealistic",
+      "raw_text": "1,idealistic",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "fatalistic",
+      "raw_text": "1,fatalistic",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "pessimistic",
+      "raw_text": "1,pessimistic",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "optimistic",
+      "raw_text": "1,optimistic",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "hedonistic",
+      "raw_text": "1,hedonistic",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "pierced",
+      "raw_text": "1,pierced",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "easily offended",
+      "raw_text": "1,easily offended",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "openminded",
+      "raw_text": "1,openminded",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "absentminded",
+      "raw_text": "1,absentminded",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "wounded",
+      "raw_text": "1,wounded",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "enraged",
+      "raw_text": "1,enraged",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "foulmouthed",
+      "raw_text": "1,foulmouthed",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "harried",
+      "raw_text": "1,harried",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "hunchbacked",
+      "raw_text": "1,hunchbacked",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "shellshocked",
+      "raw_text": "1,shellshocked",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "veiled",
+      "raw_text": "1,veiled",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "ensorcelled",
+      "raw_text": "1,ensorcelled",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "dimpled",
+      "raw_text": "1,dimpled",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "crippled",
+      "raw_text": "1,crippled",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "gnarled",
+      "raw_text": "1,gnarled",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "maimed",
+      "raw_text": "1,maimed",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "frightened",
+      "raw_text": "1,frightened",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "bloodstained",
+      "raw_text": "1,bloodstained",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "condemned",
+      "raw_text": "1,condemned",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "sunburned",
+      "raw_text": "1,sunburned",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "tattooed",
+      "raw_text": "1,tattooed",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "stooped",
+      "raw_text": "1,stooped",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "pampered",
+      "raw_text": "1,pampered",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "beleaguered",
+      "raw_text": "1,beleaguered",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "armored",
+      "raw_text": "1,armored",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "diseased",
+      "raw_text": "1,diseased",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "composed",
+      "raw_text": "1,composed",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "depressed",
+      "raw_text": "1,depressed",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "distressed",
+      "raw_text": "1,distressed",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "confused",
+      "raw_text": "1,confused",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "intoxicated",
+      "raw_text": "1,intoxicated",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "elated",
+      "raw_text": "1,elated",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "opinionated",
+      "raw_text": "1,opinionated",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "frustrated",
+      "raw_text": "1,frustrated",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "agitated",
+      "raw_text": "1,agitated",
+      "references": []
+    },
+    {
+      "index": 172,
+      "weight": 1,
+      "text": "respected",
+      "raw_text": "1,respected",
+      "references": []
+    },
+    {
+      "index": 173,
+      "weight": 1,
+      "text": "nearsighted",
+      "raw_text": "1,nearsighted",
+      "references": []
+    },
+    {
+      "index": 174,
+      "weight": 1,
+      "text": "discontented",
+      "raw_text": "1,discontented",
+      "references": []
+    },
+    {
+      "index": 175,
+      "weight": 1,
+      "text": "haunted",
+      "raw_text": "1,haunted",
+      "references": []
+    },
+    {
+      "index": 176,
+      "weight": 1,
+      "text": "bigoted",
+      "raw_text": "1,bigoted",
+      "references": []
+    },
+    {
+      "index": 177,
+      "weight": 1,
+      "text": "exhausted",
+      "raw_text": "1,exhausted",
+      "references": []
+    },
+    {
+      "index": 178,
+      "weight": 1,
+      "text": "reserved",
+      "raw_text": "1,reserved",
+      "references": []
+    },
+    {
+      "index": 179,
+      "weight": 1,
+      "text": "disorganized",
+      "raw_text": "1,disorganized",
+      "references": []
+    },
+    {
+      "index": 180,
+      "weight": 1,
+      "text": "misguided",
+      "raw_text": "1,misguided",
+      "references": []
+    },
+    {
+      "index": 181,
+      "weight": 1,
+      "text": "crazed",
+      "raw_text": "1,crazed",
+      "references": []
+    },
+    {
+      "index": 182,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 183,
+      "weight": 1,
+      "text": "candid",
+      "raw_text": "1,candid",
+      "references": []
+    },
+    {
+      "index": 184,
+      "weight": 1,
+      "text": "paranoid",
+      "raw_text": "1,paranoid",
+      "references": []
+    },
+    {
+      "index": 185,
+      "weight": 1,
+      "text": "florid",
+      "raw_text": "1,florid",
+      "references": []
+    },
+    {
+      "index": 186,
+      "weight": 1,
+      "text": "rotund",
+      "raw_text": "1,rotund",
+      "references": []
+    },
+    {
+      "index": 187,
+      "weight": 1,
+      "text": "shrewd",
+      "raw_text": "1,shrewd",
+      "references": []
+    },
+    {
+      "index": 188,
+      "weight": 1,
+      "text": "carefree",
+      "raw_text": "1,carefree",
+      "references": []
+    },
+    {
+      "index": 189,
+      "weight": 1,
+      "text": "childlike",
+      "raw_text": "1,childlike",
+      "references": []
+    },
+    {
+      "index": 190,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 191,
+      "weight": 1,
+      "text": "pitiable",
+      "raw_text": "1,pitiable",
+      "references": []
+    },
+    {
+      "index": 192,
+      "weight": 1,
+      "text": "unflappable",
+      "raw_text": "1,unflappable",
+      "references": []
+    },
+    {
+      "index": 193,
+      "weight": 1,
+      "text": "respectable",
+      "raw_text": "1,respectable",
+      "references": []
+    },
+    {
+      "index": 194,
+      "weight": 1,
+      "text": "young and impressionable",
+      "raw_text": "1,young and impressionable",
+      "references": []
+    },
+    {
+      "index": 195,
+      "weight": 1,
+      "text": "irritable",
+      "raw_text": "1,irritable",
+      "references": []
+    },
+    {
+      "index": 196,
+      "weight": 1,
+      "text": "incorrigible",
+      "raw_text": "1,incorrigible",
+      "references": []
+    },
+    {
+      "index": 197,
+      "weight": 1,
+      "text": "gullible",
+      "raw_text": "1,gullible",
+      "references": []
+    },
+    {
+      "index": 198,
+      "weight": 1,
+      "text": "irresponsible",
+      "raw_text": "1,irresponsible",
+      "references": []
+    },
+    {
+      "index": 199,
+      "weight": 1,
+      "text": "irresistible",
+      "raw_text": "1,irresistible",
+      "references": []
+    },
+    {
+      "index": 200,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 201,
+      "weight": 1,
+      "text": "humble",
+      "raw_text": "1,humble",
+      "references": []
+    },
+    {
+      "index": 202,
+      "weight": 1,
+      "text": "hostile",
+      "raw_text": "1,hostile",
+      "references": []
+    },
+    {
+      "index": 203,
+      "weight": 1,
+      "text": "little",
+      "raw_text": "1,little",
+      "references": []
+    },
+    {
+      "index": 204,
+      "weight": 1,
+      "text": "meddlesome",
+      "raw_text": "1,meddlesome",
+      "references": []
+    },
+    {
+      "index": 205,
+      "weight": 1,
+      "text": "insane",
+      "raw_text": "1,insane",
+      "references": []
+    },
+    {
+      "index": 206,
+      "weight": 1,
+      "text": "morose",
+      "raw_text": "1,morose",
+      "references": []
+    },
+    {
+      "index": 207,
+      "weight": 1,
+      "text": "compassionate",
+      "raw_text": "1,compassionate",
+      "references": []
+    },
+    {
+      "index": 208,
+      "weight": 1,
+      "text": "desperate",
+      "raw_text": "1,desperate",
+      "references": []
+    },
+    {
+      "index": 209,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 210,
+      "weight": 1,
+      "text": "submissive",
+      "raw_text": "1,submissive",
+      "references": []
+    },
+    {
+      "index": 211,
+      "weight": 1,
+      "text": "reclusive",
+      "raw_text": "1,reclusive",
+      "references": []
+    },
+    {
+      "index": 212,
+      "weight": 1,
+      "text": "intrusive",
+      "raw_text": "1,intrusive",
+      "references": []
+    },
+    {
+      "index": 213,
+      "weight": 1,
+      "text": "oversensitive",
+      "raw_text": "1,oversensitive",
+      "references": []
+    },
+    {
+      "index": 214,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 215,
+      "weight": 1,
+      "text": "forbidding",
+      "raw_text": "1,forbidding",
+      "references": []
+    },
+    {
+      "index": 216,
+      "weight": 1,
+      "text": "brooding",
+      "raw_text": "1,brooding",
+      "references": []
+    },
+    {
+      "index": 217,
+      "weight": 1,
+      "text": "singing",
+      "raw_text": "1,singing",
+      "references": []
+    },
+    {
+      "index": 218,
+      "weight": 1,
+      "text": "twitching",
+      "raw_text": "1,twitching",
+      "references": []
+    },
+    {
+      "index": 219,
+      "weight": 1,
+      "text": "slouching",
+      "raw_text": "1,slouching",
+      "references": []
+    },
+    {
+      "index": 220,
+      "weight": 1,
+      "text": "laughing",
+      "raw_text": "1,laughing",
+      "references": []
+    },
+    {
+      "index": 221,
+      "weight": 1,
+      "text": "smirking",
+      "raw_text": "1,smirking",
+      "references": []
+    },
+    {
+      "index": 222,
+      "weight": 1,
+      "text": "hardworking",
+      "raw_text": "1,hardworking",
+      "references": []
+    },
+    {
+      "index": 223,
+      "weight": 1,
+      "text": "trembling",
+      "raw_text": "1,trembling",
+      "references": []
+    },
+    {
+      "index": 224,
+      "weight": 1,
+      "text": "sniffling",
+      "raw_text": "1,sniffling",
+      "references": []
+    },
+    {
+      "index": 225,
+      "weight": 1,
+      "text": "snarling",
+      "raw_text": "1,snarling",
+      "references": []
+    },
+    {
+      "index": 226,
+      "weight": 1,
+      "text": "whistling",
+      "raw_text": "1,whistling",
+      "references": []
+    },
+    {
+      "index": 227,
+      "weight": 1,
+      "text": "daydreaming",
+      "raw_text": "1,daydreaming",
+      "references": []
+    },
+    {
+      "index": 228,
+      "weight": 1,
+      "text": "scheming",
+      "raw_text": "1,scheming",
+      "references": []
+    },
+    {
+      "index": 229,
+      "weight": 1,
+      "text": "whining",
+      "raw_text": "1,whining",
+      "references": []
+    },
+    {
+      "index": 230,
+      "weight": 1,
+      "text": "pining",
+      "raw_text": "1,pining",
+      "references": []
+    },
+    {
+      "index": 231,
+      "weight": 1,
+      "text": "frowning",
+      "raw_text": "1,frowning",
+      "references": []
+    },
+    {
+      "index": 232,
+      "weight": 1,
+      "text": "limping",
+      "raw_text": "1,limping",
+      "references": []
+    },
+    {
+      "index": 233,
+      "weight": 1,
+      "text": "rasping",
+      "raw_text": "1,rasping",
+      "references": []
+    },
+    {
+      "index": 234,
+      "weight": 1,
+      "text": "lisping",
+      "raw_text": "1,lisping",
+      "references": []
+    },
+    {
+      "index": 235,
+      "weight": 1,
+      "text": "glaring",
+      "raw_text": "1,glaring",
+      "references": []
+    },
+    {
+      "index": 236,
+      "weight": 1,
+      "text": "domineering",
+      "raw_text": "1,domineering",
+      "references": []
+    },
+    {
+      "index": 237,
+      "weight": 1,
+      "text": "sneering",
+      "raw_text": "1,sneering",
+      "references": []
+    },
+    {
+      "index": 238,
+      "weight": 1,
+      "text": "suffering",
+      "raw_text": "1,suffering",
+      "references": []
+    },
+    {
+      "index": 239,
+      "weight": 1,
+      "text": "sauntering",
+      "raw_text": "1,sauntering",
+      "references": []
+    },
+    {
+      "index": 240,
+      "weight": 1,
+      "text": "stuttering",
+      "raw_text": "1,stuttering",
+      "references": []
+    },
+    {
+      "index": 241,
+      "weight": 1,
+      "text": "shivering",
+      "raw_text": "1,shivering",
+      "references": []
+    },
+    {
+      "index": 242,
+      "weight": 1,
+      "text": "boring",
+      "raw_text": "1,boring",
+      "references": []
+    },
+    {
+      "index": 243,
+      "weight": 1,
+      "text": "intimidating",
+      "raw_text": "1,intimidating",
+      "references": []
+    },
+    {
+      "index": 244,
+      "weight": 1,
+      "text": "sweating",
+      "raw_text": "1,sweating",
+      "references": []
+    },
+    {
+      "index": 245,
+      "weight": 1,
+      "text": "hallucinating",
+      "raw_text": "1,hallucinating",
+      "references": []
+    },
+    {
+      "index": 246,
+      "weight": 1,
+      "text": "unsuspecting",
+      "raw_text": "1,unsuspecting",
+      "references": []
+    },
+    {
+      "index": 247,
+      "weight": 1,
+      "text": "squinting",
+      "raw_text": "1,squinting",
+      "references": []
+    },
+    {
+      "index": 248,
+      "weight": 1,
+      "text": "strutting",
+      "raw_text": "1,strutting",
+      "references": []
+    },
+    {
+      "index": 249,
+      "weight": 1,
+      "text": "pouting",
+      "raw_text": "1,pouting",
+      "references": []
+    },
+    {
+      "index": 250,
+      "weight": 1,
+      "text": "conniving",
+      "raw_text": "1,conniving",
+      "references": []
+    },
+    {
+      "index": 251,
+      "weight": 1,
+      "text": "starving",
+      "raw_text": "1,starving",
+      "references": []
+    },
+    {
+      "index": 252,
+      "weight": 1,
+      "text": "sneezing",
+      "raw_text": "1,sneezing",
+      "references": []
+    },
+    {
+      "index": 253,
+      "weight": 1,
+      "text": "charming",
+      "raw_text": "1,charming",
+      "references": []
+    },
+    {
+      "index": 254,
+      "weight": 1,
+      "text": "cunning",
+      "raw_text": "1,cunning",
+      "references": []
+    },
+    {
+      "index": 255,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 256,
+      "weight": 1,
+      "text": "childish",
+      "raw_text": "1,childish",
+      "references": []
+    },
+    {
+      "index": 257,
+      "weight": 1,
+      "text": "bookish",
+      "raw_text": "1,bookish",
+      "references": []
+    },
+    {
+      "index": 258,
+      "weight": 1,
+      "text": "devilish",
+      "raw_text": "1,devilish",
+      "references": []
+    },
+    {
+      "index": 259,
+      "weight": 1,
+      "text": "ticklish",
+      "raw_text": "1,ticklish",
+      "references": []
+    },
+    {
+      "index": 260,
+      "weight": 1,
+      "text": "foolish",
+      "raw_text": "1,foolish",
+      "references": []
+    },
+    {
+      "index": 261,
+      "weight": 1,
+      "text": "boorish",
+      "raw_text": "1,boorish",
+      "references": []
+    },
+    {
+      "index": 262,
+      "weight": 1,
+      "text": "roguish",
+      "raw_text": "1,roguish",
+      "references": []
+    },
+    {
+      "index": 263,
+      "weight": 1,
+      "text": "foppish",
+      "raw_text": "1,foppish",
+      "references": []
+    },
+    {
+      "index": 264,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 265,
+      "weight": 1,
+      "text": "hypochondriacal",
+      "raw_text": "1,hypochondriacal",
+      "references": []
+    },
+    {
+      "index": 266,
+      "weight": 1,
+      "text": "comical",
+      "raw_text": "1,comical",
+      "references": []
+    },
+    {
+      "index": 267,
+      "weight": 1,
+      "text": "tyrannical",
+      "raw_text": "1,tyrannical",
+      "references": []
+    },
+    {
+      "index": 268,
+      "weight": 1,
+      "text": "cynical",
+      "raw_text": "1,cynical",
+      "references": []
+    },
+    {
+      "index": 269,
+      "weight": 1,
+      "text": "skeptical",
+      "raw_text": "1,skeptical",
+      "references": []
+    },
+    {
+      "index": 270,
+      "weight": 1,
+      "text": "egotistical",
+      "raw_text": "1,egotistical",
+      "references": []
+    },
+    {
+      "index": 271,
+      "weight": 1,
+      "text": "conspiratorial",
+      "raw_text": "1,conspiratorial",
+      "references": []
+    },
+    {
+      "index": 272,
+      "weight": 1,
+      "text": "territorial",
+      "raw_text": "1,territorial",
+      "references": []
+    },
+    {
+      "index": 273,
+      "weight": 1,
+      "text": "delusional",
+      "raw_text": "1,delusional",
+      "references": []
+    },
+    {
+      "index": 274,
+      "weight": 1,
+      "text": "irrational",
+      "raw_text": "1,irrational",
+      "references": []
+    },
+    {
+      "index": 275,
+      "weight": 1,
+      "text": "unconventional",
+      "raw_text": "1,unconventional",
+      "references": []
+    },
+    {
+      "index": 276,
+      "weight": 1,
+      "text": "overemotional",
+      "raw_text": "1,overemotional",
+      "references": []
+    },
+    {
+      "index": 277,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 278,
+      "weight": 1,
+      "text": "peaceful",
+      "raw_text": "1,peaceful",
+      "references": []
+    },
+    {
+      "index": 279,
+      "weight": 1,
+      "text": "resourceful",
+      "raw_text": "1,resourceful",
+      "references": []
+    },
+    {
+      "index": 280,
+      "weight": 1,
+      "text": "vengeful",
+      "raw_text": "1,vengeful",
+      "references": []
+    },
+    {
+      "index": 281,
+      "weight": 1,
+      "text": "spiteful",
+      "raw_text": "1,spiteful",
+      "references": []
+    },
+    {
+      "index": 282,
+      "weight": 1,
+      "text": "slothful",
+      "raw_text": "1,slothful",
+      "references": []
+    },
+    {
+      "index": 283,
+      "weight": 1,
+      "text": "youthful",
+      "raw_text": "1,youthful",
+      "references": []
+    },
+    {
+      "index": 284,
+      "weight": 1,
+      "text": "tearful",
+      "raw_text": "1,tearful",
+      "references": []
+    },
+    {
+      "index": 285,
+      "weight": 1,
+      "text": "forgetful",
+      "raw_text": "1,forgetful",
+      "references": []
+    },
+    {
+      "index": 286,
+      "weight": 1,
+      "text": "resentful",
+      "raw_text": "1,resentful",
+      "references": []
+    },
+    {
+      "index": 287,
+      "weight": 1,
+      "text": "boastful",
+      "raw_text": "1,boastful",
+      "references": []
+    },
+    {
+      "index": 288,
+      "weight": 1,
+      "text": "lustful",
+      "raw_text": "1,lustful",
+      "references": []
+    },
+    {
+      "index": 289,
+      "weight": 1,
+      "text": "sorrowful",
+      "raw_text": "1,sorrowful",
+      "references": []
+    },
+    {
+      "index": 290,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 291,
+      "weight": 1,
+      "text": "homesick",
+      "raw_text": "1,homesick",
+      "references": []
+    },
+    {
+      "index": 292,
+      "weight": 1,
+      "text": "lovesick",
+      "raw_text": "1,lovesick",
+      "references": []
+    },
+    {
+      "index": 293,
+      "weight": 1,
+      "text": "skeletal",
+      "raw_text": "1,skeletal",
+      "references": []
+    },
+    {
+      "index": 294,
+      "weight": 1,
+      "text": "restless",
+      "raw_text": "1,restless",
+      "references": []
+    },
+    {
+      "index": 295,
+      "weight": 1,
+      "text": "ruthless",
+      "raw_text": "1,ruthless",
+      "references": []
+    },
+    {
+      "index": 296,
+      "weight": 1,
+      "text": "machiavellian",
+      "raw_text": "1,machiavellian",
+      "references": []
+    },
+    {
+      "index": 297,
+      "weight": 1,
+      "text": "veteran",
+      "raw_text": "1,veteran",
+      "references": []
+    },
+    {
+      "index": 298,
+      "weight": 1,
+      "text": "drunken",
+      "raw_text": "1,drunken",
+      "references": []
+    },
+    {
+      "index": 299,
+      "weight": 1,
+      "text": "heartbroken",
+      "raw_text": "1,heartbroken",
+      "references": []
+    },
+    {
+      "index": 300,
+      "weight": 1,
+      "text": "smitten",
+      "raw_text": "1,smitten",
+      "references": []
+    },
+    {
+      "index": 301,
+      "weight": 1,
+      "text": "driven",
+      "raw_text": "1,driven",
+      "references": []
+    },
+    {
+      "index": 302,
+      "weight": 1,
+      "text": "foreign",
+      "raw_text": "1,foreign",
+      "references": []
+    },
+    {
+      "index": 303,
+      "weight": 1,
+      "text": "solemn",
+      "raw_text": "1,solemn",
+      "references": []
+    },
+    {
+      "index": 304,
+      "weight": 1,
+      "text": "forlorn",
+      "raw_text": "1,forlorn",
+      "references": []
+    },
+    {
+      "index": 305,
+      "weight": 1,
+      "text": "oracular",
+      "raw_text": "1,oracular",
+      "references": []
+    },
+    {
+      "index": 306,
+      "weight": 1,
+      "text": "overeager",
+      "raw_text": "1,overeager",
+      "references": []
+    },
+    {
+      "index": 307,
+      "weight": 1,
+      "text": "bitter",
+      "raw_text": "1,bitter",
+      "references": []
+    },
+    {
+      "index": 308,
+      "weight": 1,
+      "text": "clever",
+      "raw_text": "1,clever",
+      "references": []
+    },
+    {
+      "index": 309,
+      "weight": 1,
+      "text": "hungover",
+      "raw_text": "1,hungover",
+      "references": []
+    },
+    {
+      "index": 310,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 311,
+      "weight": 1,
+      "text": "tedious",
+      "raw_text": "1,tedious",
+      "references": []
+    },
+    {
+      "index": 312,
+      "weight": 1,
+      "text": "studious",
+      "raw_text": "1,studious",
+      "references": []
+    },
+    {
+      "index": 313,
+      "weight": 1,
+      "text": "rebellious",
+      "raw_text": "1,rebellious",
+      "references": []
+    },
+    {
+      "index": 314,
+      "weight": 1,
+      "text": "gregarious",
+      "raw_text": "1,gregarious",
+      "references": []
+    },
+    {
+      "index": 315,
+      "weight": 1,
+      "text": "imperious",
+      "raw_text": "1,imperious",
+      "references": []
+    },
+    {
+      "index": 316,
+      "weight": 1,
+      "text": "mysterious",
+      "raw_text": "1,mysterious",
+      "references": []
+    },
+    {
+      "index": 317,
+      "weight": 1,
+      "text": "flirtatious",
+      "raw_text": "1,flirtatious",
+      "references": []
+    },
+    {
+      "index": 318,
+      "weight": 1,
+      "text": "superstitious",
+      "raw_text": "1,superstitious",
+      "references": []
+    },
+    {
+      "index": 319,
+      "weight": 1,
+      "text": "obsequious",
+      "raw_text": "1,obsequious",
+      "references": []
+    },
+    {
+      "index": 320,
+      "weight": 1,
+      "text": "devious",
+      "raw_text": "1,devious",
+      "references": []
+    },
+    {
+      "index": 321,
+      "weight": 1,
+      "text": "jealous",
+      "raw_text": "1,jealous",
+      "references": []
+    },
+    {
+      "index": 322,
+      "weight": 1,
+      "text": "zealous",
+      "raw_text": "1,zealous",
+      "references": []
+    },
+    {
+      "index": 323,
+      "weight": 1,
+      "text": "callous",
+      "raw_text": "1,callous",
+      "references": []
+    },
+    {
+      "index": 324,
+      "weight": 1,
+      "text": "meticulous",
+      "raw_text": "1,meticulous",
+      "references": []
+    },
+    {
+      "index": 325,
+      "weight": 1,
+      "text": "garrulous",
+      "raw_text": "1,garrulous",
+      "references": []
+    },
+    {
+      "index": 326,
+      "weight": 1,
+      "text": "tyrannous",
+      "raw_text": "1,tyrannous",
+      "references": []
+    },
+    {
+      "index": 327,
+      "weight": 1,
+      "text": "gluttonous",
+      "raw_text": "1,gluttonous",
+      "references": []
+    },
+    {
+      "index": 328,
+      "weight": 1,
+      "text": "dangerous",
+      "raw_text": "1,dangerous",
+      "references": []
+    },
+    {
+      "index": 329,
+      "weight": 1,
+      "text": "boisterous",
+      "raw_text": "1,boisterous",
+      "references": []
+    },
+    {
+      "index": 330,
+      "weight": 1,
+      "text": "monstrous",
+      "raw_text": "1,monstrous",
+      "references": []
+    },
+    {
+      "index": 331,
+      "weight": 1,
+      "text": "mischievous",
+      "raw_text": "1,mischievous",
+      "references": []
+    },
+    {
+      "index": 332,
+      "weight": 1,
+      "text": "nervous",
+      "raw_text": "1,nervous",
+      "references": []
+    },
+    {
+      "index": 333,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 334,
+      "weight": 1,
+      "text": "heavyset",
+      "raw_text": "1,heavyset",
+      "references": []
+    },
+    {
+      "index": 335,
+      "weight": 1,
+      "text": "triumphant",
+      "raw_text": "1,triumphant",
+      "references": []
+    },
+    {
+      "index": 336,
+      "weight": 1,
+      "text": "arrogant",
+      "raw_text": "1,arrogant",
+      "references": []
+    },
+    {
+      "index": 337,
+      "weight": 1,
+      "text": "brilliant",
+      "raw_text": "1,brilliant",
+      "references": []
+    },
+    {
+      "index": 338,
+      "weight": 1,
+      "text": "indignant",
+      "raw_text": "1,indignant",
+      "references": []
+    },
+    {
+      "index": 339,
+      "weight": 1,
+      "text": "ignorant",
+      "raw_text": "1,ignorant",
+      "references": []
+    },
+    {
+      "index": 340,
+      "weight": 1,
+      "text": "reluctant",
+      "raw_text": "1,reluctant",
+      "references": []
+    },
+    {
+      "index": 341,
+      "weight": 1,
+      "text": "hesitant",
+      "raw_text": "1,hesitant",
+      "references": []
+    },
+    {
+      "index": 342,
+      "weight": 1,
+      "text": "flamboyant",
+      "raw_text": "1,flamboyant",
+      "references": []
+    },
+    {
+      "index": 343,
+      "weight": 1,
+      "text": "innocent",
+      "raw_text": "1,innocent",
+      "references": []
+    },
+    {
+      "index": 344,
+      "weight": 1,
+      "text": "impudent",
+      "raw_text": "1,impudent",
+      "references": []
+    },
+    {
+      "index": 345,
+      "weight": 1,
+      "text": "indulgent",
+      "raw_text": "1,indulgent",
+      "references": []
+    },
+    {
+      "index": 346,
+      "weight": 1,
+      "text": "silent",
+      "raw_text": "1,silent",
+      "references": []
+    },
+    {
+      "index": 347,
+      "weight": 1,
+      "text": "violent",
+      "raw_text": "1,violent",
+      "references": []
+    },
+    {
+      "index": 348,
+      "weight": 1,
+      "text": "malevolent",
+      "raw_text": "1,malevolent",
+      "references": []
+    },
+    {
+      "index": 349,
+      "weight": 1,
+      "text": "irreverent",
+      "raw_text": "1,irreverent",
+      "references": []
+    },
+    {
+      "index": 350,
+      "weight": 1,
+      "text": "dishonest",
+      "raw_text": "1,dishonest",
+      "references": []
+    },
+    {
+      "index": 351,
+      "weight": 1,
+      "text": "earnest",
+      "raw_text": "1,earnest",
+      "references": []
+    },
+    {
+      "index": 352,
+      "weight": 1,
+      "text": "alarmist",
+      "raw_text": "1,alarmist",
+      "references": []
+    },
+    {
+      "index": 353,
+      "weight": 1,
+      "text": "shallow",
+      "raw_text": "1,shallow",
+      "references": []
+    },
+    {
+      "index": 354,
+      "weight": 1,
+      "text": "sallow",
+      "raw_text": "1,sallow",
+      "references": []
+    },
+    {
+      "index": 355,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 356,
+      "weight": 1,
+      "text": "grubby",
+      "raw_text": "1,grubby",
+      "references": []
+    },
+    {
+      "index": 357,
+      "weight": 1,
+      "text": "greedy",
+      "raw_text": "1,greedy",
+      "references": []
+    },
+    {
+      "index": 358,
+      "weight": 1,
+      "text": "foolhardy",
+      "raw_text": "1,foolhardy",
+      "references": []
+    },
+    {
+      "index": 359,
+      "weight": 1,
+      "text": "craggy",
+      "raw_text": "1,craggy",
+      "references": []
+    },
+    {
+      "index": 360,
+      "weight": 1,
+      "text": "filthy",
+      "raw_text": "1,filthy",
+      "references": []
+    },
+    {
+      "index": 361,
+      "weight": 1,
+      "text": "cranky",
+      "raw_text": "1,cranky",
+      "references": []
+    },
+    {
+      "index": 362,
+      "weight": 1,
+      "text": "cowardly",
+      "raw_text": "1,cowardly",
+      "references": []
+    },
+    {
+      "index": 363,
+      "weight": 1,
+      "text": "lonely",
+      "raw_text": "1,lonely",
+      "references": []
+    },
+    {
+      "index": 364,
+      "weight": 1,
+      "text": "lively",
+      "raw_text": "1,lively",
+      "references": []
+    },
+    {
+      "index": 365,
+      "weight": 1,
+      "text": "sickly",
+      "raw_text": "1,sickly",
+      "references": []
+    },
+    {
+      "index": 366,
+      "weight": 1,
+      "text": "melancholy",
+      "raw_text": "1,melancholy",
+      "references": []
+    },
+    {
+      "index": 367,
+      "weight": 1,
+      "text": "elderly",
+      "raw_text": "1,elderly",
+      "references": []
+    },
+    {
+      "index": 368,
+      "weight": 1,
+      "text": "miserly",
+      "raw_text": "1,miserly",
+      "references": []
+    },
+    {
+      "index": 369,
+      "weight": 1,
+      "text": "unruly",
+      "raw_text": "1,unruly",
+      "references": []
+    },
+    {
+      "index": 370,
+      "weight": 1,
+      "text": "sleepy",
+      "raw_text": "1,sleepy",
+      "references": []
+    },
+    {
+      "index": 371,
+      "weight": 1,
+      "text": "gossipy",
+      "raw_text": "1,gossipy",
+      "references": []
+    },
+    {
+      "index": 372,
+      "weight": 1,
+      "text": "blustery",
+      "raw_text": "1,blustery",
+      "references": []
+    },
+    {
+      "index": 373,
+      "weight": 1,
+      "text": "hungry",
+      "raw_text": "1,hungry",
+      "references": []
+    },
+    {
+      "index": 374,
+      "weight": 1,
+      "text": "accusatory",
+      "raw_text": "1,accusatory",
+      "references": []
+    },
+    {
+      "index": 375,
+      "weight": 1,
+      "text": "clumsy",
+      "raw_text": "1,clumsy",
+      "references": []
+    },
+    {
+      "index": 376,
+      "weight": 1,
+      "text": "drowsy",
+      "raw_text": "1,drowsy",
+      "references": []
+    },
+    {
+      "index": 377,
+      "weight": 1,
+      "text": "fidgety",
+      "raw_text": "1,fidgety",
+      "references": []
+    },
+    {
+      "index": 378,
+      "weight": 1,
+      "text": "shifty",
+      "raw_text": "1,shifty",
+      "references": []
+    },
+    {
+      "index": 379,
+      "weight": 1,
+      "text": "thrifty",
+      "raw_text": "1,thrifty",
+      "references": []
+    },
+    {
+      "index": 380,
+      "weight": 1,
+      "text": "haughty",
+      "raw_text": "1,haughty",
+      "references": []
+    },
+    {
+      "index": 381,
+      "weight": 1,
+      "text": "hearty",
+      "raw_text": "1,hearty",
+      "references": []
+    },
+    {
+      "index": 382,
+      "weight": 1,
+      "text": "bloodthirsty",
+      "raw_text": "1,bloodthirsty",
+      "references": []
+    },
+    {
+      "index": 383,
+      "weight": 1,
+      "text": "chatty",
+      "raw_text": "1,chatty",
+      "references": []
+    },
+    {
+      "index": 384,
+      "weight": 1,
+      "text": "klutzy",
+      "raw_text": "1,klutzy",
+      "references": []
+    },
+    {
+      "index": 385,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 386,
+      "weight": 1,
+      "text": "alert",
+      "raw_text": "1,alert",
+      "references": []
+    },
+    {
+      "index": 387,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient",
+      "references": []
+    },
+    {
+      "index": 388,
+      "weight": 1,
+      "text": "angry",
+      "raw_text": "1,angry",
+      "references": []
+    },
+    {
+      "index": 389,
+      "weight": 1,
+      "text": "bawdy",
+      "raw_text": "1,bawdy",
+      "references": []
+    },
+    {
+      "index": 390,
+      "weight": 1,
+      "text": "blind",
+      "raw_text": "1,blind",
+      "references": []
+    },
+    {
+      "index": 391,
+      "weight": 1,
+      "text": "bored",
+      "raw_text": "1,bored",
+      "references": []
+    },
+    {
+      "index": 392,
+      "weight": 1,
+      "text": "brave",
+      "raw_text": "1,brave",
+      "references": []
+    },
+    {
+      "index": 393,
+      "weight": 1,
+      "text": "canny",
+      "raw_text": "1,canny",
+      "references": []
+    },
+    {
+      "index": 394,
+      "weight": 1,
+      "text": "cowed",
+      "raw_text": "1,cowed",
+      "references": []
+    },
+    {
+      "index": 395,
+      "weight": 1,
+      "text": "crazy",
+      "raw_text": "1,crazy",
+      "references": []
+    },
+    {
+      "index": 396,
+      "weight": 1,
+      "text": "cruel",
+      "raw_text": "1,cruel",
+      "references": []
+    },
+    {
+      "index": 397,
+      "weight": 1,
+      "text": "drunk",
+      "raw_text": "1,drunk",
+      "references": []
+    },
+    {
+      "index": 398,
+      "weight": 1,
+      "text": "dying",
+      "raw_text": "1,dying",
+      "references": []
+    },
+    {
+      "index": 399,
+      "weight": 1,
+      "text": "eager",
+      "raw_text": "1,eager",
+      "references": []
+    },
+    {
+      "index": 400,
+      "weight": 1,
+      "text": "giddy",
+      "raw_text": "1,giddy",
+      "references": []
+    },
+    {
+      "index": 401,
+      "weight": 1,
+      "text": "gruff",
+      "raw_text": "1,gruff",
+      "references": []
+    },
+    {
+      "index": 402,
+      "weight": 1,
+      "text": "jaded",
+      "raw_text": "1,jaded",
+      "references": []
+    },
+    {
+      "index": 403,
+      "weight": 1,
+      "text": "jumpy",
+      "raw_text": "1,jumpy",
+      "references": []
+    },
+    {
+      "index": 404,
+      "weight": 1,
+      "text": "lusty",
+      "raw_text": "1,lusty",
+      "references": []
+    },
+    {
+      "index": 405,
+      "weight": 1,
+      "text": "lying",
+      "raw_text": "1,lying",
+      "references": []
+    },
+    {
+      "index": 406,
+      "weight": 1,
+      "text": "merry",
+      "raw_text": "1,merry",
+      "references": []
+    },
+    {
+      "index": 407,
+      "weight": 1,
+      "text": "moody",
+      "raw_text": "1,moody",
+      "references": []
+    },
+    {
+      "index": 408,
+      "weight": 1,
+      "text": "naïve",
+      "raw_text": "1,naïve",
+      "references": []
+    },
+    {
+      "index": 409,
+      "weight": 1,
+      "text": "noble",
+      "raw_text": "1,noble",
+      "references": []
+    },
+    {
+      "index": 410,
+      "weight": 1,
+      "text": "old",
+      "raw_text": "1,old",
+      "references": []
+    },
+    {
+      "index": 411,
+      "weight": 1,
+      "text": "proud",
+      "raw_text": "1,proud",
+      "references": []
+    },
+    {
+      "index": 412,
+      "weight": 1,
+      "text": "ruddy",
+      "raw_text": "1,ruddy",
+      "references": []
+    },
+    {
+      "index": 413,
+      "weight": 1,
+      "text": "salty",
+      "raw_text": "1,salty",
+      "references": []
+    },
+    {
+      "index": 414,
+      "weight": 1,
+      "text": "short",
+      "raw_text": "1,short",
+      "references": []
+    },
+    {
+      "index": 415,
+      "weight": 1,
+      "text": "sober",
+      "raw_text": "1,sober",
+      "references": []
+    },
+    {
+      "index": 416,
+      "weight": 1,
+      "text": "stern",
+      "raw_text": "1,stern",
+      "references": []
+    },
+    {
+      "index": 417,
+      "weight": 1,
+      "text": "stiff",
+      "raw_text": "1,stiff",
+      "references": []
+    },
+    {
+      "index": 418,
+      "weight": 1,
+      "text": "surly",
+      "raw_text": "1,surly",
+      "references": []
+    },
+    {
+      "index": 419,
+      "weight": 1,
+      "text": "tense",
+      "raw_text": "1,tense",
+      "references": []
+    },
+    {
+      "index": 420,
+      "weight": 1,
+      "text": "timid",
+      "raw_text": "1,timid",
+      "references": []
+    },
+    {
+      "index": 421,
+      "weight": 1,
+      "text": "tough",
+      "raw_text": "1,tough",
+      "references": []
+    },
+    {
+      "index": 422,
+      "weight": 1,
+      "text": "weary",
+      "raw_text": "1,weary",
+      "references": []
+    },
+    {
+      "index": 423,
+      "weight": 1,
+      "text": "witty",
+      "raw_text": "1,witty",
+      "references": []
+    },
+    {
+      "index": 424,
+      "weight": 1,
+      "text": "young",
+      "raw_text": "1,young",
+      "references": []
+    },
+    {
+      "index": 425,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 426,
+      "weight": 1,
+      "text": "bold",
+      "raw_text": "1,bold",
+      "references": []
+    },
+    {
+      "index": 427,
+      "weight": 1,
+      "text": "calm",
+      "raw_text": "1,calm",
+      "references": []
+    },
+    {
+      "index": 428,
+      "weight": 1,
+      "text": "deaf",
+      "raw_text": "1,deaf",
+      "references": []
+    },
+    {
+      "index": 429,
+      "weight": 1,
+      "text": "glum",
+      "raw_text": "1,glum",
+      "references": []
+    },
+    {
+      "index": 430,
+      "weight": 1,
+      "text": "grim",
+      "raw_text": "1,grim",
+      "references": []
+    },
+    {
+      "index": 431,
+      "weight": 1,
+      "text": "hale",
+      "raw_text": "1,hale",
+      "references": []
+    },
+    {
+      "index": 432,
+      "weight": 1,
+      "text": "lazy",
+      "raw_text": "1,lazy",
+      "references": []
+    },
+    {
+      "index": 433,
+      "weight": 1,
+      "text": "loud",
+      "raw_text": "1,loud",
+      "references": []
+    },
+    {
+      "index": 434,
+      "weight": 1,
+      "text": "mean",
+      "raw_text": "1,mean",
+      "references": []
+    },
+    {
+      "index": 435,
+      "weight": 1,
+      "text": "mute",
+      "raw_text": "1,mute",
+      "references": []
+    },
+    {
+      "index": 436,
+      "weight": 1,
+      "text": "nosy",
+      "raw_text": "1,nosy",
+      "references": []
+    },
+    {
+      "index": 437,
+      "weight": 1,
+      "text": "rash",
+      "raw_text": "1,rash",
+      "references": []
+    },
+    {
+      "index": 438,
+      "weight": 1,
+      "text": "slim",
+      "raw_text": "1,slim",
+      "references": []
+    },
+    {
+      "index": 439,
+      "weight": 1,
+      "text": "smug",
+      "raw_text": "1,smug",
+      "references": []
+    },
+    {
+      "index": 440,
+      "weight": 1,
+      "text": "sour",
+      "raw_text": "1,sour",
+      "references": []
+    },
+    {
+      "index": 441,
+      "weight": 1,
+      "text": "tall",
+      "raw_text": "1,tall",
+      "references": []
+    },
+    {
+      "index": 442,
+      "weight": 1,
+      "text": "tiny",
+      "raw_text": "1,tiny",
+      "references": []
+    },
+    {
+      "index": 443,
+      "weight": 1,
+      "text": "ugly",
+      "raw_text": "1,ugly",
+      "references": []
+    },
+    {
+      "index": 444,
+      "weight": 1,
+      "text": "vain",
+      "raw_text": "1,vain",
+      "references": []
+    },
+    {
+      "index": 445,
+      "weight": 1,
+      "text": "wily",
+      "raw_text": "1,wily",
+      "references": []
+    },
+    {
+      "index": 446,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 447,
+      "weight": 1,
+      "text": "big",
+      "raw_text": "1,big",
+      "references": []
+    },
+    {
+      "index": 448,
+      "weight": 1,
+      "text": "fat",
+      "raw_text": "1,fat",
+      "references": []
+    },
+    {
+      "index": 449,
+      "weight": 1,
+      "text": "shy",
+      "raw_text": "1,shy",
+      "references": []
+    },
+    {
+      "index": 450,
+      "weight": 1,
+      "text": "sly",
+      "raw_text": "1,sly",
+      "references": []
+    },
+    {
+      "index": 451,
+      "weight": 0,
+      "text": "",
+      "raw_text": "0,",
+      "references": []
+    },
+    {
+      "index": 452,
+      "weight": 1,
+      "text": "angst-ridden",
+      "raw_text": "1,angst-ridden",
+      "references": []
+    },
+    {
+      "index": 453,
+      "weight": 1,
+      "text": "battle-ready",
+      "raw_text": "1,battle-ready",
+      "references": []
+    },
+    {
+      "index": 454,
+      "weight": 1,
+      "text": "clear-thinking",
+      "raw_text": "1,clear-thinking",
+      "references": []
+    },
+    {
+      "index": 455,
+      "weight": 1,
+      "text": "fast-talking",
+      "raw_text": "1,fast-talking",
+      "references": []
+    },
+    {
+      "index": 456,
+      "weight": 1,
+      "text": "flea-infested",
+      "raw_text": "1,flea-infested",
+      "references": []
+    },
+    {
+      "index": 457,
+      "weight": 1,
+      "text": "foul-smelling",
+      "raw_text": "1,foul-smelling",
+      "references": []
+    },
+    {
+      "index": 458,
+      "weight": 1,
+      "text": "gap-toothed",
+      "raw_text": "1,gap-toothed",
+      "references": []
+    },
+    {
+      "index": 459,
+      "weight": 1,
+      "text": "guilt-ridden",
+      "raw_text": "1,guilt-ridden",
+      "references": []
+    },
+    {
+      "index": 460,
+      "weight": 1,
+      "text": "hard-nosed",
+      "raw_text": "1,hard-nosed",
+      "references": []
+    },
+    {
+      "index": 461,
+      "weight": 1,
+      "text": "hero-worshipping",
+      "raw_text": "1,hero-worshipping",
+      "references": []
+    },
+    {
+      "index": 462,
+      "weight": 1,
+      "text": "law-abiding",
+      "raw_text": "1,law-abiding",
+      "references": []
+    },
+    {
+      "index": 463,
+      "weight": 1,
+      "text": "little-known",
+      "raw_text": "1,little-known",
+      "references": []
+    },
+    {
+      "index": 464,
+      "weight": 1,
+      "text": "middle-aged",
+      "raw_text": "1,middle-aged",
+      "references": []
+    },
+    {
+      "index": 465,
+      "weight": 1,
+      "text": "closed-minded",
+      "raw_text": "1,closed-minded",
+      "references": []
+    },
+    {
+      "index": 466,
+      "weight": 1,
+      "text": "narrow-minded",
+      "raw_text": "1,narrow-minded",
+      "references": []
+    },
+    {
+      "index": 467,
+      "weight": 1,
+      "text": "peace-loving",
+      "raw_text": "1,peace-loving",
+      "references": []
+    },
+    {
+      "index": 468,
+      "weight": 1,
+      "text": "quick-witted",
+      "raw_text": "1,quick-witted",
+      "references": []
+    },
+    {
+      "index": 469,
+      "weight": 1,
+      "text": "self-absorbed",
+      "raw_text": "1,self-absorbed",
+      "references": []
+    },
+    {
+      "index": 470,
+      "weight": 1,
+      "text": "self-pitying",
+      "raw_text": "1,self-pitying",
+      "references": []
+    },
+    {
+      "index": 471,
+      "weight": 1,
+      "text": "self-possessed",
+      "raw_text": "1,self-possessed",
+      "references": []
+    },
+    {
+      "index": 472,
+      "weight": 1,
+      "text": "silver-tongued",
+      "raw_text": "1,silver-tongued",
+      "references": []
+    },
+    {
+      "index": 473,
+      "weight": 1,
+      "text": "simple-minded",
+      "raw_text": "1,simple-minded",
+      "references": []
+    },
+    {
+      "index": 474,
+      "weight": 1,
+      "text": "slow-witted",
+      "raw_text": "1,slow-witted",
+      "references": []
+    },
+    {
+      "index": 475,
+      "weight": 1,
+      "text": "strong-willed",
+      "raw_text": "1,strong-willed",
+      "references": []
+    },
+    {
+      "index": 476,
+      "weight": 1,
+      "text": "sun-bronzed",
+      "raw_text": "1,sun-bronzed",
+      "references": []
+    },
+    {
+      "index": 477,
+      "weight": 1,
+      "text": "sweet-talking",
+      "raw_text": "1,sweet-talking",
+      "references": []
+    },
+    {
+      "index": 478,
+      "weight": 1,
+      "text": "tight-lipped",
+      "raw_text": "1,tight-lipped",
+      "references": []
+    },
+    {
+      "index": 479,
+      "weight": 1,
+      "text": "tongue-tied",
+      "raw_text": "1,tongue-tied",
+      "references": []
+    },
+    {
+      "index": 480,
+      "weight": 1,
+      "text": "weak-willed",
+      "raw_text": "1,weak-willed",
+      "references": []
+    },
+    {
+      "index": 481,
+      "weight": 1,
+      "text": "well-armed",
+      "raw_text": "1,well-armed",
+      "references": []
+    },
+    {
+      "index": 482,
+      "weight": 1,
+      "text": "well-fed",
+      "raw_text": "1,well-fed",
+      "references": []
+    },
+    {
+      "index": 483,
+      "weight": 1,
+      "text": "well-known",
+      "raw_text": "1,well-known",
+      "references": []
+    },
+    {
+      "index": 484,
+      "weight": 1,
+      "text": "well-mannered",
+      "raw_text": "1,well-mannered",
+      "references": []
+    },
+    {
+      "index": 485,
+      "weight": 1,
+      "text": "well-meaning but dull-witted",
+      "raw_text": "1,well-meaning but dull-witted",
+      "references": []
+    },
+    {
+      "index": 486,
+      "weight": 1,
+      "text": "world-weary",
+      "raw_text": "1,world-weary",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "dis",
+      "eye",
+      "face",
+      "fl",
+      "hair",
+      "heart",
+      "im",
+      "in",
+      "look",
+      "skin",
+      "spirit",
+      "struck",
+      "temper",
+      "un",
+      "voice"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";⚥\n10,[eye]-eyed\n7,[hair]-haired\n4,[face]-faced\n4,[heart]hearted\n4,[look]-looking\n4,[skin]-skinned\n4,[voice]-voiced\n3,[spirit]-spirited\n3,[struck]-stricken\n3,[temper]-tempered\n0,\n2,[dis]agreeable\n2,[dis]courteous\n2,[dis]honorable\n2,[dis]loyal\n2,[dis]organized\n2,[dis]passionate\n2,[dis]respectful\n2,[dis]trusting\n0,\n2,[im]mature\n2,[im]modest\n2,[im]moral\n2,[im]patient\n2,[im]penitent\n2,[im]pious\n2,[im]polite\n2,[im]practical\n2,[im]precise\n2,[im]prudent\n2,[im]pure\n0,\n2,[in]attentive\n2,[in]cautious\n2,[in]competent\n2,[in]curious\n2,[in]decisive\n2,[in]delicate\n2,[in]dependent\n2,[in]efficient\n2,[in]eloquent\n2,[in]experienced\n2,[in]famous\n2,[in]hospitable\n2,[in]sensitive\n2,[in]sincere\n0,\n2,[un]accomplished\n2,[un]affectionate\n2,[un]ambitious\n2,[un]amused\n2,[un]apologetic\n2,[un]appreciative\n2,[un]blushing\n2,[un]businesslike\n2,[un]charismatic\n2,[un]complaining\n2,[un]confident\n2,[un]courageous\n2,[un]diplomatic\n2,[un]dogmatic\n2,[un]embarrassed\n2,[un]enterprising\n2,[un]envious\n2,[un]fashionable\n2,[un]forgiving\n2,[un]friendly\n2,[un]generous\n2,[un]gentle\n2,[un]grateful\n2,[un]guarded\n2,[un]happy\n2,[un]imaginative\n2,[un]injured\n2,[un]inquisitive\n2,[un]jaundiced\n2,[un]kind\n2,[un]learned\n2,[un]lovable\n2,[un]orthodox\n2,[un]patriotic\n2,[un]patronizing\n2,[un]perceptive\n2,[un]philosophical\n2,[un]popular\n2,[un]quiet\n2,[un]reasonable\n2,[un]refined\n2,[un]relaxed\n2,[un]repentant\n2,[un]scholarly\n2,[un]scrupulous\n2,[un]seasoned\n2,[un]selfish\n2,[un]skillful\n2,[un]smiling\n2,[un]sociable\n2,[un]stylish\n2,[un]surprised\n2,[un]suspicious\n2,[un]sympathetic\n2,[un]tidy\n2,[un]trustworthy\n2,[un]truthful\n2,[un]wary\n2,[un]wise\n2,[un]worried\n2,[un]wrinkled\n0,\n2,care[fl]\n2,cheer[fl]\n2,fear[fl]\n2,grace[fl]\n2,harm[fl]\n2,help[fl]\n2,hope[fl]\n2,remorse[fl]\n2,shame[fl]\n2,tact[fl]\n2,thought[fl]\n0,\n1,xenophobic\n1,cherubic\n1,nostalgic\n1,bucolic\n1,laconic\n1,euphoric\n1,eccentric\n1,energetic\n1,apathetic\n1,neurotic\n1,idealistic\n1,fatalistic\n1,pessimistic\n1,optimistic\n1,hedonistic\n0,\n1,pierced\n1,easily offended\n1,openminded\n1,absentminded\n1,wounded\n1,enraged\n1,foulmouthed\n1,harried\n1,hunchbacked\n1,shellshocked\n1,veiled\n1,ensorcelled\n1,dimpled\n1,crippled\n1,gnarled\n1,maimed\n1,frightened\n1,bloodstained\n1,condemned\n1,sunburned\n1,tattooed\n1,stooped\n1,pampered\n1,beleaguered\n1,armored\n1,diseased\n1,composed\n1,depressed\n1,distressed\n1,confused\n1,intoxicated\n1,elated\n1,opinionated\n1,frustrated\n1,agitated\n1,respected\n1,nearsighted\n1,discontented\n1,haunted\n1,bigoted\n1,exhausted\n1,reserved\n1,disorganized\n1,misguided\n1,crazed\n0,\n1,candid\n1,paranoid\n1,florid\n1,rotund\n1,shrewd\n1,carefree\n1,childlike\n0,\n1,pitiable\n1,unflappable\n1,respectable\n1,young and impressionable\n1,irritable\n1,incorrigible\n1,gullible\n1,irresponsible\n1,irresistible\n0,\n1,humble\n1,hostile\n1,little\n1,meddlesome\n1,insane\n1,morose\n1,compassionate\n1,desperate\n0,\n1,submissive\n1,reclusive\n1,intrusive\n1,oversensitive\n0,\n1,forbidding\n1,brooding\n1,singing\n1,twitching\n1,slouching\n1,laughing\n1,smirking\n1,hardworking\n1,trembling\n1,sniffling\n1,snarling\n1,whistling\n1,daydreaming\n1,scheming\n1,whining\n1,pining\n1,frowning\n1,limping\n1,rasping\n1,lisping\n1,glaring\n1,domineering\n1,sneering\n1,suffering\n1,sauntering\n1,stuttering\n1,shivering\n1,boring\n1,intimidating\n1,sweating\n1,hallucinating\n1,unsuspecting\n1,squinting\n1,strutting\n1,pouting\n1,conniving\n1,starving\n1,sneezing\n1,charming\n1,cunning\n0,\n1,childish\n1,bookish\n1,devilish\n1,ticklish\n1,foolish\n1,boorish\n1,roguish\n1,foppish\n0,\n1,hypochondriacal\n1,comical\n1,tyrannical\n1,cynical\n1,skeptical\n1,egotistical\n1,conspiratorial\n1,territorial\n1,delusional\n1,irrational\n1,unconventional\n1,overemotional\n0,\n1,peaceful\n1,resourceful\n1,vengeful\n1,spiteful\n1,slothful\n1,youthful\n1,tearful\n1,forgetful\n1,resentful\n1,boastful\n1,lustful\n1,sorrowful\n0,\n1,homesick\n1,lovesick\n1,skeletal\n1,restless\n1,ruthless\n1,machiavellian\n1,veteran\n1,drunken\n1,heartbroken\n1,smitten\n1,driven\n1,foreign\n1,solemn\n1,forlorn\n1,oracular\n1,overeager\n1,bitter\n1,clever\n1,hungover\n0,\n1,tedious\n1,studious\n1,rebellious\n1,gregarious\n1,imperious\n1,mysterious\n1,flirtatious\n1,superstitious\n1,obsequious\n1,devious\n1,jealous\n1,zealous\n1,callous\n1,meticulous\n1,garrulous\n1,tyrannous\n1,gluttonous\n1,dangerous\n1,boisterous\n1,monstrous\n1,mischievous\n1,nervous\n0,\n1,heavyset\n1,triumphant\n1,arrogant\n1,brilliant\n1,indignant\n1,ignorant\n1,reluctant\n1,hesitant\n1,flamboyant\n1,innocent\n1,impudent\n1,indulgent\n1,silent\n1,violent\n1,malevolent\n1,irreverent\n1,dishonest\n1,earnest\n1,alarmist\n1,shallow\n1,sallow\n0,\n1,grubby\n1,greedy\n1,foolhardy\n1,craggy\n1,filthy\n1,cranky\n1,cowardly\n1,lonely\n1,lively\n1,sickly\n1,melancholy\n1,elderly\n1,miserly\n1,unruly\n1,sleepy\n1,gossipy\n1,blustery\n1,hungry\n1,accusatory\n1,clumsy\n1,drowsy\n1,fidgety\n1,shifty\n1,thrifty\n1,haughty\n1,hearty\n1,bloodthirsty\n1,chatty\n1,klutzy\n0,\n1,alert\n1,ancient\n1,angry\n1,bawdy\n1,blind\n1,bored\n1,brave\n1,canny\n1,cowed\n1,crazy\n1,cruel\n1,drunk\n1,dying\n1,eager\n1,giddy\n1,gruff\n1,jaded\n1,jumpy\n1,lusty\n1,lying\n1,merry\n1,moody\n1,naïve\n1,noble\n1,old\n1,proud\n1,ruddy\n1,salty\n1,short\n1,sober\n1,stern\n1,stiff\n1,surly\n1,tense\n1,timid\n1,tough\n1,weary\n1,witty\n1,young\n0,\n1,bold\n1,calm\n1,deaf\n1,glum\n1,grim\n1,hale\n1,lazy\n1,loud\n1,mean\n1,mute\n1,nosy\n1,rash\n1,slim\n1,smug\n1,sour\n1,tall\n1,tiny\n1,ugly\n1,vain\n1,wily\n0,\n1,big\n1,fat\n1,shy\n1,sly\n0,\n1,angst-ridden\n1,battle-ready\n1,clear-thinking\n1,fast-talking\n1,flea-infested\n1,foul-smelling\n1,gap-toothed\n1,guilt-ridden\n1,hard-nosed\n1,hero-worshipping\n1,law-abiding\n1,little-known\n1,middle-aged\n1,closed-minded\n1,narrow-minded\n1,peace-loving\n1,quick-witted\n1,self-absorbed\n1,self-pitying\n1,self-possessed\n1,silver-tongued\n1,simple-minded\n1,slow-witted\n1,strong-willed\n1,sun-bronzed\n1,sweet-talking\n1,tight-lipped\n1,tongue-tied\n1,weak-willed\n1,well-armed\n1,well-fed\n1,well-known\n1,well-mannered\n1,well-meaning but dull-witted\n1,world-weary\n\n<!-- to-do: add (and sex-sort) gender-specific adjectives -->",
+  "warnings": [
+    "Inactive markup was masked for definition detection; raw source remains unchanged."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22970,
+    "timestamp": "2014-06-11T05:46:40Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "74a29ed2ae661f9695639cd1083a8adb71a4df1956b93b6e3dc64f98e454f120",
+      "rawSha256": "47e56e4aeafcce8d80ed2d8b1e73cb19bb376c2622988ef5dcd126f0e69bf453",
+      "revisionId": "22970",
+      "line": 19,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "medmagic",
+    "qualified_name": "OSR weapon.medmagic",
+    "table_block_index": 0,
+    "line_number": 19
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "+1 Armour",
+      "raw_text": "2,+1 Armour",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Cursed weapon",
+      "raw_text": "1,Cursed weapon",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "+2 Missile Weapon",
+      "raw_text": "1,+2 Missile Weapon",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Shield +2",
+      "raw_text": "1,Shield +2",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[names], a [weapon2]",
+      "raw_text": "1,[names], a [weapon2]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "medmagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[weapon2]",
+          "token": "weapon2",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "medmagic",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapon2",
+          "target_qualified_name": "OSR weapon.weapon2"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names",
+      "weapon2"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";medmagic\n2,+1 Armour\n1,Cursed weapon\n1,+2 Missile Weapon\n1,Shield +2\n1,[names], a [weapon2]",
+  "warnings": []
+}

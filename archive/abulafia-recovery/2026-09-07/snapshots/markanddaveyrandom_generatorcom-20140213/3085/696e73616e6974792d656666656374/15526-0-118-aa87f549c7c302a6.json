@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15526,
+    "timestamp": "2012-11-02T10:14:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cd3030842ba24c24581815a0fcc6c58821a51765a45f3d8c70f34c17e6373bdd",
+      "rawSha256": "aa87f549c7c302a6407636d314c67ad703f242ec265ecb12a47913aae9edf9e3",
+      "revisionId": "15526",
+      "line": 118,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "insanity-effect",
+    "qualified_name": "Curse.insanity-effect",
+    "table_block_index": 0,
+    "line_number": 118
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "will not eat",
+      "raw_text": "1,will not eat",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "is compelled to wander",
+      "raw_text": "1,is compelled to wander",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "nymphomania",
+      "raw_text": "1,nymphomania",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "catatonia",
+      "raw_text": "1,catatonia",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "will pull out own hair",
+      "raw_text": "1,will pull out own hair",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "highly suggestible",
+      "raw_text": "1,highly suggestible",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "loss of memory",
+      "raw_text": "1,loss of memory",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "paranoia",
+      "raw_text": "1,paranoia",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "nothing seems real",
+      "raw_text": "1,nothing seems real",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "everything seems terrible",
+      "raw_text": "1,everything seems terrible",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "drowsiness",
+      "raw_text": "1,drowsiness",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "compulsive vomiting",
+      "raw_text": "1,compulsive vomiting",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "trance",
+      "raw_text": "1,trance",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "involuntary movement",
+      "raw_text": "1,involuntary movement",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "inflated sense of own importance",
+      "raw_text": "1,inflated sense of own importance",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "withdrawal symptoms",
+      "raw_text": "1,withdrawal symptoms",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";insanity-effect\n1,will not eat\n1,is compelled to wander\n1,nymphomania\n1,catatonia\n1,will pull out own hair\n1,highly suggestible\n1,loss of memory\n1,paranoia\n1,nothing seems real\n1,everything seems terrible\n1,drowsiness\n1,compulsive vomiting\n1,trance\n1,involuntary movement\n1,inflated sense of own importance\n1,withdrawal symptoms",
+  "warnings": []
+}

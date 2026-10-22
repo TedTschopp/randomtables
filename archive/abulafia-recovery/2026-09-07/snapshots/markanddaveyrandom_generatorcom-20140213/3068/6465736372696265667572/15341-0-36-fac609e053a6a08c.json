@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15341,
+    "timestamp": "2012-10-08T07:36:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7cbc14bde97cfbf43bbd6ab59837ccb6f5b666eaba1486aae3febf55913c3f12",
+      "rawSha256": "fac609e053a6a08ca61ec2bbc4a21f8e2b5069fb38fa3fbb9c65beadc966f5c1",
+      "revisionId": "15341",
+      "line": 36,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "describefur",
+    "qualified_name": "Starting Equipment.describefur",
+    "table_block_index": 0,
+    "line_number": 36
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Village.animal]",
+      "raw_text": "1,[Village.animal] ",
+      "references": [
+        {
+          "raw": "[Village.animal]",
+          "token": "Village.animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describefur",
+          "target_page": "Village",
+          "target_subtable": "animal",
+          "target_qualified_name": "Village.animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Village.animal] hide",
+      "raw_text": "1,[Village.animal] hide ",
+      "references": [
+        {
+          "raw": "[Village.animal]",
+          "token": "Village.animal",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describefur",
+          "target_page": "Village",
+          "target_subtable": "animal",
+          "target_qualified_name": "Village.animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Village.animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";describefur\n10,\n1,[Village.animal] \n1,[Village.animal] hide ",
+  "warnings": []
+}

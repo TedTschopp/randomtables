@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "70ca0dd7cb8fd62a3e1392391bf90effab916a4ecb9bbba3a8881643de5f1d4b",
+      "revisionId": "23320",
+      "line": 25,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "weaponnoplus",
+    "qualified_name": "OSR weapon.weaponnoplus",
+    "table_block_index": 0,
+    "line_number": 25
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[names], a [weapon0]",
+      "raw_text": "1,[names], a [weapon0]",
+      "references": [
+        {
+          "raw": "[names]",
+          "token": "names",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weaponnoplus",
+          "target_page": "OSR weapon",
+          "target_subtable": "names",
+          "target_qualified_name": "OSR weapon.names"
+        },
+        {
+          "raw": "[weapon0]",
+          "token": "weapon0",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "weaponnoplus",
+          "target_page": "OSR weapon",
+          "target_subtable": "weapon0",
+          "target_qualified_name": "OSR weapon.weapon0"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "names",
+      "weapon0"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";weaponnoplus\n1,[names], a [weapon0]",
+  "warnings": []
+}

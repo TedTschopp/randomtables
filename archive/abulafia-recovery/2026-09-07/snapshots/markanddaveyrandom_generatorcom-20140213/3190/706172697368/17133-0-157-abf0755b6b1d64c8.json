@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17133,
+    "timestamp": "2013-02-16T01:24:34Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "c97cc43fb7cedc7f74b0ab40980d19cbbd4c997774f68066842917a96770a9e4",
+      "rawSha256": "abf0755b6b1d64c87f7d24afb16b782723d2d69172b2ce0845c60df05c574aef",
+      "revisionId": "17133",
+      "line": 157,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish",
+    "qualified_name": "Planar Codex Parish.parish",
+    "table_block_index": 0,
+    "line_number": 157
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-singular] [feature]. [population].",
+      "raw_text": "1,This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-singular] [feature]. [population].",
+      "references": [
+        {
+          "raw": "[atmosphere-descriptor]",
+          "token": "atmosphere-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "atmosphere-descriptor",
+          "target_qualified_name": "Planar Codex Parish.atmosphere-descriptor"
+        },
+        {
+          "raw": "[borderlands]",
+          "token": "borderlands",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "borderlands",
+          "target_qualified_name": "Planar Codex Parish.borderlands"
+        },
+        {
+          "raw": "[parish-feature-verb-singular]",
+          "token": "parish-feature-verb-singular",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "parish-feature-verb-singular",
+          "target_qualified_name": "Planar Codex Parish.parish-feature-verb-singular"
+        },
+        {
+          "raw": "[feature]",
+          "token": "feature",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "feature",
+          "target_qualified_name": "Planar Codex Parish.feature"
+        },
+        {
+          "raw": "[population]",
+          "token": "population",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "population",
+          "target_qualified_name": "Planar Codex Parish.population"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-plural] [feature-plural].  [population].",
+      "raw_text": "1,This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-plural] [feature-plural].  [population].",
+      "references": [
+        {
+          "raw": "[atmosphere-descriptor]",
+          "token": "atmosphere-descriptor",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "atmosphere-descriptor",
+          "target_qualified_name": "Planar Codex Parish.atmosphere-descriptor"
+        },
+        {
+          "raw": "[borderlands]",
+          "token": "borderlands",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "borderlands",
+          "target_qualified_name": "Planar Codex Parish.borderlands"
+        },
+        {
+          "raw": "[parish-feature-verb-plural]",
+          "token": "parish-feature-verb-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "parish-feature-verb-plural",
+          "target_qualified_name": "Planar Codex Parish.parish-feature-verb-plural"
+        },
+        {
+          "raw": "[feature-plural]",
+          "token": "feature-plural",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "feature-plural",
+          "target_qualified_name": "Planar Codex Parish.feature-plural"
+        },
+        {
+          "raw": "[population]",
+          "token": "population",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "parish",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "population",
+          "target_qualified_name": "Planar Codex Parish.population"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "atmosphere-descriptor",
+      "borderlands",
+      "feature",
+      "feature-plural",
+      "parish-feature-verb-plural",
+      "parish-feature-verb-singular",
+      "population"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";parish\n1,This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-singular] [feature]. [population].\n1,This [atmosphere-descriptor] [borderlands] parish is [parish-feature-verb-plural] [feature-plural].  [population].",
+  "warnings": []
+}

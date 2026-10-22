@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "987d4ad6393cd6b436f6ad17e947f427391cf5da950ce07f4446f97482b32b92",
+      "revisionId": "10367",
+      "line": 505,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorPractical",
+    "qualified_name": "Pickpocket.PoorPractical",
+    "table_block_index": 0,
+    "line_number": 505
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a ball of twine",
+      "raw_text": "1,a ball of twine",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a clay jug",
+      "raw_text": "1,a clay jug",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a clay mug",
+      "raw_text": "1,a clay mug",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a firestarter kit",
+      "raw_text": "1,a firestarter kit",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a fishhook and line",
+      "raw_text": "1,a fishhook and line",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a pencil",
+      "raw_text": "1,a pencil",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a piece of chalk",
+      "raw_text": "1,a piece of chalk",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a pocketknife",
+      "raw_text": "1,a pocketknife",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a sewing needle and thread",
+      "raw_text": "1,a sewing needle and thread",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a small candle",
+      "raw_text": "1,a small candle",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a whetstone",
+      "raw_text": "1,a whetstone",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "a wooden spoon",
+      "raw_text": "1,a wooden spoon",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "knitting needles and a half-knit scarf",
+      "raw_text": "1,knitting needles and a half-knit scarf",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a signal whistle",
+      "raw_text": "1,a signal whistle",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "small leather patches for repairing clothes",
+      "raw_text": "1,small leather patches for repairing clothes",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorPractical\n1,a ball of twine\n1,a clay jug\n1,a clay mug\n1,a firestarter kit\n1,a fishhook and line\n1,a pencil\n1,a piece of chalk\n1,a pocketknife\n1,a sewing needle and thread\n1,a small candle\n1,a whetstone\n1,a wooden spoon\n1,knitting needles and a half-knit scarf\n1,a signal whistle\n1,small leather patches for repairing clothes",
+  "warnings": []
+}

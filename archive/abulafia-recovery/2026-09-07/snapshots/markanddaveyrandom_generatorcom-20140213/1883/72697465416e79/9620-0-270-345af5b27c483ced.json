@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "345af5b27c483ced9a9dbc892babe0dd8a55cabe17af40dd91933b8485280a4b",
+      "revisionId": "9620",
+      "line": 270,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteAny",
+    "qualified_name": "Rituals.riteAny",
+    "table_block_index": 0,
+    "line_number": 270
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[riteDestruction]",
+      "raw_text": "5,[riteDestruction]",
+      "references": [
+        {
+          "raw": "[riteDestruction]",
+          "token": "riteDestruction",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteDestruction",
+          "target_qualified_name": "Rituals.riteDestruction"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 10,
+      "text": "[ritePurification]",
+      "raw_text": "10,[ritePurification]",
+      "references": [
+        {
+          "raw": "[ritePurification]",
+          "token": "ritePurification",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "ritePurification",
+          "target_qualified_name": "Rituals.ritePurification"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 8,
+      "text": "[riteBodyModification]",
+      "raw_text": "8,[riteBodyModification]",
+      "references": [
+        {
+          "raw": "[riteBodyModification]",
+          "token": "riteBodyModification",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteBodyModification",
+          "target_qualified_name": "Rituals.riteBodyModification"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 8,
+      "text": "[riteFoodDrink]",
+      "raw_text": "8,[riteFoodDrink]",
+      "references": [
+        {
+          "raw": "[riteFoodDrink]",
+          "token": "riteFoodDrink",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteFoodDrink",
+          "target_qualified_name": "Rituals.riteFoodDrink"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 8,
+      "text": "[ritePerformance]",
+      "raw_text": "8,[ritePerformance]",
+      "references": [
+        {
+          "raw": "[ritePerformance]",
+          "token": "ritePerformance",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "ritePerformance",
+          "target_qualified_name": "Rituals.ritePerformance"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 6,
+      "text": "[riteSacrifice]",
+      "raw_text": "6,[riteSacrifice]",
+      "references": [
+        {
+          "raw": "[riteSacrifice]",
+          "token": "riteSacrifice",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteSacrifice",
+          "target_qualified_name": "Rituals.riteSacrifice"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 4,
+      "text": "[riteNewness]",
+      "raw_text": "4,[riteNewness]",
+      "references": [
+        {
+          "raw": "[riteNewness]",
+          "token": "riteNewness",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteNewness",
+          "target_qualified_name": "Rituals.riteNewness"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "weight": 5,
+      "text": "[riteCompetitive]",
+      "raw_text": "5,[riteCompetitive]",
+      "references": [
+        {
+          "raw": "[riteCompetitive]",
+          "token": "riteCompetitive",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteCompetitive",
+          "target_qualified_name": "Rituals.riteCompetitive"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "[riteSexual]",
+      "raw_text": "2,[riteSexual]",
+      "references": [
+        {
+          "raw": "[riteSexual]",
+          "token": "riteSexual",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteSexual",
+          "target_qualified_name": "Rituals.riteSexual"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 5,
+      "text": "[riteOther]",
+      "raw_text": "5,[riteOther]",
+      "references": [
+        {
+          "raw": "[riteOther]",
+          "token": "riteOther",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "riteOther",
+          "target_qualified_name": "Rituals.riteOther"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "[ritePunishment]",
+      "raw_text": "1,[ritePunishment]",
+      "references": [
+        {
+          "raw": "[ritePunishment]",
+          "token": "ritePunishment",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteAny",
+          "target_page": "Rituals",
+          "target_subtable": "ritePunishment",
+          "target_qualified_name": "Rituals.ritePunishment"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "riteBodyModification",
+      "riteCompetitive",
+      "riteDestruction",
+      "riteFoodDrink",
+      "riteNewness",
+      "riteOther",
+      "ritePerformance",
+      "ritePunishment",
+      "ritePurification",
+      "riteSacrifice",
+      "riteSexual"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteAny\n5,[riteDestruction]\n10,[ritePurification]\n8,[riteBodyModification]\n8,[riteFoodDrink]\n8,[ritePerformance]\n6,[riteSacrifice]\n4,[riteNewness]\n5,[riteCompetitive]\n2,[riteSexual]\n5,[riteOther]\n1,[ritePunishment]",
+  "warnings": []
+}

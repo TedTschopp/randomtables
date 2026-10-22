@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17108,
+    "timestamp": "2013-02-14T08:25:03Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "99411acc2cdcc7b0df0eb64aab59a625cf1665d1e4ae76912d99cb16765b85f4",
+      "rawSha256": "0540141b404f6afc435ef78cf18e848130fbada14bc32bd1600a3f0bd33f734f",
+      "revisionId": "17108",
+      "line": 17,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "item-descriptor",
+    "qualified_name": "Planar Codex Parish.item-descriptor",
+    "table_block_index": 0,
+    "line_number": 17
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "an eldritch",
+      "raw_text": "1,an eldritch",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a bone",
+      "raw_text": "1,a bone",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "an ogre",
+      "raw_text": "1,an ogre",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a titan",
+      "raw_text": "1,a titan",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a dragon",
+      "raw_text": "1,a dragon",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "an ice",
+      "raw_text": "1,an ice",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a diamond",
+      "raw_text": "1,a diamond",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a glass",
+      "raw_text": "1,a glass",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "a sinister",
+      "raw_text": "1,a sinister",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a lordly",
+      "raw_text": "1,a lordly",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "a masterwork",
+      "raw_text": "1,a masterwork",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "an orichalem",
+      "raw_text": "1,an orichalem",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "an adamantine",
+      "raw_text": "1,an adamantine",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "a horned",
+      "raw_text": "1,a horned",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "a majestic",
+      "raw_text": "1,a majestic",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "a dwarven",
+      "raw_text": "1,a dwarven",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "an elven",
+      "raw_text": "1,an elven",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "an ancient",
+      "raw_text": "1,an ancient",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "a fanged",
+      "raw_text": "1,a fanged",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "a legendary",
+      "raw_text": "1,a legendary",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "a mythic",
+      "raw_text": "1,a mythic",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "a golden",
+      "raw_text": "1,a golden",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "a jeweled",
+      "raw_text": "1,a jeweled",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "a chitinous",
+      "raw_text": "1,a chitinous",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "a divine",
+      "raw_text": "1,a divine",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "a profane",
+      "raw_text": "1,a profane",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "a sacred",
+      "raw_text": "1,a sacred",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "a runic",
+      "raw_text": "1,a runic",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "an enchanted",
+      "raw_text": "1,an enchanted",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "an invested",
+      "raw_text": "1,an invested",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "a foetid",
+      "raw_text": "1,a foetid",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "a royal",
+      "raw_text": "1,a royal",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "a loyal",
+      "raw_text": "1,a loyal",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "an epic",
+      "raw_text": "1,an epic",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "an imperial",
+      "raw_text": "1,an imperial",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "a fey",
+      "raw_text": "1,a fey",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "a winged",
+      "raw_text": "1,a winged",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "a shadow",
+      "raw_text": "1,a shadow",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "a ceremonial",
+      "raw_text": "1,a ceremonial",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "a prismatic",
+      "raw_text": "1,a prismatic",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "a coruscating",
+      "raw_text": "1,a coruscating",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "an actinic",
+      "raw_text": "1,an actinic",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "an evanescing",
+      "raw_text": "1,an evanescing",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "a star-forged",
+      "raw_text": "1,a star-forged",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "a meteoric",
+      "raw_text": "1,a meteoric",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "an astral",
+      "raw_text": "1,an astral",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "an ethereal",
+      "raw_text": "1,an ethereal",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "an exotic",
+      "raw_text": "1,an exotic",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "a resplendent",
+      "raw_text": "1,a resplendent",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "a spiked",
+      "raw_text": "1,a spiked",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "a venomous",
+      "raw_text": "1,a venomous",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "a frivolous",
+      "raw_text": "1,a frivolous",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "a madcap",
+      "raw_text": "1,a madcap",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "a gladiator's",
+      "raw_text": "1,a gladiator's",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "a professor's",
+      "raw_text": "1,a professor's",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "an imperial",
+      "raw_text": "1,an imperial",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "a warrior's",
+      "raw_text": "1,a warrior's",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "a mage's",
+      "raw_text": "1,a mage's",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";item-descriptor\n1,an eldritch\n1,a bone\n1,an ogre\n1,a titan\n1,a dragon\n1,an ice\n1,a diamond\n1,a glass\n1,a sinister\n1,a lordly\n1,a masterwork\n1,an orichalem\n1,an adamantine\n1,a horned\n1,a majestic\n1,a dwarven\n1,an elven\n1,an ancient\n1,a fanged\n1,a legendary\n1,a mythic\n1,a golden\n1,a jeweled\n1,a chitinous\n1,a divine\n1,a profane\n1,a sacred\n1,a runic\n1,an enchanted\n1,an invested\n1,a foetid\n1,a royal\n1,a loyal\n1,an epic\n1,an imperial\n1,a fey\n1,a winged\n1,a shadow\n1,a ceremonial\n1,a prismatic\n1,a coruscating\n1,an actinic\n1,an evanescing\n1,a star-forged\n1,a meteoric\n1,an astral\n1,an ethereal\n1,an exotic\n1,a resplendent\n1,a spiked\n1,a venomous\n1,a frivolous\n1,a madcap\n1,a gladiator's\n1,a professor's\n1,an imperial\n1,a warrior's\n1,a mage's",
+  "warnings": []
+}

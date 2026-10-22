@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15344,
+    "timestamp": "2012-10-08T07:50:02Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "00ca9cb6f3c73be085717bd36fff72fc4bcffd0d2e86ac7890458cb5a68b34d4",
+      "rawSha256": "f1ead4cab3313ad46c832ed48f9ce82ec54e10b85e278ff82cf59b2c25372128",
+      "revisionId": "15344",
+      "line": 42,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "describewood",
+    "qualified_name": "Starting Equipment.describewood",
+    "table_block_index": 0,
+    "line_number": 42
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "",
+      "raw_text": "10,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Utility.Wood]",
+      "raw_text": "1,[Utility.Wood] ",
+      "references": [
+        {
+          "raw": "[Utility.Wood]",
+          "token": "Utility.Wood",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "describewood",
+          "target_page": "Utility",
+          "target_subtable": "Wood",
+          "target_qualified_name": "Utility.Wood"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.Wood"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";describewood\n10,\n1,[Utility.Wood] ",
+  "warnings": []
+}

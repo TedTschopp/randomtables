@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15374,
+    "timestamp": "2012-10-08T10:20:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5a90188061e84cf808dca371c99350f7075a534bbded4a40a003b6ef2e5ed3ce",
+      "rawSha256": "9e1c11b92ae1de15aeb31330110428c88384d6513071b75afd0f99c6b3296735",
+      "revisionId": "15374",
+      "line": 257,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "wineskin",
+    "qualified_name": "Starting Equipment.wineskin",
+    "table_block_index": 0,
+    "line_number": 257
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "aleskin ([full])",
+      "raw_text": "1,aleskin ([full])",
+      "references": [
+        {
+          "raw": "[full]",
+          "token": "full",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "wineskin",
+          "target_page": "Starting Equipment",
+          "target_subtable": "full",
+          "target_qualified_name": "Starting Equipment.full"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "wineskin ([full])",
+      "raw_text": "1,wineskin ([full])",
+      "references": [
+        {
+          "raw": "[full]",
+          "token": "full",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "wineskin",
+          "target_page": "Starting Equipment",
+          "target_subtable": "full",
+          "target_qualified_name": "Starting Equipment.full"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "waterskin ([full])",
+      "raw_text": "1,waterskin ([full])",
+      "references": [
+        {
+          "raw": "[full]",
+          "token": "full",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "wineskin",
+          "target_page": "Starting Equipment",
+          "target_subtable": "full",
+          "target_qualified_name": "Starting Equipment.full"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "full"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";wineskin\n1,aleskin ([full])\n1,wineskin ([full])\n1,waterskin ([full])",
+  "warnings": []
+}

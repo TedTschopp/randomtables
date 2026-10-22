@@ -1,0 +1,2900 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13988,
+    "timestamp": "2012-03-05T06:04:01Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "040511e0ca8d63b866efcbd24b833aacfe24cd903ed205f788891a6ed42fe80b",
+      "rawSha256": "173026515b55d00000187c2349e102f8b67be28528506faca00d6e00ada9a2d1",
+      "revisionId": "13988",
+      "line": 267,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "job",
+    "qualified_name": "Quick Populations.job",
+    "table_block_index": 0,
+    "line_number": 267
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "harlot",
+      "raw_text": "1,harlot",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "assassin",
+      "raw_text": "1,assassin",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "witch",
+      "raw_text": "1,witch",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "assassin",
+      "raw_text": "1,assassin",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "bandit",
+      "raw_text": "1,bandit",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "jester",
+      "raw_text": "1,jester ",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "archer",
+      "raw_text": "1,archer",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "battlemage",
+      "raw_text": "1,battlemage",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "battlepriest",
+      "raw_text": "1,battlepriest",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "caravan leader",
+      "raw_text": "1,caravan leader",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "cavalier",
+      "raw_text": "1,cavalier",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "duelist",
+      "raw_text": "1,duelist",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "exorcist",
+      "raw_text": "1,exorcist",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "explorer",
+      "raw_text": "1,explorer",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "geomancer",
+      "raw_text": "1,geomancer",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "guide",
+      "raw_text": "1,guide",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "healer",
+      "raw_text": "1,healer",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "hunter",
+      "raw_text": "1,hunter",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "huntsman",
+      "raw_text": "1,huntsman",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "knight",
+      "raw_text": "1,knight",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "mercenary",
+      "raw_text": "1,mercenary",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "pirate",
+      "raw_text": "1,pirate",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "priest",
+      "raw_text": "1,priest",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "raider",
+      "raw_text": "1,raider",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "sailor",
+      "raw_text": "1,sailor",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "scout",
+      "raw_text": "1,scout",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "ship's captain",
+      "raw_text": "1,ship's captain",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "soldier",
+      "raw_text": "1,soldier",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "soldier of fortune",
+      "raw_text": "1,soldier of fortune",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "strategist",
+      "raw_text": "1,strategist",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "swashbuckler",
+      "raw_text": "1,swashbuckler",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "templar",
+      "raw_text": "1,templar",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "warlord",
+      "raw_text": "1,warlord",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "armorer",
+      "raw_text": "1,armorer",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "armorsmith",
+      "raw_text": "1,armorsmith",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "blacksmith",
+      "raw_text": "1,blacksmith",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "coppersmith",
+      "raw_text": "1,coppersmith",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "cooper",
+      "raw_text": "1,cooper",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "ferrier",
+      "raw_text": "1,ferrier",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "goldsmith",
+      "raw_text": "1,goldsmith",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "jeweler",
+      "raw_text": "1,jeweler",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "journeyman",
+      "raw_text": "1,journeyman",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "leathersmith",
+      "raw_text": "1,leathersmith",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "locksmith",
+      "raw_text": "1,locksmith",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "master jeweler",
+      "raw_text": "1,master jeweler",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "master smith",
+      "raw_text": "1,master smith",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "metalsmith",
+      "raw_text": "1,metalsmith",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "milliner",
+      "raw_text": "1,milliner",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "silversmith",
+      "raw_text": "1,silversmith",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "tanner",
+      "raw_text": "1,tanner",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "tinsmith",
+      "raw_text": "1,tinsmith",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "trapsmith",
+      "raw_text": "1,trapsmith",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "weaponsmith",
+      "raw_text": "1,weaponsmith",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "architect",
+      "raw_text": "1,architect",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "artisan",
+      "raw_text": "1,artisan",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "bricklayer",
+      "raw_text": "1,bricklayer",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "carpenter",
+      "raw_text": "1,carpenter",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "cartwright",
+      "raw_text": "1,cartwright",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "craftsman",
+      "raw_text": "1,craftsman",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "draftsman",
+      "raw_text": "1,draftsman",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "fletcher",
+      "raw_text": "1,fletcher",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "framer",
+      "raw_text": "1,framer",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "furrier",
+      "raw_text": "1,furrier",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "gemcutter",
+      "raw_text": "1,gemcutter",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "glassblower",
+      "raw_text": "1,glassblower",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "glovemaker",
+      "raw_text": "1,glovemaker",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "glover",
+      "raw_text": "1,glover",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "journeyman",
+      "raw_text": "1,journeyman",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "mason",
+      "raw_text": "1,mason",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "master artisan",
+      "raw_text": "1,master artisan",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "master carpenter",
+      "raw_text": "1,master carpenter",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "master craftsman",
+      "raw_text": "1,master craftsman",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "master weaver",
+      "raw_text": "1,master weaver",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "miller",
+      "raw_text": "1,miller",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "painter",
+      "raw_text": "1,painter",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "potter",
+      "raw_text": "1,potter",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "roofer",
+      "raw_text": "1,roofer",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "shipwright",
+      "raw_text": "1,shipwright",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "shoemaker",
+      "raw_text": "1,shoemaker",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "stonecutter",
+      "raw_text": "1,stonecutter",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "tailor",
+      "raw_text": "1,tailor",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "tanner",
+      "raw_text": "1,tanner",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "tinker",
+      "raw_text": "1,tinker",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "toymaker",
+      "raw_text": "1,toymaker",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "trapper",
+      "raw_text": "1,trapper",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "stonemason",
+      "raw_text": "1,stonemason",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "thatcher",
+      "raw_text": "1,thatcher",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "weaver",
+      "raw_text": "1,weaver",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "woodcutter",
+      "raw_text": "1,woodcutter",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "auctioneeer",
+      "raw_text": "1,auctioneeer",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "baker",
+      "raw_text": "1,baker",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "basket maker",
+      "raw_text": "1,basket maker",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "brewer",
+      "raw_text": "1,brewer",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "butcher",
+      "raw_text": "1,butcher",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "chandler",
+      "raw_text": "1,chandler",
+      "references": []
+    },
+    {
+      "index": 95,
+      "weight": 1,
+      "text": "cobbler",
+      "raw_text": "1,cobbler",
+      "references": []
+    },
+    {
+      "index": 96,
+      "weight": 1,
+      "text": "eelmonger",
+      "raw_text": "1,eelmonger",
+      "references": []
+    },
+    {
+      "index": 97,
+      "weight": 1,
+      "text": "fishmonger",
+      "raw_text": "1,fishmonger",
+      "references": []
+    },
+    {
+      "index": 98,
+      "weight": 1,
+      "text": "flower seller",
+      "raw_text": "1,flower seller",
+      "references": []
+    },
+    {
+      "index": 99,
+      "weight": 1,
+      "text": "haberdasher",
+      "raw_text": "1,haberdasher",
+      "references": []
+    },
+    {
+      "index": 100,
+      "weight": 1,
+      "text": "hatter",
+      "raw_text": "1,hatter",
+      "references": []
+    },
+    {
+      "index": 101,
+      "weight": 1,
+      "text": "hawker",
+      "raw_text": "1,hawker",
+      "references": []
+    },
+    {
+      "index": 102,
+      "weight": 1,
+      "text": "huckster",
+      "raw_text": "1,huckster",
+      "references": []
+    },
+    {
+      "index": 103,
+      "weight": 1,
+      "text": "ironmonger",
+      "raw_text": "1,ironmonger",
+      "references": []
+    },
+    {
+      "index": 104,
+      "weight": 1,
+      "text": "merchant",
+      "raw_text": "1,merchant",
+      "references": []
+    },
+    {
+      "index": 105,
+      "weight": 1,
+      "text": "peddler",
+      "raw_text": "1,peddler",
+      "references": []
+    },
+    {
+      "index": 106,
+      "weight": 1,
+      "text": "shieldmonger",
+      "raw_text": "1,shieldmonger",
+      "references": []
+    },
+    {
+      "index": 107,
+      "weight": 1,
+      "text": "shopkeep",
+      "raw_text": "1,shopkeep",
+      "references": []
+    },
+    {
+      "index": 108,
+      "weight": 1,
+      "text": "spice merchant",
+      "raw_text": "1,spice merchant",
+      "references": []
+    },
+    {
+      "index": 109,
+      "weight": 1,
+      "text": "trader",
+      "raw_text": "1,trader",
+      "references": []
+    },
+    {
+      "index": 110,
+      "weight": 1,
+      "text": "vendor",
+      "raw_text": "1,vendor",
+      "references": []
+    },
+    {
+      "index": 111,
+      "weight": 1,
+      "text": "vintner",
+      "raw_text": "1,vintner",
+      "references": []
+    },
+    {
+      "index": 112,
+      "weight": 1,
+      "text": "waremonger",
+      "raw_text": "1,waremonger",
+      "references": []
+    },
+    {
+      "index": 113,
+      "weight": 1,
+      "text": "weaponmonger",
+      "raw_text": "1,weaponmonger",
+      "references": []
+    },
+    {
+      "index": 114,
+      "weight": 1,
+      "text": "acrobat",
+      "raw_text": "1,acrobat",
+      "references": []
+    },
+    {
+      "index": 115,
+      "weight": 1,
+      "text": "actor",
+      "raw_text": "1,actor",
+      "references": []
+    },
+    {
+      "index": 116,
+      "weight": 1,
+      "text": "animal trainer",
+      "raw_text": "1,animal trainer",
+      "references": []
+    },
+    {
+      "index": 117,
+      "weight": 1,
+      "text": "artist",
+      "raw_text": "1,artist",
+      "references": []
+    },
+    {
+      "index": 118,
+      "weight": 1,
+      "text": "author",
+      "raw_text": "1,author",
+      "references": []
+    },
+    {
+      "index": 119,
+      "weight": 1,
+      "text": "bandmaster",
+      "raw_text": "1,bandmaster",
+      "references": []
+    },
+    {
+      "index": 120,
+      "weight": 1,
+      "text": "bear-tamer",
+      "raw_text": "1,bear-tamer",
+      "references": []
+    },
+    {
+      "index": 121,
+      "weight": 1,
+      "text": "beast tamer",
+      "raw_text": "1,beast tamer",
+      "references": []
+    },
+    {
+      "index": 122,
+      "weight": 1,
+      "text": "choirmember",
+      "raw_text": "1,choirmember",
+      "references": []
+    },
+    {
+      "index": 123,
+      "weight": 1,
+      "text": "chorister",
+      "raw_text": "1,chorister",
+      "references": []
+    },
+    {
+      "index": 124,
+      "weight": 1,
+      "text": "composer",
+      "raw_text": "1,composer",
+      "references": []
+    },
+    {
+      "index": 125,
+      "weight": 1,
+      "text": "contortionist",
+      "raw_text": "1,contortionist",
+      "references": []
+    },
+    {
+      "index": 126,
+      "weight": 1,
+      "text": "dancer",
+      "raw_text": "1,dancer",
+      "references": []
+    },
+    {
+      "index": 127,
+      "weight": 1,
+      "text": "drummer",
+      "raw_text": "1,drummer",
+      "references": []
+    },
+    {
+      "index": 128,
+      "weight": 1,
+      "text": "fire-breather",
+      "raw_text": "1,fire-breather",
+      "references": []
+    },
+    {
+      "index": 129,
+      "weight": 1,
+      "text": "gladiator",
+      "raw_text": "1,gladiator",
+      "references": []
+    },
+    {
+      "index": 130,
+      "weight": 1,
+      "text": "jester",
+      "raw_text": "1,jester",
+      "references": []
+    },
+    {
+      "index": 131,
+      "weight": 1,
+      "text": "jongleur",
+      "raw_text": "1,jongleur",
+      "references": []
+    },
+    {
+      "index": 132,
+      "weight": 1,
+      "text": "juggler",
+      "raw_text": "1,juggler",
+      "references": []
+    },
+    {
+      "index": 133,
+      "weight": 1,
+      "text": "lutist",
+      "raw_text": "1,lutist",
+      "references": []
+    },
+    {
+      "index": 134,
+      "weight": 1,
+      "text": "master performer",
+      "raw_text": "1,master performer",
+      "references": []
+    },
+    {
+      "index": 135,
+      "weight": 1,
+      "text": "minstrel",
+      "raw_text": "1,minstrel",
+      "references": []
+    },
+    {
+      "index": 136,
+      "weight": 1,
+      "text": "musician",
+      "raw_text": "1,musician",
+      "references": []
+    },
+    {
+      "index": 137,
+      "weight": 1,
+      "text": "painter",
+      "raw_text": "1,painter",
+      "references": []
+    },
+    {
+      "index": 138,
+      "weight": 1,
+      "text": "piper",
+      "raw_text": "1,piper",
+      "references": []
+    },
+    {
+      "index": 139,
+      "weight": 1,
+      "text": "pit fighter",
+      "raw_text": "1,pit fighter",
+      "references": []
+    },
+    {
+      "index": 140,
+      "weight": 1,
+      "text": "playwright",
+      "raw_text": "1,playwright",
+      "references": []
+    },
+    {
+      "index": 141,
+      "weight": 1,
+      "text": "poet",
+      "raw_text": "1,poet",
+      "references": []
+    },
+    {
+      "index": 142,
+      "weight": 1,
+      "text": "puppeteer",
+      "raw_text": "1,puppeteer",
+      "references": []
+    },
+    {
+      "index": 143,
+      "weight": 1,
+      "text": "singer",
+      "raw_text": "1,singer",
+      "references": []
+    },
+    {
+      "index": 144,
+      "weight": 1,
+      "text": "soothsayer",
+      "raw_text": "1,soothsayer",
+      "references": []
+    },
+    {
+      "index": 145,
+      "weight": 1,
+      "text": "stage magician",
+      "raw_text": "1,stage magician",
+      "references": []
+    },
+    {
+      "index": 146,
+      "weight": 1,
+      "text": "storyteller",
+      "raw_text": "1,storyteller",
+      "references": []
+    },
+    {
+      "index": 147,
+      "weight": 1,
+      "text": "tattoo artist",
+      "raw_text": "1,tattoo artist",
+      "references": []
+    },
+    {
+      "index": 148,
+      "weight": 1,
+      "text": "troubadour",
+      "raw_text": "1,troubadour",
+      "references": []
+    },
+    {
+      "index": 149,
+      "weight": 1,
+      "text": "wrestler",
+      "raw_text": "1,wrestler",
+      "references": []
+    },
+    {
+      "index": 150,
+      "weight": 1,
+      "text": "writer",
+      "raw_text": "1,writer",
+      "references": []
+    },
+    {
+      "index": 151,
+      "weight": 1,
+      "text": "abbot",
+      "raw_text": "1,abbot ",
+      "references": []
+    },
+    {
+      "index": 152,
+      "weight": 1,
+      "text": "battlepriest",
+      "raw_text": "1,battlepriest",
+      "references": []
+    },
+    {
+      "index": 153,
+      "weight": 1,
+      "text": "chanter",
+      "raw_text": "1,chanter",
+      "references": []
+    },
+    {
+      "index": 154,
+      "weight": 1,
+      "text": "clerk",
+      "raw_text": "1,clerk",
+      "references": []
+    },
+    {
+      "index": 155,
+      "weight": 1,
+      "text": "counselor",
+      "raw_text": "1,counselor",
+      "references": []
+    },
+    {
+      "index": 156,
+      "weight": 1,
+      "text": "cultist",
+      "raw_text": "1,cultist",
+      "references": []
+    },
+    {
+      "index": 157,
+      "weight": 1,
+      "text": "fanatic",
+      "raw_text": "1,fanatic ",
+      "references": []
+    },
+    {
+      "index": 158,
+      "weight": 1,
+      "text": "healer",
+      "raw_text": "1,healer",
+      "references": []
+    },
+    {
+      "index": 159,
+      "weight": 1,
+      "text": "heirophant",
+      "raw_text": "1,heirophant",
+      "references": []
+    },
+    {
+      "index": 160,
+      "weight": 1,
+      "text": "herbalist",
+      "raw_text": "1,herbalist",
+      "references": []
+    },
+    {
+      "index": 161,
+      "weight": 1,
+      "text": "hermit",
+      "raw_text": "1,hermit",
+      "references": []
+    },
+    {
+      "index": 162,
+      "weight": 1,
+      "text": "high priest",
+      "raw_text": "1,high priest",
+      "references": []
+    },
+    {
+      "index": 163,
+      "weight": 1,
+      "text": "inquisitor",
+      "raw_text": "1,inquisitor",
+      "references": []
+    },
+    {
+      "index": 164,
+      "weight": 1,
+      "text": "itinerant",
+      "raw_text": "1,itinerant",
+      "references": []
+    },
+    {
+      "index": 165,
+      "weight": 1,
+      "text": "medic",
+      "raw_text": "1,medic",
+      "references": []
+    },
+    {
+      "index": 166,
+      "weight": 1,
+      "text": "missionary",
+      "raw_text": "1,missionary",
+      "references": []
+    },
+    {
+      "index": 167,
+      "weight": 1,
+      "text": "monk",
+      "raw_text": "1,monk",
+      "references": []
+    },
+    {
+      "index": 168,
+      "weight": 1,
+      "text": "pardoner",
+      "raw_text": "1,pardoner",
+      "references": []
+    },
+    {
+      "index": 169,
+      "weight": 1,
+      "text": "philosopher",
+      "raw_text": "1,philosopher",
+      "references": []
+    },
+    {
+      "index": 170,
+      "weight": 1,
+      "text": "pilgrim",
+      "raw_text": "1,pilgrim",
+      "references": []
+    },
+    {
+      "index": 171,
+      "weight": 1,
+      "text": "priest",
+      "raw_text": "1,priest",
+      "references": []
+    },
+    {
+      "index": 172,
+      "weight": 1,
+      "text": "prophet",
+      "raw_text": "1,prophet",
+      "references": []
+    },
+    {
+      "index": 173,
+      "weight": 1,
+      "text": "religious fanatic",
+      "raw_text": "1,religious fanatic",
+      "references": []
+    },
+    {
+      "index": 174,
+      "weight": 1,
+      "text": "sage",
+      "raw_text": "1,sage",
+      "references": []
+    },
+    {
+      "index": 175,
+      "weight": 1,
+      "text": "saint",
+      "raw_text": "1,saint",
+      "references": []
+    },
+    {
+      "index": 176,
+      "weight": 1,
+      "text": "scribe",
+      "raw_text": "1,scribe",
+      "references": []
+    },
+    {
+      "index": 177,
+      "weight": 1,
+      "text": "supplicant",
+      "raw_text": "1,supplicant",
+      "references": []
+    },
+    {
+      "index": 178,
+      "weight": 1,
+      "text": "templar",
+      "raw_text": "1,templar",
+      "references": []
+    },
+    {
+      "index": 179,
+      "weight": 1,
+      "text": "thaumaturge",
+      "raw_text": "1,thaumaturge",
+      "references": []
+    },
+    {
+      "index": 180,
+      "weight": 1,
+      "text": "vicar",
+      "raw_text": "1,vicar",
+      "references": []
+    },
+    {
+      "index": 181,
+      "weight": 1,
+      "text": "zealot",
+      "raw_text": "1,zealot",
+      "references": []
+    },
+    {
+      "index": 182,
+      "weight": 1,
+      "text": "aeromancer",
+      "raw_text": "1,aeromancer",
+      "references": []
+    },
+    {
+      "index": 183,
+      "weight": 1,
+      "text": "alchemist",
+      "raw_text": "1,alchemist",
+      "references": []
+    },
+    {
+      "index": 184,
+      "weight": 1,
+      "text": "archmage",
+      "raw_text": "1,archmage",
+      "references": []
+    },
+    {
+      "index": 185,
+      "weight": 1,
+      "text": "battlemage",
+      "raw_text": "1,battlemage",
+      "references": []
+    },
+    {
+      "index": 186,
+      "weight": 1,
+      "text": "blood mage",
+      "raw_text": "1,blood mage",
+      "references": []
+    },
+    {
+      "index": 187,
+      "weight": 1,
+      "text": "bonecaster",
+      "raw_text": "1,bonecaster ",
+      "references": []
+    },
+    {
+      "index": 188,
+      "weight": 1,
+      "text": "conjurer",
+      "raw_text": "1,conjurer",
+      "references": []
+    },
+    {
+      "index": 189,
+      "weight": 1,
+      "text": "demonologist",
+      "raw_text": "1,demonologist",
+      "references": []
+    },
+    {
+      "index": 190,
+      "weight": 1,
+      "text": "diviner",
+      "raw_text": "1,diviner",
+      "references": []
+    },
+    {
+      "index": 191,
+      "weight": 1,
+      "text": "druid",
+      "raw_text": "1,druid",
+      "references": []
+    },
+    {
+      "index": 192,
+      "weight": 1,
+      "text": "enchanter",
+      "raw_text": "1,enchanter",
+      "references": []
+    },
+    {
+      "index": 193,
+      "weight": 1,
+      "text": "evoker",
+      "raw_text": "1,evoker",
+      "references": []
+    },
+    {
+      "index": 194,
+      "weight": 1,
+      "text": "exorcist",
+      "raw_text": "1,exorcist",
+      "references": []
+    },
+    {
+      "index": 195,
+      "weight": 1,
+      "text": "geomancer",
+      "raw_text": "1,geomancer",
+      "references": []
+    },
+    {
+      "index": 196,
+      "weight": 1,
+      "text": "hedge witch",
+      "raw_text": "1,hedge witch",
+      "references": []
+    },
+    {
+      "index": 197,
+      "weight": 1,
+      "text": "hex witch",
+      "raw_text": "1,hex witch",
+      "references": []
+    },
+    {
+      "index": 198,
+      "weight": 1,
+      "text": "hydromancer",
+      "raw_text": "1,hydromancer",
+      "references": []
+    },
+    {
+      "index": 199,
+      "weight": 1,
+      "text": "illusionist",
+      "raw_text": "1,illusionist",
+      "references": []
+    },
+    {
+      "index": 200,
+      "weight": 1,
+      "text": "invoker",
+      "raw_text": "1,invoker",
+      "references": []
+    },
+    {
+      "index": 201,
+      "weight": 1,
+      "text": "mage",
+      "raw_text": "1,mage",
+      "references": []
+    },
+    {
+      "index": 202,
+      "weight": 1,
+      "text": "necromancer",
+      "raw_text": "1,necromancer",
+      "references": []
+    },
+    {
+      "index": 203,
+      "weight": 1,
+      "text": "oracle",
+      "raw_text": "1,oracle ",
+      "references": []
+    },
+    {
+      "index": 204,
+      "weight": 1,
+      "text": "pyromancer",
+      "raw_text": "1,pyromancer",
+      "references": []
+    },
+    {
+      "index": 205,
+      "weight": 1,
+      "text": "rune caster",
+      "raw_text": "1,rune caster ",
+      "references": []
+    },
+    {
+      "index": 206,
+      "weight": 1,
+      "text": "sorcerer",
+      "raw_text": "1,sorcerer",
+      "references": []
+    },
+    {
+      "index": 207,
+      "weight": 1,
+      "text": "warlock",
+      "raw_text": "1,warlock",
+      "references": []
+    },
+    {
+      "index": 208,
+      "weight": 1,
+      "text": "witch",
+      "raw_text": "1,witch",
+      "references": []
+    },
+    {
+      "index": 209,
+      "weight": 1,
+      "text": "academic",
+      "raw_text": "1,academic",
+      "references": []
+    },
+    {
+      "index": 210,
+      "weight": 1,
+      "text": "alchemist",
+      "raw_text": "1,alchemist",
+      "references": []
+    },
+    {
+      "index": 211,
+      "weight": 1,
+      "text": "author",
+      "raw_text": "1,author",
+      "references": []
+    },
+    {
+      "index": 212,
+      "weight": 1,
+      "text": "cartographer",
+      "raw_text": "1,cartographer",
+      "references": []
+    },
+    {
+      "index": 213,
+      "weight": 1,
+      "text": "copyist",
+      "raw_text": "1,copyist",
+      "references": []
+    },
+    {
+      "index": 214,
+      "weight": 1,
+      "text": "counselor",
+      "raw_text": "1,counselor",
+      "references": []
+    },
+    {
+      "index": 215,
+      "weight": 1,
+      "text": "dean",
+      "raw_text": "1,dean",
+      "references": []
+    },
+    {
+      "index": 216,
+      "weight": 1,
+      "text": "draftsman",
+      "raw_text": "1,draftsman",
+      "references": []
+    },
+    {
+      "index": 217,
+      "weight": 1,
+      "text": "engineer",
+      "raw_text": "1,engineer",
+      "references": []
+    },
+    {
+      "index": 218,
+      "weight": 1,
+      "text": "eggler (sells eggs)",
+      "raw_text": "1,eggler (sells eggs)",
+      "references": []
+    },
+    {
+      "index": 219,
+      "weight": 1,
+      "text": "inventor",
+      "raw_text": "1,inventor",
+      "references": []
+    },
+    {
+      "index": 220,
+      "weight": 1,
+      "text": "librarian",
+      "raw_text": "1,librarian",
+      "references": []
+    },
+    {
+      "index": 221,
+      "weight": 1,
+      "text": "man of letters",
+      "raw_text": "1,man of letters",
+      "references": []
+    },
+    {
+      "index": 222,
+      "weight": 1,
+      "text": "master scribe",
+      "raw_text": "1,master scribe",
+      "references": []
+    },
+    {
+      "index": 223,
+      "weight": 1,
+      "text": "mathematician",
+      "raw_text": "1,mathematician",
+      "references": []
+    },
+    {
+      "index": 224,
+      "weight": 1,
+      "text": "navigator",
+      "raw_text": "1,navigator",
+      "references": []
+    },
+    {
+      "index": 225,
+      "weight": 1,
+      "text": "professor",
+      "raw_text": "1,professor",
+      "references": []
+    },
+    {
+      "index": 226,
+      "weight": 1,
+      "text": "sage",
+      "raw_text": "1,sage",
+      "references": []
+    },
+    {
+      "index": 227,
+      "weight": 1,
+      "text": "scholar",
+      "raw_text": "1,scholar",
+      "references": []
+    },
+    {
+      "index": 228,
+      "weight": 1,
+      "text": "schoolmaster",
+      "raw_text": "1,schoolmaster",
+      "references": []
+    },
+    {
+      "index": 229,
+      "weight": 1,
+      "text": "scientist",
+      "raw_text": "1,scientist",
+      "references": []
+    },
+    {
+      "index": 230,
+      "weight": 1,
+      "text": "scribe",
+      "raw_text": "1,scribe",
+      "references": []
+    },
+    {
+      "index": 231,
+      "weight": 1,
+      "text": "student",
+      "raw_text": "1,student",
+      "references": []
+    },
+    {
+      "index": 232,
+      "weight": 1,
+      "text": "writer",
+      "raw_text": "1,writer",
+      "references": []
+    },
+    {
+      "index": 233,
+      "weight": 1,
+      "text": "advisor",
+      "raw_text": "1,advisor",
+      "references": []
+    },
+    {
+      "index": 234,
+      "weight": 1,
+      "text": "advocate (lawyer)",
+      "raw_text": "1,advocate (lawyer)",
+      "references": []
+    },
+    {
+      "index": 235,
+      "weight": 1,
+      "text": "ambassador",
+      "raw_text": "1,ambassador",
+      "references": []
+    },
+    {
+      "index": 236,
+      "weight": 1,
+      "text": "appraiser",
+      "raw_text": "1,appraiser",
+      "references": []
+    },
+    {
+      "index": 237,
+      "weight": 1,
+      "text": "bailiff",
+      "raw_text": "1,bailiff",
+      "references": []
+    },
+    {
+      "index": 238,
+      "weight": 2,
+      "text": "baron",
+      "raw_text": "2,baron",
+      "references": []
+    },
+    {
+      "index": 239,
+      "weight": 1,
+      "text": "baronet",
+      "raw_text": "1,baronet",
+      "references": []
+    },
+    {
+      "index": 240,
+      "weight": 1,
+      "text": "chancellor",
+      "raw_text": "1,chancellor",
+      "references": []
+    },
+    {
+      "index": 241,
+      "weight": 1,
+      "text": "clerk",
+      "raw_text": "1,clerk",
+      "references": []
+    },
+    {
+      "index": 242,
+      "weight": 1,
+      "text": "collector",
+      "raw_text": "1,collector",
+      "references": []
+    },
+    {
+      "index": 243,
+      "weight": 1,
+      "text": "count",
+      "raw_text": "1,count",
+      "references": []
+    },
+    {
+      "index": 244,
+      "weight": 1,
+      "text": "courier",
+      "raw_text": "1,courier",
+      "references": []
+    },
+    {
+      "index": 245,
+      "weight": 1,
+      "text": "detective",
+      "raw_text": "1,detective",
+      "references": []
+    },
+    {
+      "index": 246,
+      "weight": 1,
+      "text": "diplomat",
+      "raw_text": "1,diplomat",
+      "references": []
+    },
+    {
+      "index": 247,
+      "weight": 2,
+      "text": "duke",
+      "raw_text": "2,duke",
+      "references": []
+    },
+    {
+      "index": 248,
+      "weight": 5,
+      "text": "emissary",
+      "raw_text": "5,emissary",
+      "references": []
+    },
+    {
+      "index": 249,
+      "weight": 1,
+      "text": "executioner",
+      "raw_text": "1,executioner",
+      "references": []
+    },
+    {
+      "index": 250,
+      "weight": 1,
+      "text": "grand advisor",
+      "raw_text": "1,grand advisor",
+      "references": []
+    },
+    {
+      "index": 251,
+      "weight": 1,
+      "text": "grand inquisitor",
+      "raw_text": "1,grand inquisitor",
+      "references": []
+    },
+    {
+      "index": 252,
+      "weight": 1,
+      "text": "hangman",
+      "raw_text": "1,hangman",
+      "references": []
+    },
+    {
+      "index": 253,
+      "weight": 1,
+      "text": "empress/emperor",
+      "raw_text": "1,empress/emperor",
+      "references": []
+    },
+    {
+      "index": 254,
+      "weight": 1,
+      "text": "monarch",
+      "raw_text": "1,monarch",
+      "references": []
+    },
+    {
+      "index": 255,
+      "weight": 1,
+      "text": "inquisitor",
+      "raw_text": "1,inquisitor",
+      "references": []
+    },
+    {
+      "index": 256,
+      "weight": 1,
+      "text": "judge",
+      "raw_text": "1,judge",
+      "references": []
+    },
+    {
+      "index": 257,
+      "weight": 1,
+      "text": "lawyer",
+      "raw_text": "1,lawyer",
+      "references": []
+    },
+    {
+      "index": 258,
+      "weight": 1,
+      "text": "lord/lady",
+      "raw_text": "1,lord/lady",
+      "references": []
+    },
+    {
+      "index": 259,
+      "weight": 1,
+      "text": "magistrate",
+      "raw_text": "1,magistrate",
+      "references": []
+    },
+    {
+      "index": 260,
+      "weight": 1,
+      "text": "mayor",
+      "raw_text": "1,mayor",
+      "references": []
+    },
+    {
+      "index": 261,
+      "weight": 3,
+      "text": "page",
+      "raw_text": "3,page",
+      "references": []
+    },
+    {
+      "index": 262,
+      "weight": 1,
+      "text": "ruler",
+      "raw_text": "1,ruler",
+      "references": []
+    },
+    {
+      "index": 263,
+      "weight": 1,
+      "text": "scribe",
+      "raw_text": "1,scribe",
+      "references": []
+    },
+    {
+      "index": 264,
+      "weight": 1,
+      "text": "tax collector",
+      "raw_text": "1,tax collector",
+      "references": []
+    },
+    {
+      "index": 265,
+      "weight": 1,
+      "text": "torturer",
+      "raw_text": "1,torturer",
+      "references": []
+    },
+    {
+      "index": 266,
+      "weight": 1,
+      "text": "warden",
+      "raw_text": "1,warden",
+      "references": []
+    },
+    {
+      "index": 267,
+      "weight": 1,
+      "text": "bodyguard",
+      "raw_text": "1,bodyguard",
+      "references": []
+    },
+    {
+      "index": 268,
+      "weight": 1,
+      "text": "captain",
+      "raw_text": "1,captain",
+      "references": []
+    },
+    {
+      "index": 269,
+      "weight": 1,
+      "text": "cavalier",
+      "raw_text": "1,cavalier",
+      "references": []
+    },
+    {
+      "index": 270,
+      "weight": 1,
+      "text": "chief of the watch",
+      "raw_text": "1,chief of the watch",
+      "references": []
+    },
+    {
+      "index": 271,
+      "weight": 1,
+      "text": "constable",
+      "raw_text": "1,constable",
+      "references": []
+    },
+    {
+      "index": 272,
+      "weight": 1,
+      "text": "gatekeeper",
+      "raw_text": "1,gatekeeper",
+      "references": []
+    },
+    {
+      "index": 273,
+      "weight": 1,
+      "text": "general",
+      "raw_text": "1,general",
+      "references": []
+    },
+    {
+      "index": 274,
+      "weight": 1,
+      "text": "guard",
+      "raw_text": "1,guard",
+      "references": []
+    },
+    {
+      "index": 275,
+      "weight": 1,
+      "text": "hunter",
+      "raw_text": "1,hunter",
+      "references": []
+    },
+    {
+      "index": 276,
+      "weight": 1,
+      "text": "huntsman",
+      "raw_text": "1,huntsman",
+      "references": []
+    },
+    {
+      "index": 277,
+      "weight": 1,
+      "text": "master of hounds",
+      "raw_text": "1,master of hounds",
+      "references": []
+    },
+    {
+      "index": 278,
+      "weight": 1,
+      "text": "militia",
+      "raw_text": "1,militia",
+      "references": []
+    },
+    {
+      "index": 279,
+      "weight": 1,
+      "text": "ranger",
+      "raw_text": "1,ranger ",
+      "references": []
+    },
+    {
+      "index": 280,
+      "weight": 1,
+      "text": "recruiter",
+      "raw_text": "1,recruiter",
+      "references": []
+    },
+    {
+      "index": 281,
+      "weight": 1,
+      "text": "sailor",
+      "raw_text": "1,sailor",
+      "references": []
+    },
+    {
+      "index": 282,
+      "weight": 1,
+      "text": "scout",
+      "raw_text": "1,scout",
+      "references": []
+    },
+    {
+      "index": 283,
+      "weight": 1,
+      "text": "sharpshooter",
+      "raw_text": "1,sharpshooter",
+      "references": []
+    },
+    {
+      "index": 284,
+      "weight": 1,
+      "text": "soldier",
+      "raw_text": "1,soldier",
+      "references": []
+    },
+    {
+      "index": 285,
+      "weight": 1,
+      "text": "warlord",
+      "raw_text": "1,warlord",
+      "references": []
+    },
+    {
+      "index": 286,
+      "weight": 1,
+      "text": "warrior",
+      "raw_text": "1,warrior",
+      "references": []
+    },
+    {
+      "index": 287,
+      "weight": 1,
+      "text": "watchman",
+      "raw_text": "1,watchman",
+      "references": []
+    },
+    {
+      "index": 288,
+      "weight": 1,
+      "text": "accountant",
+      "raw_text": "1,accountant",
+      "references": []
+    },
+    {
+      "index": 289,
+      "weight": 1,
+      "text": "aristocrat",
+      "raw_text": "1,aristocrat",
+      "references": []
+    },
+    {
+      "index": 290,
+      "weight": 1,
+      "text": "banker",
+      "raw_text": "1,banker",
+      "references": []
+    },
+    {
+      "index": 291,
+      "weight": 1,
+      "text": "baron",
+      "raw_text": "1,baron",
+      "references": []
+    },
+    {
+      "index": 292,
+      "weight": 1,
+      "text": "baronet",
+      "raw_text": "1,baronet",
+      "references": []
+    },
+    {
+      "index": 293,
+      "weight": 1,
+      "text": "bureaucrat",
+      "raw_text": "1,bureaucrat",
+      "references": []
+    },
+    {
+      "index": 294,
+      "weight": 1,
+      "text": "businessman",
+      "raw_text": "1,businessman",
+      "references": []
+    },
+    {
+      "index": 295,
+      "weight": 1,
+      "text": "butler",
+      "raw_text": "1,butler",
+      "references": []
+    },
+    {
+      "index": 296,
+      "weight": 1,
+      "text": "chancellor",
+      "raw_text": "1,chancellor",
+      "references": []
+    },
+    {
+      "index": 297,
+      "weight": 1,
+      "text": "count",
+      "raw_text": "1,count",
+      "references": []
+    },
+    {
+      "index": 298,
+      "weight": 1,
+      "text": "dandy",
+      "raw_text": "1,dandy",
+      "references": []
+    },
+    {
+      "index": 299,
+      "weight": 1,
+      "text": "doctor",
+      "raw_text": "1,doctor",
+      "references": []
+    },
+    {
+      "index": 300,
+      "weight": 1,
+      "text": "duelist",
+      "raw_text": "1,duelist",
+      "references": []
+    },
+    {
+      "index": 301,
+      "weight": 1,
+      "text": "duke",
+      "raw_text": "1,duke",
+      "references": []
+    },
+    {
+      "index": 302,
+      "weight": 1,
+      "text": "falconer",
+      "raw_text": "1,falconer",
+      "references": []
+    },
+    {
+      "index": 303,
+      "weight": 1,
+      "text": "fop",
+      "raw_text": "1,fop",
+      "references": []
+    },
+    {
+      "index": 304,
+      "weight": 1,
+      "text": "high official",
+      "raw_text": "1,high official",
+      "references": []
+    },
+    {
+      "index": 305,
+      "weight": 1,
+      "text": "horseman",
+      "raw_text": "1,horseman",
+      "references": []
+    },
+    {
+      "index": 306,
+      "weight": 1,
+      "text": "husbandryman",
+      "raw_text": "1,husbandryman",
+      "references": []
+    },
+    {
+      "index": 307,
+      "weight": 1,
+      "text": "interpreter",
+      "raw_text": "1,interpreter",
+      "references": []
+    },
+    {
+      "index": 308,
+      "weight": 1,
+      "text": "king/queen",
+      "raw_text": "1,king/queen",
+      "references": []
+    },
+    {
+      "index": 309,
+      "weight": 1,
+      "text": "knight",
+      "raw_text": "1,knight",
+      "references": []
+    },
+    {
+      "index": 310,
+      "weight": 1,
+      "text": "landlord",
+      "raw_text": "1,landlord",
+      "references": []
+    },
+    {
+      "index": 311,
+      "weight": 1,
+      "text": "landowner",
+      "raw_text": "1,landowner",
+      "references": []
+    },
+    {
+      "index": 312,
+      "weight": 1,
+      "text": "lord/lady",
+      "raw_text": "1,lord/lady",
+      "references": []
+    },
+    {
+      "index": 313,
+      "weight": 1,
+      "text": "messenger",
+      "raw_text": "1,messenger",
+      "references": []
+    },
+    {
+      "index": 314,
+      "weight": 1,
+      "text": "moneychanger",
+      "raw_text": "1,moneychanger",
+      "references": []
+    },
+    {
+      "index": 315,
+      "weight": 1,
+      "text": "noble",
+      "raw_text": "1,noble",
+      "references": []
+    },
+    {
+      "index": 316,
+      "weight": 1,
+      "text": "philanthropist",
+      "raw_text": "1,philanthropist",
+      "references": []
+    },
+    {
+      "index": 317,
+      "weight": 1,
+      "text": "scholar",
+      "raw_text": "1,scholar",
+      "references": []
+    },
+    {
+      "index": 318,
+      "weight": 1,
+      "text": "scientist",
+      "raw_text": "1,scientist",
+      "references": []
+    },
+    {
+      "index": 319,
+      "weight": 1,
+      "text": "servant",
+      "raw_text": "1,servant",
+      "references": []
+    },
+    {
+      "index": 320,
+      "weight": 1,
+      "text": "slave",
+      "raw_text": "1,slave",
+      "references": []
+    },
+    {
+      "index": 321,
+      "weight": 1,
+      "text": "slavemaster",
+      "raw_text": "1,slavemaster",
+      "references": []
+    },
+    {
+      "index": 322,
+      "weight": 1,
+      "text": "usurer",
+      "raw_text": "1,usurer",
+      "references": []
+    },
+    {
+      "index": 323,
+      "weight": 1,
+      "text": "arsonist",
+      "raw_text": "1,arsonist ",
+      "references": []
+    },
+    {
+      "index": 324,
+      "weight": 1,
+      "text": "assassin",
+      "raw_text": "1,assassin",
+      "references": []
+    },
+    {
+      "index": 325,
+      "weight": 1,
+      "text": "bandit",
+      "raw_text": "1,bandit",
+      "references": []
+    },
+    {
+      "index": 326,
+      "weight": 1,
+      "text": "beggar",
+      "raw_text": "1,beggar",
+      "references": []
+    },
+    {
+      "index": 327,
+      "weight": 1,
+      "text": "lunatic",
+      "raw_text": "1,lunatic",
+      "references": []
+    },
+    {
+      "index": 328,
+      "weight": 1,
+      "text": "idiot",
+      "raw_text": "1,idiot",
+      "references": []
+    },
+    {
+      "index": 329,
+      "weight": 1,
+      "text": "brawler",
+      "raw_text": "1,brawler",
+      "references": []
+    },
+    {
+      "index": 330,
+      "weight": 1,
+      "text": "burglar",
+      "raw_text": "1,burglar",
+      "references": []
+    },
+    {
+      "index": 331,
+      "weight": 1,
+      "text": "cad",
+      "raw_text": "1,cad",
+      "references": []
+    },
+    {
+      "index": 332,
+      "weight": 1,
+      "text": "con artist",
+      "raw_text": "1,con artist",
+      "references": []
+    },
+    {
+      "index": 333,
+      "weight": 1,
+      "text": "crime lord",
+      "raw_text": "1,crime lord",
+      "references": []
+    },
+    {
+      "index": 334,
+      "weight": 1,
+      "text": "criminal mastermind",
+      "raw_text": "1,criminal mastermind",
+      "references": []
+    },
+    {
+      "index": 335,
+      "weight": 1,
+      "text": "crook",
+      "raw_text": "1,crook",
+      "references": []
+    },
+    {
+      "index": 336,
+      "weight": 1,
+      "text": "cutpurse",
+      "raw_text": "1,cutpurse",
+      "references": []
+    },
+    {
+      "index": 337,
+      "weight": 1,
+      "text": "drug dealer",
+      "raw_text": "1,drug dealer",
+      "references": []
+    },
+    {
+      "index": 338,
+      "weight": 1,
+      "text": "escaped convict",
+      "raw_text": "1,escaped convict",
+      "references": []
+    },
+    {
+      "index": 339,
+      "weight": 1,
+      "text": "fortune teller",
+      "raw_text": "1,fortune teller",
+      "references": []
+    },
+    {
+      "index": 340,
+      "weight": 1,
+      "text": "gambler",
+      "raw_text": "1,gambler",
+      "references": []
+    },
+    {
+      "index": 341,
+      "weight": 1,
+      "text": "grave robber",
+      "raw_text": "1,grave robber",
+      "references": []
+    },
+    {
+      "index": 342,
+      "weight": 1,
+      "text": "gypsy",
+      "raw_text": "1,gypsy",
+      "references": []
+    },
+    {
+      "index": 343,
+      "weight": 1,
+      "text": "hired hand",
+      "raw_text": "1,hired hand",
+      "references": []
+    },
+    {
+      "index": 344,
+      "weight": 1,
+      "text": "highwayman",
+      "raw_text": "1,highwayman",
+      "references": []
+    },
+    {
+      "index": 345,
+      "weight": 1,
+      "text": "kidnapper",
+      "raw_text": "1,kidnapper",
+      "references": []
+    },
+    {
+      "index": 346,
+      "weight": 1,
+      "text": "mercenary",
+      "raw_text": "1,mercenary",
+      "references": []
+    },
+    {
+      "index": 347,
+      "weight": 1,
+      "text": "pickpocket",
+      "raw_text": "1,pickpocket",
+      "references": []
+    },
+    {
+      "index": 348,
+      "weight": 1,
+      "text": "pirate",
+      "raw_text": "1,pirate",
+      "references": []
+    },
+    {
+      "index": 349,
+      "weight": 1,
+      "text": "prankster",
+      "raw_text": "1,prankster",
+      "references": []
+    },
+    {
+      "index": 350,
+      "weight": 1,
+      "text": "saboteur",
+      "raw_text": "1,saboteur",
+      "references": []
+    },
+    {
+      "index": 351,
+      "weight": 1,
+      "text": "swashbuckler",
+      "raw_text": "1,swashbuckler",
+      "references": []
+    },
+    {
+      "index": 352,
+      "weight": 1,
+      "text": "thief",
+      "raw_text": "1,thief",
+      "references": []
+    },
+    {
+      "index": 353,
+      "weight": 1,
+      "text": "thug",
+      "raw_text": "1,thug",
+      "references": []
+    },
+    {
+      "index": 354,
+      "weight": 1,
+      "text": "vagabond",
+      "raw_text": "1,vagabond",
+      "references": []
+    },
+    {
+      "index": 355,
+      "weight": 1,
+      "text": "wastrel",
+      "raw_text": "1,wastrel",
+      "references": []
+    },
+    {
+      "index": 356,
+      "weight": 1,
+      "text": "alehound",
+      "raw_text": "1,alehound",
+      "references": []
+    },
+    {
+      "index": 357,
+      "weight": 1,
+      "text": "barber",
+      "raw_text": "1,barber",
+      "references": []
+    },
+    {
+      "index": 358,
+      "weight": 1,
+      "text": "barkeep",
+      "raw_text": "1,barkeep",
+      "references": []
+    },
+    {
+      "index": 359,
+      "weight": 1,
+      "text": "barman",
+      "raw_text": "1,barman",
+      "references": []
+    },
+    {
+      "index": 360,
+      "weight": 1,
+      "text": "beekeeper",
+      "raw_text": "1,beekeeper",
+      "references": []
+    },
+    {
+      "index": 361,
+      "weight": 1,
+      "text": "beggar",
+      "raw_text": "1,beggar",
+      "references": []
+    },
+    {
+      "index": 362,
+      "weight": 1,
+      "text": "boatman",
+      "raw_text": "1,boatman",
+      "references": []
+    },
+    {
+      "index": 363,
+      "weight": 1,
+      "text": "chimneysweep",
+      "raw_text": "1,chimneysweep",
+      "references": []
+    },
+    {
+      "index": 364,
+      "weight": 1,
+      "text": "commoner",
+      "raw_text": "1,commoner",
+      "references": []
+    },
+    {
+      "index": 365,
+      "weight": 1,
+      "text": "cook",
+      "raw_text": "1,cook",
+      "references": []
+    },
+    {
+      "index": 366,
+      "weight": 1,
+      "text": "dogcatcher",
+      "raw_text": "1,dogcatcher",
+      "references": []
+    },
+    {
+      "index": 367,
+      "weight": 1,
+      "text": "dock worker",
+      "raw_text": "1,dock worker",
+      "references": []
+    },
+    {
+      "index": 368,
+      "weight": 1,
+      "text": "drunk",
+      "raw_text": "1,drunk",
+      "references": []
+    },
+    {
+      "index": 369,
+      "weight": 1,
+      "text": "elder",
+      "raw_text": "1,elder",
+      "references": []
+    },
+    {
+      "index": 370,
+      "weight": 1,
+      "text": "exterminator of insects and rats",
+      "raw_text": "1,exterminator of insects and rats",
+      "references": []
+    },
+    {
+      "index": 371,
+      "weight": 1,
+      "text": "ferryman",
+      "raw_text": "1,ferryman",
+      "references": []
+    },
+    {
+      "index": 372,
+      "weight": 1,
+      "text": "fisherman",
+      "raw_text": "1,fisherman",
+      "references": []
+    },
+    {
+      "index": 373,
+      "weight": 1,
+      "text": "gardener",
+      "raw_text": "1,gardener",
+      "references": []
+    },
+    {
+      "index": 374,
+      "weight": 1,
+      "text": "gravedigger",
+      "raw_text": "1,gravedigger",
+      "references": []
+    },
+    {
+      "index": 375,
+      "weight": 1,
+      "text": "handyman",
+      "raw_text": "1,handyman",
+      "references": []
+    },
+    {
+      "index": 376,
+      "weight": 1,
+      "text": "hunter",
+      "raw_text": "1,hunter",
+      "references": []
+    },
+    {
+      "index": 377,
+      "weight": 1,
+      "text": "immigrant",
+      "raw_text": "1,immigrant",
+      "references": []
+    },
+    {
+      "index": 378,
+      "weight": 1,
+      "text": "indentured servant",
+      "raw_text": "1,indentured servant",
+      "references": []
+    },
+    {
+      "index": 379,
+      "weight": 1,
+      "text": "innkeeper",
+      "raw_text": "1,innkeeper",
+      "references": []
+    },
+    {
+      "index": 380,
+      "weight": 1,
+      "text": "leper",
+      "raw_text": "1,leper",
+      "references": []
+    },
+    {
+      "index": 381,
+      "weight": 1,
+      "text": "longshoreman",
+      "raw_text": "1,longshoreman",
+      "references": []
+    },
+    {
+      "index": 382,
+      "weight": 1,
+      "text": "madman",
+      "raw_text": "1,madman",
+      "references": []
+    },
+    {
+      "index": 383,
+      "weight": 1,
+      "text": "matchmaker",
+      "raw_text": "1,matchmaker",
+      "references": []
+    },
+    {
+      "index": 384,
+      "weight": 1,
+      "text": "miner",
+      "raw_text": "1,miner",
+      "references": []
+    },
+    {
+      "index": 385,
+      "weight": 1,
+      "text": "miser",
+      "raw_text": "1,miser",
+      "references": []
+    },
+    {
+      "index": 386,
+      "weight": 1,
+      "text": "panhandler",
+      "raw_text": "1,panhandler",
+      "references": []
+    },
+    {
+      "index": 387,
+      "weight": 1,
+      "text": "outcast",
+      "raw_text": "1,outcast",
+      "references": []
+    },
+    {
+      "index": 388,
+      "weight": 1,
+      "text": "pacifist",
+      "raw_text": "1,pacifist",
+      "references": []
+    },
+    {
+      "index": 389,
+      "weight": 1,
+      "text": "pauper",
+      "raw_text": "1,pauper",
+      "references": []
+    },
+    {
+      "index": 390,
+      "weight": 1,
+      "text": "peasant",
+      "raw_text": "1,peasant",
+      "references": []
+    },
+    {
+      "index": 391,
+      "weight": 1,
+      "text": "pigherd",
+      "raw_text": "1,pigherd",
+      "references": []
+    },
+    {
+      "index": 392,
+      "weight": 1,
+      "text": "rat catcher",
+      "raw_text": "1,rat catcher",
+      "references": []
+    },
+    {
+      "index": 393,
+      "weight": 1,
+      "text": "refugee",
+      "raw_text": "1,refugee",
+      "references": []
+    },
+    {
+      "index": 394,
+      "weight": 1,
+      "text": "runaway",
+      "raw_text": "1,runaway",
+      "references": []
+    },
+    {
+      "index": 395,
+      "weight": 1,
+      "text": "serf",
+      "raw_text": "1,serf",
+      "references": []
+    },
+    {
+      "index": 396,
+      "weight": 1,
+      "text": "servant",
+      "raw_text": "1,servant",
+      "references": []
+    },
+    {
+      "index": 397,
+      "weight": 1,
+      "text": "slave",
+      "raw_text": "1,slave",
+      "references": []
+    },
+    {
+      "index": 398,
+      "weight": 1,
+      "text": "stableman",
+      "raw_text": "1,stableman",
+      "references": []
+    },
+    {
+      "index": 399,
+      "weight": 1,
+      "text": "student",
+      "raw_text": "1,student",
+      "references": []
+    },
+    {
+      "index": 400,
+      "weight": 1,
+      "text": "town crier",
+      "raw_text": "1,town crier ",
+      "references": []
+    },
+    {
+      "index": 401,
+      "weight": 1,
+      "text": "traveler",
+      "raw_text": "1,traveler",
+      "references": []
+    },
+    {
+      "index": 402,
+      "weight": 1,
+      "text": "undertaker",
+      "raw_text": "1,undertaker",
+      "references": []
+    },
+    {
+      "index": 403,
+      "weight": 1,
+      "text": "urchin",
+      "raw_text": "1,urchin",
+      "references": []
+    },
+    {
+      "index": 404,
+      "weight": 1,
+      "text": "village idiot",
+      "raw_text": "1,village idiot",
+      "references": []
+    },
+    {
+      "index": 405,
+      "weight": 1,
+      "text": "widow",
+      "raw_text": "1,widow",
+      "references": []
+    },
+    {
+      "index": 406,
+      "weight": 1,
+      "text": "woodsman",
+      "raw_text": "1,woodsman",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";job\n1,harlot\n1,assassin\n1,witch\n1,assassin\n1,bandit\n1,jester \n1,archer\n1,battlemage\n1,battlepriest\n1,caravan leader\n1,cavalier\n1,duelist\n1,exorcist\n1,explorer\n1,geomancer\n1,guide\n1,healer\n1,hunter\n1,huntsman\n1,knight\n1,mercenary\n1,pirate\n1,priest\n1,raider\n1,sailor\n1,scout\n1,ship's captain\n1,soldier\n1,soldier of fortune\n1,strategist\n1,swashbuckler\n1,templar\n1,warlord\n1,armorer\n1,armorsmith\n1,blacksmith\n1,coppersmith\n1,cooper\n1,ferrier\n1,goldsmith\n1,jeweler\n1,journeyman\n1,leathersmith\n1,locksmith\n1,master jeweler\n1,master smith\n1,metalsmith\n1,milliner\n1,silversmith\n1,tanner\n1,tinsmith\n1,trapsmith\n1,weaponsmith\n1,architect\n1,artisan\n1,bricklayer\n1,carpenter\n1,cartwright\n1,craftsman\n1,draftsman\n1,fletcher\n1,framer\n1,furrier\n1,gemcutter\n1,glassblower\n1,glovemaker\n1,glover\n1,journeyman\n1,mason\n1,master artisan\n1,master carpenter\n1,master craftsman\n1,master weaver\n1,miller\n1,painter\n1,potter\n1,roofer\n1,shipwright\n1,shoemaker\n1,stonecutter\n1,tailor\n1,tanner\n1,tinker\n1,toymaker\n1,trapper\n1,stonemason\n1,thatcher\n1,weaver\n1,woodcutter\n1,auctioneeer\n1,baker\n1,basket maker\n1,brewer\n1,butcher\n1,chandler\n1,cobbler\n1,eelmonger\n1,fishmonger\n1,flower seller\n1,haberdasher\n1,hatter\n1,hawker\n1,huckster\n1,ironmonger\n1,merchant\n1,peddler\n1,shieldmonger\n1,shopkeep\n1,spice merchant\n1,trader\n1,vendor\n1,vintner\n1,waremonger\n1,weaponmonger\n1,acrobat\n1,actor\n1,animal trainer\n1,artist\n1,author\n1,bandmaster\n1,bear-tamer\n1,beast tamer\n1,choirmember\n1,chorister\n1,composer\n1,contortionist\n1,dancer\n1,drummer\n1,fire-breather\n1,gladiator\n1,jester\n1,jongleur\n1,juggler\n1,lutist\n1,master performer\n1,minstrel\n1,musician\n1,painter\n1,piper\n1,pit fighter\n1,playwright\n1,poet\n1,puppeteer\n1,singer\n1,soothsayer\n1,stage magician\n1,storyteller\n1,tattoo artist\n1,troubadour\n1,wrestler\n1,writer\n1,abbot \n1,battlepriest\n1,chanter\n1,clerk\n1,counselor\n1,cultist\n1,fanatic \n1,healer\n1,heirophant\n1,herbalist\n1,hermit\n1,high priest\n1,inquisitor\n1,itinerant\n1,medic\n1,missionary\n1,monk\n1,pardoner\n1,philosopher\n1,pilgrim\n1,priest\n1,prophet\n1,religious fanatic\n1,sage\n1,saint\n1,scribe\n1,supplicant\n1,templar\n1,thaumaturge\n1,vicar\n1,zealot\n1,aeromancer\n1,alchemist\n1,archmage\n1,battlemage\n1,blood mage\n1,bonecaster \n1,conjurer\n1,demonologist\n1,diviner\n1,druid\n1,enchanter\n1,evoker\n1,exorcist\n1,geomancer\n1,hedge witch\n1,hex witch\n1,hydromancer\n1,illusionist\n1,invoker\n1,mage\n1,necromancer\n1,oracle \n1,pyromancer\n1,rune caster \n1,sorcerer\n1,warlock\n1,witch\n1,academic\n1,alchemist\n1,author\n1,cartographer\n1,copyist\n1,counselor\n1,dean\n1,draftsman\n1,engineer\n1,eggler (sells eggs)\n1,inventor\n1,librarian\n1,man of letters\n1,master scribe\n1,mathematician\n1,navigator\n1,professor\n1,sage\n1,scholar\n1,schoolmaster\n1,scientist\n1,scribe\n1,student\n1,writer\n1,advisor\n1,advocate (lawyer)\n1,ambassador\n1,appraiser\n1,bailiff\n2,baron\n1,baronet\n1,chancellor\n1,clerk\n1,collector\n1,count\n1,courier\n1,detective\n1,diplomat\n2,duke\n5,emissary\n1,executioner\n1,grand advisor\n1,grand inquisitor\n1,hangman\n1,empress/emperor\n1,monarch\n1,inquisitor\n1,judge\n1,lawyer\n1,lord/lady\n1,magistrate\n1,mayor\n3,page\n1,ruler\n1,scribe\n1,tax collector\n1,torturer\n1,warden\n1,bodyguard\n1,captain\n1,cavalier\n1,chief of the watch\n1,constable\n1,gatekeeper\n1,general\n1,guard\n1,hunter\n1,huntsman\n1,master of hounds\n1,militia\n1,ranger \n1,recruiter\n1,sailor\n1,scout\n1,sharpshooter\n1,soldier\n1,warlord\n1,warrior\n1,watchman\n1,accountant\n1,aristocrat\n1,banker\n1,baron\n1,baronet\n1,bureaucrat\n1,businessman\n1,butler\n1,chancellor\n1,count\n1,dandy\n1,doctor\n1,duelist\n1,duke\n1,falconer\n1,fop\n1,high official\n1,horseman\n1,husbandryman\n1,interpreter\n1,king/queen\n1,knight\n1,landlord\n1,landowner\n1,lord/lady\n1,messenger\n1,moneychanger\n1,noble\n1,philanthropist\n1,scholar\n1,scientist\n1,servant\n1,slave\n1,slavemaster\n1,usurer\n1,arsonist \n1,assassin\n1,bandit\n1,beggar\n1,lunatic\n1,idiot\n1,brawler\n1,burglar\n1,cad\n1,con artist\n1,crime lord\n1,criminal mastermind\n1,crook\n1,cutpurse\n1,drug dealer\n1,escaped convict\n1,fortune teller\n1,gambler\n1,grave robber\n1,gypsy\n1,hired hand\n1,highwayman\n1,kidnapper\n1,mercenary\n1,pickpocket\n1,pirate\n1,prankster\n1,saboteur\n1,swashbuckler\n1,thief\n1,thug\n1,vagabond\n1,wastrel\n1,alehound\n1,barber\n1,barkeep\n1,barman\n1,beekeeper\n1,beggar\n1,boatman\n1,chimneysweep\n1,commoner\n1,cook\n1,dogcatcher\n1,dock worker\n1,drunk\n1,elder\n1,exterminator of insects and rats\n1,ferryman\n1,fisherman\n1,gardener\n1,gravedigger\n1,handyman\n1,hunter\n1,immigrant\n1,indentured servant\n1,innkeeper\n1,leper\n1,longshoreman\n1,madman\n1,matchmaker\n1,miner\n1,miser\n1,panhandler\n1,outcast\n1,pacifist\n1,pauper\n1,peasant\n1,pigherd\n1,rat catcher\n1,refugee\n1,runaway\n1,serf\n1,servant\n1,slave\n1,stableman\n1,student\n1,town crier \n1,traveler\n1,undertaker\n1,urchin\n1,village idiot\n1,widow\n1,woodsman",
+  "warnings": []
+}

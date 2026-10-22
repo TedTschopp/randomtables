@@ -1,0 +1,632 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Creepy Fantasy Villain",
+    "page_id": 2712
+  },
+  "source": {
+    "revision_id": 23393,
+    "timestamp": "2014-06-25T17:20:48Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "1f6ac1e75e68be708f80149250b035bbaf38a87839d50faf12d9343c60bae367",
+      "rawSha256": "6893a3f9e417fdbb14bed0389d706e744364dc8e48ec5d1721e420eac97bc71c",
+      "revisionId": "23393",
+      "line": 12,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23393",
+        "timestamp": "2014-06-25T17:20:48Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Adventurers",
+    "qualified_name": "Creepy Fantasy Villain.Adventurers",
+    "table_block_index": 0,
+    "line_number": 12
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Knight",
+      "raw_text": "1,Knight",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "First Assassin",
+      "raw_text": "1,First Assassin",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Priest",
+      "raw_text": "1,Priest",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Huntsman",
+      "raw_text": "1,Huntsman",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Illusionist",
+      "raw_text": "1,Illusionist",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Rider",
+      "raw_text": "1,Rider",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Templar",
+      "raw_text": "1,Templar",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Warlord",
+      "raw_text": "1,Warlord",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Architect",
+      "raw_text": "1,Architect",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Toymaker",
+      "raw_text": "1,Toymaker",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Butcher",
+      "raw_text": "1,Butcher",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Merchant",
+      "raw_text": "1,Merchant",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Peddler",
+      "raw_text": "1,Peddler",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Author",
+      "raw_text": "1,Author",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Jester",
+      "raw_text": "1,Jester",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Abbot",
+      "raw_text": "1,Abbot",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Inquisitor",
+      "raw_text": "1,Inquisitor",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Missionary",
+      "raw_text": "1,Missionary",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Philosopher",
+      "raw_text": "1,Philosopher",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Prophet",
+      "raw_text": "1,Prophet",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Saint",
+      "raw_text": "1,Saint",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Templar",
+      "raw_text": "1,Templar",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Alchemist",
+      "raw_text": "1,Alchemist",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Conjurer",
+      "raw_text": "1,Conjurer",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Evoker",
+      "raw_text": "1,Evoker",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Witch",
+      "raw_text": "1,Witch",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Invoker",
+      "raw_text": "1,Invoker",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Oracle",
+      "raw_text": "1,Oracle",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Wizard",
+      "raw_text": "1,Wizard",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Librarian",
+      "raw_text": "1,Librarian",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Mathematician",
+      "raw_text": "1,Mathematician",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "High Baron",
+      "raw_text": "1,High Baron",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Chancellor",
+      "raw_text": "1,Chancellor",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Duke",
+      "raw_text": "1,Duke",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Emissary",
+      "raw_text": "1,Emissary",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "High king",
+      "raw_text": "1,High king",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 2,
+      "text": "Inquisitor",
+      "raw_text": "2,Inquisitor",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "King",
+      "raw_text": "1,King",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Lord",
+      "raw_text": "1,Lord",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Beggar",
+      "raw_text": "1,Beggar",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Angel",
+      "raw_text": "1,Angel",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Astrologer",
+      "raw_text": "1,Astrologer",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Caliph",
+      "raw_text": "1,Caliph",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Fisherman",
+      "raw_text": "1,Fisherman",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Fishmonger",
+      "raw_text": "1,Fishmonger",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Fool",
+      "raw_text": "1,Fool",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Harlot",
+      "raw_text": "1,Harlot",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Infidel",
+      "raw_text": "1,Infidel",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Man",
+      "raw_text": "1,Man",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Merchant",
+      "raw_text": "1,Merchant",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Mistress",
+      "raw_text": "1,Mistress",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Murderer",
+      "raw_text": "1,Murderer",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Pirate",
+      "raw_text": "1,Pirate",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Princess",
+      "raw_text": "1,Princess",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Seer",
+      "raw_text": "1,Seer",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Thief",
+      "raw_text": "1,Thief",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Old Man",
+      "raw_text": "1,Old Man",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Child",
+      "raw_text": "1,Child",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Virgin",
+      "raw_text": "1,Virgin",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Vizier",
+      "raw_text": "1,Vizier",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Emperor",
+      "raw_text": "1,Emperor",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Empress",
+      "raw_text": "1,Empress",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Bringer",
+      "raw_text": "1,Bringer",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Eater",
+      "raw_text": "1,Eater",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Slug",
+      "raw_text": "1,Slug",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Usurper",
+      "raw_text": "1,Usurper",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Defiler",
+      "raw_text": "1,Defiler",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Moon Child",
+      "raw_text": "1,Moon Child",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Ever dying princess",
+      "raw_text": "1,Ever dying princess",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Slayer",
+      "raw_text": "1,Slayer",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Collector",
+      "raw_text": "1,Collector",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Tormentor",
+      "raw_text": "1,Tormentor",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Broken Thing",
+      "raw_text": "1,Broken Thing",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Neverborn",
+      "raw_text": "1,Neverborn",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Sky Thief",
+      "raw_text": "1,Sky Thief",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Trickster",
+      "raw_text": "1,Trickster",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Vagabond",
+      "raw_text": "1,Vagabond",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Exile",
+      "raw_text": "1,Exile",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Stained Man",
+      "raw_text": "1,Stained Man",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Seeker",
+      "raw_text": "1,Seeker",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Bringer",
+      "raw_text": "1,Bringer",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Harvester",
+      "raw_text": "1,Harvester",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Dancer",
+      "raw_text": "1,Dancer",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Adventurers\n1,Knight\n1,First Assassin\n1,Priest\n1,Huntsman\n1,Illusionist\n1,Rider\n1,Templar\n1,Warlord\n1,Architect\n1,Toymaker\n1,Butcher\n1,Merchant\n1,Peddler\n1,Author\n1,Jester\n1,Abbot\n1,Inquisitor\n1,Missionary\n1,Philosopher\n1,Prophet\n1,Saint\n1,Templar\n1,Alchemist\n1,Conjurer\n1,Evoker\n1,Witch\n1,Invoker\n1,Oracle\n1,Wizard\n1,Librarian\n1,Mathematician\n1,High Baron\n1,Chancellor\n1,Duke\n1,Emissary\n1,High king\n2,Inquisitor\n1,King\n1,Lord\n1,Beggar\n1,Angel\n1,Astrologer\n1,Caliph\n1,Fisherman\n1,Fishmonger\n1,Fool\n1,Harlot\n1,Infidel\n1,Man\n1,Merchant\n1,Mistress\n1,Murderer\n1,Pirate\n1,Princess\n1,Seer\n1,Thief\n1,Old Man\n1,Child\n1,Virgin\n1,Vizier\n1,Emperor\n1,Empress\n1,Bringer\n1,Eater\n1,Slug\n1,Usurper\n1,Defiler\n1,Moon Child\n1,Ever dying princess\n1,Slayer\n1,Collector\n1,Tormentor\n1,Broken Thing\n1,Neverborn\n1,Sky Thief\n1,Trickster\n1,Vagabond\n1,Exile\n1,Stained Man\n1,Seeker\n1,Bringer\n1,Harvester\n1,Dancer",
+  "warnings": []
+}

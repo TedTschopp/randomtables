@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15349,
+    "timestamp": "2012-10-08T08:27:52Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "17ef44b8dc360ebb2581a8fa27b65d63e5204429d2be8436855cc8121c2600af",
+      "rawSha256": "1dd899dcd74d3759a8be412afe7b7d65e0365b47d7683928297d86cddb27b0bf",
+      "revisionId": "15349",
+      "line": 111,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "simplemelee",
+    "qualified_name": "Starting Equipment.simplemelee",
+    "table_block_index": 0,
+    "line_number": 111
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 6,
+      "text": "[describemeleeweapon][describemetal]knife (d3)",
+      "raw_text": "6,[describemeleeweapon][describemetal]knife (d3)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[describemeleeweapon][describemetal]dagger (d4)",
+      "raw_text": "4,[describemeleeweapon][describemetal]dagger (d4)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[describemeleeweapon][describewood]club (d6)",
+      "raw_text": "1,[describemeleeweapon][describewood]club (d6)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describewood]",
+          "token": "describewood",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describewood",
+          "target_qualified_name": "Starting Equipment.describewood"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[describemeleeweapon][describemetal]club (d6)",
+      "raw_text": "1,[describemeleeweapon][describemetal]club (d6)",
+      "references": [
+        {
+          "raw": "[describemeleeweapon]",
+          "token": "describemeleeweapon",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemeleeweapon",
+          "target_qualified_name": "Starting Equipment.describemeleeweapon"
+        },
+        {
+          "raw": "[describemetal]",
+          "token": "describemetal",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "simplemelee",
+          "target_page": "Starting Equipment",
+          "target_subtable": "describemetal",
+          "target_qualified_name": "Starting Equipment.describemetal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "describemeleeweapon",
+      "describemetal",
+      "describewood"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";simplemelee\n6,[describemeleeweapon][describemetal]knife (d3)\n4,[describemeleeweapon][describemetal]dagger (d4)\n1,[describemeleeweapon][describewood]club (d6)\n1,[describemeleeweapon][describemetal]club (d6)",
+  "warnings": []
+}

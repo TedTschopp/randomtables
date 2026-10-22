@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "87c16a80537a5e7f227ad87d24608b26b53ac40e2b2e38452ca41f90415ae4cd",
+      "revisionId": "1643",
+      "line": 290,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorRecreational",
+    "qualified_name": "Pickpocket.PoorRecreational",
+    "table_block_index": 0,
+    "line_number": 290
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a small bag containing a smokable narcotic",
+      "raw_text": "1,a small bag containing a smokable narcotic",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "pipe and tobacco",
+      "raw_text": "1,pipe and tobacco",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorRecreational\n1,a small bag containing a smokable narcotic\n1,pipe and tobacco",
+  "warnings": []
+}

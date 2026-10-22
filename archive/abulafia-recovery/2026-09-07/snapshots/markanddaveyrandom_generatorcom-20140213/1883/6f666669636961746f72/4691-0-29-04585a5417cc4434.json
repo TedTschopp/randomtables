@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4691,
+    "timestamp": "2007-11-27T20:27:07Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e5f0b859b56dcf18247ec32802b46c85c1a3229865be91df8b0c1195d2a9dba9",
+      "rawSha256": "04585a5417cc44340b5dda098536bcea0058c358d85d443183c51ab067dfb4cd",
+      "revisionId": "4691",
+      "line": 29,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "officiator",
+    "qualified_name": "Rituals.officiator",
+    "table_block_index": 0,
+    "line_number": 29
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "a priest",
+      "raw_text": "2,a priest",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a priestess",
+      "raw_text": "1,a priestess",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a village elder",
+      "raw_text": "1,a village elder",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "an old woman",
+      "raw_text": "1,an old woman",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a virgin priestess",
+      "raw_text": "1,a virgin priestess",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a blindfolded [manwoman]",
+      "raw_text": "1,a blindfolded [manwoman]",
+      "references": [
+        {
+          "raw": "[manwoman]",
+          "token": "manwoman",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "officiator",
+          "target_page": "Rituals",
+          "target_subtable": "manwoman",
+          "target_qualified_name": "Rituals.manwoman"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "manwoman"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";officiator\n2,a priest\n1,a priestess\n1,a village elder\n1,an old woman\n1,a virgin priestess\n1,a blindfolded [manwoman]",
+  "warnings": []
+}

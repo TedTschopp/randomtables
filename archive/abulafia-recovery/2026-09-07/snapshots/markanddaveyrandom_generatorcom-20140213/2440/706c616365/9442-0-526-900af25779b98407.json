@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "900af25779b98407832a51ee218dc0e8a3099d4f90a9409a8a1e5113c4685920",
+      "revisionId": "9442",
+      "line": 526,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "place",
+    "qualified_name": "New gen.place",
+    "table_block_index": 0,
+    "line_number": 526
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Another World",
+      "raw_text": "1,Another World",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Beyond time and space",
+      "raw_text": "1,Beyond time and space",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Beyond",
+      "raw_text": "1,Beyond",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Broadway",
+      "raw_text": "1,Broadway",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "Hell",
+      "raw_text": "2,Hell",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Hollywood",
+      "raw_text": "1,Hollywood",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Hollyweird",
+      "raw_text": "1,Hollyweird",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "London",
+      "raw_text": "1,London",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Space",
+      "raw_text": "1,Space",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Washington",
+      "raw_text": "1,Washington",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Transylvania",
+      "raw_text": "1,Transylvania",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Outer Space",
+      "raw_text": "1,Outer Space",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "The Deep",
+      "raw_text": "1,The Deep",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "The Crypt",
+      "raw_text": "1,The Crypt",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "The Grave",
+      "raw_text": "1,The Grave",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "The Tomb",
+      "raw_text": "1,The Tomb",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "The Void",
+      "raw_text": "1,The Void",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Waxworks",
+      "raw_text": "1,Waxworks",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Paris",
+      "raw_text": "1,Paris",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "London",
+      "raw_text": "1,London",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Africa",
+      "raw_text": "1,Africa",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Malibu Beach",
+      "raw_text": "1,Malibu Beach",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Lost Carcosa",
+      "raw_text": "1,Lost Carcosa",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Plateau Of Leng",
+      "raw_text": "1,Plateau Of Leng",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "R'lyeh",
+      "raw_text": "1,R'lyeh",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "The Abyss",
+      "raw_text": "1,The Abyss",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "arkham",
+      "raw_text": "1,arkham",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "The City of the Great Race",
+      "raw_text": "1,The City of the Great Race\t",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "The Dreamlands",
+      "raw_text": "1,The Dreamlands",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "The Underworld",
+      "raw_text": "1,The Underworld",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Unknown Kadath",
+      "raw_text": "1,Unknown Kadath",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Yuggoth",
+      "raw_text": "1,Yuggoth",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Dunwich",
+      "raw_text": "1,Dunwich",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Innsmouth",
+      "raw_text": "1,Innsmouth",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "egypt",
+      "raw_text": "1,egypt",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "nowhere",
+      "raw_text": "1,nowhere",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "construction site",
+      "raw_text": "1, construction site",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";place\n1,Another World\n1,Beyond time and space\n1,Beyond\n1,Broadway\n2,Hell\n1,Hollywood\n1,Hollyweird\n1,London\n1,Space\n1,Washington\n1,Transylvania\n1,Outer Space\n1,The Deep\n1,The Crypt\n1,The Grave\n1,The Tomb\n1,The Void\n1,Waxworks\n1,Paris\n1,London\n1,Africa\n1,Malibu Beach\n1,Lost Carcosa\n1,Plateau Of Leng\n1,R'lyeh\n1,The Abyss\n1,arkham\n1,The City of the Great Race\t\n1,The Dreamlands\n1,The Underworld\n1,Unknown Kadath\n1,Yuggoth\n1,Dunwich\n1,Innsmouth\n1,egypt\n1,nowhere\n1, construction site",
+  "warnings": []
+}

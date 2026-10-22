@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14821,
+    "timestamp": "2012-06-24T16:18:39Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "873a917e4a1ba98c7285291f2e38908ac33328d24caed7bf6c2177aec0da19a9",
+      "rawSha256": "384b0bb04411d55569199150026a6406afb993ab993638be4fe28110f78c5d39",
+      "revisionId": "14821",
+      "line": 10,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybe group",
+    "qualified_name": "Village.maybe group",
+    "table_block_index": 0,
+    "line_number": 10
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "",
+      "raw_text": "4,",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Quick Zone Populations.anygroup]",
+      "raw_text": "1,[Quick Zone Populations.anygroup]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.anygroup]",
+          "token": "Quick Zone Populations.anygroup",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "maybe group",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "anygroup",
+          "target_qualified_name": "Quick Zone Populations.anygroup"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.anygroup"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";maybe group\n4,\n1,[Quick Zone Populations.anygroup]",
+  "warnings": []
+}

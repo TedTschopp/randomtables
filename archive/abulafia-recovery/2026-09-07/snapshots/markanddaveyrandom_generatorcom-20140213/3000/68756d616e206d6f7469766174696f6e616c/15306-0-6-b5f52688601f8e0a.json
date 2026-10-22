@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15306,
+    "timestamp": "2012-10-04T13:28:01Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0a28973cb290a8d9b014eda3cc407cb2495336eea9df1637546dc4eb63dee897",
+      "rawSha256": "b5f52688601f8e0ad931bd0d3705b6c08d66ed3987f08f51fd326a6ef012fb03",
+      "revisionId": "15306",
+      "line": 6,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "human motivational",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.human motivational",
+    "table_block_index": 0,
+    "line_number": 6
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[human motivation]",
+      "raw_text": "3, [human motivation]",
+      "references": [
+        {
+          "raw": "[human motivation]",
+          "token": "human motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "human motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.human motivation"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[beasts][beast motivation]",
+      "raw_text": "2, [beasts][beast motivation]",
+      "references": [
+        {
+          "raw": "[beasts]",
+          "token": "beasts",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beasts",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beasts"
+        },
+        {
+          "raw": "[beast motivation]",
+          "token": "beast motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast motivation"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[sentient motivation]",
+      "raw_text": "1, [sentient motivation]",
+      "references": [
+        {
+          "raw": "[sentient motivation]",
+          "token": "sentient motivation",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "human motivational",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "sentient motivation",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.sentient motivation"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "beast motivation",
+      "beasts",
+      "human motivation",
+      "sentient motivation"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";human motivational\n3, [human motivation]\n2, [beasts][beast motivation]\n1, [sentient motivation]",
+  "warnings": []
+}

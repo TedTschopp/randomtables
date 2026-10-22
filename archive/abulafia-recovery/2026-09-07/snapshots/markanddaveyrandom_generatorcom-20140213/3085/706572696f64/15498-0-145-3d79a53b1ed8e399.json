@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15498,
+    "timestamp": "2012-11-02T09:00:56Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8957b54960bc1d8633b619a017d9b6f60869db1fa29824fecbf9107b156ba147",
+      "rawSha256": "3d79a53b1ed8e3993647ad316bca5e79cab6cef1f4cc3f83cad2dfa8107683f1",
+      "revisionId": "15498",
+      "line": 145,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "period",
+    "qualified_name": "Curse.period",
+    "table_block_index": 0,
+    "line_number": 145
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[about-five-or-ten] days",
+      "raw_text": "5,[about-five-or-ten] days",
+      "references": [
+        {
+          "raw": "[about-five-or-ten]",
+          "token": "about-five-or-ten",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-five-or-ten",
+          "target_qualified_name": "Curse.about-five-or-ten"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[about-five] weeks",
+      "raw_text": "1,[about-five] weeks",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "period",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-five",
+      "about-five-or-ten"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";period\n5,[about-five-or-ten] days\n1,[about-five] weeks",
+  "warnings": []
+}

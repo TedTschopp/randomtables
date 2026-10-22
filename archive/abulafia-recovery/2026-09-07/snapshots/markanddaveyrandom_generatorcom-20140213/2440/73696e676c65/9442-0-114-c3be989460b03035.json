@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "c3be989460b0303508dce18cc6c799ea7909166fe163963b734010ba6c5ba2ec",
+      "revisionId": "9442",
+      "line": 114,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "single",
+    "qualified_name": "New gen.single",
+    "table_block_index": 0,
+    "line_number": 114
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Freak",
+      "raw_text": "1,Freak",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Monster",
+      "raw_text": "1,Monster",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Dead",
+      "raw_text": "1,Dead",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Beast",
+      "raw_text": "1,Beast",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Mummy",
+      "raw_text": "1,Mummy",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Zombie",
+      "raw_text": "1,Zombie",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Cannibal",
+      "raw_text": "1,Cannibal",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Sasquatch",
+      "raw_text": "1,Sasquatch",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Alien",
+      "raw_text": "1,Alien",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Ape-[sex]",
+      "raw_text": "1,Ape-[sex]",
+      "references": [
+        {
+          "raw": "[sex]",
+          "token": "sex",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "single",
+          "target_page": "New gen",
+          "target_subtable": "sex",
+          "target_qualified_name": "New gen.sex"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Devil",
+      "raw_text": "1,Devil",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Werewolf",
+      "raw_text": "1,Werewolf",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Invisible [sex]",
+      "raw_text": "1,Invisible [sex]",
+      "references": [
+        {
+          "raw": "[sex]",
+          "token": "sex",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "single",
+          "target_page": "New gen",
+          "target_subtable": "sex",
+          "target_qualified_name": "New gen.sex"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[weapon] [killer]",
+      "raw_text": "1,[weapon] [killer]",
+      "references": [
+        {
+          "raw": "[weapon]",
+          "token": "weapon",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "single",
+          "target_page": "New gen",
+          "target_subtable": "weapon",
+          "target_qualified_name": "New gen.weapon"
+        },
+        {
+          "raw": "[killer]",
+          "token": "killer",
+          "kind": "local",
+          "source_page": "New gen",
+          "source_subtable": "single",
+          "target_page": "New gen",
+          "target_subtable": "killer",
+          "target_qualified_name": "New gen.killer"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Gillman",
+      "raw_text": "1,Gillman",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Fish Man",
+      "raw_text": "1,Fish Man",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Madman",
+      "raw_text": "1,Madman",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Thing",
+      "raw_text": "1,Thing",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1,Demon",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Behemoth",
+      "raw_text": "1,Behemoth",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Octopus",
+      "raw_text": "1,Octopus",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Shark",
+      "raw_text": "1,Shark",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Yeti",
+      "raw_text": "1,Yeti",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Bugman",
+      "raw_text": "1,Bugman",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Robot",
+      "raw_text": "1,Robot",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Creature",
+      "raw_text": "1,Creature",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Demon",
+      "raw_text": "1,Demon",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Maniac",
+      "raw_text": "1,Maniac",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Killer",
+      "raw_text": "1,Killer",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Angels",
+      "raw_text": "1,Angels",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Psycho",
+      "raw_text": "1,Psycho",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Ghoul",
+      "raw_text": "1,Ghoul",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Robot",
+      "raw_text": "1,Robot",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "german",
+      "raw_text": "1,german",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "bat",
+      "raw_text": "1,bat",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "fuker",
+      "raw_text": "1,fuker",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "shade",
+      "raw_text": "1,shade",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "dark one",
+      "raw_text": "1,dark one",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "rat",
+      "raw_text": "1,rat",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "goblin",
+      "raw_text": "1,goblin",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "batmen",
+      "raw_text": "1,batmen",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "tntacle",
+      "raw_text": "1,tntacle",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "killer",
+      "sex",
+      "weapon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";single\n1,Freak\n1,Monster\n1,Dead\n1,Beast\n1,Mummy\n1,Zombie\n1,Cannibal\n1,Sasquatch\n1,Alien\n1,Ape-[sex]\n1,Devil\n1,Werewolf\n1,Invisible [sex]\n1,[weapon] [killer]\n1,Gillman\n1,Fish Man\n1,Madman\n1,Thing\n1,Demon\n1,Behemoth\n1,Octopus\n1,Shark\n1,Yeti\n1,Bugman\n1,Robot\n1,Creature\n1,Demon\n1,Maniac\n1,Killer\n1,Angels\n1,Psycho\n1,Ghoul\n1,Robot\n1,german\n1,bat\n1,fuker\n1,shade\n1,dark one\n1,rat\n1,goblin\n1,batmen\n1,tntacle",
+  "warnings": []
+}

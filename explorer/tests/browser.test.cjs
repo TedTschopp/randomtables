@@ -93,11 +93,12 @@ test('wiki catalog exposes provenance and disables quarantined generators offlin
   await withPage(async page => {
     const summary = await page.evaluate(() => globalThis.WikiImport?.summary);
     assert.ok(summary?.tables > 20000, 'The full wiki collection is loaded');
-    const ids = await page.evaluate(() => ({
-      ready: WikiImport.aliases.Cheeseadj,
-      blocked: [...WikiImport.metadata.values()].find(table => table.name === 'Ship Names.main').id,
-      catalogOnly: [...WikiImport.metadata.values()].find(table => table.status === 'ready' && !table.legacyAvailable).id
-    }));
+    const ids = await page.evaluate(() => {
+      const tables = [...WikiImport.metadata.values()];
+      const blocked = tables.find(table => table.name === 'Utility.GeometricSymbol');
+      return { ready: WikiImport.aliases.Cheeseadj, blocked: blocked.id, blockedRows: Math.min(40, blocked.entries.length),
+        catalogOnly: tables.find(table => table.status === 'ready' && !table.legacyAvailable).id };
+    });
     await selectTable(page, ids.ready);
     assert.equal(await page.locator('#table-title').textContent(), 'Cheeses.Cheeseadj');
     assert.match(await page.locator('#definition-note').textContent(), /ToB/);
@@ -120,7 +121,7 @@ test('wiki catalog exposes provenance and disables quarantined generators offlin
     await page.locator('#roll-button').dispatchEvent('click');
     assert.equal(await page.locator('#roll-output').isVisible(), false);
     assert.equal(await page.locator('#roll-results').textContent(), previousResults);
-    assert.equal(await page.locator('.entry-row').count(), 4);
+    assert.equal(await page.locator('.entry-row').count(), ids.blockedRows);
     await page.setViewportSize({ width: 390, height: 844 });
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
     await page.screenshot({ path: path.join(artifacts, 'mobile-wiki-blocked.png'), fullPage: true });
@@ -217,7 +218,8 @@ test('static possessive tables retain their compiled choices offline', async () 
       return {
         artifact: choice(artifact, 'Admiral '), religious: choice(religious, 'St. '),
         source: byName.get('ScottishMale.ScottishMaleFirstName').id,
-        blocked: byName.get('Ship Names.main').id
+        ship: byName.get('Ship Names.main').id,
+        blocked: byName.get('Utility.GeometricSymbol').id
       };
     });
     async function rollChoice(target) {
@@ -263,9 +265,66 @@ test('static possessive tables retain their compiled choices offline', async () 
     }
     await page.screenshot({ path: path.join(artifacts, 'mobile-possessive.png'), fullPage: true });
     await page.setViewportSize({ width: 1440, height: 960 });
+    await selectTable(page, targets.ship);
+    assert.equal(await page.locator('#roll-button').isDisabled(), false);
+    assert.ok((await rollChoice({ sample: 0.5 })).length > 0);
+    assert.equal(new URL(await page.locator('.header-nav a').getAttribute('href'), page.url()).searchParams.has('table'), false);
     await selectTable(page, targets.blocked);
     assert.equal(await page.locator('#roll-button').isDisabled(), true);
-    assert.match(await page.locator('#wiki-validation').textContent(), /Secret Society Title/);
+    assert.match(await page.locator('#wiki-validation').textContent(), /cyclic|unsupported|additional runtime support/i);
+  });
+});
+
+test('approved recursive dependencies work inside title macros offline without changing source rows', async () => {
+  await withPage(async page => {
+    const target = await page.evaluate(() => {
+      const table = [...WikiImport.metadata.values()].find(table => table.name === 'Secret Society Title.main');
+      return { id: table.id, status: table.status, execution: table.execution, entries: table.entries.length };
+    });
+    assert.equal(target.status, 'ready');
+    assert.equal(target.execution, 'wiki');
+    await selectTable(page, target.id);
+    assert.equal(await page.locator('#roll-button').isDisabled(), false);
+    assert.equal(await page.locator('#wiki-validation').isVisible(), false);
+    assert.equal(await page.locator('.entry-row').count(), target.entries);
+    assert.ok((await page.locator('#entries-panel').textContent()).includes('{{Po|{Secret Society Title.NDN}}}'));
+    const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+    assert.equal(new URL(sourceUrl).protocol, 'file:');
+    const original = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl))).tables.find(snapshot =>
+      snapshot.current.table.subtable.qualified_name === 'Secret Society Title.main').current.table;
+    assert.equal(original.entries[8].text, '{{Po|[NDN]}} [TDT]');
+    assert.equal(original.entries[8].weight, 2);
+    await page.locator('#roll-count').fill('1');
+    for (const dependencySample of [0, 0.5, 1 - Number.EPSILON]) {
+      const expected = await page.evaluate(({ identifier, dependencySample }) => {
+        const table = WikiImport.metadata.get(identifier);
+        const sample = (table.entries.slice(0, 8).reduce((total, entry) => total + entry.weight, 0) + 1) / table.totalWeight;
+        const originalRandom = Math.random;
+        let first = true;
+        try {
+          Math.random = () => { if (first) { first = false; return sample; } return dependencySample; };
+          const result = TableAtlas.roll(identifier, globalThis);
+          first = true;
+          document.getElementById('roll-button').click();
+          return result;
+        } finally {
+          Math.random = originalRandom;
+        }
+      }, { identifier: target.id, dependencySample });
+      assert.deepEqual(expected.warnings, []);
+      assert.equal((await page.locator('.roll-result').first().textContent()).trim(), expected.text.trim());
+      assert.equal(await page.locator('.roll-warning').count(), 0);
+      if (dependencySample === 0) {
+        assert.ok(expected.steps.some(step => step.policy === 'bounded-wrapper'));
+        assert.doesNotMatch(expected.text, /\bMost Most\b|\{\{|\[TitleDescriptor\]/);
+      }
+    }
+    await page.screenshot({ path: path.join(artifacts, 'desktop-recursion-macro.png'), fullPage: true });
+    for (const width of [320, 390]) {
+      await page.setViewportSize({ width, height: 844 });
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+    }
+    await page.screenshot({ path: path.join(artifacts, 'mobile-recursion-macro.png'), fullPage: true });
   });
 });
 
@@ -460,6 +519,91 @@ test('case-corrected tables preserve archived tokens and resolve offline rolls a
   });
 });
 
+test('complete case repairs preserve exact identities, inactive rows, and blocked results offline', async () => {
+  await withPage(async page => {
+    const targets = await page.evaluate(() => {
+      const tables = [...WikiImport.metadata.values()];
+      const names = new Map(tables.map(table => [table.name, table]));
+      const tokenCase = tables.find(table => table.status === 'ready' && table.referenceCorrections?.some(rule =>
+        rule.from === rule.to && rule.weight > 0 && rule.row <= 40 && !rule.to.startsWith('Evocative Colors.')));
+      return [names.get('Zenume Names and Titles.adjective'), tokenCase, names.get('Western Outfit.plaidshirtC')].map(table => {
+        const correction = table.referenceCorrections.find(rule => rule.weight > 0 && rule.row <= 40 &&
+          (table !== tokenCase || rule.from === rule.to));
+        const row = correction.row - 1;
+        const entry = table.entries[row];
+        const distinct = table.name === 'Western Outfit.plaidshirtC' ? names.get('Evocative Colors.PlaidShirtC') : null;
+        return { id: table.id, name: table.name, correction, row, rawText: entry.rawText, weight: entry.weight,
+          references: entry.references, distinctId: distinct?.id, sourceHash: table.sourceHash,
+          displayText: entry.text.replace(/\{(\w+)\}/g, (token, id) => `{${WikiImport.metadata.get(id)?.name || id}}`),
+          sample: (table.entries.slice(0, row).reduce((sum, item) => sum + item.weight, 0) + entry.weight / 2) / table.totalWeight };
+      });
+    });
+    assert.equal(targets[1].correction.from, targets[1].correction.to);
+    assert.equal(targets[2].correction.to, 'Evocative Colors.plaidshirtC');
+    assert.notEqual(targets[2].correction.targetId, targets[2].distinctId);
+    assert.ok(!targets[2].references.includes(targets[2].distinctId));
+    for (const target of targets) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(await page.locator('#roll-button').isDisabled(), false);
+      assert.equal(await page.locator('#wiki-validation').isVisible(), false);
+      assert.equal(await page.locator('.entry-text').nth(target.row).textContent(), target.displayText);
+      assert.ok(target.references.includes(target.correction.targetId));
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const source = archive.tables.find(snapshot => snapshot.current.table.subtable.qualified_name === target.name).current;
+      assert.equal(source.sourceHash, target.sourceHash);
+      assert.equal(source.table.entries[target.row].text, target.rawText);
+      assert.equal(source.table.entries[target.row].weight, target.weight);
+      await page.locator('#roll-count').fill('1');
+      await page.evaluate(sample => {
+        const original = Math.random;
+        let first = true;
+        try {
+          Math.random = () => { if (first) { first = false; return sample; } return 0.5; };
+          document.getElementById('roll-button').click();
+        } finally { Math.random = original; }
+      }, target.sample);
+      assert.ok((await page.locator('.roll-result').first().textContent()).trim());
+      assert.equal(await page.locator('.roll-warning').count(), 0);
+      if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
+      assert.equal(await page.locator(`.trace-step[data-table-link="${target.correction.targetId}"]`).first().isVisible(), true);
+      if (target.distinctId) await page.screenshot({ path: path.join(artifacts, 'complete-case-corrections-desktop.png') });
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (target.distinctId) await page.screenshot({ path: path.join(artifacts, 'complete-case-corrections-mobile.png'), fullPage: true });
+    }
+    const blocked = await page.evaluate(() => ['Delver Fate.captured', 'Acid Western Meta-Oracle.main'].map(name => {
+      const table = [...WikiImport.metadata.values()].find(table => table.name === name);
+      return { id: table.id, name: table.name, status: table.status, dependencies: table.dependencies,
+        entries: table.entries, corrections: table.referenceCorrections };
+    }));
+    for (const target of blocked) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(target.status, 'blocked');
+      assert.equal(await page.locator('#roll-button').isDisabled(), true);
+      assert.equal(await page.locator('#wiki-validation').isVisible(), true);
+      for (const rule of target.corrections) {
+        const entry = target.entries[rule.row - 1];
+        assert.ok(entry.rawText.includes(rule.raw));
+        assert.ok(entry.references.includes(rule.targetId));
+        if (rule.weight === 0) {
+          assert.equal(entry.weight, 0);
+          assert.equal(entry.text, entry.rawText);
+          assert.equal(await page.locator('.entry-text').nth(rule.row - 1).textContent(), entry.rawText);
+          if (!target.entries.some(row => row.weight > 0 && row.references.includes(rule.targetId))) {
+            assert.ok(!target.dependencies.includes(rule.targetId));
+          }
+        }
+      }
+    }
+    assert.equal(blocked[0].corrections.filter(rule => rule.weight === 0).length, 2);
+  });
+});
+
 test('source-recovered tables preserve archived evidence, probabilities, and whitespace offline', async () => {
   await withPage(async page => {
     const targets = await page.evaluate(() => {
@@ -535,6 +679,208 @@ test('source-recovered tables preserve archived evidence, probabilities, and whi
       }
       if (index === 0) await page.screenshot({ path: path.join(artifacts, 'mobile-source-recovery.png'), fullPage: true });
       if (index === 2) await page.screenshot({ path: path.join(artifacts, 'mobile-source-recovery-macros.png'), fullPage: true });
+    }
+  });
+});
+
+test('current and historical recovery stays source-linked, collision-free, and quarantined offline', async () => {
+  await withPage(async page => {
+    const targets = await page.evaluate(() => {
+      const byName = new Map([...WikiImport.metadata.values()].map(table => [table.name, table]));
+      return ["AV's Name Generator.main", 'Animal.farmanimal', 'Dungeon Door.wood', 'Game.pitof', 'CC-Love-Romance.AH_LOVE'].map(name => {
+        const table = byName.get(name);
+        return { id: table.id, name, status: table.status, historical: table.historical,
+          archiveFile: table.archiveFile, sourceHash: table.sourceHash, sourceFile: table.sourceFile,
+          renames: table.referenceRenames || [] };
+      });
+    });
+    assert.equal(targets[0].historical, undefined);
+    assert.equal(targets[1].historical.basis, 'latest-retained-definition');
+    assert.equal(targets[2].historical.basis, 'verified-xml-definition');
+    assert.equal(targets[3].renames[0].from, 'Village.digit');
+    assert.equal(await page.evaluate(() => [...WikiImport.metadata.values()].some(table => table.name === 'Village.digit')), false);
+    assert.equal(targets[4].status, 'blocked');
+    for (const [index, target] of targets.entries()) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      assert.equal(await page.locator('#table-title').textContent(), target.name);
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      assert.equal(new URL(sourceUrl).protocol, 'file:');
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const snapshot = archive.tables.find(record => record.current.sourceFile === target.sourceFile).current;
+      assert.equal(snapshot.sourceHash, target.sourceHash);
+      assert.equal(snapshot.table.subtable.qualified_name, target.name);
+      if (target.historical) assert.match(target.archiveFile, /\/source\/historical\//);
+      if (index === 3) {
+        const correction = target.renames[0];
+        assert.ok(snapshot.table.entries[correction.row - 1].text.includes(correction.raw));
+        assert.equal(await page.evaluate(({ id, targetId }) => WikiImport.metadata.get(id).dependencies.includes(targetId),
+          { id: target.id, targetId: correction.targetId }), true);
+      }
+      if (target.status === 'blocked') {
+        assert.equal(await page.locator('#roll-button').isDisabled(), true);
+        assert.equal(await page.locator('#wiki-validation').isVisible(), true);
+        await page.locator('#roll-button').dispatchEvent('click');
+        assert.equal(await page.locator('#roll-output').isVisible(), false);
+      } else {
+        assert.equal(await page.locator('#roll-button').isDisabled(), false);
+        await page.locator('#roll-count').fill('1');
+        for (const sample of [0, 0.5, 0.999999]) {
+          const expected = await page.evaluate(({ id, sample }) => {
+            const originalRandom = Math.random;
+            try {
+              Math.random = () => sample;
+              const result = TableAtlas.roll(id, globalThis);
+              document.getElementById('roll-button').click();
+              return result;
+            } finally {
+              Math.random = originalRandom;
+            }
+          }, { id: target.id, sample });
+          assert.deepEqual(expected.warnings, []);
+          assert.equal(await page.locator('.roll-result').first().textContent(), expected.text.trim() || '(Empty result)');
+          assert.equal(await page.locator('.roll-warning').count(), 0);
+          assert.ok(await page.locator('.trace-step').count() > 0);
+        }
+      }
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (index === 2) await page.screenshot({ path: path.join(artifacts, 'mobile-historical-recovery.png'), fullPage: true });
+      if (index === 4) await page.screenshot({ path: path.join(artifacts, 'mobile-historical-blocked.png'), fullPage: true });
+    }
+  });
+});
+
+test('approved recursion policies produce distinct pairs and one wrapper with visible traces offline', async () => {
+  await withPage(async page => {
+    const targets = await page.evaluate(() => [...WikiImport.metadata.values()].filter(table => table.recursion).map(table => {
+      const index = table.recursion.row - 1;
+      return { id: table.id, kind: table.recursion.kind,
+        sample: (table.entries.slice(0, index).reduce((total, entry) => total + entry.weight, 0) + table.entries[index].weight / 2) / table.totalWeight };
+    }));
+    assert.equal(targets.length, 2);
+    for (const target of targets) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      await page.locator('#roll-count').fill('1');
+      for (const profile of [0, 0.5, 1 - Number.EPSILON]) {
+        await page.evaluate(({ sample, profile }) => {
+          const original = Math.random;
+          let first = true;
+          Math.random = () => { if (first) { first = false; return sample; } return profile; };
+          try { document.getElementById('roll-button').click(); } finally { Math.random = original; }
+        }, { sample: target.sample, profile });
+        const text = await page.locator('.roll-result').first().textContent();
+        assert.equal(await page.locator('.roll-warning').count(), 0);
+        if (target.kind === 'unique-pair') {
+          const items = text.split(' and ');
+          assert.equal(items.length, 2);
+          const normalize = value => value.normalize('NFC').replace(/\s+/gu, ' ').trim().toLowerCase();
+          assert.notEqual(normalize(items[0]), normalize(items[1]));
+        } else {
+          assert.match(text, /^Most \S/);
+          assert.doesNotMatch(text, /Most\s+Most/);
+        }
+        if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
+        assert.match(await page.locator('.trace-policy').first().textContent(), /depth 1; conditional weights/);
+        assert.ok(await page.locator('.trace-policy').count() >= (target.kind === 'unique-pair' ? 3 : 2));
+      }
+      for (const width of [1440, 390, 320]) {
+        await page.setViewportSize({ width, height: width > 1000 ? 960 : 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+        await page.screenshot({ path: path.join(artifacts, `recursion-${target.kind}-${width}.png`), fullPage: true });
+      }
+    }
+    const blocked = await page.evaluate(() => [...WikiImport.metadata.values()]
+      .find(table => table.status === 'blocked' && !table.recursionApproval && table.issues.some(issue => issue.code === 'cycle')).id);
+    await page.setViewportSize({ width: 1440, height: 960 });
+    await selectTable(page, blocked);
+    assert.equal(await page.locator('#roll-button').isDisabled(), true);
+    assert.match(await page.locator('#wiki-validation').textContent(), /cyclic|cycle/i);
+    assert.equal(await page.locator('#roll-output').isVisible(), false);
+  });
+});
+
+test('bracket repair and recovery case approvals preserve evidence offline', async () => {
+  const configuration = JSON.parse(fs.readFileSync(path.join(__dirname, '../tools/recovery-case-corrections.json')));
+  await withPage(async page => {
+    const targets = await page.evaluate(({ approvedIds, followUpId }) => {
+      const tables = [...WikiImport.metadata.values()];
+      const approved = new Set(approvedIds);
+      const selected = [tables.find(table => table.name === 'Secret Society Title.TitleDescriptor'),
+        tables.find(table => approved.has(table.id) && !table.historical && table.status === 'ready'),
+        tables.find(table => approved.has(table.id) && table.historical && table.status === 'ready'),
+        tables.find(table => table.name === 'Dueling Character.NAMEREFERENCE -- for reference while compiling'),
+        WikiImport.metadata.get(followUpId)];
+      return selected.map(table => {
+        const correction = table.referenceCorrections?.[0];
+        const row = correction ? correction.row - 1 : 0;
+        const entry = table.entries[row];
+        return { id: table.id, name: table.name, status: table.status, historical: Boolean(table.historical),
+          execution: table.execution, sourceFile: table.sourceFile, sourceHash: table.sourceHash, row, correction,
+          rawText: entry.rawText, weight: entry.weight, dependencies: table.dependencies,
+          displayText: entry.text.replace(/\{(\w+)\}/g, (token, id) => `{${WikiImport.metadata.get(id)?.name || id}}`),
+          sample: (table.entries.slice(0, row).reduce((total, item) => total + item.weight, 0) + entry.weight / 2) / table.totalWeight };
+      });
+    }, { approvedIds: configuration.corrections.map(correction => correction.tableId),
+      followUpId: configuration.followUpBatches[0].corrections[0].tableId });
+    assert.equal(targets[1].historical, false);
+    assert.equal(targets[2].historical, true);
+    assert.equal(targets[3].execution, 'wiki');
+    assert.equal(targets[4].historical, true);
+    for (const [index, target] of targets.entries()) {
+      await page.setViewportSize({ width: 1440, height: 960 });
+      await selectTable(page, target.id);
+      const sourceUrl = await page.locator('#table-source').evaluate(link => link.href);
+      assert.equal(new URL(sourceUrl).protocol, 'file:');
+      const archive = JSON.parse(fs.readFileSync(fileURLToPath(sourceUrl), 'utf8'));
+      const source = archive.tables.find(record => record.current.sourceFile === target.sourceFile).current;
+      assert.equal(source.sourceHash, target.sourceHash);
+      assert.equal(source.table.entries[target.row].text, target.rawText);
+      assert.equal(await page.locator('.entry-text').nth(target.row).textContent(), target.displayText);
+      if (index === 0) {
+        assert.equal(target.status, 'ready');
+        assert.equal(target.rawText, 'Most [TitleDescriptor]]');
+        assert.equal(target.displayText, 'Most {Secret Society Title.TitleDescriptor}');
+        assert.equal(target.weight, 10);
+        assert.ok(target.dependencies.includes(target.id));
+      }
+      {
+        assert.equal(target.status, 'ready');
+        assert.equal(await page.locator('#roll-button').isDisabled(), false);
+        assert.equal(await page.locator('#wiki-validation').isVisible(), false);
+        if (target.correction) assert.ok(target.rawText.includes(target.correction.raw));
+        await page.locator('#roll-count').fill('1');
+        const expected = await page.evaluate(({ id, sample }) => {
+          const originalRandom = Math.random;
+          const roll = () => {
+            let first = true;
+            Math.random = () => { if (first) { first = false; return sample; } return 0.5; };
+          };
+          try {
+            roll();
+            const result = TableAtlas.roll(id, globalThis);
+            roll();
+            document.getElementById('roll-button').click();
+            return result;
+          } finally {
+            Math.random = originalRandom;
+          }
+        }, { id: target.id, sample: target.sample });
+        assert.deepEqual(expected.warnings, []);
+        assert.equal(await page.locator('.roll-result').first().textContent(), expected.text.trim() || '(Empty result)');
+        assert.equal(await page.locator('.roll-warning').count(), 0);
+        if (!await page.locator('#roll-trace').evaluate(trace => trace.open)) await page.locator('#roll-trace summary').click();
+        assert.ok(await page.locator('.trace-step').count() > 0);
+      }
+      if (index < 3) await page.screenshot({ path: path.join(artifacts, `desktop-repair-followup-${index}.png`) });
+      for (const width of [320, 390]) {
+        await page.setViewportSize({ width, height: 844 });
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+      }
+      if (index < 3) await page.screenshot({ path: path.join(artifacts, `mobile-repair-followup-${index}.png`), fullPage: true });
     }
   });
 });

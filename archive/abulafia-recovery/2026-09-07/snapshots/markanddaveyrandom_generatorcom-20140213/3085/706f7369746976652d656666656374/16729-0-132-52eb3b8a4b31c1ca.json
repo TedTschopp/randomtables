@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 16729,
+    "timestamp": "2013-02-01T09:25:25Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "7a543af72483b6d77d7adf1f5decd05578c1e6223c3c19928f63c947d158ab1a",
+      "rawSha256": "52eb3b8a4b31c1cac134e9d5e90eced4fb61f20898323b4eca03d9a040e1d4ba",
+      "revisionId": "16729",
+      "line": 132,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "positive-effect",
+    "qualified_name": "Curse.positive-effect",
+    "table_block_index": 0,
+    "line_number": 132
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "gain 1 point of [stat]",
+      "raw_text": "1,gain 1 point of [stat]",
+      "references": [
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "gain [about-two] points of [stat]",
+      "raw_text": "1,gain [about-two] points of [stat]",
+      "references": [
+        {
+          "raw": "[about-two]",
+          "token": "about-two",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-two",
+          "target_qualified_name": "Curse.about-two"
+        },
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "gain resistance [about-5] against [damage-type]",
+      "raw_text": "1,gain resistance [about-5] against [damage-type]",
+      "references": [
+        {
+          "raw": "[about-5]",
+          "token": "about-5",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "about-5",
+          "target_qualified_name": "Curse.about-5"
+        },
+        {
+          "raw": "[damage-type]",
+          "token": "damage-type",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "positive-effect",
+          "target_page": "Curse",
+          "target_subtable": "damage-type",
+          "target_qualified_name": "Curse.damage-type"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "about-5",
+      "about-two",
+      "damage-type",
+      "stat"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";positive-effect\n1,gain 1 point of [stat]\n1,gain [about-two] points of [stat]\n1,gain resistance [about-5] against [damage-type]",
+  "warnings": []
+}

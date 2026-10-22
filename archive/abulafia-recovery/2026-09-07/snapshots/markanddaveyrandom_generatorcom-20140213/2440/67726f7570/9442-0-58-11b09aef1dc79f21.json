@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "New gen",
+    "page_id": 2440
+  },
+  "source": {
+    "revision_id": 9442,
+    "timestamp": "2009-08-01T13:34:49Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "167c4c63b5eba79b5a3060fe2fe3187dff7feb910d86de8cf120b73a191f7da3",
+      "rawSha256": "11b09aef1dc79f21d784ebe2540fe1c163dd855b870f90fe9ac9a4d16a6a2001",
+      "revisionId": "9442",
+      "line": 58,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9442",
+        "timestamp": "2009-08-01T13:34:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "group",
+    "qualified_name": "New gen.group",
+    "table_block_index": 0,
+    "line_number": 58
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Bodysnatchers",
+      "raw_text": "1,Bodysnatchers",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Freaks",
+      "raw_text": "1,Freaks",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Monsters",
+      "raw_text": "1,Monsters",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Beasts",
+      "raw_text": "1,Beasts",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Ghouls",
+      "raw_text": "1,Ghouls",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Zombies",
+      "raw_text": "1,Zombies",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Cannibals",
+      "raw_text": "1,Cannibals",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Aliens",
+      "raw_text": "1,Aliens",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Dead",
+      "raw_text": "1,Dead",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Gargantuas",
+      "raw_text": "1,Gargantuas",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Robots",
+      "raw_text": "1,Robots",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Werewolfs",
+      "raw_text": "1,Werewolfs",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Bloodsuckers",
+      "raw_text": "1,Bloodsuckers",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 2,
+      "text": "cultists",
+      "raw_text": "2,cultists",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "gangsters",
+      "raw_text": "1,gangsters",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "yithians",
+      "raw_text": "1,yithians",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "mi- go",
+      "raw_text": "1,mi- go",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "great old ones",
+      "raw_text": "1,great old ones",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";group\n1,Bodysnatchers\n1,Freaks\n1,Monsters\n1,Beasts\n1,Ghouls\n1,Zombies\n1,Cannibals\n1,Aliens\n1,Dead\n1,Gargantuas\n1,Robots\n1,Werewolfs\n1,Bloodsuckers\n2,cultists\n1,gangsters\n1,yithians\n1,mi- go\n1,great old ones",
+  "warnings": []
+}

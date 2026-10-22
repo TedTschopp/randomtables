@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Adamrain2",
+    "page_id": 2439
+  },
+  "source": {
+    "revision_id": 9378,
+    "timestamp": "2009-07-30T12:25:38Z",
+    "contributor": {
+      "name": "Adamrain",
+      "id": 371,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "a936984b9baebe0ae0fe3e93cf637fc9ca95a7254f74a778e2d6886f476d02df",
+      "rawSha256": "ceb4ec74409a469ea6e0d6e95e6cc5f895f9a709aafdfd1512ed3b40d0962391",
+      "revisionId": "9378",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9378",
+        "timestamp": "2009-07-30T12:25:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "bla",
+    "qualified_name": "User:Adamrain2.bla",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "2",
+      "raw_text": "1,2",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "3",
+      "raw_text": "1,3",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "4",
+      "raw_text": "1,4",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";bla\n1,2\n1,3\n1,4",
+  "warnings": []
+}

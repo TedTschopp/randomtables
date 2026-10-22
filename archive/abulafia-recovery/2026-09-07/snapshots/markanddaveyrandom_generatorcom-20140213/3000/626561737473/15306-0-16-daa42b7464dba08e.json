@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 15306,
+    "timestamp": "2012-10-04T13:28:01Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "0a28973cb290a8d9b014eda3cc407cb2495336eea9df1637546dc4eb63dee897",
+      "rawSha256": "daa42b7464dba08ebd912a71917742ccd8fc725dc9fd1683fb11fae9a856d758",
+      "revisionId": "15306",
+      "line": 16,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "beasts",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.beasts",
+    "table_block_index": 0,
+    "line_number": 16
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "[beast][role]",
+      "raw_text": "3, [beast][role]",
+      "references": [
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "beasts",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        },
+        {
+          "raw": "[role]",
+          "token": "role",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "beasts",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "role",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.role"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "[environment][beast]",
+      "raw_text": "2, [environment][beast]",
+      "references": [
+        {
+          "raw": "[environment]",
+          "token": "environment",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "beasts",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "environment",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.environment"
+        },
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "beasts",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[beast]",
+      "raw_text": "1, [beast]",
+      "references": [
+        {
+          "raw": "[beast]",
+          "token": "beast",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "beasts",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "beast",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.beast"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "beast",
+      "environment",
+      "role"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";beasts\n3, [beast][role]\n2, [environment][beast]\n1, [beast]",
+  "warnings": []
+}

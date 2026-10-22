@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "2fe5dd15f5eceeafc99a5db400018ecb0d6f2cfeb2da965b3268134b141f3bb7",
+      "revisionId": "23320",
+      "line": 132,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "noalignsword",
+    "qualified_name": "OSR weapon.noalignsword",
+    "table_block_index": 0,
+    "line_number": 132
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 15,
+      "text": "Short Sword",
+      "raw_text": "15,Short Sword",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 30,
+      "text": "Long Sword",
+      "raw_text": "30,Long Sword",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 10,
+      "text": "Two-handed Sword",
+      "raw_text": "10,Two-handed Sword",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 21,
+      "text": "Short Sword [intelligent]",
+      "raw_text": "21,Short Sword [intelligent]",
+      "references": [
+        {
+          "raw": "[intelligent]",
+          "token": "intelligent",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "noalignsword",
+          "target_page": "OSR weapon",
+          "target_subtable": "intelligent",
+          "target_qualified_name": "OSR weapon.intelligent"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 42,
+      "text": "Long Sword [intelligent]",
+      "raw_text": "42,Long Sword [intelligent]",
+      "references": [
+        {
+          "raw": "[intelligent]",
+          "token": "intelligent",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "noalignsword",
+          "target_page": "OSR weapon",
+          "target_subtable": "intelligent",
+          "target_qualified_name": "OSR weapon.intelligent"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 14,
+      "text": "Two-handed Sword [intelligent]",
+      "raw_text": "14,Two-handed Sword [intelligent]",
+      "references": [
+        {
+          "raw": "[intelligent]",
+          "token": "intelligent",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "noalignsword",
+          "target_page": "OSR weapon",
+          "target_subtable": "intelligent",
+          "target_qualified_name": "OSR weapon.intelligent"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "intelligent"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";noalignsword\n15,Short Sword\n30,Long Sword\n10,Two-handed Sword\n21,Short Sword [intelligent]\n42,Long Sword [intelligent]\n14,Two-handed Sword [intelligent]",
+  "warnings": []
+}

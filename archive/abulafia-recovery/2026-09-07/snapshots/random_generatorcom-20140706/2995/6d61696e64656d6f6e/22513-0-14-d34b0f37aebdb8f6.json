@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22513,
+    "timestamp": "2014-06-01T10:48:04Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "ec1e799aebc61b6ad591a13a6a04a8cebaa20ead822fbb7949c3d3b349318e55",
+      "rawSha256": "d34b0f37aebdb8f681ad0ec5af38ccf9bcf88a73e1b5a3084d9da81b30f61a36",
+      "revisionId": "22513",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maindemon",
+    "qualified_name": "Quick Horrors.maindemon",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[cool] [carnivorous] [demon][demonquirk]",
+      "raw_text": "1,[cool] [carnivorous] [demon][demonquirk]",
+      "references": [
+        {
+          "raw": "[cool]",
+          "token": "cool",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "maindemon",
+          "target_page": "Quick Horrors",
+          "target_subtable": "cool",
+          "target_qualified_name": "Quick Horrors.cool"
+        },
+        {
+          "raw": "[carnivorous]",
+          "token": "carnivorous",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "maindemon",
+          "target_page": "Quick Horrors",
+          "target_subtable": "carnivorous",
+          "target_qualified_name": "Quick Horrors.carnivorous"
+        },
+        {
+          "raw": "[demon]",
+          "token": "demon",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "maindemon",
+          "target_page": "Quick Horrors",
+          "target_subtable": "demon",
+          "target_qualified_name": "Quick Horrors.demon"
+        },
+        {
+          "raw": "[demonquirk]",
+          "token": "demonquirk",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "maindemon",
+          "target_page": "Quick Horrors",
+          "target_subtable": "demonquirk",
+          "target_qualified_name": "Quick Horrors.demonquirk"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "carnivorous",
+      "cool",
+      "demon",
+      "demonquirk"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maindemon\n1,[cool] [carnivorous] [demon][demonquirk]",
+  "warnings": []
+}

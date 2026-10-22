@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16977,
+    "timestamp": "2013-02-11T22:13:54Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "723550a55fae83ce40ab81f9f7436689f8eec39e63b02fef85240d3b0b785aa8",
+      "rawSha256": "62046410b00def0761fd9f93e728122603154edb0f193498c177c4787ac2f7ac",
+      "revisionId": "16977",
+      "line": 17,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "today",
+    "qualified_name": "Planar Codex Parish.today",
+    "table_block_index": 0,
+    "line_number": 17
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Fantasy Town Event.criminalevents]",
+      "raw_text": "1,[Fantasy Town Event.criminalevents]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Event.criminalevents]",
+          "token": "Fantasy Town Event.criminalevents",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "today",
+          "target_page": "Fantasy Town Event",
+          "target_subtable": "criminalevents",
+          "target_qualified_name": "Fantasy Town Event.criminalevents"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Fantasy Town Event.guildevents]",
+      "raw_text": "1,[Fantasy Town Event.guildevents]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Event.guildevents]",
+          "token": "Fantasy Town Event.guildevents",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "today",
+          "target_page": "Fantasy Town Event",
+          "target_subtable": "guildevents",
+          "target_qualified_name": "Fantasy Town Event.guildevents"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Fantasy Town Event.peopleevents]",
+      "raw_text": "1,[Fantasy Town Event.peopleevents]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Event.peopleevents]",
+          "token": "Fantasy Town Event.peopleevents",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "today",
+          "target_page": "Fantasy Town Event",
+          "target_subtable": "peopleevents",
+          "target_qualified_name": "Fantasy Town Event.peopleevents"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Fantasy Town Event.socialevents]",
+      "raw_text": "1,[Fantasy Town Event.socialevents]",
+      "references": [
+        {
+          "raw": "[Fantasy Town Event.socialevents]",
+          "token": "Fantasy Town Event.socialevents",
+          "kind": "cross_page",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "today",
+          "target_page": "Fantasy Town Event",
+          "target_subtable": "socialevents",
+          "target_qualified_name": "Fantasy Town Event.socialevents"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Fantasy Town Event.criminalevents",
+      "Fantasy Town Event.guildevents",
+      "Fantasy Town Event.peopleevents",
+      "Fantasy Town Event.socialevents"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";today\n1,[Fantasy Town Event.criminalevents]\n1,[Fantasy Town Event.guildevents]\n1,[Fantasy Town Event.peopleevents]\n1,[Fantasy Town Event.socialevents]",
+  "warnings": []
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 9620,
+    "timestamp": "2009-10-07T20:41:57Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "8e6f228d31d16bda66e720fe5e3ccb4d18604814a61350d8c0a12b62766465d6",
+      "rawSha256": "e83b9851848637a55625627cf0f347c0fa7201770a7538f4c2deaf3f41c488b9",
+      "revisionId": "9620",
+      "line": 214,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "naturalEvent",
+    "qualified_name": "Rituals.naturalEvent",
+    "table_block_index": 0,
+    "line_number": 214
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "at the time of sowing",
+      "raw_text": "1,at the time of sowing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "before the harvest",
+      "raw_text": "1,before the harvest",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "when the harvest is finished",
+      "raw_text": "1,when the harvest is finished",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "when there has been no rain",
+      "raw_text": "1,when there has been no rain",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "when there has been too much rain and floods threaten",
+      "raw_text": "1,when there has been too much rain and floods threaten",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "when one's [olderRelative] falls ill",
+      "raw_text": "1,when one's [olderRelative] falls ill",
+      "references": [
+        {
+          "raw": "[olderRelative]",
+          "token": "olderRelative",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "naturalEvent",
+          "target_page": "Rituals",
+          "target_subtable": "olderRelative",
+          "target_qualified_name": "Rituals.olderRelative"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "if one should fall ill",
+      "raw_text": "1,if one should fall ill",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "if a quaking is felt in the ground",
+      "raw_text": "1,if a quaking is felt in the ground",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "if lightning strikes one's village",
+      "raw_text": "1,if lightning strikes one's village",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "if a black snake crosses snow",
+      "raw_text": "1,if a black snake crosses snow",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "if a doll's-eye berry touches bare skin",
+      "raw_text": "1,if a doll's-eye berry touches bare skin",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "when winter lingers",
+      "raw_text": "1,when winter lingers",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "when the sky groans with gallows-cries",
+      "raw_text": "1,when the sky groans with gallows-cries",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "olderRelative"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";naturalEvent\n1,at the time of sowing\n1,before the harvest\n1,when the harvest is finished\n1,when there has been no rain\n1,when there has been too much rain and floods threaten\n1,when one's [olderRelative] falls ill\n1,if one should fall ill\n1,if a quaking is felt in the ground\n1,if lightning strikes one's village\n1,if a black snake crosses snow\n1,if a doll's-eye berry touches bare skin\n1,when winter lingers\n1,when the sky groans with gallows-cries",
+  "warnings": []
+}

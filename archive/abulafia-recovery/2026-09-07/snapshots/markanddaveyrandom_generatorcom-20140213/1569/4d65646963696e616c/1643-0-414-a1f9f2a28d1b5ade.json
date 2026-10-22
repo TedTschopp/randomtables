@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 1643,
+    "timestamp": "2006-11-24T01:50:50Z",
+    "contributor": {
+      "name": "Casaubon",
+      "id": 0,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "03ca37f58e5a96636385aa77d9d564147388b30523f3383bfc99016d9b197c6d",
+      "rawSha256": "a1f9f2a28d1b5adeefda03511211dc2bb4da21a199df9b15c85beddc63de6a3b",
+      "revisionId": "1643",
+      "line": 414,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Medicinal",
+    "qualified_name": "Pickpocket.Medicinal",
+    "table_block_index": 0,
+    "line_number": 414
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "a bag of sharp-smelling herbs for a \"morning after\" tea",
+      "raw_text": "1,a bag of sharp-smelling herbs for a \"morning after\" tea",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "a bottle of foul-smelling medicine \"guaranteed to relieve diarrhea\"",
+      "raw_text": "1,a bottle of foul-smelling medicine \"guaranteed to relieve diarrhea\"",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a bottle of hair tonic \"Guaranteed to cure baldness\"",
+      "raw_text": "1,a bottle of hair tonic \"Guaranteed to cure baldness\"",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "a pouch of herbs for a soporific tea",
+      "raw_text": "1,a pouch of herbs for a soporific tea",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "a small bottle of a bitter syrupy substance \"guaranteed to relieve indigestion and flatulence\"",
+      "raw_text": "1,a small bottle of a bitter syrupy substance \"guaranteed to relieve indigestion and flatulence\"",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "a small box containing medicinal leaves to \"chew to counter drowsiness\"",
+      "raw_text": "1,a small box containing medicinal leaves to \"chew to counter drowsiness\"",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "a small tub of an oily cream that is \"proof against a multitude of rashes and unsavory infestations\"",
+      "raw_text": "1,a small tub of an oily cream that is \"proof against a multitude of rashes and unsavory infestations\"",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "a vial of a musky-smelling oil \"guaranteed to restore strength and stamina\"",
+      "raw_text": "1,a vial of a musky-smelling oil \"guaranteed to restore strength and stamina\"",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "smelling salts",
+      "raw_text": "1,smelling salts",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "a bottle bearing the image of a snake and the promise that it will \"cure any ill\"",
+      "raw_text": "1,a bottle bearing the image of a snake and the promise that it will \"cure any ill\"",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Medicinal\n1,a bag of sharp-smelling herbs for a \"morning after\" tea\n1,a bottle of foul-smelling medicine \"guaranteed to relieve diarrhea\"\n1,a bottle of hair tonic \"Guaranteed to cure baldness\"\n1,a pouch of herbs for a soporific tea\n1,a small bottle of a bitter syrupy substance \"guaranteed to relieve indigestion and flatulence\"\n1,a small box containing medicinal leaves to \"chew to counter drowsiness\"\n1,a small tub of an oily cream that is \"proof against a multitude of rashes and unsavory infestations\"\n1,a vial of a musky-smelling oil \"guaranteed to restore strength and stamina\"\n1,smelling salts\n1,a bottle bearing the image of a snake and the promise that it will \"cure any ill\"",
+  "warnings": []
+}

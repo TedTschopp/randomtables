@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick and Dirty Supers Concepts",
+    "page_id": 2302
+  },
+  "source": {
+    "revision_id": 14248,
+    "timestamp": "2012-04-25T16:44:13Z",
+    "contributor": {
+      "name": "Vasco Brown",
+      "id": 174,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "72a324852deee34aef36aaca1976947d0dca74eefd1ab8a35d25b0eedd8e1881",
+      "rawSha256": "77b6d731fd36d392d17f371f93bf201758486125e75057f638e292b1339bb27d",
+      "revisionId": "14248",
+      "line": 91,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14248",
+        "timestamp": "2012-04-25T16:44:13Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "energycontroller",
+    "qualified_name": "Quick and Dirty Supers Concepts.energycontroller",
+    "table_block_index": 0,
+    "line_number": 91
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Energy Controller - Cold",
+      "raw_text": "1, Energy Controller - Cold",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Energy Controller - Cosmic",
+      "raw_text": "1, Energy Controller - Cosmic",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Energy Controller - Darkness",
+      "raw_text": "1, Energy Controller - Darkness",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Energy Controller - Electricity",
+      "raw_text": "1, Energy Controller - Electricity",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Energy Controller - Gravity",
+      "raw_text": "1, Energy Controller - Gravity",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Energy Controller - Heat",
+      "raw_text": "1, Energy Controller - Heat",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Energy Controller - Kinetic",
+      "raw_text": "1, Energy Controller - Kinetic",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Energy Controller - Light",
+      "raw_text": "1, Energy Controller - Light",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Energy Controller - Magnetism",
+      "raw_text": "1, Energy Controller - Magnetism",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Energy Controller - Radiation",
+      "raw_text": "1, Energy Controller - Radiation",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Energy Controller - Sonic",
+      "raw_text": "1, Energy Controller - Sonic",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Energy Controller - Vibration",
+      "raw_text": "1, Energy Controller - Vibration",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";energycontroller\n\n1, Energy Controller - Cold\n1, Energy Controller - Cosmic\n1, Energy Controller - Darkness\n1, Energy Controller - Electricity\n1, Energy Controller - Gravity\n1, Energy Controller - Heat\n1, Energy Controller - Kinetic\n1, Energy Controller - Light\n1, Energy Controller - Magnetism\n1, Energy Controller - Radiation\n1, Energy Controller - Sonic\n1, Energy Controller - Vibration",
+  "warnings": []
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17062,
+    "timestamp": "2013-02-12T10:03:29Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "08276442a037339c2faf3909d4ec733961dfbe0a4f707279831093583d09d99b",
+      "rawSha256": "4577c8c3e8d4ceff16606d8517602c53c1b377ceca5c09ff04a29058f754fa78",
+      "revisionId": "17062",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "job",
+    "qualified_name": "Planar Codex Parish.job",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[job-guy] asks you to acquire [item] from [job-guy] at [job-location]",
+      "raw_text": "1,[job-guy] asks you to acquire [item] from [job-guy] at [job-location]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[item]",
+          "token": "item",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item",
+          "target_qualified_name": "Planar Codex Parish.item"
+        },
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-location]",
+          "token": "job-location",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-location",
+          "target_qualified_name": "Planar Codex Parish.job-location"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[job-guy] asks you to deliver [item] to [job-guy] at [job-location]",
+      "raw_text": "1,[job-guy] asks you to deliver [item] to [job-guy] at [job-location]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[item]",
+          "token": "item",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "item",
+          "target_qualified_name": "Planar Codex Parish.item"
+        },
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-location]",
+          "token": "job-location",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-location",
+          "target_qualified_name": "Planar Codex Parish.job-location"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[job-guy] asks you to explore [job-location]",
+      "raw_text": "1,[job-guy] asks you to explore [job-location]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-location]",
+          "token": "job-location",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-location",
+          "target_qualified_name": "Planar Codex Parish.job-location"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[job-guy] asks you to kill [job-guy]",
+      "raw_text": "1,[job-guy] asks you to kill [job-guy]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[job-guy] asks you to protect them from [job-guy] at [job-location]",
+      "raw_text": "1,[job-guy] asks you to protect them from [job-guy] at [job-location]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-location]",
+          "token": "job-location",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-location",
+          "target_qualified_name": "Planar Codex Parish.job-location"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[job-guy] asks you to raid [job-guy] at [job-location]",
+      "raw_text": "1,[job-guy] asks you to raid [job-guy] at [job-location]",
+      "references": [
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-guy]",
+          "token": "job-guy",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-guy",
+          "target_qualified_name": "Planar Codex Parish.job-guy"
+        },
+        {
+          "raw": "[job-location]",
+          "token": "job-location",
+          "kind": "local",
+          "source_page": "Planar Codex Parish",
+          "source_subtable": "job",
+          "target_page": "Planar Codex Parish",
+          "target_subtable": "job-location",
+          "target_qualified_name": "Planar Codex Parish.job-location"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "item",
+      "job-guy",
+      "job-location"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";job\n1,[job-guy] asks you to acquire [item] from [job-guy] at [job-location]\n1,[job-guy] asks you to deliver [item] to [job-guy] at [job-location]\n1,[job-guy] asks you to explore [job-location]\n1,[job-guy] asks you to kill [job-guy]\n1,[job-guy] asks you to protect them from [job-guy] at [job-location]\n1,[job-guy] asks you to raid [job-guy] at [job-location]",
+  "warnings": []
+}

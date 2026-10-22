@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "c57e592672c4d32896da82f1f968587d23b236b97e78cb4992eba4c6e31d41c7",
+      "revisionId": "14219",
+      "line": 81,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "write",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.write",
+    "table_block_index": 0,
+    "line_number": 81
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[words]",
+      "raw_text": "1, [words]",
+      "references": [
+        {
+          "raw": "[words]",
+          "token": "words",
+          "kind": "local",
+          "source_page": "Abulafia Random Generators:Medieval Person",
+          "source_subtable": "write",
+          "target_page": "Abulafia Random Generators:Medieval Person",
+          "target_subtable": "words",
+          "target_qualified_name": "Abulafia Random Generators:Medieval Person.words"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "words"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";write\n1, [words]",
+  "warnings": []
+}

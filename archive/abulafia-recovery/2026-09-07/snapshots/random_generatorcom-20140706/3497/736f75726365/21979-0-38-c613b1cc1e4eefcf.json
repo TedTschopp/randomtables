@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21979,
+    "timestamp": "2014-05-22T18:16:13Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "944c516ab78da2fd18af6c6ff41cf06141348a3acc523fb77ae6abcba9ff68b4",
+      "rawSha256": "c613b1cc1e4eefcff42d595953a24b3cc1eec0ae16fd7bf762c23762d9ddf102",
+      "revisionId": "21979",
+      "line": 38,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "source",
+    "qualified_name": "Blazon.source",
+    "table_block_index": 0,
+    "line_number": 38
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "ancient",
+      "raw_text": "1,ancient",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "royal",
+      "raw_text": "1,royal",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "dwarven",
+      "raw_text": "1,dwarven",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "goblin",
+      "raw_text": "1,goblin",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "elven",
+      "raw_text": "1,elven",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "orcish",
+      "raw_text": "1,orcish",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "serpentine",
+      "raw_text": "1,serpentine",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "pagan",
+      "raw_text": "1,pagan",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "primitive",
+      "raw_text": "1,primitive",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "handmade",
+      "raw_text": "1,handmade",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "ghostly",
+      "raw_text": "1,ghostly",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "fay",
+      "raw_text": "1,fay",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";source\n1,ancient\n1,royal\n1,dwarven\n1,goblin\n1,elven\n1,orcish\n1,serpentine\n1,pagan\n1,primitive\n1,handmade\n1,ghostly\n1,fay\n1,",
+  "warnings": []
+}

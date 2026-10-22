@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "db0c506a6ba996b3130537786b3ac67060ea43903a893218622a73603a227696",
+      "revisionId": "22835",
+      "line": 6,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursename",
+    "qualified_name": "Curse.cursename",
+    "table_block_index": 0,
+    "line_number": 6
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "[cursenameadj] [cursenamename][maybe-S]",
+      "raw_text": "4,[cursenameadj] [cursenamename][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenameadj]",
+          "token": "cursenameadj",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenameadj",
+          "target_qualified_name": "Curse.cursenameadj"
+        },
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "[cursenamename]'S [cursenamenoun][maybe-S]",
+      "raw_text": "4,[cursenamename]'S [cursenamenoun][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[cursenamenoun]",
+          "token": "cursenamenoun",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamenoun",
+          "target_qualified_name": "Curse.cursenamenoun"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "THE [cursenamenoun][maybe-S] of [cursenamename][maybe-S]",
+      "raw_text": "2,THE [cursenamenoun][maybe-S] of [cursenamename][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenamenoun]",
+          "token": "cursenamenoun",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamenoun",
+          "target_qualified_name": "Curse.cursenamenoun"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        },
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[cursenamename]'S [cursenameadj] [cursenamenoun][maybe-S]",
+      "raw_text": "1,[cursenamename]'S [cursenameadj] [cursenamenoun][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[cursenameadj]",
+          "token": "cursenameadj",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenameadj",
+          "target_qualified_name": "Curse.cursenameadj"
+        },
+        {
+          "raw": "[cursenamenoun]",
+          "token": "cursenamenoun",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamenoun",
+          "target_qualified_name": "Curse.cursenamenoun"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[cursenameadj] [cursenamename]'S [cursenamenoun][maybe-S]",
+      "raw_text": "1,[cursenameadj] [cursenamename]'S [cursenamenoun][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenameadj]",
+          "token": "cursenameadj",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenameadj",
+          "target_qualified_name": "Curse.cursenameadj"
+        },
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[cursenamenoun]",
+          "token": "cursenamenoun",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamenoun",
+          "target_qualified_name": "Curse.cursenamenoun"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "{{uc:[Creepy Fantasy Villain.main]}}",
+      "raw_text": "2,{{uc:[Creepy Fantasy Villain.main]}}",
+      "references": [
+        {
+          "raw": "[Creepy Fantasy Villain.main]",
+          "token": "Creepy Fantasy Villain.main",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Creepy Fantasy Villain",
+          "target_subtable": "main",
+          "target_qualified_name": "Creepy Fantasy Villain.main"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "THE [cursenameadj] [cursenamenoun][maybe-S] of [cursenamename][maybe-S]",
+      "raw_text": "1,THE [cursenameadj] [cursenamenoun][maybe-S] of [cursenamename][maybe-S]",
+      "references": [
+        {
+          "raw": "[cursenameadj]",
+          "token": "cursenameadj",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenameadj",
+          "target_qualified_name": "Curse.cursenameadj"
+        },
+        {
+          "raw": "[cursenamenoun]",
+          "token": "cursenamenoun",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamenoun",
+          "target_qualified_name": "Curse.cursenamenoun"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        },
+        {
+          "raw": "[cursenamename]",
+          "token": "cursenamename",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "cursenamename",
+          "target_qualified_name": "Curse.cursenamename"
+        },
+        {
+          "raw": "[maybe-S]",
+          "token": "maybe-S",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "cursename",
+          "target_page": "Curse",
+          "target_subtable": "maybe-S",
+          "target_qualified_name": "Curse.maybe-S"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "cursenameadj",
+      "cursenamename",
+      "cursenamenoun",
+      "maybe-S"
+    ],
+    "external_subtables": [
+      "Creepy Fantasy Villain.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";cursename\n4,[cursenameadj] [cursenamename][maybe-S]\n4,[cursenamename]'S [cursenamenoun][maybe-S]\n2,THE [cursenamenoun][maybe-S] of [cursenamename][maybe-S]\n1,[cursenamename]'S [cursenameadj] [cursenamenoun][maybe-S]\n1,[cursenameadj] [cursenamename]'S [cursenamenoun][maybe-S]\n2,{{uc:[Creepy Fantasy Villain.main]}}\n1,THE [cursenameadj] [cursenamenoun][maybe-S] of [cursenamename][maybe-S]",
+  "warnings": []
+}

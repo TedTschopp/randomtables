@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14214,
+    "timestamp": "2012-04-01T16:44:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "d6b4cf172d74491d61088a781fb3ca571f65b87be50791576ecfaadedc526b02",
+      "rawSha256": "68c0e7dcc3909e908b322359525285afff9830a6c2c8a6643b81ad554867f949",
+      "revisionId": "14214",
+      "line": 202,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SELF-SACRIFICE FOR AN IDEAL",
+    "qualified_name": "User:Snake Eyes.SELF-SACRIFICE FOR AN IDEAL",
+    "table_block_index": 0,
+    "line_number": 202
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";SELF-SACRIFICE FOR AN IDEAL\nSELF-SACRIFICE FOR AN IDEAL\n\na Hero\nan Ideal\na Creditor or a Person/Thing sacrificed\n\nThe Hero sacrifices the Person or Thing for their Ideal, which is then taken by the Creditor.",
+  "warnings": [
+    "Line 202: preserved nonstandard row before first entry: SELF-SACRIFICE FOR AN IDEAL",
+    "Line 204: preserved nonstandard row before first entry: a Hero",
+    "Line 205: preserved nonstandard row before first entry: an Ideal",
+    "Line 206: preserved nonstandard row before first entry: a Creditor or a Person/Thing sacrificed",
+    "Line 208: preserved nonstandard row before first entry: The Hero sacrifices the Person or Thing for their Ideal, which is then taken by the Creditor."
+  ]
+}

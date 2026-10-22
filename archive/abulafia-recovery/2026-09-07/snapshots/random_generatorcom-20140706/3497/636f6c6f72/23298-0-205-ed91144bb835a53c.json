@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "ed91144bb835a53c9443bae7baa7f6dfb885cbfe6bc04f94eb56a82735211c7a",
+      "revisionId": "23298",
+      "line": 205,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "color",
+    "qualified_name": "Blazon.color",
+    "table_block_index": 0,
+    "line_number": 205
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Color.main] and [Color.main]",
+      "raw_text": "1,[Color.main] and [Color.main]",
+      "references": [
+        {
+          "raw": "[Color.main]",
+          "token": "Color.main",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "color",
+          "target_page": "Color",
+          "target_subtable": "main",
+          "target_qualified_name": "Color.main"
+        },
+        {
+          "raw": "[Color.main]",
+          "token": "Color.main",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "color",
+          "target_page": "Color",
+          "target_subtable": "main",
+          "target_qualified_name": "Color.main"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 7,
+      "text": "[Color.main]",
+      "raw_text": "7,[Color.main]",
+      "references": [
+        {
+          "raw": "[Color.main]",
+          "token": "Color.main",
+          "kind": "cross_page",
+          "source_page": "Blazon",
+          "source_subtable": "color",
+          "target_page": "Color",
+          "target_subtable": "main",
+          "target_qualified_name": "Color.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Color.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";color\n1,[Color.main] and [Color.main]\n7,[Color.main]",
+  "warnings": []
+}

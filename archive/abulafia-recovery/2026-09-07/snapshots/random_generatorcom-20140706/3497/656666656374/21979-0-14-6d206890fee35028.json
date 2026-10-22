@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 21979,
+    "timestamp": "2014-05-22T18:16:13Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "944c516ab78da2fd18af6c6ff41cf06141348a3acc523fb77ae6abcba9ff68b4",
+      "rawSha256": "6d206890fee35028178a642784d00f2ae0fe99206419df27eddffb479d284e16",
+      "revisionId": "21979",
+      "line": 14,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "effect",
+    "qualified_name": "Blazon.effect",
+    "table_block_index": 0,
+    "line_number": 14
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "dragon",
+      "raw_text": "1,dragon",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "changing",
+      "raw_text": "1,changing",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "farseeing",
+      "raw_text": "1,farseeing",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "flaming",
+      "raw_text": "1,flaming",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "cloaking",
+      "raw_text": "1,cloaking",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "summoning",
+      "raw_text": "1,summoning",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "wicked",
+      "raw_text": "1,wicked",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "",
+      "raw_text": "1,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";effect\n1,dragon\n1,changing\n1,farseeing\n1,flaming\n1,cloaking\n1,summoning\n1,wicked\n1,",
+  "warnings": []
+}

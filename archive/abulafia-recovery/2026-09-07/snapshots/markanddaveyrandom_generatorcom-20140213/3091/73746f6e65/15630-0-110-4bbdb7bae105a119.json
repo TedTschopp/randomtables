@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Door",
+    "page_id": 3091
+  },
+  "source": {
+    "revision_id": 15630,
+    "timestamp": "2012-11-08T12:57:14Z",
+    "contributor": {
+      "name": "Valis",
+      "id": 1726,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b20d7975c36e4e290db51f766b688a7e36659d4afbc0f8a1a3f8e53180032d7d",
+      "rawSha256": "4bbdb7bae105a11987d418ece744c2e8631a8eb7b8a8ebcc026d3e48658e58cb",
+      "revisionId": "15630",
+      "line": 110,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15633",
+        "timestamp": "2012-11-08T13:02:11Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "stone",
+    "qualified_name": "Dungeon Door.stone",
+    "table_block_index": 0,
+    "line_number": 110
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "marble",
+      "raw_text": "1,marble",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "slate",
+      "raw_text": "1,slate",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "basalt",
+      "raw_text": "1,basalt",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "obsidian",
+      "raw_text": "1,obsidian",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "pumice",
+      "raw_text": "1,pumice",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "quartz",
+      "raw_text": "1,quartz",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "chalk",
+      "raw_text": "1,chalk",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "coal",
+      "raw_text": "1,coal",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "flint",
+      "raw_text": "1,flint",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "sandstone",
+      "raw_text": "1,sandstone",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "shale",
+      "raw_text": "1,shale",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "granite",
+      "raw_text": "1,granite",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";stone\n1,marble\n1,slate\n1,basalt\n1,obsidian\n1,pumice\n1,quartz\n1,chalk\n1,coal\n1,flint\n1,sandstone\n1,shale\n1,granite",
+  "warnings": []
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17062,
+    "timestamp": "2013-02-12T10:03:29Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "08276442a037339c2faf3909d4ec733961dfbe0a4f707279831093583d09d99b",
+      "rawSha256": "41981dc93b88efeadea61a655b1b1661f0ba8c3fcd573d8f82c0ee81ec25ddd1",
+      "revisionId": "17062",
+      "line": 36,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "job-patron",
+    "qualified_name": "Planar Codex Parish.job-patron",
+    "table_block_index": 0,
+    "line_number": 36
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "criminal",
+      "raw_text": "3,criminal",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "cult",
+      "raw_text": "3,cult",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "guild",
+      "raw_text": "3,guild",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "library",
+      "raw_text": "3,library",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "Temple",
+      "raw_text": "3,Temple",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 3,
+      "text": "Wizard",
+      "raw_text": "3,Wizard",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "diplomat",
+      "raw_text": "2,diplomat",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "freebooter",
+      "raw_text": "2,freebooter",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "merchant",
+      "raw_text": "2,merchant",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "militarist",
+      "raw_text": "2,militarist",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "pilgrim",
+      "raw_text": "2,pilgrim",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "refugee",
+      "raw_text": "2,refugee",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "alien god",
+      "raw_text": "1,alien god",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "diabolist",
+      "raw_text": "1,diabolist",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "immortal",
+      "raw_text": "1,immortal",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "outlaw",
+      "raw_text": "1,outlaw",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "philospher",
+      "raw_text": "1,philospher",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "spirit",
+      "raw_text": "1,spirit",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";job-patron\n3,criminal\n3,cult\n3,guild\n3,library\n3,Temple\n3,Wizard\n2,diplomat\n2,freebooter\n2,merchant\n2,militarist\n2,pilgrim\n2,refugee\n1,alien god\n1,diabolist\n1,immortal\n1,outlaw\n1,philospher\n1,spirit",
+  "warnings": []
+}

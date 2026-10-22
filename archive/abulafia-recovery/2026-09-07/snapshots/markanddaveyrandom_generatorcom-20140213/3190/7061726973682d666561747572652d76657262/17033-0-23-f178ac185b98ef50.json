@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17033,
+    "timestamp": "2013-02-12T09:08:46Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "218d40d6b7d02b28fae637d822a9b8e57d725a091a9beb082fe591d769c0a9f8",
+      "rawSha256": "f178ac185b98ef50d9205425a8f0f6010dee9763ac2f4428ab3c58e67e33bd90",
+      "revisionId": "17033",
+      "line": 23,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "parish-feature-verb",
+    "qualified_name": "Planar Codex Parish.parish-feature-verb",
+    "table_block_index": 0,
+    "line_number": 23
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "best known for its",
+      "raw_text": "1,best known for its",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "dominated by a",
+      "raw_text": "1,dominated by a",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";parish-feature-verb\n1,best known for its\n1,dominated by a",
+  "warnings": []
+}

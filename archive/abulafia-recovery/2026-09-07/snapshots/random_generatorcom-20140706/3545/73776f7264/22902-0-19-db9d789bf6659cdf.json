@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22902,
+    "timestamp": "2014-06-10T21:51:58Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a1fcdbb7ff4fea2592c635eabbfe210069682cf9fb60ee0b1d098f0b3662528d",
+      "rawSha256": "db9d789bf6659cdf695d7f154aea1a2de0e885d700ae1c81f0bac858933c4dee",
+      "revisionId": "22902",
+      "line": 19,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "sword",
+    "qualified_name": "OSR weapon.sword",
+    "table_block_index": 0,
+    "line_number": 19
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "Short Sword [swordstuff]",
+      "raw_text": "3,Short Sword [swordstuff]",
+      "references": [
+        {
+          "raw": "[swordstuff]",
+          "token": "swordstuff",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "sword",
+          "target_page": "OSR weapon",
+          "target_subtable": "swordstuff",
+          "target_qualified_name": "OSR weapon.swordstuff"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 6,
+      "text": "Long Sword [swordstuff]",
+      "raw_text": "6,Long Sword [swordstuff]",
+      "references": [
+        {
+          "raw": "[swordstuff]",
+          "token": "swordstuff",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "sword",
+          "target_page": "OSR weapon",
+          "target_subtable": "swordstuff",
+          "target_qualified_name": "OSR weapon.swordstuff"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "Two-handed Sword [swordstuff]",
+      "raw_text": "2,Two-handed Sword [swordstuff]",
+      "references": [
+        {
+          "raw": "[swordstuff]",
+          "token": "swordstuff",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "sword",
+          "target_page": "OSR weapon",
+          "target_subtable": "swordstuff",
+          "target_qualified_name": "OSR weapon.swordstuff"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "swordstuff"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";sword\n3,Short Sword [swordstuff]\n6,Long Sword [swordstuff]\n2,Two-handed Sword [swordstuff]",
+  "warnings": []
+}

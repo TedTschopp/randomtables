@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "a4b550c192db1b1413a038d847ab1bf3ebd3321b0894363e28d1baf064f364a3",
+      "revisionId": "9681",
+      "line": 188,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "AssaultType",
+    "qualified_name": "Seige Force.AssaultType",
+    "table_block_index": 0,
+    "line_number": 188
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "heavy footmen",
+      "raw_text": "5,heavy footmen",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "armored footmen",
+      "raw_text": "5,armored footmen",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "armored infantry",
+      "raw_text": "5,armored infantry",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 5,
+      "text": "laddermen",
+      "raw_text": "5,laddermen",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 5,
+      "text": "seige assault troops",
+      "raw_text": "5,seige assault troops",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 4,
+      "text": "seige troops",
+      "raw_text": "4,seige troops",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 4,
+      "text": "shock troopers",
+      "raw_text": "4,shock troopers",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 4,
+      "text": "heavy infantry",
+      "raw_text": "4,heavy infantry",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "armored cavalry",
+      "raw_text": "3,armored cavalry",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "elite infantry",
+      "raw_text": "3,elite infantry",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 3,
+      "text": "ground assault troops",
+      "raw_text": "3,ground assault troops",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 3,
+      "text": "heavy cavalry",
+      "raw_text": "3,heavy cavalry",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 3,
+      "text": "infantry",
+      "raw_text": "3,infantry",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 3,
+      "text": "seige axemen",
+      "raw_text": "3,seige axemen",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 3,
+      "text": "seige pikemen",
+      "raw_text": "3,seige pikemen",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "armored berserkers",
+      "raw_text": "2,armored berserkers",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 2,
+      "text": "barbarians",
+      "raw_text": "2,barbarians",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "bombardiers",
+      "raw_text": "2,bombardiers",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 2,
+      "text": "elite troops",
+      "raw_text": "2,elite troops",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 2,
+      "text": "footmen",
+      "raw_text": "2,footmen",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 2,
+      "text": "grenadiers",
+      "raw_text": "2,grenadiers",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 2,
+      "text": "knights",
+      "raw_text": "2,knights",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 2,
+      "text": "light cavalry",
+      "raw_text": "2,light cavalry",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "alchemists",
+      "raw_text": "1,alchemists",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "battlemages",
+      "raw_text": "1,battlemages",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "battlepriests",
+      "raw_text": "1,battlepriests",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "berserkers",
+      "raw_text": "1,berserkers",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "footmages",
+      "raw_text": "1,footmages",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "spellswords",
+      "raw_text": "1,spellswords",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";AssaultType\n5,heavy footmen\n5,armored footmen\n5,armored infantry\n5,laddermen\n5,seige assault troops\n4,seige troops\n4,shock troopers\n4,heavy infantry\n3,armored cavalry\n3,elite infantry\n3,ground assault troops\n3,heavy cavalry\n3,infantry\n3,seige axemen\n3,seige pikemen\n2,armored berserkers\n2,barbarians\n2,bombardiers\n2,elite troops\n2,footmen\n2,grenadiers\n2,knights\n2,light cavalry\n1,alchemists\n1,battlemages\n1,battlepriests\n1,berserkers\n1,footmages\n1,spellswords",
+  "warnings": []
+}

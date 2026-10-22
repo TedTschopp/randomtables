@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14864,
+    "timestamp": "2012-06-27T13:02:30Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b2f7c639fe894b8a1c1866ad2c2ba0878b5eced444c101ce7453862976824465",
+      "rawSha256": "b244f38733df17aba6fd9749a88df502750a60d20a7b230fd89232846df8d268",
+      "revisionId": "14864",
+      "line": 100,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "raiders",
+    "qualified_name": "Village.raiders",
+    "table_block_index": 0,
+    "line_number": 100
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "the rulers",
+      "raw_text": "1,the rulers",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "elves",
+      "raw_text": "1,elves",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "bandits",
+      "raw_text": "1,bandits",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Quick Zone Populations.power-animal]men",
+      "raw_text": "1,[Quick Zone Populations.power-animal]men",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.power-animal]",
+          "token": "Quick Zone Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "raiders",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Zone Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";raiders\n1,the rulers\n1,elves\n1,bandits\n1,[Quick Zone Populations.power-animal]men",
+  "warnings": []
+}

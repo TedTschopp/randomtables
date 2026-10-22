@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "93ed688f07471464e02ebebce0c01709fa080089506cccc1bd6216de297870d4",
+      "revisionId": "21256",
+      "line": 71,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "guy",
+    "qualified_name": "Ostler.guy",
+    "table_block_index": 0,
+    "line_number": 71
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename]",
+      "raw_text": "1,[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.prequirk]",
+          "token": "Quick Zone Populations.prequirk",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "guy",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Zone Populations.prequirk"
+        },
+        {
+          "raw": "[Quick Zone Populations.race]",
+          "token": "Quick Zone Populations.race",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "guy",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Zone Populations.race"
+        },
+        {
+          "raw": "[Quick Zone Populations.class]",
+          "token": "Quick Zone Populations.class",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "guy",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Zone Populations.class"
+        },
+        {
+          "raw": "[Quick Zone Populations.maybename]",
+          "token": "Quick Zone Populations.maybename",
+          "kind": "cross_page",
+          "source_page": "Ostler",
+          "source_subtable": "guy",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "maybename",
+          "target_qualified_name": "Quick Zone Populations.maybename"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Zone Populations.class",
+      "Quick Zone Populations.maybename",
+      "Quick Zone Populations.prequirk",
+      "Quick Zone Populations.race"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";guy\n1,[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename]",
+  "warnings": []
+}

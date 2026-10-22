@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 19556,
+    "timestamp": "2014-02-20T03:22:54Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "46b0af09101e486161f8704102903b184aa0ab9eaab978fc22c8b7668eafd88c",
+      "rawSha256": "d02698f6a06ed8a778fe6f7af3d9f164fbb8d53b29afe7b4c0165fe26ee99676",
+      "revisionId": "19556",
+      "line": 541,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "19556",
+        "timestamp": "2014-02-20T03:22:54Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelEight",
+    "qualified_name": "LotFP Spell Lists.LevelEight",
+    "table_block_index": 0,
+    "line_number": 541
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Antipathy/Sympathy",
+      "raw_text": "1,Antipathy/Sympathy",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Charm Person, Mass",
+      "raw_text": "1,Charm Person, Mass",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Clone",
+      "raw_text": "1,Clone",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Demand",
+      "raw_text": "1,Demand",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Maze",
+      "raw_text": "1,Maze",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Mind Blank",
+      "raw_text": "1,Mind Blank",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Permanency",
+      "raw_text": "1,Permanency",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Polymorph Any Object",
+      "raw_text": "1,Polymorph Any Object",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Symbol",
+      "raw_text": "1,Symbol",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Trap the Soul",
+      "raw_text": "1,Trap the Soul",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelEight\n1,Antipathy/Sympathy\n1,Charm Person, Mass\n1,Clone\n1,Demand\n1,Maze\n1,Mind Blank\n1,Permanency\n1,Polymorph Any Object\n1,Symbol\n1,Trap the Soul",
+  "warnings": []
+}

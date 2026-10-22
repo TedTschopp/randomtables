@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "7016e6c8f6d962b3b72ac3b2cc2e752933b8e7f15ee938d92b480f78f665b7ca",
+      "revisionId": "23470",
+      "line": 34,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "hero",
+    "qualified_name": "Village.hero",
+    "table_block_index": 0,
+    "line_number": 34
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename] [lvl]",
+      "raw_text": "1,[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename] [lvl]",
+      "references": [
+        {
+          "raw": "[Quick Zone Populations.prequirk]",
+          "token": "Quick Zone Populations.prequirk",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "hero",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "prequirk",
+          "target_qualified_name": "Quick Zone Populations.prequirk"
+        },
+        {
+          "raw": "[Quick Zone Populations.race]",
+          "token": "Quick Zone Populations.race",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "hero",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "race",
+          "target_qualified_name": "Quick Zone Populations.race"
+        },
+        {
+          "raw": "[Quick Zone Populations.class]",
+          "token": "Quick Zone Populations.class",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "hero",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Zone Populations.class"
+        },
+        {
+          "raw": "[Quick Zone Populations.maybename]",
+          "token": "Quick Zone Populations.maybename",
+          "kind": "cross_page",
+          "source_page": "Village",
+          "source_subtable": "hero",
+          "target_page": "Quick Zone Populations",
+          "target_subtable": "maybename",
+          "target_qualified_name": "Quick Zone Populations.maybename"
+        },
+        {
+          "raw": "[lvl]",
+          "token": "lvl",
+          "kind": "local",
+          "source_page": "Village",
+          "source_subtable": "hero",
+          "target_page": "Village",
+          "target_subtable": "lvl",
+          "target_qualified_name": "Village.lvl"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "lvl"
+    ],
+    "external_subtables": [
+      "Quick Zone Populations.class",
+      "Quick Zone Populations.maybename",
+      "Quick Zone Populations.prequirk",
+      "Quick Zone Populations.race"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";hero\n1,[Quick Zone Populations.prequirk][Quick Zone Populations.race] [Quick Zone Populations.class][Quick Zone Populations.maybename] [lvl]",
+  "warnings": []
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 22720,
+    "timestamp": "2014-06-10T07:29:00Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "174a5b8e7cb58122fa89a9fb11a93f3be4b7b753ef6ad18e2ab2b6e4bbe22003",
+      "rawSha256": "0cc3cc674effd6dcaebd2143d128e73a8bd1b84c580ffae0853a3148fde2ed17",
+      "revisionId": "22720",
+      "line": 23,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "subject",
+    "qualified_name": "Blazon.subject",
+    "table_block_index": 0,
+    "line_number": 23
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[blazon]",
+      "raw_text": "1,[blazon]",
+      "references": [
+        {
+          "raw": "[blazon]",
+          "token": "blazon",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "blazon",
+          "target_qualified_name": "Blazon.blazon"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[item]",
+      "raw_text": "1,[item]",
+      "references": [
+        {
+          "raw": "[item]",
+          "token": "item",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "item",
+          "target_qualified_name": "Blazon.item"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[device] [blazon]",
+      "raw_text": "1,[device] [blazon]",
+      "references": [
+        {
+          "raw": "[device]",
+          "token": "device",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "device",
+          "target_qualified_name": "Blazon.device"
+        },
+        {
+          "raw": "[blazon]",
+          "token": "blazon",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "blazon",
+          "target_qualified_name": "Blazon.blazon"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[device] [item]",
+      "raw_text": "1,[device] [item]",
+      "references": [
+        {
+          "raw": "[device]",
+          "token": "device",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "device",
+          "target_qualified_name": "Blazon.device"
+        },
+        {
+          "raw": "[item]",
+          "token": "item",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "item",
+          "target_qualified_name": "Blazon.item"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[subject] [subject]",
+      "raw_text": "1,[subject] [subject]",
+      "references": [
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        },
+        {
+          "raw": "[subject]",
+          "token": "subject",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "subject",
+          "target_page": "Blazon",
+          "target_subtable": "subject",
+          "target_qualified_name": "Blazon.subject"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "blazon",
+      "device",
+      "item",
+      "subject"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";subject\n1,[blazon]\n1,[item]\n1,[device] [blazon]\n1,[device] [item]\n1,[subject] [subject]",
+  "warnings": []
+}

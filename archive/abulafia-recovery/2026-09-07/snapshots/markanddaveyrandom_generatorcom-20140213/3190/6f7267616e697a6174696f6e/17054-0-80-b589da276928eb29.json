@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 17054,
+    "timestamp": "2013-02-12T09:33:13Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "dc852ac141933a5eaa6bf853d150c7b6f2a8eed720d461936a36581674bbdcaf",
+      "rawSha256": "b589da276928eb29027fc50bbce2de66c5c50e9b343d05e7a64844f10f444212",
+      "revisionId": "17054",
+      "line": 80,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "organization",
+    "qualified_name": "Planar Codex Parish.organization",
+    "table_block_index": 0,
+    "line_number": 80
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bureaucracy",
+      "raw_text": "1, bureaucracy",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "syndicate",
+      "raw_text": "1, syndicate",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "n uneasy alliance",
+      "raw_text": "1,n uneasy alliance",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "consortium",
+      "raw_text": "1, consortium",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "fellowship",
+      "raw_text": "1, fellowship",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "council",
+      "raw_text": "1, council",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "pact",
+      "raw_text": "1, pact",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";organization\n1, bureaucracy\n1, syndicate\n1,n uneasy alliance\n1, consortium\n1, fellowship\n1, council\n1, pact",
+  "warnings": []
+}

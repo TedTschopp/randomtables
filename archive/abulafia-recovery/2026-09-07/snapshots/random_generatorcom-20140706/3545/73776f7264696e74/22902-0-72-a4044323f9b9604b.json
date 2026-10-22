@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 22902,
+    "timestamp": "2014-06-10T21:51:58Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a1fcdbb7ff4fea2592c635eabbfe210069682cf9fb60ee0b1d098f0b3662528d",
+      "rawSha256": "a4044323f9b9604b5d38f53091cfaa0f3f6eb360faa424cbf1923de0089502a2",
+      "revisionId": "22902",
+      "line": 72,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "swordint",
+    "qualified_name": "OSR weapon.swordint",
+    "table_block_index": 0,
+    "line_number": 72
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 6,
+      "text": "int 7, empathic, ego [Dice.2d6], [power]",
+      "raw_text": "6,int 7, empathic, ego [Dice.2d6], [power]",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "int 8, empathic, ego [Dice.2d6], [power], and [power]",
+      "raw_text": "5,int 8, empathic, ego [Dice.2d6], [power], and [power]",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "int 9, speaks one language, ego [Dice.2d6], [power], [power], and [power]",
+      "raw_text": "4,int 9, speaks one language, ego [Dice.2d6], [power], [power], and [power]",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "int 10, speaks [multilingual], ego [Dice.2d6], [power], [power], and [power]",
+      "raw_text": "3,int 10, speaks [multilingual], ego [Dice.2d6], [power], [power], and [power]",
+      "references": [
+        {
+          "raw": "[multilingual]",
+          "token": "multilingual",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "multilingual",
+          "target_qualified_name": "OSR weapon.multilingual"
+        },
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "int 11, speaks [multilingual], reads magic, [ego [Dice.2d6], [power], [power], and [power]",
+      "raw_text": "2,int 11, speaks [multilingual], reads magic, [ego [Dice.2d6], [power], [power], and [power]",
+      "references": [
+        {
+          "raw": "[multilingual]",
+          "token": "multilingual",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "multilingual",
+          "target_qualified_name": "OSR weapon.multilingual"
+        },
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "int 12, telepathic, speaks [multilingual], reads magic, ego [Dice.2d6+1], [power], [power], [power], and [exceptional]",
+      "raw_text": "1,int 12, telepathic, speaks [multilingual], reads magic, ego [Dice.2d6+1], [power], [power], [power], and [exceptional]",
+      "references": [
+        {
+          "raw": "[multilingual]",
+          "token": "multilingual",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "multilingual",
+          "target_qualified_name": "OSR weapon.multilingual"
+        },
+        {
+          "raw": "[Dice.2d6+1]",
+          "token": "Dice.2d6+1",
+          "kind": "cross_page",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "Dice",
+          "target_subtable": "2d6+1",
+          "target_qualified_name": "Dice.2d6+1"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[power]",
+          "token": "power",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "power",
+          "target_qualified_name": "OSR weapon.power"
+        },
+        {
+          "raw": "[exceptional]",
+          "token": "exceptional",
+          "kind": "local",
+          "source_page": "OSR weapon",
+          "source_subtable": "swordint",
+          "target_page": "OSR weapon",
+          "target_subtable": "exceptional",
+          "target_qualified_name": "OSR weapon.exceptional"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "exceptional",
+      "multilingual",
+      "power"
+    ],
+    "external_subtables": [
+      "Dice.2d6",
+      "Dice.2d6+1"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";swordint\n6,int 7, empathic, ego [Dice.2d6], [power]\n5,int 8, empathic, ego [Dice.2d6], [power], and [power]\n4,int 9, speaks one language, ego [Dice.2d6], [power], [power], and [power]\n3,int 10, speaks [multilingual], ego [Dice.2d6], [power], [power], and [power]\n2,int 11, speaks [multilingual], reads magic, [ego [Dice.2d6], [power], [power], and [power]\n1,int 12, telepathic, speaks [multilingual], reads magic, ego [Dice.2d6+1], [power], [power], [power], and [exceptional]",
+  "warnings": []
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modifier",
+    "page_id": 3209
+  },
+  "source": {
+    "revision_id": 17362,
+    "timestamp": "2013-03-16T01:08:37Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "70542de1cee34cce6f3d45ce7d790631e04b716fa3941bd69c4e4651c78d75ee",
+      "rawSha256": "64abba98a478650492d27968504a2489a2a115aba93b61c96edb2bb854a73cf4",
+      "revisionId": "17362",
+      "line": 76,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17362",
+        "timestamp": "2013-03-16T01:08:37Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "d20-modifier-inverted",
+    "qualified_name": "Modifier.d20-modifier-inverted",
+    "table_block_index": 0,
+    "line_number": 76
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "+4",
+      "raw_text": "1,+4",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 11,
+      "text": "+3",
+      "raw_text": "11,+3",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 45,
+      "text": "+2",
+      "raw_text": "45,+2",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 118,
+      "text": "+1",
+      "raw_text": "118,+1",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 198,
+      "text": "+0",
+      "raw_text": "198,+0",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 262,
+      "text": "-1",
+      "raw_text": "262,-1",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 225,
+      "text": "-2",
+      "raw_text": "225,-2",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 125,
+      "text": "-3",
+      "raw_text": "125,-3",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 16,
+      "text": "-4",
+      "raw_text": "16,-4",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";d20-modifier-inverted\n1,+4\n11,+3\n45,+2\n118,+1\n198,+0\n262,-1\n225,-2\n125,-3\n16,-4",
+  "warnings": []
+}

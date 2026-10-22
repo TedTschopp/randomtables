@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15359,
+    "timestamp": "2012-10-08T09:13:32Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9526a04d4ae507efcfd39f1e5e5b8eba2f617c32bab6d09e0c3c877be7bf9c81",
+      "rawSha256": "bfe3f85670618d84f6f7cc27c99fa149b8fef2a910be7acaa510c6569a2536ba",
+      "revisionId": "15359",
+      "line": 161,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "wealth",
+    "qualified_name": "Starting Equipment.wealth",
+    "table_block_index": 0,
+    "line_number": 161
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[coins][maybeheirloom]",
+      "raw_text": "1, [coins][maybeheirloom]",
+      "references": [
+        {
+          "raw": "[coins]",
+          "token": "coins",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "wealth",
+          "target_page": "Starting Equipment",
+          "target_subtable": "coins",
+          "target_qualified_name": "Starting Equipment.coins"
+        },
+        {
+          "raw": "[maybeheirloom]",
+          "token": "maybeheirloom",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "wealth",
+          "target_page": "Starting Equipment",
+          "target_subtable": "maybeheirloom",
+          "target_qualified_name": "Starting Equipment.maybeheirloom"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "coins",
+      "maybeheirloom"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";wealth\n1, [coins][maybeheirloom]",
+  "warnings": []
+}

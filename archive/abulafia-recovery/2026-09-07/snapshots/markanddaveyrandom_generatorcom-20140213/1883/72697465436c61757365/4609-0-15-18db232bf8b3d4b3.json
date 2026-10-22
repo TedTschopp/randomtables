@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4609,
+    "timestamp": "2007-11-27T02:12:27Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "975b38230724f4efe5afcdad698bce49eb1d6e818d322f1c76d2eacbac7065d1",
+      "rawSha256": "18db232bf8b3d4b35710c0a39f5a8e59b9a3fc3cdc1032830cb74ce84ff7cbef",
+      "revisionId": "4609",
+      "line": 15,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteClause",
+    "qualified_name": "Rituals.riteClause",
+    "table_block_index": 0,
+    "line_number": 15
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "to [riteAny]",
+      "raw_text": "1,to [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "to [riteAny] and [riteAny]",
+      "raw_text": "1,to [riteAny] and [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "to [riteAny], [riteAny], and [riteAny]",
+      "raw_text": "1,to [riteAny], [riteAny], and [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "for a priest to [riteAny]",
+      "raw_text": "1,for a priest to [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "to [riteAny] and for a priest to [riteAny]",
+      "raw_text": "1,to [riteAny] and for a priest to [riteAny]",
+      "references": [
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        },
+        {
+          "raw": "[riteAny]",
+          "token": "riteAny",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteClause",
+          "target_page": "Rituals",
+          "target_subtable": "riteAny",
+          "target_qualified_name": "Rituals.riteAny"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "riteAny"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteClause\n1,to [riteAny]\n1,to [riteAny] and [riteAny]\n1,to [riteAny], [riteAny], and [riteAny]\n1,for a priest to [riteAny]\n1,to [riteAny] and for a priest to [riteAny]",
+  "warnings": []
+}

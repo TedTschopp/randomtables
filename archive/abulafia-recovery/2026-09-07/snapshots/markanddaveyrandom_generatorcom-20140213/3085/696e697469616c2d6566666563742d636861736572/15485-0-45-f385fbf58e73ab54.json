@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15485,
+    "timestamp": "2012-11-02T08:10:38Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d3af95e18287f6629cf4d9b72ee670cf13ccc1a85ae92bc7f26e38a033506596",
+      "rawSha256": "f385fbf58e73ab541387d086f6aef4ca02f4877f42f9649c3a714b424f363588",
+      "revisionId": "15485",
+      "line": 45,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "initial-effect-chaser",
+    "qualified_name": "Curse.initial-effect-chaser",
+    "table_block_index": 0,
+    "line_number": 45
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[stat] reduced to [about-five]",
+      "raw_text": "1,[stat] reduced to [about-five]",
+      "references": [
+        {
+          "raw": "[stat]",
+          "token": "stat",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "stat",
+          "target_qualified_name": "Curse.stat"
+        },
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "penalty to all rolls (-[about-five])",
+      "raw_text": "1,penalty to all rolls (-[about-five])",
+      "references": [
+        {
+          "raw": "[about-five]",
+          "token": "about-five",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-five",
+          "target_qualified_name": "Curse.about-five"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "possessed by a malevolent spirit",
+      "raw_text": "1,possessed by a malevolent spirit",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "can't cast any spells over [about-third] level",
+      "raw_text": "1,can't cast any spells over [about-third] level",
+      "references": [
+        {
+          "raw": "[about-third]",
+          "token": "about-third",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "about-third",
+          "target_qualified_name": "Curse.about-third"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "lose [a-level]",
+      "raw_text": "1,lose [a-level]",
+      "references": [
+        {
+          "raw": "[a-level]",
+          "token": "a-level",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "a-level",
+          "target_qualified_name": "Curse.a-level"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "alignment changes to [alignment]",
+      "raw_text": "1,alignment changes to [alignment]",
+      "references": [
+        {
+          "raw": "[alignment]",
+          "token": "alignment",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "alignment",
+          "target_qualified_name": "Curse.alignment"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[insanity]",
+      "raw_text": "1,[insanity]",
+      "references": [
+        {
+          "raw": "[insanity]",
+          "token": "insanity",
+          "kind": "local",
+          "source_page": "Curse",
+          "source_subtable": "initial-effect-chaser",
+          "target_page": "Curse",
+          "target_subtable": "insanity",
+          "target_qualified_name": "Curse.insanity"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "a-level",
+      "about-five",
+      "about-third",
+      "alignment",
+      "insanity",
+      "stat"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";initial-effect-chaser\n1,[stat] reduced to [about-five]\n1,penalty to all rolls (-[about-five])\n1,possessed by a malevolent spirit\n1,can't cast any spells over [about-third] level\n1,lose [a-level]\n1,alignment changes to [alignment]\n1,[insanity]",
+  "warnings": []
+}

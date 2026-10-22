@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "b761f2d0a930888db490d07381eae2c9a949214f81c8a5fa2d03a62712536ed4",
+      "revisionId": "10367",
+      "line": 696,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "RichWealth",
+    "qualified_name": "Pickpocket.RichWealth",
+    "table_block_index": 0,
+    "line_number": 696
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "[RichCoins]",
+      "raw_text": "10,[RichCoins]",
+      "references": [
+        {
+          "raw": "[RichCoins]",
+          "token": "RichCoins",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichCoins",
+          "target_qualified_name": "Pickpocket.RichCoins"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[RichGems]",
+      "raw_text": "5,[RichGems]",
+      "references": [
+        {
+          "raw": "[RichGems]",
+          "token": "RichGems",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichGems",
+          "target_qualified_name": "Pickpocket.RichGems"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "[RichCoins], [RichGems]",
+      "raw_text": "5,[RichCoins], [RichGems]",
+      "references": [
+        {
+          "raw": "[RichCoins]",
+          "token": "RichCoins",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichCoins",
+          "target_qualified_name": "Pickpocket.RichCoins"
+        },
+        {
+          "raw": "[RichGems]",
+          "token": "RichGems",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichGems",
+          "target_qualified_name": "Pickpocket.RichGems"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[RichOtherWealth]",
+      "raw_text": "2,[RichOtherWealth]",
+      "references": [
+        {
+          "raw": "[RichOtherWealth]",
+          "token": "RichOtherWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichOtherWealth",
+          "target_qualified_name": "Pickpocket.RichOtherWealth"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[RichCoins], [RichOtherWealth]",
+      "raw_text": "1,[RichCoins], [RichOtherWealth]",
+      "references": [
+        {
+          "raw": "[RichCoins]",
+          "token": "RichCoins",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichCoins",
+          "target_qualified_name": "Pickpocket.RichCoins"
+        },
+        {
+          "raw": "[RichOtherWealth]",
+          "token": "RichOtherWealth",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "RichWealth",
+          "target_page": "Pickpocket",
+          "target_subtable": "RichOtherWealth",
+          "target_qualified_name": "Pickpocket.RichOtherWealth"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "RichCoins",
+      "RichGems",
+      "RichOtherWealth"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";RichWealth\n10,[RichCoins]\n5,[RichGems]\n5,[RichCoins], [RichGems]\n2,[RichOtherWealth]\n1,[RichCoins], [RichOtherWealth]",
+  "warnings": []
+}

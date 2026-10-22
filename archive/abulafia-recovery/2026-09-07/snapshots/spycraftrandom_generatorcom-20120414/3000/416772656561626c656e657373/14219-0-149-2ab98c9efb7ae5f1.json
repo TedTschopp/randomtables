@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "2ab98c9efb7ae5f170fec0286302ec7f0a03be5d1ecacf9ef99e7b32959226e8",
+      "revisionId": "14219",
+      "line": 149,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Agreeableness",
+    "qualified_name": "User:Snake Eyes.Agreeableness",
+    "table_block_index": 0,
+    "line_number": 149
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 101,
+      "text": "Trust",
+      "raw_text": "101, Trust",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 102,
+      "text": "Straightforwardness",
+      "raw_text": "102, Straightforwardness",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 103,
+      "text": "Altruism",
+      "raw_text": "103, Altruism",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 104,
+      "text": "Compliance",
+      "raw_text": "104, Compliance",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 105,
+      "text": "Modesty",
+      "raw_text": "105, Modesty",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 106,
+      "text": "Tender-mindedness",
+      "raw_text": "106, Tender-mindedness",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Agreeableness\n101, Trust\n102, Straightforwardness\n103, Altruism\n104, Compliance\n105, Modesty\n106, Tender-mindedness",
+  "warnings": []
+}

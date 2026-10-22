@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 16724,
+    "timestamp": "2013-02-01T09:19:23Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "01a07d2f1edc2917c8b60137faaf947a0d8bff6e61012622eb427746e028213f",
+      "rawSha256": "f25247a3a531c5da124a832918ad88313a8181db8b47072564cd06051f5be15f",
+      "revisionId": "16724",
+      "line": 274,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "can",
+    "qualified_name": "Curse.can",
+    "table_block_index": 0,
+    "line_number": 274
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "can",
+      "raw_text": "1,can",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "can not",
+      "raw_text": "1,can not",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "must",
+      "raw_text": "1,must",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "can only",
+      "raw_text": "1,can only",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";can\n1,can\n1,can not\n1,must\n1,can only",
+  "warnings": []
+}

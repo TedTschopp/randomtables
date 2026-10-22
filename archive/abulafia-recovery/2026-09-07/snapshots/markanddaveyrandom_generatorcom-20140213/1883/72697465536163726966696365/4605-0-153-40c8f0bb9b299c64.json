@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "40c8f0bb9b299c64dba4bb0f4e840ac2b2977f103e80dd5dc2744a38cec174a6",
+      "revisionId": "4605",
+      "line": 153,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "riteSacrifice",
+    "qualified_name": "Rituals.riteSacrifice",
+    "table_block_index": 0,
+    "line_number": 153
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sacrificing [sacrificialLivestock]",
+      "raw_text": "1,sacrificing [sacrificialLivestock]",
+      "references": [
+        {
+          "raw": "[sacrificialLivestock]",
+          "token": "sacrificialLivestock",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "riteSacrifice",
+          "target_page": "Rituals",
+          "target_subtable": "sacrificialLivestock",
+          "target_qualified_name": "Rituals.sacrificialLivestock"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "give a monetary offering to a particular deity",
+      "raw_text": "1,give a monetary offering to a particular deity",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "give a food offering to a particular deity",
+      "raw_text": "1,give a food offering to a particular deity",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "give food to the poor",
+      "raw_text": "1,give food to the poor",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "mingle one's blood with that of an enemy in reconciliation",
+      "raw_text": "1,mingle one's blood with that of an enemy in reconciliation",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "sacrificialLivestock"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";riteSacrifice\n1,sacrificing [sacrificialLivestock]\n1,give a monetary offering to a particular deity\n1,give a food offering to a particular deity\n1,give food to the poor\n1,mingle one's blood with that of an enemy in reconciliation",
+  "warnings": []
+}

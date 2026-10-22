@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "1f8f3bac52e1141a0570af08f2457e8de3b79ff6aa606bf036f5c06aa5d1eed2",
+      "revisionId": "22354",
+      "line": 257,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "disarming attack",
+    "qualified_name": "Guards.disarming attack",
+    "table_block_index": 0,
+    "line_number": 257
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "decapitating attack",
+      "raw_text": "1,decapitating attack",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "disarming attack",
+      "raw_text": "1,disarming attack",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "grabbing attack",
+      "raw_text": "1,grabbing attack",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "knockdown attack",
+      "raw_text": "1,knockdown attack",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "knockback attack",
+      "raw_text": "1,knockback attack",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "blinding attack",
+      "raw_text": "1,blinding attack",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "attack that curses you, ([Curse.main])",
+      "raw_text": "1,attack that curses you, ([Curse.main])",
+      "references": [
+        {
+          "raw": "[Curse.main]",
+          "token": "Curse.main",
+          "kind": "cross_page",
+          "source_page": "Guards",
+          "source_subtable": "disarming attack",
+          "target_page": "Curse",
+          "target_subtable": "main",
+          "target_qualified_name": "Curse.main"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Curse.main"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";disarming attack\n1,decapitating attack\n1,disarming attack\n1,grabbing attack\n1,knockdown attack\n1,knockback attack\n1,blinding attack\n1,attack that curses you, ([Curse.main])",
+  "warnings": []
+}

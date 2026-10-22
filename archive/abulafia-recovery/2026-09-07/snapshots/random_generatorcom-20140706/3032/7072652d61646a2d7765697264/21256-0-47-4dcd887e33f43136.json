@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ostler",
+    "page_id": 3032
+  },
+  "source": {
+    "revision_id": 21256,
+    "timestamp": "2014-05-11T10:51:19Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "53d0afd9e92521cec9f966da010c3ea6db5008fc69c9fc910b243ebad4f18048",
+      "rawSha256": "4dcd887e33f43136238f1c1502eed9e425c3d788ab0337e4e09642155a27e83f",
+      "revisionId": "21256",
+      "line": 47,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21256",
+        "timestamp": "2014-05-11T10:51:19Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "pre-adj-weird",
+    "qualified_name": "Ostler.pre-adj-weird",
+    "table_block_index": 0,
+    "line_number": 47
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "shadow",
+      "raw_text": "1,shadow",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "fey",
+      "raw_text": "1,fey",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "amphibious",
+      "raw_text": "1,amphibious",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "exploding",
+      "raw_text": "1,exploding",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "devil",
+      "raw_text": "1,devil",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "skeletal",
+      "raw_text": "1,skeletal",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "many-legged",
+      "raw_text": "1,many-legged",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "insectoid",
+      "raw_text": "1,insectoid",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "dire",
+      "raw_text": "1,dire",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "flying",
+      "raw_text": "1,flying",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "demon",
+      "raw_text": "1,demon",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "goblin",
+      "raw_text": "1,goblin",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "armoured",
+      "raw_text": "1,armoured",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "[pre-adj]",
+      "raw_text": "1,[pre-adj]",
+      "references": [
+        {
+          "raw": "[pre-adj]",
+          "token": "pre-adj",
+          "kind": "local",
+          "source_page": "Ostler",
+          "source_subtable": "pre-adj-weird",
+          "target_page": "Ostler",
+          "target_subtable": "pre-adj",
+          "target_qualified_name": "Ostler.pre-adj"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "pre-adj"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";pre-adj-weird\n1,shadow\n1,fey\n1,amphibious\n1,exploding\n1,devil\n1,skeletal\n1,many-legged\n1,insectoid\n1,dire\n1,flying\n1,demon\n1,goblin\n1,armoured\n1,[pre-adj]",
+  "warnings": []
+}

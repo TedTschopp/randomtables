@@ -4,28 +4,83 @@ const fs = require('node:fs');
 const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
-const { reviewedCorrections, reviewedSourceCorrections } = require('../tools/import-abulafia.cjs');
+const { reviewedCorrections, reviewedSourceCorrections, reviewedRecursionPolicies } = require('../tools/import-abulafia.cjs');
 
 const repo = path.join(__dirname, '..', '..');
 const read = relative => fs.readFileSync(path.join(repo, relative), 'utf8');
 
 test('the catalog includes the complete pinned current corpus with quarantine preserved', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
-  assert.equal(manifest.selection, 'all-current');
-  assert.equal(manifest.summary.tables, 26156);
-  assert.equal(manifest.summary.pages, 1592);
-  assert.equal(manifest.summary.contributors, 266);
-  assert.equal(manifest.summary.ready, 20685);
-  assert.equal(manifest.summary.blocked, 5471);
-  assert.equal(manifest.summary.entries, 488130);
-  assert.equal(manifest.tables.filter(table => table.status === 'ready' && table.execution === 'wiki').length, 670);
+  assert.equal(manifest.selection, 'all-current-with-history');
+  assert.equal(manifest.summary.tables, 32255);
+  assert.equal(manifest.summary.currentTables, 26156);
+  assert.equal(manifest.summary.historicalTables, 6099);
+  assert.equal(manifest.summary.pages, 1638);
+  assert.equal(manifest.summary.sourceArchives, 2170);
+  assert.equal(manifest.summary.contributors, 275);
+  assert.equal(manifest.summary.ready, 25716);
+  assert.equal(manifest.summary.blocked, 6539);
+  assert.equal(manifest.summary.entries, 590941);
+  const current = manifest.tables.filter(table => !table.historical);
+  const historical = manifest.tables.filter(table => table.historical);
+  assert.equal(current.length, 26156);
+  assert.equal(current.filter(table => table.status === 'ready').length, 21223);
+  assert.equal(current.filter(table => table.status === 'blocked').length, 4933);
+  assert.equal(historical.filter(table => table.status === 'ready').length, 4493);
+  assert.equal(historical.filter(table => table.status === 'blocked').length, 1606);
+});
+
+test('historical recovery retains exact source bindings and independently reviewed renamed-leaf evidence', () => {
+  const digest = content => crypto.createHash('sha256').update(content).digest('hex');
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const configuration = JSON.parse(read('explorer/tools/historical-recovery.json'));
+  assert.equal(manifest.recovery.configurationSha256, digest(JSON.stringify(configuration)));
+  assert.equal(configuration.targets.length, 129);
+  assert.equal(configuration.referenceRenames.length, 12);
+  const tables = new Map(manifest.tables.map(table => [table.id, table]));
+  const names = new Map(manifest.tables.map(table => [table.name, table]));
+  const archives = new Map();
+  function original(table) {
+    if (!archives.has(table.archiveFile)) archives.set(table.archiveFile, JSON.parse(read(table.archiveFile)));
+    return archives.get(table.archiveFile).tables.find(snapshot => snapshot.current.sourceFile === table.sourceFile).current.table;
+  }
+  for (const target of configuration.targets) {
+    const table = names.get(target.name);
+    assert.equal(table.sourceFile, target.sourceFile);
+    assert.equal(table.sourceHash, target.sourceHash);
+    assert.equal(table.historical.absentSourceHash, target.absentSourceHash);
+    assert.equal(table.historical.basis, 'latest-retained-definition');
+    assert.match(table.archiveFile, /^tables\/abulafia\/source\/historical\//);
+  }
+  assert.equal(manifest.tables.filter(table => table.historical?.basis === 'verified-xml-definition').length, 43);
+  assert.equal(digest(read(configuration.xml.file)), configuration.xml.sha256);
+  for (const correction of configuration.referenceRenames) {
+    const source = tables.get(correction.tableId);
+    const target = tables.get(correction.targetId);
+    const definitionBytes = read(correction.definition.sourceFile);
+    const definition = JSON.parse(definitionBytes);
+    assert.equal(digest(definitionBytes), correction.definition.sourceHash);
+    assert.equal(source.sourceHash, correction.sourceHash);
+    assert.equal(target.sourceHash, correction.targetSourceHash);
+    assert.equal(definition.subtable.qualified_name, correction.from);
+    assert.equal(definition.page.page_id, original(target).page.page_id);
+    assert.equal(definition.raw_source, original(target).raw_source);
+    assert.equal(target.status, 'ready');
+    assert.ok(source.referenceRenames.some(rule => rule.raw === correction.raw && rule.row === correction.row && rule.to === correction.to));
+    const entry = original(source).entries[correction.row - 1];
+    assert.equal(digest(entry.text), correction.entryHash);
+    assert.equal(entry.weight, correction.weight);
+  }
 });
 
 test('source extraction repairs retain approved raw rows, warnings, and correction evidence', () => {
   const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
   const tables = new Map(manifest.tables.map(table => [table.name, table]));
-  const corrections = reviewedSourceCorrections(JSON.parse(read('explorer/tools/source-extraction-corrections.json')), manifest);
-  assert.equal(corrections.length, 2);
+  const configuration = JSON.parse(read('explorer/tools/source-extraction-corrections.json'));
+  const corrections = reviewedSourceCorrections(configuration, manifest);
+  assert.equal(configuration.corrections.length, 2);
+  assert.equal(configuration.followUpBatches.length, 1);
+  assert.equal(corrections.length, 3);
   const names = ['ODnD Wilderness Encounter Cruncher.lair35', 'The Blues Engine.interjection'];
   for (const name of names) {
     const table = tables.get(name);
@@ -55,7 +110,23 @@ test('source extraction repairs retain approved raw rows, warnings, and correcti
       assert.ok(original.warnings.includes(correction.warning));
     }
   }
-  assert.equal(manifest.tables.filter(table => table.sourceCorrections).length, 2);
+  const descriptor = tables.get('Secret Society Title.TitleDescriptor');
+  const correction = corrections.find(record => record.tableId === descriptor.id);
+  assert.equal(correction.kind, 'repair-extra-self-reference-bracket');
+  assert.deepEqual(descriptor.sourceCorrections, [correction]);
+  assert.equal(descriptor.status, 'ready');
+  assert.ok(descriptor.dependencies.includes(descriptor.id));
+  assert.deepEqual(descriptor.recursion, { kind: 'bounded-wrapper', row: 1, maxDepth: 1 });
+  assert.deepEqual(descriptor.issues, []);
+  assert.ok(!descriptor.issues.some(issue => issue.code === 'unsupported_syntax'));
+  const original = JSON.parse(read(descriptor.archiveFile)).tables.find(record => record.current.sourceFile === descriptor.sourceFile).current.table;
+  assert.equal(original.raw_source.split('\n')[correction.line - 1], '10,Most [TitleDescriptor]]');
+  assert.equal(original.entries[correction.row - 1].text, 'Most [TitleDescriptor]]');
+  assert.equal(original.entries[correction.row - 1].weight, 10);
+  assert.deepEqual(original.entries[correction.row - 1].references, []);
+  assert.equal(crypto.createHash('sha256').update(original.raw_source).digest('hex'), correction.rawSourceHash);
+  assert.equal(crypto.createHash('sha256').update(original.entries[correction.row - 1].text).digest('hex'), correction.entryHash);
+  assert.equal(manifest.tables.filter(table => table.sourceCorrections).length, 3);
 });
 
 test('eligible follow-up case references use their reviewed ready targets', () => {
@@ -90,8 +161,23 @@ test('reviewed case corrections retain exact source bindings and ready target id
   assert.equal(batch.followUpBatches.length, 1);
   assert.equal(corrections.length, 366);
   assert.equal(new Set(corrections.map(correction => correction.tableId)).size, 199);
-  assert.equal(manifest.tables.filter(table => table.referenceCorrections).length, 199);
-  for (const correction of corrections) {
+  const recoveryBatch = JSON.parse(read('explorer/tools/recovery-case-corrections.json'));
+  const recoveryCorrections = reviewedCorrections(recoveryBatch, manifest, { selection: manifest.selection });
+  assert.equal(recoveryBatch.basis.candidateComponents, 39);
+  assert.equal(recoveryBatch.basis.missingTargetNames, 34);
+  assert.equal(recoveryBatch.corrections.length, 71);
+  assert.equal(recoveryBatch.followUpBatches.length, 1);
+  assert.equal(recoveryBatch.followUpBatches[0].basis.candidateComponents, 2);
+  assert.equal(recoveryBatch.followUpBatches[0].basis.missingTargetNames, 4);
+  assert.equal(recoveryBatch.followUpBatches[0].corrections.length, 19);
+  assert.equal(recoveryCorrections.length, 90);
+  const recoveredSources = [...new Set(recoveryCorrections.map(correction => correction.tableId))].map(id => tables.get(id));
+  assert.equal(recoveredSources.filter(table => table.historical).length, 39);
+  assert.equal(recoveredSources.filter(table => !table.historical).length, 2);
+  assert.equal(recoveredSources.filter(table => table.status === 'ready').length, 30);
+  assert.equal(recoveredSources.filter(table => table.status === 'blocked').length, 11);
+  assert.equal(manifest.tables.filter(table => table.referenceCorrections).length, 648);
+  for (const correction of [...corrections, ...recoveryCorrections]) {
     const source = tables.get(correction.tableId);
     const target = tables.get(correction.targetId);
     assert.equal(source.sourceFile, correction.sourceFile);
@@ -111,6 +197,149 @@ test('reviewed case corrections retain exact source bindings and ready target id
     assert.equal(references.length, correction.referenceCount);
     assert.ok(references.every(reference => reference.target_qualified_name === correction.from));
   }
+});
+
+test('complete case approvals bind every corrected row without changing source weights or target identities', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const configuration = JSON.parse(read('explorer/tools/all-case-reference-corrections.json'));
+  const corrections = reviewedCorrections(configuration, manifest, { selection: manifest.selection });
+  const tables = new Map(manifest.tables.map(table => [table.id, table]));
+  const folded = new Map();
+  for (const table of manifest.tables) {
+    const key = table.name.toLowerCase();
+    if (!folded.has(key)) folded.set(key, []);
+    folded.get(key).push(table);
+  }
+  const archives = new Map();
+  assert.equal(corrections.length, 1438);
+  assert.equal(new Set(corrections.map(rule => rule.tableId)).size, 408);
+  assert.equal(corrections.filter(rule => rule.from === rule.to).length, 823);
+  assert.equal(corrections.filter(rule => rule.weight === 0).length, 2);
+  assert.equal(corrections.filter(rule => rule.pageAlias).length, 3);
+  assert.equal(manifest.summary.ready, 25716);
+  assert.equal(manifest.summary.blocked, 6539);
+  let exactSubtablePageCases = 0;
+  let stillBlockedTargets = 0;
+  for (const correction of corrections) {
+    const source = tables.get(correction.tableId);
+    const target = tables.get(correction.targetId);
+    assert.equal(source.sourceFile, correction.sourceFile);
+    assert.equal(source.sourceHash, correction.sourceHash);
+    assert.equal(target.name, correction.to);
+    assert.equal(target.sourceHash, correction.targetSourceHash);
+    assert.equal(correction.from.toLowerCase(), correction.to.toLowerCase());
+    assert.ok(source.referenceCorrections.some(rule => JSON.stringify(rule) === JSON.stringify(correction)));
+    if (!archives.has(source.archiveFile)) archives.set(source.archiveFile, JSON.parse(read(source.archiveFile)));
+    const original = archives.get(source.archiveFile).tables.find(snapshot => snapshot.current.sourceFile === source.sourceFile).current.table;
+    const entry = original.entries[correction.row - 1];
+    assert.equal(crypto.createHash('sha256').update(entry.text).digest('hex'), correction.entryHash);
+    assert.equal(entry.weight, correction.weight);
+    assert.ok(entry.text.includes(correction.raw));
+    const references = entry.references.filter(reference => reference.raw === correction.raw);
+    assert.equal(references.length, correction.referenceCount);
+    assert.ok(references.every(reference => reference.target_qualified_name === correction.from));
+    if (folded.get(correction.to.toLowerCase()).length > 1) {
+      const subtable = Buffer.from(target.id.split('_').at(-1), 'hex').toString('utf8');
+      assert.equal(correction.from, correction.to);
+      assert.ok(references.every(reference => reference.target_page === target.page && reference.target_subtable === subtable &&
+        reference.token.endsWith(`.${subtable}`) && reference.token.slice(0, -subtable.length - 1).toLowerCase() === target.page.toLowerCase()));
+      exactSubtablePageCases += 1;
+    }
+    if (correction.weight > 0) {
+      assert.ok(source.dependencies.includes(target.id));
+      if (target.status === 'blocked') {
+        assert.equal(source.status, 'blocked');
+        stillBlockedTargets += 1;
+      }
+    }
+  }
+  assert.equal(exactSubtablePageCases, 2);
+  assert.ok(stillBlockedTargets > 0);
+});
+
+test('bounded recursion approval preserves exact original table evidence', () => {
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const policies = reviewedRecursionPolicies(JSON.parse(read('explorer/tools/recursion-policies.json')), manifest);
+  const tables = new Map(manifest.tables.map(table => [table.id, table]));
+  const digest = value => crypto.createHash('sha256').update(value).digest('hex');
+  assert.equal(policies.length, 2);
+  assert.equal(manifest.tables.filter(table => table.recursion).length, 2);
+  for (const policy of policies) {
+    const table = tables.get(policy.tableId);
+    assert.equal(table.status, 'ready');
+    assert.equal(table.execution, 'wiki');
+    assert.deepEqual(table.recursionApproval, policy);
+    assert.deepEqual(table.recursion, { kind: policy.kind, row: policy.row, maxDepth: 1 });
+    assert.ok(table.dependencies.includes(table.id));
+    const source = JSON.parse(read(table.archiveFile)).tables.find(snapshot => snapshot.current.sourceFile === policy.sourceFile).current;
+    const entry = source.table.entries[policy.row - 1];
+    assert.equal(source.sourceHash, policy.sourceHash);
+    assert.equal(digest(source.table.raw_source), policy.rawSourceHash);
+    assert.equal(source.table.raw_source.split('\n')[policy.line - 1], policy.raw);
+    assert.equal(entry.raw_text, policy.raw);
+    assert.equal(entry.weight, policy.weight);
+    assert.equal(digest(entry.text), policy.entryHash);
+  }
+});
+
+test('recursion-aware macro recovery preserves the prior catalog and enables exactly the audited tables', () => {
+  const digest = content => crypto.createHash('sha256').update(content).digest('hex');
+  const manifest = JSON.parse(read('tables/abulafia/manifest.json'));
+  const audit = JSON.parse(read('Docs/recursion-macro-2026-09-08/recovery-report.json'));
+  const acceptance = JSON.parse(read('Docs/recursion-macro-2026-09-08/roll-acceptance.json'));
+  const tables = new Map(manifest.tables.map(table => [table.id, table]));
+  assert.equal(audit.nextManifestSha256, digest(read('tables/abulafia/manifest.json')));
+  assert.equal(audit.preservedReadyBehavior, 25647);
+  assert.equal(audit.preservedArchives, 2170);
+  assert.equal(audit.promoted.length, 69);
+  assert.equal(audit.promoted.filter(table => table.historical).length, 7);
+  assert.equal(audit.current.ready - audit.previous.ready, 69);
+  assert.deepEqual(audit.changed.map(change => change.file).sort(), ['explorer/abulafia-catalog.js', 'tables/abulafia/manifest.json']);
+  for (const [file, expected] of Object.entries({ ...audit.protectedFileHashes, ...audit.codeHashes })) assert.equal(digest(read(file)), expected, file);
+  for (const promotion of audit.promoted) {
+    const table = tables.get(promotion.id);
+    assert.equal(table.name, promotion.name);
+    assert.equal(table.status, 'ready', table.name);
+    assert.equal(table.execution, 'wiki', table.name);
+    assert.deepEqual(table.issues, [], table.name);
+  }
+  assert.ok(audit.promoted.some(table => table.name === 'Secret Society Title.main'));
+  assert.equal(acceptance.manifestSha256, audit.nextManifestSha256);
+  assert.equal(acceptance.summary.tables, 69);
+  assert.equal(acceptance.summary.choices, 373);
+  assert.equal(acceptance.summary.rolls, 1119);
+  assert.equal(acceptance.summary.warnings, 0);
+  assert.equal(acceptance.summary.emptyResults, 25);
+  assert.ok(acceptance.tables.find(table => table.name === 'Secret Society Title.main').policySteps > 0);
+  assert.equal(acceptance.atlas.unresolvedTargets, 842);
+});
+
+test('published reports bind every reviewed policy and contain no remaining case-only reference candidates', () => {
+  const digest = content => crypto.createHash('sha256').update(content).digest('hex');
+  const manifestHash = digest(read('tables/abulafia/manifest.json'));
+  const inventory = JSON.parse(read('Docs/macro-inventory.json'));
+  const quarantine = JSON.parse(read('Docs/quarantine-report.json'));
+  assert.equal(inventory.provenance.manifestSha256, manifestHash);
+  assert.equal(quarantine.provenance.manifestSha256, manifestHash);
+  assert.equal(quarantine.caseCorrectionBatch.rootIds.length, 0);
+  assert.equal(quarantine.caseCorrectionBatch.targets.length, 0);
+  assert.equal(quarantine.caseCorrectionBatch.conditionalRecovery, 0);
+  const references = JSON.parse(read('Docs/missing-unresolved-references.json'));
+  assert.equal(references.provenance.manifestSha256, manifestHash);
+  assert.equal(references.provenance.quarantineReportSha256, digest(read('Docs/quarantine-report.json')));
+  assert.equal(references.summary.targets, 842);
+  assert.equal(references.summary.classificationCounts['unique-case-ready'] || 0, 0);
+  assert.equal(references.summary.classificationCounts['unique-case-blocked'] || 0, 0);
+  assert.equal(references.summary.classificationCounts['ambiguous-case'] || 0, 0);
+  assert.equal(inventory.provenance.compilerSha256, digest(read('explorer/tools/import-abulafia.cjs')));
+  for (const file of ['explorer/tools/case-reference-corrections.json', 'explorer/tools/recovery-case-corrections.json',
+    'explorer/tools/all-case-reference-corrections.json',
+    'explorer/tools/source-extraction-corrections.json', 'explorer/tools/historical-recovery.json',
+    'explorer/tools/recursion-policies.json', 'JS/wiki-recursion.js']) {
+    assert.equal(inventory.provenance.supportFileHashes[file], digest(read(file)), file);
+    assert.equal(quarantine.provenance.inputHashes[file], digest(read(file)), file);
+  }
+  assert.equal(quarantine.provenance.inputHashes['Docs/macro-inventory.json'], digest(read('Docs/macro-inventory.json')));
 });
 
 test('imported artifacts match their audit hashes and retain every selected source snapshot', () => {
@@ -153,7 +382,7 @@ test('real imports preserve the legacy registry, repair its missing targets, and
   const runtime = vm.createContext({ console, atob, Blob, Response, DecompressionStream });
   const scripts = Array.from(read('index.html').matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g), match => match[1])
     .filter(source => source.startsWith('tables/') && source !== 'tables/abulafia.js');
-  for (const source of ['JS/generator.js', 'explorer/vendor/jsep.iife.min.js', 'JS/wiki-template-data.js', 'JS/wiki-expressions.js', 'JS/wiki-import.js', 'explorer/model.js', ...scripts]) {
+  for (const source of ['JS/generator.js', 'explorer/vendor/jsep.iife.min.js', 'JS/wiki-template-data.js', 'JS/wiki-expressions.js', 'JS/wiki-recursion.js', 'JS/wiki-import.js', 'explorer/model.js', ...scripts]) {
     vm.runInContext(read(source), runtime, { filename: source });
   }
   const original = new Map(Object.entries(runtime.gen_data));
@@ -186,6 +415,14 @@ test('real imports preserve the legacy registry, repair its missing targets, and
     assert.doesNotMatch(result.text, /\{\{|Wiki table unavailable/);
   }
   const byName = new Map(Array.from(runtime.WikiImport.metadata.values(), table => [table.name, table]));
+  const descriptor = byName.get('Secret Society Title.TitleDescriptor');
+  assert.equal(descriptor.entries[0].rawText, 'Most [TitleDescriptor]]');
+  assert.equal(descriptor.entries[0].text, `Most {${descriptor.id}}`);
+  assert.equal(descriptor.entries[0].weight, 10);
+  assert.deepEqual(Array.from(runtime.gen_data[descriptor.id]), [`[Wiki table requires Table Atlas: ${descriptor.name}]`]);
+  const descriptorResult = runtime.TableAtlas.roll(descriptor.id, runtime);
+  assert.equal(descriptorResult.warnings.length, 0);
+  assert.doesNotMatch(descriptorResult.text, /Most\s+Most/);
   const hues = byName.get('Color.hues');
   const capitalizedHues = byName.get('Color.huesCap');
   const compass = byName.get('Compass direction.4');

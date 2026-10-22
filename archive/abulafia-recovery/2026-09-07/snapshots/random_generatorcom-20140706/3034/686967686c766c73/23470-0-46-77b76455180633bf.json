@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 23470,
+    "timestamp": "2014-07-02T06:59:34Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "08807cd35aa0c1ea5e3f8e6f93493193cc058bebb3e10c6c1ef7417a128959f8",
+      "rawSha256": "77b76455180633bf5977552650b1e39c256e35c033608a63a361fb161aeaf304",
+      "revisionId": "23470",
+      "line": 46,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23470",
+        "timestamp": "2014-07-02T06:59:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "highlvls",
+    "qualified_name": "Village.highlvls",
+    "table_block_index": 0,
+    "line_number": 46
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1350,
+      "text": "(lv7)",
+      "raw_text": "1350,(lv7)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 135,
+      "text": "(lv8)",
+      "raw_text": "135,(lv8)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 13,
+      "text": "(lv9)",
+      "raw_text": "13,(lv9)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "(lv10)",
+      "raw_text": "1,(lv10)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";highlvls\n1350,(lv7)\n135,(lv8)\n13,(lv9)\n1,(lv10)",
+  "warnings": []
+}

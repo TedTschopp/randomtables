@@ -76,9 +76,10 @@
       const entries = wiki ? wiki.entries.map((entry, index) => {
         const start = cursor;
         cursor += entry.weight;
+        const sourceCorrected = wiki.sourceCorrections?.some(correction => correction.row === index + 1);
         return {
           key: isList ? String(index + 1) : entry.weight ? start === cursor - 1 ? String(start) : `${start}-${cursor - 1}` : '-',
-          text: wiki.status === 'blocked' ? entry.rawText ?? entry.text : entry.text,
+          text: wiki.status === 'blocked' && !sourceCorrected ? entry.rawText ?? entry.text : entry.text,
           weight: entry.weight, probability: Number.isFinite(wiki.totalWeight) && wiki.totalWeight > 0 ? entry.weight / wiki.totalWeight : 0,
           references: Array.from(entry.references)
         };

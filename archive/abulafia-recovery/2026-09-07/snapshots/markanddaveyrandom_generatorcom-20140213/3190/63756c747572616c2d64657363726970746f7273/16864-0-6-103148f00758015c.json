@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Planar Codex Parish",
+    "page_id": 3190
+  },
+  "source": {
+    "revision_id": 16864,
+    "timestamp": "2013-02-12T00:36:15Z",
+    "contributor": {
+      "name": "Johnzo",
+      "id": 1777,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "151366e254b7afa4dc5ad8a24879df6214aa31f62ccdb5ea5777d6fa33839c59",
+      "rawSha256": "103148f00758015c5b3690dc0a1ad9a7381ef33abce6596982dc73bcf8b281e6",
+      "revisionId": "16864",
+      "line": 6,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17133",
+        "timestamp": "2013-02-16T01:24:34Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cultural-descriptors",
+    "qualified_name": "Planar Codex Parish.cultural-descriptors",
+    "table_block_index": 0,
+    "line_number": 6
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Backwards",
+      "raw_text": "1,Backwards",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Superstitious",
+      "raw_text": "1,Superstitious",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Advanced",
+      "raw_text": "1,Advanced",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Prosperous",
+      "raw_text": "1,Prosperous",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Chaotic",
+      "raw_text": "1,Chaotic",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Honorable",
+      "raw_text": "1,Honorable",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Impoverished",
+      "raw_text": "1,Impoverished",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Noble",
+      "raw_text": "1,Noble",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Marauding",
+      "raw_text": "1,Marauding",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Courageous",
+      "raw_text": "1,Courageous",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Seafaring",
+      "raw_text": "1,Seafaring",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Tenacious",
+      "raw_text": "1,Tenacious",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Enslaving",
+      "raw_text": "1,Enslaving",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Peaceful",
+      "raw_text": "1,Peaceful",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Warlike",
+      "raw_text": "1,Warlike",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Cursed",
+      "raw_text": "1,Cursed",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Insidious",
+      "raw_text": "1,Insidious",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Sylvan",
+      "raw_text": "1,Sylvan",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Commercial",
+      "raw_text": "1,Commercial",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Horde",
+      "raw_text": "1,Horde",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Corrupt",
+      "raw_text": "1,Corrupt",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Conquering",
+      "raw_text": "1,Conquering",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Underground",
+      "raw_text": "1,Underground",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Architects",
+      "raw_text": "1,Architects",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Reborn",
+      "raw_text": "1,Reborn",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Imperial",
+      "raw_text": "1,Imperial",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Decadent",
+      "raw_text": "1,Decadent",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Conquering",
+      "raw_text": "1,Conquering",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Decorous",
+      "raw_text": "1,Decorous",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Artful",
+      "raw_text": "1,Artful",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Industrious",
+      "raw_text": "1,Industrious",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Learned",
+      "raw_text": "1,Learned",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Spiritual",
+      "raw_text": "1,Spiritual",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Herding",
+      "raw_text": "1,Herding",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Caste-driven",
+      "raw_text": "1,Caste-driven",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Agricultural",
+      "raw_text": "1,Agricultural",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Egalitarian",
+      "raw_text": "1,Egalitarian",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Pacifist",
+      "raw_text": "1,Pacifist",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Staunch",
+      "raw_text": "1,Staunch",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Pioneering",
+      "raw_text": "1,Pioneering",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Sentimental",
+      "raw_text": "1,Sentimental",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Romantic",
+      "raw_text": "1,Romantic",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Xenophobic",
+      "raw_text": "1,Xenophobic",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "Fading",
+      "raw_text": "1,Fading",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Cannibal",
+      "raw_text": "1,Cannibal",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Clones",
+      "raw_text": "1,Clones",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Automatons",
+      "raw_text": "1,Automatons",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Interlopers",
+      "raw_text": "1,Interlopers",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Refugees",
+      "raw_text": "1,Refugees",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Activist",
+      "raw_text": "1,Activist",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Artisans",
+      "raw_text": "1,Artisans",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Revolutionaries",
+      "raw_text": "1,Revolutionaries",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Fashionable",
+      "raw_text": "1,Fashionable",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Ancient",
+      "raw_text": "1,Ancient",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Posessed",
+      "raw_text": "1,Posessed",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Overcrowded",
+      "raw_text": "1,Overcrowded",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Infested",
+      "raw_text": "1,Infested",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Refugees",
+      "raw_text": "1,Refugees",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Mad",
+      "raw_text": "1,Mad",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Nomadic",
+      "raw_text": "1,Nomadic",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Cultish",
+      "raw_text": "1,Cultish",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Blasphemous",
+      "raw_text": "1,Blasphemous",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Hidebound",
+      "raw_text": "1,Hidebound",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 1,
+      "text": "Feral",
+      "raw_text": "1,Feral",
+      "references": []
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Gestalt",
+      "raw_text": "1,Gestalt",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Iconoclastic",
+      "raw_text": "1,Iconoclastic",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Clockwork",
+      "raw_text": "1,Clockwork",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "Mystic",
+      "raw_text": "1,Mystic",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "Puritan",
+      "raw_text": "1,Puritan",
+      "references": []
+    },
+    {
+      "index": 69,
+      "weight": 1,
+      "text": "Clannish",
+      "raw_text": "1,Clannish",
+      "references": []
+    },
+    {
+      "index": 70,
+      "weight": 1,
+      "text": "Spiked",
+      "raw_text": "1,Spiked",
+      "references": []
+    },
+    {
+      "index": 71,
+      "weight": 1,
+      "text": "Damned",
+      "raw_text": "1,Damned",
+      "references": []
+    },
+    {
+      "index": 72,
+      "weight": 1,
+      "text": "Imprisoned",
+      "raw_text": "1,Imprisoned",
+      "references": []
+    },
+    {
+      "index": 73,
+      "weight": 1,
+      "text": "Primordial",
+      "raw_text": "1,Primordial",
+      "references": []
+    },
+    {
+      "index": 74,
+      "weight": 1,
+      "text": "Divine",
+      "raw_text": "1,Divine",
+      "references": []
+    },
+    {
+      "index": 75,
+      "weight": 1,
+      "text": "Profane",
+      "raw_text": "1,Profane",
+      "references": []
+    },
+    {
+      "index": 76,
+      "weight": 1,
+      "text": "Polluting",
+      "raw_text": "1,Polluting",
+      "references": []
+    },
+    {
+      "index": 77,
+      "weight": 1,
+      "text": "Tribal",
+      "raw_text": "1,Tribal",
+      "references": []
+    },
+    {
+      "index": 78,
+      "weight": 1,
+      "text": "Prescient",
+      "raw_text": "1,Prescient",
+      "references": []
+    },
+    {
+      "index": 79,
+      "weight": 1,
+      "text": "Wrathful",
+      "raw_text": "1,Wrathful",
+      "references": []
+    },
+    {
+      "index": 80,
+      "weight": 1,
+      "text": "Mutated",
+      "raw_text": "1,Mutated",
+      "references": []
+    },
+    {
+      "index": 81,
+      "weight": 1,
+      "text": "Declining",
+      "raw_text": "1,Declining",
+      "references": []
+    },
+    {
+      "index": 82,
+      "weight": 1,
+      "text": "Territorial",
+      "raw_text": "1,Territorial",
+      "references": []
+    },
+    {
+      "index": 83,
+      "weight": 1,
+      "text": "Underclass",
+      "raw_text": "1,Underclass",
+      "references": []
+    },
+    {
+      "index": 84,
+      "weight": 1,
+      "text": "Abandoned",
+      "raw_text": "1,Abandoned",
+      "references": []
+    },
+    {
+      "index": 85,
+      "weight": 1,
+      "text": "Uninhabitable",
+      "raw_text": "1,Uninhabitable",
+      "references": []
+    },
+    {
+      "index": 86,
+      "weight": 1,
+      "text": "Harmonious",
+      "raw_text": "1,Harmonious",
+      "references": []
+    },
+    {
+      "index": 87,
+      "weight": 1,
+      "text": "Doomed",
+      "raw_text": "1,Doomed",
+      "references": []
+    },
+    {
+      "index": 88,
+      "weight": 1,
+      "text": "Industrial",
+      "raw_text": "1,Industrial",
+      "references": []
+    },
+    {
+      "index": 89,
+      "weight": 1,
+      "text": "Forbidden",
+      "raw_text": "1,Forbidden",
+      "references": []
+    },
+    {
+      "index": 90,
+      "weight": 1,
+      "text": "Forgotten",
+      "raw_text": "1,Forgotten",
+      "references": []
+    },
+    {
+      "index": 91,
+      "weight": 1,
+      "text": "Oppressive",
+      "raw_text": "1,Oppressive",
+      "references": []
+    },
+    {
+      "index": 92,
+      "weight": 1,
+      "text": "Resurgent",
+      "raw_text": "1,Resurgent",
+      "references": []
+    },
+    {
+      "index": 93,
+      "weight": 1,
+      "text": "Collectivist",
+      "raw_text": "1,Collectivist",
+      "references": []
+    },
+    {
+      "index": 94,
+      "weight": 1,
+      "text": "Orthodox",
+      "raw_text": "1,Orthodox",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cultural-descriptors\n1,Backwards\n1,Superstitious\n1,Advanced\n1,Prosperous\n1,Chaotic\n1,Honorable\n1,Impoverished\n1,Noble\n1,Marauding\n1,Courageous\n1,Seafaring\n1,Tenacious\n1,Enslaving\n1,Peaceful\n1,Warlike\n1,Cursed\n1,Insidious\n1,Sylvan\n1,Commercial\n1,Horde\n1,Corrupt\n1,Conquering\n1,Underground\n1,Architects\n1,Reborn\n1,Imperial\n1,Decadent\n1,Conquering\n1,Decorous\n1,Artful\n1,Industrious\n1,Learned\n1,Spiritual\n1,Herding\n1,Caste-driven\n1,Agricultural\n1,Egalitarian\n1,Pacifist\n1,Staunch\n1,Pioneering\n1,Sentimental\n1,Romantic\n1,Xenophobic\n1,Fading\n1,Cannibal\n1,Clones\n1,Automatons\n1,Interlopers\n1,Refugees\n1,Activist\n1,Artisans\n1,Revolutionaries\n1,Fashionable\n1,Ancient\n1,Posessed\n1,Overcrowded\n1,Infested\n1,Refugees\n1,Mad\n1,Nomadic\n1,Cultish\n1,Blasphemous\n1,Hidebound\n1,Feral\n1,Gestalt\n1,Iconoclastic\n1,Clockwork\n1,Mystic\n1,Puritan\n1,Clannish\n1,Spiked\n1,Damned\n1,Imprisoned\n1,Primordial\n1,Divine\n1,Profane\n1,Polluting\n1,Tribal\n1,Prescient\n1,Wrathful\n1,Mutated\n1,Declining\n1,Territorial\n1,Underclass\n1,Abandoned\n1,Uninhabitable\n1,Harmonious\n1,Doomed\n1,Industrial\n1,Forbidden\n1,Forgotten\n1,Oppressive\n1,Resurgent\n1,Collectivist\n1,Orthodox",
+  "warnings": []
+}

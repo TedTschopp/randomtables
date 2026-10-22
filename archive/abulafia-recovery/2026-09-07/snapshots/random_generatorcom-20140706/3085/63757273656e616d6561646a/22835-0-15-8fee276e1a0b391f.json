@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "8fee276e1a0b391f208f803e4182443e55a2f42394cea2ca46173ef05bc6c686",
+      "revisionId": "22835",
+      "line": 15,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cursenameadj",
+    "qualified_name": "Curse.cursenameadj",
+    "table_block_index": 0,
+    "line_number": 15
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "DIRE",
+      "raw_text": "1,DIRE",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "RIGHTEOUS",
+      "raw_text": "1,RIGHTEOUS",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "UNFORGIVING",
+      "raw_text": "1,UNFORGIVING",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "CRAWLING",
+      "raw_text": "1,CRAWLING",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "ROLLING",
+      "raw_text": "1,ROLLING",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "WATCHING",
+      "raw_text": "1,WATCHING",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "FINAL",
+      "raw_text": "1,FINAL",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "CRUEL",
+      "raw_text": "1,CRUEL",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "WICKED",
+      "raw_text": "1,WICKED",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "ABOMINABLE",
+      "raw_text": "1,ABOMINABLE",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "ATROCIOUS",
+      "raw_text": "1,ATROCIOUS",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "BASE",
+      "raw_text": "1,BASE",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "EGREGIOUS",
+      "raw_text": "1,EGREGIOUS",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "FOUL",
+      "raw_text": "1,FOUL",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "GROSS",
+      "raw_text": "1,GROSS",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "HEARTLESS",
+      "raw_text": "1,HEARTLESS",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "IMPISH",
+      "raw_text": "1,IMPISH",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "SINFUL",
+      "raw_text": "1,SINFUL",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "VILE",
+      "raw_text": "1,VILE",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "SHAMEFUL",
+      "raw_text": "1,SHAMEFUL",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "ROTTEN",
+      "raw_text": "1,ROTTEN",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "CLEVER",
+      "raw_text": "1,CLEVER",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "DEFT",
+      "raw_text": "1,DEFT",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "SKILLFUL",
+      "raw_text": "1,SKILLFUL",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "STRONG",
+      "raw_text": "1,STRONG",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "SLAPDASH",
+      "raw_text": "1,SLAPDASH",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "HAPHAZARD",
+      "raw_text": "1,HAPHAZARD",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "IRRESPONSIBLE",
+      "raw_text": "1,IRRESPONSIBLE",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "RECKLESS",
+      "raw_text": "1,RECKLESS",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "DECREPIT",
+      "raw_text": "1,DECREPIT",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "DEFECTIVE",
+      "raw_text": "1,DEFECTIVE",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "DELICATE",
+      "raw_text": "1,DELICATE",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "FRAGILE",
+      "raw_text": "1,FRAGILE",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "ENFEEBLING",
+      "raw_text": "1,ENFEEBLING",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "RICKETY",
+      "raw_text": "1,RICKETY",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "SHAKY",
+      "raw_text": "1,SHAKY",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "ACCURATE",
+      "raw_text": "1,ACCURATE",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "DELIBERATE",
+      "raw_text": "1,DELIBERATE",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "DISCREET",
+      "raw_text": "1,DISCREET",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "FASTIDIOUS",
+      "raw_text": "1,FASTIDIOUS",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "COMPREHENSIVE",
+      "raw_text": "1,COMPREHENSIVE",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "JUDICIOUS",
+      "raw_text": "1,JUDICIOUS",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "PROVIDENT",
+      "raw_text": "1,PROVIDENT",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 1,
+      "text": "RIGOROUS",
+      "raw_text": "1,RIGOROUS",
+      "references": []
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "VIGILANT",
+      "raw_text": "1,VIGILANT",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "SCRUPULOUS",
+      "raw_text": "1,SCRUPULOUS",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 5,
+      "text": "{{uc:[Color.all]}}",
+      "raw_text": "5,{{uc:[Color.all]}}",
+      "references": [
+        {
+          "raw": "[Color.all]",
+          "token": "Color.all",
+          "kind": "cross_page",
+          "source_page": "Curse",
+          "source_subtable": "cursenameadj",
+          "target_page": "Color",
+          "target_subtable": "all",
+          "target_qualified_name": "Color.all"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Color.all"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";cursenameadj\n1,DIRE\n1,RIGHTEOUS\n1,UNFORGIVING\n1,CRAWLING\n1,ROLLING\n1,WATCHING\n1,FINAL\n1,CRUEL\n1,WICKED\n1,ABOMINABLE\n1,ATROCIOUS\n1,BASE\n1,EGREGIOUS\n1,FOUL\n1,GROSS\n1,HEARTLESS\n1,IMPISH\n1,SINFUL\n1,VILE\n1,SHAMEFUL\n1,ROTTEN\n1,CLEVER\n1,DEFT\n1,SKILLFUL\n1,STRONG\n1,SLAPDASH\n1,HAPHAZARD\n1,IRRESPONSIBLE\n1,RECKLESS\n1,DECREPIT\n1,DEFECTIVE\n1,DELICATE\n1,FRAGILE\n1,ENFEEBLING\n1,RICKETY\n1,SHAKY\n1,ACCURATE\n1,DELIBERATE\n1,DISCREET\n1,FASTIDIOUS\n1,COMPREHENSIVE\n1,JUDICIOUS\n1,PROVIDENT\n1,RIGOROUS\n1,VIGILANT\n1,SCRUPULOUS\n5,{{uc:[Color.all]}}",
+  "warnings": []
+}

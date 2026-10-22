@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 14076,
+    "timestamp": "2012-03-17T16:23:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "eec4abcedea7cb566c19f45f3620482021bea5141b749f44accaa35431dc8279",
+      "rawSha256": "c9f95dc27ff851646ef8ca79a0145da90c470853f717bfeac49d4eb5238ca51d",
+      "revisionId": "14076",
+      "line": 110,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "class",
+    "qualified_name": "Quick Populations.class",
+    "table_block_index": 0,
+    "line_number": 110
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "fighter",
+      "raw_text": "3,fighter",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "rogue",
+      "raw_text": "3,rogue",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "cleric",
+      "raw_text": "3,cleric",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "wizard",
+      "raw_text": "3,wizard",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "ranger",
+      "raw_text": "2,ranger",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "druid",
+      "raw_text": "2,druid",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "barbarian",
+      "raw_text": "2,barbarian",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "monk",
+      "raw_text": "1,monk",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "paladin\n1[class]/[class]",
+      "raw_text": "1,paladin\n1[class]/[class]",
+      "references": [
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "class",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        },
+        {
+          "raw": "[class]",
+          "token": "class",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "class",
+          "target_page": "Quick Populations",
+          "target_subtable": "class",
+          "target_qualified_name": "Quick Populations.class"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 2,
+      "text": "[zacsjob]",
+      "raw_text": "2,[zacsjob]",
+      "references": [
+        {
+          "raw": "[zacsjob]",
+          "token": "zacsjob",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "class",
+          "target_page": "Quick Populations",
+          "target_subtable": "zacsjob",
+          "target_qualified_name": "Quick Populations.zacsjob"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "class",
+      "zacsjob"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";class\n3,fighter\n3,rogue\n3,cleric\n3,wizard\n2,ranger\n2,druid\n2,barbarian\n1,monk\n1,paladin\n1[class]/[class]\n2,[zacsjob]",
+  "warnings": []
+}

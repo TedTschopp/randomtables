@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Guards",
+    "page_id": 3140
+  },
+  "source": {
+    "revision_id": 22354,
+    "timestamp": "2014-05-28T09:44:55Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "6538a5becb3e1d391269e6e616814486caaf19f15f1e87d80b4e02fd60f60bc4",
+      "rawSha256": "93b165b5df0b09c49b482ee5f84ed40210900d77bae0d7ebba873400d33daa1f",
+      "revisionId": "22354",
+      "line": 145,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22354",
+        "timestamp": "2014-05-28T09:44:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "gem eyes",
+    "qualified_name": "Guards.gem eyes",
+    "table_block_index": 0,
+    "line_number": 145
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "amber eyes(25g)",
+      "raw_text": "5,amber eyes(25g)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "citrines for eyes(50gp)",
+      "raw_text": "4,citrines for eyes(50gp)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "tourmalines for eyes (200gp)",
+      "raw_text": "4,tourmalines for eyes (200gp)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 3,
+      "text": "quartz spheres for eyes (200gp)",
+      "raw_text": "3,quartz spheres for eyes (200gp)",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 3,
+      "text": "eyes that are aquamarines(300gp)",
+      "raw_text": "3,eyes that are aquamarines(300gp)",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "emerald eyes (400gp)",
+      "raw_text": "2,emerald eyes (400gp)",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "eyes of jade(400g)",
+      "raw_text": "2,eyes of jade(400g)",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "ruby pupils set on eyes of diamond(1000gp)",
+      "raw_text": "1,ruby pupils set on eyes of diamond(1000gp)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";gem eyes\n5,amber eyes(25g)\n4,citrines for eyes(50gp)\n4,tourmalines for eyes (200gp)\n3,quartz spheres for eyes (200gp)\n3,eyes that are aquamarines(300gp)\n2,emerald eyes (400gp)\n2,eyes of jade(400g)\n1,ruby pupils set on eyes of diamond(1000gp)",
+  "warnings": []
+}

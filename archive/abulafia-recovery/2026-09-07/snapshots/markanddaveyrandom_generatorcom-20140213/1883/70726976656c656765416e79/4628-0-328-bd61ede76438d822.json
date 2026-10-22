@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4628,
+    "timestamp": "2007-11-27T05:07:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "ed084110d02f113ff06b57e1f0ca07c33159dc23be902a2be3e50b304b2d6844",
+      "rawSha256": "bd61ede76438d822ed86b17bb00748e1d07e024c9e6f1d2e379c2a43a5f85c7d",
+      "revisionId": "4628",
+      "line": 328,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "privelegeAny",
+    "qualified_name": "Rituals.privelegeAny",
+    "table_block_index": 0,
+    "line_number": 328
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "have children",
+      "raw_text": "1,have children",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "drink alcohol",
+      "raw_text": "1,drink alcohol",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "consume ritual narcotics",
+      "raw_text": "1,consume ritual narcotics",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "go hunting",
+      "raw_text": "1,go hunting",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "seek a mate",
+      "raw_text": "1,seek a mate",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "vote in council",
+      "raw_text": "1,vote in council",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "bear weaponry",
+      "raw_text": "1,bear weaponry",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "wear a [Utility.Colors] garment",
+      "raw_text": "1,wear a [Utility.Colors] garment",
+      "references": [
+        {
+          "raw": "[Utility.Colors]",
+          "token": "Utility.Colors",
+          "kind": "cross_page",
+          "source_page": "Rituals",
+          "source_subtable": "privelegeAny",
+          "target_page": "Utility",
+          "target_subtable": "Colors",
+          "target_qualified_name": "Utility.Colors"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "own slaves",
+      "raw_text": "1,own slaves",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "go on a boat for the first time",
+      "raw_text": "1,go on a boat for the first time",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "own livestock",
+      "raw_text": "1,own livestock",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "learn the secrets of the elders",
+      "raw_text": "1,learn the secrets of the elders",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "become associated with a totem animal",
+      "raw_text": "1,become associated with a totem animal",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "own land",
+      "raw_text": "1,own land",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Utility.Colors"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";privelegeAny\n1,have children\n1,drink alcohol\n1,consume ritual narcotics\n1,go hunting\n1,seek a mate\n1,vote in council\n1,bear weaponry\n1,wear a [Utility.Colors] garment\n1,own slaves\n1,go on a boat for the first time\n1,own livestock\n1,learn the secrets of the elders\n1,become associated with a totem animal\n1,own land",
+  "warnings": []
+}

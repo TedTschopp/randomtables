@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 21819,
+    "timestamp": "2014-05-20T12:00:20Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a8e561a801bd11802c37decc02f426851891bba97ad4d2e32672534668ec8b02",
+      "rawSha256": "8c11ce7ada46b87a36d54b669964d3698d332c1db84537ac67fe00608740c2bf",
+      "revisionId": "21819",
+      "line": 79,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21819",
+        "timestamp": "2014-05-20T12:00:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "cheese_type",
+    "qualified_name": "Found in a crate.cheese_type",
+    "table_block_index": 0,
+    "line_number": 79
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sharp",
+      "raw_text": "1,sharp",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "pungent-smelling",
+      "raw_text": "1,pungent-smelling",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "fragrant",
+      "raw_text": "1,fragrant",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "spongey",
+      "raw_text": "1,spongey",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "mellow",
+      "raw_text": "1,mellow",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "soft",
+      "raw_text": "1,soft",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "sweet",
+      "raw_text": "1,sweet",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "nasty",
+      "raw_text": "1,nasty",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "smelly",
+      "raw_text": "1,smelly",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "nutty",
+      "raw_text": "1,nutty",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";cheese_type\n1,sharp\n1,pungent-smelling\n1,fragrant\n1,spongey\n1,mellow\n1,soft\n1,sweet\n1,nasty\n1,smelly\n1,nutty",
+  "warnings": []
+}

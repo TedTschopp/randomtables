@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "b8edc27e2f67b5d2a2c7c79eaade0aa0aed3eca82fabc427d9ec42e9696d5faf",
+      "revisionId": "22804",
+      "line": 286,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "number",
+    "qualified_name": "Starting Equipment.number",
+    "table_block_index": 0,
+    "line_number": 286
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "two",
+      "raw_text": "1,two",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "three",
+      "raw_text": "1,three",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "four",
+      "raw_text": "1,four",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "five",
+      "raw_text": "1,five",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "six",
+      "raw_text": "1,six",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "seven",
+      "raw_text": "1,seven",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "eight",
+      "raw_text": "1,eight",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "nine",
+      "raw_text": "1,nine",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "ten",
+      "raw_text": "1,ten",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "eleven",
+      "raw_text": "1,eleven",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "twelve",
+      "raw_text": "1,twelve",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "thirteen",
+      "raw_text": "1,thirteen",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "fourteen",
+      "raw_text": "1,fourteen",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "fifteen",
+      "raw_text": "1,fifteen",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "sixteen",
+      "raw_text": "1,sixteen",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "seventeen",
+      "raw_text": "1,seventeen",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "eighteen",
+      "raw_text": "1,eighteen",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "nineteen",
+      "raw_text": "1,nineteen",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "twenty",
+      "raw_text": "1,twenty",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";number\n1,two\n1,three\n1,four\n1,five\n1,six\n1,seven\n1,eight\n1,nine\n1,ten\n1,eleven\n1,twelve\n1,thirteen\n1,fourteen\n1,fifteen\n1,sixteen\n1,seventeen\n1,eighteen\n1,nineteen\n1,twenty",
+  "warnings": []
+}

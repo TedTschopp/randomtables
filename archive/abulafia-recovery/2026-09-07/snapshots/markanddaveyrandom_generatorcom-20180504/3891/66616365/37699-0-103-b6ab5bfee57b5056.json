@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 37699,
+    "timestamp": "2018-01-21T18:03:56Z",
+    "contributor": {
+      "name": "Jerimee",
+      "id": 1865,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "0ef5089897eaa1800a19c7ed2003621e4135e246d7069157e4ebf690878902e8",
+      "rawSha256": "b6ab5bfee57b505608dbf8f97f7afcac58845116d18a1ba87c007826136833cd",
+      "revisionId": "37699",
+      "line": 103,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "face",
+    "qualified_name": "QuickAdjective.face",
+    "table_block_index": 0,
+    "line_number": 103
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "heart",
+      "raw_text": "1,heart",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "poker",
+      "raw_text": "1,poker",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "ruddy",
+      "raw_text": "1,ruddy",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "sour",
+      "raw_text": "1,sour",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";face\n1,heart\n1,poker\n1,ruddy\n1,sour",
+  "warnings": []
+}

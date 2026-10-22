@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modifier",
+    "page_id": 3209
+  },
+  "source": {
+    "revision_id": 17362,
+    "timestamp": "2013-03-16T01:08:37Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "70542de1cee34cce6f3d45ce7d790631e04b716fa3941bd69c4e4651c78d75ee",
+      "rawSha256": "4c893b2ccf07ff88d011874f21e4cbc6609df55d2ad1df40dfae1a076e13a8bc",
+      "revisionId": "17362",
+      "line": 47,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "17362",
+        "timestamp": "2013-03-16T01:08:37Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "4d6-best-3-with-d20-modifier",
+    "qualified_name": "Modifier.4d6-best-3-with-d20-modifier",
+    "table_block_index": 0,
+    "line_number": 47
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "3 (-4)",
+      "raw_text": "1,3 (-4)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "4 (-3)",
+      "raw_text": "3,4 (-3)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 8,
+      "text": "5 (-3)",
+      "raw_text": "8,5 (-3)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 16,
+      "text": "6 (-2)",
+      "raw_text": "16,6 (-2)",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 29,
+      "text": "7 (-2)",
+      "raw_text": "29,7 (-2)",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 48,
+      "text": "8 (-1)",
+      "raw_text": "48,8 (-1)",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 70,
+      "text": "9 (-1)",
+      "raw_text": "70,9 (-1)",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 94,
+      "text": "10",
+      "raw_text": "94,10",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 114,
+      "text": "11",
+      "raw_text": "114,11",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 129,
+      "text": "12 (+1)",
+      "raw_text": "129,12 (+1)",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 133,
+      "text": "13 (+1)",
+      "raw_text": "133,13 (+1)",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 124,
+      "text": "14 (+2)",
+      "raw_text": "124,14 (+2)",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 101,
+      "text": "15 (+2)",
+      "raw_text": "101,15 (+2)",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 73,
+      "text": "16 (+3)",
+      "raw_text": "73,16 (+3)",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 42,
+      "text": "17 (+3)",
+      "raw_text": "42,17 (+3)",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 16,
+      "text": "18 (+4)",
+      "raw_text": "16,18 (+4)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";4d6-best-3-with-d20-modifier\n1,3 (-4)\n3,4 (-3)\n8,5 (-3)\n16,6 (-2)\n29,7 (-2)\n48,8 (-1)\n70,9 (-1)\n94,10\n114,11\n129,12 (+1)\n133,13 (+1)\n124,14 (+2)\n101,15 (+2)\n73,16 (+3)\n42,17 (+3)\n16,18 (+4)",
+  "warnings": []
+}

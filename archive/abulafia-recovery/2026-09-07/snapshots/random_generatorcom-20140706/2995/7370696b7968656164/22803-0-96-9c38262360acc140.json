@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "9c38262360acc140fc92333aa1bea01f390e626cf739570e2a18ce1be8af72e4",
+      "revisionId": "22803",
+      "line": 96,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "spikyhead",
+    "qualified_name": "Quick Horrors.spikyhead",
+    "table_block_index": 0,
+    "line_number": 96
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "the head of a [Quick Populations.domestic-animal]",
+      "raw_text": "1,the head of a [Quick Populations.domestic-animal]",
+      "references": [
+        {
+          "raw": "[Quick Populations.domestic-animal]",
+          "token": "Quick Populations.domestic-animal",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "spikyhead",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "the head of a [Quick Populations.power-animal]",
+      "raw_text": "1,the head of a [Quick Populations.power-animal]",
+      "references": [
+        {
+          "raw": "[Quick Populations.power-animal]",
+          "token": "Quick Populations.power-animal",
+          "kind": "cross_page",
+          "source_page": "Quick Horrors",
+          "source_subtable": "spikyhead",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "a tongue that ensnares foes",
+      "raw_text": "1,a tongue that ensnares foes",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "a human head",
+      "raw_text": "2,a human head",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "a giant brain",
+      "raw_text": "2,a giant brain",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "huge tusks",
+      "raw_text": "2,huge tusks",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "no visible head",
+      "raw_text": "1,no visible head",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [
+      "Quick Populations.domestic-animal",
+      "Quick Populations.power-animal"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";spikyhead\n1,the head of a [Quick Populations.domestic-animal]\n1,the head of a [Quick Populations.power-animal]\n1,a tongue that ensnares foes\n2,a human head\n2,a giant brain\n2,huge tusks\n1,no visible head",
+  "warnings": []
+}

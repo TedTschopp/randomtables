@@ -7,7 +7,7 @@ const { gzipSync } = require('node:zlib');
 
 function runtime() {
   const context = vm.createContext({ console, atob, Blob, Response, DecompressionStream });
-  for (const file of ['JS/generator.js', 'JS/wiki-import.js']) {
+  for (const file of ['JS/generator.js', 'JS/wiki-recursion.js', 'JS/wiki-import.js']) {
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8'), context);
   }
   return context;
@@ -47,6 +47,149 @@ function expressionPayload() {
     labels: {}, aliases: {}
   };
 }
+
+function recursionPayload(kind = 'unique-pair') {
+  const identifier = 'wiki_abulafia_4_61';
+  const leaf = 'wiki_abulafia_4_62';
+  const recursive = kind === 'unique-pair' ? [{ ref: identifier }, ' and ', { ref: identifier }] : ['Most ', { ref: identifier }];
+  return { schemaVersion: 1, aliases: {}, labels: {}, tables: [{
+    id: identifier, name: 'Choices.main', status: 'ready', execution: 'wiki', totalWeight: 4,
+    values: ['Requires Table Atlas'], issues: [],
+    recursion: { kind, row: 1, maxDepth: 1 },
+    entries: [
+      { weight: 1, text: kind === 'unique-pair' ? `{${identifier}} and {${identifier}}` : `Most {${identifier}}`, references: [identifier] },
+      { weight: 2, text: `{${leaf}}`, references: [leaf] },
+      { weight: 1, text: 'Beets', references: [] }
+    ],
+    program: [recursive, [{ ref: leaf }], ['Beets']]
+  }, { id: leaf, name: 'Choices.leaf', status: 'ready', values: ['Carrots', '  CARROTS  '], entries: [], issues: [] }] };
+}
+
+test('approved unique pairs sample distinct resolved values and never recurse into three items', () => {
+  const context = runtime();
+  const bundle = recursionPayload();
+  context.WikiImport.register(bundle);
+  const before = JSON.stringify(context.gen_data);
+  for (const sample of [0, 0.5, 1 - Number.EPSILON]) {
+    context.samples = [0, sample, sample];
+    vm.runInContext('Math.random = () => samples.length ? samples.shift() : 0;', context);
+    const result = context.WikiImport.roll(bundle.tables[0].id);
+    assert.deepEqual(Array.from(result.warnings), []);
+    const items = result.text.split(' and ').map(value => value.trim().toLowerCase());
+    assert.equal(items.length, 2);
+    assert.deepEqual(new Set(items), new Set(['carrots', 'beets']));
+    assert.ok(result.steps.some(step => step.policy === 'unique-pair'));
+    assert.ok(result.steps.every(step => step.depth < 32));
+  }
+  assert.equal(JSON.stringify(context.gen_data), before);
+});
+
+test('approved descriptive wrappers terminate after one wrapper without altering ordinary repeat draws', () => {
+  const context = runtime();
+  const bundle = recursionPayload('bounded-wrapper');
+  context.WikiImport.register(bundle);
+  bundle.tables[0].recursion.maxDepth = 99;
+  vm.runInContext('Math.random = () => 0;', context);
+  for (let repeat = 0; repeat < 2; repeat += 1) {
+    const result = context.WikiImport.roll(bundle.tables[0].id);
+    assert.deepEqual(Array.from(result.warnings), []);
+    assert.equal(result.text, 'Most Carrots');
+    assert.equal(result.steps.filter(step => step.policy === 'bounded-wrapper').length, 1);
+  }
+});
+
+test('unique recursion preserves conditional path weights and scopes exclusions to one combination', () => {
+  const bundle = recursionPayload();
+  const table = bundle.tables[0];
+  const leaf = bundle.tables[1];
+  leaf.values = { 1: 'Carrots', '2-3': 'Beans' };
+  const context = runtime();
+  context.WikiImport.register(bundle);
+  const firstCounts = {};
+  const secondCounts = {};
+  for (let side = 0; side < 9; side += 1) {
+    context.samples = [0, (side + 0.5) / 9, 0];
+    vm.runInContext('Math.random = () => samples.shift();', context);
+    const result = context.WikiImport.roll(table.id);
+    assert.equal(result.warnings.length, 0);
+    const first = result.text.split(' and ')[0];
+    firstCounts[first] = (firstCounts[first] || 0) + 1;
+  }
+  assert.deepEqual(firstCounts, { Carrots: 2, Beans: 4, Beets: 3 });
+  for (let side = 0; side < 7; side += 1) {
+    context.samples = [0, 0, (side + 0.5) / 7];
+    vm.runInContext('Math.random = () => samples.shift();', context);
+    const result = context.WikiImport.roll(table.id);
+    assert.equal(result.warnings.length, 0);
+    const second = result.text.split(' and ')[1];
+    secondCounts[second] = (secondCounts[second] || 0) + 1;
+  }
+  assert.deepEqual(secondCounts, { Beans: 4, Beets: 3 });
+  const outer = expressionPayload().tables[0];
+  outer.program = [[{ ref: table.id }, ' / ', { ref: table.id }]];
+  context.WikiImport.register({ schemaVersion: 1, tables: [outer], aliases: {}, labels: {} });
+  vm.runInContext('Math.random = () => 0;', context);
+  assert.equal(context.WikiImport.roll(outer.id).text, 'Carrots and Beans / Carrots and Beans');
+  for (const sample of [NaN, -0.1, 1, Infinity]) {
+    context.samples = [0, sample];
+    vm.runInContext('Math.random = () => samples.shift();', context);
+    const result = context.WikiImport.roll(table.id);
+    assert.equal(result.text, '');
+    assert.equal(result.warnings[0].type, 'error');
+  }
+});
+
+test('invalid or unterminating recursion policies fail registration atomically', () => {
+  for (const condition of ['depth', 'kind', 'row', 'extra', 'shape', 'one-value', 'mutual', 'missing', 'blocked', 'static', 'gap', 'overlap', 'budget']) {
+    const context = runtime();
+    const bundle = recursionPayload();
+    const table = bundle.tables[0];
+    if (condition === 'depth') table.recursion.maxDepth = 2;
+    if (condition === 'kind') table.recursion.kind = 'unbounded';
+    if (condition === 'row') table.recursion.row = 2;
+    if (condition === 'extra') table.recursion.allowAll = true;
+    if (condition === 'shape') table.program[0].push(' and ', { ref: table.id });
+    if (condition === 'one-value') table.program[2] = ['CARROTS'];
+    if (condition === 'mutual') bundle.tables[1].values = [`{${table.id}}`];
+    if (condition === 'missing') bundle.tables.pop();
+    if (condition === 'blocked') bundle.tables[1].status = 'blocked';
+    if (condition === 'static') { delete table.execution; delete table.program; }
+    if (condition === 'gap') bundle.tables[1].values = { 2: 'Carrots' };
+    if (condition === 'overlap') bundle.tables[1].values = { '1-2': 'Carrots', 2: 'Beans' };
+    if (condition === 'budget') bundle.tables[1].values = Array(4097).fill('Carrots');
+    assert.throws(() => context.WikiImport.register(bundle), /recursion|recursive|terminal|distinct/i, condition);
+    assert.equal(context.WikiImport.metadata.size, 0, condition);
+    assert.equal(Object.keys(context.gen_data).length, 0, condition);
+  }
+});
+
+test('bounded recursion consumes the remaining shared depth, call, and output budgets', () => {
+  for (const kind of ['unique-pair', 'bounded-wrapper']) for (const limit of ['depth', 'calls', 'output']) {
+    const context = runtime();
+    const bundle = recursionPayload(kind);
+    const target = bundle.tables[0];
+    const outer = expressionPayload().tables[0];
+    outer.entries = [{ weight: 1, text: 'Budget probe' }];
+    let rootId = outer.id;
+    if (limit === 'depth') {
+      const chain = Array.from({ length: 31 }, (unused, index) => ({ ...outer, id: `wiki_abulafia_${500 + index}_61`,
+        program: [[{ ref: index === 30 ? target.id : `wiki_abulafia_${501 + index}_61` }]] }));
+      rootId = chain[0].id;
+      bundle.tables.push(...chain);
+    } else {
+      outer.program = [limit === 'calls' ? Array.from({ length: 257 }, () => ({ ref: target.id })) :
+        ['x'.repeat(32760), { ref: target.id }]];
+      bundle.tables.push(outer);
+    }
+    context.WikiImport.register(bundle);
+    vm.runInContext('Math.random = () => 0;', context);
+    const result = context.WikiImport.roll(rootId);
+    assert.equal(result.text, '', `${kind}: ${limit}`);
+    assert.equal(result.warnings[0]?.type, 'limit', `${kind}: ${limit}`);
+    assert.ok(result.steps.length <= 512);
+    assert.ok(result.steps.every(step => step.depth < 32));
+  }
+});
 
 test('extended wiki programs support structured nested calls and remain immutable and atomically validated', () => {
   const context = runtime();

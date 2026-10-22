@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 15540,
+    "timestamp": "2012-11-05T09:14:18Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "caf1df9c3e411629925fca8b01e3f824c57bee52a9a5888dcaaab69c34b24cd1",
+      "rawSha256": "eaa4a8e919209c33e7a783ac854b2f5097a8a828f80904aee3fb78757c358e78",
+      "revisionId": "15540",
+      "line": 87,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "19014",
+        "timestamp": "2013-11-14T05:28:04Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "become-posessed-by",
+    "qualified_name": "Curse.become-posessed-by",
+    "table_block_index": 0,
+    "line_number": 87
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "you are being pursued by",
+      "raw_text": "1,you are being pursued by",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "become possessed by",
+      "raw_text": "1,become possessed by",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "transform into",
+      "raw_text": "1,transform into",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "you have to fight",
+      "raw_text": "1,you have to fight",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";become-posessed-by\n1,you are being pursued by\n1,become possessed by\n1,transform into\n1,you have to fight",
+  "warnings": []
+}

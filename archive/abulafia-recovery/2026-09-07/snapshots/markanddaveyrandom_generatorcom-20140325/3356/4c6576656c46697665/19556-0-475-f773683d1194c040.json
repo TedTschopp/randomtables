@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LotFP Spell Lists",
+    "page_id": 3356
+  },
+  "source": {
+    "revision_id": 19556,
+    "timestamp": "2014-02-20T03:22:54Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140325",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140325/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "sourceSha256": "21d8e0f147c81917f134856b77423d730162f3f7a1961f499b786c5d90956523",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140325-history.xml",
+      "xmlSha256": "4d358a09efa5c3d90f61e7ba958269af77d6625cdb34ee19c76076711d09c760",
+      "xmlBytes": 129582922,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140325-history.xml.7z",
+      "textSha256": "46b0af09101e486161f8704102903b184aa0ab9eaab978fc22c8b7668eafd88c",
+      "rawSha256": "f773683d1194c040f522624e44de5c28459f5a11c8b8176089f27ef6453b1e86",
+      "revisionId": "19556",
+      "line": 475,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "19556",
+        "timestamp": "2014-02-20T03:22:54Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "LevelFive",
+    "qualified_name": "LotFP Spell Lists.LevelFive",
+    "table_block_index": 0,
+    "line_number": 475
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Airy Water",
+      "raw_text": "1,Airy Water",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Animate Dead",
+      "raw_text": "1,Animate Dead",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Chaos",
+      "raw_text": "1,Chaos",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Cloudkill",
+      "raw_text": "1,Cloudkill",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Contact Outer Sphere",
+      "raw_text": "1,Contact Outer Sphere",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Creation, Major",
+      "raw_text": "1,Creation, Major",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Faithful Hound",
+      "raw_text": "1,Faithful Hound",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Feeblemind",
+      "raw_text": "1,Feeblemind",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Hold Monster",
+      "raw_text": "1,Hold Monster",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Interposing Hand",
+      "raw_text": "1,Interposing Hand",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Magic Jar",
+      "raw_text": "1,Magic Jar",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Passwall",
+      "raw_text": "1,Passwall",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Secret Chest",
+      "raw_text": "1,Secret Chest",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Stone Shape",
+      "raw_text": "1,Stone Shape",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Telekinesis",
+      "raw_text": "1,Telekinesis",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Teleport",
+      "raw_text": "1,Teleport",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Transmute Rock to Mud",
+      "raw_text": "1,Transmute Rock to Mud",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Wall of Force",
+      "raw_text": "1,Wall of Force",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Wall of Iron",
+      "raw_text": "1,Wall of Iron",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Wall of Stone",
+      "raw_text": "1,Wall of Stone",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";LevelFive\n1,Airy Water\n1,Animate Dead\n1,Chaos\n1,Cloudkill\n1,Contact Outer Sphere\n1,Creation, Major\n1,Faithful Hound\n1,Feeblemind\n1,Hold Monster\n1,Interposing Hand\n1,Magic Jar\n1,Passwall\n1,Secret Chest\n1,Stone Shape\n1,Telekinesis\n1,Teleport\n1,Transmute Rock to Mud\n1,Wall of Force\n1,Wall of Iron\n1,Wall of Stone",
+  "warnings": []
+}

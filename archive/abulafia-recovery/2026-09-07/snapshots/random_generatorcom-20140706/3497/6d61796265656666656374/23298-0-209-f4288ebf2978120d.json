@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Blazon",
+    "page_id": 3497
+  },
+  "source": {
+    "revision_id": 23298,
+    "timestamp": "2014-06-18T07:41:57Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "d4fb928a275c93ee12dc9c93f348096b3b555d57116acdb05b13a49c72062eab",
+      "rawSha256": "f4288ebf2978120d6caa54368a34fec140f0d94d814951c9b938cb4489664601",
+      "revisionId": "23298",
+      "line": 209,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23298",
+        "timestamp": "2014-06-18T07:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "maybeeffect",
+    "qualified_name": "Blazon.maybeeffect",
+    "table_block_index": 0,
+    "line_number": 209
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[effect]",
+      "raw_text": "1,[effect] ",
+      "references": [
+        {
+          "raw": "[effect]",
+          "token": "effect",
+          "kind": "local",
+          "source_page": "Blazon",
+          "source_subtable": "maybeeffect",
+          "target_page": "Blazon",
+          "target_subtable": "effect",
+          "target_qualified_name": "Blazon.effect"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "",
+      "raw_text": "2,",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "effect"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";maybeeffect\n1,[effect] \n2,",
+  "warnings": []
+}

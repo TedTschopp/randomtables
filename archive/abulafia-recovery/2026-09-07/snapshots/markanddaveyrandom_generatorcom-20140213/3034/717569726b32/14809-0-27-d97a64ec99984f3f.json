@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14809,
+    "timestamp": "2012-06-24T15:53:20Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cb91c5be73bafca4eb602e10058ad9d26e0c6439bbd030157b562b2071be57b7",
+      "rawSha256": "d97a64ec99984f3fbb603a1ee3cc42e911c3cf9ac8a2f6befb4cc8b7a5dd2393",
+      "revisionId": "14809",
+      "line": 27,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "quirk2",
+    "qualified_name": "Village.quirk2",
+    "table_block_index": 0,
+    "line_number": 27
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "bad blood between two factions",
+      "raw_text": "1,bad blood between two factions",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "giant lucky animal",
+      "raw_text": "1,giant lucky animal",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "unusual pets",
+      "raw_text": "1,unusual pets",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "egg mine",
+      "raw_text": "1,egg mine",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "iron mine",
+      "raw_text": "1,iron mine",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "drug ring",
+      "raw_text": "1,drug ring",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "cannibals",
+      "raw_text": "1,cannibals",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "bandit lair",
+      "raw_text": "1,bandit lair",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "dwarves",
+      "raw_text": "1,dwarves",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "eating contest",
+      "raw_text": "1,eating contest",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "fighting ring",
+      "raw_text": "1,fighting ring",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "shrine",
+      "raw_text": "1,shrine",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "cultists worship undead",
+      "raw_text": "1,cultists worship undead",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "cultists worship demons",
+      "raw_text": "1,cultists worship demons",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "plot to overthrow leadership",
+      "raw_text": "1,plot to overthrow leadership",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "changelings",
+      "raw_text": "1,changelings",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "prisoners",
+      "raw_text": "1,prisoners",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "slaves",
+      "raw_text": "1,slaves",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "flesh mutants",
+      "raw_text": "1,flesh mutants",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "body snatchers",
+      "raw_text": "1,body snatchers",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "people smugglers",
+      "raw_text": "1,people smugglers",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "man in stocks",
+      "raw_text": "1,man in stocks",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "man in cage",
+      "raw_text": "1,man in cage",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "hanged man",
+      "raw_text": "1,hanged man",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "just raided by the rulers",
+      "raw_text": "1,just raided by the rulers",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "just raided by elves",
+      "raw_text": "1,just raided by elves",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "just raided by bandits",
+      "raw_text": "1,just raided by bandits",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "just raided by lizardmen",
+      "raw_text": "1,just raided by lizardmen",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "being raided by the rulers",
+      "raw_text": "1,being raided by the rulers",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "being raided by elves",
+      "raw_text": "1,being raided by elves",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "being raided by bandits",
+      "raw_text": "1,being raided by bandits",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "being raided by lizardmen",
+      "raw_text": "1,being raided by lizardmen",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "overrun with beasts",
+      "raw_text": "1,overrun with beasts",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "crawling with undead",
+      "raw_text": "1,crawling with undead",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";quirk2\n1,bad blood between two factions\n1,giant lucky animal\n1,unusual pets\n1,egg mine\n1,iron mine\n1,drug ring\n1,cannibals\n1,bandit lair\n1,dwarves\n1,eating contest\n1,fighting ring\n1,shrine\n1,cultists worship undead\n1,cultists worship demons\n1,plot to overthrow leadership\n1,changelings\n1,prisoners\n1,slaves\n1,flesh mutants\n1,body snatchers\n1,people smugglers\n1,man in stocks\n1,man in cage\n1,hanged man\n1,just raided by the rulers\n1,just raided by elves\n1,just raided by bandits\n1,just raided by lizardmen\n1,being raided by the rulers\n1,being raided by elves\n1,being raided by bandits\n1,being raided by lizardmen\n1,overrun with beasts\n1,crawling with undead",
+  "warnings": []
+}

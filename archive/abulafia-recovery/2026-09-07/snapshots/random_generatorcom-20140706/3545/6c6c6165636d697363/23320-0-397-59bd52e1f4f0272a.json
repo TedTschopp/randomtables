@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OSR weapon",
+    "page_id": 3545
+  },
+  "source": {
+    "revision_id": 23320,
+    "timestamp": "2014-06-21T23:12:29Z",
+    "contributor": {
+      "name": "Adamwb",
+      "id": 1811,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a0847e8427ebe5db330cf2596557aa792c64b91a8efc870a5d78f036a31a554c",
+      "rawSha256": "59bd52e1f4f0272a12e767452d37c8d06da73d17e6467020e3c5b9636e3a51f7",
+      "revisionId": "23320",
+      "line": 397,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "23320",
+        "timestamp": "2014-06-21T23:12:29Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "llaecmisc",
+    "qualified_name": "OSR weapon.llaecmisc",
+    "table_block_index": 0,
+    "line_number": 397
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "Dagger -1, cursed",
+      "raw_text": "2,Dagger -1, cursed",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Dagger of Venom, +1",
+      "raw_text": "1,Dagger of Venom, +1",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "Dagger +2, +3 vs. goblins",
+      "raw_text": "2,Dagger +2, +3 vs. goblins",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "Dagger +2, +3 vs. Lizard-folk",
+      "raw_text": "2,Dagger +2, +3 vs. Lizard-folk",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Dagger +2, Assassin",
+      "raw_text": "1,Dagger +2, Assassin",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "Mace +1 of Disruption",
+      "raw_text": "2,Mace +1 of Disruption",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "Trident +1 of Fish Command",
+      "raw_text": "3,Trident +1 of Fish Command",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "Trident +2 of Warning",
+      "raw_text": "3,Trident +2 of Warning",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 2,
+      "text": "Hammer of Dwarfs +2, +3 for Dwarfs, double damage and returns when thrown or triple vs. Giants",
+      "raw_text": "2,Hammer of Dwarfs +2, +3 for Dwarfs, double damage and returns when thrown or triple vs. Giants",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "Long bow +1",
+      "raw_text": "3,Long bow +1",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 2,
+      "text": "Short bow +1",
+      "raw_text": "2,Short bow +1",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Heavy Crossbow +1",
+      "raw_text": "1,Heavy Crossbow +1",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "Slaying Arrows +3",
+      "raw_text": "2,Slaying Arrows +3",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 3,
+      "text": "Sling +1",
+      "raw_text": "3,Sling +1",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 4,
+      "text": "Axe of Hurling, +2 up to 60 feet",
+      "raw_text": "4,Axe of Hurling, +2 up to 60 feet",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Crossbow of Accuracy +3",
+      "raw_text": "1,Crossbow of Accuracy +3",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Crossbow of Range +1",
+      "raw_text": "1,Crossbow of Range +1",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 2,
+      "text": "Crossbow of Speed",
+      "raw_text": "2,Crossbow of Speed",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Sling of the Halfling +2, hits targets as if +1",
+      "raw_text": "1,Sling of the Halfling +2, hits targets as if +1",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";llaecmisc\n2,Dagger -1, cursed\n1,Dagger of Venom, +1\n2,Dagger +2, +3 vs. goblins\n2,Dagger +2, +3 vs. Lizard-folk\n1,Dagger +2, Assassin\n2,Mace +1 of Disruption\n3,Trident +1 of Fish Command\n3,Trident +2 of Warning\n2,Hammer of Dwarfs +2, +3 for Dwarfs, double damage and returns when thrown or triple vs. Giants\n3,Long bow +1\n2,Short bow +1\n1,Heavy Crossbow +1\n2,Slaying Arrows +3\n3,Sling +1\n4,Axe of Hurling, +2 up to 60 feet\n1,Crossbow of Accuracy +3\n1,Crossbow of Range +1\n2,Crossbow of Speed\n1,Sling of the Halfling +2, hits targets as if +1",
+  "warnings": []
+}

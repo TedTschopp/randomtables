@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 22804,
+    "timestamp": "2014-06-10T11:05:49Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "26ff059db590e1f512004d30b6e5940dd0c17fc5b844788297be7c8802503892",
+      "rawSha256": "e3ce3bca3dec32b04e40f06c62b0d84a25a5ee919c59499e5e7c83dae4e63538",
+      "revisionId": "22804",
+      "line": 250,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22804",
+        "timestamp": "2014-06-10T11:05:49Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rations",
+    "qualified_name": "Starting Equipment.rations",
+    "table_block_index": 0,
+    "line_number": 250
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[rationtype][Village.food] rations for [number] days",
+      "raw_text": "1,[rationtype][Village.food] rations for [number] days",
+      "references": [
+        {
+          "raw": "[rationtype]",
+          "token": "rationtype",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rations",
+          "target_page": "Starting Equipment",
+          "target_subtable": "rationtype",
+          "target_qualified_name": "Starting Equipment.rationtype"
+        },
+        {
+          "raw": "[Village.food]",
+          "token": "Village.food",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rations",
+          "target_page": "Village",
+          "target_subtable": "food",
+          "target_qualified_name": "Village.food"
+        },
+        {
+          "raw": "[number]",
+          "token": "number",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rations",
+          "target_page": "Starting Equipment",
+          "target_subtable": "number",
+          "target_qualified_name": "Starting Equipment.number"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "number",
+      "rationtype"
+    ],
+    "external_subtables": [
+      "Village.food"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";rations\n1,[rationtype][Village.food] rations for [number] days",
+  "warnings": []
+}

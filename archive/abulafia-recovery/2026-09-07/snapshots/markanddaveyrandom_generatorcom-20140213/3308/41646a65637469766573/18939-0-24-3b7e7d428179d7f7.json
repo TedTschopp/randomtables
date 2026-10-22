@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Brennall",
+    "page_id": 3308
+  },
+  "source": {
+    "revision_id": 18939,
+    "timestamp": "2013-10-02T21:04:20Z",
+    "contributor": {
+      "name": "Brennall",
+      "id": 1795,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "29e28e652500505a23ea2663610e94554acfb3cdee994d7bf5e9ee9fdef3fe91",
+      "rawSha256": "3b7e7d428179d7f7c445337ca2b9e813e3b7e80ee394df677bea3f9f0ee18ead",
+      "revisionId": "18939",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "18939",
+        "timestamp": "2013-10-02T21:04:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Adjectives",
+    "qualified_name": "User:Brennall.Adjectives",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Ailment-Curing",
+      "raw_text": "1,Ailment-Curing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Batch-Brewed",
+      "raw_text": "1,Batch-Brewed",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Best-Ever",
+      "raw_text": "1,Best-Ever",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Better",
+      "raw_text": "1,Better",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Blinding",
+      "raw_text": "1,Blinding",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Blisterin' Hot",
+      "raw_text": "1,Blisterin' Hot",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "Boot-Blastin'",
+      "raw_text": "1,Boot-Blastin'",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "Bottom-Fermented",
+      "raw_text": "1,Bottom-Fermented",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "Bottle-Fermented",
+      "raw_text": "1,Bottle-Fermented",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "Brimming",
+      "raw_text": "1,Brimming",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "Brown",
+      "raw_text": "1,Brown",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "Bubbly",
+      "raw_text": "1,Bubbly",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "Bubblin'",
+      "raw_text": "1,Bubblin'",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "Cask-Brewed",
+      "raw_text": "1,Cask-Brewed",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 1,
+      "text": "Cold-Brewed",
+      "raw_text": "1,Cold-Brewed",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 1,
+      "text": "Dastardly Draught of",
+      "raw_text": "1,Dastardly Draught of",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "Dead-Raising",
+      "raw_text": "1,Dead-Raising",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "Domineering",
+      "raw_text": "1,Domineering",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "Exquisite",
+      "raw_text": "1,Exquisite",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "Extra-Spicy",
+      "raw_text": "1,Extra-Spicy",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "Famous",
+      "raw_text": "1,Famous",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "Fiery",
+      "raw_text": "1,Fiery",
+      "references": []
+    },
+    {
+      "index": 22,
+      "weight": 1,
+      "text": "Fine",
+      "raw_text": "1,Fine",
+      "references": []
+    },
+    {
+      "index": 23,
+      "weight": 1,
+      "text": "Fizzy",
+      "raw_text": "1,Fizzy",
+      "references": []
+    },
+    {
+      "index": 24,
+      "weight": 1,
+      "text": "Foaming",
+      "raw_text": "1,Foaming",
+      "references": []
+    },
+    {
+      "index": 25,
+      "weight": 1,
+      "text": "Foamy",
+      "raw_text": "1,Foamy",
+      "references": []
+    },
+    {
+      "index": 26,
+      "weight": 1,
+      "text": "Fomenting",
+      "raw_text": "1,Fomenting",
+      "references": []
+    },
+    {
+      "index": 27,
+      "weight": 1,
+      "text": "Flaming",
+      "raw_text": "1,Flaming",
+      "references": []
+    },
+    {
+      "index": 28,
+      "weight": 1,
+      "text": "Frozen",
+      "raw_text": "1,Frozen",
+      "references": []
+    },
+    {
+      "index": 29,
+      "weight": 1,
+      "text": "Grand Old",
+      "raw_text": "1,Grand Old",
+      "references": []
+    },
+    {
+      "index": 30,
+      "weight": 1,
+      "text": "Green",
+      "raw_text": "1,Green",
+      "references": []
+    },
+    {
+      "index": 31,
+      "weight": 1,
+      "text": "Hard-Hittin'",
+      "raw_text": "1,Hard-Hittin'",
+      "references": []
+    },
+    {
+      "index": 32,
+      "weight": 1,
+      "text": "Hard-Kickin'",
+      "raw_text": "1,Hard-Kickin'",
+      "references": []
+    },
+    {
+      "index": 33,
+      "weight": 1,
+      "text": "Hearty",
+      "raw_text": "1,Hearty",
+      "references": []
+    },
+    {
+      "index": 34,
+      "weight": 1,
+      "text": "Heart-Stopping",
+      "raw_text": "1,Heart-Stopping",
+      "references": []
+    },
+    {
+      "index": 35,
+      "weight": 1,
+      "text": "Heavy",
+      "raw_text": "1,Heavy",
+      "references": []
+    },
+    {
+      "index": 36,
+      "weight": 1,
+      "text": "Heavy-Hittin'",
+      "raw_text": "1,Heavy-Hittin'",
+      "references": []
+    },
+    {
+      "index": 37,
+      "weight": 1,
+      "text": "Honey Brown",
+      "raw_text": "1,Honey Brown",
+      "references": []
+    },
+    {
+      "index": 38,
+      "weight": 1,
+      "text": "Ice-Brewed",
+      "raw_text": "1,Ice-Brewed",
+      "references": []
+    },
+    {
+      "index": 39,
+      "weight": 1,
+      "text": "Ice Cold",
+      "raw_text": "1,Ice Cold",
+      "references": []
+    },
+    {
+      "index": 40,
+      "weight": 1,
+      "text": "Illustrious",
+      "raw_text": "1,Illustrious",
+      "references": []
+    },
+    {
+      "index": 41,
+      "weight": 1,
+      "text": "Mysterious",
+      "raw_text": "1,Mysterious",
+      "references": []
+    },
+    {
+      "index": 42,
+      "weight": 1,
+      "text": "Exceptional",
+      "raw_text": "1,Exceptional",
+      "references": []
+    },
+    {
+      "index": 43,
+      "weight": 20,
+      "text": "[Liquids] of",
+      "raw_text": "20,[Liquids] of",
+      "references": [
+        {
+          "raw": "[Liquids]",
+          "token": "Liquids",
+          "kind": "local",
+          "source_page": "User:Brennall",
+          "source_subtable": "Adjectives",
+          "target_page": "User:Brennall",
+          "target_subtable": "Liquids",
+          "target_qualified_name": "User:Brennall.Liquids"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "weight": 1,
+      "text": "Mysterious Elixir of",
+      "raw_text": "1,Mysterious Elixir of",
+      "references": []
+    },
+    {
+      "index": 45,
+      "weight": 1,
+      "text": "Exceptional Elixir of",
+      "raw_text": "1,Exceptional Elixir of",
+      "references": []
+    },
+    {
+      "index": 46,
+      "weight": 1,
+      "text": "Secret Elixir of",
+      "raw_text": "1,Secret Elixir of",
+      "references": []
+    },
+    {
+      "index": 47,
+      "weight": 1,
+      "text": "Extra-Special",
+      "raw_text": "1,Extra-Special",
+      "references": []
+    },
+    {
+      "index": 48,
+      "weight": 1,
+      "text": "Slow-Brewed",
+      "raw_text": "1,Slow-Brewed",
+      "references": []
+    },
+    {
+      "index": 49,
+      "weight": 1,
+      "text": "Magical",
+      "raw_text": "1,Magical",
+      "references": []
+    },
+    {
+      "index": 50,
+      "weight": 1,
+      "text": "Mouth-Burning",
+      "raw_text": "1,Mouth-Burning",
+      "references": []
+    },
+    {
+      "index": 51,
+      "weight": 1,
+      "text": "Mystical",
+      "raw_text": "1,Mystical",
+      "references": []
+    },
+    {
+      "index": 52,
+      "weight": 1,
+      "text": "Mystical Elixir of",
+      "raw_text": "1,Mystical Elixir of",
+      "references": []
+    },
+    {
+      "index": 53,
+      "weight": 1,
+      "text": "Red",
+      "raw_text": "1,Red",
+      "references": []
+    },
+    {
+      "index": 54,
+      "weight": 1,
+      "text": "Red-Hot",
+      "raw_text": "1,Red-Hot",
+      "references": []
+    },
+    {
+      "index": 55,
+      "weight": 1,
+      "text": "Scorchin' Hot",
+      "raw_text": "1,Scorchin' Hot",
+      "references": []
+    },
+    {
+      "index": 56,
+      "weight": 1,
+      "text": "Secret",
+      "raw_text": "1,Secret",
+      "references": []
+    },
+    {
+      "index": 57,
+      "weight": 1,
+      "text": "Steaming",
+      "raw_text": "1,Steaming",
+      "references": []
+    },
+    {
+      "index": 58,
+      "weight": 1,
+      "text": "Smokin' Hot",
+      "raw_text": "1,Smokin' Hot",
+      "references": []
+    },
+    {
+      "index": 59,
+      "weight": 1,
+      "text": "Thick and Creamy",
+      "raw_text": "1,Thick and Creamy",
+      "references": []
+    },
+    {
+      "index": 60,
+      "weight": 1,
+      "text": "Thick and Hearty",
+      "raw_text": "1,Thick and Hearty",
+      "references": []
+    },
+    {
+      "index": 61,
+      "weight": 1,
+      "text": "Thick and Rich",
+      "raw_text": "1,Thick and Rich",
+      "references": []
+    },
+    {
+      "index": 62,
+      "weight": 1,
+      "text": "Thoroughly Stirred",
+      "raw_text": "1,Thoroughly Stirred",
+      "references": []
+    },
+    {
+      "index": 63,
+      "weight": 15,
+      "text": "Tongue-[Tongue Finisher]",
+      "raw_text": "15,Tongue-[Tongue Finisher]",
+      "references": [
+        {
+          "raw": "[Tongue Finisher]",
+          "token": "Tongue Finisher",
+          "kind": "local",
+          "source_page": "User:Brennall",
+          "source_subtable": "Adjectives",
+          "target_page": "User:Brennall",
+          "target_subtable": "Tongue Finisher",
+          "target_qualified_name": "User:Brennall.Tongue Finisher"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "weight": 1,
+      "text": "Trusty Ol'",
+      "raw_text": "1,Trusty Ol'",
+      "references": []
+    },
+    {
+      "index": 65,
+      "weight": 1,
+      "text": "Ugly",
+      "raw_text": "1,Ugly",
+      "references": []
+    },
+    {
+      "index": 66,
+      "weight": 1,
+      "text": "Unbeatable",
+      "raw_text": "1,Unbeatable",
+      "references": []
+    },
+    {
+      "index": 67,
+      "weight": 1,
+      "text": "World-Famous",
+      "raw_text": "1,World-Famous",
+      "references": []
+    },
+    {
+      "index": 68,
+      "weight": 1,
+      "text": "World's Finest",
+      "raw_text": "1,World's Finest",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "Liquids",
+      "Tongue Finisher"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Adjectives\n1,Ailment-Curing\n1,Batch-Brewed\n1,Best-Ever\n1,Better\n1,Blinding\n1,Blisterin' Hot\n1,Boot-Blastin'\n1,Bottom-Fermented\n1,Bottle-Fermented\n1,Brimming\n1,Brown\n1,Bubbly\n1,Bubblin'\n1,Cask-Brewed\n1,Cold-Brewed\n1,Dastardly Draught of\n1,Dead-Raising\n1,Domineering\n1,Exquisite\n1,Extra-Spicy\n1,Famous\n1,Fiery\n1,Fine\n1,Fizzy\n1,Foaming\n1,Foamy\n1,Fomenting\n1,Flaming\n1,Frozen\n1,Grand Old\n1,Green\n1,Hard-Hittin'\n1,Hard-Kickin'\n1,Hearty\n1,Heart-Stopping\n1,Heavy\n1,Heavy-Hittin'\n1,Honey Brown\n1,Ice-Brewed\n1,Ice Cold\n1,Illustrious\n1,Mysterious\n1,Exceptional\n20,[Liquids] of\n1,Mysterious Elixir of\n1,Exceptional Elixir of\n1,Secret Elixir of\n1,Extra-Special\n1,Slow-Brewed\n1,Magical\n1,Mouth-Burning\n1,Mystical\n1,Mystical Elixir of\n1,Red\n1,Red-Hot\n1,Scorchin' Hot\n1,Secret\n1,Steaming\n1,Smokin' Hot\n1,Thick and Creamy\n1,Thick and Hearty\n1,Thick and Rich\n1,Thoroughly Stirred\n15,Tongue-[Tongue Finisher]\n1,Trusty Ol'\n1,Ugly\n1,Unbeatable\n1,World-Famous\n1,World's Finest",
+  "warnings": []
+}

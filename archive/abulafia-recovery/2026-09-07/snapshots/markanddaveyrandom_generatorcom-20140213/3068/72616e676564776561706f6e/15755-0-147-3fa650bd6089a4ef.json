@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15755,
+    "timestamp": "2012-11-13T09:33:10Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "bd976d0c236a9e6d42d66c10306cda43d57ef3fce7f5fdbfab8658c062e56602",
+      "rawSha256": "3fa650bd6089a4ef291162fd9343f2e86c31e110c9091ddc7d1fa03a939abc64",
+      "revisionId": "15755",
+      "line": 147,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "rangedweapon",
+    "qualified_name": "Starting Equipment.rangedweapon",
+    "table_block_index": 0,
+    "line_number": 147
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 10,
+      "text": "no ranged weapon",
+      "raw_text": "10,no ranged weapon",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "[bow]",
+      "raw_text": "3,[bow]",
+      "references": [
+        {
+          "raw": "[bow]",
+          "token": "bow",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rangedweapon",
+          "target_page": "Starting Equipment",
+          "target_subtable": "bow",
+          "target_qualified_name": "Starting Equipment.bow"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 3,
+      "text": "[crossbow]",
+      "raw_text": "3,[crossbow]",
+      "references": [
+        {
+          "raw": "[crossbow]",
+          "token": "crossbow",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rangedweapon",
+          "target_page": "Starting Equipment",
+          "target_subtable": "crossbow",
+          "target_qualified_name": "Starting Equipment.crossbow"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Dice.2d6] throwing knives (d3, range 20/40)",
+      "raw_text": "1,[Dice.2d6] throwing knives (d3, range 20/40)",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rangedweapon",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "blowgun with [Dice.3d6] darts (d3, range 20/40)",
+      "raw_text": "1,blowgun with [Dice.3d6] darts (d3, range 20/40)",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rangedweapon",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[Dice.2d6] javelins (d6, range 20/40)",
+      "raw_text": "1,[Dice.2d6] javelins (d6, range 20/40)",
+      "references": [
+        {
+          "raw": "[Dice.2d6]",
+          "token": "Dice.2d6",
+          "kind": "cross_page",
+          "source_page": "Starting Equipment",
+          "source_subtable": "rangedweapon",
+          "target_page": "Dice",
+          "target_subtable": "2d6",
+          "target_qualified_name": "Dice.2d6"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "sling (d4, range 50/100)",
+      "raw_text": "1,sling (d4, range 50/100)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "bow",
+      "crossbow"
+    ],
+    "external_subtables": [
+      "Dice.2d6",
+      "Dice.3d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";rangedweapon\n10,no ranged weapon\n3,[bow]\n3,[crossbow]\n1,[Dice.2d6] throwing knives (d3, range 20/40)\n1,blowgun with [Dice.3d6] darts (d3, range 20/40)\n1,[Dice.2d6] javelins (d6, range 20/40)\n1,sling (d4, range 50/100)",
+  "warnings": []
+}

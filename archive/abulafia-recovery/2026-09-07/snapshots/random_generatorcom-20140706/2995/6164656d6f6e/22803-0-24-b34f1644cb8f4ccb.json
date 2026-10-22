@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Horrors",
+    "page_id": 2995
+  },
+  "source": {
+    "revision_id": 22803,
+    "timestamp": "2014-06-10T10:55:55Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "9e7c98830a08116bccfaffcb83a49aecf65895a7796b7ce0f92c98fdf41d26ac",
+      "rawSha256": "b34f1644cb8f4ccb9c694dc2a5df6cf1ef16085e52d1da4544862f6d5d9b018a",
+      "revisionId": "22803",
+      "line": 24,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22803",
+        "timestamp": "2014-06-10T10:55:55Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "ademon",
+    "qualified_name": "Quick Horrors.ademon",
+    "table_block_index": 0,
+    "line_number": 24
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "{{Article|[demon]}}",
+      "raw_text": "1,{{Article|[demon]}}",
+      "references": [
+        {
+          "raw": "[demon]",
+          "token": "demon",
+          "kind": "local",
+          "source_page": "Quick Horrors",
+          "source_subtable": "ademon",
+          "target_page": "Quick Horrors",
+          "target_subtable": "demon",
+          "target_qualified_name": "Quick Horrors.demon"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "demon"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";ademon\n1,{{Article|[demon]}}",
+  "warnings": []
+}

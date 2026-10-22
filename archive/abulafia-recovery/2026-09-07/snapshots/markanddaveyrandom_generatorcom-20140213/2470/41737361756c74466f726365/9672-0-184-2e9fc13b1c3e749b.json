@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9672,
+    "timestamp": "2009-10-22T22:49:15Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "fd9a3e36903be2cdde33d2462b8eb6ae38eb237a5f837a836020e32d169e19b9",
+      "rawSha256": "2e9fc13b1c3e749b8fc24fc65aeee1f9a6469e12bad2ce4f2e8f8d0ac2b7bbae",
+      "revisionId": "9672",
+      "line": 184,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "AssaultForce",
+    "qualified_name": "Seige Force.AssaultForce",
+    "table_block_index": 0,
+    "line_number": 184
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[Dice.3d6]00 [Veteran] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].",
+      "raw_text": "1,[Dice.3d6]00 [Veteran] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[Veteran]",
+          "token": "Veteran",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "Veteran",
+          "target_qualified_name": "Seige Force.Veteran"
+        },
+        {
+          "raw": "[AssaultType]",
+          "token": "AssaultType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "AssaultType",
+          "target_qualified_name": "Seige Force.AssaultType"
+        },
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[RangedSupport]",
+          "token": "RangedSupport",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "RangedSupport",
+          "target_qualified_name": "Seige Force.RangedSupport"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[Dice.3d6]50 [Recruit] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].",
+      "raw_text": "1,[Dice.3d6]50 [Recruit] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[Recruit]",
+          "token": "Recruit",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "Recruit",
+          "target_qualified_name": "Seige Force.Recruit"
+        },
+        {
+          "raw": "[AssaultType]",
+          "token": "AssaultType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "AssaultType",
+          "target_qualified_name": "Seige Force.AssaultType"
+        },
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[RangedSupport]",
+          "token": "RangedSupport",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "RangedSupport",
+          "target_qualified_name": "Seige Force.RangedSupport"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[Dice.3d6]50 [Veteran] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].",
+      "raw_text": "1,[Dice.3d6]50 [Veteran] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[Veteran]",
+          "token": "Veteran",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "Veteran",
+          "target_qualified_name": "Seige Force.Veteran"
+        },
+        {
+          "raw": "[AssaultType]",
+          "token": "AssaultType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "AssaultType",
+          "target_qualified_name": "Seige Force.AssaultType"
+        },
+        {
+          "raw": "[Dice.1d8]",
+          "token": "Dice.1d8",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "1d8",
+          "target_qualified_name": "Dice.1d8"
+        },
+        {
+          "raw": "[RangedSupport]",
+          "token": "RangedSupport",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "RangedSupport",
+          "target_qualified_name": "Seige Force.RangedSupport"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[Dice.3d6]00 [Recruit] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].",
+      "raw_text": "1,[Dice.3d6]00 [Recruit] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].",
+      "references": [
+        {
+          "raw": "[Dice.3d6]",
+          "token": "Dice.3d6",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "3d6",
+          "target_qualified_name": "Dice.3d6"
+        },
+        {
+          "raw": "[Recruit]",
+          "token": "Recruit",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "Recruit",
+          "target_qualified_name": "Seige Force.Recruit"
+        },
+        {
+          "raw": "[AssaultType]",
+          "token": "AssaultType",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "AssaultType",
+          "target_qualified_name": "Seige Force.AssaultType"
+        },
+        {
+          "raw": "[Dice.1d8]",
+          "token": "Dice.1d8",
+          "kind": "cross_page",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Dice",
+          "target_subtable": "1d8",
+          "target_qualified_name": "Dice.1d8"
+        },
+        {
+          "raw": "[RangedSupport]",
+          "token": "RangedSupport",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "AssaultForce",
+          "target_page": "Seige Force",
+          "target_subtable": "RangedSupport",
+          "target_qualified_name": "Seige Force.RangedSupport"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "AssaultType",
+      "RangedSupport",
+      "Recruit",
+      "Veteran"
+    ],
+    "external_subtables": [
+      "Dice.1d8",
+      "Dice.3d6"
+    ],
+    "unresolved": []
+  },
+  "raw_source": ";AssaultForce\n1,[Dice.3d6]00 [Veteran] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].\n1,[Dice.3d6]50 [Recruit] [AssaultType] supported by [Dice.3d6]0 [RangedSupport].\n1,[Dice.3d6]50 [Veteran] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].\n1,[Dice.3d6]00 [Recruit] [AssaultType] supported by [Dice.1d8]50 [RangedSupport].",
+  "warnings": []
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rituals",
+    "page_id": 1883
+  },
+  "source": {
+    "revision_id": 4605,
+    "timestamp": "2007-11-27T02:01:38Z",
+    "contributor": {
+      "name": "Dave Younce",
+      "id": 1,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "9a87db7647a2bca55097a789546e5755f8e4aaec4f1131a6ec87cf76a4ce013f",
+      "rawSha256": "dcb387513bf0c32e407f4919cf7599503441b5108495bafceec50227811b1038",
+      "revisionId": "4605",
+      "line": 8,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "9620",
+        "timestamp": "2009-10-07T20:41:57Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "eventAny",
+    "qualified_name": "Rituals.eventAny",
+    "table_block_index": 0,
+    "line_number": 8
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "[militaryEvent]",
+      "raw_text": "1,[militaryEvent]",
+      "references": [
+        {
+          "raw": "[militaryEvent]",
+          "token": "militaryEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "militaryEvent",
+          "target_qualified_name": "Rituals.militaryEvent"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "[babyEvent]",
+      "raw_text": "1,[babyEvent]",
+      "references": [
+        {
+          "raw": "[babyEvent]",
+          "token": "babyEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "babyEvent",
+          "target_qualified_name": "Rituals.babyEvent"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "[[marriageEvent]",
+      "raw_text": "1,[[marriageEvent]",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "[buildingEvent]",
+      "raw_text": "1,[buildingEvent]",
+      "references": [
+        {
+          "raw": "[buildingEvent]",
+          "token": "buildingEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "buildingEvent",
+          "target_qualified_name": "Rituals.buildingEvent"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "[astronomyEvent]",
+      "raw_text": "1,[astronomyEvent]",
+      "references": [
+        {
+          "raw": "[astronomyEvent]",
+          "token": "astronomyEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "astronomyEvent",
+          "target_qualified_name": "Rituals.astronomyEvent"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "[deathEvent]",
+      "raw_text": "1,[deathEvent]",
+      "references": [
+        {
+          "raw": "[deathEvent]",
+          "token": "deathEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "deathEvent",
+          "target_qualified_name": "Rituals.deathEvent"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[adolescenceEvent]",
+      "raw_text": "1,[adolescenceEvent]",
+      "references": [
+        {
+          "raw": "[adolescenceEvent]",
+          "token": "adolescenceEvent",
+          "kind": "local",
+          "source_page": "Rituals",
+          "source_subtable": "eventAny",
+          "target_page": "Rituals",
+          "target_subtable": "adolescenceEvent",
+          "target_qualified_name": "Rituals.adolescenceEvent"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "adolescenceEvent",
+      "astronomyEvent",
+      "babyEvent",
+      "buildingEvent",
+      "deathEvent",
+      "militaryEvent"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";eventAny\n1,[militaryEvent]\n1,[babyEvent]\n1,[[marriageEvent]\n1,[buildingEvent]\n1,[astronomyEvent]\n1,[deathEvent]\n1,[adolescenceEvent]",
+  "warnings": []
+}

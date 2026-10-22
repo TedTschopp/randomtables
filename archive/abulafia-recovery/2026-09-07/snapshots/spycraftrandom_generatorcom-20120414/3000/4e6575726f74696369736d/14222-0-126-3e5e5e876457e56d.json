@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14222,
+    "timestamp": "2012-04-02T10:37:36Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "413546b61cd8757c565df5163206ff060cad4cffd2ded9103a2e0525cd17029a",
+      "rawSha256": "3e5e5e876457e56d0d357ca5633a5e041a8a82c540906687f2534f9f4312184a",
+      "revisionId": "14222",
+      "line": 126,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "Neuroticism",
+    "qualified_name": "User:Snake Eyes.Neuroticism",
+    "table_block_index": 0,
+    "line_number": 126
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "Anxiety",
+      "raw_text": "1, Anxiety",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "Hostility",
+      "raw_text": "1, Hostility",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Depression",
+      "raw_text": "1, Depression",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Self-Consciousness",
+      "raw_text": "1, Self-Consciousness",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "Impulsiveness",
+      "raw_text": "1, Impulsiveness",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "Vulnerability to Stress",
+      "raw_text": "1, Vulnerability to Stress",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";Neuroticism\n1, Anxiety\n1, Hostility\n1, Depression\n1, Self-Consciousness\n1, Impulsiveness\n1, Vulnerability to Stress",
+  "warnings": []
+}

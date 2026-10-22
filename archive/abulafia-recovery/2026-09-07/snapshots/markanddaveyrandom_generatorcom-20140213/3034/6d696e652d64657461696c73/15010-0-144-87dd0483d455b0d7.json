@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 15010,
+    "timestamp": "2012-07-12T16:12:50Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "50adc5aa43f8ee44fb003ceddba85fa6349490398b23994f78c5f746ebcb55ae",
+      "rawSha256": "87dd0483d455b0d7571925366278cf7cf7d053204b81549b72cf1abf9cdacabb",
+      "revisionId": "15010",
+      "line": 144,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mine-details",
+    "qualified_name": "Village.mine-details",
+    "table_block_index": 0,
+    "line_number": 144
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "(booming)",
+      "raw_text": "1,(booming)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "(drying up)",
+      "raw_text": "1,(drying up)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "(abandoned)",
+      "raw_text": "1,(abandoned)",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "(haunted)",
+      "raw_text": "1,(haunted)",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mine-details\n1,(booming)\n1,(drying up)\n1,(abandoned)\n1,(haunted)",
+  "warnings": []
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Quick Populations",
+    "page_id": 2977
+  },
+  "source": {
+    "revision_id": 13736,
+    "timestamp": "2012-02-29T06:10:13Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "de60206269dd0f16daef308aff998e91b5c2059d9f564bdc7a1401d10f90a20a",
+      "rawSha256": "6f7b85559081623db32b612a9b3138f4c13099d72f50de7a7f79d0da5fe936c0",
+      "revisionId": "13736",
+      "line": 65,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14076",
+        "timestamp": "2012-03-17T16:23:50Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "race-plural",
+    "qualified_name": "Quick Populations.race-plural",
+    "table_block_index": 0,
+    "line_number": 65
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 3,
+      "text": "humans",
+      "raw_text": "3,humans",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "elves",
+      "raw_text": "2,elves",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "dwarves",
+      "raw_text": "2,dwarves",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[domestic-animal]-people",
+      "raw_text": "2,[domestic-animal]-people",
+      "references": [
+        {
+          "raw": "[domestic-animal]",
+          "token": "domestic-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "race-plural",
+          "target_page": "Quick Populations",
+          "target_subtable": "domestic-animal",
+          "target_qualified_name": "Quick Populations.domestic-animal"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "goblins",
+      "raw_text": "1,goblins",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "trolls",
+      "raw_text": "1,trolls",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "[power-animal]-people",
+      "raw_text": "1,[power-animal]-people",
+      "references": [
+        {
+          "raw": "[power-animal]",
+          "token": "power-animal",
+          "kind": "local",
+          "source_page": "Quick Populations",
+          "source_subtable": "race-plural",
+          "target_page": "Quick Populations",
+          "target_subtable": "power-animal",
+          "target_qualified_name": "Quick Populations.power-animal"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "domestic-animal",
+      "power-animal"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";race-plural\n3,humans\n2,elves\n2,dwarves\n2,[domestic-animal]-people\n1,goblins\n1,trolls\n1,[power-animal]-people",
+  "warnings": []
+}

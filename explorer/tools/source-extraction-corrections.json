@@ -50,5 +50,31 @@
       "note": "0 NOTE: trailing spc!",
       "warning": "Line 324: preserved nonstandard row before first entry: 0 NOTE: trailing spc!"
     }
+  ],
+  "followUpBatches": [
+    {
+      "basis": {
+        "report": "Docs/quarantine-report.json",
+        "reportSha256": "c1cde3bad5742e19eaa3fc5fe9b0f83d950e847122a4e58b37550bcc79a42611",
+        "manifestSha256": "f762e6c866d63b25cc7baae38f7ae9bd90e0e308ae7c79557086915efe5aed75",
+        "candidateComponents": 1,
+        "conditionalEstimate": 0,
+        "policy": "Remove one extra closing bracket in Most [TitleDescriptor]]. Preserve the original source and probability; explicitly expose self-recursion and retain quarantine."
+      },
+      "corrections": [
+        {
+          "tableId": "wiki_abulafia_1611_5469746c6544657363726970746f72",
+          "sourceFile": "tables/secret-society-title/subtables/titledescriptor/table.json",
+          "sourceHash": "60778569a1a6e2574ca0b2aac5f48187cb57bc714f66c9cb59506d6b25af6b17",
+          "rawSourceHash": "cb29941e75f5962cdd3cdf5b200ccabae36129c515b898d6dd72a512f5d4dd75",
+          "kind": "repair-extra-self-reference-bracket",
+          "row": 1,
+          "line": 2,
+          "raw": "10,Most [TitleDescriptor]]",
+          "weight": 10,
+          "entryHash": "8d61353869e3e8292685903d20089838247cdfe3536daedeb9fe10e57f447f8b"
+        }
+      ]
+    }
   ]
 }

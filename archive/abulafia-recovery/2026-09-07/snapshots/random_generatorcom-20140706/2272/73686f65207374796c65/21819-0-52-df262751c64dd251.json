@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Found in a crate",
+    "page_id": 2272
+  },
+  "source": {
+    "revision_id": 21819,
+    "timestamp": "2014-05-20T12:00:20Z",
+    "contributor": {
+      "name": "ToB",
+      "id": 58,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a8e561a801bd11802c37decc02f426851891bba97ad4d2e32672534668ec8b02",
+      "rawSha256": "df262751c64dd2519dc7a8141360577239976388ef41062dd3e6af5fd77a2d2a",
+      "revisionId": "21819",
+      "line": 52,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "21819",
+        "timestamp": "2014-05-20T12:00:20Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "shoe style",
+    "qualified_name": "Found in a crate.shoe style",
+    "table_block_index": 0,
+    "line_number": 52
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "sandals",
+      "raw_text": "1,sandals",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 2,
+      "text": "pointy-toed shoes",
+      "raw_text": "2,pointy-toed shoes",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "curling-toed shoes",
+      "raw_text": "2,curling-toed shoes",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "boots",
+      "raw_text": "2,boots",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "work boots",
+      "raw_text": "1,work boots",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "combat boots",
+      "raw_text": "1,combat boots",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 2,
+      "text": "leather boots",
+      "raw_text": "2,leather boots",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "ninja tabi-boots",
+      "raw_text": "2,ninja tabi-boots",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "suede shoes",
+      "raw_text": "1,suede shoes",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "leather shoes",
+      "raw_text": "1,leather shoes",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "stilettos",
+      "raw_text": "1,stilettos",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "cloth feet wrappings",
+      "raw_text": "1,cloth feet wrappings",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "winter boots",
+      "raw_text": "1,winter boots",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "riding boots",
+      "raw_text": "1,riding boots",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";shoe style\n1,sandals\n2,pointy-toed shoes\n2,curling-toed shoes\n2,boots\n1,work boots\n1,combat boots\n2,leather boots\n2,ninja tabi-boots\n1,suede shoes\n1,leather shoes\n1,stilettos\n1,cloth feet wrappings\n1,winter boots\n1,riding boots",
+  "warnings": []
+}

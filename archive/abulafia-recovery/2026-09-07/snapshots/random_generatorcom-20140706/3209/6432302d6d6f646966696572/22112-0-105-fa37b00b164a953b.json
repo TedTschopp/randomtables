@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modifier",
+    "page_id": 3209
+  },
+  "source": {
+    "revision_id": 22112,
+    "timestamp": "2014-05-26T08:04:03Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "a2a4b54595890a2c760095ad3bc82e9693d8303b8f1cf65e06a77e5e56df287a",
+      "rawSha256": "fa37b00b164a953b473ef562c681e3dd1f32845e002cbc1650b9909c42e0689f",
+      "revisionId": "22112",
+      "line": 105,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22112",
+        "timestamp": "2014-05-26T08:04:03Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "d20-modifier",
+    "qualified_name": "Modifier.d20-modifier",
+    "table_block_index": 0,
+    "line_number": 105
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "-4",
+      "raw_text": "1,-4",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 11,
+      "text": "-3",
+      "raw_text": "11,-3",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 45,
+      "text": "-2",
+      "raw_text": "45,-2",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 118,
+      "text": "-1",
+      "raw_text": "118,-1",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 198,
+      "text": "+0",
+      "raw_text": "198,+0",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 262,
+      "text": "+1",
+      "raw_text": "262,+1",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 225,
+      "text": "+2",
+      "raw_text": "225,+2",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 125,
+      "text": "+3",
+      "raw_text": "125,+3",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 16,
+      "text": "+4",
+      "raw_text": "16,+4",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";d20-modifier\n1,-4\n11,-3\n45,-2\n118,-1\n198,+0\n262,+1\n225,+2\n125,+3\n16,+4",
+  "warnings": []
+}

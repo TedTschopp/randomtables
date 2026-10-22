@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Abulafia Random Generators:Medieval Person",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14214,
+    "timestamp": "2012-04-01T16:44:58Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d6b4cf172d74491d61088a781fb3ca571f65b87be50791576ecfaadedc526b02",
+      "rawSha256": "e96ec6d5e5a6ec3d02e27d35f7d83251d5627ce2347c2c1c76d744fdb3baf562",
+      "revisionId": "14214",
+      "line": 161,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15306",
+        "timestamp": "2012-10-04T13:28:01Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "MURDEROUS ADULTERY",
+    "qualified_name": "Abulafia Random Generators:Medieval Person.MURDEROUS ADULTERY",
+    "table_block_index": 0,
+    "line_number": 161
+  },
+  "entries": [],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";MURDEROUS ADULTERY\nMURDEROUS ADULTERY\n\ntwo Adulterers\na Betrayed Spouse\n\nTwo Adulterers conspire to kill the Betrayed Spouse.",
+  "warnings": [
+    "Line 161: preserved nonstandard row before first entry: MURDEROUS ADULTERY",
+    "Line 163: preserved nonstandard row before first entry: two Adulterers",
+    "Line 164: preserved nonstandard row before first entry: a Betrayed Spouse",
+    "Line 166: preserved nonstandard row before first entry: Two Adulterers conspire to kill the Betrayed Spouse."
+  ]
+}

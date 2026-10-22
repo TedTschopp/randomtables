@@ -1,0 +1,1210 @@
+{
+  "schemaVersion": 1,
+  "previousManifestSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e",
+  "nextManifestSha256": "6cbd8057f7208318c21d0433eb6a8bc03d0dd260edfe38e9357d36c73e7bc4ee",
+  "previous": {
+    "tables": 32255,
+    "ready": 25275,
+    "blocked": 6980,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "current": {
+    "tables": 32255,
+    "ready": 25455,
+    "blocked": 6800,
+    "coreTables": 11,
+    "contributors": 275,
+    "pages": 1638,
+    "currentTables": 26156,
+    "historicalTables": 6099,
+    "sourceArchives": 2170,
+    "entries": 590941,
+    "historicalAttribution": 31704
+  },
+  "policies": [
+    {
+      "tableId": "wiki_abulafia_1537_56656767696573436f6f6b61626c65",
+      "sourceFile": "tables/fantasymenu/subtables/veggiescookable/table.json",
+      "sourceHash": "7457132dcb61c52cb142de60171bd4d6fd67ce01aa6b673bb403486a73046c71",
+      "rawSourceHash": "af1d8965f6cf417314271c7635d7674ccec18c0a1278af2aa377d3bd6508e214",
+      "row": 4,
+      "line": 5,
+      "raw": "2,[VeggiesCookable] and [VeggiesCookable]",
+      "entryHash": "3a938626f1b46d2f1cdf393c54e5d633dde442ac6840e35966c878507bb549b8",
+      "weight": 2,
+      "kind": "unique-pair",
+      "maxDepth": 1
+    },
+    {
+      "tableId": "wiki_abulafia_1611_5469746c6544657363726970746f72",
+      "sourceFile": "tables/secret-society-title/subtables/titledescriptor/table.json",
+      "sourceHash": "60778569a1a6e2574ca0b2aac5f48187cb57bc714f66c9cb59506d6b25af6b17",
+      "rawSourceHash": "cb29941e75f5962cdd3cdf5b200ccabae36129c515b898d6dd72a512f5d4dd75",
+      "row": 1,
+      "line": 2,
+      "raw": "10,Most [TitleDescriptor]]",
+      "entryHash": "8d61353869e3e8292685903d20089838247cdfe3536daedeb9fe10e57f447f8b",
+      "weight": 10,
+      "kind": "bounded-wrapper",
+      "maxDepth": 1
+    }
+  ],
+  "promoted": [
+    {
+      "id": "wiki_abulafia_2628_436f6e766f79204d65726368616e74",
+      "name": "50F Encounter Table.Convoy Merchant",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e7420467269676174652043726577",
+      "name": "50F Encounter Table.Merchant Frigate Crew",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e7420467269676174652046756c6c2053746174626c6f636b",
+      "name": "50F Encounter Table.Merchant Frigate Full Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e7420467269676174652048616c662053746174626c6f636b",
+      "name": "50F Encounter Table.Merchant Frigate Half Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e7420467269676174652053746174626c6f636b",
+      "name": "50F Encounter Table.Merchant Frigate Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e7420486f792053746174626c6f636b",
+      "name": "50F Encounter Table.Merchant Hoy Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_4d65726368616e74205363686f6f6e65722053746174626c6f636b",
+      "name": "50F Encounter Table.Merchant Schooner Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_5069726174652047616c6c656f6e204372657732",
+      "name": "50F Encounter Table.Pirate Galleon Crew2",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_5069726174652047616c6c656f6e2053746174626c6f636b",
+      "name": "50F Encounter Table.Pirate Galleon Statblock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_5069726174652053686970",
+      "name": "50F Encounter Table.Pirate Ship",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2628_5069726174652053686970204e6f466c656574",
+      "name": "50F Encounter Table.Pirate Ship NoFleet",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1503_486f6e6f7269666963",
+      "name": "ArcaneBooks.Honorific",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c654163636573736f72696573",
+      "name": "Armor.MaleAccessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c65436c6f7468696e67",
+      "name": "Armor.MaleClothing",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c6546756c6c426f6479",
+      "name": "Armor.MaleFullBody",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c6555707065724c6179657232",
+      "name": "Armor.MaleUpperLayer2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c6555707065724f7574666974",
+      "name": "Armor.MaleUpperOutfit",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_4d616c65557070657253696e676c655069656365",
+      "name": "Armor.MaleUpperSinglePiece",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1790_53657276616e74556e69666f726d4d616c65",
+      "name": "Armor.ServantUniformMale",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1742_7468726561746e6174757265",
+      "name": "Champion of darkness.threatnature",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4163636573736f72696573",
+      "name": "ClothingFemale.Accessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c654163636573736f72696573",
+      "name": "ClothingFemale.FemaleAccessories",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c65436c6f7468696e67",
+      "name": "ClothingFemale.FemaleClothing",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c65466f6f7477656172",
+      "name": "ClothingFemale.FemaleFootwear",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c6546756c6c426f6479",
+      "name": "ClothingFemale.FemaleFullBody",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c654c6f776572",
+      "name": "ClothingFemale.FemaleLower",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c6555707065724c6179657231",
+      "name": "ClothingFemale.FemaleUpperLayer1",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c6555707065724c6179657232",
+      "name": "ClothingFemale.FemaleUpperLayer2",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c6555707065724f7574666974",
+      "name": "ClothingFemale.FemaleUpperOutfit",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_46656d616c65557070657253696e676c655069656365",
+      "name": "ClothingFemale.FemaleUpperSinglePiece",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_466f6f7477656172",
+      "name": "ClothingFemale.Footwear",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4c6f776572",
+      "name": "ClothingFemale.Lower",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d61745f436f6d626f5f434d",
+      "name": "ClothingFemale.Mat_Combo_CM",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d61745f436f6d626f5f436f6d6d6f6e",
+      "name": "ClothingFemale.Mat_Combo_Common",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d61745f436f6d626f5f46616e6379",
+      "name": "ClothingFemale.Mat_Combo_Fancy",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d6174657269616c436f6d626f73436861696e6d61696c61626c65",
+      "name": "ClothingFemale.MaterialCombosChainmailable",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d6174657269616c436f6d626f73436f6d6d6f6e",
+      "name": "ClothingFemale.MaterialCombosCommon",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d6174657269616c436f6d626f7346616e6379",
+      "name": "ClothingFemale.MaterialCombosFancy",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_4d6174657269616c7346616e6379",
+      "name": "ClothingFemale.MaterialsFancy",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_53657276616e74556e69666f726d46656d616c65",
+      "name": "ClothingFemale.ServantUniformFemale",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_55707065724c6179657232",
+      "name": "ClothingFemale.UpperLayer2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_566573746d656e7473",
+      "name": "ClothingFemale.Vestments",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_7e4d4343",
+      "name": "ClothingFemale.~MCC",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_7e4d434368",
+      "name": "ClothingFemale.~MCCh",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1517_7e4d4346",
+      "name": "ClothingFemale.~MCF",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c654163636573736f72696573",
+      "name": "ClothingMale.MaleAccessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c654163636573736f726965734368616e6365",
+      "name": "ClothingMale.MaleAccessoriesChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c65436c6f7468696e67",
+      "name": "ClothingMale.MaleClothing",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c65466f6f7477656172",
+      "name": "ClothingMale.MaleFootwear",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c6546756c6c426f6479",
+      "name": "ClothingMale.MaleFullBody",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c654c6f776572",
+      "name": "ClothingMale.MaleLower",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c6555707065724c6179657231",
+      "name": "ClothingMale.MaleUpperLayer1",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c6555707065724c6179657232",
+      "name": "ClothingMale.MaleUpperLayer2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c6555707065724f7574666974",
+      "name": "ClothingMale.MaleUpperOutfit",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_4d616c65557070657253696e676c655069656365",
+      "name": "ClothingMale.MaleUpperSinglePiece",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_53657276616e74556e69666f726d4d616c65",
+      "name": "ClothingMale.ServantUniformMale",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1518_6d61696e",
+      "name": "ClothingMale.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1883_636c6f7468696e675265737472696374696f6e",
+      "name": "Customs and Superstitions.clothingRestriction",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1883_72697465507572696669636174696f6e",
+      "name": "Customs and Superstitions.ritePurification",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_416d617a6f6e41726d6f72",
+      "name": "Dueling Character.AmazonArmor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_4472756964436c6f74686573",
+      "name": "Dueling Character.DruidClothes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_46656d616c654c6967687441726d6f72",
+      "name": "Dueling Character.FemaleLightArmor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_46656d616c654c6967687441726d6f72426f74746f6d",
+      "name": "Dueling Character.FemaleLightArmorBottom",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_46656d616c654c6967687441726d6f724f7574666974",
+      "name": "Dueling Character.FemaleLightArmorOutfit",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_46656d616c654c6967687441726d6f72546f70",
+      "name": "Dueling Character.FemaleLightArmorTop",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_4d616765436c6f74686573",
+      "name": "Dueling Character.MageClothes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_4d6167655469746c65",
+      "name": "Dueling Character.MageTitle",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2243_4d616c65526f626573",
+      "name": "Dueling Character.MaleRobes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3886_6769616e74736f67726573",
+      "name": "Encounters in the Sky Countries.giantsogres",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3033_4d697363",
+      "name": "Epithets.Misc",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3033_535354",
+      "name": "Epithets.SST",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1538_4d696e6f7256696c6c61696e73",
+      "name": "Fantasy Adventure Generator.MinorVillains",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1538_506c6f74",
+      "name": "Fantasy Adventure Generator.Plot",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1536_4167726963756c7475726550726f64756374",
+      "name": "Fantasy Farmstead.AgricultureProduct",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1536_50726f64756374",
+      "name": "Fantasy Farmstead.Product",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2053_4d616c65486f6e6f7269666963",
+      "name": "Fantasy Male Military Hero.MaleHonorific",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2053_4e616d65",
+      "name": "Fantasy Male Military Hero.Name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1533_41646a656374697665",
+      "name": "FantasyBooks.Adjective",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3963_41646a656374697665",
+      "name": "FantasyBooksFR.Adjective",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_446573637269707469766541646a6563746976657332",
+      "name": "FantasyMenu.DescriptiveAdjectives2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_45676773",
+      "name": "FantasyMenu.Eggs",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_56656767696573",
+      "name": "FantasyMenu.Veggies",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_5665676769657332",
+      "name": "FantasyMenu.Veggies2",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1537_56656767696573436f6f6b61626c65",
+      "name": "FantasyMenu.VeggiesCookable",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2287_656e656d7967726f75706e616d65",
+      "name": "G.I. Joe Plot Generator.enemygroupname",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1544_636f6e74657374696e6767726f757073",
+      "name": "Generic Mission Generator.contestinggroups",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1544_67726f7570",
+      "name": "Generic Mission Generator.group",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1544_6974656d6d61696e",
+      "name": "Generic Mission Generator.itemmain",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1544_7374616765",
+      "name": "Generic Mission Generator.stage",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1544_7374616765706f7374",
+      "name": "Generic Mission Generator.stagepost",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4571_717472616974",
+      "name": "Goblin Quirks.qtrait",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4481_67617264656e666f6f6473",
+      "name": "Goblin Rations.gardenfoods",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4182_717472616974",
+      "name": "Goblin.qtrait",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1556_6d61696e",
+      "name": "Inscriptions.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_47656e74727941646473",
+      "name": "Jgbaxter MedievalSocialClass.GentryAdds",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_4e617679506f736974696f6e48696768",
+      "name": "Jgbaxter MedievalSocialClass.NavyPositionHigh",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_4e617679506f736974696f6e4c6f77",
+      "name": "Jgbaxter MedievalSocialClass.NavyPositionLow",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_4e617679506f736974696f6e52616e646f6d",
+      "name": "Jgbaxter MedievalSocialClass.NavyPositionRandom",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2598_536869704e616d65",
+      "name": "Jgbaxter MedievalSocialClass.ShipName",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2245_4465736372697052756e655374616666",
+      "name": "Mage Staff.DescripRuneStaff",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2574_4265646f75696e4163636573736f72696573",
+      "name": "Middle Eastern Character.BedouinAccessories",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2574_4265646f75696e41726d6f72",
+      "name": "Middle Eastern Character.BedouinArmor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2574_44657276697368436c6f74686573",
+      "name": "Middle Eastern Character.DervishClothes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2574_4d616765436c6f74686573",
+      "name": "Middle Eastern Character.MageClothes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2574_4d616c65526f626573",
+      "name": "Middle Eastern Character.MaleRobes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_4163636573736f72696573",
+      "name": "Middle Eastern Gear.Accessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_4265646f75696e4163636573736f72696573",
+      "name": "Middle Eastern Gear.BedouinAccessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_436c6f7468696e67",
+      "name": "Middle Eastern Gear.Clothing",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_48656164706965636573",
+      "name": "Middle Eastern Gear.Headpieces",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_4d616c654f7574666974",
+      "name": "Middle Eastern Gear.MaleOutfit",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2577_526f626573",
+      "name": "Middle Eastern Gear.Robes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2585_4d696e6f7256696c6c61696e73",
+      "name": "My Supernatural Romance Generator.MinorVillains",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2585_506c6f74",
+      "name": "My Supernatural Romance Generator.Plot",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4787_502d506872617365",
+      "name": "NPC-de-Jour.P-Phrase",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4787_502d506872617365090920202020202020202020202020093c212d2d2d095b496e736372697074696f6e732e6d61696e5d202d2d2d3e",
+      "name": "NPC-de-Jour.P-Phrase\t\t             \t<!---\t[Inscriptions.main] --->",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2238_46656d616c655069726174654e616d65",
+      "name": "Old West Clothes.FemalePirateName",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2238_4d616c655069726174654e616d65",
+      "name": "Old West Clothes.MalePirateName",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2238_6d61696e",
+      "name": "Old West Clothes.main",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2055_4c616e647363617065",
+      "name": "Painting.Landscape",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1569_496d616765",
+      "name": "Pickpocket Encounter.Image",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1569_506f6f724d697363656c6c616e656f7573",
+      "name": "Pickpocket Encounter.PoorMiscellaneous",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1569_506f6f725f4d697363",
+      "name": "Pickpocket Encounter.Poor_Misc",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2239_46656d616c655069726174654e616d65",
+      "name": "Pirate Names.FemalePirateName",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2239_4d616c655069726174654e616d65",
+      "name": "Pirate Names.MalePirateName",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2239_6d61696e",
+      "name": "Pirate Names.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3190_6974656d",
+      "name": "Planarch Codex Parish.item",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3190_6974656d2d6e616d65",
+      "name": "Planarch Codex Parish.item-name",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1572_6576696c",
+      "name": "Pulp Character Concept.evil",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3833_6865617264",
+      "name": "Questions and Consequences.heard",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3833_72756d6f72",
+      "name": "Questions and Consequences.rumor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1723_6d61696e",
+      "name": "Quick Relationship.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1723_72656c6174696f6e73686970616e79",
+      "name": "Quick Relationship.relationshipany",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3360_6e616d6573",
+      "name": "Sea Encounters.names",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1609_6d61696e",
+      "name": "Secret Societies and Splats.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1610_6d61696e",
+      "name": "Secret Society Name.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1611_536563726574536f63696574794e616d65",
+      "name": "Secret Society Title.SecretSocietyName",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1611_544454",
+      "name": "Secret Society Title.TDT",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1611_5469746c6544657363726970746f72",
+      "name": "Secret Society Title.TitleDescriptor",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3634_53746f636b",
+      "name": "Shadowrun Firearm Generator.Stock",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3656_626477",
+      "name": "Shadowrun Weapon Foci Generator.bdw",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3633_626477",
+      "name": "Shadowrun Weapon Generator.bdw",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3599_4163636573736f72696573",
+      "name": "Shinobi and samurai loot.Accessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3599_4265646f75696e4163636573736f72696573",
+      "name": "Shinobi and samurai loot.BedouinAccessories",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3599_436c6f7468696e67",
+      "name": "Shinobi and samurai loot.Clothing",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3599_48656164706965636573",
+      "name": "Shinobi and samurai loot.Headpieces",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3599_526f626573",
+      "name": "Shinobi and samurai loot.Robes",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1613_6d61696e",
+      "name": "Ship Names.main",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3743_736d616c6c2d6b696e67646f6d732d6e616d6573",
+      "name": "Sstabhmontown Hirelings.small-kingdoms-names",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3743_7373746162686d6f6e746f776e2d6e616d6573",
+      "name": "Sstabhmontown Hirelings.sstabhmontown-names",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3743_73746f6e656c616e64732d6261636b67726f756e64",
+      "name": "Sstabhmontown Hirelings.stonelands-background",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3825_6e6f72746865726e6e616d65",
+      "name": "Sstabhmontown Mercenaries.northernname",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1643_61646a656374697665",
+      "name": "Superhero Names.adjective",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1643_61646a6563746976656368616e6365",
+      "name": "Superhero Names.adjectivechance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1643_6d6f646966796368616e6365",
+      "name": "Superhero Names.modifychance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1618_626477",
+      "name": "Swords.bdw",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2968_496c6c6567616c5365727669636573",
+      "name": "Taberna.IllegalServices",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2968_496c6c6567616c53657276696365734368616e6365",
+      "name": "Taberna.IllegalServicesChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2968_496c6c6567616c53657276696365734d656e75",
+      "name": "Taberna.IllegalServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_2968_4f7468657253657276696365734d656e75",
+      "name": "Taberna.OtherServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4667_496c6c6567616c5365727669636573",
+      "name": "Tavern Entertainer Circuit.IllegalServices",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4667_496c6c6567616c53657276696365734368616e6365",
+      "name": "Tavern Entertainer Circuit.IllegalServicesChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4667_496c6c6567616c53657276696365734d656e75",
+      "name": "Tavern Entertainer Circuit.IllegalServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_4667_4f7468657253657276696365734d656e75",
+      "name": "Tavern Entertainer Circuit.OtherServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1620_496c6c6567616c5365727669636573",
+      "name": "Tavern.IllegalServices",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1620_496c6c6567616c53657276696365734368616e6365",
+      "name": "Tavern.IllegalServicesChance",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1620_496c6c6567616c53657276696365734d656e75",
+      "name": "Tavern.IllegalServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1620_4f7468657253657276696365734d656e75",
+      "name": "Tavern.OtherServicesMenu",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_66696768746572",
+      "name": "User:Adamwb.fighter",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_6e6f626c65",
+      "name": "User:Adamwb.noble",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_72616e736f6d",
+      "name": "User:Adamwb.ransom",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_72657461696e6572",
+      "name": "User:Adamwb.retainer",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3354_77686174677561726473",
+      "name": "User:Adamwb.whatguards",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3636_66696768746572",
+      "name": "User:Adamwb/sandbox.fighter",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3636_72657461696e6572",
+      "name": "User:Adamwb/sandbox.retainer",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3636_77686174677561726473",
+      "name": "User:Adamwb/sandbox.whatguards",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1625_486572616c64727953796d626f6c",
+      "name": "Utility.HeraldrySymbol",
+      "historical": true,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1625_506c616e7453796d626f6c",
+      "name": "Utility.PlantSymbol",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1625_53796d626f6c",
+      "name": "Utility.Symbol",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_1625_53796d626f6c456e64696e67",
+      "name": "Utility.SymbolEnding",
+      "historical": false,
+      "execution": "wiki"
+    },
+    {
+      "id": "wiki_abulafia_3137_706c616e74",
+      "name": "Wampus Country Striga Generator.plant",
+      "historical": false,
+      "execution": "wiki"
+    }
+  ],
+  "preservedReady": 25275,
+  "preservedArchives": 2170,
+  "changed": [
+    {
+      "file": "explorer/abulafia-catalog.js",
+      "beforeSha256": "417caf040167423d84c767a705c75cf54d94bf018563fc21b44c827c8b0accd7",
+      "afterSha256": "5d2b411fd2ed15628f7a9611eeb36994fe424941c7c8147021ca4a7e52080c0d"
+    },
+    {
+      "file": "tables/abulafia/manifest.json",
+      "beforeSha256": "75f16660c7b948d2aaa720690e6388e382cd9876aa70d394cf983b6bfa07848e",
+      "afterSha256": "6cbd8057f7208318c21d0433eb6a8bc03d0dd260edfe38e9357d36c73e7bc4ee"
+    },
+    {
+      "file": "explorer/tools/recursion-policies.json",
+      "beforeSha256": null,
+      "afterSha256": "39e063697710e25c07685eead422947d590ad10296f5cc39581db1f1fa930f1e"
+    }
+  ],
+  "currentReady": 20999,
+  "historicalReady": 4456,
+  "reportPublication": {
+    "generatedOn": "2026-09-08",
+    "manifestSha256": "6cbd8057f7208318c21d0433eb6a8bc03d0dd260edfe38e9357d36c73e7bc4ee",
+    "changes": [
+      {
+        "file": "Docs/macro-inventory.json",
+        "beforeSha256": "c9dd58a3b23761f4f0b00061e549c2b58dc4a9c22afbeca555b2a262efa3f509",
+        "afterSha256": "5e32192d0e86bdab9ce73e2ce81237919087fa48f1d11c2ef33641fc0c6faebf"
+      },
+      {
+        "file": "Docs/macro-inventory.md",
+        "beforeSha256": "6b5eff2d56c8ab94b735aefc6b443a4a2db484ee5e51278fb6fe0713cef6dc64",
+        "afterSha256": "b10e3f1da83b24a0db9b45aa1e6d47f830b2631a9ede87d0130c60ca9de4d5b9"
+      },
+      {
+        "file": "Docs/quarantine-report.json",
+        "beforeSha256": "f94212a9ac92050127613e6c5cfacb9a70273f45a4a51ed7a30552f4b96974c8",
+        "afterSha256": "0a114ecc3c7b77774fe5072ef7b6475e8af1bfc188a09e01b3321df63c647531"
+      },
+      {
+        "file": "Docs/quarantine-report.md",
+        "beforeSha256": "d740225b9b72dda2f6a7c936d443af49791ca51460275cbc7c7245858ab0653a",
+        "afterSha256": "97140b299aa560116757124d2554687452625dce6a8ce29b8e73698c91979e36"
+      }
+    ],
+    "summary": {
+      "importedTables": 32255,
+      "readyTables": 25455,
+      "blockedTables": 6800,
+      "dependencyOnlyTables": 3531,
+      "multipleRootTables": 3508,
+      "rootComponents": 3131,
+      "cyclicComponents": 601,
+      "unexplainedTables": 0
+    },
+    "caseCorrectionBatch": {
+      "components": 5,
+      "targets": 2,
+      "conditionalRecovery": 6
+    }
+  },
+  "approvalFile": "explorer/tools/recursion-policies.json",
+  "approvalSha256": "39e063697710e25c07685eead422947d590ad10296f5cc39581db1f1fa930f1e",
+  "staticReady": 24436,
+  "runtimeReady": 1019,
+  "rollAcceptance": "roll-acceptance.json",
+  "generatedArtifacts": 2173,
+  "generatedBytes": 333896247
+}

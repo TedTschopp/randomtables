@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "QuickAdjective",
+    "page_id": 3891
+  },
+  "source": {
+    "revision_id": 28914,
+    "timestamp": "2015-09-13T21:02:27Z",
+    "contributor": {
+      "name": "MikeyD",
+      "id": 1828,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20180504",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20180504/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "sourceSha256": "fde0e1c1c27fb725069b2cda15bea92fb1f3480a24473b978224d80010516e36",
+      "sourceMember": "markanddaveyrandom_generatorcom-20180504-history.xml",
+      "xmlSha256": "dfaa563a770743b26ea50806fd5a504795a8cc4a93a87260ccf53ade24720fdb",
+      "xmlBytes": 364554876,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20180504-history.xml.7z",
+      "textSha256": "540fb53bb0666b90b45a01964299892fabfdc387c11d757500455c7b0078d44c",
+      "rawSha256": "20243cf280767e2777a78b316d1c0a9cdc8f683011e1b86b3aaf687abe3bd872",
+      "revisionId": "28914",
+      "line": 27,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "37699",
+        "timestamp": "2018-01-21T18:03:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "subj",
+    "qualified_name": "QuickAdjective.subj",
+    "table_block_index": 0,
+    "line_number": 27
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 4,
+      "text": "He",
+      "raw_text": "4,He",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 4,
+      "text": "She",
+      "raw_text": "4,She",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "Fred",
+      "raw_text": "1,Fred",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "Jane",
+      "raw_text": "1,Jane",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "That girl",
+      "raw_text": "1,That girl",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "That guy",
+      "raw_text": "1,That guy",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 1,
+      "text": "That one",
+      "raw_text": "1,That one",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 1,
+      "text": "The character who just walked in",
+      "raw_text": "1,The character who just walked in",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "The being who just shambled by",
+      "raw_text": "1,The being who just shambled by",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";subj\n4,He\n4,She\n1,Fred\n1,Jane\n1,That girl\n1,That guy\n1,That one\n1,The character who just walked in\n1,The being who just shambled by",
+  "warnings": []
+}

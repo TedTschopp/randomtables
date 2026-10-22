@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Curse",
+    "page_id": 3085
+  },
+  "source": {
+    "revision_id": 22835,
+    "timestamp": "2014-06-10T12:19:05Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "50664b838d75c2f19809faed68bb0d4bad9d75edae58efcece92d31e4b0043ac",
+      "rawSha256": "e99766d9b5a63a460a7b911a34c5bb31364077284b7e9bd6bc26f1942aef95e3",
+      "revisionId": "22835",
+      "line": 246,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22835",
+        "timestamp": "2014-06-10T12:19:05Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "material",
+    "qualified_name": "Curse.material",
+    "table_block_index": 0,
+    "line_number": 246
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "wood",
+      "raw_text": "1,wood",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "stone",
+      "raw_text": "1,stone",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "wax",
+      "raw_text": "1,wax",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "dust",
+      "raw_text": "1,dust",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "bone",
+      "raw_text": "1,bone",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 1,
+      "text": "jelly",
+      "raw_text": "1,jelly",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";material\n1,wood\n1,stone\n1,wax\n1,dust\n1,bone\n1,jelly",
+  "warnings": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Pickpocket",
+    "page_id": 1569
+  },
+  "source": {
+    "revision_id": 10367,
+    "timestamp": "2010-03-31T20:25:21Z",
+    "contributor": {
+      "name": "Taft1909",
+      "id": 579,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "cf7741f3f19ee5e452d602ec78c48f02bff79bd130cea57effaf3bf5dc05605c",
+      "rawSha256": "db5f5c32d8781ed7aecae70421d569766092bcfca473067dc0c54fd7d24c0ee3",
+      "revisionId": "10367",
+      "line": 278,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "10367",
+        "timestamp": "2010-03-31T20:25:21Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "PoorConsumable",
+    "qualified_name": "Pickpocket.PoorConsumable",
+    "table_block_index": 0,
+    "line_number": 278
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 5,
+      "text": "[PoorEdible]",
+      "raw_text": "5,[PoorEdible]",
+      "references": [
+        {
+          "raw": "[PoorEdible]",
+          "token": "PoorEdible",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorEdible",
+          "target_qualified_name": "Pickpocket.PoorEdible"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[PoorDrinkable]",
+      "raw_text": "5,[PoorDrinkable]",
+      "references": [
+        {
+          "raw": "[PoorDrinkable]",
+          "token": "PoorDrinkable",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorDrinkable",
+          "target_qualified_name": "Pickpocket.PoorDrinkable"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 2,
+      "text": "[PoorRecreational]",
+      "raw_text": "2,[PoorRecreational]",
+      "references": [
+        {
+          "raw": "[PoorRecreational]",
+          "token": "PoorRecreational",
+          "kind": "local",
+          "source_page": "Pickpocket",
+          "source_subtable": "PoorConsumable",
+          "target_page": "Pickpocket",
+          "target_subtable": "PoorRecreational",
+          "target_qualified_name": "Pickpocket.PoorRecreational"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "PoorDrinkable",
+      "PoorEdible",
+      "PoorRecreational"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";PoorConsumable\n5,[PoorEdible]\n5,[PoorDrinkable]\n2,[PoorRecreational]",
+  "warnings": []
+}

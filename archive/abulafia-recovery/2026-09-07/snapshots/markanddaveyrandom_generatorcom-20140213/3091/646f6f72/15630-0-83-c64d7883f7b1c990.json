@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dungeon Door",
+    "page_id": 3091
+  },
+  "source": {
+    "revision_id": 15630,
+    "timestamp": "2012-11-08T12:57:14Z",
+    "contributor": {
+      "name": "Valis",
+      "id": 1726,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "b20d7975c36e4e290db51f766b688a7e36659d4afbc0f8a1a3f8e53180032d7d",
+      "rawSha256": "c64d7883f7b1c990e3b5d7e22dfcb075f8a2f48d0edef556e18ded3dc4117b43",
+      "revisionId": "15630",
+      "line": 83,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "15633",
+        "timestamp": "2012-11-08T13:02:11Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "door",
+    "qualified_name": "Dungeon Door.door",
+    "table_block_index": 0,
+    "line_number": 83
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "simple (+1) [wood] door",
+      "raw_text": "2,simple (+1) [wood] door",
+      "references": [
+        {
+          "raw": "[wood]",
+          "token": "wood",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "door",
+          "target_page": "Dungeon Door",
+          "target_subtable": "wood",
+          "target_qualified_name": "Dungeon Door.wood"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "weight": 8,
+      "text": "good [wood] door",
+      "raw_text": "8,good [wood] door",
+      "references": [
+        {
+          "raw": "[wood]",
+          "token": "wood",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "door",
+          "target_page": "Dungeon Door",
+          "target_subtable": "wood",
+          "target_qualified_name": "Dungeon Door.wood"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 4,
+      "text": "strong (-1) [wood] door",
+      "raw_text": "4,strong (-1) [wood] door",
+      "references": [
+        {
+          "raw": "[wood]",
+          "token": "wood",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "door",
+          "target_page": "Dungeon Door",
+          "target_subtable": "wood",
+          "target_qualified_name": "Dungeon Door.wood"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 4,
+      "text": "[stone] (-2) door",
+      "raw_text": "4,[stone] (-2) door",
+      "references": [
+        {
+          "raw": "[stone]",
+          "token": "stone",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "door",
+          "target_page": "Dungeon Door",
+          "target_subtable": "stone",
+          "target_qualified_name": "Dungeon Door.stone"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "[metalkind]",
+      "raw_text": "2,[metalkind]",
+      "references": [
+        {
+          "raw": "[metalkind]",
+          "token": "metalkind",
+          "kind": "local",
+          "source_page": "Dungeon Door",
+          "source_subtable": "door",
+          "target_page": "Dungeon Door",
+          "target_subtable": "metalkind",
+          "target_qualified_name": "Dungeon Door.metalkind"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "metalkind",
+      "stone",
+      "wood"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";door\n2,simple (+1) [wood] door\n8,good [wood] door\n4,strong (-1) [wood] door\n4,[stone] (-2) door\n2,[metalkind]",
+  "warnings": []
+}

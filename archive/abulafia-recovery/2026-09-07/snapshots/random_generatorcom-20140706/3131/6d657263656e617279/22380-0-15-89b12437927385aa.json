@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Hireling",
+    "page_id": 3131
+  },
+  "source": {
+    "revision_id": 22380,
+    "timestamp": "2014-05-29T10:59:56Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "random_generatorcom-20140706",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/random_generatorcom-20140706/random_generatorcom-20140706-history.xml.7z",
+      "sourceSha256": "6b73081880ac5401dbab14a300be6d4847a7af86dfc8cc37a152bfcff1a82852",
+      "sourceMember": "random_generatorcom-20140706-history.xml",
+      "xmlSha256": "7f3ba86bbc01bea5d1fbd1da9861330e791a94f222904c339f48ac28702dcb70",
+      "xmlBytes": 158570409,
+      "archiveUrl": "https://archive.org/download/wiki-random_generatorcom/random_generatorcom-20140706-history.xml.7z",
+      "textSha256": "1030a425edc1d2bbc06e46d465ca87141b6484945120476e7f172e160aed5d8f",
+      "rawSha256": "89b12437927385aa7c7a803720e54fb18e421e114590b7154cac149ab98f455f",
+      "revisionId": "22380",
+      "line": 15,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "22380",
+        "timestamp": "2014-05-29T10:59:56Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "mercenary",
+    "qualified_name": "Hireling.mercenary",
+    "table_block_index": 0,
+    "line_number": 15
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "archer (longbow)",
+      "raw_text": "1,archer (longbow)",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 3,
+      "text": "archer (shortbow)",
+      "raw_text": "3,archer (shortbow)",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "artillerist",
+      "raw_text": "1,artillerist",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "captain",
+      "raw_text": "1,captain",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 2,
+      "text": "crossbow man",
+      "raw_text": "2,crossbow man",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 2,
+      "text": "footman, heavy",
+      "raw_text": "2,footman, heavy",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 3,
+      "text": "footman, light",
+      "raw_text": "3,footman, light",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 2,
+      "text": "footman, pikeman",
+      "raw_text": "2,footman, pikeman",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 1,
+      "text": "horseman, archer",
+      "raw_text": "1,horseman, archer",
+      "references": []
+    },
+    {
+      "index": 9,
+      "weight": 1,
+      "text": "horseman, crossbowman",
+      "raw_text": "1,horseman, crossbowman",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 1,
+      "text": "horseman, heavy",
+      "raw_text": "1,horseman, heavy",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 1,
+      "text": "horseman, light",
+      "raw_text": "1,horseman, light",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 1,
+      "text": "horseman, medium",
+      "raw_text": "1,horseman, medium",
+      "references": []
+    },
+    {
+      "index": 13,
+      "weight": 1,
+      "text": "lieutenant",
+      "raw_text": "1,lieutenant",
+      "references": []
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "sapper/miner",
+      "raw_text": "2,sapper/miner",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";mercenary\n1,archer (longbow)\n3,archer (shortbow)\n1,artillerist\n1,captain\n2,crossbow man\n2,footman, heavy\n3,footman, light\n2,footman, pikeman\n1,horseman, archer\n1,horseman, crossbowman\n1,horseman, heavy\n1,horseman, light\n1,horseman, medium\n1,lieutenant\n2,sapper/miner",
+  "warnings": []
+}

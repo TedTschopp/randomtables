@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Seige Force",
+    "page_id": 2470
+  },
+  "source": {
+    "revision_id": 9681,
+    "timestamp": "2009-10-23T00:42:33Z",
+    "contributor": {
+      "name": "Mlkman01",
+      "id": 128,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "5de6d42b66089680665217a5b73396ccfdaeb824fa3baba5c6691d2826a3ff30",
+      "rawSha256": "0438a0ab8b1f00a0acf79088c1ad38cf2a726bc5aefd1d211937808d68e36928",
+      "revisionId": "9681",
+      "line": 150,
+      "blockIndex": 0,
+      "presentInLatest": true,
+      "latestPageRevision": {
+        "id": "9681",
+        "timestamp": "2009-10-23T00:42:33Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "SeigeType",
+    "qualified_name": "Seige Force.SeigeType",
+    "table_block_index": 0,
+    "line_number": 150
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 8,
+      "text": "trebuchet",
+      "raw_text": "8,trebuchet",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 8,
+      "text": "catapult",
+      "raw_text": "8,catapult",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 7,
+      "text": "ballista",
+      "raw_text": "7,ballista",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 6,
+      "text": "mangonel",
+      "raw_text": "6,mangonel",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 6,
+      "text": "onager",
+      "raw_text": "6,onager",
+      "references": []
+    },
+    {
+      "index": 5,
+      "weight": 5,
+      "text": "battering ram",
+      "raw_text": "5,battering ram",
+      "references": []
+    },
+    {
+      "index": 6,
+      "weight": 5,
+      "text": "seige engine",
+      "raw_text": "5,seige engine",
+      "references": []
+    },
+    {
+      "index": 7,
+      "weight": 3,
+      "text": "belfry",
+      "raw_text": "3,belfry",
+      "references": []
+    },
+    {
+      "index": 8,
+      "weight": 3,
+      "text": "seige tower manned by [RangedSupport]",
+      "raw_text": "3,seige tower manned by [RangedSupport]",
+      "references": [
+        {
+          "raw": "[RangedSupport]",
+          "token": "RangedSupport",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeType",
+          "target_page": "Seige Force",
+          "target_subtable": "RangedSupport",
+          "target_qualified_name": "Seige Force.RangedSupport"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "weight": 3,
+      "text": "great ram",
+      "raw_text": "3,great ram",
+      "references": []
+    },
+    {
+      "index": 10,
+      "weight": 3,
+      "text": "seige crossbow",
+      "raw_text": "3,seige crossbow",
+      "references": []
+    },
+    {
+      "index": 11,
+      "weight": 2,
+      "text": "assault ladder",
+      "raw_text": "2,assault ladder",
+      "references": []
+    },
+    {
+      "index": 12,
+      "weight": 2,
+      "text": "[ArcaneWeapon] catapult",
+      "raw_text": "2,[ArcaneWeapon] catapult",
+      "references": [
+        {
+          "raw": "[ArcaneWeapon]",
+          "token": "ArcaneWeapon",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeType",
+          "target_page": "Seige Force",
+          "target_subtable": "ArcaneWeapon",
+          "target_qualified_name": "Seige Force.ArcaneWeapon"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "weight": 2,
+      "text": "[ArcaneWeapon] launcher",
+      "raw_text": "2,[ArcaneWeapon] launcher",
+      "references": [
+        {
+          "raw": "[ArcaneWeapon]",
+          "token": "ArcaneWeapon",
+          "kind": "local",
+          "source_page": "Seige Force",
+          "source_subtable": "SeigeType",
+          "target_page": "Seige Force",
+          "target_subtable": "ArcaneWeapon",
+          "target_qualified_name": "Seige Force.ArcaneWeapon"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "weight": 2,
+      "text": "seige ramp",
+      "raw_text": "2,seige ramp",
+      "references": []
+    },
+    {
+      "index": 15,
+      "weight": 2,
+      "text": "unmanned seige tower",
+      "raw_text": "2,unmanned seige tower",
+      "references": []
+    },
+    {
+      "index": 16,
+      "weight": 1,
+      "text": "arcane ballista",
+      "raw_text": "1,arcane ballista",
+      "references": []
+    },
+    {
+      "index": 17,
+      "weight": 1,
+      "text": "arcane petard",
+      "raw_text": "1,arcane petard",
+      "references": []
+    },
+    {
+      "index": 18,
+      "weight": 1,
+      "text": "ditch bridge",
+      "raw_text": "1,ditch bridge",
+      "references": []
+    },
+    {
+      "index": 19,
+      "weight": 1,
+      "text": "seige cat to protect assaulters",
+      "raw_text": "1,seige cat to protect assaulters",
+      "references": []
+    },
+    {
+      "index": 20,
+      "weight": 1,
+      "text": "seige shield to protect climbers",
+      "raw_text": "1,seige shield to protect climbers",
+      "references": []
+    },
+    {
+      "index": 21,
+      "weight": 1,
+      "text": "explosive petard",
+      "raw_text": "1,explosive petard",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "ArcaneWeapon",
+      "RangedSupport"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";SeigeType\n8,trebuchet\n8,catapult\n7,ballista\n6,mangonel\n6,onager\n5,battering ram\n5,seige engine\n3,belfry\n3,seige tower manned by [RangedSupport]\n3,great ram\n3,seige crossbow\n2,assault ladder\n2,[ArcaneWeapon] catapult\n2,[ArcaneWeapon] launcher\n2,seige ramp\n2,unmanned seige tower\n1,arcane ballista\n1,arcane petard\n1,ditch bridge\n1,seige cat to protect assaulters\n1,seige shield to protect climbers\n1,explosive petard",
+  "warnings": []
+}

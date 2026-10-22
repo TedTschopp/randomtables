@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Village",
+    "page_id": 3034
+  },
+  "source": {
+    "revision_id": 14877,
+    "timestamp": "2012-06-27T13:58:58Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "d779f54ffea1c32376e1d338bcdacaa679a359fd0294f41a6c249ced49d4813b",
+      "rawSha256": "d0b7a286776c094281de348410bb618a193943fe4256a304003169d0a8fd4551",
+      "revisionId": "14877",
+      "line": 47,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17531",
+        "timestamp": "2013-04-06T08:03:09Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "crime",
+    "qualified_name": "Village.crime",
+    "table_block_index": 0,
+    "line_number": 47
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "stealing",
+      "raw_text": "1,stealing",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "witchcraft",
+      "raw_text": "1,witchcraft",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "murder",
+      "raw_text": "1,murder",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "hooliganism",
+      "raw_text": "1,hooliganism",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "drunkeness",
+      "raw_text": "1,drunkeness",
+      "references": []
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";crime\n1,stealing\n1,witchcraft\n1,murder\n1,hooliganism\n1,drunkeness",
+  "warnings": []
+}

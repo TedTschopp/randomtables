@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Starting Equipment",
+    "page_id": 3068
+  },
+  "source": {
+    "revision_id": 15652,
+    "timestamp": "2012-11-09T01:03:42Z",
+    "contributor": {
+      "name": "Tocky",
+      "id": 1722,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "markanddaveyrandom_generatorcom-20140213",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/markanddaveyrandom_generatorcom-20140213/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "sourceSha256": "c3ba1d441a584a935176cc242529d69008f164ad60ec1d1648a2105930a3a77e",
+      "sourceMember": "markanddaveyrandom_generatorcom-20140213-history.xml",
+      "xmlSha256": "c7f45cd53c20a455f427eea2cea6af407e086d9833c38a196fddbb9a38f1e656",
+      "xmlBytes": 123012243,
+      "archiveUrl": "https://archive.org/download/wiki-markanddaveyrandom_generatorcom/markanddaveyrandom_generatorcom-20140213-history.xml.7z",
+      "textSha256": "43ddfc0233969f284549839dc09b5a7dcb7584ee62409bf0523fa714291abade",
+      "rawSha256": "81d84061c9cb3c213322f005281d5592ff061ef5542861a1fb0770e4a0596eb0",
+      "revisionId": "15652",
+      "line": 105,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "17316",
+        "timestamp": "2013-03-08T06:43:38Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "meleeweapons",
+    "qualified_name": "Starting Equipment.meleeweapons",
+    "table_block_index": 0,
+    "line_number": 105
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 2,
+      "text": "no melee weapon",
+      "raw_text": "2,no melee weapon",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 5,
+      "text": "[simplemelee]",
+      "raw_text": "5,[simplemelee]",
+      "references": [
+        {
+          "raw": "[simplemelee]",
+          "token": "simplemelee",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "meleeweapons",
+          "target_page": "Starting Equipment",
+          "target_subtable": "simplemelee",
+          "target_qualified_name": "Starting Equipment.simplemelee"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "weight": 5,
+      "text": "[normalmelee]",
+      "raw_text": "5,[normalmelee]",
+      "references": [
+        {
+          "raw": "[normalmelee]",
+          "token": "normalmelee",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "meleeweapons",
+          "target_page": "Starting Equipment",
+          "target_subtable": "normalmelee",
+          "target_qualified_name": "Starting Equipment.normalmelee"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "weight": 2,
+      "text": "[polearm]",
+      "raw_text": "2,[polearm]",
+      "references": [
+        {
+          "raw": "[polearm]",
+          "token": "polearm",
+          "kind": "local",
+          "source_page": "Starting Equipment",
+          "source_subtable": "meleeweapons",
+          "target_page": "Starting Equipment",
+          "target_subtable": "polearm",
+          "target_qualified_name": "Starting Equipment.polearm"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "normalmelee",
+      "polearm",
+      "simplemelee"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";meleeweapons\n2,no melee weapon\n5,[simplemelee]\n5,[normalmelee]\n2,[polearm]",
+  "warnings": []
+}

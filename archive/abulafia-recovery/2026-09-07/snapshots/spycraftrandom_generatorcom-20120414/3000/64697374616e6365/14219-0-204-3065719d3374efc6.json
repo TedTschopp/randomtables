@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "User:Snake Eyes",
+    "page_id": 3000
+  },
+  "source": {
+    "revision_id": 14219,
+    "timestamp": "2012-04-02T09:14:03Z",
+    "contributor": {
+      "name": "Snake Eyes",
+      "id": 1723,
+      "ip": null
+    },
+    "xml": {
+      "sourceId": "spycraftrandom_generatorcom-20120414",
+      "sourceFile": "archive/abulafia-backups/2026-09-07/downloads/spycraftrandom_generatorcom-20120414/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "sourceSha256": "937692505c6f50e7fdb79a9f6b792adda6382ea926721d459811f0b3b99b0a45",
+      "sourceMember": "spycraftrandom_generatorcom-20120414-history.xml",
+      "xmlSha256": "374ae333be18a824d935e9eaa8a973e2f969567630442affd0894f68d7854465",
+      "xmlBytes": 80703550,
+      "archiveUrl": "https://archive.org/download/wiki-spycraftrandom_generatorcom/spycraftrandom_generatorcom-20120414-history.xml.7z",
+      "textSha256": "e2a5a1dc7c6bfa40dcf3f02db58426b21821b0885d1ae10b19835cf9194e766c",
+      "rawSha256": "3065719d3374efc6dc8f76ed8d0aa409554a0b8065638f147d6418dfb63cb8f7",
+      "revisionId": "14219",
+      "line": 204,
+      "blockIndex": 0,
+      "presentInLatest": false,
+      "latestPageRevision": {
+        "id": "14224",
+        "timestamp": "2012-04-02T10:53:27Z"
+      }
+    }
+  },
+  "state": "historical",
+  "subtable": {
+    "name": "distance",
+    "qualified_name": "User:Snake Eyes.distance",
+    "table_block_index": 0,
+    "line_number": 204
+  },
+  "entries": [
+    {
+      "index": 0,
+      "weight": 1,
+      "text": "near",
+      "raw_text": "1, near",
+      "references": []
+    },
+    {
+      "index": 1,
+      "weight": 1,
+      "text": "line of sight",
+      "raw_text": "1, line of sight",
+      "references": []
+    },
+    {
+      "index": 2,
+      "weight": 1,
+      "text": "far",
+      "raw_text": "1, far",
+      "references": []
+    },
+    {
+      "index": 3,
+      "weight": 1,
+      "text": "very far",
+      "raw_text": "1, very far",
+      "references": []
+    },
+    {
+      "index": 4,
+      "weight": 1,
+      "text": "between [compass] and [compass]",
+      "raw_text": "1, between [compass] and [compass]",
+      "references": [
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "distance",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        },
+        {
+          "raw": "[compass]",
+          "token": "compass",
+          "kind": "local",
+          "source_page": "User:Snake Eyes",
+          "source_subtable": "distance",
+          "target_page": "User:Snake Eyes",
+          "target_subtable": "compass",
+          "target_qualified_name": "User:Snake Eyes.compass"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "local_subtables": [
+      "compass"
+    ],
+    "external_subtables": [],
+    "unresolved": []
+  },
+  "raw_source": ";distance\n1, near\n1, line of sight\n1, far\n1, very far\n1, between [compass] and [compass]",
+  "warnings": []
+}
