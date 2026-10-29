@@ -1,3 +1,4 @@
+{% raw %}
 # Macro Inventory
 
 Snapshot: 2026-09-08. Source revision: `6bcc5d0bbbf990e49ecaf8f1edceb99751eb8ed0`.
@@ -275,3 +276,4 @@ Current membership follows page manifests. Only explicitly imported historical d
 The scanner reads wiki content as JSON and text, never as executable code. Local JavaScript data definitions are evaluated only in an isolated, time-limited development VM to preserve their actual registration and range semantics. No browser runtime or server dependency is introduced. Existing output files are never overwritten unless their contents are identical.
 
 Full per-occurrence evidence: [macro-inventory.json](macro-inventory.json). Scanner: [inventory-macros.cjs](../explorer/tools/inventory-macros.cjs).
+{% endraw %}
