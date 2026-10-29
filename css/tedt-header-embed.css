@@ -1,0 +1,21 @@
+/* Reserve space before enhancement; the local HTML links are the fallback. */
+tedt-global-header { display: block; min-height: 70px; clear: both; }
+tedt-global-header[hidden] { display: none !important; }
+tedt-global-header .tedt-header-fallback { display: flex; align-items: center; gap: 20px; min-height: 70px;
+  padding: 0 20px; margin: 0; overflow-x: auto; white-space: nowrap; background: #101820; color: #f8f6f0; font: 400 15px/1.5 Inter, system-ui, sans-serif; }
+tedt-global-header .tedt-header-fallback a { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-decoration: underline; }
+tedt-global-header .tedt-header-fallback a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+body:has(> tedt-global-header), html[data-tedt-global-header] body { padding-top: 0 !important; }
+html[data-tedt-global-header] { scroll-padding-top: 86px; }
+html[data-tedt-global-header] :is(h1,h2,h3,h4,[id]) { scroll-margin-top: 86px; }
+@media print { tedt-global-header { display: none; } }
+
+html[data-theme="dark"] { color-scheme:dark; }
+html[data-theme="dark"] body { background:#14212b; color:#f8f6f0; }
+html[data-theme="dark"] body a { color:#8ac7e8; }
+html[data-theme="dark"] :is(input,textarea,select) { background:#1a2631; color:#f8f6f0; border-color:#73808b; }
+
+textarea,input{max-width:100%;box-sizing:border-box;}
+
+/* Keep keyboard recovery above the fixed global navigation. */
+:is(.skip-link,.ia-skip-link,.skip-to-main,.slide-deck-skip-link):focus { position:fixed; top:8px; z-index:1200; }

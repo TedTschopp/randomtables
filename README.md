@@ -96,3 +96,7 @@ The `generate_text()` function accepts a single argument, the name of your main 
 ~~~~
 
 Or assign it to a variable in your own JavaScript code. You may also be interested in the `generate_list()` function, which accepts the name of a table and a number, and returns an array of generated text strings.
+
+## Shared TedT.org Navigation
+
+The global header loads `https://tedt.org/assets/global-header/v1/header.js`. Menu changes belong in the TedT.org repository, rather than in this site. The small local fallback and pre-paint bootstrap keep navigation and appearance usable while loading. The shared `tedt-appearance` cookie and `tedt:theme-change` event synchronize appearance; keep local site navigation and application controls separate. See https://tedt.org/docs/global-header.md for the embed contract.

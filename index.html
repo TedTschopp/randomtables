@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -48,7 +48,7 @@
 	<!-- Gamma World -->
 	<script type="text/javascript" src="tables/Gamma_World.js"></script>
 	<script type="text/javascript" src="tables/Robots.js"></script>
-	
+
 	<!-- Languages-->
 	<script type="text/javascript" src="tables/dwarves.js"></script>
 	<script type="text/javascript" src="tables/goblinoid.js"></script>
@@ -66,14 +66,21 @@
 
 
 
+<link rel="stylesheet" href="/css/tedt-header-embed.css">
+<script src="/JS/tedt-theme-init.js"></script>
 </head>
 
 <body>
+<tedt-global-header site="randomtables" section="games">
+<nav class="tedt-header-fallback" aria-label="Primary"><a href="https://tedt.org/">Ted Tschopp</a><a href="https://tedt.org/essays/">Essays</a><a href="https://tedt.org/stories/">Stories &amp; Folklore</a><a href="https://tedt.org/games/">Games &amp; Worlds</a><a href="https://tools.tedt.org/">Tools</a><a href="https://tedt.org/learn/">Learn</a><a href="https://tedt.org/about-ted/">About</a></nav>
+</tedt-global-header>
+<script defer src="https://tedt.org/assets/global-header/v1/header.js"></script>
+
 	<form method="get" onsubmit="return false;">
 		<div id="jsonContainer" class="json-container"></div>
 
 		<script src="JS/json-navigator.js"></script>
-		
+
 		<label>Loaded</label>
 		<p><textarea id="loaded" cols="100" rows="10" readonly></textarea></p>
 		<label>Input</label>
@@ -129,7 +136,7 @@
 				OutputField.innerHTML = Output.join("\n")
 			}
 			more_random();
-			
+
 			// var myJSON = JSON.stringify(gen_data);
 			// document.getElementById("TableOutput").innerHTML = myJSON;
 
