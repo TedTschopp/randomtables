@@ -104,3 +104,5 @@ The global header loads `https://tedt.org/assets/global-header/v1/header.js`. Me
 ## Shared Visitor Analytics
 
 Published HTML uses the deferred TedT.org analytics v1 runtime for GA4, Microsoft Clarity, and Cloudflare Web Analytics. Content is masked before Clarity loads. Authentication/payment operations, API responses, and independent downloads are excluded. Run `python3 scripts/site_analytics.py . --mode masked --check` on the final publication directory. Configuration and the integration contract are maintained at https://github.com/TedTschopp/tedt.org/blob/main/docs/analytics.md.
+
+The Pages publication workflow builds with the GitHub Pages Jekyll toolchain, then finalizes and checks shared analytics before publishing the artifact. A coverage failure stops publication.

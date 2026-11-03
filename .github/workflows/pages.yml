@@ -1,0 +1,48 @@
+name: Verify analytics and publish Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      pages: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Finalize and verify analytics on every rendered page
+        run: |
+          python3 scripts/site_analytics.py _site --mode masked
+          python3 scripts/site_analytics.py _site --mode masked --check
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
