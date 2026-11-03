@@ -27,6 +27,7 @@ jobs:
           destination: ./_site
       - name: Finalize and verify analytics on every rendered page
         run: |
+          sudo chown -R "$(id -u):$(id -g)" _site
           python3 scripts/site_analytics.py _site --mode masked
           python3 scripts/site_analytics.py _site --mode masked --check
       - uses: actions/upload-pages-artifact@v3
