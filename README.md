@@ -100,3 +100,7 @@ Or assign it to a variable in your own JavaScript code. You may also be interest
 ## Shared TedT.org Navigation
 
 The global header loads `https://tedt.org/assets/global-header/v1/header.js`. Menu changes belong in the TedT.org repository, rather than in this site. The small local fallback and pre-paint bootstrap keep navigation and appearance usable while loading. The shared `tedt-appearance` cookie and `tedt:theme-change` event synchronize appearance; keep local site navigation and application controls separate. See https://tedt.org/docs/global-header.md for the embed contract.
+
+## Shared Visitor Analytics
+
+Published HTML uses the deferred TedT.org analytics v1 runtime for GA4, Microsoft Clarity, and Cloudflare Web Analytics. Content is masked before Clarity loads. Authentication/payment operations, API responses, and independent downloads are excluded. Run `python3 scripts/site_analytics.py . --mode masked --check` on the final publication directory. Configuration and the integration contract are maintained at https://github.com/TedTschopp/tedt.org/blob/main/docs/analytics.md.
