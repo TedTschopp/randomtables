@@ -37,7 +37,7 @@ def eligible(text):
     return bool(re.search(r'<html\b|<!doctype\b', text, re.I)) and not re.search(r'<meta[^>]+http-equiv\s*=\s*[\"\']?refresh', text, re.I)
 
 def competitor(script):
-    return bool(re.search(r'(?:src\s*=\s*[\"\'][^\"\']*(?:googletagmanager\.com/gtag/js|google-analytics\.com/(?:analytics|ga)\.js|clarity\.ms/tag/|main-site-analytics\.js))|(?:clarity\.ms/tag/)|(?:gtag\s*\([\"\']config[\"\'])', script, re.I))
+    return bool(re.search(r'(?:src\s*=\s*[\"\'][^\"\']*(?:googletagmanager\.com/gtag/js|google-analytics\.com/(?:analytics|ga)\.js|clarity\.ms/tag/|static\.cloudflareinsights\.com/beacon\.min\.js|main-site-analytics\.js))|(?:clarity\.ms/tag/)|(?:gtag\s*\([\"\']config[\"\'])|(?:\b__cfBeacon\s*=(?!=))', script, re.I))
 
 def masked(path, mode):
     return mode == 'masked' or bool(re.match(r'(?:tools|RPG|inside-ai|game-theory|math-guide)/', path, re.I))
