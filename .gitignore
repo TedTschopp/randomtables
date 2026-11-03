@@ -2,3 +2,6 @@
 .DS_Store
 archive/abulafia-backups/*/downloads/
 archive/abulafia-backups/*/census/
+/_site/
+/.jekyll-cache/
+/.sass-cache/
